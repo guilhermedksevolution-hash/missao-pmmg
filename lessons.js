@@ -1334,3 +1334,1296 @@ content: `
 `
 
 },
+   /* =========================================================
+   AULA 03
+   TIPOS E GÊNEROS TEXTUAIS
+========================================================= */
+
+3: {
+
+title: "Tipos e gêneros textuais",
+
+subtitle: "PORTUGUÊS • AULA 03",
+
+time: "45–60 min",
+
+content: `
+
+<div class="card">
+  <p class="label">MODO ESTUDO</p>
+
+  <h2>📚 Antes de começar</h2>
+
+  <p>
+    Nesta aula você estudará a diferença entre
+    <strong>tipologia textual</strong> e
+    <strong>gênero textual</strong>.
+  </p>
+
+  <p>
+    Também aprenderá a reconhecer narração,
+    descrição, exposição, argumentação e injunção.
+  </p>
+
+  <p>
+    O objetivo não é decorar definições isoladas.
+    Você precisa aprender a identificar a função
+    predominante do texto ou do trecho analisado.
+  </p>
+
+  <div class="tip">
+    <b>🎯 OBJETIVO DA AULA</b>
+
+    <p>
+      Ao final, você deverá conseguir reconhecer
+      como um texto está organizado e evitar
+      confundir gênero textual com tipologia.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 1</p>
+
+  <h2>Tipologia textual x gênero textual</h2>
+
+  <p>
+    A tipologia textual está relacionada à forma
+    predominante de organização de um texto
+    ou de uma sequência textual.
+  </p>
+
+  <p>
+    Entre os tipos tradicionalmente estudados estão:
+    narração, descrição, exposição, argumentação
+    e injunção.
+  </p>
+
+  <p>
+    O gênero textual corresponde à forma concreta
+    de comunicação utilizada em determinada situação
+    social.
+  </p>
+
+  <p>
+    São exemplos de gêneros: notícia, reportagem,
+    receita, anúncio, carta, e-mail, entrevista,
+    manual e artigo de opinião.
+  </p>
+
+  <div class="tip">
+    <b>⚠️ ATENÇÃO NA PROVA</b>
+
+    <p>
+      Gênero e tipologia não são sinônimos.
+      Um mesmo gênero pode apresentar diferentes
+      tipos textuais.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 2</p>
+
+  <h2>Narração</h2>
+
+  <p>
+    A narração apresenta acontecimentos,
+    ações ou transformações organizadas
+    dentro de determinada sequência.
+  </p>
+
+  <p>
+    Em uma narrativa podem aparecer personagens,
+    narrador, tempo, espaço, acontecimentos
+    e conflitos.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “O candidato chegou cedo ao local da prova,
+      apresentou o documento ao fiscal
+      e entrou na sala indicada.”
+    </p>
+
+    <p>
+      Existe sucessão de ações:
+      chegar, apresentar e entrar.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>🎯 PISTA DE PROVA</b>
+
+    <p>
+      Quando houver sucessão de acontecimentos,
+      investigue a presença de uma sequência narrativa.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 3</p>
+
+  <h2>Descrição</h2>
+
+  <p>
+    A descrição apresenta características
+    de pessoas, objetos, ambientes,
+    situações ou outros elementos.
+  </p>
+
+  <p>
+    Diferentemente da narração,
+    o foco não está necessariamente
+    na sucessão de acontecimentos.
+  </p>
+
+  <p>
+    Adjetivos e outras expressões caracterizadoras
+    podem assumir papel importante.
+  </p>
+
+  <div class="tip">
+    <b>🔎 COMPARE</b>
+
+    <p>
+      “O homem entrou na sala.”
+      → ação.
+    </p>
+
+    <p>
+      “A sala era ampla, silenciosa
+      e bem iluminada.”
+      → características.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>⚠️ PEGADINHA</b>
+
+    <p>
+      Uma narrativa pode conter descrição.
+      Isso não significa que o texto inteiro
+      seja predominantemente descritivo.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 4</p>
+
+  <h2>Exposição</h2>
+
+  <p>
+    O texto expositivo apresenta, explica
+    ou organiza informações e conceitos.
+  </p>
+
+  <p>
+    É comum em materiais didáticos,
+    verbetes, textos explicativos
+    e materiais informativos.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “A fotossíntese é o processo pelo qual
+      determinados organismos utilizam energia
+      luminosa para produzir matéria orgânica.”
+    </p>
+
+    <p>
+      O objetivo predominante é explicar um conceito.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 5</p>
+
+  <h2>Argumentação</h2>
+
+  <p>
+    A argumentação está ligada à defesa
+    de uma ideia, posição ou tese.
+  </p>
+
+  <p>
+    O autor utiliza argumentos, exemplos,
+    dados ou justificativas para sustentar
+    determinado posicionamento.
+  </p>
+
+  <h3>Tese</h3>
+
+  <p>
+    É a ideia central que se pretende defender.
+  </p>
+
+  <h3>Argumentos</h3>
+
+  <p>
+    São os elementos utilizados
+    para sustentar a tese.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “A leitura deve ser estimulada desde cedo,
+      pois amplia o vocabulário e favorece
+      a compreensão textual.”
+    </p>
+
+    <p>
+      Existe um posicionamento acompanhado
+      de justificativa.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 6</p>
+
+  <h2>Injunção</h2>
+
+  <p>
+    A injunção orienta o leitor
+    em relação a uma ação,
+    procedimento ou comportamento.
+  </p>
+
+  <p>
+    É comum em instruções, manuais,
+    receitas, orientações e regulamentos.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Leia atentamente o enunciado,
+      confira as alternativas
+      e marque apenas uma resposta.”
+    </p>
+
+    <p>
+      O trecho orienta diretamente
+      determinadas ações do leitor.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 7</p>
+
+  <h2>Gêneros textuais</h2>
+
+  <p>
+    Os gêneros textuais surgem das diferentes
+    situações de comunicação existentes na sociedade.
+  </p>
+
+  <p>
+    Cada gênero tende a apresentar finalidade,
+    público, contexto de circulação
+    e características próprias.
+  </p>
+
+  <p>
+    Exemplos:
+  </p>
+
+  <ul>
+    <li>notícia;</li>
+    <li>reportagem;</li>
+    <li>receita;</li>
+    <li>manual;</li>
+    <li>artigo de opinião;</li>
+    <li>anúncio;</li>
+    <li>entrevista;</li>
+    <li>carta;</li>
+    <li>e-mail.</li>
+  </ul>
+
+  <div class="tip">
+    <b>🎯 ESTRATÉGIA</b>
+
+    <p>
+      Para identificar um gênero,
+      observe sua finalidade,
+      contexto de circulação
+      e organização.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 8</p>
+
+  <h2>Mistura de tipologias</h2>
+
+  <p>
+    Um texto pode apresentar diferentes
+    sequências textuais.
+  </p>
+
+  <p>
+    Uma narrativa pode descrever personagens.
+    Um texto argumentativo pode incluir exposição.
+    Um manual pode explicar antes de instruir.
+  </p>
+
+  <p>
+    Por isso, questões podem pedir
+    a <strong>tipologia predominante</strong>.
+  </p>
+
+  <div class="tip">
+    <b>🚨 PEGADINHA</b>
+
+    <p>
+      Não escolha uma alternativa
+      apenas porque encontrou uma frase isolada
+      com determinada característica.
+    </p>
+
+    <p>
+      Observe o funcionamento predominante
+      do conjunto.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 9</p>
+
+  <h2>Método para resolver questões</h2>
+
+  <ol>
+    <li>Leia exatamente o que o comando pede.</li>
+    <li>Identifique o trecho analisado.</li>
+    <li>Observe a finalidade predominante.</li>
+    <li>Analise a organização das informações.</li>
+    <li>Procure marcas linguísticas relevantes.</li>
+    <li>Diferencie gênero de tipologia.</li>
+    <li>Elimine alternativas incompatíveis.</li>
+    <li>Volte ao texto e confirme.</li>
+  </ol>
+
+  <div class="tip">
+    <b>⚠️ CUIDADO</b>
+
+    <p>
+      Uma única palavra raramente basta
+      para classificar um texto inteiro.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 10</p>
+
+  <h2>Revisão estratégica</h2>
+
+  <p>
+    <strong>Narração:</strong>
+    acontecimentos e ações.
+  </p>
+
+  <p>
+    <strong>Descrição:</strong>
+    características.
+  </p>
+
+  <p>
+    <strong>Exposição:</strong>
+    explicação ou apresentação de informações.
+  </p>
+
+  <p>
+    <strong>Argumentação:</strong>
+    defesa de uma ideia ou tese.
+  </p>
+
+  <p>
+    <strong>Injunção:</strong>
+    orientação de ações ou procedimentos.
+  </p>
+
+  <p>
+    <strong>Gênero textual:</strong>
+    forma concreta de comunicação.
+  </p>
+
+  <div class="tip">
+    <b>🧠 RESUMO DE BOLSO</b>
+
+    <p>Narra → acontecimentos.</p>
+    <p>Descreve → características.</p>
+    <p>Expõe → explica.</p>
+    <p>Argumenta → defende.</p>
+    <p>Injunge → orienta.</p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">TREINO COMENTADO</p>
+
+  <h2>Exemplo 1</h2>
+
+  <p>
+    “Carlos abriu o portão,
+    caminhou até o veículo
+    e iniciou o trabalho.”
+  </p>
+
+  <p>
+    <strong>Análise:</strong>
+    sucessão de acontecimentos.
+    Predomínio narrativo.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 2</h2>
+
+  <p>
+    “O prédio era alto,
+    antigo e silencioso.”
+  </p>
+
+  <p>
+    <strong>Análise:</strong>
+    predominam características.
+    Predomínio descritivo.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 3</h2>
+
+  <p>
+    “Para reiniciar o equipamento,
+    pressione o botão por cinco segundos.”
+  </p>
+
+  <p>
+    <strong>Análise:</strong>
+    orientação de ação.
+    Predomínio injuntivo.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 4</h2>
+
+  <p>
+    “A prática regular da leitura
+    merece espaço na rotina escolar,
+    pois contribui para o desenvolvimento
+    de diferentes competências.”
+  </p>
+
+  <p>
+    <strong>Análise:</strong>
+    posição acompanhada de justificativa.
+    Predomínio argumentativo.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 5</h2>
+
+  <p>
+    “A água é formada por moléculas
+    constituídas por hidrogênio e oxigênio.”
+  </p>
+
+  <p>
+    <strong>Análise:</strong>
+    apresentação de informação.
+    Predomínio expositivo.
+  </p>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">PEGADINHAS DE PROVA</p>
+
+  <h2>⚠️ Fique atento</h2>
+
+  <p>
+    <strong>1.</strong>
+    Gênero não é tipologia.
+  </p>
+
+  <p>
+    <strong>2.</strong>
+    Um texto pode misturar estruturas.
+  </p>
+
+  <p>
+    <strong>3.</strong>
+    Procure a predominância.
+  </p>
+
+  <p>
+    <strong>4.</strong>
+    Ter verbos não transforma automaticamente
+    um texto em narrativo.
+  </p>
+
+  <p>
+    <strong>5.</strong>
+    A finalidade comunicativa ajuda
+    a identificar o gênero.
+  </p>
+</div>
+
+
+<div class="card">
+  <p class="label">FINAL DA AULA 03</p>
+
+  <h2>📚 Leitura concluída?</h2>
+
+  <p>
+    Revise principalmente a diferença
+    entre gênero e tipologia textual.
+  </p>
+
+  <button onclick="completeReading(3)">
+    CONCLUIR LEITURA ✓
+  </button>
+</div>
+
+
+<div class="card">
+  <p class="label">AVALIAÇÃO</p>
+
+  <h2>🎯 Prova da Aula 03</h2>
+
+  <p
+    id="quiz3LockText"
+    class="muted"
+  >
+    Conclua a leitura antes de realizar a prova.
+  </p>
+
+  <button
+    id="quiz3Btn"
+    class="secondary"
+    disabled
+    onclick="startQuiz(3)"
+  >
+    🔒 PROVA BLOQUEADA
+  </button>
+</div>
+
+`
+
+},
+
+
+/* =========================================================
+   AULA 04
+   COESÃO E COERÊNCIA TEXTUAIS
+========================================================= */
+
+4: {
+
+title: "Coesão e coerência textuais",
+
+subtitle: "PORTUGUÊS • AULA 04",
+
+time: "50–70 min",
+
+content: `
+
+<div class="card">
+  <p class="label">MODO ESTUDO</p>
+
+  <h2>📚 Antes de começar</h2>
+
+  <p>
+    Nesta aula você estudará dois elementos
+    fundamentais para a construção
+    e interpretação de textos:
+    <strong>coesão e coerência</strong>.
+  </p>
+
+  <p>
+    Apesar de estarem relacionadas,
+    elas não significam exatamente
+    a mesma coisa.
+  </p>
+
+  <div class="tip">
+    <b>🎯 OBJETIVO DA AULA</b>
+
+    <p>
+      Aprender a reconhecer relações de sentido,
+      referentes, conectivos,
+      mecanismos de retomada
+      e possíveis problemas de coerência.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 1</p>
+
+  <h2>Coerência textual</h2>
+
+  <p>
+    A coerência está relacionada
+    à construção do sentido global do texto.
+  </p>
+
+  <p>
+    Um texto coerente apresenta ideias
+    compatíveis dentro da situação comunicativa
+    em que está inserido.
+  </p>
+
+  <p>
+    Quando informações entram em contradição
+    sem explicação, pode ocorrer
+    uma quebra de coerência.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Carlos saiu de casa levando
+      um guarda-chuva porque o céu
+      estava muito carregado.”
+    </p>
+
+    <p>
+      Existe uma relação de sentido
+      compreensível entre as informações.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>⚠️ ATENÇÃO</b>
+
+    <p>
+      Um texto pode estar gramaticalmente correto
+      e ainda assim apresentar problemas de sentido.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 2</p>
+
+  <h2>Coesão textual</h2>
+
+  <p>
+    A coesão está relacionada
+    aos mecanismos linguísticos
+    que conectam diferentes partes do texto.
+  </p>
+
+  <p>
+    Pronomes, conjunções, advérbios,
+    substituições e omissões recuperáveis
+    pelo contexto podem participar
+    da construção da coesão.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Mariana comprou um livro.
+      Ela começou a lê-lo naquela noite.”
+    </p>
+
+    <p>
+      “Ela” retoma Mariana.
+    </p>
+
+    <p>
+      “Lo” retoma o livro.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 3</p>
+
+  <h2>Coesão x coerência</h2>
+
+  <p>
+    A coesão corresponde
+    aos mecanismos linguísticos de ligação.
+  </p>
+
+  <p>
+    A coerência corresponde
+    à construção do sentido.
+  </p>
+
+  <div class="tip">
+    <b>🧠 RESUMO</b>
+
+    <p>
+      <strong>COESÃO → ligação linguística.</strong>
+    </p>
+
+    <p>
+      <strong>COERÊNCIA → construção de sentido.</strong>
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 4</p>
+
+  <h2>Coesão referencial</h2>
+
+  <p>
+    Ocorre quando um elemento
+    se relaciona a outro elemento do texto
+    necessário para sua interpretação.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “João encontrou Pedro depois da aula.
+      Ele estava preocupado.”
+    </p>
+
+    <p>
+      Sem mais contexto,
+      pode surgir dúvida sobre
+      quem estava preocupado.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>🎯 ESTRATÉGIA</b>
+
+    <p>
+      Sempre pergunte:
+      <strong>“Quem ou o que essa palavra retoma?”</strong>
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 5</p>
+
+  <h2>Pronomes e referentes</h2>
+
+  <p>
+    Os pronomes ajudam a estabelecer
+    continuidade textual.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Os candidatos chegaram cedo.
+      Eles aguardaram a abertura dos portões.”
+    </p>
+
+    <p>
+      “Eles” retoma “os candidatos”.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>⚠️ PEGADINHA</b>
+
+    <p>
+      Não escolha automaticamente
+      o substantivo mais próximo.
+      O referente deve ser compatível
+      com o contexto e o sentido.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 6</p>
+
+  <h2>Anáfora e catáfora</h2>
+
+  <h3>Anáfora</h3>
+
+  <p>
+    Ocorre quando um elemento
+    retoma uma informação anterior.
+  </p>
+
+  <div class="tip">
+    <b>EXEMPLO</b>
+
+    <p>
+      “Marcos estudou durante toda a semana.
+      Ele queria melhorar seu desempenho.”
+    </p>
+
+    <p>
+      “Ele” retoma Marcos.
+    </p>
+  </div>
+
+  <h3>Catáfora</h3>
+
+  <p>
+    Ocorre quando um elemento
+    antecipa uma informação posterior.
+  </p>
+
+  <div class="tip">
+    <b>EXEMPLO</b>
+
+    <p>
+      “Só desejo isto:
+      que você continue estudando.”
+    </p>
+
+    <p>
+      “Isto” antecipa a informação seguinte.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>🧠 MEMORIZE</b>
+
+    <p>Anáfora → olha para trás.</p>
+    <p>Catáfora → aponta para frente.</p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 7</p>
+
+  <h2>Elipse</h2>
+
+  <p>
+    A elipse é a omissão
+    de um termo recuperável pelo contexto.
+  </p>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Pedro estudou Português;
+      Mariana, Matemática.”
+    </p>
+
+    <p>
+      O verbo “estudou”
+      foi omitido na segunda parte,
+      mas é recuperável.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 8</p>
+
+  <h2>Conectivos</h2>
+
+  <p>
+    Conectivos estabelecem relações
+    entre ideias.
+  </p>
+
+  <p>
+    Não basta decorar palavras.
+    É necessário compreender
+    a relação de sentido no contexto.
+  </p>
+
+  <h3>Adição</h3>
+
+  <p>
+    e, também, além disso.
+  </p>
+
+  <h3>Oposição</h3>
+
+  <p>
+    mas, porém, contudo, entretanto.
+  </p>
+
+  <h3>Causa</h3>
+
+  <p>
+    porque, visto que, uma vez que.
+  </p>
+
+  <h3>Conclusão</h3>
+
+  <p>
+    portanto, logo, por conseguinte.
+  </p>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 9</p>
+
+  <h2>Causa e consequência</h2>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Choveu intensamente,
+      por isso algumas ruas ficaram alagadas.”
+    </p>
+
+    <p>
+      Causa → chuva intensa.
+    </p>
+
+    <p>
+      Consequência → ruas alagadas.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>⚠️ CUIDADO</b>
+
+    <p>
+      A ordem das informações pode mudar
+      sem alterar a relação lógica.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 10</p>
+
+  <h2>Oposição e contraste</h2>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “O candidato estudou bastante,
+      mas não conseguiu administrar
+      o tempo da prova.”
+    </p>
+
+    <p>
+      “Mas” estabelece contraste.
+    </p>
+  </div>
+
+  <p>
+    Questões podem pedir substituição
+    de conectivos.
+  </p>
+
+  <p>
+    A substituição só é adequada
+    quando preserva a relação de sentido.
+  </p>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 11</p>
+
+  <h2>Ambiguidade</h2>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Lucas falou com André
+      quando ele saiu do prédio.”
+    </p>
+
+    <p>
+      Sem contexto,
+      não fica claro quem saiu:
+      Lucas ou André.
+    </p>
+  </div>
+
+  <div class="tip">
+    <b>🎯 ESTRATÉGIA</b>
+
+    <p>
+      Verifique sempre
+      se o referente está claro.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 12</p>
+
+  <h2>Quebra de coerência</h2>
+
+  <div class="tip">
+    <b>📖 EXEMPLO</b>
+
+    <p>
+      “Rafael afirmou que nunca havia saído
+      de Minas Gerais. Depois, contou detalhes
+      da viagem que fizera a Recife
+      no mês anterior.”
+    </p>
+
+    <p>
+      Sem explicação adicional,
+      as informações entram em conflito.
+    </p>
+  </div>
+
+  <p>
+    Entretanto, o contexto pode explicar
+    uma aparente contradição.
+  </p>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">CAPÍTULO 13</p>
+
+  <h2>Como resolver questões</h2>
+
+  <ol>
+    <li>Leia o comando.</li>
+    <li>Identifique o trecho analisado.</li>
+    <li>Procure o referente de pronomes.</li>
+    <li>Determine a relação lógica do conectivo.</li>
+    <li>Observe o que vem antes e depois.</li>
+    <li>Teste substituições no próprio contexto.</li>
+    <li>Verifique se o sentido foi preservado.</li>
+    <li>Procure ambiguidades.</li>
+    <li>Analise o sentido global.</li>
+  </ol>
+
+  <div class="tip">
+    <b>🚨 ERRO COMUM</b>
+
+    <p>
+      Decorar uma conjunção
+      e ignorar o contexto.
+    </p>
+  </div>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">TREINO COMENTADO</p>
+
+  <h2>Exemplo 1</h2>
+
+  <p>
+    “Fernanda comprou novos materiais.
+    Ela começou a utilizá-los naquela noite.”
+  </p>
+
+  <p>
+    “Ela” retoma Fernanda.
+  </p>
+
+  <p>
+    “Los” retoma os materiais.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 2</h2>
+
+  <p>
+    “O trânsito estava intenso.
+    Mesmo assim, Paulo chegou no horário.”
+  </p>
+
+  <p>
+    “Mesmo assim” introduz contraste
+    com uma expectativa.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 3</h2>
+
+  <p>
+    “O candidato não apresentou
+    o documento exigido.
+    Por isso, não pôde entrar.”
+  </p>
+
+  <p>
+    Existe relação
+    de causa e consequência.
+  </p>
+
+  <hr>
+
+  <h2>Exemplo 4</h2>
+
+  <p>
+    “Joana encontrou Carla
+    quando ela chegou.”
+  </p>
+
+  <p>
+    O pronome “ela”
+    pode gerar ambiguidade.
+  </p>
+</div>
+
+
+<div class="card lesson">
+  <p class="label">REVISÃO ESTRATÉGICA</p>
+
+  <h2>🧠 Resumo</h2>
+
+  <p>
+    <strong>Coerência</strong>
+    → construção de sentido.
+  </p>
+
+  <p>
+    <strong>Coesão</strong>
+    → mecanismos de ligação.
+  </p>
+
+  <p>
+    <strong>Referente</strong>
+    → elemento retomado.
+  </p>
+
+  <p>
+    <strong>Anáfora</strong>
+    → retoma informação anterior.
+  </p>
+
+  <p>
+    <strong>Catáfora</strong>
+    → antecipa informação posterior.
+  </p>
+
+  <p>
+    <strong>Elipse</strong>
+    → omissão recuperável.
+  </p>
+
+  <p>
+    <strong>Adição</strong>
+    → acrescenta.
+  </p>
+
+  <p>
+    <strong>Oposição</strong>
+    → contrasta.
+  </p>
+
+  <p>
+    <strong>Causa</strong>
+    → motivo.
+  </p>
+
+  <p>
+    <strong>Consequência</strong>
+    → resultado.
+  </p>
+
+  <p>
+    <strong>Conclusão</strong>
+    → fechamento lógico.
+  </p>
+
+  <div class="tip">
+    <b>🎯 REGRA FINAL</b>
+
+    <p>
+      Não analise pronomes
+      ou conectivos isoladamente.
+      O contexto é fundamental.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <p class="label">FINAL DA AULA 04</p>
+
+  <h2>📚 Leitura concluída?</h2>
+
+  <p>
+    Revise principalmente referentes,
+    anáfora, catáfora e conectivos.
+  </p>
+
+  <button onclick="completeReading(4)">
+    CONCLUIR LEITURA ✓
+  </button>
+</div>
+
+
+<div class="card">
+  <p class="label">AVALIAÇÃO</p>
+
+  <h2>🎯 Prova da Aula 04</h2>
+
+  <p
+    id="quiz4LockText"
+    class="muted"
+  >
+    Conclua a leitura antes de realizar a prova.
+  </p>
+
+  <button
+    id="quiz4Btn"
+    class="secondary"
+    disabled
+    onclick="startQuiz(4)"
+  >
+    🔒 PROVA BLOQUEADA
+  </button>
+</div>
+
+`
+
+}
+
+};
