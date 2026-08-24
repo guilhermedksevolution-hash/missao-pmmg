@@ -1,6 +1,6 @@
 /* =========================================================
-   MISSÃO PMMG v0.5
-   SISTEMA DE ESTUDOS
+   MISSÃO PMMG v0.6
+   SISTEMA PRINCIPAL
 ========================================================= */
 
 
@@ -42,7 +42,7 @@ const quiz1 = [
       "Era madrugada"
     ],
     c: 1,
-    e: "A única conclusão diretamente sustentada é que houve queda de temperatura."
+    e: "A queda da temperatura é a única conclusão diretamente sustentada pelo trecho."
   },
 
   {
@@ -54,7 +54,7 @@ const quiz1 = [
       "Ignorar o enunciado"
     ],
     c: 1,
-    e: "Voltar ao texto ajuda a verificar se a alternativa realmente possui fundamento."
+    e: "Voltar ao texto ajuda a verificar se a alternativa possui fundamento."
   },
 
   {
@@ -62,11 +62,11 @@ const quiz1 = [
     a: [
       "Identificar palavras-chave",
       "Ler o comando",
-      "Responder pela opinião pessoal sem conferir o texto",
+      "Responder pela própria opinião sem conferir o texto",
       "Procurar a ideia central"
     ],
     c: 2,
-    e: "A opinião pessoal não substitui aquilo que o texto efetivamente apresenta."
+    e: "A opinião pessoal não substitui as informações efetivamente apresentadas pelo texto."
   }
 ];
 
@@ -109,7 +109,7 @@ const quiz2 = [
       "As ruas foram lavadas"
     ],
     c: 0,
-    e: "A presença das ruas molhadas e dos guarda-chuvas sustenta a hipótese de chuva."
+    e: "As ruas molhadas e os guarda-chuvas sustentam a hipótese de chuva."
   },
 
   {
@@ -140,27 +140,20 @@ const quiz2 = [
 
 /* =========================================================
    AULA 03 — TIPOS E GÊNEROS TEXTUAIS
-   15 QUESTÕES
 ========================================================= */
 
 const quiz3 = [
-
-  /* 01 */
-
   {
     q: "A respeito de tipologia textual e gênero textual, assinale a alternativa correta:",
     a: [
       "São expressões completamente sinônimas",
-      "Tipologia refere-se à organização textual, enquanto gênero está ligado às formas concretas de comunicação",
+      "Tipologia refere-se à organização textual; gênero corresponde às formas concretas de comunicação",
       "Gênero textual existe apenas em textos literários",
       "Tipologia depende exclusivamente do tamanho do texto"
     ],
     c: 1,
-    e: "Tipologia textual diz respeito à forma predominante de organização do texto. Gênero textual corresponde às formas concretas de comunicação, como notícia, receita, manual e reportagem."
+    e: "Tipologia textual está relacionada à organização predominante do texto. Gênero textual corresponde às formas concretas de comunicação, como notícia, receita e reportagem."
   },
-
-
-  /* 02 */
 
   {
     q: "Um trecho que apresenta uma sequência de acontecimentos tende a possuir caráter predominantemente:",
@@ -171,11 +164,8 @@ const quiz3 = [
       "Expositivo"
     ],
     c: 1,
-    e: "A narração caracteriza-se pela apresentação de acontecimentos, ações ou transformações dentro de determinada sequência."
+    e: "A narração caracteriza-se pela apresentação de acontecimentos, ações ou transformações."
   },
-
-
-  /* 03 */
 
   {
     q: "Leia: “O corredor era estreito, silencioso, pouco iluminado e possuía paredes antigas.” A tipologia predominante é:",
@@ -186,11 +176,8 @@ const quiz3 = [
       "Injuntiva"
     ],
     c: 2,
-    e: "O trecho apresenta características do corredor. Não existe uma sequência relevante de acontecimentos, portanto predomina a descrição."
+    e: "O trecho apresenta características do corredor. Portanto, predomina a descrição."
   },
-
-
-  /* 04 */
 
   {
     q: "Em qual alternativa predomina uma sequência narrativa?",
@@ -201,14 +188,11 @@ const quiz3 = [
       "A atividade física contribui para diversos aspectos da saúde."
     ],
     c: 2,
-    e: "Na alternativa correta existe uma sucessão de ações: sair, pegar o ônibus e chegar."
+    e: "Existe sucessão de ações: sair, pegar o ônibus e chegar."
   },
 
-
-  /* 05 */
-
   {
-    q: "Um texto cujo objetivo principal é apresentar ou explicar informações sobre determinado assunto é predominantemente:",
+    q: "Um texto cujo objetivo principal é apresentar ou explicar informações é predominantemente:",
     a: [
       "Expositivo",
       "Narrativo",
@@ -216,14 +200,11 @@ const quiz3 = [
       "Descritivo"
     ],
     c: 0,
-    e: "A exposição tem como função predominante apresentar, organizar ou explicar informações e conceitos."
+    e: "A exposição apresenta, organiza ou explica informações e conceitos."
   },
 
-
-  /* 06 */
-
   {
-    q: "Considere: “A prática regular da leitura deve ser incentivada, pois contribui para o desenvolvimento da compreensão textual.” Nesse trecho predomina:",
+    q: "“A prática regular da leitura deve ser incentivada, pois contribui para o desenvolvimento da compreensão textual.” Nesse trecho predomina:",
     a: [
       "Descrição",
       "Argumentação",
@@ -231,29 +212,23 @@ const quiz3 = [
       "Injunção"
     ],
     c: 1,
-    e: "O trecho apresenta uma posição — incentivar a leitura — acompanhada de uma justificativa. Isso caracteriza argumentação."
+    e: "Existe uma posição acompanhada de uma justificativa, característica da argumentação."
   },
-
-
-  /* 07 */
 
   {
     q: "Em um texto argumentativo, a tese corresponde:",
     a: [
-      "Ao título obrigatório do texto",
-      "À ideia ou posição central que se pretende defender",
+      "Ao título obrigatório",
+      "À ideia ou posição central defendida",
       "A qualquer exemplo apresentado",
       "À descrição física dos personagens"
     ],
     c: 1,
-    e: "A tese é o posicionamento central defendido. Os argumentos são utilizados para sustentá-la."
+    e: "A tese é o posicionamento central que os argumentos procuram sustentar."
   },
 
-
-  /* 08 */
-
   {
-    q: "Leia: “Pressione o botão por três segundos, aguarde o sinal luminoso e reinicie o aparelho.” A sequência é predominantemente:",
+    q: "“Pressione o botão por três segundos, aguarde o sinal luminoso e reinicie o aparelho.” A sequência é predominantemente:",
     a: [
       "Argumentativa",
       "Narrativa",
@@ -261,11 +236,8 @@ const quiz3 = [
       "Descritiva"
     ],
     c: 2,
-    e: "O trecho orienta diretamente o leitor sobre ações a serem realizadas. Essa é uma característica da injunção."
+    e: "O trecho orienta diretamente o leitor sobre ações a serem realizadas."
   },
-
-
-  /* 09 */
 
   {
     q: "Qual alternativa apresenta um gênero textual, e não uma tipologia?",
@@ -276,59 +248,47 @@ const quiz3 = [
       "Argumentação"
     ],
     c: 2,
-    e: "Notícia é um gênero textual. Narração, descrição e argumentação correspondem a formas de organização textual."
+    e: "Notícia é gênero textual. As demais alternativas representam formas de organização textual."
   },
 
-
-  /* 10 */
-
   {
-    q: "Sobre a presença de diferentes tipologias em um mesmo texto, é correto afirmar:",
+    q: "Sobre a presença de diferentes tipologias em um mesmo texto:",
     a: [
-      "Todo texto deve possuir obrigatoriamente apenas uma tipologia",
-      "Um texto pode combinar diferentes sequências, embora uma delas possa ser predominante",
-      "A mistura de tipologias ocorre somente em romances",
-      "A presença de descrição impede a existência de narração"
+      "Todo texto possui obrigatoriamente apenas uma tipologia",
+      "Um texto pode combinar diferentes sequências, embora uma possa predominar",
+      "A mistura ocorre somente em romances",
+      "A descrição impede a existência de narração"
     ],
     c: 1,
-    e: "Textos reais podem combinar narração, descrição, exposição, argumentação e outras sequências. A questão pode pedir justamente a tipologia predominante."
+    e: "Textos reais podem combinar diferentes sequências textuais."
   },
 
-
-  /* 11 */
-
   {
-    q: "Uma reportagem apresenta inicialmente dados sobre determinado problema e depois relata o depoimento de uma pessoa envolvida. Essa situação demonstra que:",
+    q: "Uma reportagem apresenta dados e depois relata o depoimento de uma pessoa. Isso demonstra que:",
     a: [
-      "Um gênero textual pode combinar diferentes tipologias",
-      "Reportagens são sempre exclusivamente narrativas",
-      "Todo texto jornalístico é exclusivamente descritivo",
-      "Tipologia e gênero são exatamente a mesma coisa"
+      "Um gênero pode combinar diferentes tipologias",
+      "Reportagens são exclusivamente narrativas",
+      "Todo texto jornalístico é descritivo",
+      "Tipologia e gênero são sinônimos"
     ],
     c: 0,
-    e: "Um mesmo gênero pode utilizar diferentes sequências textuais de acordo com a finalidade de cada trecho."
+    e: "Um mesmo gênero pode utilizar diferentes sequências textuais."
   },
 
-
-  /* 12 */
-
   {
-    q: "Ao tentar identificar a tipologia predominante de um texto, o candidato deve principalmente:",
+    q: "Para identificar a tipologia predominante, o candidato deve principalmente:",
     a: [
-      "Procurar uma única palavra e decidir por ela",
-      "Observar a função e a organização predominantes do conjunto",
-      "Contar quantas linhas o texto possui",
-      "Escolher sempre narração quando houver verbos"
+      "Procurar uma única palavra",
+      "Observar a função e a organização predominantes",
+      "Contar quantas linhas existem",
+      "Escolher narração sempre que houver verbos"
     ],
     c: 1,
-    e: "A classificação não deve ser feita por uma palavra isolada. É necessário observar a função desempenhada pelo conjunto do trecho."
+    e: "A classificação depende do funcionamento do conjunto, e não de uma palavra isolada."
   },
 
-
-  /* 13 */
-
   {
-    q: "Leia: “O equipamento possui estrutura metálica, acabamento preto e uma pequena tela frontal.” Predomina nesse trecho:",
+    q: "“O equipamento possui estrutura metálica, acabamento preto e uma pequena tela frontal.” Predomina:",
     a: [
       "Descrição",
       "Argumentação",
@@ -336,61 +296,256 @@ const quiz3 = [
       "Injunção"
     ],
     c: 0,
-    e: "O trecho enumera características do equipamento, o que caracteriza uma sequência descritiva."
+    e: "O trecho enumera características do equipamento."
   },
 
-
-  /* 14 */
-
   {
-    q: "Em relação à injunção, assinale a alternativa correta:",
+    q: "Em relação à injunção, é correto afirmar:",
     a: [
-      "Sua principal característica é apresentar uma sequência de acontecimentos passados",
+      "Apresenta necessariamente acontecimentos passados",
       "Busca exclusivamente caracterizar objetos",
       "Pode orientar, recomendar, ordenar ou ensinar procedimentos",
       "Tem obrigatoriamente a finalidade de defender uma tese"
     ],
     c: 2,
-    e: "A injunção está ligada à orientação do comportamento ou à execução de procedimentos."
+    e: "A injunção está relacionada à orientação de ações ou procedimentos."
   },
 
-
-  /* 15 */
-
   {
-    q: "Em uma questão que pede a tipologia predominante de determinado trecho, a estratégia mais adequada é:",
+    q: "Para identificar a tipologia predominante de um trecho, a estratégia mais adequada é:",
     a: [
-      "Classificar o texto apenas pelo título",
-      "Observar sua finalidade, estrutura e funcionamento predominantes",
-      "Escolher a alternativa com maior quantidade de palavras",
-      "Ignorar o comando e analisar somente a primeira frase"
+      "Classificar apenas pelo título",
+      "Observar finalidade, estrutura e funcionamento predominantes",
+      "Escolher a alternativa mais longa",
+      "Analisar somente a primeira frase"
     ],
     c: 1,
-    e: "Para identificar a tipologia predominante, analise a finalidade do trecho, sua organização e as marcas linguísticas relevantes."
+    e: "A finalidade e a organização do conjunto devem orientar a classificação."
   }
-
 ];
 
 
 /* =========================================================
-   VARIÁVEIS
+   AULA 04 — COESÃO E COERÊNCIA TEXTUAIS
+   15 QUESTÕES
+========================================================= */
+
+const quiz4 = [
+  {
+    q: "A diferença fundamental entre coesão e coerência está corretamente apresentada em:",
+    a: [
+      "Coesão trata exclusivamente de ortografia; coerência trata de pontuação",
+      "Coesão relaciona mecanismos linguísticos de ligação; coerência relaciona a construção de sentido",
+      "Coesão e coerência são exatamente a mesma coisa",
+      "Coerência existe somente em textos argumentativos"
+    ],
+    c: 1,
+    e: "Coesão envolve mecanismos linguísticos que conectam partes do texto. Coerência diz respeito à construção global de sentido."
+  },
+
+  {
+    q: "Leia: “Mariana comprou um livro. Ela começou a lê-lo naquela noite.” O pronome “ela” retoma:",
+    a: [
+      "Livro",
+      "Noite",
+      "Mariana",
+      "Nenhum termo"
+    ],
+    c: 2,
+    e: "O pronome “ela” retoma Mariana, estabelecendo uma relação de coesão referencial."
+  },
+
+  {
+    q: "No trecho anterior, a forma “lo”, presente em “lê-lo”, refere-se a:",
+    a: [
+      "Mariana",
+      "Livro",
+      "Noite",
+      "Leitura"
+    ],
+    c: 1,
+    e: "A forma pronominal “lo” retoma o substantivo “livro”."
+  },
+
+  {
+    q: "Leia: “Marcos estudou durante toda a semana. Ele queria melhorar seu desempenho.” A relação estabelecida por “ele” é um exemplo de:",
+    a: [
+      "Catáfora",
+      "Anáfora",
+      "Contradição",
+      "Elipse"
+    ],
+    c: 1,
+    e: "Há anáfora porque “ele” retoma uma informação já apresentada: Marcos."
+  },
+
+  {
+    q: "Leia: “Só desejo isto: que você continue estudando.” O termo “isto” realiza:",
+    a: [
+      "Anáfora",
+      "Catáfora",
+      "Elipse",
+      "Oposição"
+    ],
+    c: 1,
+    e: "A palavra “isto” antecipa uma informação que será apresentada depois, caracterizando catáfora."
+  },
+
+  {
+    q: "Em “Pedro estudou Português; Mariana, Matemática”, a ausência do verbo “estudou” na segunda parte exemplifica:",
+    a: [
+      "Catáfora",
+      "Elipse",
+      "Ambiguidade obrigatória",
+      "Incoerência"
+    ],
+    c: 1,
+    e: "O verbo foi omitido, mas pode ser recuperado pelo contexto. Esse recurso é denominado elipse."
+  },
+
+  {
+    q: "Leia: “O trânsito estava intenso. Mesmo assim, Paulo chegou no horário.” A expressão “mesmo assim” estabelece principalmente:",
+    a: [
+      "Adição",
+      "Contraste com uma expectativa",
+      "Explicação",
+      "Enumeração"
+    ],
+    c: 1,
+    e: "O trânsito intenso poderia sugerir atraso, mas o resultado foi diferente. Há contraste com a expectativa."
+  },
+
+  {
+    q: "Em “Choveu intensamente, por isso algumas ruas ficaram alagadas”, “por isso” estabelece uma relação de:",
+    a: [
+      "Consequência",
+      "Oposição",
+      "Comparação",
+      "Condição"
+    ],
+    c: 0,
+    e: "As ruas alagadas são apresentadas como consequência da chuva intensa."
+  },
+
+  {
+    q: "Leia: “O candidato estudou bastante, mas não conseguiu administrar bem o tempo.” O conectivo “mas” estabelece:",
+    a: [
+      "Adição",
+      "Causa",
+      "Oposição ou contraste",
+      "Conclusão"
+    ],
+    c: 2,
+    e: "O conectivo “mas” introduz uma ideia contrastante em relação à informação anterior."
+  },
+
+  {
+    q: "Qual conectivo poderia, em muitos contextos, introduzir uma conclusão?",
+    a: [
+      "Porém",
+      "Portanto",
+      "Embora",
+      "Enquanto"
+    ],
+    c: 1,
+    e: "“Portanto” é frequentemente utilizado para introduzir uma conclusão decorrente de informações anteriores."
+  },
+
+  {
+    q: "Leia: “João encontrou Pedro depois da aula. Ele estava preocupado.” Sem outras informações, o principal problema do trecho é:",
+    a: [
+      "Ausência de verbo",
+      "Possível ambiguidade do referente de “ele”",
+      "Falta obrigatória de pontuação",
+      "Uso incorreto de substantivo próprio"
+    ],
+    c: 1,
+    e: "Como João e Pedro são possíveis referentes masculinos, o pronome “ele” pode produzir ambiguidade."
+  },
+
+  {
+    q: "Leia: “Rafael afirmou que nunca havia saído de Minas Gerais. Logo depois, contou detalhes da viagem que fizera a Recife no mês anterior.” Consideradas literalmente e sem contexto adicional, as informações apresentam:",
+    a: [
+      "Uma relação de adição perfeitamente neutra",
+      "Uma possível quebra de coerência por contradição",
+      "Uma catáfora",
+      "Uma elipse verbal"
+    ],
+    c: 1,
+    e: "Dizer que nunca saiu de Minas Gerais entra em conflito com a afirmação de uma viagem anterior a Recife, se não houver outra explicação contextual."
+  },
+
+  {
+    q: "Ao substituir um conectivo por outro em uma questão de prova, o candidato deve verificar principalmente:",
+    a: [
+      "Se as duas palavras têm o mesmo número de letras",
+      "Se a relação de sentido original é preservada",
+      "Se o novo conectivo é mais formal",
+      "Se aparece mais vezes no texto"
+    ],
+    c: 1,
+    e: "A substituição só pode ser considerada adequada quando preserva a relação lógica e o sentido relevantes no contexto."
+  },
+
+  {
+    q: "Leia: “Os candidatos chegaram cedo. Eles aguardaram a abertura dos portões.” O pronome “eles” contribui para:",
+    a: [
+      "Criar necessariamente incoerência",
+      "Retomar “os candidatos” e estabelecer coesão",
+      "Eliminar o sujeito da primeira oração",
+      "Introduzir uma conclusão"
+    ],
+    c: 1,
+    e: "O pronome retoma “os candidatos”, evitando repetição desnecessária e contribuindo para a coesão."
+  },
+
+  {
+    q: "Para resolver uma questão sobre o referente de um pronome, a estratégia mais adequada é:",
+    a: [
+      "Escolher sempre o substantivo imediatamente anterior",
+      "Analisar o pronome isoladamente",
+      "Verificar o contexto, a estrutura sintática e a compatibilidade de sentido",
+      "Ignorar as frases anteriores"
+    ],
+    c: 2,
+    e: "O referente precisa ser identificado pelo conjunto do contexto, da estrutura e das relações de sentido."
+  }
+];
+
+
+/* =========================================================
+   ESTADO DO SISTEMA
 ========================================================= */
 
 let currentLesson = 1;
-
 let questions = [];
-
 let qi = 0;
-
 let score = 0;
-
 let errors = [];
-
 let answered = false;
-
 let lastPassed = false;
-
 let lastPct = 0;
+
+
+/* =========================================================
+   UTILIDADES
+========================================================= */
+
+function isPassed(lesson) {
+  return !!localStorage.getItem(`passed${lesson}`);
+}
+
+function isReadingDone(lesson) {
+  return !!localStorage.getItem(`reading${lesson}Done`);
+}
+
+function getXP() {
+  return Number(localStorage.getItem("xp") || 0);
+}
+
+function setXP(value) {
+  localStorage.setItem("xp", String(value));
+}
 
 
 /* =========================================================
@@ -398,264 +553,200 @@ let lastPct = 0;
 ========================================================= */
 
 function show(id) {
+  document.querySelectorAll(".page").forEach(page => {
+    page.classList.remove("active");
+  });
 
-  document
-    .querySelectorAll(".page")
-    .forEach(page => {
-
-      page.classList.remove("active");
-
-    });
-
-
-  const target =
-    document.getElementById(id);
-
+  const target = document.getElementById(id);
 
   if (target) {
-
     target.classList.add("active");
-
   }
 
-
-  document
-    .querySelectorAll("nav button")
-    .forEach(button => {
-
-      button.classList.toggle(
-        "active",
-        button.dataset.page === id
-      );
-
-    });
-
+  document.querySelectorAll("nav button").forEach(button => {
+    button.classList.toggle(
+      "active",
+      button.dataset.page === id
+    );
+  });
 
   if (
     id === "home" ||
     id === "subjects" ||
     id === "progressPage"
   ) {
-
     sync();
-
   }
-
 
   if (id === "lesson3") {
-
     updateReading3();
-
   }
 
-
-  window.scrollTo(
-    {
-      top: 0,
-      behavior: "smooth"
-    }
-  );
-
+  window.scrollTo(0, 0);
 }
 
 
 /* =========================================================
-   DEFINIR A MISSÃO ATUAL
+   ABRIR AULA DINÂMICA
+   A PARTIR DA AULA 04
+========================================================= */
+
+function openLesson(lessonNumber) {
+  if (
+    typeof lessons === "undefined" ||
+    !lessons[lessonNumber]
+  ) {
+    alert("Conteúdo da aula não encontrado.");
+    return;
+  }
+
+  const lesson = lessons[lessonNumber];
+
+  currentLesson = lessonNumber;
+
+  const subtitle = document.getElementById(
+    "dynamicLessonSubtitle"
+  );
+
+  const title = document.getElementById(
+    "dynamicLessonTitle"
+  );
+
+  const content = document.getElementById(
+    "dynamicLessonContent"
+  );
+
+  if (subtitle) {
+    subtitle.textContent = lesson.subtitle || "";
+  }
+
+  if (title) {
+    title.textContent = lesson.title || "";
+  }
+
+  if (content) {
+    content.innerHTML = lesson.content || "";
+  }
+
+  show("dynamicLesson");
+
+  updateDynamicReading(lessonNumber);
+
+  window.scrollTo(0, 0);
+}
+
+
+/* =========================================================
+   MISSÃO PRINCIPAL
 ========================================================= */
 
 function updateMainMission() {
+  const p1 = isPassed(1);
+  const p2 = isPassed(2);
+  const p3 = isPassed(3);
+  const p4 = isPassed(4);
 
-  const p1 =
-    !!localStorage.getItem("passed1");
+  const title = document.getElementById(
+    "mainMissionTitle"
+  );
 
-  const p2 =
-    !!localStorage.getItem("passed2");
+  const topic = document.getElementById(
+    "mainMissionTopic"
+  );
 
-  const p3 =
-    !!localStorage.getItem("passed3");
+  const time = document.getElementById(
+    "mainMissionTime"
+  );
 
+  const button = document.getElementById(
+    "mainMissionBtn"
+  );
 
-  const title =
-    document.getElementById(
-      "mainMissionTitle"
-    );
-
-
-  const topic =
-    document.getElementById(
-      "mainMissionTopic"
-    );
-
-
-  const time =
-    document.getElementById(
-      "mainMissionTime"
-    );
-
-
-  const button =
-    document.getElementById(
-      "mainMissionBtn"
-    );
-
-
-  if (
-    !title ||
-    !topic ||
-    !button
-  ) {
-
-    return;
-
-  }
-
-
-  /* =========================
-     AULA 01
-  ========================= */
+  if (!title || !topic || !button) return;
 
   if (!p1) {
-
-    title.textContent =
-      "📖 Português";
-
+    title.textContent = "📖 Português";
     topic.textContent =
       "Interpretação de texto • Aula 01";
 
     if (time) {
-
-      time.textContent =
-        "⏱ 30–45 min";
-
+      time.textContent = "⏱ 30–45 min";
     }
 
-
-    button.textContent =
-      "COMEÇAR MISSÃO ▶";
-
-
-    button.disabled =
-      false;
-
-
-    button.onclick =
-      () => show("lesson1");
-
+    button.textContent = "COMEÇAR MISSÃO ▶";
+    button.disabled = false;
+    button.onclick = () => show("lesson1");
 
     return;
-
   }
 
-
-  /* =========================
-     AULA 02
-  ========================= */
-
   if (!p2) {
-
-    title.textContent =
-      "📖 Português";
-
-
+    title.textContent = "📖 Português";
     topic.textContent =
       "Ideia principal e inferência • Aula 02";
 
-
     if (time) {
-
-      time.textContent =
-        "⏱ 30–45 min";
-
+      time.textContent = "⏱ 30–45 min";
     }
 
-
-    button.textContent =
-      "COMEÇAR MISSÃO ▶";
-
-
-    button.disabled =
-      false;
-
-
-    button.onclick =
-      () => show("lesson2");
-
+    button.textContent = "COMEÇAR MISSÃO ▶";
+    button.disabled = false;
+    button.onclick = () => show("lesson2");
 
     return;
-
   }
 
-
-  /* =========================
-     AULA 03
-  ========================= */
-
   if (!p3) {
-
-    title.textContent =
-      "📚 Português";
-
-
+    title.textContent = "📚 Português";
     topic.textContent =
       "Tipos e gêneros textuais • Aula 03";
 
-
     if (time) {
-
-      time.textContent =
-        "⏱ 45–60 min";
-
+      time.textContent = "⏱ 45–60 min";
     }
 
-
-    button.textContent =
-      "COMEÇAR LEITURA ▶";
-
-
-    button.disabled =
-      false;
-
-
-    button.onclick =
-      () => show("lesson3");
-
+    button.textContent = "COMEÇAR LEITURA ▶";
+    button.disabled = false;
+    button.onclick = () => show("lesson3");
 
     return;
-
   }
 
+  if (!p4) {
+    title.textContent = "📗 Português";
+    topic.textContent =
+      "Coesão e coerência textuais • Aula 04";
 
-  /* =========================
-     AULAS DISPONÍVEIS CONCLUÍDAS
-  ========================= */
+    if (time) {
+      time.textContent =
+        lessons &&
+        lessons[4] &&
+        lessons[4].time
+          ? `⏱ ${lessons[4].time}`
+          : "⏱ 50–70 min";
+    }
 
-  title.textContent =
-    "✅ Português";
+    button.textContent = "COMEÇAR LEITURA ▶";
+    button.disabled = false;
+    button.onclick = () => openLesson(4);
 
+    return;
+  }
 
+  title.textContent = "✅ Português";
   topic.textContent =
     "Aulas disponíveis concluídas";
 
-
   if (time) {
-
     time.textContent =
       "📚 aguardando próxima aula";
-
   }
-
 
   button.textContent =
     "PRÓXIMA AULA EM PREPARAÇÃO";
 
-
-  button.disabled =
-    true;
-
-
-  button.onclick =
-    null;
-
+  button.disabled = true;
+  button.onclick = null;
 }
 
 
@@ -664,246 +755,178 @@ function updateMainMission() {
 ========================================================= */
 
 function updateNextMission() {
+  const p1 = isPassed(1);
+  const p2 = isPassed(2);
+  const p3 = isPassed(3);
+  const p4 = isPassed(4);
 
-  const p1 =
-    !!localStorage.getItem("passed1");
+  const title = document.getElementById(
+    "nextMissionTitle"
+  );
 
-  const p2 =
-    !!localStorage.getItem("passed2");
+  const text = document.getElementById(
+    "nextMissionText"
+  );
 
-  const p3 =
-    !!localStorage.getItem("passed3");
+  const button = document.getElementById(
+    "nextMissionBtn"
+  );
 
+  if (!title || !text || !button) return;
 
-  const title =
-    document.getElementById(
-      "nextMissionTitle"
-    );
-
-
-  const text =
-    document.getElementById(
-      "nextMissionText"
-    );
-
-
-  const button =
-    document.getElementById(
-      "nextMissionBtn"
-    );
-
-
-  if (
-    !title ||
-    !text ||
-    !button
-  ) {
-
-    return;
-
-  }
-
+  button.disabled = true;
+  button.onclick = null;
 
   if (!p1) {
-
-    title.textContent =
-      "🔒 Aula 02 bloqueada";
-
-
+    title.textContent = "🔒 Aula 02 bloqueada";
     text.textContent =
       "Acerte pelo menos 70% na Aula 01 para desbloquear.";
-
-
-    button.textContent =
-      "BLOQUEADA";
-
-
-    button.disabled =
-      true;
-
-
+    button.textContent = "BLOQUEADA";
     return;
-
   }
-
 
   if (!p2) {
-
-    title.textContent =
-      "🔒 Aula 03 bloqueada";
-
-
+    title.textContent = "🔒 Aula 03 bloqueada";
     text.textContent =
       "Conclua a Aula 02 com pelo menos 70% para avançar.";
-
-
-    button.textContent =
-      "BLOQUEADA";
-
-
-    button.disabled =
-      true;
-
-
+    button.textContent = "BLOQUEADA";
     return;
-
   }
-
 
   if (!p3) {
-
-    title.textContent =
-      "🔒 Aula 04 bloqueada";
-
-
+    title.textContent = "🔒 Aula 04 bloqueada";
     text.textContent =
-      "Conclua a leitura e a prova da Aula 03 para avançar.";
-
-
-    button.textContent =
-      "BLOQUEADA";
-
-
-    button.disabled =
-      true;
-
-
+      "Conclua a Aula 03 com pelo menos 70% para avançar.";
+    button.textContent = "BLOQUEADA";
     return;
-
   }
 
+  if (!p4) {
+    title.textContent = "🔒 Aula 05 bloqueada";
+    text.textContent =
+      "Estude a Aula 04 e consiga pelo menos 70% na avaliação.";
+    button.textContent = "BLOQUEADA";
+    return;
+  }
 
   title.textContent =
-    "🚧 Aula 04 em preparação";
-
+    "🚧 Aula 05 em preparação";
 
   text.textContent =
     "Você concluiu todo o conteúdo disponível até agora.";
 
-
-  button.textContent =
-    "EM BREVE";
-
-
-  button.disabled =
-    true;
-
+  button.textContent = "EM BREVE";
 }
 
 
 /* =========================================================
-   LIBERAR AULA 02 E 03 NA TELA MATÉRIAS
+   TELA MATÉRIAS
 ========================================================= */
 
 function updateSubjects() {
+  const p1 = isPassed(1);
+  const p2 = isPassed(2);
+  const p3 = isPassed(3);
+  const p4 = isPassed(4);
 
-  const p1 =
-    !!localStorage.getItem("passed1");
-
-  const p2 =
-    !!localStorage.getItem("passed2");
-
-  const p3 =
-    !!localStorage.getItem("passed3");
-
+  const subject1 =
+    document.getElementById("subject1");
 
   const subject2 =
     document.getElementById("subject2");
 
-
   const subject3 =
     document.getElementById("subject3");
 
+  const subject4 =
+    document.getElementById("subject4");
+
+  if (subject1) {
+    subject1.onclick =
+      () => show("lesson1");
+  }
 
   if (subject2) {
-
     if (p1) {
-
       subject2.onclick =
         () => show("lesson2");
 
-
-      subject2.classList.remove(
-        "locked"
-      );
-
+      subject2.classList.remove("locked");
     } else {
-
-      subject2.onclick =
-        null;
-
+      subject2.onclick = null;
+      subject2.classList.add("locked");
     }
-
   }
 
-
   if (subject3) {
-
     if (p2) {
-
       subject3.onclick =
         () => show("lesson3");
 
-
-      subject3.classList.remove(
-        "locked"
-      );
-
+      subject3.classList.remove("locked");
     } else {
-
-      subject3.onclick =
-        null;
-
+      subject3.onclick = null;
+      subject3.classList.add("locked");
     }
-
   }
 
+  if (subject4) {
+    if (p3) {
+      subject4.onclick =
+        () => openLesson(4);
+
+      subject4.classList.remove("locked");
+    } else {
+      subject4.onclick = null;
+      subject4.classList.add("locked");
+    }
+  }
 
   const status1 =
     document.getElementById("status1");
 
-
   const status2 =
     document.getElementById("status2");
-
 
   const status3 =
     document.getElementById("status3");
 
+  const status4 =
+    document.getElementById("status4");
 
   if (status1) {
-
     status1.textContent =
       p1
         ? "✅ Concluída"
         : "▶ Atual";
-
   }
 
-
   if (status2) {
-
     status2.textContent =
       p2
         ? "✅ Concluída"
         : p1
         ? "▶ Atual"
         : "🔒";
-
   }
 
-
   if (status3) {
-
     status3.textContent =
       p3
         ? "✅ Concluída"
         : p2
         ? "▶ Atual"
         : "🔒";
-
   }
 
+  if (status4) {
+    status4.textContent =
+      p4
+        ? "✅ Concluída"
+        : p3
+        ? "▶ Atual"
+        : "🔒";
+  }
 }
 
 
@@ -912,378 +935,435 @@ function updateSubjects() {
 ========================================================= */
 
 function completeReading3() {
-
   localStorage.setItem(
     "reading3Done",
     "1"
   );
 
-
   updateReading3();
 
-
   sync();
-
 
   alert(
     "📚 Leitura concluída!\n\nA prova da Aula 03 foi liberada."
   );
-
 }
 
 
-/* =========================================================
-   ATUALIZAR LEITURA 03
-========================================================= */
-
 function updateReading3() {
-
-  const done =
-    !!localStorage.getItem(
-      "reading3Done"
-    );
-
+  const done = isReadingDone(3);
 
   const button =
     document.getElementById(
       "completeReading3Btn"
     );
 
-
   const quizButton =
     document.getElementById(
       "quiz3Btn"
     );
-
 
   const lockText =
     document.getElementById(
       "quiz3LockText"
     );
 
-
   const pct =
     document.getElementById(
       "readingPct3"
     );
-
 
   const bar =
     document.getElementById(
       "readingBar3"
     );
 
-
   if (done) {
-
     if (button) {
-
       button.textContent =
         "✅ LEITURA CONCLUÍDA";
 
-
-      button.disabled =
-        true;
-
+      button.disabled = true;
     }
 
-
     if (quizButton) {
-
-      quizButton.disabled =
-        false;
-
-
+      quizButton.disabled = false;
       quizButton.textContent =
         "INICIAR PROVA ▶";
-
 
       quizButton.classList.remove(
         "secondary"
       );
-
     }
-
 
     if (lockText) {
-
       lockText.textContent =
         "✅ Leitura concluída. A prova está liberada.";
-
     }
-
 
     if (pct) {
-
-      pct.textContent =
-        "100%";
-
+      pct.textContent = "100%";
     }
-
 
     if (bar) {
-
-      bar.style.width =
-        "100%";
-
+      bar.style.width = "100%";
     }
-
-
-    const achievement =
-      document.getElementById(
-        "aReader"
-      );
-
-
-    if (achievement) {
-
-      achievement.textContent =
-        "✅ Concluí a leitura da Aula 03";
-
-    }
-
   } else {
-
     if (pct) {
-
-      pct.textContent =
-        "0%";
-
+      pct.textContent = "0%";
     }
-
 
     if (bar) {
-
-      bar.style.width =
-        "0%";
-
+      bar.style.width = "0%";
     }
 
-  }
+    if (quizButton) {
+      quizButton.disabled = true;
+      quizButton.textContent =
+        "🔒 PROVA BLOQUEADA";
 
+      quizButton.classList.add(
+        "secondary"
+      );
+    }
+  }
 }
 
 
 /* =========================================================
-   PROGRESSO DE LEITURA POR ROLAGEM
+   LEITURA DINÂMICA
+========================================================= */
+
+function completeReading(lessonNumber) {
+  localStorage.setItem(
+    `reading${lessonNumber}Done`,
+    "1"
+  );
+
+  updateDynamicReading(
+    lessonNumber
+  );
+
+  sync();
+
+  alert(
+    `📚 Leitura da Aula ${lessonNumber} concluída!\n\nA avaliação foi liberada.`
+  );
+}
+
+
+function updateDynamicReading(
+  lessonNumber
+) {
+  const done =
+    isReadingDone(
+      lessonNumber
+    );
+
+  const pct =
+    document.getElementById(
+      "dynamicReadingPct"
+    );
+
+  const bar =
+    document.getElementById(
+      "dynamicReadingBar"
+    );
+
+  if (done) {
+    if (pct) {
+      pct.textContent = "100%";
+    }
+
+    if (bar) {
+      bar.style.width = "100%";
+    }
+  }
+
+  if (lessonNumber === 4) {
+    const quizButton =
+      document.getElementById(
+        "quiz4Btn"
+      );
+
+    const lockText =
+      document.getElementById(
+        "quiz4LockText"
+      );
+
+    if (done) {
+      if (quizButton) {
+        quizButton.disabled = false;
+        quizButton.textContent =
+          "INICIAR PROVA ▶";
+
+        quizButton.classList.remove(
+          "secondary"
+        );
+      }
+
+      if (lockText) {
+        lockText.textContent =
+          "✅ Leitura concluída. A prova está liberada.";
+      }
+    } else {
+      if (quizButton) {
+        quizButton.disabled = true;
+        quizButton.textContent =
+          "🔒 PROVA BLOQUEADA";
+
+        quizButton.classList.add(
+          "secondary"
+        );
+      }
+
+      if (lockText) {
+        lockText.textContent =
+          "Conclua a leitura antes de realizar a prova.";
+      }
+    }
+  }
+}
+
+
+/* =========================================================
+   PROGRESSO DA LEITURA POR ROLAGEM
 ========================================================= */
 
 window.addEventListener(
   "scroll",
-  function () {
-
-    const lesson =
-      document.getElementById(
-        "lesson3"
-      );
-
-
-    if (
-      !lesson ||
-      !lesson.classList.contains(
-        "active"
-      )
-    ) {
-
-      return;
-
-    }
-
-
-    if (
-      localStorage.getItem(
-        "reading3Done"
-      )
-    ) {
-
-      return;
-
-    }
-
-
-    const pctEl =
-      document.getElementById(
-        "readingPct3"
-      );
-
-
-    const bar =
-      document.getElementById(
-        "readingBar3"
-      );
-
-
-    if (
-      !pctEl ||
-      !bar
-    ) {
-
-      return;
-
-    }
-
-
-    const rect =
-      lesson.getBoundingClientRect();
-
-
-    const total =
-      lesson.scrollHeight -
-      window.innerHeight;
-
-
-    if (
-      total <= 0
-    ) {
-
-      return;
-
-    }
-
-
-    const traveled =
-      Math.max(
-        0,
-        -rect.top
-      );
-
-
-    let percent =
-      Math.round(
-        traveled /
-        total *
-        100
-      );
-
-
-    percent =
-      Math.min(
-        99,
-        Math.max(
-          0,
-          percent
-        )
-      );
-
-
-    pctEl.textContent =
-      `${percent}%`;
-
-
-    bar.style.width =
-      `${percent}%`;
-
+  () => {
+    updateScrollReading3();
+    updateScrollDynamicReading();
   }
 );
 
 
-/* =========================================================
-   COMEÇAR PROVA
-========================================================= */
-
-function startQuiz(lesson) {
-
-  if (
-    lesson === 3 &&
-    !localStorage.getItem(
-      "reading3Done"
-    )
-  ) {
-
-    alert(
-      "📚 Conclua a leitura da Aula 03 antes de fazer a prova."
+function updateScrollReading3() {
+  const lesson =
+    document.getElementById(
+      "lesson3"
     );
 
-
+  if (
+    !lesson ||
+    !lesson.classList.contains("active") ||
+    isReadingDone(3)
+  ) {
     return;
-
   }
 
+  const pctEl =
+    document.getElementById(
+      "readingPct3"
+    );
 
-  currentLesson =
-    lesson;
+  const bar =
+    document.getElementById(
+      "readingBar3"
+    );
 
+  if (!pctEl || !bar) return;
+
+  const rect =
+    lesson.getBoundingClientRect();
+
+  const total =
+    lesson.scrollHeight -
+    window.innerHeight;
+
+  if (total <= 0) return;
+
+  const traveled =
+    Math.max(
+      0,
+      -rect.top
+    );
+
+  let percent =
+    Math.round(
+      (traveled / total) * 100
+    );
+
+  percent =
+    Math.min(
+      99,
+      Math.max(
+        0,
+        percent
+      )
+    );
+
+  pctEl.textContent =
+    `${percent}%`;
+
+  bar.style.width =
+    `${percent}%`;
+}
+
+
+function updateScrollDynamicReading() {
+  const lesson =
+    document.getElementById(
+      "dynamicLesson"
+    );
 
   if (
-    lesson === 1
+    !lesson ||
+    !lesson.classList.contains(
+      "active"
+    )
   ) {
-
-    questions =
-      quiz1;
-
+    return;
   }
-
 
   if (
-    lesson === 2
+    isReadingDone(
+      currentLesson
+    )
   ) {
-
-    questions =
-      quiz2;
-
+    return;
   }
 
+  const pctEl =
+    document.getElementById(
+      "dynamicReadingPct"
+    );
 
-  if (
-    lesson === 3
-  ) {
+  const bar =
+    document.getElementById(
+      "dynamicReadingBar"
+    );
 
-    questions =
-      quiz3;
+  if (!pctEl || !bar) return;
 
-  }
+  const rect =
+    lesson.getBoundingClientRect();
 
+  const total =
+    lesson.scrollHeight -
+    window.innerHeight;
 
-  qi = 0;
+  if (total <= 0) return;
 
-  score = 0;
+  const traveled =
+    Math.max(
+      0,
+      -rect.top
+    );
 
-  errors = [];
+  let percent =
+    Math.round(
+      (traveled / total) *
+      100
+    );
 
-  answered =
-    false;
+  percent =
+    Math.min(
+      99,
+      Math.max(
+        0,
+        percent
+      )
+    );
 
+  pctEl.textContent =
+    `${percent}%`;
 
-  show("quiz");
-
-
-  renderQ();
-
+  bar.style.width =
+    `${percent}%`;
 }
 
 
 /* =========================================================
-   VOLTAR PARA AULA
+   COMEÇAR QUIZ
+========================================================= */
+
+function startQuiz(lesson) {
+  if (
+    lesson === 3 &&
+    !isReadingDone(3)
+  ) {
+    alert(
+      "📚 Conclua a leitura da Aula 03 antes de fazer a prova."
+    );
+
+    return;
+  }
+
+  if (
+    lesson >= 4 &&
+    !isReadingDone(lesson)
+  ) {
+    alert(
+      `📚 Conclua a leitura da Aula ${lesson} antes de fazer a prova.`
+    );
+
+    return;
+  }
+
+  currentLesson = lesson;
+
+  if (lesson === 1) {
+    questions = quiz1;
+  }
+
+  if (lesson === 2) {
+    questions = quiz2;
+  }
+
+  if (lesson === 3) {
+    questions = quiz3;
+  }
+
+  if (lesson === 4) {
+    questions = quiz4;
+  }
+
+  if (!questions.length) {
+    alert(
+      "Questões desta aula ainda não foram cadastradas."
+    );
+
+    return;
+  }
+
+  qi = 0;
+  score = 0;
+  errors = [];
+  answered = false;
+
+  show("quiz");
+
+  renderQ();
+}
+
+
+/* =========================================================
+   VOLTAR À AULA
 ========================================================= */
 
 function backToLesson() {
-
-  if (
-    currentLesson === 1
-  ) {
-
+  if (currentLesson === 1) {
     show("lesson1");
-
+    return;
   }
 
-
-  if (
-    currentLesson === 2
-  ) {
-
+  if (currentLesson === 2) {
     show("lesson2");
-
+    return;
   }
 
-
-  if (
-    currentLesson === 3
-  ) {
-
+  if (currentLesson === 3) {
     show("lesson3");
-
+    return;
   }
 
+  if (currentLesson >= 4) {
+    openLesson(
+      currentLesson
+    );
+  }
 }
 
 
@@ -1292,239 +1372,191 @@ function backToLesson() {
 ========================================================= */
 
 function renderQ() {
-
-  answered =
-    false;
-
+  answered = false;
 
   const question =
     questions[qi];
 
-
-  document
-    .getElementById(
+  const qnum =
+    document.getElementById(
       "qnum"
-    )
-    .textContent =
-    `QUESTÃO ${qi + 1} DE ${questions.length}`;
+    );
 
-
-  document
-    .getElementById(
+  const scoreNow =
+    document.getElementById(
       "scoreNow"
-    )
-    .textContent =
-    `${score} acertos`;
+    );
 
-
-  document
-    .getElementById(
+  const qbar =
+    document.getElementById(
       "qbar"
-    )
-    .style.width =
-    `${(
-      (
-        qi + 1
-      ) /
-      questions.length
-    ) * 100}%`;
+    );
 
-
-  document
-    .getElementById(
+  const qtext =
+    document.getElementById(
       "qtext"
-    )
-    .textContent =
-    question.q;
-
+    );
 
   const answersBox =
     document.getElementById(
       "answers"
     );
 
+  const feedback =
+    document.getElementById(
+      "feedback"
+    );
 
-  answersBox.innerHTML =
-    "";
+  const next =
+    document.getElementById(
+      "next"
+    );
 
+  if (qnum) {
+    qnum.textContent =
+      `QUESTÃO ${qi + 1} DE ${questions.length}`;
+  }
 
-  question.a.forEach(
-    (
-      text,
-      index
-    ) => {
+  if (scoreNow) {
+    scoreNow.textContent =
+      `${score} acertos`;
+  }
 
-      const button =
-        document.createElement(
-          "button"
-        );
+  if (qbar) {
+    qbar.style.width =
+      `${((qi + 1) / questions.length) * 100}%`;
+  }
 
+  if (qtext) {
+    qtext.textContent =
+      question.q;
+  }
 
-      button.className =
-        "answer";
+  if (answersBox) {
+    answersBox.innerHTML = "";
 
-
-      button.textContent =
-        `${String.fromCharCode(
-          65 + index
-        )}. ${text}`;
-
-
-      button.onclick =
-        () =>
-          answer(
-            index,
-            button
+    question.a.forEach(
+      (text, index) => {
+        const button =
+          document.createElement(
+            "button"
           );
 
+        button.className =
+          "answer";
 
-      answersBox.appendChild(
-        button
-      );
+        button.textContent =
+          `${String.fromCharCode(
+            65 + index
+          )}. ${text}`;
 
-    }
-  );
+        button.onclick =
+          () =>
+            answer(
+              index,
+              button
+            );
 
+        answersBox.appendChild(
+          button
+        );
+      }
+    );
+  }
 
-  document
-    .getElementById(
-      "feedback"
-    )
-    .classList.add(
+  if (feedback) {
+    feedback.classList.add(
+      "hidden"
+    );
+  }
+
+  if (next) {
+    next.classList.add(
       "hidden"
     );
 
-
-  document
-    .getElementById(
-      "next"
-    )
-    .classList.add(
-      "hidden"
-    );
-
-
-  document
-    .getElementById(
-      "next"
-    )
-    .textContent =
-    qi ===
-    questions.length - 1
-      ? "VER RESULTADO"
-      : "PRÓXIMA";
-
+    next.textContent =
+      qi === questions.length - 1
+        ? "VER RESULTADO"
+        : "PRÓXIMA";
+  }
 }
 
 
 /* =========================================================
-   RESPONDER
+   RESPONDER QUESTÃO
 ========================================================= */
 
 function answer(
   index,
   button
 ) {
+  if (answered) return;
 
-  if (
-    answered
-  ) {
-
-    return;
-
-  }
-
-
-  answered =
-    true;
-
+  answered = true;
 
   const question =
     questions[qi];
 
+  const buttons = [
+    ...document.querySelectorAll(
+      ".answer"
+    )
+  ];
 
-  const buttons =
-    [
-      ...document.querySelectorAll(
-        ".answer"
-      )
-    ];
+  buttons.forEach(btn => {
+    btn.disabled = true;
+  });
 
+  const correct =
+    index === question.c;
 
-  buttons.forEach(
-    btn => {
-
-      btn.disabled =
-        true;
-
-    }
-  );
-
-
-  if (
-    index ===
-    question.c
-  ) {
-
+  if (correct) {
     score++;
-
 
     button.classList.add(
       "ok"
     );
-
   } else {
-
     button.classList.add(
       "no"
     );
 
-
-    if (
-      buttons[
-        question.c
-      ]
-    ) {
-
+    if (buttons[question.c]) {
       buttons[
         question.c
       ].classList.add(
         "ok"
       );
-
     }
 
+    errors.push({
+      lesson:
+        currentLesson,
 
-    errors.push(
-      {
+      q:
+        question.q,
 
-        lesson:
-          currentLesson,
+      exp:
+        question.e,
 
-        q:
-          question.q,
-
-        exp:
-          question.e
-
-      }
-    );
-
+      correctAnswer:
+        question.a[
+          question.c
+        ]
+    });
   }
-
 
   const feedback =
     document.getElementById(
       "feedback"
     );
 
-
-  feedback.innerHTML =
-    `
+  if (feedback) {
+    feedback.innerHTML = `
       <b>
         ${
-          index ===
-          question.c
+          correct
             ? "✅ Resposta correta"
             : "❌ Resposta incorreta"
         }
@@ -1533,31 +1565,53 @@ function answer(
       <br><br>
 
       ${question.e}
+
+      ${
+        !correct
+          ? `
+            <br><br>
+            <strong>
+              Resposta correta:
+            </strong>
+            ${String.fromCharCode(
+              65 +
+              question.c
+            )}.
+            ${
+              question.a[
+                question.c
+              ]
+            }
+          `
+          : ""
+      }
     `;
 
-
-  feedback
-    .classList.remove(
+    feedback.classList.remove(
       "hidden"
     );
+  }
 
-
-  document
-    .getElementById(
+  const next =
+    document.getElementById(
       "next"
-    )
-    .classList.remove(
-      "hidden"
     );
 
+  if (next) {
+    next.classList.remove(
+      "hidden"
+    );
+  }
 
-  document
-    .getElementById(
+  const scoreNow =
+    document.getElementById(
       "scoreNow"
-    )
-    .textContent =
-    `${score} acertos`;
+    );
 
+  if (scoreNow) {
+    scoreNow.textContent =
+      `${score} acertos`;
+  }
 }
 
 
@@ -1566,45 +1620,30 @@ function answer(
 ========================================================= */
 
 function nextQ() {
-
   if (
     qi <
     questions.length - 1
   ) {
-
     qi++;
-
-
     renderQ();
-
-
     return;
-
   }
-
 
   lastPct =
     Math.round(
-      score /
-      questions.length *
-      100
+      (score /
+        questions.length) *
+        100
     );
-
 
   lastPassed =
     lastPct >= 70;
 
-
   saveAttempt();
-
 
   renderResult();
 
-
-  show(
-    "result"
-  );
-
+  show("result");
 }
 
 
@@ -1613,76 +1652,57 @@ function nextQ() {
 ========================================================= */
 
 function saveAttempt() {
-
-  let attempts =
-    [];
-
+  let attempts = [];
 
   try {
-
     attempts =
       JSON.parse(
         localStorage.getItem(
           "attemptHistory"
-        ) ||
-        "[]"
+        ) || "[]"
       );
-
   } catch {
-
-    attempts =
-      [];
-
+    attempts = [];
   }
 
+  attempts.unshift({
+    lesson:
+      currentLesson,
 
-  attempts.unshift(
-    {
+    pct:
+      lastPct,
 
-      lesson:
-        currentLesson,
+    score:
+      score,
 
-      pct:
-        lastPct,
+    total:
+      questions.length,
 
-      score:
-        score,
+    passed:
+      lastPassed,
 
-      total:
-        questions.length,
+    date:
+      new Date()
+        .toLocaleDateString(
+          "pt-BR"
+        ),
 
-      passed:
-        lastPassed,
-
-      date:
-        new Date()
-          .toLocaleDateString(
-            "pt-BR"
-          ),
-
-      time:
-        new Date()
-          .toLocaleTimeString(
-            "pt-BR",
-            {
-              hour:
-                "2-digit",
-
-              minute:
-                "2-digit"
-            }
-          )
-
-    }
-  );
-
+    time:
+      new Date()
+        .toLocaleTimeString(
+          "pt-BR",
+          {
+            hour: "2-digit",
+            minute: "2-digit"
+          }
+        )
+  });
 
   attempts =
     attempts.slice(
       0,
-      20
+      30
     );
-
 
   localStorage.setItem(
     "attemptHistory",
@@ -1694,39 +1714,26 @@ function saveAttempt() {
 
   /* ERROS */
 
-
-  let storedErrors =
-    [];
-
+  let storedErrors = [];
 
   try {
-
     storedErrors =
       JSON.parse(
         localStorage.getItem(
           "errors"
-        ) ||
-        "[]"
+        ) || "[]"
       );
-
   } catch {
-
-    storedErrors =
-      [];
-
+    storedErrors = [];
   }
 
-
-  storedErrors =
-    [
-      ...errors,
-      ...storedErrors
-    ]
-    .slice(
-      0,
-      50
-    );
-
+  storedErrors = [
+    ...errors,
+    ...storedErrors
+  ].slice(
+    0,
+    80
+  );
 
   localStorage.setItem(
     "errors",
@@ -1734,7 +1741,6 @@ function saveAttempt() {
       storedErrors
     )
   );
-
 }
 
 
@@ -1743,112 +1749,108 @@ function saveAttempt() {
 ========================================================= */
 
 function renderResult() {
-
-  document
-    .getElementById(
+  const resultPct =
+    document.getElementById(
       "resultPct"
-    )
-    .textContent =
-    `${lastPct}%`;
+    );
 
-
-  document
-    .getElementById(
+  const resultScore =
+    document.getElementById(
       "resultScore"
-    )
-    .textContent =
-    `${score}/${questions.length}`;
+    );
 
+  const resultTitle =
+    document.getElementById(
+      "resultTitle"
+    );
+
+  const resultMsg =
+    document.getElementById(
+      "resultMsg"
+    );
+
+  const mastery =
+    document.getElementById(
+      "mastery"
+    );
+
+  const action =
+    document.getElementById(
+      "resultAction"
+    );
 
   const circle =
     document.querySelector(
       ".circle"
     );
 
+  if (resultPct) {
+    resultPct.textContent =
+      `${lastPct}%`;
+  }
 
-  circle.className =
-    "circle";
+  if (resultScore) {
+    resultScore.textContent =
+      `${score}/${questions.length}`;
+  }
 
+  if (circle) {
+    circle.className = "circle";
+  }
 
-  if (
-    lastPassed
-  ) {
+  if (lastPassed) {
+    if (resultTitle) {
+      resultTitle.textContent =
+        "Missão aprovada 🟢";
+    }
 
-    document
-      .getElementById(
-        "resultTitle"
-      )
-      .textContent =
-      "Missão aprovada 🟢";
+    if (resultMsg) {
+      resultMsg.textContent =
+        "Você atingiu o mínimo de 70% e pode avançar.";
+    }
 
+    if (mastery) {
+      mastery.textContent =
+        "DOMÍNIO: APROVADO";
+    }
 
-    document
-      .getElementById(
-        "resultMsg"
-      )
-      .textContent =
-      "Você atingiu o mínimo de 70% e pode avançar.";
+    if (action) {
+      action.textContent =
+        "CONCLUIR E RECEBER XP";
+    }
 
+    return;
+  }
 
-    document
-      .getElementById(
-        "mastery"
-      )
-      .textContent =
-      "DOMÍNIO: APROVADO";
-
-
-    document
-      .getElementById(
-        "resultAction"
-      )
-      .textContent =
-      "CONCLUIR E RECEBER XP";
-
-  } else {
-
+  if (circle) {
     circle.classList.add(
       lastPct >= 50
         ? "warn"
         : "fail"
     );
+  }
 
-
-    document
-      .getElementById(
-        "resultTitle"
-      )
-      .textContent =
+  if (resultTitle) {
+    resultTitle.textContent =
       lastPct >= 50
         ? "Quase lá 🟠"
         : "Vamos reforçar a base 🔴";
-
-
-    document
-      .getElementById(
-        "resultMsg"
-      )
-      .textContent =
-      "Você ainda não atingiu 70%. Revise seus erros e tente novamente.";
-
-
-    document
-      .getElementById(
-        "mastery"
-      )
-      .textContent =
-      "DOMÍNIO: REVISÃO NECESSÁRIA";
-
-
-    document
-      .getElementById(
-        "resultAction"
-      )
-      .textContent =
-      "REVISAR E TENTAR NOVAMENTE";
-
   }
 
+  if (resultMsg) {
+    resultMsg.textContent =
+      "Você ainda não atingiu 70%. Seus erros foram salvos para revisão.";
+  }
+
+  if (mastery) {
+    mastery.textContent =
+      "DOMÍNIO: REVISÃO NECESSÁRIA";
+  }
+
+  if (action) {
+    action.textContent =
+      "REVISAR E TENTAR NOVAMENTE";
+  }
 }
 
 
@@ -1857,61 +1859,42 @@ function renderResult() {
 ========================================================= */
 
 function finishResult() {
-
-  if (
-    lastPassed
-  ) {
-
+  if (lastPassed) {
     const key =
       `passed${currentLesson}`;
 
+    /*
+      Só entrega XP
+      na PRIMEIRA aprovação.
+    */
 
     if (
       !localStorage.getItem(
         key
       )
     ) {
-
-      const currentXP =
-        Number(
-          localStorage.getItem(
-            "xp"
-          ) ||
-          0
-        );
-
-
-      localStorage.setItem(
-        "xp",
-        currentXP +
-        100
+      setXP(
+        getXP() + 100
       );
-
 
       localStorage.setItem(
         key,
         "1"
       );
-
     }
 
-
     sync();
-
 
     show(
       "progressPage"
     );
 
-  } else {
-
-    sync();
-
-
-    showReview();
-
+    return;
   }
 
+  sync();
+
+  showReview();
 }
 
 
@@ -1920,169 +1903,125 @@ function finishResult() {
 ========================================================= */
 
 function showReview() {
-
-  let storedErrors =
-    [];
-
+  let storedErrors = [];
 
   try {
-
     storedErrors =
       JSON.parse(
         localStorage.getItem(
           "errors"
-        ) ||
-        "[]"
+        ) || "[]"
       );
-
   } catch {
-
-    storedErrors =
-      [];
-
+    storedErrors = [];
   }
-
 
   const reviewList =
     document.getElementById(
       "reviewList"
     );
 
+  if (!reviewList) return;
 
-  if (
-    !reviewList
-  ) {
+  if (!storedErrors.length) {
+    reviewList.innerHTML = `
+      <div class="card">
+        Nenhum erro registrado.
+      </div>
+    `;
 
+    show("review");
     return;
-
   }
 
+  reviewList.innerHTML =
+    storedErrors
+      .map(
+        (item, index) => `
+          <div class="card reviewItem">
 
-  if (
-    !storedErrors.length
-  ) {
+            <p class="label">
+              AULA ${item.lesson}
+            </p>
 
-    reviewList.innerHTML =
-      `
-        <div class="card">
-          Nenhum erro registrado.
-        </div>
-      `;
+            <b>
+              ${index + 1}.
+              ${item.q}
+            </b>
 
-  } else {
+            ${
+              item.correctAnswer
+                ? `
+                  <p>
+                    <strong>
+                      Resposta correta:
+                    </strong>
 
-    reviewList.innerHTML =
-      storedErrors
-        .map(
-          (
-            item,
-            index
-          ) => {
+                    ${
+                      item.correctAnswer
+                    }
+                  </p>
+                `
+                : ""
+            }
 
-            return `
-              <div class="card reviewItem">
+            <p class="muted">
+              ${item.exp}
+            </p>
 
-                <b>
-                  ${index + 1}.
-                  ${item.q}
-                </b>
+          </div>
+        `
+      )
+      .join("");
 
-                <p class="muted">
-                  📚 Aula
-                  ${item.lesson}
-                </p>
-
-                <p>
-                  ${item.exp}
-                </p>
-
-              </div>
-            `;
-
-          }
-        )
-        .join("");
-
-  }
-
-
-  show(
-    "review"
-  );
-
+  show("review");
 }
 
 
 /* =========================================================
-   HISTÓRICO
+   HISTÓRICO DE TENTATIVAS
 ========================================================= */
 
 function updateHistory() {
-
-  let attempts =
-    [];
-
+  let attempts = [];
 
   try {
-
     attempts =
       JSON.parse(
         localStorage.getItem(
           "attemptHistory"
-        ) ||
-        "[]"
+        ) || "[]"
       );
-
   } catch {
-
-    attempts =
-      [];
-
+    attempts = [];
   }
-
 
   const history =
     document.getElementById(
       "history"
     );
 
+  if (!history) return;
 
-  if (
-    !history
-  ) {
-
-    return;
-
-  }
-
-
-  if (
-    !attempts.length
-  ) {
-
+  if (!attempts.length) {
     history.textContent =
       "Nenhuma tentativa registrada.";
 
-
     return;
-
   }
-
 
   history.innerHTML =
     attempts
       .map(
         attempt => {
-
           const result =
             attempt.passed
               ? "✅ APROVADO"
               : "❌ REFAZER";
 
-
           return `
             <div style="
-              padding:14px 0;
+              padding:16px 0;
               border-bottom:1px solid #21382f;
             ">
 
@@ -2117,11 +2056,97 @@ function updateHistory() {
 
             </div>
           `;
-
         }
       )
       .join("");
+}
 
+
+/* =========================================================
+   CONQUISTAS
+========================================================= */
+
+function updateAchievements() {
+  const p1 = isPassed(1);
+  const p2 = isPassed(2);
+  const p3 = isPassed(3);
+  const p4 = isPassed(4);
+
+  const aPass =
+    document.getElementById(
+      "aPass"
+    );
+
+  const aSecond =
+    document.getElementById(
+      "aSecond"
+    );
+
+  const aThird =
+    document.getElementById(
+      "aThird"
+    );
+
+  const aReader =
+    document.getElementById(
+      "aReader"
+    );
+
+  const aThirdPass =
+    document.getElementById(
+      "aThirdPass"
+    );
+
+  const aFourth =
+    document.getElementById(
+      "aFourth"
+    );
+
+  const aFourthPass =
+    document.getElementById(
+      "aFourthPass"
+    );
+
+  if (p1 && aPass) {
+    aPass.textContent =
+      "✅ Aprovado na primeira aula";
+  }
+
+  if (p1 && aSecond) {
+    aSecond.textContent =
+      "✅ Desbloqueei a Aula 02";
+  }
+
+  if (p2 && aThird) {
+    aThird.textContent =
+      "✅ Desbloqueei a Aula 03";
+  }
+
+  if (
+    (
+      isReadingDone(3) ||
+      isReadingDone(4)
+    ) &&
+    aReader
+  ) {
+    aReader.textContent =
+      "✅ Concluí uma aula em modo leitura";
+  }
+
+  if (p3 && aThirdPass) {
+    aThirdPass.textContent =
+      "✅ Aprovado na Aula 03";
+  }
+
+  if (p3 && aFourth) {
+    aFourth.textContent =
+      "✅ Desbloqueei a Aula 04";
+  }
+
+  if (p4 && aFourthPass) {
+    aFourthPass.textContent =
+      "✅ Aprovado na Aula 04";
+  }
 }
 
 
@@ -2130,299 +2155,124 @@ function updateHistory() {
 ========================================================= */
 
 function sync() {
-
-  const currentXP =
-    Number(
-      localStorage.getItem(
-        "xp"
-      ) ||
-      0
-    );
-
-
-  const p1 =
-    !!localStorage.getItem(
-      "passed1"
-    );
-
-
-  const p2 =
-    !!localStorage.getItem(
-      "passed2"
-    );
-
-
-  const p3 =
-    !!localStorage.getItem(
-      "passed3"
-    );
-
+  const p1 = isPassed(1);
+  const p2 = isPassed(2);
+  const p3 = isPassed(3);
+  const p4 = isPassed(4);
 
   const passedCount =
-    (
-      p1
-        ? 1
-        : 0
-    ) +
-    (
-      p2
-        ? 1
-        : 0
-    ) +
-    (
-      p3
-        ? 1
-        : 0
-    );
-
+    (p1 ? 1 : 0) +
+    (p2 ? 1 : 0) +
+    (p3 ? 1 : 0) +
+    (p4 ? 1 : 0);
 
   /*
-    Por enquanto cada aula
-    vale 20% da primeira trilha.
+    Mantemos 20% por aula
+    nesta primeira trilha.
+
+    Aula 01 = 20%
+    Aula 02 = 40%
+    Aula 03 = 60%
+    Aula 04 = 80%
+    Aula 05 = 100%
   */
 
   const progress =
-    passedCount *
-    20;
-
-
-  /* XP */
-
+    Math.min(
+      100,
+      passedCount * 20
+    );
 
   const xp =
     document.getElementById(
       "xp"
     );
 
-
-  if (
-    xp
-  ) {
-
+  if (xp) {
     xp.textContent =
-      currentXP;
-
+      getXP();
   }
-
-
-  /* MISSÕES */
-
 
   const missions =
     document.getElementById(
       "missions"
     );
 
-
-  if (
-    missions
-  ) {
-
+  if (missions) {
     missions.textContent =
       passedCount;
-
   }
-
-
-  /* PROGRESSO GERAL */
-
 
   const general =
     document.getElementById(
       "general"
     );
 
-
-  if (
-    general
-  ) {
-
+  if (general) {
     general.textContent =
       `${progress}%`;
-
   }
-
-
-  /* PORTUGUÊS */
-
 
   const pPct =
     document.getElementById(
       "pPct"
     );
 
-
-  if (
-    pPct
-  ) {
-
+  if (pPct) {
     pPct.textContent =
       `${progress}%`;
-
   }
-
 
   const pbar =
     document.getElementById(
       "pbar"
     );
 
-
-  if (
-    pbar
-  ) {
-
+  if (pbar) {
     pbar.style.width =
       `${progress}%`;
-
-  }
-
-
-  /* CONQUISTAS */
-
-
-  if (
-    p1
-  ) {
-
-    const aPass =
-      document.getElementById(
-        "aPass"
-      );
-
-
-    if (
-      aPass
-    ) {
-
-      aPass.textContent =
-        "✅ Aprovado na primeira aula";
-
-    }
-
-
-    const aSecond =
-      document.getElementById(
-        "aSecond"
-      );
-
-
-    if (
-      aSecond
-    ) {
-
-      aSecond.textContent =
-        "✅ Desbloqueei a Aula 02";
-
-    }
-
-  }
-
-
-  if (
-    p2
-  ) {
-
-    const aThird =
-      document.getElementById(
-        "aThird"
-      );
-
-
-    if (
-      aThird
-    ) {
-
-      aThird.textContent =
-        "✅ Desbloqueei a Aula 03";
-
-    }
-
-  }
-
-
-  if (
-    p3
-  ) {
-
-    const aThirdPass =
-      document.getElementById(
-        "aThirdPass"
-      );
-
-
-    if (
-      aThirdPass
-    ) {
-
-      aThirdPass.textContent =
-        "✅ Aprovado na Aula 03";
-
-    }
-
   }
 
 
   /* CADERNO DE ERROS */
 
-
-  let storedErrors =
-    [];
-
+  let storedErrors = [];
 
   try {
-
     storedErrors =
       JSON.parse(
         localStorage.getItem(
           "errors"
-        ) ||
-        "[]"
+        ) || "[]"
       );
-
   } catch {
-
-    storedErrors =
-      [];
-
+    storedErrors = [];
   }
-
 
   const errorBook =
     document.getElementById(
       "errorBook"
     );
 
-
-  if (
-    errorBook
-  ) {
-
+  if (errorBook) {
     errorBook.textContent =
       storedErrors.length
         ? `${storedErrors.length} erro(s) salvo(s) para revisão.`
         : "Nenhum erro registrado.";
-
   }
-
-
-  /* ATUALIZAÇÕES */
 
 
   updateMainMission();
 
-
   updateNextMission();
-
 
   updateSubjects();
 
-
   updateReading3();
-
 
   updateHistory();
 
+  updateAchievements();
 }
 
 
