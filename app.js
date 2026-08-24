@@ -145,8 +145,7 @@ function show(id) {
     );
   });
 
-  /* Atualiza os dados sempre que abrir progresso */
-  if (id === "progressPage") {
+  if (id === "home" || id === "progressPage" || id === "subjects") {
     sync();
   }
 
@@ -154,11 +153,233 @@ function show(id) {
 }
 
 /* =========================
-   INICIAR PROVA
+   MISSÃO PRINCIPAL
+========================= */
+
+function updateMainMission() {
+  const passed1 =
+    !!localStorage.getItem("passed1");
+
+  const passed2 =
+    !!localStorage.getItem("passed2");
+
+  /*
+    No HTML atual existem 3 cards diretos:
+    1 = apresentação
+    2 = missão de hoje
+    3 = próxima missão
+  */
+
+  const homeCards =
+    document.querySelectorAll("#home > .card");
+
+  const missionCard =
+    homeCards[1];
+
+  if (!missionCard) return;
+
+  const title =
+    missionCard.querySelector("h2");
+
+  const paragraphs =
+    missionCard.querySelectorAll("p");
+
+  const topic =
+    paragraphs.length > 1
+      ? paragraphs[1]
+      : null;
+
+  const button =
+    missionCard.querySelector("button");
+
+  /*
+    AULA 01 AINDA NÃO APROVADA
+  */
+
+  if (!passed1) {
+    if (title) {
+      title.textContent =
+        "📖 Português";
+    }
+
+    if (topic) {
+      topic.textContent =
+        "Interpretação de texto • Aula 01";
+    }
+
+    if (button) {
+      button.textContent =
+        "COMEÇAR MISSÃO ▶";
+
+      button.disabled = false;
+
+      button.onclick =
+        () => show("lesson1");
+    }
+
+    return;
+  }
+
+  /*
+    AULA 01 APROVADA
+    AULA 02 AINDA NÃO APROVADA
+  */
+
+  if (passed1 && !passed2) {
+    if (title) {
+      title.textContent =
+        "📖 Português";
+    }
+
+    if (topic) {
+      topic.textContent =
+        "Ideia principal e inferência • Aula 02";
+    }
+
+    if (button) {
+      button.textContent =
+        "COMEÇAR MISSÃO ▶";
+
+      button.disabled = false;
+
+      button.onclick =
+        () => show("lesson2");
+    }
+
+    return;
+  }
+
+  /*
+    AULA 01 E AULA 02 APROVADAS
+  */
+
+  if (passed1 && passed2) {
+    if (title) {
+      title.textContent =
+        "✅ Português";
+    }
+
+    if (topic) {
+      topic.textContent =
+        "Aulas 01 e 02 concluídas";
+    }
+
+    if (button) {
+      button.textContent =
+        "PRÓXIMA AULA EM PREPARAÇÃO";
+
+      button.disabled = true;
+
+      button.onclick = null;
+    }
+  }
+}
+
+/* =========================
+   PRÓXIMA MISSÃO
+========================= */
+
+function updateNextMission() {
+  const passed1 =
+    !!localStorage.getItem("passed1");
+
+  const passed2 =
+    !!localStorage.getItem("passed2");
+
+  const title =
+    document.getElementById("nextMissionTitle");
+
+  const text =
+    document.getElementById("nextMissionText");
+
+  const button =
+    document.getElementById("nextMissionBtn");
+
+  /*
+    AULA 01 NÃO PASSOU
+  */
+
+  if (!passed1) {
+    if (title) {
+      title.textContent =
+        "🔒 Aula 02 bloqueada";
+    }
+
+    if (text) {
+      text.textContent =
+        "Acerte pelo menos 70% na Aula 01 para desbloquear.";
+    }
+
+    if (button) {
+      button.textContent =
+        "BLOQUEADA";
+
+      button.disabled = true;
+    }
+
+    return;
+  }
+
+  /*
+    AULA 01 PASSOU
+    AULA 02 É A MISSÃO ATUAL
+
+    Então o card de próxima missão
+    passa a mostrar a Aula 03.
+  */
+
+  if (passed1 && !passed2) {
+    if (title) {
+      title.textContent =
+        "🔒 Aula 03 bloqueada";
+    }
+
+    if (text) {
+      text.textContent =
+        "Conclua a Aula 02 com pelo menos 70% para avançar.";
+    }
+
+    if (button) {
+      button.textContent =
+        "BLOQUEADA";
+
+      button.disabled = true;
+    }
+
+    return;
+  }
+
+  /*
+    AULA 02 APROVADA
+  */
+
+  if (passed2) {
+    if (title) {
+      title.textContent =
+        "🚧 Aula 03 em preparação";
+    }
+
+    if (text) {
+      text.textContent =
+        "Você concluiu a trilha disponível até agora.";
+    }
+
+    if (button) {
+      button.textContent =
+        "EM BREVE";
+
+      button.disabled = true;
+    }
+  }
+}
+
+/* =========================
+   INICIAR QUIZ
 ========================= */
 
 function startQuiz(lesson) {
-  currentLesson = lesson;
+  currentLesson =
+    lesson;
 
   questions =
     lesson === 1
@@ -184,48 +405,33 @@ function backToLesson() {
 }
 
 /* =========================
-   MOSTRAR QUESTÃO
+   QUESTÃO
 ========================= */
 
 function renderQ() {
-  answered = false;
+  answered =
+    false;
 
-  const q = questions[qi];
+  const q =
+    questions[qi];
 
-  const qnum =
-    document.getElementById("qnum");
+  document.getElementById("qnum").textContent =
+    `QUESTÃO ${qi + 1} DE ${questions.length}`;
 
-  const scoreNow =
-    document.getElementById("scoreNow");
+  document.getElementById("scoreNow").textContent =
+    `${score} acertos`;
 
-  const qbar =
-    document.getElementById("qbar");
+  document.getElementById("qbar").style.width =
+    `${((qi + 1) / questions.length) * 100}%`;
 
-  const qtext =
-    document.getElementById("qtext");
+  document.getElementById("qtext").textContent =
+    q.q;
 
   const answersBox =
     document.getElementById("answers");
 
-  const feedback =
-    document.getElementById("feedback");
-
-  const next =
-    document.getElementById("next");
-
-  qnum.textContent =
-    `QUESTÃO ${qi + 1} DE ${questions.length}`;
-
-  scoreNow.textContent =
-    `${score} acertos`;
-
-  qbar.style.width =
-    `${((qi + 1) / questions.length) * 100}%`;
-
-  qtext.textContent =
-    q.q;
-
-  answersBox.innerHTML = "";
+  answersBox.innerHTML =
+    "";
 
   q.a.forEach((text, index) => {
     const button =
@@ -243,11 +449,13 @@ function renderQ() {
     answersBox.appendChild(button);
   });
 
-  feedback.classList.add("hidden");
+  document.getElementById("feedback")
+    .classList.add("hidden");
 
-  next.classList.add("hidden");
+  document.getElementById("next")
+    .classList.add("hidden");
 
-  next.textContent =
+  document.getElementById("next").textContent =
     qi === questions.length - 1
       ? "VER RESULTADO"
       : "PRÓXIMA";
@@ -260,7 +468,8 @@ function renderQ() {
 function answer(index, button) {
   if (answered) return;
 
-  answered = true;
+  answered =
+    true;
 
   const q =
     questions[qi];
@@ -270,18 +479,25 @@ function answer(index, button) {
   ];
 
   buttons.forEach(btn => {
-    btn.disabled = true;
+    btn.disabled =
+      true;
   });
 
   if (index === q.c) {
     score++;
 
-    button.classList.add("ok");
+    button.classList.add(
+      "ok"
+    );
   } else {
-    button.classList.add("no");
+    button.classList.add(
+      "no"
+    );
 
     if (buttons[q.c]) {
-      buttons[q.c].classList.add("ok");
+      buttons[q.c].classList.add(
+        "ok"
+      );
     }
 
     errors.push({
@@ -291,8 +507,8 @@ function answer(index, button) {
     });
   }
 
-  document.getElementById("feedback")
-    .textContent = q.e;
+  document.getElementById("feedback").textContent =
+    q.e;
 
   document.getElementById("feedback")
     .classList.remove("hidden");
@@ -300,8 +516,8 @@ function answer(index, button) {
   document.getElementById("next")
     .classList.remove("hidden");
 
-  document.getElementById("scoreNow")
-    .textContent = `${score} acertos`;
+  document.getElementById("scoreNow").textContent =
+    `${score} acertos`;
 }
 
 /* =========================
@@ -337,34 +553,38 @@ function nextQ() {
 ========================= */
 
 function saveAttempt() {
-  let attempts = [];
+  let attempts =
+    [];
 
   try {
     attempts =
       JSON.parse(
         localStorage.getItem("attemptHistory") || "[]"
       );
-  } catch (error) {
-    attempts = [];
+  } catch {
+    attempts =
+      [];
   }
 
-  const attempt = {
+  attempts.unshift({
     lesson: currentLesson,
     pct: lastPct,
     score: score,
     total: questions.length,
     passed: lastPassed,
-    date: new Date().toLocaleDateString("pt-BR"),
-    time: new Date().toLocaleTimeString(
-      "pt-BR",
-      {
-        hour: "2-digit",
-        minute: "2-digit"
-      }
-    )
-  };
 
-  attempts.unshift(attempt);
+    date:
+      new Date().toLocaleDateString("pt-BR"),
+
+    time:
+      new Date().toLocaleTimeString(
+        "pt-BR",
+        {
+          hour: "2-digit",
+          minute: "2-digit"
+        }
+      )
+  });
 
   attempts =
     attempts.slice(0, 15);
@@ -374,17 +594,17 @@ function saveAttempt() {
     JSON.stringify(attempts)
   );
 
-  /* Salvar erros */
-
-  let storedErrors = [];
+  let storedErrors =
+    [];
 
   try {
     storedErrors =
       JSON.parse(
         localStorage.getItem("errors") || "[]"
       );
-  } catch (error) {
-    storedErrors = [];
+  } catch {
+    storedErrors =
+      [];
   }
 
   storedErrors = [
@@ -403,12 +623,10 @@ function saveAttempt() {
 ========================= */
 
 function renderResult() {
-  document.getElementById("resultPct")
-    .textContent =
+  document.getElementById("resultPct").textContent =
     `${lastPct}%`;
 
-  document.getElementById("resultScore")
-    .textContent =
+  document.getElementById("resultScore").textContent =
     `${score}/${questions.length}`;
 
   const circle =
@@ -418,20 +636,16 @@ function renderResult() {
     "circle";
 
   if (lastPassed) {
-    document.getElementById("resultTitle")
-      .textContent =
+    document.getElementById("resultTitle").textContent =
       "Missão aprovada 🟢";
 
-    document.getElementById("resultMsg")
-      .textContent =
+    document.getElementById("resultMsg").textContent =
       "Você atingiu o mínimo de 70% e pode avançar.";
 
-    document.getElementById("mastery")
-      .textContent =
+    document.getElementById("mastery").textContent =
       "DOMÍNIO: aprovado";
 
-    document.getElementById("resultAction")
-      .textContent =
+    document.getElementById("resultAction").textContent =
       "CONCLUIR E RECEBER XP";
   } else {
     circle.classList.add(
@@ -440,34 +654,34 @@ function renderResult() {
         : "fail"
     );
 
-    document.getElementById("resultTitle")
-      .textContent =
+    document.getElementById("resultTitle").textContent =
       lastPct >= 50
         ? "Quase lá 🟠"
         : "Vamos reforçar a base 🔴";
 
-    document.getElementById("resultMsg")
-      .textContent =
+    document.getElementById("resultMsg").textContent =
       "Você ainda não atingiu 70%. Seus erros foram salvos para revisão.";
 
-    document.getElementById("mastery")
-      .textContent =
+    document.getElementById("mastery").textContent =
       "DOMÍNIO: refazer conteúdo";
 
-    document.getElementById("resultAction")
-      .textContent =
+    document.getElementById("resultAction").textContent =
       "REVISAR E TENTAR NOVAMENTE";
   }
 }
 
 /* =========================
-   FINALIZAR RESULTADO
+   FINALIZAR
 ========================= */
 
 function finishResult() {
   if (lastPassed) {
     const key =
       `passed${currentLesson}`;
+
+    /*
+      XP somente na primeira aprovação
+    */
 
     if (!localStorage.getItem(key)) {
       const currentXP =
@@ -485,6 +699,10 @@ function finishResult() {
         "1"
       );
     }
+
+    /*
+      Aula 01 libera Aula 02
+    */
 
     if (currentLesson === 1) {
       localStorage.setItem(
@@ -504,19 +722,21 @@ function finishResult() {
 }
 
 /* =========================
-   CADERNO DE ERROS
+   REVISÃO
 ========================= */
 
 function showReview() {
-  let storedErrors = [];
+  let storedErrors =
+    [];
 
   try {
     storedErrors =
       JSON.parse(
         localStorage.getItem("errors") || "[]"
       );
-  } catch (error) {
-    storedErrors = [];
+  } catch {
+    storedErrors =
+      [];
   }
 
   const reviewList =
@@ -530,25 +750,23 @@ function showReview() {
   } else {
     reviewList.innerHTML =
       storedErrors
-        .map((item, index) => {
-          return `
-            <div class="card reviewItem">
+        .map((item, index) => `
+          <div class="card reviewItem">
 
-              <b>
-                ${index + 1}. ${item.q}
-              </b>
+            <b>
+              ${index + 1}. ${item.q}
+            </b>
 
-              <p class="muted">
-                📚 Aula ${item.lesson}
-              </p>
+            <p class="muted">
+              📚 Aula ${item.lesson}
+            </p>
 
-              <p class="muted">
-                ${item.exp}
-              </p>
+            <p class="muted">
+              ${item.exp}
+            </p>
 
-            </div>
-          `;
-        })
+          </div>
+        `)
         .join("");
   }
 
@@ -556,7 +774,7 @@ function showReview() {
 }
 
 /* =========================
-   ATUALIZAR PROGRESSO
+   PROGRESSO
 ========================= */
 
 function sync() {
@@ -581,8 +799,6 @@ function sync() {
   const progress =
     passedCount * 20;
 
-  /* XP */
-
   const xpEl =
     document.getElementById("xp");
 
@@ -590,8 +806,6 @@ function sync() {
     xpEl.textContent =
       currentXP;
   }
-
-  /* Missões */
 
   const missionsEl =
     document.getElementById("missions");
@@ -601,8 +815,6 @@ function sync() {
       passedCount;
   }
 
-  /* Progresso geral */
-
   const generalEl =
     document.getElementById("general");
 
@@ -610,8 +822,6 @@ function sync() {
     generalEl.textContent =
       `${progress}%`;
   }
-
-  /* Português */
 
   const pPctEl =
     document.getElementById("pPct");
@@ -629,7 +839,9 @@ function sync() {
       `${progress}%`;
   }
 
-  /* Status Aula 01 */
+  /*
+    STATUS DAS AULAS
+  */
 
   const status1 =
     document.getElementById("status1");
@@ -637,11 +849,9 @@ function sync() {
   if (status1) {
     status1.textContent =
       passed1
-        ? "✅ Aprovada"
+        ? "✅ Concluída"
         : "Em andamento";
   }
-
-  /* Status Aula 02 */
 
   const status2 =
     document.getElementById("status2");
@@ -649,54 +859,15 @@ function sync() {
   if (status2) {
     status2.textContent =
       passed2
-        ? "✅ Aprovada"
+        ? "✅ Concluída"
         : lesson2Unlocked
-        ? "🔓 Liberada"
+        ? "▶ Atual"
         : "🔒";
   }
 
-  /* Próxima missão */
-
-  const nextMissionTitle =
-    document.getElementById(
-      "nextMissionTitle"
-    );
-
-  const nextMissionText =
-    document.getElementById(
-      "nextMissionText"
-    );
-
-  const nextMissionBtn =
-    document.getElementById(
-      "nextMissionBtn"
-    );
-
-  if (nextMissionTitle) {
-    nextMissionTitle.textContent =
-      lesson2Unlocked
-        ? "🔓 Aula 02 liberada"
-        : "🔒 Aula 02 bloqueada";
-  }
-
-  if (nextMissionText) {
-    nextMissionText.textContent =
-      lesson2Unlocked
-        ? "Ideia principal e inferência já está disponível."
-        : "Acerte pelo menos 70% na Aula 01 para desbloquear.";
-  }
-
-  if (nextMissionBtn) {
-    nextMissionBtn.disabled =
-      !lesson2Unlocked;
-
-    nextMissionBtn.textContent =
-      lesson2Unlocked
-        ? "COMEÇAR AULA 02"
-        : "BLOQUEADA";
-  }
-
-  /* Conquistas */
+  /*
+    CONQUISTAS
+  */
 
   const aPass =
     document.getElementById("aPass");
@@ -716,19 +887,21 @@ function sync() {
     }
   }
 
-  /* =========================
-     HISTÓRICO
-  ========================= */
+  /*
+    HISTÓRICO
+  */
 
-  let attempts = [];
+  let attempts =
+    [];
 
   try {
     attempts =
       JSON.parse(
         localStorage.getItem("attemptHistory") || "[]"
       );
-  } catch (error) {
-    attempts = [];
+  } catch {
+    attempts =
+      [];
   }
 
   const historyBox =
@@ -740,64 +913,64 @@ function sync() {
         "Nenhuma tentativa registrada.";
     } else {
       historyBox.innerHTML =
-        attempts
-          .map(attempt => {
-            const result =
-              attempt.passed
-                ? "✅ APROVADO"
-                : "❌ REFAZER";
+        attempts.map(attempt => {
+          const result =
+            attempt.passed
+              ? "✅ APROVADO"
+              : "❌ REFAZER";
 
-            return `
-              <div style="
-                padding:14px 0;
-                border-bottom:1px solid #21382f;
-              ">
+          return `
+            <div style="
+              padding:14px 0;
+              border-bottom:1px solid #21382f;
+            ">
 
-                <b>
-                  📚 Aula ${attempt.lesson}
-                </b>
+              <b>
+                📚 Aula ${attempt.lesson}
+              </b>
 
-                <br><br>
+              <br><br>
 
-                Nota:
-                <b>${attempt.pct}%</b>
+              Nota:
+              <b>${attempt.pct}%</b>
 
+              •
+
+              ${attempt.score}/${attempt.total}
+
+              <br>
+
+              ${result}
+
+              <br>
+
+              <small>
+                ${attempt.date}
                 •
+                ${attempt.time}
+              </small>
 
-                ${attempt.score}/${attempt.total}
-
-                <br>
-
-                ${result}
-
-                <br>
-
-                <small>
-                  ${attempt.date}
-                  •
-                  ${attempt.time}
-                </small>
-
-              </div>
-            `;
-          })
-          .join("");
+            </div>
+          `;
+        }).join("");
     }
   }
 
-  /* =========================
-     ERROS
-  ========================= */
+  /*
+    CADERNO DE ERROS
+  */
 
-  let storedErrors = [];
+  let storedErrors =
+    [];
 
   try {
     storedErrors =
       JSON.parse(
         localStorage.getItem("errors") || "[]"
       );
-  } catch (error) {
-    storedErrors = [];
+  } catch {
+    storedErrors =
+      [];
   }
 
   const errorBook =
@@ -809,10 +982,18 @@ function sync() {
         ? `${storedErrors.length} erro(s) salvo(s) para revisão.`
         : "Nenhum erro registrado.";
   }
+
+  /*
+    ATUALIZA PAINEL PRINCIPAL
+  */
+
+  updateMainMission();
+
+  updateNextMission();
 }
 
 /* =========================
-   INICIALIZAÇÃO
+   INICIAR
 ========================= */
 
 sync();
