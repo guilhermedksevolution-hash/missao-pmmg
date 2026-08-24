@@ -14,145 +14,583 @@ const quiz2=[
 {q:"Para localizar a ideia principal, ajuda perguntar:",a:["Qual palavra é mais longa?","Qual é a mensagem central?","Quantas linhas há?","Quem publicou primeiro?"],c:1,e:"Perguntar pela mensagem central ajuda a encontrar a ideia principal."}
 ];
 
-let currentLesson=1,questions=[],qi=0,score=0,errors=[],answered=false,lastPassed=false,lastPct=0;
+let currentLesson=1;
+let questions=[];
+let qi=0;
+let score=0;
+let errors=[];
+let answered=false;
+let lastPassed=false;
+let lastPct=0;
 
 function show(id){
- document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));
- document.getElementById(id).classList.add("active");
- document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x.dataset.page===id));
- scrollTo(0,0)
+    document.querySelectorAll(".page").forEach(x=>{
+        x.classList.remove("active");
+    });
+
+    const page=document.getElementById(id);
+
+    if(page){
+        page.classList.add("active");
+    }
+
+    document.querySelectorAll("nav button").forEach(x=>{
+        x.classList.toggle("active",x.dataset.page===id);
+    });
+
+    scrollTo(0,0);
 }
 
 function startQuiz(lesson){
- currentLesson=lesson;
- questions=lesson===1?quiz1:quiz2;
- qi=0;score=0;errors=[];answered=false;
- show("quiz");renderQ()
+    currentLesson=lesson;
+
+    questions=lesson===1 ? quiz1 : quiz2;
+
+    qi=0;
+    score=0;
+    errors=[];
+    answered=false;
+
+    show("quiz");
+    renderQ();
 }
 
-function backToLesson(){show(currentLesson===1?"lesson1":"lesson2")}
+function backToLesson(){
+    show(currentLesson===1 ? "lesson1" : "lesson2");
+}
 
 function renderQ(){
- answered=false;
- let q=questions[qi];
- qnum.textContent=`QUESTÃO ${qi+1} DE ${questions.length}`;
- scoreNow.textContent=`${score} acertos`;
- qbar.style.width=`${(qi+1)/questions.length*100}%`;
- qtext.textContent=q.q;
- answers.innerHTML="";
- q.a.forEach((t,i)=>{
-   let b=document.createElement("button");
-   b.className="answer";
-   b.textContent=String.fromCharCode(65+i)+". "+t;
-   b.onclick=()=>answer(i,b);
-   answers.appendChild(b)
- });
- feedback.classList.add("hidden");
- next.classList.add("hidden");
- next.textContent=qi===questions.length-1?"VER RESULTADO":"PRÓXIMA"
+    answered=false;
+
+    let q=questions[qi];
+
+    document.getElementById("qnum").textContent=
+        `QUESTÃO ${qi+1} DE ${questions.length}`;
+
+    document.getElementById("scoreNow").textContent=
+        `${score} acertos`;
+
+    document.getElementById("qbar").style.width=
+        `${(qi+1)/questions.length*100}%`;
+
+    document.getElementById("qtext").textContent=q.q;
+
+    const answersBox=document.getElementById("answers");
+
+    answersBox.innerHTML="";
+
+    q.a.forEach((t,i)=>{
+
+        let b=document.createElement("button");
+
+        b.className="answer";
+
+        b.textContent=
+            String.fromCharCode(65+i)+". "+t;
+
+        b.onclick=()=>answer(i,b);
+
+        answersBox.appendChild(b);
+    });
+
+    document.getElementById("feedback")
+        .classList.add("hidden");
+
+    document.getElementById("next")
+        .classList.add("hidden");
+
+    document.getElementById("next").textContent=
+        qi===questions.length-1
+        ? "VER RESULTADO"
+        : "PRÓXIMA";
 }
 
 function answer(i,b){
- if(answered)return;
- answered=true;
- let q=questions[qi],bs=[...document.querySelectorAll(".answer")];
- bs.forEach(x=>x.disabled=true);
- if(i===q.c){score++;b.classList.add("ok")}
- else{b.classList.add("no");bs[q.c].classList.add("ok");errors.push({lesson:currentLesson,q:q.q,exp:q.e})}
- feedback.textContent=q.e;
- feedback.classList.remove("hidden");
- next.classList.remove("hidden");
- scoreNow.textContent=`${score} acertos`
+
+    if(answered)return;
+
+    answered=true;
+
+    let q=questions[qi];
+
+    let bs=[
+        ...document.querySelectorAll(".answer")
+    ];
+
+    bs.forEach(x=>x.disabled=true);
+
+    if(i===q.c){
+
+        score++;
+
+        b.classList.add("ok");
+
+    }else{
+
+        b.classList.add("no");
+
+        if(bs[q.c]){
+            bs[q.c].classList.add("ok");
+        }
+
+        errors.push({
+            lesson:currentLesson,
+            q:q.q,
+            exp:q.e
+        });
+    }
+
+    document.getElementById("feedback")
+        .textContent=q.e;
+
+    document.getElementById("feedback")
+        .classList.remove("hidden");
+
+    document.getElementById("next")
+        .classList.remove("hidden");
+
+    document.getElementById("scoreNow")
+        .textContent=`${score} acertos`;
 }
 
 function nextQ(){
- if(qi<questions.length-1){qi++;renderQ();return}
- lastPct=Math.round(score/questions.length*100);
- lastPassed=lastPct>=70;
- saveAttempt();
- renderResult();
- show("result")
+
+    if(qi<questions.length-1){
+
+        qi++;
+
+        renderQ();
+
+        return;
+    }
+
+    lastPct=Math.round(
+        score/questions.length*100
+    );
+
+    lastPassed=lastPct>=70;
+
+    saveAttempt();
+
+    renderResult();
+
+    show("result");
 }
 
 function saveAttempt(){
- let history=JSON.parse(localStorage.getItem("history")||"[]");
- history.unshift({lesson:currentLesson,pct:lastPct,passed:lastPassed,date:new Date().toLocaleDateString("pt-BR")});
- history=history.slice(0,8);
- localStorage.setItem("history",JSON.stringify(history));
- let stored=JSON.parse(localStorage.getItem("errors")||"[]");
- stored=[...errors,...stored].slice(0,20);
- localStorage.setItem("errors",JSON.stringify(stored))
+
+    let attempts=JSON.parse(
+        localStorage.getItem("history") || "[]"
+    );
+
+    attempts.unshift({
+
+        lesson:currentLesson,
+
+        pct:lastPct,
+
+        passed:lastPassed,
+
+        score:score,
+
+        total:questions.length,
+
+        date:new Date().toLocaleDateString("pt-BR"),
+
+        time:new Date().toLocaleTimeString(
+            "pt-BR",
+            {
+                hour:"2-digit",
+                minute:"2-digit"
+            }
+        )
+    });
+
+    attempts=attempts.slice(0,10);
+
+    localStorage.setItem(
+        "history",
+        JSON.stringify(attempts)
+    );
+
+    let storedErrors=JSON.parse(
+        localStorage.getItem("errors") || "[]"
+    );
+
+    storedErrors=[
+        ...errors,
+        ...storedErrors
+    ].slice(0,30);
+
+    localStorage.setItem(
+        "errors",
+        JSON.stringify(storedErrors)
+    );
 }
 
 function renderResult(){
- resultPct.textContent=lastPct+"%";
- resultScore.textContent=`${score}/${questions.length}`;
- document.querySelector(".circle").className="circle";
- if(lastPassed){
-   resultTitle.textContent="Missão aprovada 🟢";
-   resultMsg.textContent="Você atingiu o mínimo de 70% e pode avançar.";
-   mastery.textContent="DOMÍNIO: aprovado";
-   resultAction.textContent="CONCLUIR E RECEBER XP";
- }else{
-   document.querySelector(".circle").classList.add(lastPct>=50?"warn":"fail");
-   resultTitle.textContent=lastPct>=50?"Quase lá 🟠":"Vamos reforçar a base 🔴";
-   resultMsg.textContent="Você ainda não atingiu 70%. Seus erros foram salvos para revisão.";
-   mastery.textContent="DOMÍNIO: refazer conteúdo";
-   resultAction.textContent="REVISAR E TENTAR NOVAMENTE";
- }
+
+    document.getElementById("resultPct")
+        .textContent=lastPct+"%";
+
+    document.getElementById("resultScore")
+        .textContent=`${score}/${questions.length}`;
+
+    const circle=document.querySelector(".circle");
+
+    circle.className="circle";
+
+    if(lastPassed){
+
+        document.getElementById("resultTitle")
+            .textContent="Missão aprovada 🟢";
+
+        document.getElementById("resultMsg")
+            .textContent=
+            "Você atingiu o mínimo de 70% e pode avançar.";
+
+        document.getElementById("mastery")
+            .textContent="DOMÍNIO: aprovado";
+
+        document.getElementById("resultAction")
+            .textContent="CONCLUIR E RECEBER XP";
+
+    }else{
+
+        circle.classList.add(
+            lastPct>=50 ? "warn" : "fail"
+        );
+
+        document.getElementById("resultTitle")
+            .textContent=
+            lastPct>=50
+            ? "Quase lá 🟠"
+            : "Vamos reforçar a base 🔴";
+
+        document.getElementById("resultMsg")
+            .textContent=
+            "Você ainda não atingiu 70%. Seus erros foram salvos para revisão.";
+
+        document.getElementById("mastery")
+            .textContent=
+            "DOMÍNIO: refazer conteúdo";
+
+        document.getElementById("resultAction")
+            .textContent=
+            "REVISAR E TENTAR NOVAMENTE";
+    }
 }
 
 function finishResult(){
- if(lastPassed){
-   const key="passed"+currentLesson;
-   if(!localStorage.getItem(key)){
-     localStorage.setItem("xp",Number(localStorage.getItem("xp")||0)+100);
-     localStorage.setItem(key,"1");
-   }
-   if(currentLesson===1)localStorage.setItem("lesson2Unlocked","1");
-   sync();
-   show("progressPage");
- }else{
-   sync();
-   show("review");
-   showReview()
- }
+
+    if(lastPassed){
+
+        const key="passed"+currentLesson;
+
+        if(!localStorage.getItem(key)){
+
+            let currentXP=Number(
+                localStorage.getItem("xp") || 0
+            );
+
+            localStorage.setItem(
+                "xp",
+                currentXP+100
+            );
+
+            localStorage.setItem(
+                key,
+                "1"
+            );
+        }
+
+        if(currentLesson===1){
+
+            localStorage.setItem(
+                "lesson2Unlocked",
+                "1"
+            );
+        }
+
+        sync();
+
+        show("progressPage");
+
+    }else{
+
+        sync();
+
+        showReview();
+    }
 }
 
 function showReview(){
- const e=JSON.parse(localStorage.getItem("errors")||"[]");
- reviewList.innerHTML=e.length?e.map((x,i)=>`<div class="card reviewItem"><b>${i+1}. ${x.q}</b><p class="muted">${x.exp}</p></div>`).join(""):'<div class="card">Nenhum erro registrado.</div>';
- show("review")
+
+    const e=JSON.parse(
+        localStorage.getItem("errors") || "[]"
+    );
+
+    const reviewList=
+        document.getElementById("reviewList");
+
+    reviewList.innerHTML=e.length
+
+    ? e.map((x,i)=>`
+
+        <div class="card reviewItem">
+
+            <b>
+                ${i+1}. ${x.q}
+            </b>
+
+            <p class="muted">
+                Aula ${x.lesson}
+            </p>
+
+            <p class="muted">
+                ${x.exp}
+            </p>
+
+        </div>
+
+    `).join("")
+
+    : '<div class="card">Nenhum erro registrado.</div>';
+
+    show("review");
 }
 
 function sync(){
- let x=Number(localStorage.getItem("xp")||0);
- let p1=!!localStorage.getItem("passed1");
- let p2=!!localStorage.getItem("passed2");
- let unlocked=!!localStorage.getItem("lesson2Unlocked");
- let passedCount=(p1?1:0)+(p2?1:0);
- let progress=passedCount*20;
 
- xp.textContent=x;
- missions.textContent=passedCount;
- general.textContent=progress+"%";
- pPct.textContent=progress+"%";
- pbar.style.width=progress+"%";
+    let x=Number(
+        localStorage.getItem("xp") || 0
+    );
 
- status1.textContent=p1?"✅ Aprovada":"Em andamento";
- status2.textContent=p2?"✅ Aprovada":unlocked?"🔓 Liberada":"🔒";
+    let p1=
+        !!localStorage.getItem("passed1");
 
- nextMissionTitle.textContent=unlocked?"🔓 Aula 02 liberada":"🔒 Aula 02 bloqueada";
- nextMissionText.textContent=unlocked?"Ideia principal e inferência já está disponível.":"Acerte pelo menos 70% na Aula 01 para desbloquear.";
- nextMissionBtn.disabled=!unlocked;
- nextMissionBtn.textContent=unlocked?"COMEÇAR AULA 02":"BLOQUEADA";
+    let p2=
+        !!localStorage.getItem("passed2");
 
- if(p1){aPass.textContent="✅ Aprovado na primeira aula";aSecond.textContent="✅ Desbloqueei a Aula 02"}
+    let unlocked=
+        !!localStorage.getItem("lesson2Unlocked");
 
- const h=JSON.parse(localStorage.getItem("history")||"[]");
- history.innerHTML=h.length?h.map(x=>`Aula ${x.lesson}: <b>${x.pct}%</b> • ${x.passed?"✅ aprovado":"❌ refazer"} • ${x.date}`).join("<br><br>"):"Nenhuma tentativa registrada.";
+    let passedCount=
+        (p1?1:0)+(p2?1:0);
 
- const e=JSON.parse(localStorage.getItem("errors")||"[]");
- errorBook.innerHTML=e.length?`${e.length} erro(s) salvo(s) para revisão.`:"Nenhum erro registrado."
+    let progress=
+        passedCount*20;
+
+    const xpEl=document.getElementById("xp");
+
+    if(xpEl){
+        xpEl.textContent=x;
+    }
+
+    const missionsEl=
+        document.getElementById("missions");
+
+    if(missionsEl){
+        missionsEl.textContent=passedCount;
+    }
+
+    const generalEl=
+        document.getElementById("general");
+
+    if(generalEl){
+        generalEl.textContent=progress+"%";
+    }
+
+    const pPctEl=
+        document.getElementById("pPct");
+
+    if(pPctEl){
+        pPctEl.textContent=progress+"%";
+    }
+
+    const pbarEl=
+        document.getElementById("pbar");
+
+    if(pbarEl){
+        pbarEl.style.width=progress+"%";
+    }
+
+    const status1El=
+        document.getElementById("status1");
+
+    if(status1El){
+
+        status1El.textContent=
+            p1
+            ? "✅ Aprovada"
+            : "Em andamento";
+    }
+
+    const status2El=
+        document.getElementById("status2");
+
+    if(status2El){
+
+        status2El.textContent=
+            p2
+            ? "✅ Aprovada"
+            : unlocked
+            ? "🔓 Liberada"
+            : "🔒";
+    }
+
+    const nextMissionTitle=
+        document.getElementById(
+            "nextMissionTitle"
+        );
+
+    const nextMissionText=
+        document.getElementById(
+            "nextMissionText"
+        );
+
+    const nextMissionBtn=
+        document.getElementById(
+            "nextMissionBtn"
+        );
+
+    if(nextMissionTitle){
+
+        nextMissionTitle.textContent=
+            unlocked
+            ? "🔓 Aula 02 liberada"
+            : "🔒 Aula 02 bloqueada";
+    }
+
+    if(nextMissionText){
+
+        nextMissionText.textContent=
+            unlocked
+            ? "Ideia principal e inferência já está disponível."
+            : "Acerte pelo menos 70% na Aula 01 para desbloquear.";
+    }
+
+    if(nextMissionBtn){
+
+        nextMissionBtn.disabled=!unlocked;
+
+        nextMissionBtn.textContent=
+            unlocked
+            ? "COMEÇAR AULA 02"
+            : "BLOQUEADA";
+    }
+
+    const aPass=
+        document.getElementById("aPass");
+
+    const aSecond=
+        document.getElementById("aSecond");
+
+    if(p1){
+
+        if(aPass){
+            aPass.textContent=
+                "✅ Aprovado na primeira aula";
+        }
+
+        if(aSecond){
+            aSecond.textContent=
+                "✅ Desbloqueei a Aula 02";
+        }
+    }
+
+    /*
+       CORREÇÃO PRINCIPAL:
+       não usamos mais "history.innerHTML",
+       porque "history" também é um objeto
+       interno do navegador.
+    */
+
+    const historyBox=
+        document.getElementById("history");
+
+    const attempts=JSON.parse(
+        localStorage.getItem("history") || "[]"
+    );
+
+    if(historyBox){
+
+        if(attempts.length){
+
+            historyBox.innerHTML=
+                attempts.map(attempt=>{
+
+                    const result=
+                        attempt.passed
+                        ? "✅ aprovado"
+                        : "❌ refazer";
+
+                    const scoreText=
+                        attempt.score!==undefined
+                        ? `${attempt.score}/${attempt.total}`
+                        : "";
+
+                    const timeText=
+                        attempt.time
+                        ? ` • ${attempt.time}`
+                        : "";
+
+                    return `
+                        <div style="
+                            padding:12px 0;
+                            border-bottom:1px solid #21382f;
+                        ">
+
+                            <b>
+                                📚 Aula ${attempt.lesson}
+                            </b>
+
+                            <br>
+
+                            Nota:
+                            <b>${attempt.pct}%</b>
+
+                            ${scoreText
+                                ? ` • ${scoreText}`
+                                : ""
+                            }
+
+                            <br>
+
+                            ${result}
+
+                            <br>
+
+                            <small>
+                                ${attempt.date}${timeText}
+                            </small>
+
+                        </div>
+                    `;
+
+                }).join("");
+
+        }else{
+
+            historyBox.textContent=
+                "Nenhuma tentativa registrada.";
+        }
+    }
+
+    const storedErrors=JSON.parse(
+        localStorage.getItem("errors") || "[]"
+    );
+
+    const errorBook=
+        document.getElementById("errorBook");
+
+    if(errorBook){
+
+        errorBook.innerHTML=
+            storedErrors.length
+            ? `${storedErrors.length} erro(s) salvo(s) para revisão.`
+            : "Nenhum erro registrado.";
+    }
 }
+
 sync();
