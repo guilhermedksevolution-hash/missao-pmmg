@@ -2,52 +2,41 @@
 <html lang="pt-BR">
 
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
-<meta
-name="viewport"
-content="width=device-width,initial-scale=1"
->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
 
-<title>
-Missão PMMG v0.5
-</title>
+  <meta name="theme-color" content="#04120d">
 
-<link
-rel="stylesheet"
-href="style.css"
->
+  <title>Missão PMMG v0.5</title>
 
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
+
 
 <body>
 
 <div class="app">
 
+<!-- ==========================================
+     CABEÇALHO
+=========================================== -->
+
 <header>
 
   <div>
-
-    <small>
-      PREPARAÇÃO PARA SOLDADO
-    </small>
+    <small>PREPARAÇÃO PARA SOLDADO</small>
 
     <b>
       MISSÃO <i>PMMG</i>
     </b>
-
   </div>
 
   <span class="xp">
-
-    ⭐
-
-    <span id="xp">
-      0
-    </span>
-
-    XP
-
+    ⭐ <span id="xp">0</span> XP
   </span>
 
 </header>
@@ -56,14 +45,11 @@ href="style.css"
 <main>
 
 
-<!-- =========================
+<!-- ==========================================
      INÍCIO
-========================= -->
+=========================================== -->
 
-<section
-id="home"
-class="page active"
->
+<section id="home" class="page active">
 
   <div class="hero card">
 
@@ -76,7 +62,8 @@ class="page active"
     </h1>
 
     <p>
-      Leia, aprenda, faça a prova e só avance quando realmente dominar o conteúdo.
+      Leia, aprenda, faça a prova e só avance
+      quando realmente dominar o conteúdo.
     </p>
 
   </div>
@@ -127,22 +114,20 @@ class="page active"
 
   <!-- MISSÃO ATUAL -->
 
-  <div
-  class="card"
-  id="mainMissionCard"
-  >
+  <div class="card" id="mainMissionCard">
 
     <p class="label">
       MISSÃO DE HOJE
     </p>
 
-    <h2 id="mainMissionSubject">
+    <h2 id="mainMissionTitle">
       📖 Português
     </h2>
 
     <p id="mainMissionTopic">
       Interpretação de texto • Aula 01
     </p>
+
 
     <div class="chips">
 
@@ -160,11 +145,12 @@ class="page active"
 
     </div>
 
+
     <button
-    id="mainMissionBtn"
-    onclick="show('lesson1')"
+      id="mainMissionBtn"
+      onclick="show('lesson1')"
     >
-      COMEÇAR MISSÃO ▶
+      COMEÇAR LEITURA ▶
     </button>
 
   </div>
@@ -183,16 +169,18 @@ class="page active"
     </h3>
 
     <p
-    id="nextMissionText"
-    class="muted"
+      id="nextMissionText"
+      class="muted"
     >
-      Acerte pelo menos 70% na Aula 01 para desbloquear.
+      Acerte pelo menos 70% na Aula 01
+      para desbloquear.
     </p>
 
     <button
-    id="nextMissionBtn"
-    class="secondary"
-    disabled
+      id="nextMissionBtn"
+      class="secondary"
+      disabled
+      onclick="show('lesson2')"
     >
       BLOQUEADA
     </button>
@@ -203,17 +191,14 @@ class="page active"
 
 
 
-<!-- =========================
+<!-- ==========================================
      MATÉRIAS
-========================= -->
+=========================================== -->
 
-<section
-id="subjects"
-class="page"
->
+<section id="subjects" class="page">
 
   <p class="label">
-    TRILHA
+    TRILHA DE ESTUDOS
   </p>
 
   <h1>
@@ -221,7 +206,12 @@ class="page"
   </h1>
 
 
-  <div class="card subject">
+  <!-- AULA 01 -->
+
+  <div
+    class="card subject"
+    onclick="show('lesson1')"
+  >
 
     <div>
 
@@ -242,7 +232,12 @@ class="page"
   </div>
 
 
-  <div class="card subject">
+  <!-- AULA 02 -->
+
+  <div
+    class="card subject"
+    id="subject2"
+  >
 
     <div>
 
@@ -263,7 +258,12 @@ class="page"
   </div>
 
 
-  <div class="card subject">
+  <!-- AULA 03 -->
+
+  <div
+    class="card subject"
+    id="subject3"
+  >
 
     <div>
 
@@ -284,21 +284,24 @@ class="page"
   </div>
 
 
+  <!-- AULAS FUTURAS -->
+
   <div class="card subject locked">
 
     <div>
 
       <b>
-        📕 Aula 04
+        🎓 Próximas aulas
       </b>
 
       <small>
-        Próximo conteúdo da trilha
+        Novos conteúdos serão liberados
+        conforme o avanço da trilha.
       </small>
 
     </div>
 
-    <strong id="status4">
+    <strong>
       🔒
     </strong>
 
@@ -308,21 +311,19 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      AULA 01
-========================= -->
+=========================================== -->
 
-<section
-id="lesson1"
-class="page"
->
+<section id="lesson1" class="page">
 
   <button
-  class="back"
-  onclick="show('subjects')"
+    class="back"
+    onclick="show('home')"
   >
-    ← Matérias
+    ← Início
   </button>
+
 
   <p class="label">
     PORTUGUÊS • AULA 01
@@ -340,36 +341,95 @@ class="page"
     </h2>
 
     <p>
-      Interpretar é entender a mensagem construída pelo texto.
-      Em uma prova, a alternativa correta precisa estar sustentada
-      pelo que foi apresentado.
+      Interpretar um texto significa compreender
+      a mensagem construída pelo autor a partir
+      das informações apresentadas.
+    </p>
+
+    <p>
+      Em uma questão de prova, a resposta correta
+      não deve ser escolhida apenas porque parece
+      verdadeira na vida real.
+    </p>
+
+    <p>
+      Ela precisa possuir sustentação no texto
+      apresentado pela questão.
     </p>
 
 
     <h2>
-      2. Procure sempre
+      2. Informação explícita
+    </h2>
+
+    <p>
+      Uma informação explícita aparece diretamente
+      no texto.
+    </p>
+
+    <p>
+      Nesse tipo de questão, o candidato precisa
+      localizar aquilo que efetivamente foi
+      informado.
+    </p>
+
+
+    <h2>
+      3. Cuidado com a opinião pessoal
+    </h2>
+
+    <p>
+      Um dos erros mais comuns em interpretação
+      consiste em acrescentar ao texto informações
+      que não foram apresentadas.
+    </p>
+
+    <p>
+      O candidato deve separar aquilo que sabe
+      sobre o mundo daquilo que pode concluir
+      com base no texto.
+    </p>
+
+
+    <h2>
+      4. Ideia principal
+    </h2>
+
+    <p>
+      A ideia principal representa o núcleo
+      da mensagem.
+    </p>
+
+    <p>
+      As demais informações podem explicar,
+      exemplificar ou desenvolver essa ideia.
+    </p>
+
+
+    <h2>
+      5. Estratégia de prova
     </h2>
 
     <ul>
 
       <li>
-        o assunto;
+        Leia atentamente o comando.
       </li>
 
       <li>
-        a ideia principal;
+        Identifique o assunto.
       </li>
 
       <li>
-        a finalidade da mensagem;
+        Procure a ideia principal.
       </li>
 
       <li>
-        o que está explícito;
+        Observe palavras importantes.
       </li>
 
       <li>
-        o que pode ser concluído com segurança.
+        Volte ao texto antes de marcar.
       </li>
 
     </ul>
@@ -378,11 +438,12 @@ class="page"
     <div class="tip">
 
       <b>
-        ⚡ Regra de ouro
+        ⚡ REGRA DE OURO
       </b>
 
       <p>
-        Antes de marcar, pergunte:
+        Antes de marcar uma alternativa,
+        pergunte:
         “O texto realmente sustenta essa resposta?”
       </p>
 
@@ -391,9 +452,7 @@ class="page"
   </div>
 
 
-  <button
-  onclick="startQuiz(1)"
-  >
+  <button onclick="startQuiz(1)">
     IR PARA A PROVA DA AULA 01
   </button>
 
@@ -401,21 +460,19 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      AULA 02
-========================= -->
+=========================================== -->
 
-<section
-id="lesson2"
-class="page"
->
+<section id="lesson2" class="page">
 
   <button
-  class="back"
-  onclick="show('subjects')"
+    class="back"
+    onclick="show('subjects')"
   >
     ← Matérias
   </button>
+
 
   <p class="label">
     PORTUGUÊS • AULA 02
@@ -429,43 +486,98 @@ class="page"
   <div class="card lesson">
 
     <h2>
-      Ideia principal
+      1. Ideia principal
     </h2>
 
     <p>
-      É a mensagem central do texto:
-      aquilo que organiza as informações
-      ao redor de um ponto principal.
+      A ideia principal é a mensagem central
+      desenvolvida pelo texto.
+    </p>
+
+    <p>
+      Ela funciona como um núcleo ao redor
+      do qual as outras informações são
+      organizadas.
     </p>
 
 
     <h2>
-      Inferência
+      2. Informações secundárias
     </h2>
 
     <p>
-      É uma conclusão que o texto permite fazer,
-      mesmo sem dizer aquilo literalmente.
-      A inferência precisa ser lógica
-      e baseada em pistas do texto.
+      Nem toda informação possui a mesma
+      importância dentro de um texto.
+    </p>
+
+    <p>
+      Exemplos, explicações, dados e detalhes
+      podem servir para desenvolver uma ideia
+      mais importante.
+    </p>
+
+
+    <h2>
+      3. Inferência
+    </h2>
+
+    <p>
+      Inferência é uma conclusão que pode ser
+      construída a partir das pistas fornecidas
+      pelo texto.
+    </p>
+
+    <p>
+      A informação inferida não precisa aparecer
+      literalmente, mas deve possuir fundamento
+      textual.
     </p>
 
 
     <div class="tip">
 
       <b>
-        Exemplo
+        📖 EXEMPLO
       </b>
 
       <p>
         “O chão estava molhado e várias pessoas
-        entravam com guarda-chuvas.”
+        entravam carregando guarda-chuvas.”
       </p>
 
       <p>
-        Inferência segura:
-        provavelmente choveu
-        ou está chovendo.
+        Uma inferência possível é que provavelmente
+        choveu ou estava chovendo.
+      </p>
+
+    </div>
+
+
+    <h2>
+      4. Inferir não é inventar
+    </h2>
+
+    <p>
+      Uma inferência precisa nascer das evidências
+      presentes no texto.
+    </p>
+
+    <p>
+      Quando uma conclusão depende apenas da
+      imaginação do leitor, ela não representa
+      uma inferência segura.
+    </p>
+
+
+    <div class="tip">
+
+      <b>
+        ⚠️ ATENÇÃO NA PROVA
+      </b>
+
+      <p>
+        Pergunte sempre quais pistas do texto
+        sustentam determinada conclusão.
       </p>
 
     </div>
@@ -473,9 +585,7 @@ class="page"
   </div>
 
 
-  <button
-  onclick="startQuiz(2)"
-  >
+  <button onclick="startQuiz(2)">
     IR PARA A PROVA DA AULA 02
   </button>
 
@@ -483,19 +593,16 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      AULA 03
-     MODO LIVRO / APOSTILA
-========================= -->
+     MODO APOSTILA / LIVRO
+=========================================== -->
 
-<section
-id="lesson3"
-class="page"
->
+<section id="lesson3" class="page">
 
   <button
-  class="back"
-  onclick="show('subjects')"
+    class="back"
+    onclick="show('subjects')"
   >
     ← Matérias
   </button>
@@ -505,18 +612,18 @@ class="page"
     PORTUGUÊS • AULA 03
   </p>
 
-
   <h1>
     Tipos e gêneros textuais
   </h1>
 
 
   <p class="muted">
-    📚 Modo estudo • leia toda a aula antes de fazer a prova.
+    📚 Modo estudo • Leia toda a aula antes
+    de realizar a prova.
   </p>
 
 
-  <!-- PROGRESSO DE LEITURA -->
+  <!-- PROGRESSO DA LEITURA -->
 
   <div class="card">
 
@@ -526,26 +633,27 @@ class="page"
         📖 Progresso da leitura
       </b>
 
-      <strong id="readingPercent">
+      <strong id="readingPct3">
         0%
       </strong>
 
     </div>
 
+
     <div class="progress">
 
       <i
-      id="readingBar"
-      style="width:0%"
+        id="readingBar3"
+        style="width:0%"
       ></i>
 
     </div>
 
-    <p
-    class="muted"
-    id="readingStatus"
-    >
-      Comece pelo Capítulo 1.
+
+    <p class="muted">
+      Estude os capítulos com atenção.
+      A avaliação será liberada depois
+      da conclusão da leitura.
     </p>
 
   </div>
@@ -554,61 +662,83 @@ class="page"
 
   <!-- CAPÍTULO 1 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="1"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 1
     </p>
 
     <h2>
-      O que é tipologia textual?
+      Tipologia textual e gênero textual
     </h2>
 
+
     <p>
-      Quando estudamos um texto, podemos observar
-      a forma como ele foi construído.
+      Ao estudar textos, é fundamental distinguir
+      dois conceitos que podem aparecer muito
+      próximos: tipologia textual e gênero textual.
     </p>
 
     <p>
-      Um texto pode contar acontecimentos,
-      descrever características,
-      explicar uma ideia,
-      defender uma opinião
-      ou ensinar alguém a realizar alguma ação.
+      A tipologia textual está relacionada à
+      maneira predominante como determinado
+      texto ou sequência textual é organizado.
     </p>
 
     <p>
-      Essas formas básicas de organização
-      são chamadas de
-      <strong>tipos textuais</strong>.
+      Para reconhecer essa organização,
+      observamos elementos como finalidade,
+      estrutura, escolha das palavras,
+      organização das ideias e funcionamento
+      dos verbos.
     </p>
+
+    <p>
+      Entre as categorias tradicionalmente
+      estudadas estão narração, descrição,
+      exposição, argumentação e injunção.
+    </p>
+
+    <p>
+      O gênero textual, por outro lado,
+      corresponde a formas concretas de
+      comunicação utilizadas em diferentes
+      situações sociais.
+    </p>
+
+    <p>
+      Notícia, reportagem, receita,
+      anúncio, carta, e-mail, entrevista,
+      manual e artigo de opinião são exemplos
+      de gêneros.
+    </p>
+
 
     <div class="tip">
 
       <b>
-        💡 Guarde isto
+        ⚠️ ATENÇÃO NA PROVA
       </b>
 
       <p>
-        Tipo textual está relacionado
-        à maneira como o texto é organizado.
+        Não trate gênero e tipologia como
+        sinônimos.
+      </p>
+
+      <p>
+        Um gênero pode apresentar diferentes
+        sequências textuais dentro dele.
       </p>
 
     </div>
 
-  </article>
+  </div>
 
 
 
   <!-- CAPÍTULO 2 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="2"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 2
@@ -618,52 +748,108 @@ class="page"
       Narração
     </h2>
 
+
     <p>
-      A narração apresenta acontecimentos.
-      Normalmente existe uma sequência de fatos,
-      personagens, tempo e espaço.
+      A narração organiza acontecimentos,
+      fatos ou ações dentro de determinada
+      sequência.
     </p>
 
     <p>
-      É comum encontrarmos verbos indicando ações.
+      Normalmente existe algum tipo de
+      transformação entre uma situação
+      inicial e aquilo que acontece depois.
+    </p>
+
+    <p>
+      Em uma narrativa podem aparecer
+      personagens, narrador, tempo,
+      espaço e acontecimentos.
+    </p>
+
+
+    <h3>
+      Personagens
+    </h3>
+
+    <p>
+      São aqueles que participam dos
+      acontecimentos narrados.
+    </p>
+
+
+    <h3>
+      Narrador
+    </h3>
+
+    <p>
+      É a voz responsável por apresentar
+      os acontecimentos.
+    </p>
+
+
+    <h3>
+      Tempo
+    </h3>
+
+    <p>
+      Indica quando os acontecimentos
+      ocorrem ou como eles se organizam
+      temporalmente.
+    </p>
+
+
+    <h3>
+      Espaço
+    </h3>
+
+    <p>
+      Corresponde ao ambiente em que
+      os acontecimentos se desenvolvem.
     </p>
 
 
     <div class="tip">
 
       <b>
-        📖 Exemplo
+        📖 EXEMPLO
       </b>
 
       <p>
-        “João saiu cedo de casa,
-        entrou no ônibus
-        e chegou ao trabalho antes das oito horas.”
+        “O candidato chegou cedo ao local
+        da prova, apresentou o documento
+        ao fiscal e entrou na sala indicada.”
+      </p>
+
+      <p>
+        Existe uma sequência clara de ações:
+        chegar, apresentar e entrar.
       </p>
 
     </div>
 
 
-    <p>
-      Nesse trecho existe uma sequência:
-      João saiu, entrou e chegou.
-    </p>
+    <div class="tip">
 
-    <p>
-      Portanto, temos uma estrutura
-      predominantemente narrativa.
-    </p>
+      <b>
+        🎯 PISTA DE PROVA
+      </b>
 
-  </article>
+      <p>
+        Quando houver sucessão de
+        acontecimentos, investigue a
+        presença de uma sequência narrativa.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 3 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="3"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 3
@@ -673,54 +859,83 @@ class="page"
       Descrição
     </h2>
 
+
     <p>
       A descrição apresenta características
-      de pessoas, lugares, objetos,
-      situações ou ambientes.
+      de pessoas, objetos, ambientes,
+      situações ou outros elementos.
     </p>
 
     <p>
-      O objetivo é fazer o leitor
-      perceber como algo é.
+      Diferentemente da narração, o foco
+      não está necessariamente na sucessão
+      dos acontecimentos.
+    </p>
+
+    <p>
+      O objetivo pode ser mostrar como algo
+      é, estava ou parecia em determinado
+      contexto.
+    </p>
+
+    <p>
+      Adjetivos e outras expressões
+      caracterizadoras podem assumir
+      papel importante.
     </p>
 
 
     <div class="tip">
 
       <b>
-        📖 Exemplo
+        🔎 COMPARE
       </b>
 
       <p>
-        “A sala era ampla,
-        silenciosa,
-        bem iluminada
-        e possuía grandes janelas.”
+        “O homem entrou rapidamente
+        na sala.”
+      </p>
+
+      <p>
+        Há uma ação: entrou.
+      </p>
+
+      <p>
+        “A sala era ampla, silenciosa,
+        organizada e bem iluminada.”
+      </p>
+
+      <p>
+        O trecho concentra-se em
+        características do ambiente.
       </p>
 
     </div>
 
 
-    <p>
-      Perceba que o texto não está
-      contando uma sequência de acontecimentos.
-    </p>
+    <div class="tip">
 
-    <p>
-      Ele está apresentando
-      as características da sala.
-    </p>
+      <b>
+        ⚠️ PEGADINHA
+      </b>
 
-  </article>
+      <p>
+        Uma narrativa pode possuir trechos
+        descritivos. A existência de uma
+        descrição não significa necessariamente
+        que todo o texto seja predominantemente
+        descritivo.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 4 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="4"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 4
@@ -730,47 +945,67 @@ class="page"
       Exposição
     </h2>
 
+
     <p>
-      O texto expositivo apresenta
-      ou explica informações sobre determinado assunto.
+      A exposição possui como característica
+      importante a apresentação ou explicação
+      de informações e conceitos.
     </p>
 
     <p>
-      O foco principal é informar,
-      esclarecer ou desenvolver um conceito.
+      O texto pode definir determinado assunto,
+      explicar seu funcionamento, apresentar
+      dados ou organizar conhecimentos.
+    </p>
+
+    <p>
+      Sequências expositivas são comuns em
+      materiais didáticos, verbetes,
+      textos explicativos e materiais
+      informativos.
     </p>
 
 
     <div class="tip">
 
       <b>
-        📖 Exemplo
+        📖 EXEMPLO
       </b>
 
       <p>
-        “A água é composta por moléculas
-        formadas por dois átomos de hidrogênio
-        e um átomo de oxigênio.”
+        “A fotossíntese é o processo pelo qual
+        determinados organismos utilizam energia
+        luminosa para produzir matéria orgânica.”
+      </p>
+
+      <p>
+        O trecho apresenta uma explicação
+        de determinado conceito.
       </p>
 
     </div>
 
 
-    <p>
-      Nesse exemplo,
-      o objetivo principal é apresentar informação.
-    </p>
+    <div class="tip">
 
-  </article>
+      <b>
+        💡 PERGUNTE
+      </b>
+
+      <p>
+        O objetivo principal do trecho é
+        explicar ou apresentar informações?
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 5 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="5"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 5
@@ -780,57 +1015,83 @@ class="page"
       Argumentação
     </h2>
 
+
     <p>
-      No texto argumentativo,
-      existe uma ideia,
-      posição ou ponto de vista
-      que é defendido por meio de argumentos.
+      A argumentação está relacionada à
+      apresentação e sustentação de uma
+      ideia, posicionamento ou tese.
     </p>
 
     <p>
-      O autor tenta convencer
-      ou levar o leitor
-      a considerar determinada conclusão.
+      O autor pode utilizar diferentes
+      argumentos para levar o leitor a
+      considerar determinada posição
+      justificável ou convincente.
+    </p>
+
+
+    <h3>
+      Tese
+    </h3>
+
+    <p>
+      É a ideia ou posicionamento central
+      que está sendo defendido.
+    </p>
+
+
+    <h3>
+      Argumentos
+    </h3>
+
+    <p>
+      São razões, informações, exemplos
+      ou outras estratégias utilizadas
+      para sustentar a tese.
     </p>
 
 
     <div class="tip">
 
       <b>
-        📖 Exemplo
+        📖 EXEMPLO
       </b>
 
       <p>
-        “A prática regular de atividade física
-        deve ser incentivada,
-        pois contribui para a saúde
-        e para a qualidade de vida.”
+        “A leitura deve ser estimulada desde
+        cedo, pois amplia o vocabulário e
+        favorece o desenvolvimento da
+        compreensão textual.”
+      </p>
+
+      <p>
+        Existe um posicionamento acompanhado
+        de razões que procuram sustentá-lo.
       </p>
 
     </div>
 
 
-    <p>
-      Temos uma posição:
-      a atividade física deve ser incentivada.
-    </p>
+    <div class="tip">
 
-    <p>
-      Depois aparece uma justificativa:
-      ela contribui para a saúde
-      e qualidade de vida.
-    </p>
+      <b>
+        ⚠️ ATENÇÃO
+      </b>
 
-  </article>
+      <p>
+        Não confunda o argumento utilizado
+        pelo autor com a tese principal.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 6 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="6"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 6
@@ -840,373 +1101,574 @@ class="page"
       Injunção
     </h2>
 
+
     <p>
-      O texto injuntivo
-      apresenta instruções,
-      ordens,
-      orientações
-      ou etapas para realizar alguma coisa.
+      A sequência injuntiva procura orientar
+      o leitor em relação a uma ação,
+      procedimento ou comportamento.
+    </p>
+
+    <p>
+      É comum encontrá-la em instruções,
+      manuais, receitas, orientações e
+      determinados regulamentos.
+    </p>
+
+    <p>
+      Verbos empregados com sentido de
+      ordem, orientação, recomendação ou
+      instrução podem funcionar como pistas.
     </p>
 
 
     <div class="tip">
 
       <b>
-        📖 Exemplo
+        📖 EXEMPLO
       </b>
 
       <p>
-        “Abra o aplicativo,
-        digite seu usuário,
-        informe a senha
-        e toque em entrar.”
+        “Leia atentamente o enunciado,
+        confira as alternativas e marque
+        apenas uma resposta.”
+      </p>
+
+      <p>
+        O trecho orienta diretamente
+        determinadas ações do leitor.
       </p>
 
     </div>
 
 
-    <p>
-      O texto está ensinando
-      uma sequência de procedimentos.
-    </p>
+    <div class="tip">
 
-  </article>
+      <b>
+        🧠 MEMORIZE
+      </b>
+
+      <p>
+        Injunção está fortemente relacionada
+        à ideia de instruir, orientar ou
+        indicar o que deve ser feito.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 7 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="7"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 7
     </p>
 
     <h2>
-      O que são gêneros textuais?
+      Gêneros textuais
     </h2>
 
+
     <p>
-      Gêneros textuais são formas concretas
-      de comunicação utilizadas na sociedade.
+      Os gêneros textuais estão associados
+      às diversas situações de comunicação
+      existentes na sociedade.
     </p>
 
     <p>
-      Alguns exemplos:
+      Cada gênero tende a possuir determinadas
+      finalidades, contextos de circulação,
+      públicos e formas de organização.
     </p>
 
-    <ul>
 
-      <li>
-        notícia;
-      </li>
+    <h3>
+      Notícia
+    </h3>
 
-      <li>
-        receita;
-      </li>
+    <p>
+      Está normalmente relacionada à
+      apresentação de acontecimentos
+      considerados relevantes dentro
+      de determinado contexto jornalístico.
+    </p>
 
-      <li>
-        carta;
-      </li>
 
-      <li>
-        anúncio;
-      </li>
+    <h3>
+      Receita
+    </h3>
 
-      <li>
-        e-mail;
-      </li>
+    <p>
+      Geralmente apresenta ingredientes
+      e instruções para a realização
+      de determinado preparo.
+    </p>
 
-      <li>
-        reportagem;
-      </li>
 
-      <li>
-        manual;
-      </li>
+    <h3>
+      Manual
+    </h3>
 
-      <li>
-        entrevista.
-      </li>
+    <p>
+      Procura orientar o usuário sobre
+      funcionamento, utilização ou
+      procedimentos relacionados a algo.
+    </p>
 
-    </ul>
 
-  </article>
+    <h3>
+      Artigo de opinião
+    </h3>
+
+    <p>
+      Normalmente desenvolve determinado
+      posicionamento utilizando argumentos.
+    </p>
+
+
+    <h3>
+      Anúncio
+    </h3>
+
+    <p>
+      Pode utilizar diferentes recursos
+      para divulgar uma mensagem, produto,
+      serviço, campanha ou ideia.
+    </p>
+
+
+    <div class="tip">
+
+      <b>
+        🎯 ESTRATÉGIA
+      </b>
+
+      <p>
+        Para identificar um gênero,
+        observe sua finalidade,
+        contexto, público e organização.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 8 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="8"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 8
     </p>
 
     <h2>
-      Tipo textual x gênero textual
+      Mistura de tipologias
     </h2>
 
+
     <p>
-      Essa diferença é muito importante.
+      Um texto real não precisa apresentar
+      apenas uma única sequência textual.
+    </p>
+
+    <p>
+      Uma narrativa pode possuir uma descrição.
+    </p>
+
+    <p>
+      Um texto argumentativo pode apresentar
+      inicialmente uma explicação.
+    </p>
+
+    <p>
+      Um manual pode explicar determinado
+      conceito antes de fornecer uma instrução.
+    </p>
+
+    <p>
+      Por isso, algumas questões utilizam
+      a expressão
+      <strong>tipologia predominante</strong>.
     </p>
 
 
     <div class="tip">
 
       <b>
-        🧠 Tipo textual
+        🚨 PEGADINHA IMPORTANTE
       </b>
 
       <p>
-        É a estrutura predominante:
-        narrar,
-        descrever,
-        explicar,
-        argumentar
-        ou instruir.
+        Não escolha uma alternativa apenas
+        porque encontrou uma frase com
+        determinada característica.
+      </p>
+
+      <p>
+        Observe a função predominante
+        do trecho solicitado pela questão.
       </p>
 
     </div>
 
-
-    <div class="tip">
-
-      <b>
-        📄 Gênero textual
-      </b>
-
-      <p>
-        É a forma concreta usada
-        em uma situação de comunicação:
-        notícia,
-        receita,
-        e-mail,
-        carta,
-        reportagem etc.
-      </p>
-
-    </div>
-
-
-    <p>
-      Um mesmo gênero pode apresentar
-      mais de um tipo textual.
-    </p>
-
-    <p>
-      Por exemplo:
-      uma reportagem pode conter
-      trechos narrativos,
-      descritivos
-      e expositivos.
-    </p>
-
-  </article>
+  </div>
 
 
 
   <!-- CAPÍTULO 9 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="9"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 9
     </p>
 
     <h2>
-      Pegadinhas importantes
+      Método para resolver questões
     </h2>
 
 
-    <h3>
-      ⚠️ Pegadinha 1
-    </h3>
-
     <p>
-      Um texto não precisa possuir
-      apenas um tipo textual.
-    </p>
-
-    <p>
-      Geralmente existe um
-      <strong>tipo predominante</strong>.
+      Quando encontrar uma questão sobre
+      tipologia ou gênero, utilize uma
+      sequência de análise.
     </p>
 
 
-    <h3>
-      ⚠️ Pegadinha 2
-    </h3>
+    <ol>
 
-    <p>
-      Narrar não significa
-      obrigatoriamente contar uma história longa.
-    </p>
+      <li>
+        Leia exatamente o que o comando
+        está pedindo.
+      </li>
 
-    <p>
-      Um pequeno relato de acontecimentos
-      já pode possuir estrutura narrativa.
-    </p>
+      <li>
+        Determine qual trecho deverá
+        ser analisado.
+      </li>
+
+      <li>
+        Identifique a finalidade
+        predominante.
+      </li>
+
+      <li>
+        Observe a organização das
+        informações.
+      </li>
+
+      <li>
+        Procure marcas linguísticas
+        importantes.
+      </li>
+
+      <li>
+        Verifique se predominam ações,
+        características, explicações,
+        argumentos ou instruções.
+      </li>
+
+      <li>
+        Diferencie gênero de tipologia.
+      </li>
+
+      <li>
+        Elimine alternativas incompatíveis.
+      </li>
+
+      <li>
+        Volte ao texto para confirmar
+        sua conclusão.
+      </li>
+
+    </ol>
 
 
-    <h3>
-      ⚠️ Pegadinha 3
-    </h3>
+    <div class="tip">
 
-    <p>
-      Não confunda gênero
-      com tipo textual.
-    </p>
+      <b>
+        ⚡ NÃO TENHA PRESSA
+      </b>
 
-  </article>
+      <p>
+        Uma palavra isolada raramente
+        é suficiente para determinar
+        a classificação de todo um texto.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
   <!-- CAPÍTULO 10 -->
 
-  <article
-  class="card lesson readingChapter"
-  data-chapter="10"
-  >
+  <div class="card lesson">
 
     <p class="label">
       CAPÍTULO 10
     </p>
 
     <h2>
-      Como identificar na prova
+      Revisão estratégica
     </h2>
 
-    <p>
-      Quando receber um texto,
-      faça estas perguntas:
-    </p>
-
-    <ol>
-
-      <li>
-        O texto conta acontecimentos?
-      </li>
-
-      <li>
-        Está descrevendo características?
-      </li>
-
-      <li>
-        Está explicando informações?
-      </li>
-
-      <li>
-        Está defendendo uma opinião?
-      </li>
-
-      <li>
-        Está ensinando ou orientando uma ação?
-      </li>
-
-    </ol>
 
     <p>
-      Essas perguntas ajudam
-      a identificar a estrutura predominante.
+      <strong>NARRAÇÃO</strong>
     </p>
 
-  </article>
+    <p>
+      Predomínio de acontecimentos,
+      ações ou transformação de situações.
+    </p>
+
+
+    <p>
+      <strong>DESCRIÇÃO</strong>
+    </p>
+
+    <p>
+      Predomínio de características
+      e apresentação de propriedades.
+    </p>
+
+
+    <p>
+      <strong>EXPOSIÇÃO</strong>
+    </p>
+
+    <p>
+      Predomínio de apresentação,
+      organização ou explicação
+      de informações.
+    </p>
+
+
+    <p>
+      <strong>ARGUMENTAÇÃO</strong>
+    </p>
+
+    <p>
+      Defesa ou sustentação de determinada
+      ideia, posição ou tese.
+    </p>
+
+
+    <p>
+      <strong>INJUNÇÃO</strong>
+    </p>
+
+    <p>
+      Orientação relacionada à realização
+      de ações ou procedimentos.
+    </p>
+
+
+    <p>
+      <strong>GÊNERO TEXTUAL</strong>
+    </p>
+
+    <p>
+      Forma concreta de comunicação
+      associada a determinadas situações
+      sociais.
+    </p>
+
+
+    <div class="tip">
+
+      <b>
+        🧠 RESUMO DE BOLSO
+      </b>
+
+      <p>
+        Narra → acontecimentos.
+      </p>
+
+      <p>
+        Descreve → características.
+      </p>
+
+      <p>
+        Expõe → explica/informa.
+      </p>
+
+      <p>
+        Argumenta → defende.
+      </p>
+
+      <p>
+        Injunge → orienta.
+      </p>
+
+    </div>
+
+  </div>
 
 
 
-  <!-- RESUMO -->
+  <!-- EXEMPLOS COMENTADOS -->
 
-  <article class="card lesson">
+  <div class="card lesson">
 
     <p class="label">
-      RESUMO DA AULA
+      TREINO COMENTADO
     </p>
 
     <h2>
-      📌 Para revisar
+      Antes da prova
     </h2>
 
 
+    <h3>
+      Exemplo 1
+    </h3>
+
     <p>
-      <strong>Narração:</strong>
-      acontecimentos e ações.
+      “Carlos abriu o portão, caminhou
+      até o veículo e iniciou o trabalho.”
     </p>
 
     <p>
-      <strong>Descrição:</strong>
-      características.
+      <strong>Análise:</strong>
+      há sucessão de acontecimentos.
+      Portanto, existe caráter narrativo.
+    </p>
+
+
+    <hr>
+
+
+    <h3>
+      Exemplo 2
+    </h3>
+
+    <p>
+      “O prédio era alto, antigo,
+      silencioso e possuía grandes janelas.”
     </p>
 
     <p>
-      <strong>Exposição:</strong>
-      apresentação e explicação de informações.
+      <strong>Análise:</strong>
+      predominam características.
+      Portanto, o trecho é descritivo.
+    </p>
+
+
+    <hr>
+
+
+    <h3>
+      Exemplo 3
+    </h3>
+
+    <p>
+      “Para reiniciar o equipamento,
+      pressione o botão durante cinco
+      segundos.”
     </p>
 
     <p>
-      <strong>Argumentação:</strong>
-      defesa de uma ideia ou ponto de vista.
+      <strong>Análise:</strong>
+      existe orientação para realização
+      de uma ação. Há caráter injuntivo.
+    </p>
+
+
+    <hr>
+
+
+    <h3>
+      Exemplo 4
+    </h3>
+
+    <p>
+      “A prática regular da leitura
+      merece espaço na rotina escolar,
+      pois contribui para o desenvolvimento
+      de diferentes competências.”
     </p>
 
     <p>
-      <strong>Injunção:</strong>
-      instruções e orientações.
+      <strong>Análise:</strong>
+      existe uma posição acompanhada
+      de justificativa. Há caráter
+      argumentativo.
     </p>
 
-    <p>
-      <strong>Gênero textual:</strong>
-      forma concreta de comunicação.
-    </p>
-
-    <p>
-      <strong>Tipo textual:</strong>
-      forma predominante de organização do texto.
-    </p>
-
-  </article>
+  </div>
 
 
 
-  <!-- FINALIZAR LEITURA -->
+  <!-- FINAL DA LEITURA -->
 
   <div class="card">
 
     <p class="label">
-      FIM DA LEITURA
+      FINAL DA AULA
     </p>
 
     <h2>
-      Terminou de estudar?
+      📚 Você chegou ao final
     </h2>
 
-    <p class="muted">
-      Marque a leitura como concluída.
-      Depois disso a prova será liberada.
+    <p>
+      Antes da avaliação, certifique-se
+      de compreender principalmente a
+      diferença entre gênero e tipologia
+      textual.
+    </p>
+
+    <p>
+      Revise também narração, descrição,
+      exposição, argumentação e injunção.
     </p>
 
 
     <button
-    id="finishReadingBtn"
-    onclick="finishReading(3)"
+      id="completeReading3Btn"
+      onclick="completeReading3()"
     >
-      ✅ CONCLUIR LEITURA
+      CONCLUIR LEITURA ✓
     </button>
+
+  </div>
+
+
+
+  <!-- PROVA -->
+
+  <div class="card">
+
+    <p class="label">
+      AVALIAÇÃO
+    </p>
+
+    <h2>
+      🎯 Prova da Aula 03
+    </h2>
+
+    <p
+      id="quiz3LockText"
+      class="muted"
+    >
+      Conclua a leitura antes de
+      realizar a prova.
+    </p>
 
 
     <button
-    id="quiz3Btn"
-    class="secondary"
-    disabled
-    onclick="startQuiz(3)"
+      id="quiz3Btn"
+      class="secondary"
+      disabled
+      onclick="startQuiz(3)"
     >
       🔒 PROVA BLOQUEADA
     </button>
@@ -1217,18 +1679,15 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      QUIZ
-========================= -->
+=========================================== -->
 
-<section
-id="quiz"
-class="page"
->
+<section id="quiz" class="page">
 
   <button
-  class="back"
-  onclick="backToLesson()"
+    class="back"
+    onclick="backToLesson()"
   >
     ← Aula
   </button>
@@ -1237,10 +1696,9 @@ class="page"
   <div class="quizhead">
 
     <p
-    class="label"
-    id="qnum"
-    >
-    </p>
+      class="label"
+      id="qnum"
+    ></p>
 
     <b id="scoreNow">
       0 acertos
@@ -1251,30 +1709,27 @@ class="page"
 
   <div class="progress">
 
-    <i id="qbar">
-    </i>
+    <i id="qbar"></i>
 
   </div>
 
 
   <div class="card">
 
-    <h2 id="qtext">
-    </h2>
+    <h2 id="qtext"></h2>
 
-    <div id="answers">
-    </div>
+    <div id="answers"></div>
 
     <div
-    id="feedback"
-    class="feedback hidden"
-    >
-    </div>
+      id="feedback"
+      class="feedback hidden"
+    ></div>
+
 
     <button
-    id="next"
-    class="hidden"
-    onclick="nextQ()"
+      id="next"
+      class="hidden"
+      onclick="nextQ()"
     >
       PRÓXIMA
     </button>
@@ -1285,16 +1740,14 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      RESULTADO
-========================= -->
+=========================================== -->
 
-<section
-id="result"
-class="page"
->
+<section id="result" class="page">
 
   <div class="card result">
+
 
     <div class="circle">
 
@@ -1309,24 +1762,19 @@ class="page"
     </div>
 
 
-    <h1 id="resultTitle">
-    </h1>
+    <h1 id="resultTitle"></h1>
 
-
-    <p id="resultMsg">
-    </p>
-
+    <p id="resultMsg"></p>
 
     <div
-    class="mastery"
-    id="mastery"
-    >
-    </div>
+      class="mastery"
+      id="mastery"
+    ></div>
 
 
     <button
-    id="resultAction"
-    onclick="finishResult()"
+      id="resultAction"
+      onclick="finishResult()"
     >
       CONTINUAR
     </button>
@@ -1337,14 +1785,19 @@ class="page"
 
 
 
-<!-- =========================
-     REVISÃO
-========================= -->
+<!-- ==========================================
+     CADERNO DE ERROS
+=========================================== -->
 
-<section
-id="review"
-class="page"
->
+<section id="review" class="page">
+
+  <button
+    class="back"
+    onclick="show('progressPage')"
+  >
+    ← Progresso
+  </button>
+
 
   <p class="label">
     REVISÃO
@@ -1355,13 +1808,18 @@ class="page"
   </h1>
 
 
-  <div id="reviewList">
-  </div>
+  <p class="muted">
+    Revise as questões erradas antes
+    de realizar uma nova tentativa.
+  </p>
+
+
+  <div id="reviewList"></div>
 
 
   <button
-  class="secondary"
-  onclick="show('progressPage')"
+    class="secondary"
+    onclick="show('progressPage')"
   >
     VOLTAR AO PROGRESSO
   </button>
@@ -1370,14 +1828,11 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      PROGRESSO
-========================= -->
+=========================================== -->
 
-<section
-id="progressPage"
-class="page"
->
+<section id="progressPage" class="page">
 
   <p class="label">
     DESEMPENHO
@@ -1387,6 +1842,8 @@ class="page"
     Seu progresso
   </h1>
 
+
+  <!-- PROGRESSO PORTUGUÊS -->
 
   <div class="card">
 
@@ -1405,8 +1862,7 @@ class="page"
 
     <div class="progress">
 
-      <i id="pbar">
-      </i>
+      <i id="pbar"></i>
 
     </div>
 
@@ -1422,8 +1878,8 @@ class="page"
     </h2>
 
     <div
-    id="history"
-    class="muted"
+      id="history"
+      class="muted"
     >
       Nenhuma tentativa registrada.
     </div>
@@ -1440,16 +1896,16 @@ class="page"
     </h2>
 
     <div
-    id="errorBook"
-    class="muted"
+      id="errorBook"
+      class="muted"
     >
       Nenhum erro registrado.
     </div>
 
 
     <button
-    class="secondary"
-    onclick="showReview()"
+      class="secondary"
+      onclick="showReview()"
     >
       REVISAR ERROS
     </button>
@@ -1482,7 +1938,11 @@ class="page"
     </p>
 
     <p id="aReader">
-      ⬜ Completei minha primeira aula em modo leitura
+      ⬜ Concluí a leitura da Aula 03
+    </p>
+
+    <p id="aThirdPass">
+      ⬜ Aprovado na Aula 03
     </p>
 
   </div>
@@ -1494,53 +1954,53 @@ class="page"
 
 
 
-<!-- =========================
+<!-- ==========================================
      MENU INFERIOR
-========================= -->
+=========================================== -->
 
 <nav>
 
-<button
-data-page="home"
-class="active"
-onclick="show('home')"
->
+  <button
+    data-page="home"
+    class="active"
+    onclick="show('home')"
+  >
 
-⌂
+    ⌂
 
-<small>
-Início
-</small>
+    <small>
+      Início
+    </small>
 
-</button>
-
-
-<button
-data-page="subjects"
-onclick="show('subjects')"
->
-
-▤
-
-<small>
-Matérias
-</small>
-
-</button>
+  </button>
 
 
-<button
-data-page="progressPage"
-onclick="show('progressPage')"
->
+  <button
+    data-page="subjects"
+    onclick="show('subjects')"
+  >
 
-↗
+    ▤
 
-<small>
-Progresso
-</small>
+    <small>
+      Matérias
+    </small>
 
-</button>
+  </button>
+
+
+  <button
+    data-page="progressPage"
+    onclick="show('progressPage')"
+  >
+
+    ↗
+
+    <small>
+      Progresso
+    </small>
+
+  </button>
 
 </nav>
 
@@ -1548,13 +2008,13 @@ Progresso
 </div>
 
 
-<!--
-  ?v=6 evita o navegador usar
-  o JavaScript antigo em cache
--->
+
+<!-- ==========================================
+     JAVASCRIPT
+=========================================== -->
 
 <script src="app.js?v=6"></script>
 
-</body>
 
-    </html>
+</body>
+  </html>
