@@ -1,11 +1,11 @@
 /* =========================================================
-   MISSÃO PMMG v0.6
+   MISSÃO PMMG v0.7
    SISTEMA PRINCIPAL
 ========================================================= */
 
 
 /* =========================================================
-   AULA 01 — INTERPRETAÇÃO DE TEXTO
+   QUESTÕES — AULA 01
 ========================================================= */
 
 const quiz1 = [
@@ -22,177 +22,417 @@ const quiz1 = [
   },
 
   {
-    q: "A ideia principal de um texto é:",
+    q: "Uma informação explícita é aquela que:",
     a: [
-      "A mensagem central desenvolvida",
-      "Sempre a primeira frase",
-      "A palavra mais repetida",
-      "A opinião do leitor"
-    ],
-    c: 0,
-    e: "A ideia principal representa o núcleo da mensagem desenvolvida pelo texto."
-  },
-
-  {
-    q: "O texto diz: “Marina levou casaco porque a temperatura caiu.” O que é seguro concluir?",
-    a: [
-      "Marina comprou o casaco hoje",
-      "A temperatura estava mais baixa",
-      "Marina odeia frio",
-      "Era madrugada"
+      "Precisa ser imaginada pelo leitor",
+      "Aparece diretamente no texto",
+      "Só pode ser descoberta por conhecimento externo",
+      "Nunca pode ser localizada"
     ],
     c: 1,
-    e: "A queda da temperatura é a única conclusão diretamente sustentada pelo trecho."
+    e: "Informação explícita é aquela apresentada diretamente."
   },
 
   {
-    q: "Antes de marcar uma alternativa, uma boa estratégia é:",
+    q: "Inferir significa:",
     a: [
       "Inventar detalhes",
-      "Confirmar a resposta no texto",
-      "Escolher rapidamente",
-      "Ignorar o enunciado"
+      "Construir uma conclusão a partir de pistas",
+      "Ignorar o texto",
+      "Escolher a alternativa mais longa"
     ],
     c: 1,
-    e: "Voltar ao texto ajuda a verificar se a alternativa possui fundamento."
+    e: "Inferência é uma conclusão sustentada pelas pistas do texto."
   },
 
   {
-    q: "Qual atitude pode causar erro de interpretação?",
+    q: "Qual alternativa representa uma extrapolação?",
     a: [
-      "Identificar palavras-chave",
-      "Ler o comando",
-      "Responder pela própria opinião sem conferir o texto",
-      "Procurar a ideia central"
+      "Conclusão sustentada pelo texto",
+      "Informação escrita diretamente",
+      "Conclusão que ultrapassa o que o texto permite",
+      "Identificação da ideia principal"
     ],
     c: 2,
-    e: "A opinião pessoal não substitui as informações efetivamente apresentadas pelo texto."
+    e: "Extrapolar é ir além das informações que o texto fornece."
+  },
+
+  {
+    q: "Ao identificar a ideia principal, o candidato deve procurar:",
+    a: [
+      "A mensagem central",
+      "Sempre a primeira frase",
+      "A palavra mais repetida",
+      "O exemplo mais longo"
+    ],
+    c: 0,
+    e: "A ideia principal representa o núcleo da mensagem."
+  },
+
+  {
+    q: "Palavras como “sempre”, “nunca” e “todos” podem ser perigosas porque:",
+    a: [
+      "Não existem em provas",
+      "Podem tornar a alternativa mais absoluta do que o texto permite",
+      "São sempre corretas",
+      "Indicam necessariamente inferência"
+    ],
+    c: 1,
+    e: "Essas palavras podem ampliar ou absolutizar indevidamente uma afirmação."
+  },
+
+  {
+    q: "Antes de marcar uma resposta de interpretação, é recomendável:",
+    a: [
+      "Confirmar a alternativa no texto",
+      "Responder pela opinião pessoal",
+      "Ignorar o comando",
+      "Escolher rapidamente"
+    ],
+    c: 0,
+    e: "Voltar ao texto ajuda a confirmar se a alternativa realmente possui fundamento."
+  },
+
+  {
+    q: "Uma alternativa pode estar errada mesmo sendo verdadeira na vida real quando:",
+    a: [
+      "Não está sustentada pelo texto",
+      "É curta",
+      "Tem verbo",
+      "Possui pontuação"
+    ],
+    c: 0,
+    e: "Em interpretação, o critério principal é o que o texto sustenta."
+  },
+
+  {
+    q: "A finalidade de um texto corresponde:",
+    a: [
+      "Ao número de parágrafos",
+      "Ao objetivo comunicativo",
+      "À quantidade de verbos",
+      "Ao tamanho do título"
+    ],
+    c: 1,
+    e: "Finalidade é o objetivo comunicativo desempenhado pelo texto."
+  },
+
+  {
+    q: "Qual atitude reduz erros de interpretação?",
+    a: [
+      "Acrescentar conhecimento externo sem necessidade",
+      "Separar informação central de detalhes",
+      "Ignorar palavras negativas no comando",
+      "Responder apenas pelo título"
+    ],
+    c: 1,
+    e: "Distinguir a mensagem central dos detalhes ajuda a compreender melhor o texto."
+  },
+
+  {
+    q: "Se uma questão pede a alternativa INCORRETA, o candidato deve:",
+    a: [
+      "Ignorar a palavra incorreta",
+      "Prestar atenção ao valor negativo do comando",
+      "Escolher a primeira alternativa",
+      "Responder como se pedisse a correta"
+    ],
+    c: 1,
+    e: "Palavras negativas no comando alteram completamente o que precisa ser selecionado."
+  },
+
+  {
+    q: "O título de um texto:",
+    a: [
+      "Sempre é a ideia principal",
+      "Pode ajudar, mas não necessariamente reproduz a ideia principal",
+      "Deve ser ignorado sempre",
+      "Nunca possui relação com o texto"
+    ],
+    c: 1,
+    e: "O título pode orientar a leitura, mas não deve ser tomado automaticamente como ideia central."
+  },
+
+  {
+    q: "Qual situação representa uma inferência segura?",
+    a: [
+      "Inventar um horário não informado",
+      "Concluir algo sustentado por várias pistas do texto",
+      "Escolher uma possibilidade sem evidência",
+      "Adicionar informações externas"
+    ],
+    c: 1,
+    e: "Inferências seguras são sustentadas por evidências presentes no texto."
+  },
+
+  {
+    q: "Informações secundárias geralmente:",
+    a: [
+      "Podem explicar, exemplificar ou detalhar a ideia principal",
+      "São sempre inúteis",
+      "Sempre aparecem no título",
+      "São obrigatoriamente falsas"
+    ],
+    c: 0,
+    e: "Informações secundárias ajudam a desenvolver a mensagem central."
+  },
+
+  {
+    q: "A estratégia mais segura em interpretação é:",
+    a: [
+      "Texto → comando → alternativas → confirmação",
+      "Opinião pessoal → alternativa",
+      "Título → resposta",
+      "Conhecimento externo → resposta"
+    ],
+    c: 0,
+    e: "A resposta deve ser construída a partir do texto e do comando da questão."
   }
 ];
 
 
 /* =========================================================
-   AULA 02 — IDEIA PRINCIPAL E INFERÊNCIA
+   QUESTÕES — AULA 02
 ========================================================= */
 
 const quiz2 = [
   {
     q: "A ideia principal de um texto corresponde:",
     a: [
-      "Ao detalhe menos importante",
       "À mensagem central",
+      "Ao menor detalhe",
       "Sempre ao título",
       "À opinião do leitor"
     ],
-    c: 1,
-    e: "A ideia principal organiza o sentido central desenvolvido pelo texto."
+    c: 0,
+    e: "A ideia principal representa o núcleo da mensagem."
   },
 
   {
-    q: "Inferir significa:",
+    q: "Uma informação secundária pode:",
     a: [
-      "Copiar uma frase",
-      "Inventar uma informação",
-      "Concluir algo a partir de pistas do texto",
-      "Ignorar o contexto"
-    ],
-    c: 2,
-    e: "Inferência é uma conclusão construída a partir de informações e pistas presentes no texto."
-  },
-
-  {
-    q: "“As ruas estavam molhadas e as pessoas carregavam guarda-chuvas.” Uma inferência possível é:",
-    a: [
-      "Provavelmente choveu",
-      "Era meio-dia",
-      "Todos estavam atrasados",
-      "As ruas foram lavadas"
+      "Explicar ou exemplificar a ideia central",
+      "Ser sempre mais importante que a mensagem principal",
+      "Nunca aparecer no texto",
+      "Eliminar a ideia principal"
     ],
     c: 0,
-    e: "As ruas molhadas e os guarda-chuvas sustentam a hipótese de chuva."
+    e: "Informações secundárias desenvolvem, ilustram ou explicam a ideia central."
   },
 
   {
-    q: "Uma inferência correta precisa:",
+    q: "O tópico frasal:",
     a: [
-      "Ser baseada no texto",
-      "Ser criativa",
-      "Ser sempre explícita",
-      "Contradizer o autor"
+      "Pode apresentar a ideia central de um parágrafo",
+      "Sempre é a última frase",
+      "É obrigatoriamente o título",
+      "Nunca aparece no início"
     ],
     c: 0,
-    e: "Uma inferência válida precisa possuir sustentação nas informações fornecidas."
+    e: "O tópico frasal pode apresentar ou sintetizar a ideia central do parágrafo."
   },
 
   {
-    q: "Para localizar a ideia principal, ajuda perguntar:",
+    q: "Inferência é:",
     a: [
-      "Qual palavra é mais longa?",
-      "Qual é a mensagem central?",
-      "Quantas linhas há?",
-      "Quem publicou primeiro?"
+      "Conclusão construída a partir de pistas",
+      "Informação inventada",
+      "Cópia literal",
+      "Opinião sem base"
     ],
-    c: 1,
-    e: "Perguntar qual mensagem o texto desenvolve ajuda a identificar sua ideia central."
+    c: 0,
+    e: "Inferência é uma conclusão que encontra apoio nas informações fornecidas."
+  },
+
+  {
+    q: "“Paulo entrou em casa ensopado e deixou o guarda-chuva aberto.” Uma inferência possível é:",
+    a: [
+      "Provavelmente esteve exposto à chuva",
+      "Comprou o guarda-chuva naquele dia",
+      "Saiu às 14h",
+      "Foi ao supermercado"
+    ],
+    c: 0,
+    e: "As pistas permitem inferir contato com chuva, mas não os outros detalhes."
+  },
+
+  {
+    q: "Inferência e suposição diferem porque:",
+    a: [
+      "A inferência precisa de sustentação textual",
+      "A suposição é sempre verdadeira",
+      "Inferência não depende do texto",
+      "São exatamente iguais"
+    ],
+    c: 0,
+    e: "Inferência precisa ser sustentada; suposição pode ser apenas uma possibilidade."
+  },
+
+  {
+    q: "“João voltou a estudar.” A construção pressupõe que:",
+    a: [
+      "João já estudava anteriormente",
+      "João nunca estudou",
+      "João mudou de cidade",
+      "João fez prova ontem"
+    ],
+    c: 0,
+    e: "O verbo “voltou” pressupõe uma atividade anterior que havia sido interrompida."
+  },
+
+  {
+    q: "Quanto mais distante a conclusão estiver das pistas do texto:",
+    a: [
+      "Maior o risco de extrapolação",
+      "Mais segura ela é",
+      "Mais explícita se torna",
+      "Menor a necessidade de contexto"
+    ],
+    c: 0,
+    e: "Conclusões distantes das evidências têm maior chance de extrapolar."
+  },
+
+  {
+    q: "Ao localizar a ideia principal, é útil:",
+    a: [
+      "Separar exemplos e detalhes",
+      "Escolher sempre a primeira frase",
+      "Ignorar o encerramento",
+      "Olhar apenas a palavra mais repetida"
+    ],
+    c: 0,
+    e: "Separar detalhes da mensagem central ajuda a identificar a ideia principal."
+  },
+
+  {
+    q: "Qual pergunta ajuda a testar uma inferência?",
+    a: [
+      "Qual pista do texto sustenta essa conclusão?",
+      "Essa resposta parece bonita?",
+      "Essa possibilidade existe no mundo?",
+      "A alternativa é longa?"
+    ],
+    c: 0,
+    e: "A inferência precisa ser sustentada por uma ou mais pistas textuais."
+  },
+
+  {
+    q: "Uma conclusão plausível, porém sem evidência textual, é:",
+    a: [
+      "Uma suposição",
+      "Sempre uma inferência correta",
+      "Informação explícita",
+      "Tópico frasal"
+    ],
+    c: 0,
+    e: "Ser possível não basta; é necessário haver sustentação textual."
+  },
+
+  {
+    q: "A ideia principal:",
+    a: [
+      "Precisa representar o conjunto do texto",
+      "Pode ser qualquer detalhe verdadeiro",
+      "Sempre aparece em negrito",
+      "Nunca pode ser inferida"
+    ],
+    c: 0,
+    e: "A ideia principal deve representar o sentido central desenvolvido pelo conjunto."
+  },
+
+  {
+    q: "Um detalhe verdadeiro pode ser alternativa errada quando:",
+    a: [
+      "A questão pede a ideia principal",
+      "Possui verbo",
+      "É curto",
+      "Aparece no texto"
+    ],
+    c: 0,
+    e: "Uma informação verdadeira pode não responder ao que o comando está pedindo."
+  },
+
+  {
+    q: "Pressuposto é:",
+    a: [
+      "Informação assumida pela própria construção",
+      "Qualquer opinião do leitor",
+      "Sempre uma informação falsa",
+      "Uma regra de pontuação"
+    ],
+    c: 0,
+    e: "Certas construções linguísticas pressupõem informações que servem de base ao enunciado."
+  },
+
+  {
+    q: "Ao analisar inferência, o candidato deve evitar:",
+    a: [
+      "Acrescentar informação inexistente",
+      "Procurar pistas",
+      "Comparar alternativas",
+      "Revisar o contexto"
+    ],
+    c: 0,
+    e: "Acrescentar informações não fornecidas transforma a inferência em extrapolação."
   }
 ];
 
 
 /* =========================================================
-   AULA 03 — TIPOS E GÊNEROS TEXTUAIS
+   QUESTÕES — AULA 03
 ========================================================= */
 
 const quiz3 = [
   {
-    q: "A respeito de tipologia textual e gênero textual, assinale a alternativa correta:",
+    q: "Tipologia textual e gênero textual:",
     a: [
-      "São expressões completamente sinônimas",
-      "Tipologia refere-se à organização textual; gênero corresponde às formas concretas de comunicação",
-      "Gênero textual existe apenas em textos literários",
-      "Tipologia depende exclusivamente do tamanho do texto"
+      "São exatamente iguais",
+      "Representam conceitos diferentes",
+      "Só existem em textos literários",
+      "Dependem do tamanho do texto"
     ],
     c: 1,
-    e: "Tipologia textual está relacionada à organização predominante do texto. Gênero textual corresponde às formas concretas de comunicação, como notícia, receita e reportagem."
+    e: "Tipologia refere-se à organização textual; gênero corresponde a formas concretas de comunicação."
   },
 
   {
-    q: "Um trecho que apresenta uma sequência de acontecimentos tende a possuir caráter predominantemente:",
+    q: "Qual alternativa representa um gênero textual?",
     a: [
-      "Descritivo",
-      "Narrativo",
-      "Injuntivo",
-      "Expositivo"
+      "Notícia",
+      "Narração",
+      "Descrição",
+      "Argumentação"
     ],
-    c: 1,
-    e: "A narração caracteriza-se pela apresentação de acontecimentos, ações ou transformações."
+    c: 0,
+    e: "Notícia é gênero textual. As demais são tipologias ou sequências textuais."
   },
 
   {
-    q: "Leia: “O corredor era estreito, silencioso, pouco iluminado e possuía paredes antigas.” A tipologia predominante é:",
+    q: "Sequência de acontecimentos caracteriza predominantemente:",
     a: [
-      "Narrativa",
-      "Argumentativa",
-      "Descritiva",
-      "Injuntiva"
+      "Narração",
+      "Descrição",
+      "Exposição",
+      "Injunção"
     ],
-    c: 2,
-    e: "O trecho apresenta características do corredor. Portanto, predomina a descrição."
+    c: 0,
+    e: "A narração apresenta acontecimentos ou ações organizadas em sequência."
   },
 
   {
-    q: "Em qual alternativa predomina uma sequência narrativa?",
+    q: "Predomínio de características indica:",
     a: [
-      "A casa era antiga e possuía grandes janelas.",
-      "Abra a embalagem e retire cuidadosamente o produto.",
-      "Pedro saiu cedo, pegou o ônibus e chegou ao trabalho às sete horas.",
-      "A atividade física contribui para diversos aspectos da saúde."
+      "Descrição",
+      "Argumentação",
+      "Narração",
+      "Injunção"
     ],
-    c: 2,
-    e: "Existe sucessão de ações: sair, pegar o ônibus e chegar."
+    c: 0,
+    e: "A descrição apresenta características de pessoas, objetos, lugares ou situações."
   },
 
   {
-    q: "Um texto cujo objetivo principal é apresentar ou explicar informações é predominantemente:",
+    q: "Texto que explica determinado conceito tende a ser:",
     a: [
       "Expositivo",
       "Narrativo",
@@ -200,321 +440,320 @@ const quiz3 = [
       "Descritivo"
     ],
     c: 0,
-    e: "A exposição apresenta, organiza ou explica informações e conceitos."
+    e: "A exposição tem como função apresentar e explicar informações."
   },
 
   {
-    q: "“A prática regular da leitura deve ser incentivada, pois contribui para o desenvolvimento da compreensão textual.” Nesse trecho predomina:",
+    q: "Defesa de uma ideia com justificativas caracteriza:",
     a: [
-      "Descrição",
       "Argumentação",
+      "Descrição",
       "Narração",
       "Injunção"
     ],
-    c: 1,
-    e: "Existe uma posição acompanhada de uma justificativa, característica da argumentação."
+    c: 0,
+    e: "Argumentação envolve tese e argumentos."
   },
 
   {
-    q: "Em um texto argumentativo, a tese corresponde:",
+    q: "Texto que orienta como executar uma ação é:",
     a: [
-      "Ao título obrigatório",
-      "À ideia ou posição central defendida",
-      "A qualquer exemplo apresentado",
-      "À descrição física dos personagens"
+      "Injuntivo",
+      "Narrativo",
+      "Descritivo",
+      "Expositivo"
     ],
-    c: 1,
-    e: "A tese é o posicionamento central que os argumentos procuram sustentar."
+    c: 0,
+    e: "A injunção orienta, recomenda ou instrui."
   },
 
   {
-    q: "“Pressione o botão por três segundos, aguarde o sinal luminoso e reinicie o aparelho.” A sequência é predominantemente:",
+    q: "Um mesmo gênero textual:",
     a: [
-      "Argumentativa",
-      "Narrativa",
-      "Injuntiva",
-      "Descritiva"
+      "Pode combinar diferentes tipologias",
+      "Só pode ter uma tipologia",
+      "Nunca pode narrar",
+      "Não pode descrever"
     ],
-    c: 2,
-    e: "O trecho orienta diretamente o leitor sobre ações a serem realizadas."
+    c: 0,
+    e: "Textos reais frequentemente combinam diferentes sequências."
   },
 
   {
-    q: "Qual alternativa apresenta um gênero textual, e não uma tipologia?",
+    q: "“A sala era ampla e silenciosa.” Predomina:",
     a: [
       "Descrição",
       "Narração",
-      "Notícia",
+      "Injunção",
       "Argumentação"
     ],
-    c: 2,
-    e: "Notícia é gênero textual. As demais alternativas representam formas de organização textual."
-  },
-
-  {
-    q: "Sobre a presença de diferentes tipologias em um mesmo texto:",
-    a: [
-      "Todo texto possui obrigatoriamente apenas uma tipologia",
-      "Um texto pode combinar diferentes sequências, embora uma possa predominar",
-      "A mistura ocorre somente em romances",
-      "A descrição impede a existência de narração"
-    ],
-    c: 1,
-    e: "Textos reais podem combinar diferentes sequências textuais."
-  },
-
-  {
-    q: "Uma reportagem apresenta dados e depois relata o depoimento de uma pessoa. Isso demonstra que:",
-    a: [
-      "Um gênero pode combinar diferentes tipologias",
-      "Reportagens são exclusivamente narrativas",
-      "Todo texto jornalístico é descritivo",
-      "Tipologia e gênero são sinônimos"
-    ],
     c: 0,
-    e: "Um mesmo gênero pode utilizar diferentes sequências textuais."
+    e: "O trecho apresenta características do ambiente."
   },
 
   {
-    q: "Para identificar a tipologia predominante, o candidato deve principalmente:",
+    q: "“Abra o aplicativo e informe a senha.” Predomina:",
     a: [
-      "Procurar uma única palavra",
-      "Observar a função e a organização predominantes",
-      "Contar quantas linhas existem",
-      "Escolher narração sempre que houver verbos"
-    ],
-    c: 1,
-    e: "A classificação depende do funcionamento do conjunto, e não de uma palavra isolada."
-  },
-
-  {
-    q: "“O equipamento possui estrutura metálica, acabamento preto e uma pequena tela frontal.” Predomina:",
-    a: [
+      "Injunção",
       "Descrição",
-      "Argumentação",
       "Narração",
-      "Injunção"
+      "Exposição"
     ],
     c: 0,
-    e: "O trecho enumera características do equipamento."
+    e: "O trecho orienta a execução de ações."
   },
 
   {
-    q: "Em relação à injunção, é correto afirmar:",
+    q: "“Pedro saiu, entrou no ônibus e chegou ao trabalho.” Predomina:",
     a: [
-      "Apresenta necessariamente acontecimentos passados",
-      "Busca exclusivamente caracterizar objetos",
-      "Pode orientar, recomendar, ordenar ou ensinar procedimentos",
-      "Tem obrigatoriamente a finalidade de defender uma tese"
+      "Narração",
+      "Descrição",
+      "Exposição",
+      "Argumentação"
     ],
-    c: 2,
-    e: "A injunção está relacionada à orientação de ações ou procedimentos."
+    c: 0,
+    e: "Existe sucessão de acontecimentos."
   },
 
   {
-    q: "Para identificar a tipologia predominante de um trecho, a estratégia mais adequada é:",
+    q: "A tipologia predominante deve ser identificada:",
     a: [
-      "Classificar apenas pelo título",
-      "Observar finalidade, estrutura e funcionamento predominantes",
-      "Escolher a alternativa mais longa",
-      "Analisar somente a primeira frase"
+      "Pela função principal do conjunto",
+      "Por uma única palavra",
+      "Sempre pelo título",
+      "Pelo tamanho do texto"
     ],
-    c: 1,
-    e: "A finalidade e a organização do conjunto devem orientar a classificação."
+    c: 0,
+    e: "É necessário observar o funcionamento predominante do trecho."
+  },
+
+  {
+    q: "A tese é:",
+    a: [
+      "A posição central defendida",
+      "O personagem principal",
+      "A descrição de um ambiente",
+      "Uma instrução"
+    ],
+    c: 0,
+    e: "A tese é a ideia ou posicionamento que os argumentos procuram sustentar."
+  },
+
+  {
+    q: "Uma reportagem pode apresentar:",
+    a: [
+      "Exposição, narração e descrição",
+      "Somente narração",
+      "Somente descrição",
+      "Nenhuma tipologia"
+    ],
+    c: 0,
+    e: "Um gênero pode combinar diferentes sequências textuais."
+  },
+
+  {
+    q: "Para identificar um gênero textual, é importante observar:",
+    a: [
+      "Finalidade e contexto de circulação",
+      "Apenas a quantidade de palavras",
+      "Somente os verbos",
+      "Apenas o título"
+    ],
+    c: 0,
+    e: "Gêneros estão relacionados à finalidade, contexto, público e forma de circulação."
   }
 ];
 
 
 /* =========================================================
-   AULA 04 — COESÃO E COERÊNCIA TEXTUAIS
-   15 QUESTÕES
+   QUESTÕES — AULA 04
 ========================================================= */
 
 const quiz4 = [
   {
-    q: "A diferença fundamental entre coesão e coerência está corretamente apresentada em:",
+    q: "A diferença correta entre coesão e coerência é:",
     a: [
-      "Coesão trata exclusivamente de ortografia; coerência trata de pontuação",
-      "Coesão relaciona mecanismos linguísticos de ligação; coerência relaciona a construção de sentido",
-      "Coesão e coerência são exatamente a mesma coisa",
-      "Coerência existe somente em textos argumentativos"
+      "Coesão liga linguisticamente; coerência constrói sentido",
+      "São exatamente iguais",
+      "Coesão é ortografia",
+      "Coerência é pontuação"
     ],
-    c: 1,
-    e: "Coesão envolve mecanismos linguísticos que conectam partes do texto. Coerência diz respeito à construção global de sentido."
+    c: 0,
+    e: "Coesão envolve mecanismos de ligação; coerência envolve a construção global de sentido."
   },
 
   {
-    q: "Leia: “Mariana comprou um livro. Ela começou a lê-lo naquela noite.” O pronome “ela” retoma:",
+    q: "“Mariana comprou um livro. Ela começou a lê-lo.” O pronome “ela” retoma:",
     a: [
-      "Livro",
-      "Noite",
       "Mariana",
+      "Livro",
+      "Leitura",
       "Nenhum termo"
     ],
-    c: 2,
-    e: "O pronome “ela” retoma Mariana, estabelecendo uma relação de coesão referencial."
+    c: 0,
+    e: "“Ela” retoma Mariana."
   },
 
   {
-    q: "No trecho anterior, a forma “lo”, presente em “lê-lo”, refere-se a:",
+    q: "No mesmo trecho, “lo” retoma:",
     a: [
-      "Mariana",
       "Livro",
+      "Mariana",
       "Noite",
-      "Leitura"
+      "Nenhum termo"
     ],
-    c: 1,
-    e: "A forma pronominal “lo” retoma o substantivo “livro”."
+    c: 0,
+    e: "“Lo” retoma o livro."
   },
 
   {
-    q: "Leia: “Marcos estudou durante toda a semana. Ele queria melhorar seu desempenho.” A relação estabelecida por “ele” é um exemplo de:",
-    a: [
-      "Catáfora",
-      "Anáfora",
-      "Contradição",
-      "Elipse"
-    ],
-    c: 1,
-    e: "Há anáfora porque “ele” retoma uma informação já apresentada: Marcos."
-  },
-
-  {
-    q: "Leia: “Só desejo isto: que você continue estudando.” O termo “isto” realiza:",
+    q: "Quando um elemento retoma uma informação anterior, temos:",
     a: [
       "Anáfora",
       "Catáfora",
       "Elipse",
-      "Oposição"
-    ],
-    c: 1,
-    e: "A palavra “isto” antecipa uma informação que será apresentada depois, caracterizando catáfora."
-  },
-
-  {
-    q: "Em “Pedro estudou Português; Mariana, Matemática”, a ausência do verbo “estudou” na segunda parte exemplifica:",
-    a: [
-      "Catáfora",
-      "Elipse",
-      "Ambiguidade obrigatória",
       "Incoerência"
     ],
-    c: 1,
-    e: "O verbo foi omitido, mas pode ser recuperado pelo contexto. Esse recurso é denominado elipse."
+    c: 0,
+    e: "Anáfora é a retomada de informação anterior."
   },
 
   {
-    q: "Leia: “O trânsito estava intenso. Mesmo assim, Paulo chegou no horário.” A expressão “mesmo assim” estabelece principalmente:",
+    q: "Quando um elemento antecipa informação posterior, temos:",
     a: [
-      "Adição",
-      "Contraste com uma expectativa",
-      "Explicação",
-      "Enumeração"
+      "Catáfora",
+      "Anáfora",
+      "Elipse",
+      "Descrição"
     ],
-    c: 1,
-    e: "O trânsito intenso poderia sugerir atraso, mas o resultado foi diferente. Há contraste com a expectativa."
+    c: 0,
+    e: "Catáfora aponta para uma informação que aparecerá depois."
   },
 
   {
-    q: "Em “Choveu intensamente, por isso algumas ruas ficaram alagadas”, “por isso” estabelece uma relação de:",
+    q: "Omissão de termo recuperável pelo contexto é:",
+    a: [
+      "Elipse",
+      "Anáfora",
+      "Catáfora",
+      "Ambiguidade"
+    ],
+    c: 0,
+    e: "A elipse omite um elemento que pode ser recuperado pelo contexto."
+  },
+
+  {
+    q: "O conectivo “mas” geralmente estabelece:",
+    a: [
+      "Oposição ou contraste",
+      "Adição",
+      "Conclusão",
+      "Causa"
+    ],
+    c: 0,
+    e: "“Mas” normalmente introduz contraste."
+  },
+
+  {
+    q: "“Por isso” pode introduzir:",
     a: [
       "Consequência",
       "Oposição",
-      "Comparação",
-      "Condição"
+      "Descrição",
+      "Comparação"
     ],
     c: 0,
-    e: "As ruas alagadas são apresentadas como consequência da chuva intensa."
+    e: "“Por isso” frequentemente marca consequência."
   },
 
   {
-    q: "Leia: “O candidato estudou bastante, mas não conseguiu administrar bem o tempo.” O conectivo “mas” estabelece:",
+    q: "“Portanto” costuma indicar:",
     a: [
+      "Conclusão",
+      "Oposição",
       "Adição",
-      "Causa",
-      "Oposição ou contraste",
-      "Conclusão"
+      "Descrição"
     ],
-    c: 2,
-    e: "O conectivo “mas” introduz uma ideia contrastante em relação à informação anterior."
+    c: 0,
+    e: "“Portanto” costuma introduzir uma conclusão."
   },
 
   {
-    q: "Qual conectivo poderia, em muitos contextos, introduzir uma conclusão?",
+    q: "“João encontrou Pedro. Ele estava preocupado.” Pode haver:",
     a: [
-      "Porém",
-      "Portanto",
-      "Embora",
-      "Enquanto"
-    ],
-    c: 1,
-    e: "“Portanto” é frequentemente utilizado para introduzir uma conclusão decorrente de informações anteriores."
-  },
-
-  {
-    q: "Leia: “João encontrou Pedro depois da aula. Ele estava preocupado.” Sem outras informações, o principal problema do trecho é:",
-    a: [
+      "Ambiguidade de referente",
       "Ausência de verbo",
-      "Possível ambiguidade do referente de “ele”",
-      "Falta obrigatória de pontuação",
-      "Uso incorreto de substantivo próprio"
+      "Erro ortográfico obrigatório",
+      "Catáfora obrigatória"
     ],
-    c: 1,
-    e: "Como João e Pedro são possíveis referentes masculinos, o pronome “ele” pode produzir ambiguidade."
+    c: 0,
+    e: "O pronome “ele” pode retomar João ou Pedro, dependendo do contexto."
   },
 
   {
-    q: "Leia: “Rafael afirmou que nunca havia saído de Minas Gerais. Logo depois, contou detalhes da viagem que fizera a Recife no mês anterior.” Consideradas literalmente e sem contexto adicional, as informações apresentam:",
+    q: "Um texto pode estar gramaticalmente correto e ainda ser:",
     a: [
-      "Uma relação de adição perfeitamente neutra",
-      "Uma possível quebra de coerência por contradição",
-      "Uma catáfora",
-      "Uma elipse verbal"
+      "Incoerente",
+      "Obrigatoriamente coerente",
+      "Sempre coeso",
+      "Sempre argumentativo"
     ],
-    c: 1,
-    e: "Dizer que nunca saiu de Minas Gerais entra em conflito com a afirmação de uma viagem anterior a Recife, se não houver outra explicação contextual."
+    c: 0,
+    e: "Correção gramatical não garante construção lógica de sentido."
   },
 
   {
-    q: "Ao substituir um conectivo por outro em uma questão de prova, o candidato deve verificar principalmente:",
+    q: "Ao trocar um conectivo, é necessário verificar:",
     a: [
-      "Se as duas palavras têm o mesmo número de letras",
-      "Se a relação de sentido original é preservada",
-      "Se o novo conectivo é mais formal",
-      "Se aparece mais vezes no texto"
+      "Se a relação de sentido é preservada",
+      "Se possui o mesmo número de letras",
+      "Se é mais longo",
+      "Se aparece no título"
     ],
-    c: 1,
-    e: "A substituição só pode ser considerada adequada quando preserva a relação lógica e o sentido relevantes no contexto."
+    c: 0,
+    e: "Substituições só são adequadas se preservarem a relação lógica relevante."
   },
 
   {
-    q: "Leia: “Os candidatos chegaram cedo. Eles aguardaram a abertura dos portões.” O pronome “eles” contribui para:",
+    q: "“Os candidatos chegaram cedo. Eles aguardaram.” O pronome “eles”:",
     a: [
-      "Criar necessariamente incoerência",
-      "Retomar “os candidatos” e estabelecer coesão",
-      "Eliminar o sujeito da primeira oração",
-      "Introduzir uma conclusão"
+      "Retoma os candidatos",
+      "Cria necessariamente incoerência",
+      "Elimina o sujeito anterior",
+      "Indica conclusão"
     ],
-    c: 1,
-    e: "O pronome retoma “os candidatos”, evitando repetição desnecessária e contribuindo para a coesão."
+    c: 0,
+    e: "O pronome retoma “os candidatos”, estabelecendo coesão referencial."
   },
 
   {
-    q: "Para resolver uma questão sobre o referente de um pronome, a estratégia mais adequada é:",
+    q: "Para encontrar o referente de um pronome, deve-se:",
     a: [
-      "Escolher sempre o substantivo imediatamente anterior",
-      "Analisar o pronome isoladamente",
-      "Verificar o contexto, a estrutura sintática e a compatibilidade de sentido",
-      "Ignorar as frases anteriores"
+      "Analisar contexto e compatibilidade de sentido",
+      "Escolher sempre o substantivo mais próximo",
+      "Ignorar a frase anterior",
+      "Olhar apenas o pronome"
     ],
-    c: 2,
-    e: "O referente precisa ser identificado pelo conjunto do contexto, da estrutura e das relações de sentido."
+    c: 0,
+    e: "O referente é identificado pelo contexto, estrutura e sentido."
+  },
+
+  {
+    q: "Uma contradição sem explicação contextual pode gerar:",
+    a: [
+      "Quebra de coerência",
+      "Coesão perfeita",
+      "Catáfora",
+      "Descrição"
+    ],
+    c: 0,
+    e: "Informações incompatíveis podem prejudicar a coerência."
   }
 ];
 
 
 /* =========================================================
-   ESTADO DO SISTEMA
+   ESTADO
 ========================================================= */
 
 let currentLesson = 1;
@@ -545,6 +784,15 @@ function getXP() {
 
 function setXP(value) {
   localStorage.setItem("xp", String(value));
+}
+
+function getQuiz(lesson) {
+  if (lesson === 1) return quiz1;
+  if (lesson === 2) return quiz2;
+  if (lesson === 3) return quiz3;
+  if (lesson === 4) return quiz4;
+
+  return [];
 }
 
 
@@ -578,17 +826,12 @@ function show(id) {
     sync();
   }
 
-  if (id === "lesson3") {
-    updateReading3();
-  }
-
   window.scrollTo(0, 0);
 }
 
 
 /* =========================================================
-   ABRIR AULA DINÂMICA
-   A PARTIR DA AULA 04
+   ABRIR QUALQUER AULA
 ========================================================= */
 
 function openLesson(lessonNumber) {
@@ -600,438 +843,46 @@ function openLesson(lessonNumber) {
     return;
   }
 
-  const lesson = lessons[lessonNumber];
-
   currentLesson = lessonNumber;
 
-  const subtitle = document.getElementById(
-    "dynamicLessonSubtitle"
-  );
+  const lesson = lessons[lessonNumber];
 
-  const title = document.getElementById(
-    "dynamicLessonTitle"
-  );
+  const subtitle =
+    document.getElementById("dynamicLessonSubtitle");
 
-  const content = document.getElementById(
-    "dynamicLessonContent"
-  );
+  const title =
+    document.getElementById("dynamicLessonTitle");
+
+  const content =
+    document.getElementById("dynamicLessonContent");
 
   if (subtitle) {
-    subtitle.textContent = lesson.subtitle || "";
+    subtitle.textContent =
+      lesson.subtitle || "";
   }
 
   if (title) {
-    title.textContent = lesson.title || "";
+    title.textContent =
+      lesson.title || "";
   }
 
   if (content) {
-    content.innerHTML = lesson.content || "";
+    content.innerHTML =
+      lesson.content || "";
   }
 
   show("dynamicLesson");
 
-  updateDynamicReading(lessonNumber);
+  updateDynamicReading(
+    lessonNumber
+  );
 
   window.scrollTo(0, 0);
 }
 
 
 /* =========================================================
-   MISSÃO PRINCIPAL
-========================================================= */
-
-function updateMainMission() {
-  const p1 = isPassed(1);
-  const p2 = isPassed(2);
-  const p3 = isPassed(3);
-  const p4 = isPassed(4);
-
-  const title = document.getElementById(
-    "mainMissionTitle"
-  );
-
-  const topic = document.getElementById(
-    "mainMissionTopic"
-  );
-
-  const time = document.getElementById(
-    "mainMissionTime"
-  );
-
-  const button = document.getElementById(
-    "mainMissionBtn"
-  );
-
-  if (!title || !topic || !button) return;
-
-  if (!p1) {
-    title.textContent = "📖 Português";
-    topic.textContent =
-      "Interpretação de texto • Aula 01";
-
-    if (time) {
-      time.textContent = "⏱ 30–45 min";
-    }
-
-    button.textContent = "COMEÇAR MISSÃO ▶";
-    button.disabled = false;
-    button.onclick = () => show("lesson1");
-
-    return;
-  }
-
-  if (!p2) {
-    title.textContent = "📖 Português";
-    topic.textContent =
-      "Ideia principal e inferência • Aula 02";
-
-    if (time) {
-      time.textContent = "⏱ 30–45 min";
-    }
-
-    button.textContent = "COMEÇAR MISSÃO ▶";
-    button.disabled = false;
-    button.onclick = () => show("lesson2");
-
-    return;
-  }
-
-  if (!p3) {
-    title.textContent = "📚 Português";
-    topic.textContent =
-      "Tipos e gêneros textuais • Aula 03";
-
-    if (time) {
-      time.textContent = "⏱ 45–60 min";
-    }
-
-    button.textContent = "COMEÇAR LEITURA ▶";
-    button.disabled = false;
-    button.onclick = () => show("lesson3");
-
-    return;
-  }
-
-  if (!p4) {
-    title.textContent = "📗 Português";
-    topic.textContent =
-      "Coesão e coerência textuais • Aula 04";
-
-    if (time) {
-      time.textContent =
-        lessons &&
-        lessons[4] &&
-        lessons[4].time
-          ? `⏱ ${lessons[4].time}`
-          : "⏱ 50–70 min";
-    }
-
-    button.textContent = "COMEÇAR LEITURA ▶";
-    button.disabled = false;
-    button.onclick = () => openLesson(4);
-
-    return;
-  }
-
-  title.textContent = "✅ Português";
-  topic.textContent =
-    "Aulas disponíveis concluídas";
-
-  if (time) {
-    time.textContent =
-      "📚 aguardando próxima aula";
-  }
-
-  button.textContent =
-    "PRÓXIMA AULA EM PREPARAÇÃO";
-
-  button.disabled = true;
-  button.onclick = null;
-}
-
-
-/* =========================================================
-   PRÓXIMA MISSÃO
-========================================================= */
-
-function updateNextMission() {
-  const p1 = isPassed(1);
-  const p2 = isPassed(2);
-  const p3 = isPassed(3);
-  const p4 = isPassed(4);
-
-  const title = document.getElementById(
-    "nextMissionTitle"
-  );
-
-  const text = document.getElementById(
-    "nextMissionText"
-  );
-
-  const button = document.getElementById(
-    "nextMissionBtn"
-  );
-
-  if (!title || !text || !button) return;
-
-  button.disabled = true;
-  button.onclick = null;
-
-  if (!p1) {
-    title.textContent = "🔒 Aula 02 bloqueada";
-    text.textContent =
-      "Acerte pelo menos 70% na Aula 01 para desbloquear.";
-    button.textContent = "BLOQUEADA";
-    return;
-  }
-
-  if (!p2) {
-    title.textContent = "🔒 Aula 03 bloqueada";
-    text.textContent =
-      "Conclua a Aula 02 com pelo menos 70% para avançar.";
-    button.textContent = "BLOQUEADA";
-    return;
-  }
-
-  if (!p3) {
-    title.textContent = "🔒 Aula 04 bloqueada";
-    text.textContent =
-      "Conclua a Aula 03 com pelo menos 70% para avançar.";
-    button.textContent = "BLOQUEADA";
-    return;
-  }
-
-  if (!p4) {
-    title.textContent = "🔒 Aula 05 bloqueada";
-    text.textContent =
-      "Estude a Aula 04 e consiga pelo menos 70% na avaliação.";
-    button.textContent = "BLOQUEADA";
-    return;
-  }
-
-  title.textContent =
-    "🚧 Aula 05 em preparação";
-
-  text.textContent =
-    "Você concluiu todo o conteúdo disponível até agora.";
-
-  button.textContent = "EM BREVE";
-}
-
-
-/* =========================================================
-   TELA MATÉRIAS
-========================================================= */
-
-function updateSubjects() {
-  const p1 = isPassed(1);
-  const p2 = isPassed(2);
-  const p3 = isPassed(3);
-  const p4 = isPassed(4);
-
-  const subject1 =
-    document.getElementById("subject1");
-
-  const subject2 =
-    document.getElementById("subject2");
-
-  const subject3 =
-    document.getElementById("subject3");
-
-  const subject4 =
-    document.getElementById("subject4");
-
-  if (subject1) {
-    subject1.onclick =
-      () => show("lesson1");
-  }
-
-  if (subject2) {
-    if (p1) {
-      subject2.onclick =
-        () => show("lesson2");
-
-      subject2.classList.remove("locked");
-    } else {
-      subject2.onclick = null;
-      subject2.classList.add("locked");
-    }
-  }
-
-  if (subject3) {
-    if (p2) {
-      subject3.onclick =
-        () => show("lesson3");
-
-      subject3.classList.remove("locked");
-    } else {
-      subject3.onclick = null;
-      subject3.classList.add("locked");
-    }
-  }
-
-  if (subject4) {
-    if (p3) {
-      subject4.onclick =
-        () => openLesson(4);
-
-      subject4.classList.remove("locked");
-    } else {
-      subject4.onclick = null;
-      subject4.classList.add("locked");
-    }
-  }
-
-  const status1 =
-    document.getElementById("status1");
-
-  const status2 =
-    document.getElementById("status2");
-
-  const status3 =
-    document.getElementById("status3");
-
-  const status4 =
-    document.getElementById("status4");
-
-  if (status1) {
-    status1.textContent =
-      p1
-        ? "✅ Concluída"
-        : "▶ Atual";
-  }
-
-  if (status2) {
-    status2.textContent =
-      p2
-        ? "✅ Concluída"
-        : p1
-        ? "▶ Atual"
-        : "🔒";
-  }
-
-  if (status3) {
-    status3.textContent =
-      p3
-        ? "✅ Concluída"
-        : p2
-        ? "▶ Atual"
-        : "🔒";
-  }
-
-  if (status4) {
-    status4.textContent =
-      p4
-        ? "✅ Concluída"
-        : p3
-        ? "▶ Atual"
-        : "🔒";
-  }
-}
-
-
-/* =========================================================
-   LEITURA AULA 03
-========================================================= */
-
-function completeReading3() {
-  localStorage.setItem(
-    "reading3Done",
-    "1"
-  );
-
-  updateReading3();
-
-  sync();
-
-  alert(
-    "📚 Leitura concluída!\n\nA prova da Aula 03 foi liberada."
-  );
-}
-
-
-function updateReading3() {
-  const done = isReadingDone(3);
-
-  const button =
-    document.getElementById(
-      "completeReading3Btn"
-    );
-
-  const quizButton =
-    document.getElementById(
-      "quiz3Btn"
-    );
-
-  const lockText =
-    document.getElementById(
-      "quiz3LockText"
-    );
-
-  const pct =
-    document.getElementById(
-      "readingPct3"
-    );
-
-  const bar =
-    document.getElementById(
-      "readingBar3"
-    );
-
-  if (done) {
-    if (button) {
-      button.textContent =
-        "✅ LEITURA CONCLUÍDA";
-
-      button.disabled = true;
-    }
-
-    if (quizButton) {
-      quizButton.disabled = false;
-      quizButton.textContent =
-        "INICIAR PROVA ▶";
-
-      quizButton.classList.remove(
-        "secondary"
-      );
-    }
-
-    if (lockText) {
-      lockText.textContent =
-        "✅ Leitura concluída. A prova está liberada.";
-    }
-
-    if (pct) {
-      pct.textContent = "100%";
-    }
-
-    if (bar) {
-      bar.style.width = "100%";
-    }
-  } else {
-    if (pct) {
-      pct.textContent = "0%";
-    }
-
-    if (bar) {
-      bar.style.width = "0%";
-    }
-
-    if (quizButton) {
-      quizButton.disabled = true;
-      quizButton.textContent =
-        "🔒 PROVA BLOQUEADA";
-
-      quizButton.classList.add(
-        "secondary"
-      );
-    }
-  }
-}
-
-
-/* =========================================================
-   LEITURA DINÂMICA
+   COMPLETAR LEITURA
 ========================================================= */
 
 function completeReading(lessonNumber) {
@@ -1047,18 +898,18 @@ function completeReading(lessonNumber) {
   sync();
 
   alert(
-    `📚 Leitura da Aula ${lessonNumber} concluída!\n\nA avaliação foi liberada.`
+    `📚 Leitura da Aula ${lessonNumber} concluída!\n\nA prova foi liberada.`
   );
 }
 
 
-function updateDynamicReading(
-  lessonNumber
-) {
+/* =========================================================
+   ATUALIZAR LEITURA
+========================================================= */
+
+function updateDynamicReading(lessonNumber) {
   const done =
-    isReadingDone(
-      lessonNumber
-    );
+    isReadingDone(lessonNumber);
 
   const pct =
     document.getElementById(
@@ -1078,221 +929,141 @@ function updateDynamicReading(
     if (bar) {
       bar.style.width = "100%";
     }
+  } else {
+    if (pct) {
+      pct.textContent = "0%";
+    }
+
+    if (bar) {
+      bar.style.width = "0%";
+    }
   }
 
-  if (lessonNumber === 4) {
-    const quizButton =
-      document.getElementById(
-        "quiz4Btn"
+  const quizButton =
+    document.getElementById(
+      `quiz${lessonNumber}Btn`
+    );
+
+  const lockText =
+    document.getElementById(
+      `quiz${lessonNumber}LockText`
+    );
+
+  if (done) {
+    if (quizButton) {
+      quizButton.disabled = false;
+      quizButton.textContent =
+        "INICIAR PROVA ▶";
+
+      quizButton.classList.remove(
+        "secondary"
       );
+    }
 
-    const lockText =
-      document.getElementById(
-        "quiz4LockText"
+    if (lockText) {
+      lockText.textContent =
+        "✅ Leitura concluída. A prova está liberada.";
+    }
+  } else {
+    if (quizButton) {
+      quizButton.disabled = true;
+      quizButton.textContent =
+        "🔒 PROVA BLOQUEADA";
+
+      quizButton.classList.add(
+        "secondary"
       );
+    }
 
-    if (done) {
-      if (quizButton) {
-        quizButton.disabled = false;
-        quizButton.textContent =
-          "INICIAR PROVA ▶";
-
-        quizButton.classList.remove(
-          "secondary"
-        );
-      }
-
-      if (lockText) {
-        lockText.textContent =
-          "✅ Leitura concluída. A prova está liberada.";
-      }
-    } else {
-      if (quizButton) {
-        quizButton.disabled = true;
-        quizButton.textContent =
-          "🔒 PROVA BLOQUEADA";
-
-        quizButton.classList.add(
-          "secondary"
-        );
-      }
-
-      if (lockText) {
-        lockText.textContent =
-          "Conclua a leitura antes de realizar a prova.";
-      }
+    if (lockText) {
+      lockText.textContent =
+        "Conclua a leitura antes de realizar a prova.";
     }
   }
 }
 
 
 /* =========================================================
-   PROGRESSO DA LEITURA POR ROLAGEM
+   PROGRESSO DA LEITURA
 ========================================================= */
 
 window.addEventListener(
   "scroll",
   () => {
-    updateScrollReading3();
-    updateScrollDynamicReading();
+    const dynamicLesson =
+      document.getElementById(
+        "dynamicLesson"
+      );
+
+    if (
+      !dynamicLesson ||
+      !dynamicLesson.classList.contains("active")
+    ) {
+      return;
+    }
+
+    if (
+      isReadingDone(currentLesson)
+    ) {
+      return;
+    }
+
+    const pctEl =
+      document.getElementById(
+        "dynamicReadingPct"
+      );
+
+    const bar =
+      document.getElementById(
+        "dynamicReadingBar"
+      );
+
+    if (!pctEl || !bar) return;
+
+    const rect =
+      dynamicLesson.getBoundingClientRect();
+
+    const total =
+      dynamicLesson.scrollHeight -
+      window.innerHeight;
+
+    if (total <= 0) return;
+
+    const traveled =
+      Math.max(
+        0,
+        -rect.top
+      );
+
+    let percent =
+      Math.round(
+        (traveled / total) * 100
+      );
+
+    percent =
+      Math.min(
+        99,
+        Math.max(
+          0,
+          percent
+        )
+      );
+
+    pctEl.textContent =
+      `${percent}%`;
+
+    bar.style.width =
+      `${percent}%`;
   }
 );
 
 
-function updateScrollReading3() {
-  const lesson =
-    document.getElementById(
-      "lesson3"
-    );
-
-  if (
-    !lesson ||
-    !lesson.classList.contains("active") ||
-    isReadingDone(3)
-  ) {
-    return;
-  }
-
-  const pctEl =
-    document.getElementById(
-      "readingPct3"
-    );
-
-  const bar =
-    document.getElementById(
-      "readingBar3"
-    );
-
-  if (!pctEl || !bar) return;
-
-  const rect =
-    lesson.getBoundingClientRect();
-
-  const total =
-    lesson.scrollHeight -
-    window.innerHeight;
-
-  if (total <= 0) return;
-
-  const traveled =
-    Math.max(
-      0,
-      -rect.top
-    );
-
-  let percent =
-    Math.round(
-      (traveled / total) * 100
-    );
-
-  percent =
-    Math.min(
-      99,
-      Math.max(
-        0,
-        percent
-      )
-    );
-
-  pctEl.textContent =
-    `${percent}%`;
-
-  bar.style.width =
-    `${percent}%`;
-}
-
-
-function updateScrollDynamicReading() {
-  const lesson =
-    document.getElementById(
-      "dynamicLesson"
-    );
-
-  if (
-    !lesson ||
-    !lesson.classList.contains(
-      "active"
-    )
-  ) {
-    return;
-  }
-
-  if (
-    isReadingDone(
-      currentLesson
-    )
-  ) {
-    return;
-  }
-
-  const pctEl =
-    document.getElementById(
-      "dynamicReadingPct"
-    );
-
-  const bar =
-    document.getElementById(
-      "dynamicReadingBar"
-    );
-
-  if (!pctEl || !bar) return;
-
-  const rect =
-    lesson.getBoundingClientRect();
-
-  const total =
-    lesson.scrollHeight -
-    window.innerHeight;
-
-  if (total <= 0) return;
-
-  const traveled =
-    Math.max(
-      0,
-      -rect.top
-    );
-
-  let percent =
-    Math.round(
-      (traveled / total) *
-      100
-    );
-
-  percent =
-    Math.min(
-      99,
-      Math.max(
-        0,
-        percent
-      )
-    );
-
-  pctEl.textContent =
-    `${percent}%`;
-
-  bar.style.width =
-    `${percent}%`;
-}
-
-
 /* =========================================================
-   COMEÇAR QUIZ
+   COMEÇAR PROVA
 ========================================================= */
 
 function startQuiz(lesson) {
   if (
-    lesson === 3 &&
-    !isReadingDone(3)
-  ) {
-    alert(
-      "📚 Conclua a leitura da Aula 03 antes de fazer a prova."
-    );
-
-    return;
-  }
-
-  if (
-    lesson >= 4 &&
     !isReadingDone(lesson)
   ) {
     alert(
@@ -1304,21 +1075,8 @@ function startQuiz(lesson) {
 
   currentLesson = lesson;
 
-  if (lesson === 1) {
-    questions = quiz1;
-  }
-
-  if (lesson === 2) {
-    questions = quiz2;
-  }
-
-  if (lesson === 3) {
-    questions = quiz3;
-  }
-
-  if (lesson === 4) {
-    questions = quiz4;
-  }
+  questions =
+    getQuiz(lesson);
 
   if (!questions.length) {
     alert(
@@ -1344,31 +1102,14 @@ function startQuiz(lesson) {
 ========================================================= */
 
 function backToLesson() {
-  if (currentLesson === 1) {
-    show("lesson1");
-    return;
-  }
-
-  if (currentLesson === 2) {
-    show("lesson2");
-    return;
-  }
-
-  if (currentLesson === 3) {
-    show("lesson3");
-    return;
-  }
-
-  if (currentLesson >= 4) {
-    openLesson(
-      currentLesson
-    );
-  }
+  openLesson(
+    currentLesson
+  );
 }
 
 
 /* =========================================================
-   EXIBIR QUESTÃO
+   QUESTÃO
 ========================================================= */
 
 function renderQ() {
@@ -1451,11 +1192,10 @@ function renderQ() {
           )}. ${text}`;
 
         button.onclick =
-          () =>
-            answer(
-              index,
-              button
-            );
+          () => answer(
+            index,
+            button
+          );
 
         answersBox.appendChild(
           button
@@ -1484,13 +1224,10 @@ function renderQ() {
 
 
 /* =========================================================
-   RESPONDER QUESTÃO
+   RESPONDER
 ========================================================= */
 
-function answer(
-  index,
-  button
-) {
+function answer(index, button) {
   if (answered) return;
 
   answered = true;
@@ -1570,13 +1307,16 @@ function answer(
         !correct
           ? `
             <br><br>
+
             <strong>
               Resposta correta:
             </strong>
+
             ${String.fromCharCode(
               65 +
               question.c
             )}.
+
             ${
               question.a[
                 question.c
@@ -1692,8 +1432,11 @@ function saveAttempt() {
         .toLocaleTimeString(
           "pt-BR",
           {
-            hour: "2-digit",
-            minute: "2-digit"
+            hour:
+              "2-digit",
+
+            minute:
+              "2-digit"
           }
         )
   });
@@ -1701,7 +1444,7 @@ function saveAttempt() {
   attempts =
     attempts.slice(
       0,
-      30
+      40
     );
 
   localStorage.setItem(
@@ -1711,8 +1454,6 @@ function saveAttempt() {
     )
   );
 
-
-  /* ERROS */
 
   let storedErrors = [];
 
@@ -1732,7 +1473,7 @@ function saveAttempt() {
     ...storedErrors
   ].slice(
     0,
-    80
+    100
   );
 
   localStorage.setItem(
@@ -1795,7 +1536,8 @@ function renderResult() {
   }
 
   if (circle) {
-    circle.className = "circle";
+    circle.className =
+      "circle";
   }
 
   if (lastPassed) {
@@ -1863,11 +1605,6 @@ function finishResult() {
     const key =
       `passed${currentLesson}`;
 
-    /*
-      Só entrega XP
-      na PRIMEIRA aprovação.
-    */
-
     if (
       !localStorage.getItem(
         key
@@ -1895,6 +1632,87 @@ function finishResult() {
   sync();
 
   showReview();
+}
+
+
+/* =========================================================
+   HISTÓRICO
+========================================================= */
+
+function updateHistory() {
+  let attempts = [];
+
+  try {
+    attempts =
+      JSON.parse(
+        localStorage.getItem(
+          "attemptHistory"
+        ) || "[]"
+      );
+  } catch {
+    attempts = [];
+  }
+
+  const history =
+    document.getElementById(
+      "history"
+    );
+
+  if (!history) return;
+
+  if (!attempts.length) {
+    history.textContent =
+      "Nenhuma tentativa registrada.";
+
+    return;
+  }
+
+  history.innerHTML =
+    attempts
+      .map(
+        attempt => `
+          <div style="
+            padding:16px 0;
+            border-bottom:1px solid #21382f;
+          ">
+
+            <b>
+              📚 Aula
+              ${attempt.lesson}
+            </b>
+
+            <br><br>
+
+            Nota:
+            <b>
+              ${attempt.pct}%
+            </b>
+
+            •
+
+            ${attempt.score}/
+            ${attempt.total}
+
+            <br>
+
+            ${
+              attempt.passed
+                ? "✅ APROVADO"
+                : "❌ REFAZER"
+            }
+
+            <br>
+
+            <small>
+              ${attempt.date}
+              •
+              ${attempt.time}
+            </small>
+
+          </div>
+        `
+      )
+      .join("");
 }
 
 
@@ -1979,86 +1797,245 @@ function showReview() {
 
 
 /* =========================================================
-   HISTÓRICO DE TENTATIVAS
+   PAINEL PRINCIPAL
 ========================================================= */
 
-function updateHistory() {
-  let attempts = [];
+function updateMainMission() {
+  let current = 1;
 
-  try {
-    attempts =
-      JSON.parse(
-        localStorage.getItem(
-          "attemptHistory"
-        ) || "[]"
-      );
-  } catch {
-    attempts = [];
+  while (
+    current <= 4 &&
+    isPassed(current)
+  ) {
+    current++;
   }
 
-  const history =
+  const title =
     document.getElementById(
-      "history"
+      "mainMissionTitle"
     );
 
-  if (!history) return;
+  const topic =
+    document.getElementById(
+      "mainMissionTopic"
+    );
 
-  if (!attempts.length) {
-    history.textContent =
-      "Nenhuma tentativa registrada.";
+  const time =
+    document.getElementById(
+      "mainMissionTime"
+    );
+
+  const button =
+    document.getElementById(
+      "mainMissionBtn"
+    );
+
+  if (
+    !title ||
+    !topic ||
+    !button
+  ) {
+    return;
+  }
+
+  if (current <= 4) {
+    const lesson =
+      lessons[current];
+
+    title.textContent =
+      `📚 Português`;
+
+    topic.textContent =
+      `${lesson.title} • Aula ${String(
+        current
+      ).padStart(2, "0")}`;
+
+    if (time) {
+      time.textContent =
+        `⏱ ${lesson.time}`;
+    }
+
+    button.textContent =
+      "COMEÇAR LEITURA ▶";
+
+    button.disabled =
+      false;
+
+    button.onclick =
+      () =>
+        openLesson(
+          current
+        );
 
     return;
   }
 
-  history.innerHTML =
-    attempts
-      .map(
-        attempt => {
-          const result =
-            attempt.passed
-              ? "✅ APROVADO"
-              : "❌ REFAZER";
+  title.textContent =
+    "✅ Português";
 
-          return `
-            <div style="
-              padding:16px 0;
-              border-bottom:1px solid #21382f;
-            ">
+  topic.textContent =
+    "Aulas disponíveis concluídas";
 
-              <b>
-                📚 Aula
-                ${attempt.lesson}
-              </b>
+  if (time) {
+    time.textContent =
+      "📚 aguardando próxima aula";
+  }
 
-              <br><br>
+  button.textContent =
+    "PRÓXIMA AULA EM PREPARAÇÃO";
 
-              Nota:
-              <b>
-                ${attempt.pct}%
-              </b>
+  button.disabled =
+    true;
 
-              •
+  button.onclick =
+    null;
+}
 
-              ${attempt.score}/
-              ${attempt.total}
 
-              <br>
+/* =========================================================
+   PRÓXIMA MISSÃO
+========================================================= */
 
-              ${result}
+function updateNextMission() {
+  let current = 1;
 
-              <br>
+  while (
+    current <= 4 &&
+    isPassed(current)
+  ) {
+    current++;
+  }
 
-              <small>
-                ${attempt.date}
-                •
-                ${attempt.time}
-              </small>
+  const title =
+    document.getElementById(
+      "nextMissionTitle"
+    );
 
-            </div>
-          `;
-        }
-      )
-      .join("");
+  const text =
+    document.getElementById(
+      "nextMissionText"
+    );
+
+  const button =
+    document.getElementById(
+      "nextMissionBtn"
+    );
+
+  if (
+    !title ||
+    !text ||
+    !button
+  ) {
+    return;
+  }
+
+  button.disabled = true;
+
+  if (current < 4) {
+    title.textContent =
+      `🔒 Aula ${String(
+        current + 1
+      ).padStart(2, "0")} bloqueada`;
+
+    text.textContent =
+      `Conclua a Aula ${String(
+        current
+      ).padStart(2, "0")} com pelo menos 70% para avançar.`;
+
+    button.textContent =
+      "BLOQUEADA";
+
+    return;
+  }
+
+  if (current === 4) {
+    title.textContent =
+      "🔒 Aula 05 bloqueada";
+
+    text.textContent =
+      "Conclua a Aula 04 com pelo menos 70% para avançar.";
+
+    button.textContent =
+      "BLOQUEADA";
+
+    return;
+  }
+
+  title.textContent =
+    "🚧 Aula 05 em preparação";
+
+  text.textContent =
+    "Você concluiu todo o conteúdo disponível até agora.";
+
+  button.textContent =
+    "EM BREVE";
+}
+
+
+/* =========================================================
+   MATÉRIAS
+========================================================= */
+
+function updateSubjects() {
+  for (
+    let lessonNumber = 1;
+    lessonNumber <= 4;
+    lessonNumber++
+  ) {
+    const subject =
+      document.getElementById(
+        `subject${lessonNumber}`
+      );
+
+    const status =
+      document.getElementById(
+        `status${lessonNumber}`
+      );
+
+    if (!subject) continue;
+
+    const unlocked =
+      lessonNumber === 1 ||
+      isPassed(
+        lessonNumber - 1
+      );
+
+    if (unlocked) {
+      subject.classList.remove(
+        "locked"
+      );
+
+      subject.onclick =
+        () =>
+          openLesson(
+            lessonNumber
+          );
+    } else {
+      subject.classList.add(
+        "locked"
+      );
+
+      subject.onclick =
+        null;
+    }
+
+    if (status) {
+      if (
+        isPassed(
+          lessonNumber
+        )
+      ) {
+        status.textContent =
+          "✅ Concluída";
+      } else if (unlocked) {
+        status.textContent =
+          "▶ Atual";
+      } else {
+        status.textContent =
+          "🔒";
+      }
+    }
+  }
 }
 
 
@@ -2067,11 +2044,6 @@ function updateHistory() {
 ========================================================= */
 
 function updateAchievements() {
-  const p1 = isPassed(1);
-  const p2 = isPassed(2);
-  const p3 = isPassed(3);
-  const p4 = isPassed(4);
-
   const aPass =
     document.getElementById(
       "aPass"
@@ -2107,23 +2079,25 @@ function updateAchievements() {
       "aFourthPass"
     );
 
-  if (p1 && aPass) {
+  if (isPassed(1) && aPass) {
     aPass.textContent =
       "✅ Aprovado na primeira aula";
   }
 
-  if (p1 && aSecond) {
+  if (isPassed(1) && aSecond) {
     aSecond.textContent =
       "✅ Desbloqueei a Aula 02";
   }
 
-  if (p2 && aThird) {
+  if (isPassed(2) && aThird) {
     aThird.textContent =
       "✅ Desbloqueei a Aula 03";
   }
 
   if (
     (
+      isReadingDone(1) ||
+      isReadingDone(2) ||
       isReadingDone(3) ||
       isReadingDone(4)
     ) &&
@@ -2133,17 +2107,26 @@ function updateAchievements() {
       "✅ Concluí uma aula em modo leitura";
   }
 
-  if (p3 && aThirdPass) {
+  if (
+    isPassed(3) &&
+    aThirdPass
+  ) {
     aThirdPass.textContent =
       "✅ Aprovado na Aula 03";
   }
 
-  if (p3 && aFourth) {
+  if (
+    isPassed(3) &&
+    aFourth
+  ) {
     aFourth.textContent =
       "✅ Desbloqueei a Aula 04";
   }
 
-  if (p4 && aFourthPass) {
+  if (
+    isPassed(4) &&
+    aFourthPass
+  ) {
     aFourthPass.textContent =
       "✅ Aprovado na Aula 04";
   }
@@ -2151,37 +2134,24 @@ function updateAchievements() {
 
 
 /* =========================================================
-   PROGRESSO
+   SINCRONIZAR
 ========================================================= */
 
 function sync() {
-  const p1 = isPassed(1);
-  const p2 = isPassed(2);
-  const p3 = isPassed(3);
-  const p4 = isPassed(4);
+  let passedCount = 0;
 
-  const passedCount =
-    (p1 ? 1 : 0) +
-    (p2 ? 1 : 0) +
-    (p3 ? 1 : 0) +
-    (p4 ? 1 : 0);
-
-  /*
-    Mantemos 20% por aula
-    nesta primeira trilha.
-
-    Aula 01 = 20%
-    Aula 02 = 40%
-    Aula 03 = 60%
-    Aula 04 = 80%
-    Aula 05 = 100%
-  */
+  for (
+    let i = 1;
+    i <= 4;
+    i++
+  ) {
+    if (isPassed(i)) {
+      passedCount++;
+    }
+  }
 
   const progress =
-    Math.min(
-      100,
-      passedCount * 20
-    );
+    passedCount * 20;
 
   const xp =
     document.getElementById(
@@ -2234,8 +2204,6 @@ function sync() {
   }
 
 
-  /* CADERNO DE ERROS */
-
   let storedErrors = [];
 
   try {
@@ -2263,15 +2231,9 @@ function sync() {
 
 
   updateMainMission();
-
   updateNextMission();
-
   updateSubjects();
-
-  updateReading3();
-
   updateHistory();
-
   updateAchievements();
 }
 
