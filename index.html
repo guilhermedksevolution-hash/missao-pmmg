@@ -1,28 +1,144 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Missão PMMG</title><link rel="stylesheet" href="style.css"></head><body>
-<div class="app"><header><div><small>PREPARAÇÃO PARA SOLDADO</small><b>MISSÃO <i>PMMG</i></b></div><span class="xp">⭐ <span id="xp">0</span> XP</span></header>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Missão PMMG v0.4</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header>
+  <div>
+    <small>PREPARAÇÃO PARA SOLDADO</small>
+    <b>MISSÃO <i>PMMG</i></b>
+  </div>
+  <span class="xp">⭐ <span id="xp">0</span> XP</span>
+</header>
+
 <main>
-<section id="home" class="page active"><div class="hero card"><span class="badge">MISSÃO ATIVA</span><h1>Seu caminho começa do zero.</h1><p>Hoje você só precisa cumprir a próxima missão. O restante fica organizado aqui.</p></div>
-<div class="grid"><div class="card stat"><b id="streak">1</b><small>🔥 sequência</small></div><div class="card stat"><b id="general">0%</b><small>🎯 progresso</small></div><div class="card stat"><b id="missions">0</b><small>✓ missões</small></div></div>
-<div class="card"><p class="label">MISSÃO DE HOJE</p><h2>📖 Português</h2><p>Interpretação de texto • Aula 01</p><div class="chips"><span>🌱 do zero</span><span>⏱ 30–45 min</span></div><button onclick="show('lesson')">COMEÇAR MISSÃO ▶</button></div>
-<div class="card"><p class="label">ROTA DE APROVAÇÃO</p><div class="route"><span class="on">1</span><i></i><span>2</span><i></i><span>3</span><i></i><span>🏆</span></div><div class="labels"><small>Base</small><small>Edital</small><small>Simulados</small><small>Prova</small></div></div></section>
+<section id="home" class="page active">
+  <div class="hero card">
+    <span class="badge">MISSÃO ATIVA</span>
+    <h1>Uma missão por vez.</h1>
+    <p>O sistema só libera avanço quando você realmente atingir o nível mínimo.</p>
+  </div>
 
-<section id="subjects" class="page"><p class="label">TRILHA</p><h1>Matérias</h1><p class="muted">A trilha definitiva será ajustada ao edital oficial adotado como referência.</p>
-<div class="card subject"><div><b>📖 Português</b><small>Trilha iniciada</small></div><strong id="portPct">0%</strong></div>
-<div class="card subject locked"><div><b>➗ Próxima matéria</b><small>Será configurada pela grade oficial</small></div><strong>🔒</strong></div>
-<div class="card subject locked"><div><b>⚖️ Próxima matéria</b><small>Será configurada pela grade oficial</small></div><strong>🔒</strong></div></section>
+  <div class="grid">
+    <div class="card stat"><b id="streak">1</b><small>🔥 sequência</small></div>
+    <div class="card stat"><b id="general">0%</b><small>🎯 progresso</small></div>
+    <div class="card stat"><b id="missions">0</b><small>✓ aprovadas</small></div>
+  </div>
 
-<section id="lesson" class="page"><button class="back" onclick="show('home')">← Início</button><p class="label">PORTUGUÊS • AULA 01</p><h1>Interpretação de texto</h1>
-<div class="card lesson"><h2>1. O que é interpretar?</h2><p>Interpretar é entender a mensagem construída pelo texto. Em uma prova, não basta escolher o que parece verdadeiro: a alternativa precisa estar sustentada pelo texto.</p>
-<h2>2. Comece procurando</h2><ul><li>o assunto;</li><li>a ideia principal;</li><li>quem está falando ou sendo mencionado;</li><li>a finalidade da mensagem;</li><li>o que está escrito e o que pode ser concluído.</li></ul>
-<div class="tip"><b>⚡ Regra de ouro</b><p>Antes de marcar, pergunte: “Consigo provar esta resposta usando o texto?”</p></div>
-<h2>3. Exemplo</h2><p>“Carlos saiu de casa levando um guarda-chuva. O céu estava escuro e a previsão indicava chuva.”</p><p><b>Conclusão segura:</b> Carlos se preparou para a possibilidade de chuva.</p></div>
-<button onclick="startQuiz()">TERMINEI • IR PARA A PROVA DO DIA</button></section>
+  <div class="card">
+    <p class="label">MISSÃO DE HOJE</p>
+    <h2>📖 Português</h2>
+    <p>Interpretação de texto • Aula 01</p>
+    <div class="chips"><span>🌱 do zero</span><span>⏱ 30–45 min</span><span>🎯 mínimo 70%</span></div>
+    <button onclick="show('lesson1')">COMEÇAR MISSÃO ▶</button>
+  </div>
 
-<section id="quiz" class="page"><button class="back" onclick="show('lesson')">← Aula</button><div class="quizhead"><p class="label" id="qnum"></p><b id="scoreNow">0 acertos</b></div><div class="progress"><i id="qbar"></i></div><div class="card"><h2 id="qtext"></h2><div id="answers"></div><div id="feedback" class="feedback hidden"></div><button id="next" class="hidden" onclick="nextQ()">PRÓXIMA</button></div></section>
+  <div class="card">
+    <p class="label">PRÓXIMA MISSÃO</p>
+    <h3 id="nextMissionTitle">🔒 Aula 02 bloqueada</h3>
+    <p id="nextMissionText" class="muted">Acerte pelo menos 70% na Aula 01 para desbloquear.</p>
+    <button id="nextMissionBtn" class="secondary" disabled onclick="show('lesson2')">BLOQUEADA</button>
+  </div>
+</section>
 
-<section id="result" class="page"><div class="card result"><div class="circle"><b id="resultPct">0%</b><small id="resultScore">0/5</small></div><h1 id="resultTitle"></h1><p id="resultMsg"></p><div class="mastery" id="mastery"></div><button onclick="finishMission()">CONCLUIR MISSÃO</button></div></section>
+<section id="subjects" class="page">
+  <p class="label">TRILHA</p><h1>Português</h1>
+  <div class="card subject"><div><b>📖 Aula 01</b><small>Interpretação de texto</small></div><strong id="status1">Em andamento</strong></div>
+  <div class="card subject"><div><b>📘 Aula 02</b><small>Ideia principal e inferência</small></div><strong id="status2">🔒</strong></div>
+  <div class="card subject locked"><div><b>📚 Próximas aulas</b><small>Entrarão conforme a trilha oficial for estruturada</small></div><strong>🔒</strong></div>
+</section>
 
-<section id="progressPage" class="page"><p class="label">DESEMPENHO</p><h1>Seu progresso</h1><div class="card"><div class="row"><b>Português</b><strong id="pPct">0%</strong></div><div class="progress"><i id="pbar"></i></div></div><div class="card"><h2>❌ Caderno de erros</h2><div id="errorBook" class="muted">Nenhuma questão registrada ainda.</div></div><div class="card"><h2>🏆 Conquistas</h2><p>✅ Comecei minha preparação</p><p id="aTest">⬜ Completei meu primeiro teste</p><p id="aMission">⬜ Completei minha primeira missão</p></div></section>
+<section id="lesson1" class="page">
+  <button class="back" onclick="show('home')">← Início</button>
+  <p class="label">PORTUGUÊS • AULA 01</p>
+  <h1>Interpretação de texto</h1>
+  <div class="card lesson">
+    <h2>1. O que é interpretar?</h2>
+    <p>Interpretar é entender a mensagem construída pelo texto. Em prova, a alternativa correta precisa estar sustentada pelo que foi apresentado.</p>
+    <h2>2. Procure sempre</h2>
+    <ul><li>o assunto;</li><li>a ideia principal;</li><li>a finalidade da mensagem;</li><li>o que está explícito;</li><li>o que pode ser concluído com segurança.</li></ul>
+    <div class="tip"><b>⚡ Regra de ouro</b><p>Antes de marcar, pergunte: “O texto realmente sustenta essa resposta?”</p></div>
+  </div>
+  <button onclick="startQuiz(1)">IR PARA A PROVA DA AULA 01</button>
+</section>
+
+<section id="lesson2" class="page">
+  <button class="back" onclick="show('subjects')">← Matérias</button>
+  <p class="label">PORTUGUÊS • AULA 02</p>
+  <h1>Ideia principal e inferência</h1>
+  <div class="card lesson">
+    <h2>Ideia principal</h2>
+    <p>É a mensagem central do texto: aquilo que organiza as informações ao redor de um ponto principal.</p>
+    <h2>Inferência</h2>
+    <p>É uma conclusão que o texto permite fazer mesmo sem dizer aquilo literalmente. A inferência precisa ser lógica e baseada em pistas do texto.</p>
+    <div class="tip"><b>Exemplo</b><p>“O chão estava molhado e várias pessoas entravam com guarda-chuvas.” Inferência segura: provavelmente choveu ou está chovendo.</p></div>
+  </div>
+  <button onclick="startQuiz(2)">IR PARA A PROVA DA AULA 02</button>
+</section>
+
+<section id="quiz" class="page">
+  <button class="back" onclick="backToLesson()">← Aula</button>
+  <div class="quizhead"><p class="label" id="qnum"></p><b id="scoreNow">0 acertos</b></div>
+  <div class="progress"><i id="qbar"></i></div>
+  <div class="card">
+    <h2 id="qtext"></h2>
+    <div id="answers"></div>
+    <div id="feedback" class="feedback hidden"></div>
+    <button id="next" class="hidden" onclick="nextQ()">PRÓXIMA</button>
+  </div>
+</section>
+
+<section id="result" class="page">
+  <div class="card result">
+    <div class="circle"><b id="resultPct">0%</b><small id="resultScore">0/5</small></div>
+    <h1 id="resultTitle"></h1>
+    <p id="resultMsg"></p>
+    <div class="mastery" id="mastery"></div>
+    <button id="resultAction" onclick="finishResult()">CONTINUAR</button>
+  </div>
+</section>
+
+<section id="review" class="page">
+  <p class="label">REVISÃO</p><h1>Caderno de erros</h1>
+  <div id="reviewList"></div>
+  <button class="secondary" onclick="show('progressPage')">VOLTAR AO PROGRESSO</button>
+</section>
+
+<section id="progressPage" class="page">
+  <p class="label">DESEMPENHO</p><h1>Seu progresso</h1>
+  <div class="card">
+    <div class="row"><b>Português</b><strong id="pPct">0%</strong></div>
+    <div class="progress"><i id="pbar"></i></div>
+  </div>
+  <div class="card">
+    <h2>📊 Últimas tentativas</h2>
+    <div id="history" class="muted">Nenhuma tentativa registrada.</div>
+  </div>
+  <div class="card">
+    <h2>❌ Caderno de erros</h2>
+    <div id="errorBook" class="muted">Nenhum erro registrado.</div>
+    <button class="secondary" onclick="showReview()">REVISAR ERROS</button>
+  </div>
+  <div class="card">
+    <h2>🏆 Conquistas</h2>
+    <p>✅ Comecei minha preparação</p>
+    <p id="aPass">⬜ Aprovado na primeira aula</p>
+    <p id="aSecond">⬜ Desbloqueei a Aula 02</p>
+  </div>
+</section>
 </main>
-<nav><button data-page="home" class="active" onclick="show('home')">⌂<small>Início</small></button><button data-page="subjects" onclick="show('subjects')">▤<small>Matérias</small></button><button data-page="progressPage" onclick="show('progressPage')">↗<small>Progresso</small></button></nav></div>
-<script src="app.js"></script></body></html>
+
+<nav>
+<button data-page="home" class="active" onclick="show('home')">⌂<small>Início</small></button>
+<button data-page="subjects" onclick="show('subjects')">▤<small>Matérias</small></button>
+<button data-page="progressPage" onclick="show('progressPage')">↗<small>Progresso</small></button>
+</nav>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
