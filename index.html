@@ -1,67 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Missão PMMG</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Missão PMMG</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="app"><header><div><small>PREPARAÇÃO PARA SOLDADO</small><b>MISSÃO <i>PMMG</i></b></div><span class="xp">⭐ <span id="xp">0</span> XP</span></header>
+<main>
+<section id="home" class="page active"><div class="hero card"><span class="badge">MISSÃO ATIVA</span><h1>Seu caminho começa do zero.</h1><p>Hoje você só precisa cumprir a próxima missão. O restante fica organizado aqui.</p></div>
+<div class="grid"><div class="card stat"><b id="streak">1</b><small>🔥 sequência</small></div><div class="card stat"><b id="general">0%</b><small>🎯 progresso</small></div><div class="card stat"><b id="missions">0</b><small>✓ missões</small></div></div>
+<div class="card"><p class="label">MISSÃO DE HOJE</p><h2>📖 Português</h2><p>Interpretação de texto • Aula 01</p><div class="chips"><span>🌱 do zero</span><span>⏱ 30–45 min</span></div><button onclick="show('lesson')">COMEÇAR MISSÃO ▶</button></div>
+<div class="card"><p class="label">ROTA DE APROVAÇÃO</p><div class="route"><span class="on">1</span><i></i><span>2</span><i></i><span>3</span><i></i><span>🏆</span></div><div class="labels"><small>Base</small><small>Edital</small><small>Simulados</small><small>Prova</small></div></div></section>
 
-<body>
+<section id="subjects" class="page"><p class="label">TRILHA</p><h1>Matérias</h1><p class="muted">A trilha definitiva será ajustada ao edital oficial adotado como referência.</p>
+<div class="card subject"><div><b>📖 Português</b><small>Trilha iniciada</small></div><strong id="portPct">0%</strong></div>
+<div class="card subject locked"><div><b>➗ Próxima matéria</b><small>Será configurada pela grade oficial</small></div><strong>🔒</strong></div>
+<div class="card subject locked"><div><b>⚖️ Próxima matéria</b><small>Será configurada pela grade oficial</small></div><strong>🔒</strong></div></section>
 
-  <div class="app">
+<section id="lesson" class="page"><button class="back" onclick="show('home')">← Início</button><p class="label">PORTUGUÊS • AULA 01</p><h1>Interpretação de texto</h1>
+<div class="card lesson"><h2>1. O que é interpretar?</h2><p>Interpretar é entender a mensagem construída pelo texto. Em uma prova, não basta escolher o que parece verdadeiro: a alternativa precisa estar sustentada pelo texto.</p>
+<h2>2. Comece procurando</h2><ul><li>o assunto;</li><li>a ideia principal;</li><li>quem está falando ou sendo mencionado;</li><li>a finalidade da mensagem;</li><li>o que está escrito e o que pode ser concluído.</li></ul>
+<div class="tip"><b>⚡ Regra de ouro</b><p>Antes de marcar, pergunte: “Consigo provar esta resposta usando o texto?”</p></div>
+<h2>3. Exemplo</h2><p>“Carlos saiu de casa levando um guarda-chuva. O céu estava escuro e a previsão indicava chuva.”</p><p><b>Conclusão segura:</b> Carlos se preparou para a possibilidade de chuva.</p></div>
+<button onclick="startQuiz()">TERMINEI • IR PARA A PROVA DO DIA</button></section>
 
-    <header>
-      <small>PREPARAÇÃO PESSOAL</small>
-      <h1>MISSÃO PMMG</h1>
-    </header>
+<section id="quiz" class="page"><button class="back" onclick="show('lesson')">← Aula</button><div class="quizhead"><p class="label" id="qnum"></p><b id="scoreNow">0 acertos</b></div><div class="progress"><i id="qbar"></i></div><div class="card"><h2 id="qtext"></h2><div id="answers"></div><div id="feedback" class="feedback hidden"></div><button id="next" class="hidden" onclick="nextQ()">PRÓXIMA</button></div></section>
 
-    <main>
+<section id="result" class="page"><div class="card result"><div class="circle"><b id="resultPct">0%</b><small id="resultScore">0/5</small></div><h1 id="resultTitle"></h1><p id="resultMsg"></p><div class="mastery" id="mastery"></div><button onclick="finishMission()">CONCLUIR MISSÃO</button></div></section>
 
-      <section class="card">
-        <span>🚔 DIA DE PREPARAÇÃO</span>
-
-        <h2>Sua missão começa agora.</h2>
-
-        <p>
-          Vamos construir sua preparação para Soldado da PMMG
-          começando do absoluto zero.
-        </p>
-      </section>
-
-      <section class="card">
-
-        <h3>🔥 MISSÃO DE HOJE</h3>
-
-        <h2>📖 Português</h2>
-
-        <p>Interpretação de texto — Fundamentos</p>
-
-        <p>⏱ 30–45 minutos</p>
-
-        <button onclick="comecarEstudo()">
-          COMEÇAR ESTUDO
-        </button>
-
-      </section>
-
-      <section class="card">
-
-        <h3>🎯 SEU PROGRESSO</h3>
-
-        <div class="barra">
-          <div class="progresso"></div>
-        </div>
-
-        <p>Preparação iniciada — 1%</p>
-
-      </section>
-
-    </main>
-
-  </div>
-
-  <script src="app.js"></script>
-
-</body>
-</html>
+<section id="progressPage" class="page"><p class="label">DESEMPENHO</p><h1>Seu progresso</h1><div class="card"><div class="row"><b>Português</b><strong id="pPct">0%</strong></div><div class="progress"><i id="pbar"></i></div></div><div class="card"><h2>❌ Caderno de erros</h2><div id="errorBook" class="muted">Nenhuma questão registrada ainda.</div></div><div class="card"><h2>🏆 Conquistas</h2><p>✅ Comecei minha preparação</p><p id="aTest">⬜ Completei meu primeiro teste</p><p id="aMission">⬜ Completei minha primeira missão</p></div></section>
+</main>
+<nav><button data-page="home" class="active" onclick="show('home')">⌂<small>Início</small></button><button data-page="subjects" onclick="show('subjects')">▤<small>Matérias</small></button><button data-page="progressPage" onclick="show('progressPage')">↗<small>Progresso</small></button></nav></div>
+<script src="app.js"></script></body></html>
