@@ -2370,3 +2370,41 @@ window.exitSmartReviewSessionV617 = function(){
   }
   openErrorsProV60();
 };
+
+/* ==========================================================
+   V6.1.8 — Integração visual da Revisão Automática
+   ========================================================== */
+function updateSmartReviewEntryV618(){
+  const label = document.getElementById("smartReviewPendingV618");
+  const btn = document.getElementById("startSmartReviewBtnV618");
+  if(!label || !btn) return;
+
+  const pending = typeof getErrorsV60 === "function" ? getErrorsV60().length : 0;
+
+  if(pending > 0){
+    label.textContent = `${pending} erro${pending===1?"":"s"} pendente${pending===1?"":"s"} • toque para começar`;
+    btn.disabled = false;
+    btn.classList.remove("is-empty");
+  }else{
+    label.textContent = "Nenhum erro pendente • revisão em dia";
+    btn.disabled = true;
+    btn.classList.add("is-empty");
+  }
+}
+
+// Atualiza ao entrar/tocar na área Revisar e após mudanças no caderno.
+document.addEventListener("click", function(e){
+  const el = e.target.closest?.("#navReview, .v618-smart-review-btn, [onclick*='openErrorNotebook'], [onclick*='openErrorsProV60']");
+  if(el) setTimeout(updateSmartReviewEntryV618, 80);
+});
+
+const _removeErrorV618 = typeof removeError === "function" ? removeError : null;
+if(_removeErrorV618){
+  removeError = function(...args){
+    const result = _removeErrorV618.apply(this,args);
+    setTimeout(updateSmartReviewEntryV618,0);
+    return result;
+  };
+}
+
+window.addEventListener("load", ()=>setTimeout(updateSmartReviewEntryV618,150));
