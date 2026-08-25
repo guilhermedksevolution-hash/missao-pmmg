@@ -750,7 +750,876 @@ const quiz4 = [
     e: "Informações incompatíveis podem prejudicar a coerência."
   }
 ];
+/* =========================================================
+   QUESTÕES — AULA 05
+========================================================= */
 
+const quiz5 = [
+  {
+    q: "Na frase 'Os candidatos chegaram cedo', a palavra 'candidatos' pertence a qual classe gramatical?",
+    a: [
+      "Substantivo",
+      "Adjetivo",
+      "Pronome",
+      "Advérbio"
+    ],
+    c: 0,
+    e: "Candidatos é substantivo, pois nomeia os seres de quem se fala."
+  },
+
+  {
+    q: "Na frase 'O candidato dedicado estudou bastante', a palavra 'dedicado' é:",
+    a: [
+      "Substantivo",
+      "Adjetivo",
+      "Verbo",
+      "Preposição"
+    ],
+    c: 1,
+    e: "Dedicado caracteriza o substantivo candidato, portanto é um adjetivo."
+  },
+
+  {
+    q: "Na frase 'Ela estudou muito', a palavra 'ela' é:",
+    a: [
+      "Artigo",
+      "Pronome",
+      "Numeral",
+      "Conjunção"
+    ],
+    c: 1,
+    e: "Ela é um pronome pessoal que substitui ou representa um nome."
+  },
+
+  {
+    q: "Qual alternativa apresenta um numeral?",
+    a: [
+      "Bonito",
+      "Dois",
+      "Rapidamente",
+      "Embora"
+    ],
+    c: 1,
+    e: "Dois é numeral porque indica quantidade."
+  },
+
+  {
+    q: "Na frase 'O policial agiu rapidamente', a palavra 'rapidamente' é:",
+    a: [
+      "Advérbio",
+      "Adjetivo",
+      "Substantivo",
+      "Artigo"
+    ],
+    c: 0,
+    e: "Rapidamente modifica o sentido do verbo agiu, funcionando como advérbio."
+  },
+
+  {
+    q: "Na frase 'Estudei para a prova', a palavra 'para' é:",
+    a: [
+      "Pronome",
+      "Preposição",
+      "Adjetivo",
+      "Interjeição"
+    ],
+    c: 1,
+    e: "Para é uma preposição que estabelece relação entre termos."
+  },
+
+  {
+    q: "Na frase 'Estudou muito, mas não conseguiu aprovação', a palavra 'mas' é:",
+    a: [
+      "Conjunção",
+      "Preposição",
+      "Numeral",
+      "Substantivo"
+    ],
+    c: 0,
+    e: "Mas é uma conjunção que estabelece ideia de oposição."
+  },
+
+  {
+    q: "Qual das palavras abaixo é uma interjeição?",
+    a: [
+      "Porque",
+      "Nossa!",
+      "Durante",
+      "Aquele"
+    ],
+    c: 1,
+    e: "Nossa! pode expressar emoção ou surpresa, funcionando como interjeição."
+  },
+
+  {
+    q: "Em 'A jovem policial chegou', a palavra 'jovem' funciona como:",
+    a: [
+      "Adjetivo",
+      "Verbo",
+      "Artigo",
+      "Preposição"
+    ],
+    c: 0,
+    e: "Jovem caracteriza o substantivo policial e, nesse contexto, funciona como adjetivo."
+  },
+
+  {
+    q: "Para identificar corretamente a classe gramatical de uma palavra, é importante observar:",
+    a: [
+      "Somente sua aparência",
+      "Somente seu tamanho",
+      "Sua função no contexto",
+      "A quantidade de letras"
+    ],
+    c: 2,
+    e: "Uma mesma palavra pode exercer funções diferentes. Por isso, o contexto é fundamental."
+  }
+];
+/* =========================================================
+   QUESTÕES — AULA 06
+========================================================= */
+
+const quiz6 = [
+  {
+    q: "O verbo é uma classe de palavras que pode indicar:",
+    a: [
+      "Apenas ação",
+      "Ação, estado, mudança de estado ou fenômeno",
+      "Somente características",
+      "Somente nomes"
+    ],
+    c: 1,
+    e: "O verbo pode expressar ação, estado, mudança de estado, fenômeno e outros valores conforme o contexto."
+  },
+
+  {
+    q: "Na frase 'Os candidatos estudaram para a prova', o verbo está em qual tempo?",
+    a: [
+      "Presente",
+      "Pretérito",
+      "Futuro",
+      "Infinitivo"
+    ],
+    c: 1,
+    e: "Estudaram indica uma ação ocorrida no passado, portanto está no pretérito."
+  },
+
+  {
+    q: "Na frase 'Os candidatos estudarão amanhã', o verbo indica:",
+    a: [
+      "Uma ação passada",
+      "Uma ação presente",
+      "Uma ação futura",
+      "Uma ordem"
+    ],
+    c: 2,
+    e: "Estudarão indica uma ação que acontecerá posteriormente, portanto está no futuro."
+  },
+
+  {
+    q: "Qual alternativa apresenta um verbo no infinitivo?",
+    a: [
+      "Estudando",
+      "Estudado",
+      "Estudar",
+      "Estudou"
+    ],
+    c: 2,
+    e: "Estudar está no infinitivo. O infinitivo normalmente apresenta terminações -ar, -er ou -ir."
+  },
+
+  {
+    q: "Na expressão 'está estudando', temos:",
+    a: [
+      "Uma locução verbal",
+      "Um substantivo",
+      "Um adjetivo",
+      "Uma conjunção"
+    ],
+    c: 0,
+    e: "Está estudando é uma locução verbal formada por verbo auxiliar e verbo principal."
+  },
+
+  {
+    q: "Em 'Se eu estudasse mais, teria melhores resultados', a forma 'estudasse' está relacionada principalmente a:",
+    a: [
+      "Certeza absoluta",
+      "Hipótese ou condição",
+      "Uma ordem direta",
+      "Um fato necessariamente futuro"
+    ],
+    c: 1,
+    e: "O modo subjuntivo é frequentemente empregado para expressar hipótese, possibilidade ou condição."
+  },
+
+  {
+    q: "Na frase 'Estude para a prova!', o verbo expressa principalmente:",
+    a: [
+      "Uma ordem ou orientação",
+      "Uma hipótese",
+      "Um acontecimento passado",
+      "Uma descrição"
+    ],
+    c: 0,
+    e: "Estude está no modo imperativo, utilizado para ordem, pedido, conselho ou orientação."
+  },
+
+  {
+    q: "Na frase 'Ela tinha estudado antes da prova', a expressão 'tinha estudado' é:",
+    a: [
+      "Uma locução verbal",
+      "Um substantivo composto",
+      "Uma conjunção",
+      "Um pronome"
+    ],
+    c: 0,
+    e: "Tinha estudado apresenta dois verbos funcionando conjuntamente na construção verbal."
+  },
+
+  {
+    q: "Qual das formas abaixo está no gerúndio?",
+    a: [
+      "Estudar",
+      "Estudado",
+      "Estudando",
+      "Estudará"
+    ],
+    c: 2,
+    e: "Estudando é uma forma nominal do verbo denominada gerúndio."
+  },
+
+  {
+    q: "Qual das formas abaixo está no particípio?",
+    a: [
+      "Estudar",
+      "Estudando",
+      "Estudado",
+      "Estudarei"
+    ],
+    c: 2,
+    e: "Estudado é o particípio do verbo estudar."
+  },
+
+  {
+    q: "Na frase 'Você poderia me ajudar?', o futuro do pretérito contribui para produzir ideia de:",
+    a: [
+      "Cortesia",
+      "Ordem obrigatória",
+      "Ação concluída",
+      "Proibição"
+    ],
+    c: 0,
+    e: "O futuro do pretérito pode ser empregado para suavizar um pedido e produzir efeito de cortesia."
+  },
+
+  {
+    q: "Para analisar corretamente uma forma verbal em uma questão, deve-se:",
+    a: [
+      "Observar somente a terminação",
+      "Ignorar o restante da oração",
+      "Analisar sua função e o contexto",
+      "Considerar apenas o tamanho da palavra"
+    ],
+    c: 2,
+    e: "O contexto é essencial, pois formas verbais podem assumir valores diferentes conforme a construção."
+  }
+];
+/* =========================================================
+   QUESTÕES — AULA 07
+========================================================= */
+
+const quiz7 = [
+  {
+    q: "Assinale a alternativa em que a concordância verbal está correta:",
+    a: [
+      "Os candidatos chegou cedo.",
+      "Os candidatos chegaram cedo.",
+      "Os candidato chegaram cedo.",
+      "Os candidatos chegava cedo."
+    ],
+    c: 1,
+    e: "O sujeito 'os candidatos' está no plural, portanto o verbo deve concordar: 'chegaram'."
+  },
+
+  {
+    q: "Na frase 'A maioria dos candidatos chegou cedo', a forma verbal 'chegou' concorda com:",
+    a: [
+      "Candidatos",
+      "Maioria",
+      "Cedo",
+      "Dos"
+    ],
+    c: 1,
+    e: "O núcleo do sujeito é 'maioria', que está no singular."
+  },
+
+  {
+    q: "Assinale a alternativa correta:",
+    a: [
+      "Fazem dois anos que estudo.",
+      "Faz dois anos que estudo.",
+      "Fizeram dois anos que estudo.",
+      "Fazem dois ano que estudo."
+    ],
+    c: 1,
+    e: "Quando indica tempo decorrido, o verbo 'fazer' é impessoal e permanece na terceira pessoa do singular."
+  },
+
+  {
+    q: "Assinale a alternativa correta quanto ao verbo haver:",
+    a: [
+      "Haviam muitos candidatos na sala.",
+      "Houveram muitos problemas.",
+      "Havia muitos candidatos na sala.",
+      "Haviam ocorrido um problema."
+    ],
+    c: 2,
+    e: "Com sentido de existir, o verbo 'haver' é impessoal e permanece no singular."
+  },
+
+  {
+    q: "Em 'Deve haver muitos candidatos', por que o verbo auxiliar permanece no singular?",
+    a: [
+      "Porque candidatos está no plural",
+      "Porque a locução contém o verbo haver impessoal",
+      "Porque todo verbo auxiliar é singular",
+      "Porque haver é sempre um substantivo"
+    ],
+    c: 1,
+    e: "Quando 'haver' tem sentido de existir, sua impessoalidade é transmitida à locução verbal."
+  },
+
+  {
+    q: "Assinale a frase com concordância nominal correta:",
+    a: [
+      "As candidatas estavam preparado.",
+      "As candidatas estavam preparadas.",
+      "As candidata estavam preparadas.",
+      "As candidatas estava preparada."
+    ],
+    c: 1,
+    e: "O adjetivo 'preparadas' concorda em gênero e número com 'candidatas'."
+  },
+
+  {
+    q: "Complete corretamente: 'Seguem _____ as documentações solicitadas.'",
+    a: [
+      "anexo",
+      "anexa",
+      "anexos",
+      "anexas"
+    ],
+    c: 3,
+    e: "'Anexas' concorda com 'documentações', palavra feminina e plural."
+  },
+
+  {
+    q: "Assinale a alternativa correta:",
+    a: [
+      "É proibido a entrada.",
+      "É proibida a entrada.",
+      "É proibidas a entrada.",
+      "São proibido a entrada."
+    ],
+    c: 1,
+    e: "Com o substantivo determinado pelo artigo 'a', o adjetivo concorda com ele: 'É proibida a entrada'."
+  },
+
+  {
+    q: "Na frase 'Existem boas oportunidades', o verbo 'existir':",
+    a: [
+      "É sempre impessoal",
+      "Concorda com o sujeito",
+      "Deve permanecer sempre no singular",
+      "Não possui sujeito"
+    ],
+    c: 1,
+    e: "Diferentemente de 'haver' com sentido de existir, o verbo 'existir' é pessoal e concorda com seu sujeito."
+  },
+
+  {
+    q: "Assinale a alternativa correta:",
+    a: [
+      "Existe muitos candidatos.",
+      "Existem muitos candidatos.",
+      "Há muitos candidatos existem.",
+      "Haviam muitos candidatos."
+    ],
+    c: 1,
+    e: "O sujeito de 'existir' é 'muitos candidatos'; como está no plural, usamos 'existem'."
+  },
+
+  {
+    q: "Em uma questão de concordância verbal, qual deve ser um dos primeiros passos?",
+    a: [
+      "Localizar o sujeito e seu núcleo",
+      "Contar as palavras da oração",
+      "Procurar apenas os adjetivos",
+      "Ignorar o sujeito"
+    ],
+    c: 0,
+    e: "Identificar o sujeito e seu núcleo ajuda a determinar com qual termo o verbo deve concordar."
+  },
+
+  {
+    q: "Qual alternativa apresenta corretamente o verbo fazer indicando tempo decorrido?",
+    a: [
+      "Faz três meses que ele estuda.",
+      "Fazem três meses que ele estuda.",
+      "Fizeram três meses que ele estuda.",
+      "Fazem três mês que ele estuda."
+    ],
+    c: 0,
+    e: "Indicando tempo decorrido, 'fazer' é impessoal: 'Faz três meses'."
+  }
+];
+/* =========================================================
+   QUESTÕES — AULA 08
+========================================================= */
+
+const quiz8 = [
+  {
+    q: "Assinale a alternativa em que o uso da crase está correto:",
+    a: [
+      "Vou à escola.",
+      "Vou á escola.",
+      "Vou a à escola.",
+      "Vou à estudar."
+    ],
+    c: 0,
+    e: "Em 'vou à escola', ocorre a união da preposição 'a', exigida pelo verbo ir, com o artigo feminino 'a'."
+  },
+
+  {
+    q: "A crase é representada pelo acento grave e ocorre, em regra, quando há:",
+    a: [
+      "Encontro de duas consoantes",
+      "Fusão de dois sons ou formas 'a'",
+      "Qualquer palavra feminina",
+      "Um verbo no infinitivo"
+    ],
+    c: 1,
+    e: "A crase normalmente resulta da fusão da preposição 'a' com o artigo feminino 'a' ou com determinados pronomes."
+  },
+
+  {
+    q: "Assinale a alternativa em que NÃO ocorre crase:",
+    a: [
+      "Cheguei à escola.",
+      "Entreguei o documento à candidata.",
+      "Começou a estudar.",
+      "Referiu-se à professora."
+    ],
+    c: 2,
+    e: "Antes de verbo, em regra, não se usa crase. Portanto: 'começou a estudar'."
+  },
+
+  {
+    q: "Em qual alternativa o uso da crase está correto?",
+    a: [
+      "Entreguei o documento à ela.",
+      "Entreguei o documento à candidata.",
+      "Entreguei à documento.",
+      "Entreguei o documento à você."
+    ],
+    c: 1,
+    e: "Em 'à candidata', há preposição 'a' exigida pelo verbo e artigo feminino 'a' diante de 'candidata'."
+  },
+
+  {
+    q: "Qual frase está correta?",
+    a: [
+      "O candidato ficou frente à frente com o avaliador.",
+      "O candidato ficou frente a frente com o avaliador.",
+      "O candidato ficou frente á frente com o avaliador.",
+      "O candidato ficou à frente à frente com o avaliador."
+    ],
+    c: 1,
+    e: "Em expressões formadas por palavras repetidas, como 'frente a frente', normalmente não ocorre crase."
+  },
+
+  {
+    q: "Assinale a alternativa correta:",
+    a: [
+      "A prova começará às oito horas.",
+      "A prova começará as oito horas.",
+      "A prova começará ás oito horas.",
+      "A prova começará à oito horas."
+    ],
+    c: 0,
+    e: "Na indicação de horas determinadas, normalmente ocorre crase: 'às oito horas'."
+  },
+
+  {
+    q: "Na frase 'Refiro-me àquela candidata', ocorre crase porque:",
+    a: [
+      "Toda palavra feminina exige crase",
+      "Há preposição 'a' antes do pronome demonstrativo 'aquela'",
+      "Existe um verbo no infinitivo",
+      "A palavra candidata está no singular"
+    ],
+    c: 1,
+    e: "O verbo 'referir-se' exige a preposição 'a', que se funde com o 'a' inicial de 'aquela': àquela."
+  },
+
+  {
+    q: "Qual alternativa NÃO admite crase?",
+    a: [
+      "À noite",
+      "À medida que",
+      "À direita",
+      "À estudar"
+    ],
+    c: 3,
+    e: "Não se usa crase antes de verbo. O correto é 'a estudar'."
+  },
+
+  {
+    q: "Um teste útil para verificar a crase diante de palavra feminina é substituir essa palavra por uma masculina e observar se aparece:",
+    a: [
+      "ao",
+      "um",
+      "de",
+      "por"
+    ],
+    c: 0,
+    e: "Se na substituição por termo masculino surgir 'ao', há forte indicação de que, no feminino, ocorrerá 'à'."
+  },
+
+  {
+    q: "Em 'O policial dirigiu-se à delegacia', o acento grave ocorre porque:",
+    a: [
+      "Delegacia é qualquer palavra feminina",
+      "O verbo exige preposição 'a' e delegacia admite artigo 'a'",
+      "Todo verbo exige crase",
+      "Delegacia está no singular"
+    ],
+    c: 1,
+    e: "Temos a preposição 'a' exigida por 'dirigir-se' mais o artigo 'a': a + a = à."
+  },
+
+  {
+    q: "Assinale a alternativa correta quanto ao uso da crase:",
+    a: [
+      "Ele começou à estudar cedo.",
+      "Ele começou a estudar cedo.",
+      "Ele começou á estudar cedo.",
+      "Ele começou às estudar cedo."
+    ],
+    c: 1,
+    e: "Antes de verbo no infinitivo não ocorre crase: 'começou a estudar'."
+  },
+
+  {
+    q: "Ao resolver uma questão de crase, o candidato deve verificar principalmente:",
+    a: [
+      "Se a palavra possui muitas letras",
+      "Se existe preposição 'a' e se o termo seguinte admite outro 'a'",
+      "Se toda a oração está no plural",
+      "Se existe algum verbo no passado"
+    ],
+    c: 1,
+    e: "O ponto central é verificar a exigência da preposição 'a' e a possibilidade de outro 'a' no termo seguinte."
+  }
+];
+/* =========================================================
+   QUESTÕES — AULA 09
+========================================================= */
+
+const quiz9 = [
+  {
+    q: "Regência verbal é a relação estabelecida entre:",
+    a: [
+      "Um verbo e os termos que o complementam",
+      "Dois substantivos apenas",
+      "Dois adjetivos",
+      "Somente sujeito e verbo"
+    ],
+    c: 0,
+    e: "A regência verbal estuda a relação entre o verbo e seus complementos, inclusive a necessidade ou não de preposição."
+  },
+
+  {
+    q: "Assinale a alternativa de acordo com a norma-padrão:",
+    a: [
+      "Assisti o filme ontem.",
+      "Assisti ao filme ontem.",
+      "Assisti no filme ontem.",
+      "Assisti pelo filme ontem."
+    ],
+    c: 1,
+    e: "No sentido de ver ou presenciar, o verbo 'assistir' exige a preposição 'a': assistir ao filme."
+  },
+
+  {
+    q: "Assinale a alternativa correta:",
+    a: [
+      "Ele obedeceu o regulamento.",
+      "Ele obedeceu ao regulamento.",
+      "Ele obedeceu no regulamento.",
+      "Ele obedeceu pelo regulamento."
+    ],
+    c: 1,
+    e: "O verbo 'obedecer' rege a preposição 'a': obedecer ao regulamento."
+  },
+
+  {
+    q: "Na norma-padrão, qual construção está correta?",
+    a: [
+      "Prefiro estudar do que trabalhar.",
+      "Prefiro mais estudar que trabalhar.",
+      "Prefiro estudar a trabalhar.",
+      "Prefiro estudar do que a trabalhar."
+    ],
+    c: 2,
+    e: "Na construção comparativa, o verbo 'preferir' segue normalmente a estrutura 'preferir uma coisa a outra'."
+  },
+
+  {
+    q: "Assinale a frase correta quanto à regência:",
+    a: [
+      "O candidato aspirava um cargo melhor.",
+      "O candidato aspirava a um cargo melhor.",
+      "O candidato aspirava de um cargo melhor.",
+      "O candidato aspirava com um cargo melhor."
+    ],
+    c: 1,
+    e: "No sentido de desejar ou almejar, 'aspirar' rege a preposição 'a'."
+  },
+
+  {
+    q: "Na frase 'O policial informou o fato ao superior', temos:",
+    a: [
+      "Um verbo sem complemento",
+      "Complementos relacionados ao verbo informar",
+      "Somente um sujeito composto",
+      "Uma oração sem verbo"
+    ],
+    c: 1,
+    e: "O verbo 'informar' pode estabelecer relação com aquilo que é informado e com a pessoa a quem se informa."
+  },
+
+  {
+    q: "Assinale a alternativa correta:",
+    a: [
+      "Cheguei na escola cedo.",
+      "Cheguei à escola cedo.",
+      "Cheguei da escola cedo, no sentido de destino.",
+      "Cheguei pela escola cedo."
+    ],
+    c: 1,
+    e: "Na norma-padrão, indicando destino, o verbo 'chegar' rege a preposição 'a': chegar à escola."
+  },
+
+  {
+    q: "Em 'Ele se referiu ao regulamento', a preposição 'a' ocorre porque:",
+    a: [
+      "Todo substantivo exige preposição",
+      "O verbo 'referir-se' rege a preposição 'a'",
+      "Todo verbo pronominal exige 'a'",
+      "Regulamento é masculino"
+    ],
+    c: 1,
+    e: "O verbo 'referir-se' exige a preposição 'a': referir-se a algo."
+  },
+
+  {
+    q: "Assinale a alternativa correta quanto à regência nominal:",
+    a: [
+      "Ele está favorável com a proposta.",
+      "Ele está favorável à proposta.",
+      "Ele está favorável pela proposta.",
+      "Ele está favorável na proposta."
+    ],
+    c: 1,
+    e: "O adjetivo 'favorável' rege a preposição 'a': favorável a algo."
+  },
+
+  {
+    q: "Em 'Tenho necessidade de apoio', a expressão 'de apoio' completa o sentido de:",
+    a: [
+      "Tenho",
+      "Necessidade",
+      "Eu, que está oculto",
+      "Apoio"
+    ],
+    c: 1,
+    e: "O substantivo 'necessidade' estabelece relação de regência com o complemento introduzido pela preposição 'de'."
+  },
+
+  {
+    q: "Regência nominal analisa principalmente a relação entre:",
+    a: [
+      "Um nome e seu complemento",
+      "Somente dois verbos",
+      "Sujeito e predicado",
+      "Artigo e substantivo"
+    ],
+    c: 0,
+    e: "A regência nominal observa a relação de substantivos, adjetivos ou advérbios com seus complementos."
+  },
+
+  {
+    q: "Em questões de regência, uma boa estratégia é:",
+    a: [
+      "Ignorar as preposições",
+      "Identificar o termo regente e verificar qual preposição ele exige",
+      "Escolher sempre a alternativa mais curta",
+      "Analisar somente o sujeito"
+    ],
+    c: 1,
+    e: "É fundamental identificar o termo regente e observar se ele exige preposição e qual preposição é adequada."
+  }
+];
+/* =========================================================
+   QUESTÕES — AULA 10
+========================================================= */
+
+const quiz10 = [
+  {
+    q: "A pontuação tem como uma de suas principais funções:",
+    a: [
+      "Apenas deixar o texto mais bonito",
+      "Organizar o texto e contribuir para a construção de sentido",
+      "Substituir todas as conjunções",
+      "Eliminar a necessidade de interpretação"
+    ],
+    c: 1,
+    e: "A pontuação organiza a estrutura do texto e pode interferir diretamente na construção de sentido."
+  },
+
+  {
+    q: "Assinale a alternativa em que a vírgula foi empregada corretamente:",
+    a: [
+      "Os candidatos, chegaram cedo.",
+      "Os candidatos chegaram, cedo.",
+      "João, entregue o documento.",
+      "O policial analisou, cuidadosamente o documento."
+    ],
+    c: 2,
+    e: "A vírgula é usada para isolar o vocativo. Na frase, 'João' é o termo usado para chamar o interlocutor."
+  },
+
+  {
+    q: "Em qual alternativa a vírgula separa indevidamente o sujeito do verbo?",
+    a: [
+      "Os candidatos, chegaram cedo.",
+      "Durante a prova, permaneça atento.",
+      "Carlos, venha aqui.",
+      "Sim, estou preparado."
+    ],
+    c: 0,
+    e: "Não se deve, em regra, separar por vírgula o sujeito 'Os candidatos' do verbo 'chegaram'."
+  },
+
+  {
+    q: "Na frase 'Pedro, feche a porta.', a vírgula foi utilizada para isolar:",
+    a: [
+      "O sujeito",
+      "O vocativo",
+      "O objeto direto",
+      "O predicado"
+    ],
+    c: 1,
+    e: "'Pedro' é um vocativo, pois representa a pessoa a quem a mensagem é dirigida."
+  },
+
+  {
+    q: "Assinale a alternativa em que as vírgulas isolam uma explicação:",
+    a: [
+      "O candidato estudou português, matemática e direito.",
+      "Carlos, venha imediatamente.",
+      "A PMMG, instituição militar estadual, possui importante função pública.",
+      "Ontem, ocorreu a prova."
+    ],
+    c: 2,
+    e: "'Instituição militar estadual' apresenta uma explicação sobre o termo anterior e aparece isolada por vírgulas."
+  },
+
+  {
+    q: "Os dois-pontos podem ser utilizados para:",
+    a: [
+      "Introduzir uma explicação ou enumeração",
+      "Separar obrigatoriamente sujeito e verbo",
+      "Substituir qualquer ponto final",
+      "Indicar somente uma pergunta"
+    ],
+    c: 0,
+    e: "Os dois-pontos podem introduzir explicações, enumerações, citações e outros elementos."
+  },
+
+  {
+    q: "Em 'Leve os seguintes documentos: identidade, comprovante e formulário.', os dois-pontos introduzem:",
+    a: [
+      "Uma pergunta",
+      "Uma enumeração",
+      "Um vocativo",
+      "Uma oposição"
+    ],
+    c: 1,
+    e: "Os elementos posteriores aos dois-pontos formam uma enumeração dos documentos."
+  },
+
+  {
+    q: "O ponto e vírgula pode ser empregado para:",
+    a: [
+      "Separar partes de um período que já apresentam vírgulas ou possuem certa independência",
+      "Separar obrigatoriamente sujeito e verbo",
+      "Marcar somente perguntas",
+      "Substituir qualquer preposição"
+    ],
+    c: 0,
+    e: "O ponto e vírgula pode organizar partes relativamente independentes de um período, especialmente quando já existem vírgulas internas."
+  },
+
+  {
+    q: "Qual sinal de pontuação é utilizado normalmente no final de uma pergunta direta?",
+    a: [
+      "Ponto e vírgula",
+      "Dois-pontos",
+      "Ponto de interrogação",
+      "Vírgula"
+    ],
+    c: 2,
+    e: "O ponto de interrogação é utilizado para marcar uma pergunta direta."
+  },
+
+  {
+    q: "Na frase 'Não, espere!', a vírgula depois de 'Não' contribui para:",
+    a: [
+      "Organizar a construção e separar o termo inicial",
+      "Separar sujeito e verbo",
+      "Criar obrigatoriamente uma pergunta",
+      "Transformar 'espere' em substantivo"
+    ],
+    c: 0,
+    e: "A pontuação organiza os elementos da oração e ajuda a representar adequadamente o sentido pretendido."
+  },
+
+  {
+    q: "Uma mudança na pontuação pode:",
+    a: [
+      "Nunca alterar o sentido",
+      "Alterar a interpretação de uma frase",
+      "Alterar somente a quantidade de letras",
+      "Eliminar todos os verbos"
+    ],
+    c: 1,
+    e: "A posição dos sinais de pontuação pode modificar relações sintáticas e produzir diferenças de sentido."
+  },
+
+  {
+    q: "Ao resolver uma questão de pontuação, o candidato deve analisar:",
+    a: [
+      "Apenas onde existe uma pausa na leitura",
+      "A estrutura sintática e o sentido produzido",
+      "Somente o tamanho da frase",
+      "Apenas a primeira palavra"
+    ],
+    c: 1,
+    e: "A pontuação não deve ser analisada apenas por pausas. É importante observar a estrutura da oração e o sentido."
+  }
+];
 
 /* =========================================================
    ESTADO
@@ -791,6 +1660,12 @@ function getQuiz(lesson) {
   if (lesson === 2) return quiz2;
   if (lesson === 3) return quiz3;
   if (lesson === 4) return quiz4;
+  if (lesson === 5) return quiz5;
+  if (lesson === 6) return quiz6;
+  if (lesson === 7) return quiz7;
+  if (lesson === 8) return quiz8;
+  if (lesson === 9) return quiz9;
+  if (lesson === 10) return quiz10;
 
   return [];
 }
