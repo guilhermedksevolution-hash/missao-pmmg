@@ -1055,3 +1055,152 @@ function renderAchievementsV59(){
     </article>
   `).join("");
 }
+
+// ============================================================
+// V5.9.1 — VOLTAR INTELIGENTE
+// O botão ← retorna à tela anterior real, em vez de ir à Home.
+// ============================================================
+const screenHistoryV591 = [];
+let navigatingBackV591 = false;
+
+function getActiveScreenV591(){
+  return document.querySelector(".screen.active");
+}
+
+function getActiveNavV591(){
+  const active = document.querySelector(".bottom-nav button.active");
+  return active ? active.id : "";
+}
+
+const originalShowScreenV591 = showScreen;
+showScreen = function(id, nav=""){
+  const current = getActiveScreenV591();
+
+  if(
+    !navigatingBackV591 &&
+    current &&
+    current.id &&
+    current.id !== id
+  ){
+    const last = screenHistoryV591[screenHistoryV591.length - 1];
+
+    // Evita duplicar a mesma tela consecutivamente.
+    if(!last || last.id !== current.id){
+      screenHistoryV591.push({
+        id: current.id,
+        nav: getActiveNavV591()
+      });
+    }
+
+    // Limite para não acumular histórico demais.
+    if(screenHistoryV591.length > 40){
+      screenHistoryV591.shift();
+    }
+  }
+
+  return originalShowScreenV591(id, nav);
+};
+
+// As centrais V5.3 agora também passam pelo mesmo histórico.
+v53Show = function(id, navId){
+  showScreen(id, navId);
+  if(typeof setMainNavActive === "function" && navId){
+    setMainNavActive(navId);
+  }
+  window.scrollTo(0,0);
+};
+
+function goBackSmart(){
+  // Remove referências inválidas caso alguma tela antiga não exista.
+  while(screenHistoryV591.length){
+    const previous = screenHistoryV591.pop();
+    if(previous && document.getElementById(previous.id)){
+      navigatingBackV591 = true;
+      originalShowScreenV591(previous.id, previous.nav || "");
+      if(previous.nav && typeof setMainNavActive === "function"){
+        setMainNavActive(previous.nav);
+      }
+      navigatingBackV591 = false;
+      window.scrollTo(0,0);
+      return;
+    }
+  }
+
+  // Se não houver histórico, volta para o início.
+  navigatingBackV591 = true;
+  originalShowScreenV591("homeScreen","navHome");
+  if(typeof setMainNavActive === "function"){
+    setMainNavActive("navHome");
+  }
+  navigatingBackV591 = false;
+  window.scrollTo(0,0);
+}
+
+// Ao tocar em Início, começa uma nova pilha lógica.
+const goHomeBeforeV591 = goHome;
+goHome = function(){
+  screenHistoryV591.length = 0;
+  return goHomeBeforeV591();
+};
+
+// ============================================================
+// V5.9.2 — VOLTAR ESTÁVEL
+// Usa uma rota-pai explícita para cada tela e fica disponível
+// diretamente no window para funcionar com onclick no celular.
+// ============================================================
+window.goBackSmart = function(){
+  const active = document.querySelector(".screen.active");
+  const id = active ? active.id : "";
+
+  const parentMap = {
+    "subjectsScreen": ["homeScreen","navHome"],
+    "lessonsScreen": ["subjectsScreen","navStudy"],
+    "lessonScreen": ["lessonsScreen","navStudy"],
+    "quizScreen": ["lessonScreen","navStudy"],
+    "resultScreen": ["quizScreen","navTrain"],
+    "correctionScreen": ["resultScreen","navTrain"],
+    "errorsScreen": ["reviewHubV53","navReview"],
+    "tipsScreen": ["studyHubV53","navStudy"],
+    "performanceScreen": ["evolutionHubV53","navEvolution"],
+    "studyHubScreen": ["homeScreen","navHome"],
+    "professorScreen": ["homeScreen","navHome"],
+    "trainingScreen": ["trainingHubV53","navTrain"],
+    "simulationsScreen": ["trainingHubV53","navTrain"],
+    "planScreen": ["studyHubV53","navStudy"],
+    "quickReviewScreen": ["reviewHubV53","navReview"],
+    "favoritesScreen": ["studyHubV53","navStudy"],
+    "achievementsScreen": ["evolutionHubV53","navEvolution"],
+    "searchScreen": ["studyHubV53","navStudy"],
+
+    "studyHubV53": ["homeScreen","navHome"],
+    "trainingHubV53": ["homeScreen","navHome"],
+    "reviewHubV53": ["homeScreen","navHome"],
+    "evolutionHubV53": ["homeScreen","navHome"],
+    "utilityHubV53": ["studyHubV53","navStudy"],
+
+    "summaryScreenV57": ["studyHubV53","navStudy"],
+    "quickReviewScreenV58": ["reviewHubV53","navReview"],
+    "achievementsScreenV59": ["evolutionHubV53","navEvolution"]
+  };
+
+  const target = parentMap[id] || ["homeScreen","navHome"];
+  const screenId = target[0];
+  const navId = target[1];
+
+  // Mostra a tela diretamente sem depender da pilha antiga.
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  const next = document.getElementById(screenId);
+
+  if(next){
+    next.classList.add("active");
+  }else{
+    const home = document.getElementById("homeScreen");
+    if(home) home.classList.add("active");
+  }
+
+  if(typeof setMainNavActive === "function"){
+    setMainNavActive(navId || "navHome");
+  }
+
+  window.scrollTo(0,0);
+};
