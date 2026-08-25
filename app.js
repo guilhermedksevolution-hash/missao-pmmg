@@ -156,6 +156,7 @@ function submitQuiz(){
   const score=Math.round((correct/currentQuiz.length)*100);
   const approved=score>=PASS_SCORE;
   registerResult(currentLessonNumber,score,approved);
+  registerQuestionAttemptV613(currentLessonNumber,correct,currentQuiz.length,score);
 
   lastResult={
     lessonNumber:currentLessonNumber,
@@ -1614,19 +1615,54 @@ function renderRevisionScheduleV60(){
 }
 function completeRevisionV60(id){const list=v60Read("pmmg_revisions_v60",[]),r=list.find(x=>x.id===id);if(r)r.done=!r.done;v60Write("pmmg_revisions_v60",list);renderRevisionScheduleV60();if(r&&r.done)logStudyEventV60("review","Revisão concluída",`Aula ${String(r.lesson).padStart(2,"0")}`)}
 
-// ---------- Subject performance ----------
-function renderSubjectPerformanceV60(){
-  const box=document.getElementById("subjectPerformanceListV60");if(!box)return;const state=v60Read("missaoPMMGState",{}),scores=state.scores||{},vals=Object.values(scores).map(Number).filter(Number.isFinite),avg=vals.length?Math.round(vals.reduce((a,b)=>a+b,0)/vals.length):0,completed=Array.isArray(state.completedLessons)?state.completedLessons.length:0;
-  const subjects=[{name:"Língua Portuguesa",icon:"📘",avg,progress:Math.round((completed/2)*100),status:"Ativa"},{name:"Matemática",icon:"➗",avg:0,progress:0,status:"Em breve"},{name:"Inglês",icon:"🇬🇧",avg:0,progress:0,status:"Em breve"},{name:"Outras matérias",icon:"📚",avg:0,progress:0,status:"Estrutura pronta"}];
-  box.innerHTML=subjects.map(s=>`<article class="v60-subject-card" style="${s.status!=="Ativa"?"opacity:.45":""}"><header><h3>${s.icon} ${s.name}</h3><b>${s.avg}%</b></header><p>${s.status} • ${s.progress}% do conteúdo atual</p><div class="bar"><i style="width:${s.progress}%"></i></div></article>`).join("");
+// ---------- V6.1.3 — desempenho e estatísticas reais ----------
+function registerQuestionAttemptV613(lesson,correct,total,score){
+  const list=v60Read("pmmg_question_history_v613",[]);
+  list.unshift({lesson:Number(lesson),subject:"Português",correct:Number(correct),total:Number(total),score:Number(score),date:Date.now()});
+  v60Write("pmmg_question_history_v613",list.slice(0,300));
 }
-
-// ---------- Question stats ----------
+function getPerformanceDataV613(){
+  const st=v60Read("missaoPMMGState",{}), scores=st.scores||{};
+  const lessonAttempts=v60Read("pmmg_question_history_v613",[]).filter(x=>Number.isFinite(Number(x.total)));
+  const sims=v60Read("pmmg_sim_history_v510",[]).filter(x=>Number.isFinite(Number(x.total)));
+  let attempts=lessonAttempts.map(x=>({kind:"aula",correct:Number(x.correct)||0,total:Number(x.total)||0,score:Number(x.score)||0}));
+  // Para resultados anteriores à V6.1.3, usa a melhor nota salva apenas se ainda não existe tentativa registrada daquela aula.
+  Object.entries(scores).forEach(([lesson,score])=>{
+    if(lessonAttempts.some(x=>Number(x.lesson)===Number(lesson))) return;
+    let total=10;
+    try{const d=getLessonData(Number(lesson)); if(d&&Array.isArray(d.quiz)&&d.quiz.length) total=d.quiz.length;}catch(e){}
+    const sc=Number(score)||0, correct=Math.max(0,Math.min(total,Math.round(total*sc/100)));
+    attempts.push({kind:"aula",correct,total,score:sc,legacy:true});
+  });
+  const simAttempts=sims.map(x=>({kind:"simulado",correct:Number(x.correct)||0,total:Number(x.total)||0,score:Number(x.score)||0}));
+  const all=[...attempts,...simAttempts], totalQuestions=all.reduce((a,x)=>a+x.total,0), correct=all.reduce((a,x)=>a+x.correct,0), wrong=Math.max(0,totalQuestions-correct);
+  const accuracy=totalQuestions?Math.round(correct/totalQuestions*100):0;
+  const completed=Array.isArray(st.completedLessons)?st.completedLessons.length:0;
+  const vals=Object.values(scores).map(Number).filter(Number.isFinite), best=vals.length?Math.max(...vals):0, avg=vals.length?Math.round(vals.reduce((a,b)=>a+b,0)/vals.length):0;
+  return {st,scores,lessonAttempts:attempts,sims,all,totalQuestions,correct,wrong,accuracy,completed,best,avg};
+}
+function renderSubjectPerformanceV60(){
+  const box=document.getElementById("subjectPerformanceListV60");if(!box)return;
+  const d=getPerformanceDataV613(), progress=Math.min(100,Math.round((d.completed/2)*100));
+  box.innerHTML=`<article class="v60-subject-card v613-active-subject">
+    <header><h3>📘 Língua Portuguesa</h3><b>${d.accuracy}%</b></header>
+    <p>${d.completed} de 2 aulas concluídas • ${d.totalQuestions} questões contabilizadas</p>
+    <div class="bar"><i style="width:${progress}%"></i></div>
+    <div class="v613-subject-metrics">
+      <span><strong>${d.correct}</strong><small>Acertos</small></span><span><strong>${d.wrong}</strong><small>Erros</small></span><span><strong>${d.best}%</strong><small>Melhor nota</small></span>
+    </div>
+  </article>
+  <article class="v60-subject-card v613-coming"><header><h3>📚 Próximas matérias</h3><b>EM BREVE</b></header><p>Quando novas disciplinas forem adicionadas, o comparativo aparecerá aqui automaticamente.</p></article>`;
+}
 function renderQuestionStatsV60(){
-  const state=v60Read("missaoPMMGState",{}),scores=state.scores||{},tests=Object.keys(scores).length,sims=v60Read("pmmg_sim_history_v510",[]),best=Math.max(0,...Object.values(scores).map(Number).filter(Number.isFinite)),errors=Array.isArray(state.errors)?state.errors.length:0;
-  document.getElementById("statTestsV60").textContent=tests;document.getElementById("statSimsV60").textContent=sims.length;document.getElementById("statBestV60").textContent=best+"%";document.getElementById("statErrorsV60").textContent=errors;
-  let text="Você ainda possui poucos dados. Continue fazendo provas e simulados para o diagnóstico ficar mais preciso.";
-  if(tests+sims.length>=3){const simAvg=sims.length?Math.round(sims.reduce((a,b)=>a+b.score,0)/sims.length):0;text=`Seu melhor resultado em aulas é ${best}%. ${sims.length?`A média dos simulados está em ${simAvg}%. `:""}${errors?`Há ${errors} questão(ões) no Caderno de Erros para revisar.`:"Seu Caderno de Erros está limpo."}`;}
+  const d=getPerformanceDataV613(), savedErrors=Array.isArray(d.st.errors)?d.st.errors.length:0;
+  setText("statTestsV60",d.lessonAttempts.length);setText("statSimsV60",d.sims.length);setText("statBestV60",d.best+"%");setText("statErrorsV60",savedErrors);
+  setText("statAnsweredV613",d.totalQuestions);setText("statCorrectV613",d.correct);setText("statWrongV613",d.wrong);setText("statAccuracyV613",d.accuracy+"%");
+  let text;
+  if(!d.totalQuestions) text="Ainda não há questões suficientes registradas. Faça uma prova de aula ou um simulado para iniciar suas estatísticas.";
+  else if(d.accuracy>=80) text=`Ótimo desempenho: ${d.accuracy}% de acerto em ${d.totalQuestions} questões contabilizadas. ${savedErrors?`Você ainda tem ${savedErrors} item(ns) no Caderno de Erros.`:"Seu Caderno de Erros está limpo."}`;
+  else if(d.accuracy>=70) text=`Você está na faixa da meta: ${d.accuracy}% de acerto. Priorize os ${d.wrong} erros contabilizados e continue treinando para ganhar consistência.`;
+  else text=`Sua taxa atual é ${d.accuracy}%. Revise os pontos fracos antes do próximo treino; ${d.wrong} das ${d.totalQuestions} questões contabilizadas foram erros.`;
   document.getElementById("questionDiagnosisV60").textContent=text;
 }
 
@@ -1783,7 +1819,7 @@ window.openSubjects = function(){
 };
 
 /* ==========================================================
-   V6.1.2 — EVOLUÇÃO SINCRONIZADA
+   V6.1.3 — EVOLUÇÃO SINCRONIZADA
    ========================================================== */
 
 function renderEvolutionHubV612(){
@@ -1832,5 +1868,5 @@ window.openEvolutionArea = function(){
 
 // Também sincroniza ao tocar diretamente na aba Evolução.
 document.addEventListener("DOMContentLoaded", ()=>{
-  try{ renderEvolutionHubV612(); }catch(e){ console.warn("Evolução V6.1.2:", e); }
+  try{ renderEvolutionHubV612(); }catch(e){ console.warn("Evolução V6.1.3:", e); }
 });
