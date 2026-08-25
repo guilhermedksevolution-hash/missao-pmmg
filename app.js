@@ -1204,3 +1204,214 @@ window.goBackSmart = function(){
 
   window.scrollTo(0,0);
 };
+
+// ============================================================
+// V5.10 — SIMULADOS FUNCIONAIS
+// ============================================================
+let simQuestionsV510 = [];
+let simAnswersV510 = [];
+let simIndexV510 = 0;
+let simSecondsV510 = 900;
+let simTimerV510 = null;
+let simStartedAtV510 = null;
+let simLastResultV510 = null;
+
+function openSimulatorHubV510(){
+  showScreen("simulatorHubV510","navTrain");
+  renderSimulationHistoryV510();
+  window.scrollTo(0,0);
+}
+
+function getSimulationPoolV510(){
+  const pool=[];
+  if(typeof window.lessons!=="undefined"){
+    Object.keys(window.lessons).forEach(k=>{
+      const lesson=window.lessons[k];
+      if(Array.isArray(lesson.quiz)){
+        lesson.quiz.forEach((q,qi)=>{
+          pool.push({
+            lessonNumber:Number(k),
+            lessonTitle:lesson.title,
+            question:q.question,
+            options:q.options,
+            answer:q.answer,
+            explanation:q.explanation||"Revise o conteúdo relacionado a esta questão.",
+            tip:q.tip||"Volte ao conteúdo e compare a regra com a resposta correta."
+          });
+        });
+      }
+    });
+  }
+  return pool;
+}
+
+function startSimulationV510(type){
+  const pool=getSimulationPoolV510();
+  if(pool.length<5){
+    alert("Ainda não há questões suficientes para montar o simulado.");
+    return;
+  }
+
+  const shuffled=[...pool].sort(()=>Math.random()-.5);
+  simQuestionsV510=shuffled.slice(0,Math.min(10,shuffled.length));
+  simAnswersV510=new Array(simQuestionsV510.length).fill(null);
+  simIndexV510=0;
+  simSecondsV510=900;
+  simStartedAtV510=Date.now();
+  clearInterval(simTimerV510);
+
+  document.getElementById("simTitleV510").textContent=type==="portugues"?"Português":"Simulado misto";
+  showScreen("simulationScreenV510","navTrain");
+  renderSimulationQuestionV510();
+  updateSimulationClockV510();
+
+  simTimerV510=setInterval(()=>{
+    simSecondsV510--;
+    updateSimulationClockV510();
+    if(simSecondsV510<=0){
+      clearInterval(simTimerV510);
+      simTimerV510=null;
+      alert("⏱️ Tempo encerrado. O simulado será finalizado.");
+      finishSimulationV510(true);
+    }
+  },1000);
+}
+
+function renderSimulationQuestionV510(){
+  const q=simQuestionsV510[simIndexV510];
+  if(!q)return;
+
+  document.getElementById("simProgressV510").textContent=`${simIndexV510+1}/${simQuestionsV510.length}`;
+  document.getElementById("simQuestionCardV510").innerHTML=`
+    <div class="qnum">QUESTÃO ${String(simIndexV510+1).padStart(2,"0")}</div>
+    <h3>${q.question}</h3>
+    <div class="sim510-answers">
+      ${q.options.map((o,i)=>`
+        <label class="sim510-answer ${simAnswersV510[simIndexV510]===i?"selected":""}">
+          <input type="radio" name="sim510-answer" value="${i}" ${simAnswersV510[simIndexV510]===i?"checked":""} onchange="selectSimulationAnswerV510(${i})">
+          <span>${o}</span>
+        </label>`).join("")}
+    </div>`;
+
+  document.getElementById("simPrevV510").disabled=simIndexV510===0;
+  const atEnd=simIndexV510===simQuestionsV510.length-1;
+  document.getElementById("simNextV510").classList.toggle("hidden",atEnd);
+  document.getElementById("simFinishV510").classList.toggle("hidden",!atEnd);
+}
+
+function selectSimulationAnswerV510(index){
+  simAnswersV510[simIndexV510]=index;
+  renderSimulationQuestionV510();
+}
+
+function prevSimulationQuestionV510(){
+  if(simIndexV510>0){simIndexV510--;renderSimulationQuestionV510();}
+}
+
+function nextSimulationQuestionV510(){
+  if(simIndexV510<simQuestionsV510.length-1){simIndexV510++;renderSimulationQuestionV510();}
+}
+
+function updateSimulationClockV510(){
+  const m=Math.floor(Math.max(0,simSecondsV510)/60);
+  const s=Math.max(0,simSecondsV510)%60;
+  const el=document.getElementById("simClockV510");
+  if(el)el.textContent=`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+}
+
+function finishSimulationV510(force=false){
+  if(!force){
+    const unanswered=simAnswersV510.filter(x=>x===null).length;
+    if(unanswered>0 && !confirm(`Você deixou ${unanswered} questão(ões) sem resposta. Finalizar mesmo assim?`)) return;
+  }
+
+  clearInterval(simTimerV510);
+  simTimerV510=null;
+
+  let correct=0;
+  simQuestionsV510.forEach((q,i)=>{if(simAnswersV510[i]===q.answer)correct++;});
+  const total=simQuestionsV510.length;
+  const score=Math.round((correct/total)*100);
+  const used=Math.max(0,900-simSecondsV510);
+
+  simLastResultV510={questions:simQuestionsV510,answers:simAnswersV510,correct,total,score,used,date:Date.now()};
+  saveSimulationResultV510(simLastResultV510);
+
+  document.getElementById("simResultIconV510").textContent=score>=70?"🏆":score>=50?"📈":"📚";
+  document.getElementById("simResultScoreV510").textContent=score+"%";
+  document.getElementById("simResultTextV510").textContent=
+    score>=70?"Bom desempenho. Continue revisando os erros para consolidar o conteúdo.":
+    "Use a correção para identificar os pontos que mais precisam de revisão.";
+  document.getElementById("simCorrectV510").textContent=correct;
+  document.getElementById("simWrongV510").textContent=total-correct;
+  document.getElementById("simTimeUsedV510").textContent=formatSecondsV510(used);
+  document.getElementById("simCorrectionV510").classList.add("hidden");
+
+  showScreen("simulationResultV510","navTrain");
+  window.scrollTo(0,0);
+}
+
+function saveSimulationResultV510(result){
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]");}catch(e){hist=[];}
+  hist.unshift({score:result.score,correct:result.correct,total:result.total,used:result.used,date:result.date});
+  hist=hist.slice(0,20);
+  localStorage.setItem("pmmg_sim_history_v510",JSON.stringify(hist));
+}
+
+function renderSimulationHistoryV510(){
+  const box=document.getElementById("simHistoryV510");
+  const count=document.getElementById("simHistoryCountV510");
+  if(!box||!count)return;
+
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]");}catch(e){hist=[];}
+  count.textContent=`${hist.length} ${hist.length===1?"simulado":"simulados"}`;
+
+  if(!hist.length){
+    box.innerHTML='<div class="empty-state"><b>Nenhum simulado realizado</b><br>Seu histórico aparecerá aqui.</div>';
+    return;
+  }
+
+  box.innerHTML=hist.map(h=>`
+    <article class="sim510-history-item">
+      <div><strong>${new Date(h.date).toLocaleDateString("pt-BR")}</strong><span>${h.correct}/${h.total} acertos • ${formatSecondsV510(h.used)}</span></div>
+      <b>${h.score}%</b>
+    </article>`).join("");
+}
+
+function reviewSimulationV510(){
+  if(!simLastResultV510)return;
+  const box=document.getElementById("simCorrectionV510");
+  box.innerHTML=simLastResultV510.questions.map((q,i)=>{
+    const selected=simLastResultV510.answers[i];
+    const ok=selected===q.answer;
+    return `
+      <article class="sim510-correction-item ${ok?"ok":"bad"}">
+        <strong>Questão ${i+1} • ${ok?"✅ Acertou":"❌ Errou"}</strong>
+        ${!ok?`<p class="badans"><b>Sua resposta:</b> ${selected===null?"Não respondida":q.options[selected]}</p>`:""}
+        <p class="good"><b>Correta:</b> ${q.options[q.answer]}</p>
+        <p class="why"><b>Explicação:</b> ${q.explanation}</p>
+        <p class="why"><b>💡 Dica:</b> ${q.tip}</p>
+      </article>`;
+  }).join("");
+  box.classList.remove("hidden");
+  box.scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function formatSecondsV510(sec){
+  const m=Math.floor(sec/60),s=sec%60;
+  return `${m}:${String(s).padStart(2,"0")}`;
+}
+
+function confirmExitSimulationV510(){
+  if(confirm("Sair do simulado? O progresso desta tentativa será perdido.")){
+    clearInterval(simTimerV510);
+    simTimerV510=null;
+    openSimulatorHubV510();
+  }
+}
+
+function showFutureSimulationV510(){
+  alert("🎯 O Simulado Completo PMMG será liberado quando adicionarmos as próximas matérias e mais questões.");
+}
