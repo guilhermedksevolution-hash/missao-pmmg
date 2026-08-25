@@ -171,3 +171,18 @@
     gap:3px !important;
   }
 }
+
+/* V5.6 — Busca inteligente mobile */
+.search-v56-box{margin:14px 0 18px;padding:14px;border:1px solid var(--line);background:var(--card);border-radius:18px}
+.search-v56-input{display:flex;align-items:center;gap:9px;padding:0 12px;border:1px solid var(--line);background:#0c1626;border-radius:13px}
+.search-v56-input input{flex:1;min-width:0;height:50px;border:0!important;background:transparent!important;color:var(--text)!important;font-size:14px!important;outline:none}
+.search-v56-input input::placeholder{color:var(--muted)}
+.search-v56-input button{border:0;background:transparent;color:var(--muted);font-size:24px;padding:8px}
+.search-v56-chips{display:flex;gap:7px;overflow:auto;padding-top:10px;scrollbar-width:none}
+.search-v56-chips button{flex:0 0 auto;border:1px solid var(--line);background:var(--soft);color:var(--text);border-radius:999px;padding:8px 11px;font-size:10px}
+.search-v56-head{display:flex;justify-content:space-between;align-items:center;margin:0 3px 9px}
+.search-v56-head b{font-size:16px}.search-v56-head small{font-size:9px;color:var(--muted)}
+.search-v56-results{display:grid;gap:9px;padding-bottom:100px}
+.search-v56-item{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:14px;border:1px solid var(--line);background:var(--card);border-radius:16px;color:var(--text)}
+.search-v56-icon{display:grid;place-items:center;flex:0 0 45px;height:45px;border-radius:13px;background:var(--soft);font-size:20px}
+.search-v56-copy{flex:1;min-width:0}.search-v56-copy b{display:block;font-size:13px;margin-bottom:4px}.search-v56-copy span{display:block;color:var(--muted);font-size:10px;line-height:1.4}.search-v56-arrow{font-size:20px;color:var(--gold)}
