@@ -187,11 +187,12 @@
 
 </main>
 
-<nav class="bottom-nav">
-<button id="navHome" onclick="goHome()">⌂<small>Início</small></button>
-<button id="navSubjects" onclick="openSubjects()">▤<small>Matérias</small></button>
-<button id="navMission" onclick="openPortuguese()">◎<small>Missão</small></button>
-<button id="navErrors" onclick="openErrorNotebook()">✎<small>Erros</small></button>
+<nav class="bottom-nav v51-nav">
+<button data-page="home" onclick="goHome()">⌂<small>Início</small></button>
+<button data-page="subjects" onclick="openSubjects()">▤<small>Estudar</small></button>
+<button data-page="trainingScreen" onclick="showScreen('trainingScreen')">◎<small>Treinar</small></button>
+<button data-page="errorsPage" onclick="openErrorNotebook()">✎<small>Revisar</small></button>
+<button data-page="progressPage" onclick="openPerformance()">↗<small>Evolução</small></button>
 </nav>
 <script src="lessons.js?v=4"></script><script src="app.js?v=4"></script>
 </body></html>
