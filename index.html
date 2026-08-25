@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.2.0">
+<link rel="stylesheet" href="style.css?v=5.3.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.2</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.3</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -187,6 +187,56 @@
 
 </main>
 
+
+<section id="studyHubV53" class="screen v53-screen">
+  <div class="v53-head"><button onclick="goHome()">←</button><div><span>ESTUDAR</span><h2>Central de aprendizado</h2><p>Organize sua teoria antes de partir para as questões.</p></div></div>
+  <div class="v53-feature" onclick="openSubjects()"><b>📘 Matérias e aulas</b><p>Continue sua trilha de Língua Portuguesa.</p><em>0 de 2 aulas concluídas ›</em></div>
+  <div class="v53-grid">
+    <article onclick="openStudyPlanV53()"><b>📅 Plano de estudos</b><p>Metas e rotina diária.</p></article>
+    <article onclick="openFavoritesV53()"><b>⭐ Favoritos</b><p>Conteúdos salvos.</p></article>
+    <article onclick="openSearchV53()"><b>🔎 Buscar</b><p>Encontre aulas e temas.</p></article>
+    <article onclick="openTipsV53()"><b>💡 Dicas de prova</b><p>Estratégias objetivas.</p></article>
+  </div>
+</section>
+
+<section id="trainingHubV53" class="screen v53-screen">
+  <div class="v53-head"><button onclick="goHome()">←</button><div><span>TREINAR</span><h2>Centro de treinamento</h2><p>Transforme teoria em desempenho.</p></div></div>
+  <div class="v53-feature"><b>🎯 Treino recomendado</b><p>Comece pela Aula 01 e fortaleça interpretação de texto.</p><em>Preparar treino ›</em></div>
+  <div class="v53-grid">
+    <article onclick="openQuickTrainingV53()"><b>⚡ Treino rápido</b><p>5 questões para aquecer.</p></article>
+    <article onclick="openSimulationV53()"><b>📝 Simulado</b><p>Modo prova com resultado.</p></article>
+    <article onclick="openReviewArea()"><b>🔁 Revisão</b><p>Refaça pontos fracos.</p></article>
+    <article onclick="openTipsV53()"><b>🧠 Estratégias</b><p>Técnicas para questões.</p></article>
+  </div>
+</section>
+
+<section id="reviewHubV53" class="screen v53-screen">
+  <div class="v53-head"><button onclick="goHome()">←</button><div><span>REVISAR</span><h2>Revisão inteligente</h2><p>Volte exatamente ao que precisa reforçar.</p></div></div>
+  <div class="v53-feature" onclick="openErrorNotebook()"><b>🗒️ Caderno de erros</b><p>Questões erradas ficam salvas automaticamente.</p><em>Abrir caderno ›</em></div>
+  <div class="v53-grid">
+    <article onclick="openErrorNotebook()"><b>❌ Meus erros</b><p>Revise respostas erradas.</p></article>
+    <article onclick="openFavoritesV53()"><b>⭐ Favoritos</b><p>Revise itens marcados.</p></article>
+    <article onclick="openQuickReviewV53()"><b>⚡ Revisão rápida</b><p>Sessão curta e focada.</p></article>
+    <article onclick="openTipsV53()"><b>💡 Dicas</b><p>Reforce sua estratégia.</p></article>
+  </div>
+</section>
+
+<section id="evolutionHubV53" class="screen v53-screen">
+  <div class="v53-head"><button onclick="goHome()">←</button><div><span>EVOLUÇÃO</span><h2>Seu desempenho</h2><p>Acompanhe seu avanço na preparação.</p></div></div>
+  <div class="v53-stats">
+    <article><small>PROGRESSO</small><strong>0%</strong><p>0 de 2 aulas</p></article>
+    <article><small>MELHOR NOTA</small><strong>50%</strong><p>registrada</p></article>
+    <article><small>XP</small><strong>0</strong><p>experiência</p></article>
+    <article><small>SEQUÊNCIA</small><strong>1🔥</strong><p>dia ativo</p></article>
+  </div>
+  <div class="v53-feature"><b>🏅 Conquistas</b><p>Marcos da sua jornada aparecerão aqui conforme você evoluir.</p><em>Preparação em andamento</em></div>
+</section>
+
+<section id="utilityHubV53" class="screen v53-screen">
+  <div class="v53-head"><button onclick="openStudyArea()">←</button><div><span>FERRAMENTA</span><h2 id="utilityTitleV53">Em construção</h2><p id="utilityTextV53">Estrutura preparada para a próxima etapa.</p></div></div>
+  <div class="v53-feature"><b>🚧 Módulo preparado</b><p>Esta área já está conectada à navegação e receberá a função completa nas próximas versões.</p><em>MISSÃO PMMG V5.3</em></div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -194,5 +244,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.2.0"></script><script src="app.js?v=5.2.0"></script>
+<script src="lessons.js?v=5.3.0"></script><script src="app.js?v=5.3.0"></script>
 </body></html>
