@@ -3244,3 +3244,25 @@ function chooseProfilePhoto633(){document.getElementById('profileFile633')?.clic
 function profilePhotoChanged633(ev){const file=ev.target.files&&ev.target.files[0];if(!file)return;if(!file.type.startsWith('image/')){alert('Escolha uma imagem.');return}const reader=new FileReader();reader.onload=()=>{const p=getProfile633();p.photo=reader.result;localStorage.setItem('pmmg_profile_v633',JSON.stringify(p));renderProfile633()};reader.readAsDataURL(file);}
 function openProfile633(){showScreen('profileScreen633','');renderProfile633();scrollTo(0,0)}
 window.openProfile633=openProfile633;window.saveProfile633=saveProfile633;window.chooseProfilePhoto633=chooseProfilePhoto633;window.profilePhotoChanged633=profilePhotoChanged633;document.addEventListener('DOMContentLoaded',renderProfile633);
+
+
+/* V6.3.5 — Central de Progresso */
+function renderProgressCenter635(){
+  const m=getPreparationMetricsV626();
+  const level=getPreparationLevelV626(m.score);
+  const weak=getWeakData631().filter(x=>x.total>0||x.pending>0);
+  const top=weak[0];
+  const hist=getStatsHistory629();
+  const recent=hist.slice(0,5).map(score629);
+  const recentAvg=recent.length?Math.round(recent.reduce((a,b)=>a+b,0)/recent.length):0;
+  let totalLessons=2, completed=0;
+  try{ completed=[1,2].filter(n=>state?.completedLessons?.includes?.(n)).length; }catch(e){}
+  const set=(id,val)=>{const e=document.getElementById(id);if(e)e.textContent=val};
+  set('pc635Index',m.score); set('pc635Level',level.name); set('pc635Message',level.message);
+  set('pc635Content',Math.round(m.content)+'%'); set('pc635Lessons',completed+' de '+totalLessons+' aulas');
+  set('pc635Recent',recentAvg+'%'); set('pc635Errors',m.pendingErrors||0); set('pc635Sims',hist.length);
+  if(top){set('pc635Priority',top.name);set('pc635PriorityText',`${top.pending} erro(s) pendente(s) • ${top.accuracy===null?'desempenho ainda não medido':top.accuracy+'% de acerto'}. Esta é a prioridade recomendada agora.`)}
+  else{set('pc635Priority','Gerar seu diagnóstico');set('pc635PriorityText','Conclua uma aula ou simulado para o sistema identificar automaticamente sua prioridade.')}
+}
+function openProgressCenter635(){showScreen('progressCenter635','navEvolution');renderProgressCenter635();scrollTo(0,0)}
+window.openProgressCenter635=openProgressCenter635;
