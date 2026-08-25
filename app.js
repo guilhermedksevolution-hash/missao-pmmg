@@ -1415,3 +1415,101 @@ function confirmExitSimulationV510(){
 function showFutureSimulationV510(){
   alert("🎯 O Simulado Completo PMMG será liberado quando adicionarmos as próximas matérias e mais questões.");
 }
+
+// ============================================================
+// V5.11 — DICAS DE PROVA FUNCIONAIS
+// ============================================================
+const TIPS_V511 = [
+  {id:1,cat:"interpretacao",title:"Responda pelo texto",tag:"INTERPRETAÇÃO",text:"Não escolha uma alternativa só porque ela parece verdadeira na vida real. Em interpretação, a resposta precisa ser sustentada pelo texto.",example:"Pergunte: qual trecho do texto prova esta alternativa?"},
+  {id:2,cat:"interpretacao",title:"Leia o comando primeiro",tag:"INTERPRETAÇÃO",text:"Antes de mergulhar no texto, identifique o que a questão pede. Isso direciona sua leitura e evita perda de tempo.",example:"Procure palavras como 'segundo o texto', 'infere-se', 'correta' e 'incorreta'."},
+  {id:3,cat:"alternativas",title:"Elimine antes de escolher",tag:"ALTERNATIVAS",text:"Em vez de procurar imediatamente a correta, descarte as claramente erradas. Isso reduz a dúvida entre opções parecidas.",example:"Elimine contradições, exageros e respostas que fogem do comando."},
+  {id:4,cat:"pegadinhas",title:"Desconfie de palavras absolutas",tag:"PEGADINHAS",text:"Termos como sempre, nunca, todos, somente e exclusivamente podem transformar uma ideia plausível em uma afirmação exagerada.",example:"Compare o grau de certeza da alternativa com o grau de certeza do texto."},
+  {id:5,cat:"tempo",title:"Não fique preso em uma questão",tag:"GESTÃO DO TEMPO",text:"Se uma questão estiver consumindo tempo demais, marque para revisar e siga. Uma questão difícil vale o mesmo ponto que uma fácil.",example:"Defina um limite mental de tempo e volte depois."},
+  {id:6,cat:"tempo",title:"Reserve tempo para revisão",tag:"GESTÃO DO TEMPO",text:"Evite usar 100% do tempo apenas respondendo. Deixe alguns minutos finais para conferir marcações e questões em dúvida.",example:"Revise primeiro as questões que você marcou como incertas."},
+  {id:7,cat:"alternativas",title:"Compare duas finalistas",tag:"ALTERNATIVAS",text:"Quando restarem duas opções, compare palavra por palavra. Muitas vezes a diferença está em um termo exagerado ou restritivo.",example:"Observe causa, intensidade, tempo verbal e abrangência."},
+  {id:8,cat:"pegadinhas",title:"Cuidado com extrapolação",tag:"PEGADINHAS",text:"Uma alternativa pode começar correta e terminar adicionando uma conclusão que o texto não permite.",example:"Confirme cada parte da alternativa, não apenas o início."},
+  {id:9,cat:"interpretacao",title:"Diferencie tema e ideia principal",tag:"INTERPRETAÇÃO",text:"Tema é o assunto geral. Ideia principal é a mensagem central construída sobre esse assunto.",example:"Tente resumir o texto em uma única frase."},
+  {id:10,cat:"prova",title:"Comece pelo que você domina",tag:"DIA DA PROVA",text:"Ganhar pontos nas questões mais seguras primeiro ajuda a controlar tempo e ansiedade durante a prova.",example:"Se a ordem das questões permitir, priorize seus assuntos mais fortes."},
+  {id:11,cat:"prova",title:"Leia com atenção o que é pedido",tag:"DIA DA PROVA",text:"Erros por distração são evitáveis. Antes de marcar, confirme se a questão pede a correta, incorreta, exceção ou sequência.",example:"Circule mentalmente a palavra-chave do comando."},
+  {id:12,cat:"prova",title:"Não troque resposta sem motivo",tag:"DIA DA PROVA",text:"Mudar uma resposta apenas por insegurança pode custar pontos. Troque somente quando encontrar uma razão concreta.",example:"Uma regra lembrada, cálculo corrigido ou evidência textual é um bom motivo."}
+];
+
+function openTipsV511(){
+  showScreen("tipsHubV511","navStudy");
+  renderTipsV511("todas");
+  window.scrollTo(0,0);
+}
+
+function filterTipsV511(cat,btn){
+  document.querySelectorAll(".tips511-categories button").forEach(b=>b.classList.remove("active"));
+  if(btn) btn.classList.add("active");
+  renderTipsV511(cat);
+}
+
+function getSavedTipsV511(){
+  try{
+    const ids=JSON.parse(localStorage.getItem("pmmg_saved_tips_v511")||"[]");
+    return Array.isArray(ids)?ids:[];
+  }catch(e){return[]}
+}
+
+function renderTipsV511(cat="todas"){
+  const box=document.getElementById("tipsListV511");
+  if(!box)return;
+  const saved=getSavedTipsV511();
+  const list=cat==="todas"?TIPS_V511:TIPS_V511.filter(t=>t.cat===cat);
+  box.innerHTML=list.map((t,i)=>`
+    <article class="tip511-card">
+      <div class="tip511-top">
+        <div>
+          <span class="tip511-number">${String(t.id).padStart(2,"0")}</span>
+          <div>
+            <h3>${t.title}</h3>
+            <span class="tip511-tag">${t.tag}</span>
+          </div>
+        </div>
+        <button class="tip511-save ${saved.includes(t.id)?"saved":""}" onclick="toggleTipV511(${t.id})">${saved.includes(t.id)?"★":"☆"}</button>
+      </div>
+      <p>${t.text}</p>
+      <div class="tip511-example">
+        <strong>APLICAÇÃO</strong>
+        <span>${t.example}</span>
+      </div>
+    </article>
+  `).join("");
+}
+
+function toggleTipV511(id){
+  let saved=getSavedTipsV511();
+  if(saved.includes(id)) saved=saved.filter(x=>x!==id);
+  else saved.push(id);
+  localStorage.setItem("pmmg_saved_tips_v511",JSON.stringify(saved));
+  renderTipsV511(document.querySelector(".tips511-categories button.active")?.textContent.toLowerCase().includes("interpretação")?"interpretacao":
+                 document.querySelector(".tips511-categories button.active")?.textContent.toLowerCase().includes("tempo")?"tempo":
+                 document.querySelector(".tips511-categories button.active")?.textContent.toLowerCase().includes("alternativas")?"alternativas":
+                 document.querySelector(".tips511-categories button.active")?.textContent.toLowerCase().includes("pegadinhas")?"pegadinhas":
+                 document.querySelector(".tips511-categories button.active")?.textContent.toLowerCase().includes("dia")?"prova":"todas");
+
+  const tip=TIPS_V511.find(t=>t.id===id);
+  if(!tip)return;
+
+  // Espelha dica salva na biblioteca de favoritos.
+  let fav=[];
+  try{fav=JSON.parse(localStorage.getItem("pmmg_favorites_v55")||"[]");}catch(e){fav=[];}
+  const favTitle="Dica • "+tip.title;
+
+  if(saved.includes(id)){
+    if(!fav.some(x=>x.title===favTitle)){
+      fav.unshift({
+        id:Date.now(),
+        title:favTitle,
+        body:tip.text+"\n\nAplicação: "+tip.example,
+        reviewed:false,
+        createdAt:new Date().toISOString()
+      });
+    }
+  }else{
+    fav=fav.filter(x=>x.title!==favTitle);
+  }
+  localStorage.setItem("pmmg_favorites_v55",JSON.stringify(fav));
+}
