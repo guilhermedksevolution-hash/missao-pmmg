@@ -3300,3 +3300,34 @@ function renderStudyGoals636(){
 function saveStudyGoals636(){const v=id=>Math.max(1,Number(document.getElementById(id)?.value)||1);localStorage.setItem('pmmg_study_goals_v636',JSON.stringify({questions:v('g636Questions'),reviews:v('g636Reviews'),lessons:v('g636Lessons')}));renderStudyGoals636();alert('Metas salvas! 🎯')}
 function openStudyGoals636(){showScreen('studyGoals636','navEvolution');renderStudyGoals636();scrollTo(0,0)}
 window.openStudyGoals636=openStudyGoals636;window.saveStudyGoals636=saveStudyGoals636;
+
+/* V6.3.8 — Reiniciar toda a preparação */
+function resetPreparation638(){
+  const first=confirm('⚠️ Reiniciar toda a preparação?\n\nIsso apagará o progresso das matérias, aulas, simulados, revisões, caderno de erros, estatísticas, XP e sequência.\n\nSua foto e seus dados pessoais serão preservados.');
+  if(!first) return;
+  const second=confirm('🚨 CONFIRMAÇÃO FINAL\n\nDeseja realmente voltar ao início da preparação? Esta ação não pode ser desfeita.');
+  if(!second) return;
+
+  const preserved={};
+  ['pmmg_profile_v633','pmmg_study_goals_v636','pmmg_daily_goal','pmmg_exam_date'].forEach(k=>{
+    const v=localStorage.getItem(k); if(v!==null) preserved[k]=v;
+  });
+
+  const remove=[];
+  for(let i=0;i<localStorage.length;i++){
+    const k=localStorage.key(i);
+    if(k && (k==='missaoPMMGState' || k==='errorNotebook' || k==='xp' || k.startsWith('bestScore') || k.startsWith('pmmg_'))) remove.push(k);
+  }
+  remove.forEach(k=>localStorage.removeItem(k));
+  Object.entries(preserved).forEach(([k,v])=>localStorage.setItem(k,v));
+
+  const fresh=defaultState();
+  Object.keys(state).forEach(k=>delete state[k]);
+  Object.assign(state,fresh);
+  saveState();
+  renderProfile633();
+  updateDashboard();
+  alert('✅ Preparação reiniciada!\n\nSeu perfil foi mantido e seus estudos voltaram ao início.');
+  goHome();
+}
+window.resetPreparation638=resetPreparation638;
