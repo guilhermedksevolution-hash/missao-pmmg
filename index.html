@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.7.0">
+<link rel="stylesheet" href="style.css?v=5.8.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.7</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.8</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -231,7 +231,7 @@
   <div class="v53-grid">
     <article onclick="openErrorNotebook()"><b>❌ Meus erros</b><p>Revise respostas erradas.</p></article>
     <article onclick="openFavoritesV53()"><b>⭐ Favoritos</b><p>Revise itens marcados.</p></article>
-    <article onclick="openQuickReviewV53()"><b>⚡ Revisão rápida</b><p>Sessão curta e focada.</p></article>
+    <article onclick="openQuickReviewV58()"><b>⚡ Revisão rápida</b><p>Sessão curta e focada.</p></article>
     <article onclick="openTipsV53()"><b>💡 Dicas</b><p>Reforce sua estratégia.</p></article>
   </div>
 </section>
@@ -281,6 +281,63 @@
   </div>
 </section>
 
+
+<section id="quickReviewScreenV58" class="screen">
+  <div class="page-head">
+    <button onclick="openReviewArea()">←</button>
+    <div>
+      <span class="kicker">REVISÃO INTELIGENTE</span>
+      <h2>Revisão rápida</h2>
+    </div>
+  </div>
+
+  <div class="review-v58-hero">
+    <div class="review-v58-icon">⚡</div>
+    <div>
+      <span class="kicker">ESCOLHA SEU TEMPO</span>
+      <h3>Quanto tempo você tem agora?</h3>
+      <p>O sistema monta uma sessão curta priorizando conteúdo e pontos fracos.</p>
+    </div>
+  </div>
+
+  <div class="review-v58-times">
+    <button onclick="buildQuickReviewV58(10)">
+      <strong>10</strong>
+      <span>min</span>
+      <small>Revisão expressa</small>
+    </button>
+    <button onclick="buildQuickReviewV58(20)">
+      <strong>20</strong>
+      <span>min</span>
+      <small>Revisão equilibrada</small>
+    </button>
+    <button onclick="buildQuickReviewV58(30)">
+      <strong>30</strong>
+      <span>min</span>
+      <small>Revisão completa</small>
+    </button>
+  </div>
+
+  <div id="reviewPlanV58" class="review-v58-plan">
+    <div class="empty-state">
+      <b>⚡ Sessão personalizada</b><br>
+      Escolha 10, 20 ou 30 minutos para montar seu plano.
+    </div>
+  </div>
+
+  <div id="reviewTimerV58" class="review-v58-timer hidden">
+    <div>
+      <span class="kicker">SESSÃO EM ANDAMENTO</span>
+      <strong id="reviewClockV58">10:00</strong>
+      <small id="reviewStepV58">Prepare-se para começar.</small>
+    </div>
+    <div class="review-v58-timer-actions">
+      <button id="reviewStartBtnV58" class="primary" onclick="toggleReviewTimerV58()">Iniciar</button>
+      <button class="secondary-btn" onclick="resetReviewTimerV58()">Reiniciar</button>
+    </div>
+  </div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -288,5 +345,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.7.0"></script><script src="app.js?v=5.7.0"></script>
+<script src="lessons.js?v=5.8.0"></script><script src="app.js?v=5.8.0"></script>
 </body></html>
