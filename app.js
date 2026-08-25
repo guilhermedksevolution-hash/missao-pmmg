@@ -603,7 +603,7 @@ saveV5Settings=function(){ _saveV5SettingsV54(); renderStudyPlanV54(); };
 function openFavoritesV53(){utilityV53("Favoritos","Seus conteúdos e questões marcados para consultar depois.");}
 function openSearchV53(){openSearch();setMainNavActive("navStudy");window.scrollTo(0,0);}
 function openTipsV53(){utilityV53("Dicas de prova","Estratégias para leitura, tempo e eliminação de alternativas.");}
-function openQuickTrainingV53(){utilityV53("Treino rápido","Sessões curtas de questões para praticar todos os dias.");}
+function openQuickTrainingV53(){startSimulationV510("rapido");}
 function openSimulationV53(){utilityV53("Simulados","Área preparada para provas completas e resultados.");}
 function openQuickReviewV53(){utilityV53("Revisão rápida","Uma sessão objetiva baseada nos seus pontos fracos.");}
 
@@ -1253,10 +1253,10 @@ function startSimulationV510(type){
   }
 
   const shuffled=[...pool].sort(()=>Math.random()-.5);
-  simQuestionsV510=shuffled.slice(0,Math.min(10,shuffled.length));
+  simQuestionsV510=shuffled.slice(0,Math.min(type==="rapido"?5:10,shuffled.length));
   simAnswersV510=new Array(simQuestionsV510.length).fill(null);
   simIndexV510=0;
-  simSecondsV510=900;
+  simSecondsV510=type==="rapido"?300:900;
   simStartedAtV510=Date.now();
   clearInterval(simTimerV510);
 
@@ -1667,3 +1667,6 @@ const openLessonBeforeV60=typeof openLesson==="function"?openLesson:null;
 if(openLessonBeforeV60){openLesson=function(n){logStudyEventV60("lesson","Aula aberta",`Aula ${String(n).padStart(2,"0")}`);return openLessonBeforeV60(n)}}
 const finishSimulationBeforeV60=typeof finishSimulationV510==="function"?finishSimulationV510:null;
 if(finishSimulationBeforeV60){finishSimulationV510=function(force=false){const result=finishSimulationBeforeV60(force);setTimeout(()=>{if(typeof simLastResultV510!=="undefined"&&simLastResultV510)logStudyEventV60("sim","Simulado concluído",`${simLastResultV510.score}% • ${simLastResultV510.correct}/${simLastResultV510.total}`)},100);return result}}
+
+
+/* V6.1 — integração e acabamento */
