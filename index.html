@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.1.8">
+<link rel="stylesheet" href="style.css?v=6.1.9">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.1.8</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.1.9</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -643,6 +643,15 @@
 <section id="errorsProScreenV60" class="screen">
   <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Caderno de Erros 2.0</h2></div></div>
   <div class="v60-hero"><div>📓</div><section><span class="kicker">PONTOS FRACOS</span><h3>Revise com prioridade.</h3><p>Filtre erros por aula e acompanhe o que já foi revisado.</p></section></div>
+  <button id="startSmartReviewBtnV619" class="v619-smart-review-btn" onclick="startSmartReviewSessionV617()">
+    <span class="v619-brain">🧠</span>
+    <div class="v619-copy">
+      <span class="kicker">REVISÃO AUTOMÁTICA</span>
+      <strong>Iniciar revisão inteligente</strong>
+      <small id="smartReviewPendingV619">Verificando erros pendentes...</small>
+    </div>
+    <b>›</b>
+  </button>
   <div class="v60-filter-row"><button class="active" onclick="filterErrorsProV60('todos',this)">Todos</button><button onclick="filterErrorsProV60('1',this)">Aula 01</button><button onclick="filterErrorsProV60('2',this)">Aula 02</button><button onclick="filterErrorsProV60('revisados',this)">Revisados</button></div>
   <div id="errorsProStatsV60" class="v60-mini-stats"></div>
   <div id="errorsProListV60" class="v60-list"></div>
@@ -708,5 +717,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.1.8"></script><script src="app.js?v=6.1.8"></script>
+<script src="lessons.js?v=6.1.9"></script><script src="app.js?v=6.1.9"></script>
 </body></html>
