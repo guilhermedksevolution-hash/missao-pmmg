@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#07110b">
+  <meta name="theme-color" content="#0B1220">
   <title>Missão PMMG</title>
-  <link rel="stylesheet" href="style.css?v=profissional2">
+  <link rel="stylesheet" href="style.css?v=mobilepro3">
 </head>
 <body>
 
@@ -13,280 +13,143 @@
   <div class="brand">
     <div class="brand-mark">🛡️</div>
     <div>
-      <span class="brand-overline">PREPARAÇÃO PMMG</span>
+      <span class="eyebrow">PREPARAÇÃO PMMG</span>
       <h1>Missão PMMG</h1>
     </div>
   </div>
-
   <div class="top-stats">
-    <div class="pill"><span>🔥</span><strong id="streakValue">0</strong></div>
-    <div class="pill"><span>⭐</span><strong id="xpValue">0 XP</strong></div>
+    <div class="pill">🔥 <strong id="streakValue">0</strong></div>
+    <div class="pill">⭐ <strong id="xpValue">0 XP</strong></div>
   </div>
 </header>
 
 <main class="app">
 
-  <!-- HOME -->
-  <section id="homeScreen" class="screen active">
-    <article class="hero">
-      <div>
-        <span class="eyebrow">MISSÃO ATUAL</span>
-        <h2>Construa sua aprovação<br>uma aula por vez.</h2>
-        <p>
-          Estude, faça a prova, veja a correção comentada e revise seus erros.
-          A próxima aula é liberada somente após atingir 70%.
-        </p>
-        <div class="hero-actions">
-          <button class="btn primary" onclick="continueStudy()">Continuar missão</button>
-          <button class="btn ghost" onclick="openErrorNotebook()">Revisar erros</button>
-        </div>
+<section id="homeScreen" class="screen active">
+  <article class="hero">
+    <div>
+      <span class="eyebrow">MISSÃO ATUAL</span>
+      <h2>Prepare-se com método e constância.</h2>
+      <p>Estude, faça provas, acompanhe sua evolução e revise automaticamente os pontos em que mais erra.</p>
+      <div class="hero-actions">
+        <button class="btn primary" onclick="continueStudy()">Continuar missão</button>
+        <button class="btn secondary" onclick="openErrorNotebook()">Revisar erros</button>
       </div>
-      <div class="hero-shield">🛡️</div>
-    </article>
+    </div>
+    <div class="seal">PM</div>
+  </article>
 
-    <section class="metrics-grid">
-      <article class="metric">
-        <span>Progresso geral</span>
-        <strong id="globalProgressText">0%</strong>
-        <div class="progress"><div id="globalProgressBar" class="progress-bar"></div></div>
-        <small id="progressSubtitle">0 de 2 aulas concluídas</small>
-      </article>
-
-      <article class="metric">
-        <span>Média</span>
-        <strong id="averageScoreValue">0%</strong>
-        <small>Melhores notas registradas</small>
-      </article>
-
-      <article class="metric">
-        <span>Aulas concluídas</span>
-        <strong id="completedLessonsValue">0</strong>
-        <small>Etapas vencidas</small>
-      </article>
-
-      <article class="metric clickable" onclick="openErrorNotebook()">
-        <span>Caderno de erros</span>
-        <strong id="errorCountValue">0</strong>
-        <small>Questões para revisar</small>
-      </article>
-    </section>
-
-    <section class="section-block">
-      <div class="section-title">
-        <div>
-          <span class="eyebrow">PLANO DE ESTUDO</span>
-          <h3>Língua Portuguesa</h3>
-        </div>
-        <button class="link-btn" onclick="openSubjects()">Ver matéria</button>
-      </div>
-
-      <article class="subject-card" onclick="openPortuguese()">
-        <div class="subject-icon">📘</div>
-        <div class="subject-body">
-          <span class="subject-tag">PORTUGUÊS</span>
-          <h4>Interpretação e compreensão</h4>
-          <p id="portugueseProgressText">0 de 2 aulas concluídas</p>
-          <div class="progress thin"><div id="portugueseProgressBar" class="progress-bar"></div></div>
-        </div>
-        <span class="arrow">›</span>
-      </article>
-    </section>
-
-    <section class="section-block">
-      <div class="section-title">
-        <div>
-          <span class="eyebrow">TREINO INTELIGENTE</span>
-          <h3>Revisão e desempenho</h3>
-        </div>
-      </div>
-
-      <div class="quick-grid">
-        <button class="quick-card" onclick="openErrorNotebook()">
-          <span class="quick-icon">📓</span>
-          <strong>Caderno de erros</strong>
-          <small>Revise o que você errou</small>
-        </button>
-
-        <button class="quick-card" onclick="openTips()">
-          <span class="quick-icon">💡</span>
-          <strong>Dicas de prova</strong>
-          <small>Estratégias rápidas</small>
-        </button>
-
-        <button class="quick-card" onclick="openPerformance()">
-          <span class="quick-icon">📊</span>
-          <strong>Desempenho</strong>
-          <small>Veja sua evolução</small>
-        </button>
-
-        <button class="quick-card" onclick="openPortuguese()">
-          <span class="quick-icon">🎯</span>
-          <strong>Missões</strong>
-          <small>Continue sua trilha</small>
-        </button>
-      </div>
-    </section>
-  </section>
-
-  <!-- SUBJECTS -->
-  <section id="subjectsScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="goHome()">←</button>
-      <div><span class="eyebrow">PLANO DE ESTUDO</span><h2>Matérias</h2></div>
+  <section class="section-block">
+    <div class="section-title">
+      <div><span class="eyebrow">VISÃO GERAL</span><h3>Seu desempenho</h3></div>
+      <button class="text-btn" onclick="openPerformance()">Ver detalhes</button>
     </div>
 
-    <article class="subject-card large" onclick="openPortuguese()">
+    <div class="metrics">
+      <article class="metric"><span>Progresso</span><strong id="globalProgressText">0%</strong><div class="progress"><div id="globalProgressBar" class="progress-bar"></div></div><small id="progressSubtitle">0 de 2 aulas concluídas</small></article>
+      <article class="metric"><span>Média</span><strong id="averageScoreValue">0%</strong><small>Melhores notas registradas</small></article>
+      <article class="metric"><span>Aulas concluídas</span><strong id="completedLessonsValue">0</strong><small>Etapas vencidas</small></article>
+      <article class="metric" onclick="openErrorNotebook()"><span>Caderno de erros</span><strong id="errorCountValue">0</strong><small>Questões para revisar</small></article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-title">
+      <div><span class="eyebrow">TRILHA PRINCIPAL</span><h3>Língua Portuguesa</h3></div>
+      <button class="text-btn" onclick="openSubjects()">Ver matéria</button>
+    </div>
+
+    <article class="subject-card" onclick="openPortuguese()">
       <div class="subject-icon">📘</div>
       <div class="subject-body">
         <span class="subject-tag">PORTUGUÊS</span>
-        <h4>Língua Portuguesa</h4>
-        <p>Interpretação, compreensão e fundamentos essenciais.</p>
-        <div class="progress thin"><div id="portugueseProgressBar2" class="progress-bar"></div></div>
+        <h4>Interpretação e compreensão</h4>
+        <p id="portugueseProgressText">0 de 2 aulas concluídas</p>
+        <div class="progress thin"><div id="portugueseProgressBar" class="progress-bar"></div></div>
       </div>
       <span class="arrow">›</span>
     </article>
   </section>
 
-  <!-- LESSONS -->
-  <section id="lessonsScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="openSubjects()">←</button>
-      <div><span class="eyebrow">PORTUGUÊS</span><h2>Trilha de aulas</h2></div>
-    </div>
-
-    <div class="trail-info">
-      <div>
-        <strong>Regra de avanço</strong>
-        <p>Atinja pelo menos 70% na prova para liberar a próxima aula.</p>
-      </div>
-      <span>🎯</span>
-    </div>
-
-    <div id="lessonList" class="lesson-list"></div>
-  </section>
-
-  <!-- LESSON -->
-  <section id="lessonScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="openPortuguese()">←</button>
-      <div><span id="lessonSubtitle" class="eyebrow"></span><h2 id="lessonTitle"></h2></div>
-    </div>
-
-    <div class="lesson-meta">
-      <div><span>⏱️</span><strong id="lessonTime"></strong><small>Tempo estimado</small></div>
-      <div><span>🎯</span><strong>70%</strong><small>Mínimo na prova</small></div>
-      <div><span>⭐</span><strong>100 XP</strong><small>Primeira aprovação</small></div>
-    </div>
-
-    <article id="lessonContent" class="reader"></article>
-
-    <div class="sticky-lesson-action">
-      <button class="btn primary full" onclick="startQuiz()">Fazer prova da aula</button>
+  <section class="section-block">
+    <div class="section-title"><div><span class="eyebrow">CENTRAL DE ESTUDOS</span><h3>Ferramentas</h3></div></div>
+    <div class="tools">
+      <button class="tool-card" onclick="openErrorNotebook()"><span>📓</span><strong>Caderno de erros</strong><small>Revise exatamente o que errou.</small></button>
+      <button class="tool-card" onclick="openTips()"><span>💡</span><strong>Dicas de prova</strong><small>Estratégias rápidas e objetivas.</small></button>
+      <button class="tool-card" onclick="openPerformance()"><span>📊</span><strong>Desempenho</strong><small>Notas, XP e evolução.</small></button>
+      <button class="tool-card ia" onclick="openProfessorIA()"><span>🤖</span><strong>Professor IA</strong><small>Área preparada para seu tutor inteligente.</small><b>EM BREVE</b></button>
     </div>
   </section>
+</section>
 
-  <!-- QUIZ -->
-  <section id="quizScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="backToCurrentLesson()">←</button>
-      <div><span class="eyebrow">AVALIAÇÃO</span><h2 id="quizTitle">Prova</h2></div>
-    </div>
+<section id="subjectsScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="goHome()">←</button><div><span class="eyebrow">PLANO DE ESTUDOS</span><h2>Matérias</h2></div></div>
+  <article class="subject-card" onclick="openPortuguese()">
+    <div class="subject-icon">📘</div>
+    <div class="subject-body"><span class="subject-tag">PORTUGUÊS</span><h4>Língua Portuguesa</h4><p>Interpretação, compreensão e fundamentos essenciais.</p><div class="progress thin"><div id="portugueseProgressBar2" class="progress-bar"></div></div></div>
+    <span class="arrow">›</span>
+  </article>
+</section>
 
-    <div class="notice">
-      <div>📝</div>
-      <div>
-        <strong>Prova com correção comentada</strong>
-        <p>Após finalizar, você verá o gabarito, explicação e dica de cada questão.</p>
-      </div>
-    </div>
+<section id="lessonsScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="openSubjects()">←</button><div><span class="eyebrow">PORTUGUÊS</span><h2>Trilha de aulas</h2></div></div>
+  <div class="info-card"><span>🎯</span><div><strong>Regra de avanço</strong><p>Atinja pelo menos 70% para liberar a próxima aula.</p></div></div>
+  <div id="lessonList" class="lesson-list"></div>
+</section>
 
-    <form id="quizForm" class="quiz-form"></form>
-    <button class="btn primary full" type="button" onclick="submitQuiz()">Finalizar prova</button>
-  </section>
+<section id="lessonScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="openPortuguese()">←</button><div><span id="lessonSubtitle" class="eyebrow"></span><h2 id="lessonTitle"></h2></div></div>
+  <div class="lesson-meta"><div>⏱️<strong id="lessonTime"></strong><small>Tempo</small></div><div>🎯<strong>70%</strong><small>Mínimo</small></div><div>⭐<strong>100 XP</strong><small>Primeira aprovação</small></div></div>
+  <article id="lessonContent" class="reader"></article>
+  <button class="btn primary full lesson-action" onclick="startQuiz()">Fazer prova da aula</button>
+</section>
 
-  <!-- RESULT -->
-  <section id="resultScreen" class="screen">
-    <div class="result-card">
-      <div id="resultIcon" class="result-icon">🎯</div>
-      <span class="eyebrow">RESULTADO DA MISSÃO</span>
-      <h2 id="resultTitle">Resultado</h2>
-      <div id="resultScore" class="score">0%</div>
-      <p id="resultMessage"></p>
-      <div id="resultStats" class="result-stats"></div>
-      <div id="resultButtons" class="stack"></div>
-    </div>
-  </section>
+<section id="quizScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="backToCurrentLesson()">←</button><div><span class="eyebrow">AVALIAÇÃO</span><h2 id="quizTitle">Prova</h2></div></div>
+  <div class="info-card"><span>📝</span><div><strong>Correção comentada</strong><p>Ao finalizar, você verá a resposta correta, explicação e dica.</p></div></div>
+  <form id="quizForm" class="quiz-form"></form>
+  <button class="btn primary full" type="button" onclick="submitQuiz()">Finalizar prova</button>
+</section>
 
-  <!-- CORRECTION -->
-  <section id="correctionScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="showLastResult()">←</button>
-      <div><span class="eyebrow">CORREÇÃO COMENTADA</span><h2>Questão por questão</h2></div>
-    </div>
+<section id="resultScreen" class="screen">
+  <div class="result-card"><div id="resultIcon" class="result-icon">🎯</div><span class="eyebrow">RESULTADO</span><h2 id="resultTitle">Resultado</h2><div id="resultScore" class="result-score">0%</div><p id="resultMessage"></p><div id="resultStats" class="result-stats"></div><div id="resultButtons" class="stack"></div></div>
+</section>
 
-    <div id="correctionSummary" class="correction-summary"></div>
-    <div id="correctionList" class="correction-list"></div>
-  </section>
+<section id="correctionScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="showLastResult()">←</button><div><span class="eyebrow">CORREÇÃO COMENTADA</span><h2>Questão por questão</h2></div></div>
+  <div id="correctionSummary" class="correction-summary"></div>
+  <div id="correctionList" class="correction-list"></div>
+</section>
 
-  <!-- ERRORS -->
-  <section id="errorsScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="goHome()">←</button>
-      <div><span class="eyebrow">REVISÃO INTELIGENTE</span><h2>Caderno de Erros</h2></div>
-    </div>
+<section id="errorsScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="goHome()">←</button><div><span class="eyebrow">REVISÃO INTELIGENTE</span><h2>Caderno de Erros</h2></div></div>
+  <div class="info-card"><span>📓</span><div><strong>Revisão automática</strong><p>Questões erradas ficam aqui até você acertá-las novamente.</p></div></div>
+  <div class="error-toolbar"><span id="errorNotebookCounter">0 questões</span><button class="text-btn" onclick="clearErrorNotebook()">Limpar</button></div>
+  <div id="errorNotebookList" class="error-list"></div>
+</section>
 
-    <div class="notice">
-      <div>📓</div>
-      <div>
-        <strong>Seu material de revisão automático</strong>
-        <p>Questões erradas ficam aqui até você acertá-las novamente em uma prova.</p>
-      </div>
-    </div>
+<section id="tipsScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="goHome()">←</button><div><span class="eyebrow">ESTRATÉGIA</span><h2>Dicas de prova</h2></div></div>
+  <div class="tips-list">
+    <article class="tip-card"><span>01</span><div><strong>Responda pelo texto</strong><p>Não marque algo só porque parece verdadeiro fora do texto.</p></div></article>
+    <article class="tip-card"><span>02</span><div><strong>Cuidado com absolutos</strong><p>“Sempre”, “nunca”, “todos” e “somente” merecem atenção.</p></div></article>
+    <article class="tip-card"><span>03</span><div><strong>Elimine antes de escolher</strong><p>Retire alternativas que contradizem, exageram ou extrapolam.</p></div></article>
+    <article class="tip-card"><span>04</span><div><strong>Leia o comando primeiro</strong><p>Entender a pergunta direciona sua leitura.</p></div></article>
+    <article class="tip-card"><span>05</span><div><strong>Revise seus erros</strong><p>Use o Caderno de Erros como prioridade de revisão.</p></div></article>
+  </div>
+</section>
 
-    <div class="error-toolbar">
-      <span id="errorNotebookCounter">0 questões</span>
-      <button class="link-btn" onclick="clearErrorNotebook()">Limpar caderno</button>
-    </div>
+<section id="performanceScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="goHome()">←</button><div><span class="eyebrow">ANÁLISE</span><h2>Desempenho</h2></div></div>
+  <div class="performance-grid"><article class="performance-card"><span>Média</span><strong id="perfAverage">0%</strong><small>Melhores notas</small></article><article class="performance-card"><span>Erros</span><strong id="perfErrors">0</strong><small>Para revisar</small></article><article class="performance-card"><span>XP</span><strong id="perfXp">0</strong><small>Acumulado</small></article><article class="performance-card"><span>Sequência</span><strong id="perfStreak">0</strong><small>Dias consecutivos</small></article></div>
+  <div class="history-panel"><span class="eyebrow">HISTÓRICO</span><h3>Melhores resultados</h3><div id="scoreHistory" class="score-history"></div></div>
+</section>
 
-    <div id="errorNotebookList" class="error-list"></div>
-  </section>
-
-  <!-- TIPS -->
-  <section id="tipsScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="goHome()">←</button>
-      <div><span class="eyebrow">ESTRATÉGIA</span><h2>Dicas de prova</h2></div>
-    </div>
-
-    <div class="tips-list">
-      <article class="tip-card"><span>01</span><div><strong>Responda pelo texto</strong><p>Não marque uma alternativa só porque ela é verdadeira na vida real. Em interpretação, a evidência deve estar no texto.</p></div></article>
-      <article class="tip-card"><span>02</span><div><strong>Cuidado com palavras absolutas</strong><p>“Sempre”, “nunca”, “todos” e “somente” podem transformar uma alternativa quase correta em errada.</p></div></article>
-      <article class="tip-card"><span>03</span><div><strong>Elimine antes de escolher</strong><p>Retire alternativas que contradizem, exageram ou acrescentam informação. Depois compare as restantes.</p></div></article>
-      <article class="tip-card"><span>04</span><div><strong>Leia o comando primeiro</strong><p>Saber exatamente o que a questão pede evita reler o texto sem objetivo.</p></div></article>
-      <article class="tip-card"><span>05</span><div><strong>Use o Caderno de Erros</strong><p>O que você erra mostra onde sua revisão deve ser mais forte. Revise antes de seguir para muitas aulas novas.</p></div></article>
-    </div>
-  </section>
-
-  <!-- PERFORMANCE -->
-  <section id="performanceScreen" class="screen">
-    <div class="page-head">
-      <button class="back" onclick="goHome()">←</button>
-      <div><span class="eyebrow">ANÁLISE</span><h2>Desempenho</h2></div>
-    </div>
-
-    <div class="performance-grid">
-      <article class="performance-card"><span>Melhor média</span><strong id="perfAverage">0%</strong><small>Média das melhores notas</small></article>
-      <article class="performance-card"><span>Questões no caderno</span><strong id="perfErrors">0</strong><small>Pontos para revisar</small></article>
-      <article class="performance-card"><span>XP acumulado</span><strong id="perfXp">0</strong><small>Experiência conquistada</small></article>
-      <article class="performance-card"><span>Sequência</span><strong id="perfStreak">0</strong><small>Dias consecutivos</small></article>
-    </div>
-
-    <div class="performance-panel">
-      <span class="eyebrow">HISTÓRICO DE NOTAS</span>
-      <h3>Melhores resultados</h3>
-      <div id="scoreHistory" class="score-history"></div>
-    </div>
-  </section>
+<section id="professorScreen" class="screen">
+  <div class="page-head"><button class="back" onclick="goHome()">←</button><div><span class="eyebrow">FUTURO MÓDULO</span><h2>Professor IA</h2></div></div>
+  <div class="professor-hero"><div class="professor-avatar">🤖</div><span class="eyebrow">ESTRUTURA PREPARADA</span><h3>Seu tutor inteligente ficará aqui.</h3><p>Este espaço foi pensado para futuramente receber uma IA capaz de explicar conteúdos, responder dúvidas, criar exercícios e usar seus erros como contexto.</p></div>
+  <div class="professor-grid"><article><strong>💬 Tirar dúvidas</strong><small>Conversa sobre a aula atual.</small></article><article><strong>🧠 Explicar melhor</strong><small>Explicações simples ou aprofundadas.</small></article><article><strong>📝 Criar exercícios</strong><small>Treino personalizado.</small></article><article><strong>📓 Revisar erros</strong><small>Uso do Caderno de Erros.</small></article></div>
+</section>
 
 </main>
 
@@ -297,7 +160,7 @@
   <button id="navErrors" onclick="openErrorNotebook()"><span>✎</span><small>Erros</small></button>
 </nav>
 
-<script src="lessons.js?v=profissional2"></script>
-<script src="app.js?v=profissional2"></script>
+<script src="lessons.js?v=mobilepro3"></script>
+<script src="app.js?v=mobilepro3"></script>
 </body>
 </html>
