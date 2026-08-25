@@ -315,9 +315,7 @@ window.lessons = {
           "A alternativa que trouxer mais informações.",
           "Aquilo que normalmente acontece na vida real."
         ],
-        answer: 1,
-        explanation: "A questão pede a principal referência em comandos como “Segundo o texto”. A resposta deve partir das informações do próprio texto, não da experiência pessoal.",
-        tip: "Procure no texto a ideia equivalente ao que o enunciado pergunta."
+        answer: 1
       },
       {
         question: "Qual alternativa define melhor uma informação implícita?",
@@ -327,9 +325,7 @@ window.lessons = {
           "Informação que pode ser concluída a partir de pistas do texto.",
           "Informação copiada literalmente do texto."
         ],
-        answer: 2,
-        explanation: "Informação implícita é aquela que não aparece literalmente, mas pode ser concluída por pistas fornecidas pelo texto.",
-        tip: "Inferência válida precisa de evidência textual."
+        answer: 2
       },
       {
         question: "Leia: “Rafael entrou em casa, fechou rapidamente as janelas e, minutos depois, ouviu trovões.” Qual inferência é mais adequada?",
@@ -339,9 +335,7 @@ window.lessons = {
           "Rafael quebrou uma das janelas.",
           "A casa estava sem energia elétrica."
         ],
-        answer: 1,
-        explanation: "Fechar janelas rapidamente e ouvir trovões logo depois sustenta a ideia de chuva ou temporal próximo. As demais opções acrescentam fatos não informados.",
-        tip: "Evite transformar uma pista em uma história inteira."
+        answer: 1
       },
       {
         question: "Se um texto fala sobre benefícios dos exercícios físicos, riscos do sedentarismo e importância de se manter ativo, qual é um tema adequado?",
@@ -351,9 +345,7 @@ window.lessons = {
           "Construção de academias.",
           "Alimentação exclusivamente vegetariana."
         ],
-        answer: 0,
-        explanation: "O texto aborda benefícios da atividade física, sedentarismo e manutenção da saúde. Portanto, “atividade física e saúde” sintetiza o assunto.",
-        tip: "Tema é o assunto geral; não precisa repetir todas as palavras do texto."
+        answer: 0
       },
       {
         question: "Em “Lucas treinou durante meses, mas não conseguiu completar a prova”, a palavra “mas” estabelece principalmente uma relação de:",
@@ -363,9 +355,7 @@ window.lessons = {
           "Contraste.",
           "Condição."
         ],
-        answer: 2,
-        explanation: "A palavra “mas” introduz oposição entre o esforço de Lucas e o resultado obtido.",
-        tip: "Mas, porém, contudo e entretanto costumam marcar contraste."
+        answer: 2
       },
       {
         question: "Qual alternativa apresenta uma opinião?",
@@ -375,9 +365,7 @@ window.lessons = {
           "O livro tem 200 páginas.",
           "O atendimento daquele local é excelente."
         ],
-        answer: 3,
-        explanation: "“Excelente” expressa avaliação subjetiva, portanto apresenta opinião.",
-        tip: "Fato tende a ser verificável; opinião traz julgamento ou avaliação."
+        answer: 3
       },
       {
         question: "Leia: “A raiz do problema precisa ser identificada antes da decisão.” Nesse contexto, “raiz” significa:",
@@ -387,9 +375,7 @@ window.lessons = {
           "Decoração.",
           "Consequência final."
         ],
-        answer: 1,
-        explanation: "No contexto, “raiz” não indica parte de planta, mas a origem ou causa do problema.",
-        tip: "Sempre interprete a palavra dentro da frase."
+        answer: 1
       },
       {
         question: "O texto afirma: “Alguns candidatos preferem estudar pela manhã.” Qual alternativa extrapola essa informação?",
@@ -399,9 +385,7 @@ window.lessons = {
           "Todos os candidatos estudam melhor pela manhã.",
           "O texto menciona a preferência de alguns candidatos."
         ],
-        answer: 2,
-        explanation: "O texto usa “alguns”; transformar isso em “todos” é uma generalização indevida.",
-        tip: "Compare quantificadores: alguns ≠ todos."
+        answer: 2
       },
       {
         question: "Qual procedimento é mais adequado ao resolver uma questão de interpretação?",
@@ -411,9 +395,7 @@ window.lessons = {
           "Comparar as alternativas com as evidências apresentadas no texto.",
           "Marcar sempre a alternativa mais genérica."
         ],
-        answer: 2,
-        explanation: "Comparar as alternativas com as evidências do texto é o procedimento mais seguro.",
-        tip: "Elimine primeiro as alternativas que contradizem ou extrapolam."
+        answer: 2
       },
       {
         question: "No texto de treinamento da aula, qual ideia é defendida principalmente?",
@@ -423,9 +405,7 @@ window.lessons = {
           "Somente ações extraordinárias produzem resultados.",
           "Uma rotina garante automaticamente qualquer resultado desejado."
         ],
-        answer: 1,
-        explanation: "O texto defende que resultados importantes são construídos por ações consistentes e repetidas.",
-        tip: "Resuma a ideia central em uma frase antes de olhar as alternativas."
+        answer: 1
       }
     ]
   },
@@ -770,9 +750,7 @@ window.lessons = {
           "Tema é sempre uma frase longa; ideia principal é sempre uma palavra.",
           "Ideia principal corresponde apenas ao título do texto."
         ],
-        answer: 0,
-        explanation: "Tema é o assunto geral. Ideia principal é aquilo que o texto desenvolve de mais importante sobre esse assunto.",
-        tip: "Pergunte: “sobre o que fala?” e depois “o que diz de principal sobre isso?”."
+        answer: 0
       },
       {
         question: "Leia: “Bianca voltou a frequentar a biblioteca.” O emprego de “voltou a” permite pressupor que:",
@@ -782,9 +760,7 @@ window.lessons = {
           "Bianca trabalha obrigatoriamente na biblioteca.",
           "Bianca comprou todos os livros da biblioteca."
         ],
-        answer: 1,
-        explanation: "“Voltou a” pressupõe que a ação já ocorreu anteriormente.",
-        tip: "Expressões como “voltou a”, “parou de” e “continua” carregam pressupostos."
+        answer: 1
       },
       {
         question: "Texto: “A leitura pode contribuir para ampliar o vocabulário.” Qual alternativa altera indevidamente o grau de certeza?",
@@ -794,9 +770,7 @@ window.lessons = {
           "A leitura sempre garante um vocabulário amplo a qualquer pessoa.",
           "O texto associa a leitura a uma possível ampliação vocabular."
         ],
-        answer: 2,
-        explanation: "O texto diz “pode contribuir”. “Sempre garante” aumenta indevidamente o grau de certeza.",
-        tip: "Compare cuidadosamente palavras como pode, tende, sempre e necessariamente."
+        answer: 2
       },
       {
         question: "Leia: “Devido a uma falha no equipamento, a atividade foi interrompida.” Qual é a causa apresentada?",
@@ -806,9 +780,7 @@ window.lessons = {
           "A conclusão da atividade.",
           "A troca obrigatória de todos os equipamentos."
         ],
-        answer: 1,
-        explanation: "A própria frase apresenta a falha no equipamento como motivo da interrupção.",
-        tip: "Não inverta causa e consequência."
+        answer: 1
       },
       {
         question: "Leia: “Embora estivesse nervoso, André apresentou o trabalho até o fim.” O trecho indica que:",
@@ -818,9 +790,7 @@ window.lessons = {
           "Apesar do nervosismo, André concluiu a apresentação.",
           "André não estava nervoso."
         ],
-        answer: 2,
-        explanation: "“Embora” introduz concessão: havia um obstáculo, mas a ação foi realizada.",
-        tip: "Embora, apesar de e ainda que costumam marcar concessão."
+        answer: 2
       },
       {
         question: "Qual alternativa descreve corretamente uma inferência válida?",
@@ -830,9 +800,7 @@ window.lessons = {
           "Uma informação inventada para completar o texto.",
           "Uma conclusão que obrigatoriamente precisa aparecer escrita palavra por palavra."
         ],
-        answer: 0,
-        explanation: "Inferência válida é uma conclusão sustentada por pistas do texto.",
-        tip: "Se você não consegue apontar a evidência, desconfie da inferência."
+        answer: 0
       },
       {
         question: "Texto: “Alguns alunos utilizam resumos durante a revisão.” Qual alternativa apresenta generalização indevida?",
@@ -842,9 +810,7 @@ window.lessons = {
           "Todos os alunos utilizam resumos durante a revisão.",
           "A afirmação se refere a alguns alunos."
         ],
-        answer: 2,
-        explanation: "“Alguns alunos” não autoriza concluir “todos os alunos”.",
-        tip: "Generalizações são uma pegadinha frequente."
+        answer: 2
       },
       {
         question: "No texto de treinamento sobre tecnologia, qual é a ideia principal?",
@@ -854,9 +820,7 @@ window.lessons = {
           "A tecnologia facilita o acesso à informação, mas aprender exige atuação ativa do estudante.",
           "Conhecimentos anteriores não possuem utilidade no aprendizado."
         ],
-        answer: 2,
-        explanation: "O texto afirma que a tecnologia facilita o acesso, mas aprendizagem exige participação ativa.",
-        tip: "A ideia principal costuma reunir as partes mais importantes sem exagerar."
+        answer: 2
       },
       {
         question: "No mesmo texto, a palavra “Entretanto” introduz principalmente uma ideia de:",
@@ -866,9 +830,7 @@ window.lessons = {
           "Enumeração.",
           "Finalidade."
         ],
-        answer: 0,
-        explanation: "“Entretanto” marca contraste entre acesso à informação e conhecimento efetivo.",
-        tip: "Observe conectivos: eles revelam a relação entre as ideias."
+        answer: 0
       },
       {
         question: "Qual é a melhor estratégia para verificar uma inferência em uma questão?",
@@ -878,9 +840,7 @@ window.lessons = {
           "Escolher a alternativa com maior número de palavras.",
           "Preferir sempre alternativas que utilizem “todos” e “sempre”."
         ],
-        answer: 1,
-        explanation: "A melhor forma é buscar no texto quais elementos sustentam a conclusão.",
-        tip: "Trate cada inferência como uma hipótese que precisa de prova textual."
+        answer: 1
       }
     ]
   }
