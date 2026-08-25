@@ -606,3 +606,32 @@ function openTipsV53(){utilityV53("Dicas de prova","Estratégias para leitura, t
 function openQuickTrainingV53(){utilityV53("Treino rápido","Sessões curtas de questões para praticar todos os dias.");}
 function openSimulationV53(){utilityV53("Simulados","Área preparada para provas completas e resultados.");}
 function openQuickReviewV53(){utilityV53("Revisão rápida","Uma sessão objetiva baseada nos seus pontos fracos.");}
+
+/* =========================================================
+   V5.5 - FAVORITOS E ANOTACOES FUNCIONAIS
+   ========================================================= */
+const V55_FAV_KEY='pmmg_v55_favorites';
+function v55Favs(){try{return JSON.parse(localStorage.getItem(V55_FAV_KEY)||'[]')}catch(e){return []}}
+function v55SaveFavs(v){localStorage.setItem(V55_FAV_KEY,JSON.stringify(v));}
+function openFavoritesV53(){openFavorites();setMainNavActive('navStudy');renderFavoritesV55();window.scrollTo(0,0);}
+const _openFavoritesV55=typeof openFavorites==='function'?openFavorites:null;
+if(_openFavoritesV55){openFavorites=function(){const r=_openFavoritesV55();renderFavoritesV55();return r;}}
+function addFavoriteV55(){
+ const title=document.getElementById('favTitleV55'); const note=document.getElementById('favNoteV55');
+ if(!title||!note)return;
+ const t=title.value.trim(), n=note.value.trim();
+ if(!t&&!n){alert('Digite um titulo ou uma anotacao para salvar.');return;}
+ const list=v55Favs(); list.unshift({id:Date.now(),title:t||'Anotacao de estudo',note:n,created:new Date().toISOString(),done:false});
+ v55SaveFavs(list); title.value='';note.value='';renderFavoritesV55();
+}
+function removeFavoriteV55(id){v55SaveFavs(v55Favs().filter(x=>x.id!==id));renderFavoritesV55();}
+function toggleFavoriteV55(id){const list=v55Favs();const item=list.find(x=>x.id===id);if(item)item.done=!item.done;v55SaveFavs(list);renderFavoritesV55();}
+function renderFavoritesV55(){
+ const host=document.getElementById('favoritesList');if(!host)return;
+ const list=v55Favs();
+ host.className='favorites-v55-list';
+ host.innerHTML=list.length?list.map(x=>`<article class="favorite-v55 ${x.done?'done':''}"><div><small>${x.done?'REVISADO':'SALVO PARA REVISAR'}</small><b>${escapeHtmlV55(x.title)}</b><p>${escapeHtmlV55(x.note||'Sem anotacao adicional.')}</p><em>${new Date(x.created).toLocaleDateString('pt-BR')}</em></div><div class="fav-v55-actions"><button onclick="toggleFavoriteV55(${x.id})">${x.done?'↩':'✓'}</button><button onclick="removeFavoriteV55(${x.id})">×</button></div></article>`).join(''):'<div class="empty-state">Nenhum favorito ainda. Salve uma anotacao acima para montar sua biblioteca de revisao.</div>';
+ const count=document.getElementById('favCountV55');if(count)count.textContent=list.length+' '+(list.length===1?'item salvo':'itens salvos');
+}
+function escapeHtmlV55(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+document.addEventListener('DOMContentLoaded',renderFavoritesV55);
