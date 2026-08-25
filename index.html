@@ -1,1064 +1,376 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
 
   <meta
     name="viewport"
-    content="width=device-width, initial-scale=1, viewport-fit=cover"
+    content="width=device-width, initial-scale=1.0"
   >
 
-  <meta name="theme-color" content="#04120d">
+  <title>Missão PMMG</title>
 
-  <title>Missão PMMG v0.6</title>
-
-  <link
-    rel="stylesheet"
-    href="style.css?v=6"
-  >
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="app">
-
-<header>
-  <div>
-    <small>PREPARAÇÃO PARA SOLDADO</small>
-    <b>MISSÃO <i>PMMG</i></b>
-  </div>
-
-  <span class="xp">
-    ⭐ <span id="xp">0</span> XP
-  </span>
-</header>
-
-
-<main>
-
-<!-- =====================================================
-     INÍCIO
-===================================================== -->
-
-<section
-  id="home"
-  class="page active"
->
-
-  <div class="hero card">
-
-    <span class="badge">
-      MISSÃO ATIVA
-    </span>
-
-    <h1>
-      Uma missão por vez.
-    </h1>
-
-    <p>
-      Leia, aprenda, faça a prova e avance
-      somente quando realmente dominar o conteúdo.
-    </p>
-
-  </div>
-
-
-  <div class="grid">
-
-    <div class="card stat">
-
-      <b id="streak">
-        1
-      </b>
-
-      <small>
-        🔥 sequência
-      </small>
-
-    </div>
-
-
-    <div class="card stat">
-
-      <b id="general">
-        0%
-      </b>
-
-      <small>
-        🎯 progresso
-      </small>
-
-    </div>
-
-
-    <div class="card stat">
-
-      <b id="missions">
-        0
-      </b>
-
-      <small>
-        ✓ aprovadas
-      </small>
-
-    </div>
-
-  </div>
-
-
-  <div
-    class="card"
-    id="mainMissionCard"
-  >
-
-    <p class="label">
-      MISSÃO DE HOJE
-    </p>
-
-    <h2 id="mainMissionTitle">
-      📖 Português
-    </h2>
-
-    <p id="mainMissionTopic">
-      Interpretação de texto • Aula 01
-    </p>
-
-
-    <div class="chips">
-
-      <span>
-        🌱 do zero
-      </span>
-
-      <span id="mainMissionTime">
-        ⏱ 30–45 min
-      </span>
-
-      <span>
-        🎯 mínimo 70%
-      </span>
-
-    </div>
-
-
-    <button
-      id="mainMissionBtn"
-      onclick="show('lesson1')"
-    >
-      COMEÇAR MISSÃO ▶
-    </button>
-
-  </div>
-
-
-  <div class="card">
-
-    <p class="label">
-      PRÓXIMA MISSÃO
-    </p>
-
-    <h3 id="nextMissionTitle">
-      🔒 Aula 02 bloqueada
-    </h3>
-
-    <p
-      id="nextMissionText"
-      class="muted"
-    >
-      Acerte pelo menos 70% na Aula 01
-      para desbloquear.
-    </p>
-
-    <button
-      id="nextMissionBtn"
-      class="secondary"
-      disabled
-    >
-      BLOQUEADA
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     MATÉRIAS
-===================================================== -->
-
-<section
-  id="subjects"
-  class="page"
->
-
-  <p class="label">
-    TRILHA DE ESTUDOS
-  </p>
-
-  <h1>
-    Português
-  </h1>
-
-
-  <div
-    class="card subject"
-    id="subject1"
-  >
-
+  <header class="topo">
     <div>
-      <b>📖 Aula 01</b>
-      <small>Interpretação de texto</small>
+      <p class="subtitulo-topo">PREPARAÇÃO PMMG</p>
+      <h1>Missão PMMG</h1>
     </div>
 
-    <strong id="status1">
-      ▶ Atual
-    </strong>
+    <div class="status-topo">
+      <div class="status-item">
+        <span>🔥</span>
+        <strong id="streakValue">0</strong>
+      </div>
 
-  </div>
-
-
-  <div
-    class="card subject locked"
-    id="subject2"
-  >
-
-    <div>
-      <b>📘 Aula 02</b>
-      <small>Ideia principal e inferência</small>
+      <div class="status-item">
+        <span>⭐</span>
+        <strong id="xpValue">0 XP</strong>
+      </div>
     </div>
+  </header>
 
-    <strong id="status2">
-      🔒
-    </strong>
 
-  </div>
+  <main class="container">
 
+    <!-- TELA INICIAL -->
+    <section id="homeScreen" class="screen active">
 
-  <div
-    class="card subject locked"
-    id="subject3"
-  >
+      <div class="hero-card">
 
-    <div>
-      <b>📚 Aula 03</b>
-      <small>Tipos e gêneros textuais</small>
-    </div>
+        <div class="hero-icon">🛡️</div>
 
-    <strong id="status3">
-      🔒
-    </strong>
+        <p class="eyebrow">SUA MISSÃO COMEÇA AQUI</p>
 
-  </div>
+        <h2>Preparação para Soldado PMMG</h2>
 
+        <p>
+          Estude passo a passo, faça provas ao final de cada aula
+          e avance somente depois de atingir o mínimo necessário.
+        </p>
 
-  <div
-    class="card subject locked"
-    id="subject4"
-  >
+        <button
+          class="primary-btn"
+          onclick="openSubjects()"
+        >
+          Começar missão
+        </button>
 
-    <div>
-      <b>📗 Aula 04</b>
-      <small>Coesão e coerência textuais</small>
-    </div>
+      </div>
 
-    <strong id="status4">
-      🔒
-    </strong>
 
-  </div>
+      <div class="progress-card">
 
+        <div class="card-title-row">
+          <div>
+            <p class="eyebrow">PROGRESSO</p>
+            <h3>Sua preparação</h3>
+          </div>
 
-  <div class="card subject locked">
+          <strong id="globalProgressText">0%</strong>
+        </div>
 
-    <div>
-      <b>🎓 Próximas aulas</b>
-      <small>
-        Novos conteúdos serão adicionados
-        conforme a trilha avança.
-      </small>
-    </div>
+        <div class="progress-bar">
+          <div
+            id="globalProgressBar"
+            class="progress-fill"
+          ></div>
+        </div>
 
-    <strong>
-      🔒
-    </strong>
+        <div class="stats-grid">
 
-  </div>
+          <div class="stat-box">
+            <span id="completedLessonsValue">0</span>
+            <small>Aulas concluídas</small>
+          </div>
 
-</section>
+          <div class="stat-box">
+            <span id="approvedTestsValue">0</span>
+            <small>Provas aprovadas</small>
+          </div>
 
+          <div class="stat-box">
+            <span id="averageScoreValue">0%</span>
+            <small>Média</small>
+          </div>
 
+        </div>
 
-<!-- =====================================================
-     AULA 01
-===================================================== -->
+      </div>
 
-<section
-  id="lesson1"
-  class="page"
->
+    </section>
 
-  <button
-    class="back"
-    onclick="show('subjects')"
-  >
-    ← Matérias
-  </button>
 
+    <!-- TELA DE MATÉRIAS -->
+    <section id="subjectsScreen" class="screen">
 
-  <p class="label">
-    PORTUGUÊS • AULA 01
-  </p>
+      <div class="screen-header">
 
-  <h1>
-    Interpretação de texto
-  </h1>
+        <button
+          class="back-btn"
+          onclick="goHome()"
+        >
+          ←
+        </button>
 
+        <div>
+          <p class="eyebrow">PLANO DE ESTUDOS</p>
+          <h2>Matérias</h2>
+        </div>
 
-  <div class="card lesson">
+      </div>
 
-    <h2>
-      1. O que é interpretar?
-    </h2>
 
-    <p>
-      Interpretar um texto significa compreender
-      a mensagem construída a partir das informações
-      apresentadas.
-    </p>
+      <div class="subject-card">
 
-    <p>
-      Em questões de prova, não basta escolher uma
-      alternativa que pareça verdadeira na vida real.
-    </p>
+        <div class="subject-icon">
+          📘
+        </div>
 
-    <p>
-      A resposta precisa encontrar sustentação
-      no texto analisado.
-    </p>
+        <div class="subject-info">
 
+          <p class="eyebrow">PORTUGUÊS</p>
 
-    <h2>
-      2. Informação explícita
-    </h2>
+          <h3>Língua Portuguesa</h3>
 
-    <p>
-      Informação explícita é aquela apresentada
-      diretamente no texto.
-    </p>
+          <p>
+            Interpretação, compreensão, gramática e conteúdos
+            essenciais para a prova.
+          </p>
 
-    <p>
-      Nesse tipo de questão, é necessário localizar
-      aquilo que efetivamente foi informado.
-    </p>
+          <div class="subject-progress-row">
 
+            <span id="portugueseProgressText">
+              0 de 2 aulas concluídas
+            </span>
 
-    <h2>
-      3. Opinião pessoal
-    </h2>
+          </div>
 
-    <p>
-      Um erro comum é acrescentar informações
-      que o texto não apresentou.
-    </p>
+          <div class="progress-bar small">
+            <div
+              id="portugueseProgressBar"
+              class="progress-fill"
+            ></div>
+          </div>
 
-    <p>
-      O candidato precisa separar aquilo que sabe
-      sobre o mundo daquilo que pode concluir
-      a partir do texto.
-    </p>
+          <button
+            class="primary-btn full"
+            onclick="openPortuguese()"
+          >
+            Ver aulas
+          </button>
 
+        </div>
 
-    <div class="tip">
+      </div>
 
-      <b>
-        ⚡ REGRA DE OURO
-      </b>
+    </section>
 
-      <p>
-        Antes de marcar, pergunte:
-        “O texto realmente sustenta essa resposta?”
-      </p>
 
-    </div>
+    <!-- TELA DE AULAS -->
+    <section id="lessonsScreen" class="screen">
 
-  </div>
+      <div class="screen-header">
 
+        <button
+          class="back-btn"
+          onclick="openSubjects()"
+        >
+          ←
+        </button>
 
-  <button
-    onclick="startQuiz(1)"
-  >
-    IR PARA A PROVA DA AULA 01
-  </button>
+        <div>
+          <p class="eyebrow">PORTUGUÊS</p>
+          <h2>Aulas</h2>
+        </div>
 
-</section>
+      </div>
 
 
+      <div id="lessonList" class="lesson-list"></div>
 
-<!-- =====================================================
-     AULA 02
-===================================================== -->
+    </section>
 
-<section
-  id="lesson2"
-  class="page"
->
 
-  <button
-    class="back"
-    onclick="show('subjects')"
-  >
-    ← Matérias
-  </button>
+    <!-- TELA DO CONTEÚDO -->
+    <section id="lessonScreen" class="screen">
 
+      <div class="screen-header">
 
-  <p class="label">
-    PORTUGUÊS • AULA 02
-  </p>
+        <button
+          class="back-btn"
+          onclick="openPortuguese()"
+        >
+          ←
+        </button>
 
-  <h1>
-    Ideia principal e inferência
-  </h1>
+        <div>
+          <p id="lessonSubtitle" class="eyebrow"></p>
+          <h2 id="lessonTitle"></h2>
+        </div>
 
+      </div>
 
-  <div class="card lesson">
 
-    <h2>
-      Ideia principal
-    </h2>
+      <div class="lesson-info-card">
 
-    <p>
-      A ideia principal representa a mensagem central
-      desenvolvida pelo texto.
-    </p>
+        <div>
+          <span>⏱️</span>
+          <strong id="lessonTime"></strong>
+        </div>
 
-    <p>
-      As demais informações podem explicar,
-      exemplificar ou desenvolver esse núcleo.
-    </p>
+        <div>
+          <span>🎯</span>
+          <strong>Mínimo 70%</strong>
+        </div>
 
+      </div>
 
-    <h2>
-      Inferência
-    </h2>
 
-    <p>
-      Inferência é uma conclusão construída
-      a partir das pistas oferecidas pelo texto.
-    </p>
+      <article
+        id="lessonContent"
+        class="lesson-content"
+      ></article>
 
-    <p>
-      Ela não precisa aparecer literalmente,
-      mas precisa possuir fundamento textual.
-    </p>
 
+      <div class="lesson-actions">
 
-    <div class="tip">
+        <button
+          class="primary-btn full"
+          onclick="startQuiz()"
+        >
+          Fazer prova da aula
+        </button>
 
-      <b>
-        📖 EXEMPLO
-      </b>
+      </div>
 
-      <p>
-        “O chão estava molhado e várias pessoas
-        entravam carregando guarda-chuvas.”
-      </p>
+    </section>
 
-      <p>
-        Uma inferência possível é que provavelmente
-        choveu ou estava chovendo.
-      </p>
 
-    </div>
+    <!-- TELA DA PROVA -->
+    <section id="quizScreen" class="screen">
 
-  </div>
+      <div class="screen-header">
 
+        <button
+          class="back-btn"
+          onclick="backToCurrentLesson()"
+        >
+          ←
+        </button>
 
-  <button
-    onclick="startQuiz(2)"
-  >
-    IR PARA A PROVA DA AULA 02
-  </button>
+        <div>
+          <p class="eyebrow">AVALIAÇÃO</p>
+          <h2 id="quizTitle">Prova</h2>
+        </div>
 
-</section>
+      </div>
 
 
+      <div class="quiz-notice">
 
-<!-- =====================================================
-     AULA 03
-===================================================== -->
+        <strong>🎯 Meta de aprovação: 70%</strong>
 
-<section
-  id="lesson3"
-  class="page"
->
+        <p>
+          Leia cada questão com atenção.
+          Você pode refazer a prova caso não alcance a nota mínima.
+        </p>
 
-  <button
-    class="back"
-    onclick="show('subjects')"
-  >
-    ← Matérias
-  </button>
+      </div>
 
 
-  <p class="label">
-    PORTUGUÊS • AULA 03
-  </p>
+      <form
+        id="quizForm"
+        class="quiz-form"
+      ></form>
 
-  <h1>
-    Tipos e gêneros textuais
-  </h1>
 
+      <button
+        class="primary-btn full"
+        onclick="submitQuiz()"
+        type="button"
+      >
+        Finalizar prova
+      </button>
 
-  <p class="muted">
-    📚 Modo estudo • leia a aula antes da prova.
-  </p>
+    </section>
 
 
-  <div class="card">
+    <!-- RESULTADO -->
+    <section id="resultScreen" class="screen">
 
-    <div class="row">
+      <div
+        id="resultCard"
+        class="result-card"
+      >
 
-      <b>
-        📖 Progresso da leitura
-      </b>
+        <div
+          id="resultIcon"
+          class="result-icon"
+        >
+          🎯
+        </div>
 
-      <strong id="readingPct3">
-        0%
-      </strong>
+        <p class="eyebrow">
+          RESULTADO DA PROVA
+        </p>
 
-    </div>
+        <h2 id="resultTitle">
+          Resultado
+        </h2>
 
+        <div
+          id="resultScore"
+          class="result-score"
+        >
+          0%
+        </div>
 
-    <div class="progress">
+        <p id="resultMessage"></p>
 
-      <i
-        id="readingBar3"
-        style="width:0%"
-      ></i>
+        <div
+          id="resultStats"
+          class="result-stats"
+        ></div>
 
-    </div>
+        <div
+          id="resultButtons"
+          class="result-buttons"
+        ></div>
 
-  </div>
+      </div>
 
+    </section>
 
-  <div id="lesson3Content">
+  </main>
 
-    <!--
-      A Aula 03 continua usando o conteúdo
-      atual que já criamos.
-      O app.js controlará a navegação,
-      progresso e prova.
-    -->
 
-    <div class="card lesson">
+  <nav class="bottom-nav">
 
-      <p class="label">
-        AULA 03
-      </p>
-
-      <h2>
-        Conteúdo de estudo
-      </h2>
-
-      <p>
-        Tipologia textual e gênero textual,
-        narração, descrição, exposição,
-        argumentação, injunção,
-        gêneros textuais e análise de
-        tipologia predominante.
-      </p>
-
-      <p>
-        Esta área será preservada pela lógica
-        atual até migrarmos também a Aula 03
-        para o sistema de conteúdos externos.
-      </p>
-
-    </div>
-
-  </div>
-
-
-  <div class="card">
-
-    <button
-      id="completeReading3Btn"
-      onclick="completeReading3()"
-    >
-      CONCLUIR LEITURA ✓
+    <button onclick="goHome()">
+      <span>🏠</span>
+      <small>Início</small>
     </button>
 
-  </div>
-
-
-  <div class="card">
-
-    <p class="label">
-      AVALIAÇÃO
-    </p>
-
-    <h2>
-      🎯 Prova da Aula 03
-    </h2>
-
-    <p
-      id="quiz3LockText"
-      class="muted"
-    >
-      Conclua a leitura antes da prova.
-    </p>
-
-
-    <button
-      id="quiz3Btn"
-      class="secondary"
-      disabled
-      onclick="startQuiz(3)"
-    >
-      🔒 PROVA BLOQUEADA
+    <button onclick="openSubjects()">
+      <span>📚</span>
+      <small>Matérias</small>
     </button>
 
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     AULA DINÂMICA
-     USADA A PARTIR DA AULA 04
-===================================================== -->
-
-<section
-  id="dynamicLesson"
-  class="page"
->
-
-  <button
-    class="back"
-    onclick="show('subjects')"
-  >
-    ← Matérias
-  </button>
-
-
-  <p
-    class="label"
-    id="dynamicLessonSubtitle"
-  >
-  </p>
-
-
-  <h1
-    id="dynamicLessonTitle"
-  >
-  </h1>
-
-
-  <p class="muted">
-    📚 Modo estudo • leia toda a aula antes
-    de realizar a avaliação.
-  </p>
-
-
-  <div class="card">
-
-    <div class="row">
-
-      <b>
-        📖 Progresso da leitura
-      </b>
-
-      <strong id="dynamicReadingPct">
-        0%
-      </strong>
-
-    </div>
-
-
-    <div class="progress">
-
-      <i
-        id="dynamicReadingBar"
-        style="width:0%"
-      ></i>
-
-    </div>
-
-  </div>
-
-
-  <div id="dynamicLessonContent">
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     QUIZ
-===================================================== -->
-
-<section
-  id="quiz"
-  class="page"
->
-
-  <button
-    class="back"
-    onclick="backToLesson()"
-  >
-    ← Aula
-  </button>
-
-
-  <div class="quizhead">
-
-    <p
-      class="label"
-      id="qnum"
-    >
-    </p>
-
-    <b id="scoreNow">
-      0 acertos
-    </b>
-
-  </div>
-
-
-  <div class="progress">
-
-    <i id="qbar">
-    </i>
-
-  </div>
-
-
-  <div class="card">
-
-    <h2 id="qtext">
-    </h2>
-
-
-    <div id="answers">
-    </div>
-
-
-    <div
-      id="feedback"
-      class="feedback hidden"
-    >
-    </div>
-
-
-    <button
-      id="next"
-      class="hidden"
-      onclick="nextQ()"
-    >
-      PRÓXIMA
+    <button onclick="openPortuguese()">
+      <span>🎯</span>
+      <small>Missão</small>
     </button>
 
-  </div>
+  </nav>
 
-</section>
 
-
-
-<!-- =====================================================
-     RESULTADO
-===================================================== -->
-
-<section
-  id="result"
-  class="page"
->
-
-  <div class="card result">
-
-    <div class="circle">
-
-      <b id="resultPct">
-        0%
-      </b>
-
-      <small id="resultScore">
-        0/5
-      </small>
-
-    </div>
-
-
-    <h1 id="resultTitle">
-    </h1>
-
-
-    <p id="resultMsg">
-    </p>
-
-
-    <div
-      class="mastery"
-      id="mastery"
-    >
-    </div>
-
-
-    <button
-      id="resultAction"
-      onclick="finishResult()"
-    >
-      CONTINUAR
-    </button>
-
-  </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     CADERNO DE ERROS
-===================================================== -->
-
-<section
-  id="review"
-  class="page"
->
-
-  <button
-    class="back"
-    onclick="show('progressPage')"
-  >
-    ← Progresso
-  </button>
-
-
-  <p class="label">
-    REVISÃO
-  </p>
-
-
-  <h1>
-    Caderno de erros
-  </h1>
-
-
-  <div id="reviewList">
-  </div>
-
-
-  <button
-    class="secondary"
-    onclick="show('progressPage')"
-  >
-    VOLTAR AO PROGRESSO
-  </button>
-
-</section>
-
-
-
-<!-- =====================================================
-     PROGRESSO
-===================================================== -->
-
-<section
-  id="progressPage"
-  class="page"
->
-
-  <p class="label">
-    DESEMPENHO
-  </p>
-
-  <h1>
-    Seu progresso
-  </h1>
-
-
-  <div class="card">
-
-    <div class="row">
-
-      <b>
-        Português
-      </b>
-
-      <strong id="pPct">
-        0%
-      </strong>
-
-    </div>
-
-
-    <div class="progress">
-
-      <i id="pbar">
-      </i>
-
-    </div>
-
-  </div>
-
-
-  <div class="card">
-
-    <h2>
-      📊 Últimas tentativas
-    </h2>
-
-    <div
-      id="history"
-      class="muted"
-    >
-      Nenhuma tentativa registrada.
-    </div>
-
-  </div>
-
-
-  <div class="card">
-
-    <h2>
-      ❌ Caderno de erros
-    </h2>
-
-    <div
-      id="errorBook"
-      class="muted"
-    >
-      Nenhum erro registrado.
-    </div>
-
-
-    <button
-      class="secondary"
-      onclick="showReview()"
-    >
-      REVISAR ERROS
-    </button>
-
-  </div>
-
-
-  <div class="card">
-
-    <h2>
-      🏆 Conquistas
-    </h2>
-
-    <p>
-      ✅ Comecei minha preparação
-    </p>
-
-    <p id="aPass">
-      ⬜ Aprovado na primeira aula
-    </p>
-
-    <p id="aSecond">
-      ⬜ Desbloqueei a Aula 02
-    </p>
-
-    <p id="aThird">
-      ⬜ Desbloqueei a Aula 03
-    </p>
-
-    <p id="aReader">
-      ⬜ Concluí uma aula em modo leitura
-    </p>
-
-    <p id="aThirdPass">
-      ⬜ Aprovado na Aula 03
-    </p>
-
-    <p id="aFourth">
-      ⬜ Desbloqueei a Aula 04
-    </p>
-
-    <p id="aFourthPass">
-      ⬜ Aprovado na Aula 04
-    </p>
-
-  </div>
-
-</section>
-
-</main>
-
-
-
-<!-- =====================================================
-     MENU
-===================================================== -->
-
-<nav>
-
-  <button
-    data-page="home"
-    class="active"
-    onclick="show('home')"
-  >
-
-    ⌂
-
-    <small>
-      Início
-    </small>
-
-  </button>
-
-
-  <button
-    data-page="subjects"
-    onclick="show('subjects')"
-  >
-
-    ▤
-
-    <small>
-      Matérias
-    </small>
-
-  </button>
-
-
-  <button
-    data-page="progressPage"
-    onclick="show('progressPage')"
-  >
-
-    ↗
-
-    <small>
-      Progresso
-    </small>
-
-  </button>
-
-</nav>
-
-
-</div>
-
-
-
-<!-- =====================================================
-     CONTEÚDO DAS AULAS
-===================================================== -->
-
-<script src="lessons.js?v=3"></script>
-
-
-<!-- =====================================================
-     SISTEMA PRINCIPAL
-===================================================== -->
-
-<script src="app.js?v=10"></script>
-
+  <script src="lessons.js"></script>
+  <script src="app.js"></script>
 
 </body>
-    </html>
+</html>
