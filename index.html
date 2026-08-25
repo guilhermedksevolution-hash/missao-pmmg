@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.8.0">
+<link rel="stylesheet" href="style.css?v=5.9.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.8</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.9</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -244,7 +244,7 @@
     <article><small>XP</small><strong>0</strong><p>experiência</p></article>
     <article><small>SEQUÊNCIA</small><strong>1🔥</strong><p>dia ativo</p></article>
   </div>
-  <div class="v53-feature"><b>🏅 Conquistas</b><p>Marcos da sua jornada aparecerão aqui conforme você evoluir.</p><em>Preparação em andamento</em></div>
+  <div class="v53-feature" onclick="openAchievementsV59()"><b>🏅 Conquistas</b><p>Veja seu nível, sequência e marcos alcançados.</p><em>Abrir conquistas ›</em></div>
 </section>
 
 <section id="utilityHubV53" class="screen v53-screen">
@@ -338,6 +338,53 @@
   </div>
 </section>
 
+
+<section id="achievementsScreenV59" class="screen">
+  <div class="page-head">
+    <button onclick="openEvolutionArea()">←</button>
+    <div>
+      <span class="kicker">EVOLUÇÃO</span>
+      <h2>Níveis e conquistas</h2>
+    </div>
+  </div>
+
+  <div class="level-v59-card">
+    <div class="level-v59-top">
+      <div class="level-v59-medal">🏅</div>
+      <div class="level-v59-copy">
+        <span class="kicker">NÍVEL ATUAL</span>
+        <h3 id="levelNameV59">Recruta</h3>
+        <p id="levelSubtitleV59">Continue estudando para avançar.</p>
+      </div>
+      <strong id="levelXpV59">0 XP</strong>
+    </div>
+
+    <div class="level-v59-progress">
+      <div class="bar"><i id="levelBarV59"></i></div>
+      <div><small id="levelMinV59">0 XP</small><small id="levelMaxV59">100 XP</small></div>
+    </div>
+  </div>
+
+  <div class="streak-v59-card">
+    <div>
+      <span class="kicker">SEQUÊNCIA</span>
+      <h3><span id="streakDaysV59">1</span> dia(s) estudando 🔥</h3>
+      <p>Estude em dias consecutivos para manter sua sequência ativa.</p>
+    </div>
+    <div class="streak-v59-ring"><strong id="streakRingV59">1</strong><small>DIAS</small></div>
+  </div>
+
+  <div class="achievement-v59-head">
+    <div>
+      <span class="kicker">CONQUISTAS</span>
+      <h3>Marcos da sua jornada</h3>
+    </div>
+    <small id="achievementCountV59">0/0</small>
+  </div>
+
+  <div id="achievementListV59" class="achievement-v59-list"></div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -345,5 +392,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.8.0"></script><script src="app.js?v=5.8.0"></script>
+<script src="lessons.js?v=5.9.0"></script><script src="app.js?v=5.9.0"></script>
 </body></html>
