@@ -635,3 +635,63 @@ function renderFavoritesV55(){
 }
 function escapeHtmlV55(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
 document.addEventListener('DOMContentLoaded',renderFavoritesV55);
+
+// ============================================================
+// V5.6 — BUSCA INTELIGENTE
+// ============================================================
+const SEARCH_ITEMS_V56 = [
+  {icon:"📘",title:"Interpretação de texto",desc:"Português • Aula 01",terms:"interpretação compreensão texto português aula 1",action:()=>openLesson(1)},
+  {icon:"🧠",title:"Ideia principal e inferência",desc:"Português • Aula 02",terms:"ideia principal inferência português aula 2",action:()=>openLesson(2)},
+  {icon:"📅",title:"Plano de estudos",desc:"Organize sua meta diária e prova",terms:"plano estudos meta calendário prova",action:()=>openStudyPlan()},
+  {icon:"⭐",title:"Favoritos e anotações",desc:"Sua biblioteca de revisão",terms:"favoritos anotações biblioteca resumo",action:()=>openFavorites()},
+  {icon:"📓",title:"Caderno de erros",desc:"Revise seus pontos fracos",terms:"caderno erros revisão questões erradas",action:()=>openErrorNotebook()},
+  {icon:"📝",title:"Simulados",desc:"Treinos e provas",terms:"simulado simulados prova treino questões",action:()=>openSimulations()},
+  {icon:"⚡",title:"Revisão rápida",desc:"Treinos de 10, 20 ou 30 minutos",terms:"revisão rápida treino 10 20 30 minutos",action:()=>openQuickReview()},
+  {icon:"📊",title:"Desempenho",desc:"Acompanhe sua evolução",terms:"desempenho evolução notas progresso xp",action:()=>openPerformance()},
+  {icon:"🏅",title:"Conquistas",desc:"Nível, sequência e marcos",terms:"conquistas nível sequência marcos xp",action:()=>openAchievements()}
+];
+
+function normalizeSearchV56(value){
+  return String(value||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
+}
+function openSearch(){
+  showScreen("searchScreen","navStudy");
+  setTimeout(()=>{const el=document.getElementById("globalSearchV56"); if(el) el.focus();},120);
+}
+function runSearchV56(value){
+  const q=normalizeSearchV56(value);
+  const box=document.getElementById("searchResultsV56");
+  const count=document.getElementById("searchCountV56");
+  if(!box||!count) return;
+  if(!q){
+    count.textContent="Digite para pesquisar";
+    box.innerHTML='<div class="empty-state"><b>🔎 Busca rápida</b><br>Comece digitando um assunto ou escolha um atalho acima.</div>';
+    return;
+  }
+  const words=q.split(/\s+/).filter(Boolean);
+  const found=SEARCH_ITEMS_V56.filter(item=>{
+    const hay=normalizeSearchV56(item.title+" "+item.desc+" "+item.terms);
+    return words.every(w=>hay.includes(w));
+  });
+  count.textContent=found.length+(found.length===1?" resultado":" resultados");
+  if(!found.length){
+    box.innerHTML='<div class="empty-state"><b>Nada encontrado</b><br>Tente outra palavra, como “erros”, “aula” ou “simulado”.</div>';
+    return;
+  }
+  box.innerHTML="";
+  found.forEach(item=>{
+    const btn=document.createElement("button");
+    btn.className="search-v56-item";
+    btn.innerHTML='<span class="search-v56-icon">'+item.icon+'</span><span class="search-v56-copy"><b>'+item.title+'</b><span>'+item.desc+'</span></span><span class="search-v56-arrow">›</span>';
+    btn.onclick=item.action;
+    box.appendChild(btn);
+  });
+}
+function setSearchV56(value){
+  const el=document.getElementById("globalSearchV56");
+  if(el){el.value=value;runSearchV56(value);}
+}
+function clearSearchV56(){
+  const el=document.getElementById("globalSearchV56");
+  if(el){el.value="";runSearchV56("");el.focus();}
+}
