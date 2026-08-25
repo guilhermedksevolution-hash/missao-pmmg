@@ -2179,3 +2179,194 @@ window.renderPreparationIndexV60=function(){
  const p=[["Conteúdo concluído",m.content],["Desempenho nas aulas",m.performance],["Simulados",m.simulations],["Controle de erros",m.errorControl],["Revisão ativa",m.activeReview]];
  const b=document.getElementById("prepBreakdownV60");if(b)b.innerHTML=p.map(([n,x])=>`<article class="v60-progress-item"><header><strong>${n}</strong><span>${x}%</span></header><div class="bar"><i style="width:${x}%"></i></div></article>`).join("")
 };
+
+/* ==========================================================
+   V6.1.7 — SESSÃO DE REVISÃO INTELIGENTE AUTOMÁTICA
+   ========================================================== */
+let smartSessionV617 = {
+  queue: [],
+  current: 0,
+  correct: 0,
+  attempts: 0,
+  initial: 0,
+  currentError: null
+};
+
+function getPendingErrorsV617(){
+  return (typeof getErrorsV60 === "function" ? getErrorsV60() : []).slice();
+}
+
+window.startSmartReviewSessionV617 = function(){
+  const pending = getPendingErrorsV617();
+
+  if(!pending.length){
+    alert("🎯 Seu Caderno de Erros está em dia. Não há pendências para revisar.");
+    return;
+  }
+
+  smartSessionV617 = {
+    queue: pending,
+    current: 0,
+    correct: 0,
+    attempts: 0,
+    initial: pending.length,
+    currentError: null
+  };
+
+  if(typeof logStudyEventV60 === "function"){
+    logStudyEventV60("review","Revisão inteligente iniciada",`${pending.length} questão(ões) pendentes`);
+  }
+
+  showScreen("smartReviewSessionV617","navReview");
+  renderSmartSessionQuestionV617();
+  window.scrollTo(0,0);
+};
+
+function getQuestionForErrorV617(err){
+  try{
+    const lesson = getLessonData(Number(err.lessonNumber));
+    return lesson?.quiz?.[Number(err.questionIndex)] || null;
+  }catch(e){
+    return null;
+  }
+}
+
+function renderSmartSessionQuestionV617(){
+  const pendingNow = getPendingErrorsV617();
+
+  if(!pendingNow.length || smartSessionV617.current >= smartSessionV617.queue.length){
+    finishSmartReviewSessionV617();
+    return;
+  }
+
+  // Pula erros já resolvidos durante a própria sessão.
+  let err = smartSessionV617.queue[smartSessionV617.current];
+  while(err && !pendingNow.some(x=>x.id===err.id)){
+    smartSessionV617.current++;
+    err = smartSessionV617.queue[smartSessionV617.current];
+  }
+
+  if(!err){
+    finishSmartReviewSessionV617();
+    return;
+  }
+
+  const q = getQuestionForErrorV617(err);
+  if(!q){
+    smartSessionV617.current++;
+    renderSmartSessionQuestionV617();
+    return;
+  }
+
+  smartSessionV617.currentError = {err,q};
+
+  const position = smartSessionV617.current + 1;
+  const total = smartSessionV617.initial;
+  const progress = total ? Math.round((smartSessionV617.correct / total) * 100) : 0;
+
+  document.getElementById("v617SessionPosition").textContent = `${Math.min(position,total)}/${total}`;
+  document.getElementById("v617SessionBar").style.width = `${progress}%`;
+  document.getElementById("v617CorrectCount").textContent = `${smartSessionV617.correct} corrigido(s)`;
+  document.getElementById("v617PendingCount").textContent = `${pendingNow.length} pendente(s)`;
+
+  document.getElementById("v617SessionBody").innerHTML = `
+    <article class="v617-session-question">
+      <div class="question-number">AULA ${String(err.lessonNumber).padStart(2,"0")} • QUESTÃO ${Number(err.questionIndex)+1}</div>
+      <h3>${q.question}</h3>
+      <div class="answers">
+        ${q.options.map((o,i)=>`
+          <label class="answer-option">
+            <input type="radio" name="v617-answer" value="${i}">
+            <span>${o}</span>
+          </label>`).join("")}
+      </div>
+      <button class="primary full" onclick="submitSmartSessionAnswerV617()">Conferir resposta</button>
+      <div id="v617Feedback"></div>
+    </article>`;
+};
+
+window.submitSmartSessionAnswerV617 = function(){
+  const selected = document.querySelector('input[name="v617-answer"]:checked');
+  if(!selected){
+    alert("Marque uma alternativa antes de conferir.");
+    return;
+  }
+
+  const item = smartSessionV617.currentError;
+  if(!item) return;
+
+  const {err,q} = item;
+  const answer = Number(selected.value);
+  const ok = answer === q.answer;
+  smartSessionV617.attempts++;
+
+  const feedback = document.getElementById("v617Feedback");
+
+  if(ok){
+    // Usa a mesma lógica já aprovada na V6.1.6.
+    removeError(Number(err.lessonNumber),Number(err.questionIndex));
+    const reviewed = typeof getReviewedErrorsV616 === "function" ? getReviewedErrorsV616() : [];
+    if(typeof setReviewedErrorsV616 === "function"){
+      setReviewedErrorsV616([...reviewed,err.id]);
+    }
+
+    smartSessionV617.correct++;
+
+    if(typeof logStudyEventV60 === "function"){
+      logStudyEventV60("review","Erro revisado",`Aula ${String(err.lessonNumber).padStart(2,"0")} • questão corrigida`);
+    }
+
+    feedback.innerHTML = `
+      <div class="v617-session-feedback ok">
+        <b>✅ Correto!</b>
+        <p>Esta pendência foi resolvida.</p>
+        <button class="primary full" onclick="nextSmartSessionQuestionV617()">Próxima questão</button>
+      </div>`;
+
+    if(typeof updateDashboard === "function") updateDashboard();
+  }else{
+    feedback.innerHTML = `
+      <div class="v617-session-feedback no">
+        <b>❌ Ainda não.</b>
+        <p><strong>Explicação:</strong> ${q.explanation || err.explanation || "Revise o conteúdo e tente novamente."}</p>
+        <p><strong>💡 Dica:</strong> ${q.tip || err.tip || "Compare cada alternativa com o conteúdo estudado."}</p>
+        <p>Tente novamente antes de avançar.</p>
+      </div>`;
+  }
+};
+
+window.nextSmartSessionQuestionV617 = function(){
+  smartSessionV617.current++;
+  renderSmartSessionQuestionV617();
+  window.scrollTo(0,0);
+};
+
+function finishSmartReviewSessionV617(){
+  const total = smartSessionV617.initial;
+  const attempts = smartSessionV617.attempts;
+  const correct = smartSessionV617.correct;
+  const rate = attempts ? Math.round(correct/attempts*100) : 100;
+
+  document.getElementById("v617DoneCorrect").textContent = correct;
+  document.getElementById("v617DoneAttempts").textContent = attempts;
+  document.getElementById("v617DoneRate").textContent = `${rate}%`;
+  document.getElementById("v617DoneText").textContent =
+    `Você corrigiu ${correct} de ${total} pendência(s) desta sessão.`;
+
+  localStorage.setItem("pmmg_review_completed_v617", new Date().toISOString());
+
+  if(typeof logStudyEventV60 === "function"){
+    logStudyEventV60("review","Revisão inteligente concluída",`${correct}/${total} erros corrigidos • ${rate}% de precisão`);
+  }
+
+  showScreen("smartReviewDoneV617","navReview");
+  if(typeof renderPreparationIndexV60 === "function") renderPreparationIndexV60();
+  window.scrollTo(0,0);
+}
+
+window.exitSmartReviewSessionV617 = function(){
+  if(smartSessionV617.correct > 0 || smartSessionV617.attempts > 0){
+    if(!confirm("Sair da sessão? As questões já corrigidas continuarão salvas como resolvidas.")) return;
+  }
+  openErrorsProV60();
+};
