@@ -2850,3 +2850,96 @@ window.reviewSimulationV510=function(){
   const summary=document.getElementById("simCorrectionSummaryV623");
   if(summary) summary.scrollIntoView({behavior:"smooth",block:"start"});
 };
+
+/* ==========================================================
+   V6.2.4 — SIMULADOS ALIMENTAM EVOLUÇÃO
+   ========================================================== */
+const SIM_STATS_V624="pmmg_sim_stats_v624";
+function getSimStatsV624(){
+  try{return JSON.parse(localStorage.getItem(SIM_STATS_V624))||{attempts:0,questions:0,correct:0,wrong:0,best:0,last:0,totalSeconds:0};}
+  catch(e){return {attempts:0,questions:0,correct:0,wrong:0,best:0,last:0,totalSeconds:0};}
+}
+function saveSimStatsV624(s){localStorage.setItem(SIM_STATS_V624,JSON.stringify(s));}
+
+function registerSimulationEvolutionV624(){
+  if(!simLastResultV510) return;
+  const r=simLastResultV510;
+  const key=`${r.finishedAt||""}|${r.score}|${r.correct}|${r.total}`;
+  if(localStorage.getItem("pmmg_last_registered_sim_v624")===key) return;
+
+  const s=getSimStatsV624();
+  s.attempts++;
+  s.questions+=Number(r.total||0);
+  s.correct+=Number(r.correct||0);
+  s.wrong+=Math.max(0,Number(r.total||0)-Number(r.correct||0));
+  s.last=Number(r.score||0);
+  s.best=Math.max(Number(s.best||0),Number(r.score||0));
+  s.totalSeconds+=Number(r.usedSeconds||0);
+  saveSimStatsV624(s);
+  localStorage.setItem("pmmg_last_registered_sim_v624",key);
+
+  try{
+    if(typeof addHistoryV614==="function"){
+      addHistoryV614("🎯","Simulado realizado",
+        `${r.correct}/${r.total} acertos • ${r.score}% • ${formatTimeV510(r.usedSeconds||0)}`,
+        "simulado");
+    }
+  }catch(e){console.warn("Histórico simulado:",e);}
+}
+
+function getSimulationComponentV624(){
+  const s=getSimStatsV624();
+  if(!s.attempts) return 0;
+  // Média entre última nota e melhor nota, limitada a 100.
+  return Math.max(0,Math.min(100,Math.round((s.last+s.best)/2)));
+}
+
+// Intercepta a tela de resultado: registra apenas quando um simulado terminou.
+const originalRenderSimulationResultV624=window.renderSimulationResultV510;
+window.renderSimulationResultV510=function(){
+  if(typeof originalRenderSimulationResultV624==="function"){
+    originalRenderSimulationResultV624.apply(this,arguments);
+  }
+  registerSimulationEvolutionV624();
+};
+
+// Reforço para páginas que chamam a função por referência lexical.
+document.addEventListener("click",()=>{
+  setTimeout(()=>{
+    const result=document.getElementById("simulationResultScreenV510");
+    if(result && result.classList.contains("active") && simLastResultV510){
+      registerSimulationEvolutionV624();
+    }
+  },80);
+},true);
+
+// Integração visual com telas de evolução existentes, sem quebrar versões anteriores.
+function injectSimulationEvolutionV624(){
+  const s=getSimStatsV624();
+  document.querySelectorAll("article").forEach(card=>{
+    const txt=(card.textContent||"").trim();
+    if(txt.includes("Simulados") && (txt.includes("realizados") || txt.includes("0%"))){
+      const strong=card.querySelector("strong");
+      if(strong && s.attempts) strong.textContent=String(s.attempts);
+    }
+  });
+
+  // Índice de preparo: atualiza especificamente a linha "Simulados".
+  document.querySelectorAll(".readiness-row,.performance-row,article,div").forEach(el=>{
+    const text=(el.textContent||"").trim();
+    if(!text.startsWith("Simulados")) return;
+    const pct=getSimulationComponentV624();
+    const candidates=el.querySelectorAll("strong,b");
+    candidates.forEach(n=>{
+      if(/^\d+%$/.test((n.textContent||"").trim())) n.textContent=pct+"%";
+    });
+    const fill=el.querySelector(".bar i,.progress-fill,.readiness-fill");
+    if(fill) fill.style.width=pct+"%";
+  });
+}
+
+const obsV624=new MutationObserver(()=>injectSimulationEvolutionV624());
+document.addEventListener("DOMContentLoaded",()=>{
+  injectSimulationEvolutionV624();
+  obsV624.observe(document.body,{childList:true,subtree:true});
+});
