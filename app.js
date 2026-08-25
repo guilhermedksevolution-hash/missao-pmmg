@@ -2157,6 +2157,9 @@ window.submitSmartErrorReviewV616=function(){
 
 window.renderErrorsProV60=function(filter="todos"){
  const all=getErrorsV60(),rev=getReviewedErrorsV616(),box=document.getElementById("errorsProListV60"),stats=document.getElementById("errorsProStatsV60");if(!box||!stats)return;
+ const smartLabel=document.getElementById("smartReviewPendingV619"),smartBtn=document.getElementById("startSmartReviewBtnV619");
+ if(smartLabel)smartLabel.textContent=all.length?`${all.length} erro${all.length===1?"":"s"} pendente${all.length===1?"":"s"} • toque para começar`:"Nenhum erro pendente • revisão em dia";
+ if(smartBtn){smartBtn.disabled=!all.length;smartBtn.classList.toggle("is-empty",!all.length);}
  stats.innerHTML=`<article><strong>${all.length}</strong><small>Pendentes</small></article><article><strong>${rev.length}</strong><small>Resolvidos</small></article><article><strong>${all.length+rev.length}</strong><small>Trabalhados</small></article>`;
  if(filter==="revisados"){box.innerHTML=rev.length?`<div class="empty-state"><strong>✅ ${rev.length} questão(ões) resolvida(s)</strong><br>As corrigidas saem das pendências.</div>`:'<div class="empty-state">Nenhuma revisão concluída ainda.</div>';return}
  let list=all;if(filter==="1"||filter==="2")list=all.filter(e=>String(e.lessonNumber)===filter);
