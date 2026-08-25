@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.9.2">
+<link rel="stylesheet" href="style.css?v=5.10.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.9.2</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.10</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -129,7 +129,7 @@
 <section id="trainingScreen" class="screen">
  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">TREINAMENTO</span><h2>Treinar</h2></div></div>
  <div class="hub-list">
-  <article onclick="openSimulations()"><b>📝 Simulados</b><span>Por matéria, misto e completo.</span></article>
+  <article onclick="openSimulatorHubV510()"><b>📝 Simulados</b><span>Por matéria, misto e completo.</span></article>
   <article onclick="openQuickReview()"><b>⚡ Revisão rápida</b><span>Treinos de 10, 20 ou 30 minutos.</span></article>
   <article onclick="openErrorNotebook()"><b>📓 Refazer erros</b><span>Treine seus pontos fracos.</span></article>
   <article onclick="openFavorites()"><b>⭐ Favoritos</b><span>Conteúdos salvos para revisar.</span></article>
@@ -219,7 +219,7 @@
   <div class="v53-feature"><b>🎯 Treino recomendado</b><p>Comece pela Aula 01 e fortaleça interpretação de texto.</p><em>Preparar treino ›</em></div>
   <div class="v53-grid">
     <article onclick="openQuickTrainingV53()"><b>⚡ Treino rápido</b><p>5 questões para aquecer.</p></article>
-    <article onclick="openSimulationV53()"><b>📝 Simulado</b><p>Modo prova com resultado.</p></article>
+    <article onclick="openSimulatorHubV510()"><b>📝 Simulado</b><p>Modo prova com resultado.</p></article>
     <article onclick="openReviewArea()"><b>🔁 Revisão</b><p>Refaça pontos fracos.</p></article>
     <article onclick="openTipsV53()"><b>🧠 Estratégias</b><p>Técnicas para questões.</p></article>
   </div>
@@ -385,6 +385,111 @@
   <div id="achievementListV59" class="achievement-v59-list"></div>
 </section>
 
+
+<section id="simulatorHubV510" class="screen">
+  <div class="page-head">
+    <button onclick="goBackSmart()">←</button>
+    <div>
+      <span class="kicker">TREINAMENTO</span>
+      <h2>Simulados</h2>
+    </div>
+  </div>
+
+  <div class="sim510-hero">
+    <div class="sim510-icon">📝</div>
+    <div>
+      <span class="kicker">MODO PROVA</span>
+      <h3>Treine com tempo e resultado.</h3>
+      <p>Escolha um formato e faça um simulado usando as questões já disponíveis nas aulas.</p>
+    </div>
+  </div>
+
+  <div class="sim510-options">
+    <button onclick="startSimulationV510('portugues')">
+      <span>📘</span>
+      <strong>Português</strong>
+      <small>10 questões • 15 min</small>
+    </button>
+
+    <button onclick="startSimulationV510('misto')">
+      <span>🧩</span>
+      <strong>Misto</strong>
+      <small>10 questões • 15 min</small>
+    </button>
+
+    <button class="disabled-v510" onclick="showFutureSimulationV510()">
+      <span>🎯</span>
+      <strong>Completo PMMG</strong>
+      <small>Será liberado quando houver mais matérias</small>
+    </button>
+  </div>
+
+  <div class="sim510-history-head">
+    <div>
+      <span class="kicker">HISTÓRICO</span>
+      <h3>Últimos resultados</h3>
+    </div>
+    <small id="simHistoryCountV510">0 simulados</small>
+  </div>
+  <div id="simHistoryV510" class="sim510-history"></div>
+</section>
+
+<section id="simulationScreenV510" class="screen">
+  <div class="page-head">
+    <button onclick="confirmExitSimulationV510()">←</button>
+    <div>
+      <span class="kicker">SIMULADO</span>
+      <h2 id="simTitleV510">Português</h2>
+    </div>
+  </div>
+
+  <div class="sim510-topbar">
+    <div><span>⏱️ Tempo</span><strong id="simClockV510">15:00</strong></div>
+    <div><span>📝 Questões</span><strong id="simProgressV510">1/10</strong></div>
+  </div>
+
+  <div id="simQuestionCardV510" class="sim510-question"></div>
+
+  <div class="sim510-nav">
+    <button id="simPrevV510" class="secondary-btn" onclick="prevSimulationQuestionV510()">Anterior</button>
+    <button id="simNextV510" class="primary" onclick="nextSimulationQuestionV510()">Próxima</button>
+  </div>
+
+  <button id="simFinishV510" class="primary full sim510-finish hidden" onclick="finishSimulationV510()">
+    Finalizar simulado
+  </button>
+</section>
+
+<section id="simulationResultV510" class="screen">
+  <div class="page-head">
+    <button onclick="openSimulatorHubV510()">←</button>
+    <div>
+      <span class="kicker">RESULTADO</span>
+      <h2>Seu simulado</h2>
+    </div>
+  </div>
+
+  <div class="sim510-result-card">
+    <div id="simResultIconV510" class="sim510-result-icon">🎯</div>
+    <span class="kicker">DESEMPENHO</span>
+    <strong id="simResultScoreV510">0%</strong>
+    <p id="simResultTextV510"></p>
+
+    <div class="sim510-result-stats">
+      <article><b id="simCorrectV510">0</b><small>Acertos</small></article>
+      <article><b id="simWrongV510">0</b><small>Erros</small></article>
+      <article><b id="simTimeUsedV510">0:00</b><small>Tempo usado</small></article>
+    </div>
+  </div>
+
+  <div class="sim510-result-actions">
+    <button class="primary full" onclick="reviewSimulationV510()">Ver correção</button>
+    <button class="secondary-btn" onclick="openSimulatorHubV510()">Voltar aos simulados</button>
+  </div>
+
+  <div id="simCorrectionV510" class="sim510-correction hidden"></div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -392,5 +497,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.9.2"></script><script src="app.js?v=5.9.2"></script>
+<script src="lessons.js?v=5.10.0"></script><script src="app.js?v=5.10.0"></script>
 </body></html>
