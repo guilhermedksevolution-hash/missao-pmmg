@@ -512,3 +512,41 @@ document.addEventListener("DOMContentLoaded",()=>{
   if(!localStorage.getItem("pmmg_streak")) localStorage.setItem("pmmg_streak","1");
   renderV51();
 });
+
+/* =========================================================
+   V5.2 - ROTAS PRINCIPAIS DEFINITIVAS
+   ========================================================= */
+function setMainNavActive(id){
+  document.querySelectorAll(".bottom-nav button").forEach(b=>b.classList.remove("active"));
+  const el=document.getElementById(id);
+  if(el) el.classList.add("active");
+}
+function openStudyArea(){
+  openSubjects();
+  setMainNavActive("navStudy");
+}
+function openTrainingArea(){
+  showScreen("trainingScreen");
+  setMainNavActive("navTrain");
+}
+function openReviewArea(){
+  openErrorNotebook();
+  setMainNavActive("navReview");
+}
+function openEvolutionArea(){
+  openPerformance();
+  setMainNavActive("navEvolution");
+}
+
+const _v52GoHome = typeof goHome==="function" ? goHome : null;
+if(_v52GoHome){
+  goHome=function(){
+    const result=_v52GoHome();
+    setMainNavActive("navHome");
+    return result;
+  };
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+  setMainNavActive("navHome");
+});
