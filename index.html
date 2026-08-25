@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.3.5</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.3.6</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -308,7 +308,7 @@
     <article onclick="openAdvancedStats629()"><b>📊 Estatísticas avançadas</b><p>Taxa de acerto, volume e tendência recente.</p></article><article onclick="openSmartPlan632()"><b>🎯 Plano inteligente</b><p>Receba sua missão de estudo com base nos seus pontos fracos.</p></article><article onclick="openWeakPoints631()"><b>🧠 Pontos fracos</b><p>Descubra o que priorizar nos próximos estudos.</p></article><article onclick="openSimHistory627()"><b>📈 Histórico de simulados</b><p>Notas, média e evolução prova após prova.</p></article>
     <article onclick="openStudyHistoryV60()"><b>🕘 Atividade de estudos</b><p>Aulas, revisões e ações registradas.</p></article>
     <article onclick="openPreparationIndexV60()"><b>🧭 Índice de preparo</b><p>Entenda seu nível atual.</p></article>
-    <article class="progress-center-card635" onclick="openProgressCenter635()"><b>🧭 Central de progresso</b><p>Preparo, prioridade, simulados e revisão em um só lugar.</p></article>
+    <article class="progress-center-card635" onclick="openProgressCenter635()"><b>🧭 Central de progresso</b><p>Preparo, prioridade, simulados e revisão em um só lugar.</p></article><article class="study-goals-card636" onclick="openStudyGoals636()"><b>🎯 Metas de estudo</b><p>Defina metas diárias e acompanhe seu avanço.</p></article>
   </div>
   <div class="v53-feature" onclick="openAchievementsV59()"><b>🏅 Conquistas</b><p>Veja seu nível, sequência e marcos alcançados.</p><em>Abrir conquistas ›</em></div>
 </section>
@@ -327,6 +327,7 @@
   <div class="pc635-actions"><button onclick="openWeakPoints631()">🧠 Pontos fracos</button><button onclick="openAdvancedStats629()">📊 Estatísticas</button><button onclick="openSimHistory627()">📈 Simulados</button><button onclick="openPreparationIndexV60()">🧭 Índice detalhado</button></div>
 </section>
 
+<section id="studyGoals636" class="screen"><div class="page-head"><button class="back-btn" onclick="showScreen('evolutionHubV53','navEvolution')">←</button><div><span class="kicker">PLANEJAMENTO</span><h2>Metas de estudo</h2><p>Objetivos claros para cada dia.</p></div></div><div class="goals636-hero"><span class="kicker">MISSÃO DE HOJE</span><h3 id="g636Status">Configure suas metas</h3><p id="g636Summary">Escolha quanto quer avançar.</p><div class="goals636-mainbar"><i id="g636MainBar"></i></div><strong id="g636Overall">0%</strong></div><div class="goals636-grid"><article><span>📝 QUESTÕES</span><strong id="g636QNow">0 / 20</strong><div><i id="g636QBar"></i></div></article><article><span>🧠 REVISÃO</span><strong id="g636RNow">0 / 1</strong><div><i id="g636RBar"></i></div></article><article><span>📚 AULAS</span><strong id="g636LNow">0 / 1</strong><div><i id="g636LBar"></i></div></article></div><div class="goals636-config"><span class="kicker">SUAS METAS DIÁRIAS</span><h3>Definir objetivo</h3><label>Questões por dia<input id="g636Questions" type="number" min="1" max="500" value="20"></label><label>Sessões de revisão por dia<input id="g636Reviews" type="number" min="1" max="20" value="1"></label><label>Aulas por dia<input id="g636Lessons" type="number" min="1" max="10" value="1"></label><button onclick="saveStudyGoals636()">🎯 Salvar minhas metas</button></div><div class="goals636-tip"><b>💡 Como funciona</b><p>As metas ficam salvas neste aparelho e usam os registros do Missão PMMG.</p></div></section>
 <section id="utilityHubV53" class="screen v53-screen">
   <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>FERRAMENTA</span><h2 id="utilityTitleV53">Em construção</h2><p id="utilityTextV53">Estrutura preparada para a próxima etapa.</p></div></div>
   <div class="v53-feature"><b>🚧 Módulo preparado</b><p>Esta área já está conectada à navegação e receberá a função completa nas próximas versões.</p><em>MISSÃO PMMG V5.5</em></div>
@@ -801,5 +802,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.2.5"></script><script src="app.js?v=6.3.5"></script>
+<script src="lessons.js?v=6.2.5"></script><script src="app.js?v=6.3.6"></script>
 </body></html>
