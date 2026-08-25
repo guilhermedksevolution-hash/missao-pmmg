@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.3.4">
+<link rel="stylesheet" href="style.css?v=6.3.5">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.3.4</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.3.5</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -236,6 +236,7 @@
   <div class="v53-feature" onclick="openSubjects()"><b>📘 Matérias e aulas</b><p>Continue sua trilha de Língua Portuguesa.</p><em>0 de 2 aulas concluídas ›</em></div>
   <div class="v60-section-label"><span class="kicker">ORGANIZAÇÃO</span><h3>Planejamento</h3></div>
   <div class="v60-grid">
+    <article class="progress-center-card635" onclick="openProgressCenter635()"><b>🧭 Central de progresso</b><p>Veja preparo, prioridade, simulados e revisão em um só lugar.</p></article>
     <article onclick="openCalendarV60()"><b>📅 Calendário</b><p>Visualize estudo e revisões.</p></article>
     <article onclick="openWeeklyGoalsV60()"><b>🎯 Metas semanais</b><p>Defina aulas, questões e revisão.</p></article>
     <article onclick="openNotificationsV60()"><b>🔔 Lembretes</b><p>Crie avisos internos.</p></article>
@@ -310,6 +311,20 @@
     <article onclick="openPreparationIndexV60()"><b>🧭 Índice de preparo</b><p>Entenda seu nível atual.</p></article>
   </div>
   <div class="v53-feature" onclick="openAchievementsV59()"><b>🏅 Conquistas</b><p>Veja seu nível, sequência e marcos alcançados.</p><em>Abrir conquistas ›</em></div>
+</section>
+
+
+<section id="progressCenter635" class="screen">
+  <div class="page-head"><button class="back-btn" onclick="showScreen('evolutionHubV53','navEvolution')">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Central de progresso</h2><p>Seu diagnóstico e sua próxima missão em uma única tela.</p></div></div>
+  <div class="pc635-hero"><div class="pc635-ring"><strong id="pc635Index">0</strong><small>/100</small></div><div><span class="kicker">ÍNDICE DE PREPARO</span><h3 id="pc635Level">Em treinamento</h3><p id="pc635Message">Continue avançando.</p></div></div>
+  <div class="pc635-grid">
+    <article><small>PROGRESSO</small><strong id="pc635Content">0%</strong><p id="pc635Lessons">0 de 0 aulas</p></article>
+    <article><small>MÉDIA RECENTE</small><strong id="pc635Recent">0%</strong><p>últimos simulados</p></article>
+    <article><small>PARA REVISAR</small><strong id="pc635Errors">0</strong><p>erros pendentes</p></article>
+    <article><small>SIMULADOS</small><strong id="pc635Sims">0</strong><p>registrados</p></article>
+  </div>
+  <div class="pc635-priority"><span class="kicker">PRIORIDADE AGORA</span><h3 id="pc635Priority">Continue estudando</h3><p id="pc635PriorityText">O sistema vai indicar seu ponto mais importante.</p><button onclick="openSmartPlan632()">🎯 Abrir plano inteligente</button></div>
+  <div class="pc635-actions"><button onclick="openWeakPoints631()">🧠 Pontos fracos</button><button onclick="openAdvancedStats629()">📊 Estatísticas</button><button onclick="openSimHistory627()">📈 Simulados</button><button onclick="openPreparationIndexV60()">🧭 Índice detalhado</button></div>
 </section>
 
 <section id="utilityHubV53" class="screen v53-screen">
@@ -786,5 +801,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.2.5"></script><script src="app.js?v=6.3.4"></script>
+<script src="lessons.js?v=6.2.5"></script><script src="app.js?v=6.3.5"></script>
 </body></html>
