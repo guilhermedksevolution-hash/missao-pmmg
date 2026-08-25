@@ -3098,3 +3098,14 @@ window.openPreparationIndexV60=function(){
   renderPreparationIndexV60();
   window.scrollTo(0,0);
 };
+
+/* V6.2.7 Histórico de Simulados */
+function simHist627(){try{return JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]")}catch(e){return[]}}
+function simNorm627(x){let t=Number(x.total||x.questions||x.questionCount||0),c=Number(x.correct||x.hits||0);return{score:Number(x.score??(t?Math.round(c/t*100):0)),total:t,correct:c,errors:Number(x.errors??(t-c)),date:x.date||x.createdAt||x.finishedAt||"",sec:Number(x.elapsedSeconds||x.timeUsed||x.seconds||0)}}
+function simDate627(v){if(!v)return"Data não registrada";let d=new Date(v);return isNaN(d)?String(v).slice(0,10):d.toLocaleDateString("pt-BR")}
+function simTime627(s){return Math.floor(s/60)+":"+String(Math.floor(s%60)).padStart(2,"0")}
+function renderSimHistory627(){let d=simHist627().map(simNorm627),r=d.slice(0,5),q=id=>document.getElementById(id);q("hBest").textContent=(d.length?Math.max(...d.map(x=>x.score)):0)+"%";q("hAvg").textContent=(r.length?Math.round(r.reduce((s,x)=>s+x.score,0)/r.length):0)+"%";q("hCount").textContent=d.length;q("hChart").innerHTML=r.length?[...r].reverse().map((x,i)=>`<div class="hb"><b>${x.score}%</b><div><i style="height:${Math.max(4,x.score)}%"></i></div><small>${i+1}</small></div>`).join(""):`<p>Nenhum simulado ainda.</p>`;q("hList").innerHTML=d.length?d.map((x,i)=>`<article class="hi"><strong>${x.score}%</strong><div><b>Simulado ${d.length-i}</b><span>${x.total||"—"} questões • ${x.correct} acertos • ${x.errors} erros</span><small>${simDate627(x.date)}${x.sec?" • "+simTime627(x.sec):""}</small></div></article>`).join(""):`<article class="hi">Faça seu primeiro simulado para criar o histórico.</article>`}
+function openSimHistory627(){showScreen("simHistory627","navEvolution");renderSimHistory627();scrollTo(0,0)}
+window.openSimHistory627=openSimHistory627;
+function wireHist627(){document.querySelectorAll("article,button,.card,.menu-card").forEach(e=>{let t=(e.textContent||"").trim().toLowerCase();if((t.startsWith("histórico")||t.includes("histórico de simulados"))&&!e.closest("#simHistory627")){e.style.cursor="pointer";e.onclick=openSimHistory627}})}
+document.readyState==="loading"?document.addEventListener("DOMContentLoaded",wireHist627):wireHist627();
