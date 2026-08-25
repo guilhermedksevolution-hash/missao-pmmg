@@ -766,3 +766,9 @@
 .sim621-start{width:100%;margin-top:7px}
 .sim621-note{display:block;margin-top:10px;font-size:7px;line-height:1.45;color:var(--muted)}
 .sim621-history-item span{line-height:1.5}
+
+/* V6.2.2 — feedback de toque nos botões de simulado */
+#sim622StartPortuguese:active,
+#sim622StartMixed:active{
+  transform:scale(.985);
+}
