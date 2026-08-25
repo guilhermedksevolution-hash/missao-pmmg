@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.9.0">
+<link rel="stylesheet" href="style.css?v=5.9.1">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.9</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.9.1</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -51,7 +51,7 @@
 </section>
 
 <section id="subjectsScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">PLANO DE ESTUDOS</span><h2>Matérias</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">PLANO DE ESTUDOS</span><h2>Matérias</h2></div></div>
  <p class="page-intro">Sua preparação organizada por disciplina.</p>
  <div class="subject-list">
   <article onclick="openPortuguese()"><em>📘</em><div><span class="kicker">PORTUGUÊS</span><h3>Língua Portuguesa</h3><p>Interpretação, compreensão e fundamentos.</p><div class="bar"><i id="portugueseProgressBar2"></i></div></div><b>›</b></article>
@@ -60,20 +60,20 @@
 </section>
 
 <section id="lessonsScreen" class="screen">
- <div class="page-head"><button onclick="openSubjects()">←</button><div><span class="kicker">PORTUGUÊS</span><h2>Trilha de aulas</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">PORTUGUÊS</span><h2>Trilha de aulas</h2></div></div>
  <div class="rule"><b>🎯 Meta de aprovação</b><span>70% libera a próxima etapa.</span></div>
  <div id="lessonList" class="lesson-list"></div>
 </section>
 
 <section id="lessonScreen" class="screen">
- <div class="page-head"><button onclick="openPortuguese()">←</button><div><span id="lessonSubtitle" class="kicker"></span><h2 id="lessonTitle"></h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span id="lessonSubtitle" class="kicker"></span><h2 id="lessonTitle"></h2></div></div>
  <div class="lesson-meta"><div>⏱️<strong id="lessonTime"></strong><small>Tempo</small></div><div>🎯<strong>70%</strong><small>Meta</small></div><div>⭐<strong>100 XP</strong><small>Aprovação</small></div></div>
  <article id="lessonContent" class="reader"></article>
  <button class="primary full" onclick="startQuiz()">Fazer prova da aula</button>
 </section>
 
 <section id="quizScreen" class="screen">
- <div class="page-head"><button onclick="backToCurrentLesson()">←</button><div><span class="kicker">AVALIAÇÃO</span><h2 id="quizTitle">Prova</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">AVALIAÇÃO</span><h2 id="quizTitle">Prova</h2></div></div>
  <div class="rule"><b>📝 Correção comentada</b><span>Veja explicação e dica ao finalizar.</span></div>
  <form id="quizForm" class="quiz-form"></form>
  <button class="primary full" type="button" onclick="submitQuiz()">Finalizar prova</button>
@@ -81,17 +81,17 @@
 
 <section id="resultScreen" class="screen"><div class="result-card"><div id="resultIcon" class="result-icon">🎯</div><span class="kicker">RESULTADO</span><h2 id="resultTitle">Resultado</h2><div id="resultScore" class="result-score">0%</div><p id="resultMessage"></p><div id="resultStats" class="result-stats"></div><div id="resultButtons" class="stack"></div></div></section>
 
-<section id="correctionScreen" class="screen"><div class="page-head"><button onclick="showLastResult()">←</button><div><span class="kicker">CORREÇÃO</span><h2>Questão por questão</h2></div></div><div id="correctionSummary" class="correction-summary"></div><div id="correctionList" class="correction-list"></div></section>
+<section id="correctionScreen" class="screen"><div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">CORREÇÃO</span><h2>Questão por questão</h2></div></div><div id="correctionSummary" class="correction-summary"></div><div id="correctionList" class="correction-list"></div></section>
 
 <section id="errorsScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">REVISÃO INTELIGENTE</span><h2>Caderno de Erros</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO INTELIGENTE</span><h2>Caderno de Erros</h2></div></div>
  <div class="rule"><b>📓 Revisão automática</b><span>Seus erros ficam salvos para revisão.</span></div>
  <div class="filter-row"><button class="active">Todos</button><button>Português</button><span id="errorNotebookCounter">0 questões</span><button onclick="clearErrorNotebook()">Limpar</button></div>
  <div id="errorNotebookList" class="error-list"></div>
 </section>
 
 <section id="tipsScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">ESTRATÉGIA</span><h2>Dicas de prova</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ESTRATÉGIA</span><h2>Dicas de prova</h2></div></div>
  <div class="tips-list">
  <article><b>01</b><div><strong>Responda pelo texto</strong><p>Não marque algo só porque parece verdadeiro fora do texto.</p></div></article>
  <article><b>02</b><div><strong>Cuidado com absolutos</strong><p>“Sempre”, “nunca”, “todos” e “somente” merecem atenção.</p></div></article>
@@ -101,13 +101,13 @@
 </section>
 
 <section id="performanceScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">ANÁLISE</span><h2>Desempenho</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ANÁLISE</span><h2>Desempenho</h2></div></div>
  <div class="performance-grid"><article><span>Melhor desempenho</span><strong id="perfAverage">0%</strong><small>Notas registradas</small></article><article><span>Erros</span><strong id="perfErrors">0</strong><small>Para revisar</small></article><article><span>XP</span><strong id="perfXp">0</strong><small>Acumulado</small></article><article><span>Sequência</span><strong id="perfStreak">0</strong><small>Dias</small></article></div>
  <div class="history"><span class="kicker">HISTÓRICO</span><h3>Melhores resultados</h3><div id="scoreHistory" class="score-history"></div></div>
 </section>
 
 <section id="studyHubScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">CENTRAL</span><h2>Central de estudos</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">CENTRAL</span><h2>Central de estudos</h2></div></div>
  <div class="hub-list">
 <article onclick="openPlan()"><b>📅 Plano de estudos</b><span>Meta diária e contagem regressiva.</span></article>
 <article onclick="showScreen('trainingScreen')"><b>🎯 Treinar</b><span>Simulados e revisão rápida.</span></article>
@@ -121,13 +121,13 @@
 </section>
 
 <section id="professorScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">FUTURO MÓDULO</span><h2>Professor IA</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">FUTURO MÓDULO</span><h2>Professor IA</h2></div></div>
  <div class="professor"><div>🤖</div><span class="kicker">ESTRUTURA PREPARADA</span><h3>Professor integrado à sua preparação.</h3><p>No futuro, esta área poderá usar sua aula atual, desempenho e Caderno de Erros para explicar conteúdos e montar exercícios personalizados.</p></div>
  <div class="ia-grid"><article>💬<b>Tirar dúvidas</b><span>Contexto da aula atual</span></article><article>🧠<b>Explicar</b><span>Do básico ao avançado</span></article><article>📝<b>Treinar</b><span>Exercícios personalizados</span></article><article>📓<b>Revisar</b><span>Baseado nos seus erros</span></article></div>
 </section>
 
 <section id="trainingScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">TREINAMENTO</span><h2>Treinar</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">TREINAMENTO</span><h2>Treinar</h2></div></div>
  <div class="hub-list">
   <article onclick="openSimulations()"><b>📝 Simulados</b><span>Por matéria, misto e completo.</span></article>
   <article onclick="openQuickReview()"><b>⚡ Revisão rápida</b><span>Treinos de 10, 20 ou 30 minutos.</span></article>
@@ -137,7 +137,7 @@
 </section>
 
 <section id="simulationsScreen" class="screen">
- <div class="page-head"><button onclick="showScreen('trainingScreen')">←</button><div><span class="kicker">SIMULADOS</span><h2>Central de simulados</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">SIMULADOS</span><h2>Central de simulados</h2></div></div>
  <div class="feature-banner"><b>📝 Estrutura pronta</b><p>Simulado por matéria, misto e completo, com cronômetro, correção e histórico.</p></div>
  <div class="sim-grid">
   <button onclick="placeholderFeature('Simulado de Português')">📘<strong>Por matéria</strong><small>Treino focado</small></button>
@@ -147,7 +147,7 @@
 </section>
 
 <section id="planScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">ORGANIZAÇÃO</span><h2>Plano de estudos</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ORGANIZAÇÃO</span><h2>Plano de estudos</h2></div></div>
  <div class="feature-banner"><b>📅 Plano inteligente</b><p>Defina disponibilidade e acompanhe a missão sugerida para o dia.</p></div>
  <div class="plan-card">
    <label>Meta diária <select id="dailyGoal" onchange="saveV5Settings()"><option value="30">30 min</option><option value="60" selected>1 hora</option><option value="90">1h30</option><option value="120">2 horas</option></select></label>
@@ -157,7 +157,7 @@
 </section>
 
 <section id="quickReviewScreen" class="screen">
- <div class="page-head"><button onclick="showScreen('trainingScreen')">←</button><div><span class="kicker">REVISÃO</span><h2>Revisão rápida</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Revisão rápida</h2></div></div>
  <p class="page-intro">Escolha quanto tempo você tem disponível.</p>
  <div class="review-times">
   <button onclick="startQuickReview(10)">10<small>minutos</small></button>
@@ -168,7 +168,7 @@
 </section>
 
 <section id="favoritesScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">BIBLIOTECA</span><h2>Favoritos e anotações</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">BIBLIOTECA</span><h2>Favoritos e anotações</h2></div></div>
  <div class="feature-banner"><b>⭐ Sua biblioteca de revisão</b><p>Salve pontos importantes, dúvidas, regras e resumos para revisar depois.</p></div>
  <div class="fav-editor-v55"><span class="kicker">NOVA ANOTAÇÃO</span><input id="favTitleV55" maxlength="60" placeholder="Título — ex.: Inferência"><textarea id="favNoteV55" maxlength="500" placeholder="Escreva o que você quer lembrar na revisão..."></textarea><button onclick="addFavoriteV55()">Salvar nos favoritos ★</button></div>
  <div class="fav-v55-heading"><b>Minha biblioteca</b><small id="favCountV55">0 itens salvos</small></div>
@@ -176,14 +176,14 @@
 </section>
 
 <section id="achievementsScreen" class="screen">
- <div class="page-head"><button onclick="openPerformance()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Conquistas</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Conquistas</h2></div></div>
  <div id="levelCard" class="level-card"></div>
  <div id="achievementList" class="achievement-list"></div>
 </section>
 
 
 <section id="searchScreen" class="screen">
- <div class="page-head"><button onclick="showScreen('studyHubScreen','navStudy')">←</button><div><span class="kicker">BIBLIOTECA</span><h2>Busca inteligente</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">BIBLIOTECA</span><h2>Busca inteligente</h2></div></div>
  <div class="feature-banner"><b>🔎 Encontre o que precisa</b><p>Pesquise aulas, ferramentas e conteúdos da sua preparação.</p></div>
  <div class="search-v56-box">
    <div class="search-v56-input"><span>🔎</span><input id="globalSearchV56" type="search" autocomplete="off" placeholder="Ex.: interpretação, erros, simulado..." oninput="runSearchV56(this.value)"><button onclick="clearSearchV56()" aria-label="Limpar">×</button></div>
@@ -204,7 +204,7 @@
 
 
 <section id="studyHubV53" class="screen v53-screen">
-  <div class="v53-head"><button onclick="goHome()">←</button><div><span>ESTUDAR</span><h2>Central de aprendizado</h2><p>Organize sua teoria antes de partir para as questões.</p></div></div>
+  <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>ESTUDAR</span><h2>Central de aprendizado</h2><p>Organize sua teoria antes de partir para as questões.</p></div></div>
   <div class="v53-feature" onclick="openSubjects()"><b>📘 Matérias e aulas</b><p>Continue sua trilha de Língua Portuguesa.</p><em>0 de 2 aulas concluídas ›</em></div>
   <div class="v53-grid">
     <article onclick="openStudyPlanV54()"><b>📅 Plano de estudos</b><p>Metas e rotina diária.</p></article>
@@ -215,7 +215,7 @@
 </section>
 
 <section id="trainingHubV53" class="screen v53-screen">
-  <div class="v53-head"><button onclick="goHome()">←</button><div><span>TREINAR</span><h2>Centro de treinamento</h2><p>Transforme teoria em desempenho.</p></div></div>
+  <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>TREINAR</span><h2>Centro de treinamento</h2><p>Transforme teoria em desempenho.</p></div></div>
   <div class="v53-feature"><b>🎯 Treino recomendado</b><p>Comece pela Aula 01 e fortaleça interpretação de texto.</p><em>Preparar treino ›</em></div>
   <div class="v53-grid">
     <article onclick="openQuickTrainingV53()"><b>⚡ Treino rápido</b><p>5 questões para aquecer.</p></article>
@@ -226,7 +226,7 @@
 </section>
 
 <section id="reviewHubV53" class="screen v53-screen">
-  <div class="v53-head"><button onclick="goHome()">←</button><div><span>REVISAR</span><h2>Revisão inteligente</h2><p>Volte exatamente ao que precisa reforçar.</p></div></div>
+  <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>REVISAR</span><h2>Revisão inteligente</h2><p>Volte exatamente ao que precisa reforçar.</p></div></div>
   <div class="v53-feature" onclick="openErrorNotebook()"><b>🗒️ Caderno de erros</b><p>Questões erradas ficam salvas automaticamente.</p><em>Abrir caderno ›</em></div>
   <div class="v53-grid">
     <article onclick="openErrorNotebook()"><b>❌ Meus erros</b><p>Revise respostas erradas.</p></article>
@@ -237,7 +237,7 @@
 </section>
 
 <section id="evolutionHubV53" class="screen v53-screen">
-  <div class="v53-head"><button onclick="goHome()">←</button><div><span>EVOLUÇÃO</span><h2>Seu desempenho</h2><p>Acompanhe seu avanço na preparação.</p></div></div>
+  <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>EVOLUÇÃO</span><h2>Seu desempenho</h2><p>Acompanhe seu avanço na preparação.</p></div></div>
   <div class="v53-stats">
     <article><small>PROGRESSO</small><strong>0%</strong><p>0 de 2 aulas</p></article>
     <article><small>MELHOR NOTA</small><strong>50%</strong><p>registrada</p></article>
@@ -248,14 +248,14 @@
 </section>
 
 <section id="utilityHubV53" class="screen v53-screen">
-  <div class="v53-head"><button onclick="openStudyArea()">←</button><div><span>FERRAMENTA</span><h2 id="utilityTitleV53">Em construção</h2><p id="utilityTextV53">Estrutura preparada para a próxima etapa.</p></div></div>
+  <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>FERRAMENTA</span><h2 id="utilityTitleV53">Em construção</h2><p id="utilityTextV53">Estrutura preparada para a próxima etapa.</p></div></div>
   <div class="v53-feature"><b>🚧 Módulo preparado</b><p>Esta área já está conectada à navegação e receberá a função completa nas próximas versões.</p><em>MISSÃO PMMG V5.5</em></div>
 </section>
 
 
 <section id="summaryScreenV57" class="screen">
   <div class="page-head">
-    <button onclick="openStudyArea()">←</button>
+    <button onclick="goBackSmart()">←</button>
     <div><span class="kicker">REVISÃO RÁPIDA</span><h2>Resumo da aula</h2></div>
   </div>
 
@@ -284,7 +284,7 @@
 
 <section id="quickReviewScreenV58" class="screen">
   <div class="page-head">
-    <button onclick="openReviewArea()">←</button>
+    <button onclick="goBackSmart()">←</button>
     <div>
       <span class="kicker">REVISÃO INTELIGENTE</span>
       <h2>Revisão rápida</h2>
@@ -341,7 +341,7 @@
 
 <section id="achievementsScreenV59" class="screen">
   <div class="page-head">
-    <button onclick="openEvolutionArea()">←</button>
+    <button onclick="goBackSmart()">←</button>
     <div>
       <span class="kicker">EVOLUÇÃO</span>
       <h2>Níveis e conquistas</h2>
@@ -392,5 +392,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.9.0"></script><script src="app.js?v=5.9.0"></script>
+<script src="lessons.js?v=5.9.1"></script><script src="app.js?v=5.9.1"></script>
 </body></html>
