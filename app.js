@@ -550,3 +550,29 @@ if(_v52GoHome){
 document.addEventListener("DOMContentLoaded",()=>{
   setMainNavActive("navHome");
 });
+
+/* V5.3 — quatro áreas principais */
+function v53Show(id,navId){
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
+  const target=document.getElementById(id);
+  if(target) target.classList.add("active");
+  setMainNavActive(navId);
+  window.scrollTo(0,0);
+}
+openStudyArea=function(){v53Show("studyHubV53","navStudy");};
+openTrainingArea=function(){v53Show("trainingHubV53","navTrain");};
+openReviewArea=function(){v53Show("reviewHubV53","navReview");};
+openEvolutionArea=function(){v53Show("evolutionHubV53","navEvolution");};
+
+function utilityV53(title,text){
+  document.getElementById("utilityTitleV53").textContent=title;
+  document.getElementById("utilityTextV53").textContent=text;
+  v53Show("utilityHubV53","navStudy");
+}
+function openStudyPlanV53(){utilityV53("Plano de estudos","Metas diárias, calendário e organização da sua preparação.");}
+function openFavoritesV53(){utilityV53("Favoritos","Seus conteúdos e questões marcados para consultar depois.");}
+function openSearchV53(){utilityV53("Busca","Pesquisa rápida por matéria, aula e assunto.");}
+function openTipsV53(){utilityV53("Dicas de prova","Estratégias para leitura, tempo e eliminação de alternativas.");}
+function openQuickTrainingV53(){utilityV53("Treino rápido","Sessões curtas de questões para praticar todos os dias.");}
+function openSimulationV53(){utilityV53("Simulados","Área preparada para provas completas e resultados.");}
+function openQuickReviewV53(){utilityV53("Revisão rápida","Uma sessão objetiva baseada nos seus pontos fracos.");}
