@@ -1870,3 +1870,113 @@ window.openEvolutionArea = function(){
 document.addEventListener("DOMContentLoaded", ()=>{
   try{ renderEvolutionHubV612(); }catch(e){ console.warn("Evolução V6.1.3:", e); }
 });
+
+
+/* ==========================================================
+   V6.1.4 — HISTÓRICO INTELIGENTE
+   ========================================================== */
+
+// Mantém apenas eventos importantes no histórico.
+// "Aula aberta" deixa de ser registrado para evitar poluição.
+const logStudyEventV614Base = logStudyEventV60;
+window.logStudyEventV60 = function(type,title,detail=""){
+  if(title === "Aula aberta") return;
+  const list = v60Read("pmmg_history_v60",[]);
+  const now = new Date();
+  const last = list[0];
+
+  // Evita duplicar o mesmo evento em poucos segundos.
+  if(last && last.title===title && last.detail===detail){
+    const lastDate = new Date(last.date);
+    if(now - lastDate < 5000) return;
+  }
+
+  return logStudyEventV614Base(type,title,detail);
+};
+
+// Histórico antigo continua salvo, mas não aparece mais se for apenas abertura.
+window.renderStudyHistoryV60 = function(){
+  const box=document.getElementById("studyHistoryListV60");
+  if(!box) return;
+
+  const all=v60Read("pmmg_history_v60",[]);
+  const list=all.filter(e=>e.title!=="Aula aberta");
+
+  const iconByType={
+    lesson:"🏆",
+    exam:"📝",
+    sim:"🎯",
+    review:"🧠",
+    error:"📘",
+    achievement:"🥇"
+  };
+
+  box.innerHTML=list.length
+    ? list.map(e=>`<article class="v60-list-item">
+        <span class="icon">${iconByType[e.type]||"•"}</span>
+        <div class="copy">
+          <strong>${e.title}</strong>
+          <p>${e.detail||""}</p>
+          <em>${new Date(e.date).toLocaleString("pt-BR")}</em>
+        </div>
+      </article>`).join("")
+    : '<div class="empty-state"><strong>Seu histórico inteligente começará aqui.</strong><br>Conclua aulas, faça provas, simulados e revisões para registrar sua evolução.</div>';
+};
+
+// Registra prova e conclusão de aula com prioridade.
+const registerResultV614Base = registerResult;
+registerResult = function(lessonNumber,score,approved){
+  const beforeCompleted = Array.isArray(state.completedLessons) && state.completedLessons.includes(lessonNumber);
+  const result = registerResultV614Base(lessonNumber,score,approved);
+
+  const total = currentQuiz ? currentQuiz.length : 0;
+  const correct = total ? Math.round((score/100)*total) : null;
+  const detail = correct!==null
+    ? `Aula ${String(lessonNumber).padStart(2,"0")} • ${score}% • ${correct}/${total}`
+    : `Aula ${String(lessonNumber).padStart(2,"0")} • ${score}%`;
+
+  if(approved && !beforeCompleted){
+    logStudyEventV60("lesson","Aula concluída",detail);
+  }else{
+    logStudyEventV60("exam","Prova da aula realizada",detail);
+  }
+
+  return result;
+};
+
+// Revisões concluídas ganham registro consistente.
+const toggleReviewedErrorV614Base = toggleReviewedErrorV60;
+window.toggleReviewedErrorV60 = function(id){
+  const reviewedBefore = v60Read("pmmg_reviewed_errors_v60",[]).includes(id);
+  const result = toggleReviewedErrorV614Base(id);
+  if(!reviewedBefore){
+    logStudyEventV60("error","Erro revisado","Item marcado como revisado no Caderno de Erros");
+  }
+  return result;
+};
+
+// Revisões agendadas também entram na linha do tempo.
+const scheduleRevisionV614Base = scheduleRevisionV60;
+window.scheduleRevisionV60 = function(){
+  const before = v60Read("pmmg_revisions_v60",[]).length;
+  const result = scheduleRevisionV614Base();
+  const afterList = v60Read("pmmg_revisions_v60",[]);
+  if(afterList.length > before){
+    const r = afterList[0];
+    if(r){
+      logStudyEventV60(
+        "review",
+        "Revisão agendada",
+        `Aula ${String(r.lesson).padStart(2,"0")} • ${new Date(r.date+"T12:00:00").toLocaleDateString("pt-BR")}`
+      );
+    }
+  }
+  return result;
+};
+
+// Migração visual: remove apenas os registros de abertura da tela exibida.
+(function(){
+  const list = v60Read("pmmg_history_v60",[]);
+  const cleaned = list.filter(e=>e.title!=="Aula aberta");
+  if(cleaned.length !== list.length) v60Write("pmmg_history_v60",cleaned);
+})();
