@@ -460,3 +460,85 @@
 .sim510-result-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:13px}.sim510-result-stats article{padding:9px;border-radius:10px;background:rgba(255,255,255,.025);border:1px solid var(--line)}.sim510-result-stats b{display:block;color:var(--gold);font-size:15px}.sim510-result-stats small{color:var(--muted);font-size:6.5px}
 .sim510-result-actions{display:grid;gap:7px;margin-top:10px}.sim510-result-actions button{min-height:44px;border-radius:12px;font-weight:900}
 .sim510-correction{display:grid;gap:8px;margin-top:12px;padding-bottom:100px}.sim510-correction-item{padding:13px;border:1px solid var(--line);border-radius:14px;background:var(--card)}.sim510-correction-item.ok{border-color:rgba(102,197,154,.2)}.sim510-correction-item.bad{border-color:rgba(230,133,133,.2)}.sim510-correction-item strong{display:block;font-size:10px;line-height:1.4}.sim510-correction-item p{font-size:8.5px;line-height:1.45;margin-top:6px}.sim510-correction-item .good{color:#b8e2cc}.sim510-correction-item .badans{color:#f1b4b4}.sim510-correction-item .why{color:var(--muted)}
+
+/* V5.11 — Dicas de prova funcional */
+.tips511-hero{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  padding:16px;
+  margin-bottom:12px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:var(--card)
+}
+.tips511-icon{
+  width:50px;height:50px;flex:0 0 50px;
+  display:grid;place-items:center;
+  border-radius:15px;
+  background:rgba(214,187,123,.08);
+  font-size:23px
+}
+.tips511-hero h3{font-size:16px;margin-top:4px}
+.tips511-hero p{color:var(--muted);font-size:9.5px;line-height:1.45;margin-top:4px}
+.tips511-categories{
+  display:flex;gap:7px;overflow:auto;
+  padding:2px 0 10px;scrollbar-width:none
+}
+.tips511-categories button{
+  flex:0 0 auto;
+  padding:8px 11px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:var(--card);
+  color:var(--muted);
+  font-size:8.5px;
+  font-weight:900
+}
+.tips511-categories button.active{
+  color:var(--gold);
+  border-color:rgba(214,187,123,.22);
+  background:rgba(214,187,123,.055)
+}
+.tips511-list{display:grid;gap:9px;padding-bottom:100px}
+.tip511-card{
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:var(--card)
+}
+.tip511-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.tip511-top>div{display:flex;gap:10px;align-items:flex-start;flex:1}
+.tip511-number{
+  width:30px;height:30px;flex:0 0 30px;
+  display:grid;place-items:center;
+  border-radius:9px;
+  background:rgba(214,187,123,.07);
+  color:var(--gold);
+  font-size:8px;
+  font-weight:900
+}
+.tip511-card h3{font-size:11px;line-height:1.35}
+.tip511-tag{display:inline-block;margin-top:4px;color:var(--blue);font-size:7px;font-weight:900}
+.tip511-save{
+  background:transparent;
+  color:var(--muted);
+  font-size:18px;
+  padding:2px 4px
+}
+.tip511-save.saved{color:var(--gold)}
+.tip511-card p{
+  color:var(--muted);
+  font-size:9px;
+  line-height:1.5;
+  margin-top:9px
+}
+.tip511-example{
+  margin-top:9px;
+  padding:9px 10px;
+  border-radius:10px;
+  background:rgba(255,255,255,.025);
+  border:1px solid var(--line)
+}
+.tip511-example strong{display:block;font-size:8px;color:var(--gold)}
+.tip511-example span{display:block;color:var(--soft);font-size:8.5px;line-height:1.45;margin-top:3px}
