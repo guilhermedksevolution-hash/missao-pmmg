@@ -1980,3 +1980,144 @@ window.scheduleRevisionV60 = function(){
   const cleaned = list.filter(e=>e.title!=="Aula aberta");
   if(cleaned.length !== list.length) v60Write("pmmg_history_v60",cleaned);
 })();
+
+
+/* ==========================================================
+   V6.1.5 — ÍNDICE DE PREPARO INTELIGENTE
+   Recalcula o preparo usando progresso, desempenho REAL,
+   simulados, controle de erros e revisão ativa.
+   ========================================================== */
+
+function getPreparationMetricsV615(){
+  const completed = Array.isArray(state.completedLessons) ? state.completedLessons.length : 0;
+  const totalLessons = 2;
+  const content = Math.min(100, Math.round((completed / totalLessons) * 100));
+
+  // Usa estatísticas reais registradas nas provas; se ainda não houver,
+  // usa a melhor nota existente apenas como fallback.
+  const stats = v613GetStats ? v613GetStats() : null;
+  let performance = 0;
+  if(stats && Number(stats.questions) > 0){
+    performance = Math.round((Number(stats.correct)||0) / Number(stats.questions) * 100);
+  } else {
+    const scores = Object.values(state.bestScores || {}).map(Number).filter(Number.isFinite);
+    performance = scores.length ? Math.round(scores.reduce((a,b)=>a+b,0)/scores.length) : 0;
+  }
+
+  const simHistory = v60Read("pmmg_sim_history_v60",[]);
+  let simulations = 0;
+  if(simHistory.length){
+    const rates = simHistory.map(s=>{
+      if(Number.isFinite(Number(s.score))) return Number(s.score);
+      if(Number(s.total)>0) return (Number(s.correct)||0)/Number(s.total)*100;
+      return 0;
+    });
+    simulations = Math.round(rates.reduce((a,b)=>a+b,0)/rates.length);
+  }
+
+  const errors = v60GetErrors ? v60GetErrors() : [];
+  const reviewed = v60Read("pmmg_reviewed_errors_v60",[]);
+  let errorControl = 100;
+  if(errors.length){
+    const reviewedCount = errors.filter(e=>reviewed.includes(e.id)).length;
+    errorControl = Math.round(reviewedCount/errors.length*100);
+  }
+
+  const revisions = v60Read("pmmg_revisions_v60",[]);
+  const today = new Date();
+  today.setHours(0,0,0,0);
+  let activeReview = 0;
+  if(revisions.length){
+    const valid = revisions.filter(r=>{
+      const d = new Date(r.date+"T12:00:00");
+      return !Number.isNaN(d.getTime()) && d >= today;
+    });
+    activeReview = Math.min(100, Math.round(valid.length / Math.max(1, completed) * 100));
+  }
+
+  // Pesos: conteúdo 30%, desempenho 35%, simulados 15%,
+  // controle de erros 10%, revisão ativa 10%.
+  const index = Math.round(
+    content*0.30 +
+    performance*0.35 +
+    simulations*0.15 +
+    errorControl*0.10 +
+    activeReview*0.10
+  );
+
+  return {content, performance, simulations, errorControl, activeReview, index};
+}
+
+function preparationLabelV615(n){
+  if(n >= 85) return "Preparação avançada";
+  if(n >= 65) return "Boa preparação";
+  if(n >= 45) return "Preparação intermediária";
+  if(n >= 25) return "Preparação em desenvolvimento";
+  return "Preparação inicial";
+}
+
+const renderPreparationIndexV615Base =
+  typeof renderPreparationIndexV60 === "function" ? renderPreparationIndexV60 : null;
+
+window.renderPreparationIndexV60 = function(){
+  if(renderPreparationIndexV615Base) renderPreparationIndexV615Base();
+
+  const m = getPreparationMetricsV615();
+
+  const indexEl = document.getElementById("preparationIndexValue");
+  const labelEl = document.getElementById("preparationIndexLabel");
+  if(indexEl) indexEl.textContent = m.index;
+  if(labelEl) labelEl.textContent = preparationLabelV615(m.index);
+
+  const map = [
+    ["preparationContentValue","preparationContentBar",m.content],
+    ["preparationPerformanceValue","preparationPerformanceBar",m.performance],
+    ["preparationSimValue","preparationSimBar",m.simulations],
+    ["preparationErrorsValue","preparationErrorsBar",m.errorControl],
+    ["preparationReviewValue","preparationReviewBar",m.activeReview]
+  ];
+
+  map.forEach(([valueId,barId,val])=>{
+    const value=document.getElementById(valueId);
+    const bar=document.getElementById(barId);
+    if(value) value.textContent=val+"%";
+    if(bar) bar.style.width=val+"%";
+  });
+};
+
+// Compatibilidade com IDs existentes da tela de Índice.
+const openPreparationIndexV615Base =
+  typeof openPreparationIndexV60 === "function" ? openPreparationIndexV60 : null;
+
+window.openPreparationIndexV60 = function(){
+  if(openPreparationIndexV615Base) openPreparationIndexV615Base();
+  setTimeout(()=>{
+    const m=getPreparationMetricsV615();
+    const screen=document.getElementById("preparationIndexScreen");
+    if(!screen) return;
+
+    const texts=[...screen.querySelectorAll("strong")];
+    texts.forEach(el=>{
+      const parent=(el.parentElement?.innerText||"").toLowerCase();
+      if(parent.includes("conteúdo concluído")) el.textContent=m.content+"%";
+      else if(parent.includes("desempenho nas aulas")) el.textContent=m.performance+"%";
+      else if(parent.includes("simulados")) el.textContent=m.simulations+"%";
+      else if(parent.includes("controle de erros")) el.textContent=m.errorControl+"%";
+      else if(parent.includes("revisão ativa")) el.textContent=m.activeReview+"%";
+    });
+
+    const circle=[...screen.querySelectorAll("strong")].find(e=>/^\d+$/.test(e.textContent.trim()) && Number(e.textContent)<=100);
+    if(circle) circle.textContent=m.index;
+
+    const headings=[...screen.querySelectorAll("h2,h3,strong")];
+    const label=headings.find(e=>/preparação (inicial|intermediária|avançada|em desenvolvimento|boa preparação)/i.test(e.textContent));
+    if(label) label.textContent=preparationLabelV615(m.index);
+
+    const rows=[...screen.querySelectorAll(".bar")];
+    const vals=[m.content,m.performance,m.simulations,m.errorControl,m.activeReview];
+    rows.forEach((row,i)=>{
+      const fill=row.querySelector("i");
+      if(fill && vals[i]!==undefined) fill.style.width=vals[i]+"%";
+    });
+  },0);
+};
