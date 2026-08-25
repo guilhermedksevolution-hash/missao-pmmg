@@ -1513,3 +1513,157 @@ function toggleTipV511(id){
   }
   localStorage.setItem("pmmg_favorites_v55",JSON.stringify(fav));
 }
+
+// ============================================================
+// V6.0 — ESTRUTURA COMPLETA
+// ============================================================
+
+// ---------- Helpers ----------
+function v60TodayKey(d=new Date()){
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+function v60Read(key,fallback){
+  try{const v=JSON.parse(localStorage.getItem(key));return v ?? fallback}catch(e){return fallback}
+}
+function v60Write(key,val){localStorage.setItem(key,JSON.stringify(val))}
+function logStudyEventV60(type,title,detail=""){
+  const list=v60Read("pmmg_history_v60",[]);
+  list.unshift({id:Date.now(),type,title,detail,date:new Date().toISOString()});
+  v60Write("pmmg_history_v60",list.slice(0,120));
+}
+function openCalendarV60(){showScreen("calendarScreenV60","navStudy");renderCalendarV60();window.scrollTo(0,0)}
+function openWeeklyGoalsV60(){showScreen("weeklyGoalsScreenV60","navStudy");loadWeeklyGoalsV60();window.scrollTo(0,0)}
+function openNotificationsV60(){showScreen("notificationsScreenV60","navStudy");renderRemindersV60();window.scrollTo(0,0)}
+function openRevisionScheduleV60(){showScreen("revisionScheduleScreenV60","navReview");renderRevisionScheduleV60();window.scrollTo(0,0)}
+function openSubjectPerformanceV60(){showScreen("subjectPerformanceScreenV60","navEvolution");renderSubjectPerformanceV60();window.scrollTo(0,0)}
+function openQuestionStatsV60(){showScreen("questionStatsScreenV60","navEvolution");renderQuestionStatsV60();window.scrollTo(0,0)}
+function openStudyHistoryV60(){showScreen("studyHistoryScreenV60","navEvolution");renderStudyHistoryV60();window.scrollTo(0,0)}
+function openPreparationIndexV60(){showScreen("preparationIndexScreenV60","navEvolution");renderPreparationIndexV60();window.scrollTo(0,0)}
+function openErrorsProV60(){showScreen("errorsProScreenV60","navReview");renderErrorsProV60("todos");window.scrollTo(0,0)}
+
+// ---------- Calendar ----------
+let calendarDateV60=new Date();
+function changeMonthV60(delta){calendarDateV60=new Date(calendarDateV60.getFullYear(),calendarDateV60.getMonth()+delta,1);renderCalendarV60()}
+function goTodayV60(){calendarDateV60=new Date();renderCalendarV60()}
+function renderCalendarV60(){
+  const title=document.getElementById("calendarMonthTitleV60"),grid=document.getElementById("calendarGridV60");
+  if(!title||!grid)return;
+  const y=calendarDateV60.getFullYear(),m=calendarDateV60.getMonth();
+  title.textContent=new Intl.DateTimeFormat("pt-BR",{month:"long",year:"numeric"}).format(calendarDateV60);
+  const first=new Date(y,m,1),start=first.getDay(),days=new Date(y,m+1,0).getDate();
+  const studyDays=new Set();
+  Object.keys(localStorage).forEach(k=>{if(k.startsWith("pmmg_activity_")&&localStorage.getItem(k)==="1")studyDays.add(k.replace("pmmg_activity_",""))});
+  const revisions=v60Read("pmmg_revisions_v60",[]);
+  const revDays=new Set(revisions.map(r=>r.date));
+  const cells=[];
+  for(let i=0;i<42;i++){
+    const day=i-start+1;
+    const d=new Date(y,m,day);
+    const inMonth=day>=1&&day<=days;
+    const key=v60TodayKey(d);
+    cells.push(`<div class="v60-day ${inMonth?"":"muted"} ${key===v60TodayKey()?"today":""}">
+      <span>${d.getDate()}</span>
+      <div class="dots">${studyDays.has(key)?'<i class="v60-dot study"></i>':""}${revDays.has(key)?'<i class="v60-dot review"></i>':""}</div>
+    </div>`);
+  }
+  grid.innerHTML=cells.join("");
+}
+
+// ---------- Weekly goals ----------
+function currentWeekKeyV60(){
+  const d=new Date(),day=(d.getDay()+6)%7;d.setDate(d.getDate()-day);
+  return v60TodayKey(d);
+}
+function saveWeeklyGoalsV60(){
+  const goals={lessons:Number(document.getElementById("goalLessonsV60").value||3),questions:Number(document.getElementById("goalQuestionsV60").value||50),reviews:Number(document.getElementById("goalReviewsV60").value||3)};
+  v60Write("pmmg_weekly_goals_v60",goals);loadWeeklyGoalsV60();logStudyEventV60("goal","Metas semanais atualizadas",`${goals.lessons} aulas • ${goals.questions} questões • ${goals.reviews} revisões`);
+}
+function loadWeeklyGoalsV60(){
+  const g=v60Read("pmmg_weekly_goals_v60",{lessons:3,questions:50,reviews:3});
+  document.getElementById("goalLessonsV60").value=g.lessons;document.getElementById("goalQuestionsV60").value=g.questions;document.getElementById("goalReviewsV60").value=g.reviews;
+  const state=v60Read("missaoPMMGState",{}),completed=Array.isArray(state.completedLessons)?state.completedLessons.length:0;
+  const sims=v60Read("pmmg_sim_history_v510",[]).length;
+  const reviews=Object.keys(localStorage).filter(k=>k.startsWith("pmmg_review_completed_")&&localStorage.getItem(k)==="1").length;
+  const items=[["Aulas",completed,g.lessons],["Questões",sims*10,g.questions],["Revisões",reviews,g.reviews]];
+  document.getElementById("weeklyProgressV60").innerHTML=items.map(([name,val,max])=>`<article class="v60-progress-item"><header><strong>${name}</strong><span>${Math.min(val,max)}/${max}</span></header><div class="bar"><i style="width:${Math.min(100,(val/max)*100)}%"></i></div></article>`).join("");
+}
+
+// ---------- Reminders ----------
+function addReminderV60(){
+  const title=document.getElementById("reminderTitleV60").value.trim(),date=document.getElementById("reminderDateV60").value,time=document.getElementById("reminderTimeV60").value;
+  if(!title||!date){alert("Preencha pelo menos o título e a data.");return}
+  const list=v60Read("pmmg_reminders_v60",[]);list.push({id:Date.now(),title,date,time,done:false});v60Write("pmmg_reminders_v60",list);
+  document.getElementById("reminderTitleV60").value="";renderRemindersV60();logStudyEventV60("reminder","Lembrete criado",title);
+}
+function renderRemindersV60(){
+  const box=document.getElementById("reminderListV60");if(!box)return;
+  const list=v60Read("pmmg_reminders_v60",[]).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
+  box.innerHTML=list.length?list.map(r=>`<article class="v60-list-item"><span class="icon">${r.done?"✅":"🔔"}</span><div class="copy"><strong>${r.title}</strong><p>${new Date(r.date+"T12:00:00").toLocaleDateString("pt-BR")}${r.time?" • "+r.time:""}</p></div><button onclick="toggleReminderV60(${r.id})">${r.done?"Reabrir":"Concluir"}</button><button onclick="deleteReminderV60(${r.id})">Excluir</button></article>`).join(""):'<div class="empty-state">Nenhum lembrete criado.</div>';
+}
+function toggleReminderV60(id){const list=v60Read("pmmg_reminders_v60",[]);const r=list.find(x=>x.id===id);if(r)r.done=!r.done;v60Write("pmmg_reminders_v60",list);renderRemindersV60()}
+function deleteReminderV60(id){v60Write("pmmg_reminders_v60",v60Read("pmmg_reminders_v60",[]).filter(x=>x.id!==id));renderRemindersV60()}
+
+// ---------- Scheduled review ----------
+function scheduleRevisionV60(){
+  const lesson=Number(document.getElementById("revisionLessonV60").value),delay=Number(document.getElementById("revisionDelayV60").value),d=new Date();d.setDate(d.getDate()+delay);
+  const list=v60Read("pmmg_revisions_v60",[]);list.push({id:Date.now(),lesson,date:v60TodayKey(d),done:false});v60Write("pmmg_revisions_v60",list);renderRevisionScheduleV60();logStudyEventV60("review","Revisão agendada",`Aula ${String(lesson).padStart(2,"0")} • ${delay} dia(s)`);
+}
+function renderRevisionScheduleV60(){
+  const box=document.getElementById("revisionListV60");if(!box)return;const list=v60Read("pmmg_revisions_v60",[]).sort((a,b)=>a.date.localeCompare(b.date));
+  box.innerHTML=list.length?list.map(r=>`<article class="v60-list-item"><span class="icon">${r.done?"✅":"🧠"}</span><div class="copy"><strong>Aula ${String(r.lesson).padStart(2,"0")} • ${r.lesson===1?"Interpretação de texto":"Ideia principal e inferência"}</strong><p>${new Date(r.date+"T12:00:00").toLocaleDateString("pt-BR")}</p></div><button onclick="completeRevisionV60(${r.id})">${r.done?"Reabrir":"Concluir"}</button></article>`).join(""):'<div class="empty-state">Nenhuma revisão agendada.</div>';
+}
+function completeRevisionV60(id){const list=v60Read("pmmg_revisions_v60",[]),r=list.find(x=>x.id===id);if(r)r.done=!r.done;v60Write("pmmg_revisions_v60",list);renderRevisionScheduleV60();if(r&&r.done)logStudyEventV60("review","Revisão concluída",`Aula ${String(r.lesson).padStart(2,"0")}`)}
+
+// ---------- Subject performance ----------
+function renderSubjectPerformanceV60(){
+  const box=document.getElementById("subjectPerformanceListV60");if(!box)return;const state=v60Read("missaoPMMGState",{}),scores=state.scores||{},vals=Object.values(scores).map(Number).filter(Number.isFinite),avg=vals.length?Math.round(vals.reduce((a,b)=>a+b,0)/vals.length):0,completed=Array.isArray(state.completedLessons)?state.completedLessons.length:0;
+  const subjects=[{name:"Língua Portuguesa",icon:"📘",avg,progress:Math.round((completed/2)*100),status:"Ativa"},{name:"Matemática",icon:"➗",avg:0,progress:0,status:"Em breve"},{name:"Inglês",icon:"🇬🇧",avg:0,progress:0,status:"Em breve"},{name:"Outras matérias",icon:"📚",avg:0,progress:0,status:"Estrutura pronta"}];
+  box.innerHTML=subjects.map(s=>`<article class="v60-subject-card" style="${s.status!=="Ativa"?"opacity:.45":""}"><header><h3>${s.icon} ${s.name}</h3><b>${s.avg}%</b></header><p>${s.status} • ${s.progress}% do conteúdo atual</p><div class="bar"><i style="width:${s.progress}%"></i></div></article>`).join("");
+}
+
+// ---------- Question stats ----------
+function renderQuestionStatsV60(){
+  const state=v60Read("missaoPMMGState",{}),scores=state.scores||{},tests=Object.keys(scores).length,sims=v60Read("pmmg_sim_history_v510",[]),best=Math.max(0,...Object.values(scores).map(Number).filter(Number.isFinite)),errors=Array.isArray(state.errors)?state.errors.length:0;
+  document.getElementById("statTestsV60").textContent=tests;document.getElementById("statSimsV60").textContent=sims.length;document.getElementById("statBestV60").textContent=best+"%";document.getElementById("statErrorsV60").textContent=errors;
+  let text="Você ainda possui poucos dados. Continue fazendo provas e simulados para o diagnóstico ficar mais preciso.";
+  if(tests+sims.length>=3){const simAvg=sims.length?Math.round(sims.reduce((a,b)=>a+b.score,0)/sims.length):0;text=`Seu melhor resultado em aulas é ${best}%. ${sims.length?`A média dos simulados está em ${simAvg}%. `:""}${errors?`Há ${errors} questão(ões) no Caderno de Erros para revisar.`:"Seu Caderno de Erros está limpo."}`;}
+  document.getElementById("questionDiagnosisV60").textContent=text;
+}
+
+// ---------- Study history ----------
+function renderStudyHistoryV60(){
+  const box=document.getElementById("studyHistoryListV60");if(!box)return;const list=v60Read("pmmg_history_v60",[]);
+  box.innerHTML=list.length?list.map(e=>`<article class="v60-list-item"><span class="icon">${e.type==="review"?"🧠":e.type==="sim"?"📝":e.type==="lesson"?"📘":"•"}</span><div class="copy"><strong>${e.title}</strong><p>${e.detail||""}</p><em>${new Date(e.date).toLocaleString("pt-BR")}</em></div></article>`).join(""):'<div class="empty-state">O histórico começará a aparecer conforme você usar a plataforma.</div>';
+}
+
+// ---------- Preparation index ----------
+function renderPreparationIndexV60(){
+  const state=v60Read("missaoPMMGState",{}),scores=state.scores||{},vals=Object.values(scores).map(Number).filter(Number.isFinite),avg=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0,completed=Array.isArray(state.completedLessons)?state.completedLessons.length:0,progress=Math.min(100,(completed/2)*100),errors=Array.isArray(state.errors)?state.errors.length:0,sims=v60Read("pmmg_sim_history_v510",[]),simAvg=sims.length?sims.reduce((a,b)=>a+b.score,0)/sims.length:0,revisionBonus=Object.keys(localStorage).filter(k=>k.startsWith("pmmg_review_completed_")&&localStorage.getItem(k)==="1").length>0?100:0;
+  const performance=vals.length?avg:0,training=sims.length?simAvg:0,review=errors===0&&completed>0?100:Math.max(0,100-errors*10),index=Math.round(progress*.35+performance*.30+training*.20+review*.10+revisionBonus*.05);
+  document.getElementById("prepIndexValueV60").textContent=index;
+  const label=index<30?"Início da preparação":index<50?"Base em construção":index<70?"Preparação intermediária":index<85?"Bom nível de preparo":"Preparação avançada";
+  document.getElementById("prepIndexLabelV60").textContent=label;document.getElementById("prepIndexTextV60").textContent="Este índice não prevê aprovação. Ele resume conteúdo concluído, desempenho, treino e revisão.";
+  const parts=[["Conteúdo concluído",progress],["Desempenho nas aulas",performance],["Simulados",training],["Controle de erros",review],["Revisão ativa",revisionBonus]];
+  document.getElementById("prepBreakdownV60").innerHTML=parts.map(([n,v])=>`<article class="v60-progress-item"><header><strong>${n}</strong><span>${Math.round(v)}%</span></header><div class="bar"><i style="width:${Math.round(v)}%"></i></div></article>`).join("");
+}
+
+// ---------- Errors 2.0 ----------
+function getErrorsV60(){
+  const state=v60Read("missaoPMMGState",{});return Array.isArray(state.errors)?state.errors:[];
+}
+function filterErrorsProV60(filter,btn){
+  document.querySelectorAll(".v60-filter-row button").forEach(b=>b.classList.remove("active"));if(btn)btn.classList.add("active");renderErrorsProV60(filter);
+}
+function renderErrorsProV60(filter="todos"){
+  const all=getErrorsV60(),reviewed=v60Read("pmmg_reviewed_errors_v60",[]),box=document.getElementById("errorsProListV60"),stats=document.getElementById("errorsProStatsV60");if(!box||!stats)return;
+  let list=all;if(filter==="1"||filter==="2")list=all.filter(e=>String(e.lessonNumber)===filter);if(filter==="revisados")list=all.filter(e=>reviewed.includes(e.id));
+  stats.innerHTML=`<article><strong>${all.length}</strong><small>Total</small></article><article><strong>${reviewed.length}</strong><small>Revisados</small></article><article><strong>${Math.max(0,all.length-reviewed.length)}</strong><small>Pendentes</small></article>`;
+  box.innerHTML=list.length?list.map(e=>`<article class="v60-list-item"><span class="icon">${reviewed.includes(e.id)?"✅":"❌"}</span><div class="copy"><strong>${e.question||"Questão"}</strong><p><b>Sua resposta:</b> ${e.selectedText||""}</p><p><b>Correta:</b> ${e.correctText||""}</p><em>Aula ${String(e.lessonNumber||"").padStart(2,"0")}</em></div><button onclick="toggleReviewedErrorV60('${e.id}')">${reviewed.includes(e.id)?"Pendente":"Revisado"}</button></article>`).join(""):'<div class="empty-state">Nenhuma questão neste filtro.</div>';
+}
+function toggleReviewedErrorV60(id){let list=v60Read("pmmg_reviewed_errors_v60",[]);list=list.includes(id)?list.filter(x=>x!==id):[...list,id];v60Write("pmmg_reviewed_errors_v60",list);renderErrorsProV60("todos")}
+
+// ---------- Automatic history hooks ----------
+const openLessonBeforeV60=typeof openLesson==="function"?openLesson:null;
+if(openLessonBeforeV60){openLesson=function(n){logStudyEventV60("lesson","Aula aberta",`Aula ${String(n).padStart(2,"0")}`);return openLessonBeforeV60(n)}}
+const finishSimulationBeforeV60=typeof finishSimulationV510==="function"?finishSimulationV510:null;
+if(finishSimulationBeforeV60){finishSimulationV510=function(force=false){const result=finishSimulationBeforeV60(force);setTimeout(()=>{if(typeof simLastResultV510!=="undefined"&&simLastResultV510)logStudyEventV60("sim","Simulado concluído",`${simLastResultV510.score}% • ${simLastResultV510.correct}/${simLastResultV510.total}`)},100);return result}}
