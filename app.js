@@ -2121,3 +2121,61 @@ window.openPreparationIndexV60 = function(){
     });
   },0);
 };
+
+/* V6.1.6 — REVISÃO INTELIGENTE */
+let smartReviewErrorV616=null;
+function getReviewedErrorsV616(){return v60Read("pmmg_reviewed_errors_v60",[])}
+function setReviewedErrorsV616(x){v60Write("pmmg_reviewed_errors_v60",[...new Set(x)])}
+
+window.startSmartErrorReviewV616=function(id){
+ const err=getErrorsV60().find(e=>e.id===id); if(!err)return;
+ let q=null; try{q=getLessonData(Number(err.lessonNumber))?.quiz?.[Number(err.questionIndex)]}catch(e){}
+ if(!q){alert("Não foi possível carregar esta questão.");return}
+ smartReviewErrorV616={err,q};
+ document.getElementById("smartErrorReviewBodyV616").innerHTML=`<article class="question-card v616-question">
+ <div class="question-number">AULA ${String(err.lessonNumber).padStart(2,"0")} • REVISÃO</div><h3>${q.question}</h3>
+ <div class="answers">${q.options.map((o,i)=>`<label class="answer-option"><input type="radio" name="smart-review-v616" value="${i}"><span>${o}</span></label>`).join("")}</div>
+ <button class="primary full" onclick="submitSmartErrorReviewV616()">Conferir resposta</button><div id="smartReviewFeedbackV616"></div></article>`;
+ showScreen("smartErrorReviewScreenV616","navReview");window.scrollTo(0,0)
+};
+
+window.submitSmartErrorReviewV616=function(){
+ if(!smartReviewErrorV616)return;
+ const s=document.querySelector('input[name="smart-review-v616"]:checked');
+ if(!s){alert("Marque uma alternativa.");return}
+ const {err,q}=smartReviewErrorV616,ok=Number(s.value)===q.answer,f=document.getElementById("smartReviewFeedbackV616");
+ if(ok){
+   removeError(Number(err.lessonNumber),Number(err.questionIndex));
+   setReviewedErrorsV616([...getReviewedErrorsV616(),err.id]);
+   if(typeof logStudyEventV60==="function")logStudyEventV60("review","Erro revisado",`Aula ${String(err.lessonNumber).padStart(2,"0")} • questão corrigida`);
+   f.innerHTML='<div class="v616-feedback ok"><b>✅ Resposta correta!</b><p>Questão resolvida e removida das pendências.</p><button class="primary full" onclick="openErrorsProV60()">Continuar revisão</button></div>';
+ }else{
+   f.innerHTML=`<div class="v616-feedback no"><b>❌ Ainda não.</b><p><strong>Explicação:</strong> ${q.explanation||err.explanation||"Revise a aula e tente novamente."}</p><p><strong>💡 Dica:</strong> ${q.tip||err.tip||"Compare as alternativas com a regra estudada."}</p></div>`;
+ }
+ updateDashboard()
+};
+
+window.renderErrorsProV60=function(filter="todos"){
+ const all=getErrorsV60(),rev=getReviewedErrorsV616(),box=document.getElementById("errorsProListV60"),stats=document.getElementById("errorsProStatsV60");if(!box||!stats)return;
+ stats.innerHTML=`<article><strong>${all.length}</strong><small>Pendentes</small></article><article><strong>${rev.length}</strong><small>Resolvidos</small></article><article><strong>${all.length+rev.length}</strong><small>Trabalhados</small></article>`;
+ if(filter==="revisados"){box.innerHTML=rev.length?`<div class="empty-state"><strong>✅ ${rev.length} questão(ões) resolvida(s)</strong><br>As corrigidas saem das pendências.</div>`:'<div class="empty-state">Nenhuma revisão concluída ainda.</div>';return}
+ let list=all;if(filter==="1"||filter==="2")list=all.filter(e=>String(e.lessonNumber)===filter);
+ box.innerHTML=list.length?list.map(e=>`<article class="v60-list-item"><span class="icon">❌</span><div class="copy"><strong>${e.question||"Questão"}</strong><p><b>Sua resposta:</b> ${e.selectedText||""}</p><p><b>Correta:</b> ${e.correctText||""}</p><em>Aula ${String(e.lessonNumber||"").padStart(2,"0")}</em></div><button onclick="startSmartErrorReviewV616('${e.id}')">Revisar</button></article>`).join(""):'<div class="empty-state"><strong>Caderno em dia 🎯</strong><br>Nenhuma pendência neste filtro.</div>'
+};
+
+function getPreparationMetricsV616(){
+ const d=getPerformanceDataV613(),st=d.st||{},completed=Array.isArray(st.completedLessons)?st.completedLessons.length:0;
+ const lessonCount=Math.max(1,typeof getLessonNumbers==="function"?getLessonNumbers().length:2),content=Math.min(100,Math.round(completed/lessonCount*100));
+ const a=v60Read("pmmg_question_history_v613",[]),ac=a.reduce((s,x)=>s+(+x.correct||0),0),at=a.reduce((s,x)=>s+(+x.total||0),0),performance=at?Math.round(ac/at*100):0;
+ const sims=v60Read("pmmg_sim_history_v510",[]),sc=sims.reduce((s,x)=>s+(+x.correct||0),0),stot=sims.reduce((s,x)=>s+(+x.total||0),0),simulations=stot?Math.round(sc/stot*100):0;
+ const pending=getErrorsV60().length,resolved=getReviewedErrorsV616().length,worked=pending+resolved,errorControl=worked?Math.round(resolved/worked*100):(completed?100:0);
+ const revisions=v60Read("pmmg_revisions_v60",[]),today=new Date();today.setHours(0,0,0,0);
+ const active=revisions.filter(r=>{const x=new Date((r.date||"")+"T12:00:00");return !isNaN(x)&&x>=today}).length,activeReview=Math.min(100,Math.round(active/Math.max(1,completed)*100));
+ return {content,performance,simulations,errorControl,activeReview,index:Math.round(content*.30+performance*.35+simulations*.15+errorControl*.10+activeReview*.10)}
+}
+window.renderPreparationIndexV60=function(){
+ const m=getPreparationMetricsV616(),v=document.getElementById("prepIndexValueV60"),l=document.getElementById("prepIndexLabelV60"),t=document.getElementById("prepIndexTextV60");
+ if(v)v.textContent=m.index;if(l)l.textContent=preparationLabelV615(m.index);if(t)t.textContent="Índice baseado em conteúdo, desempenho, simulados, erros realmente resolvidos e revisão ativa.";
+ const p=[["Conteúdo concluído",m.content],["Desempenho nas aulas",m.performance],["Simulados",m.simulations],["Controle de erros",m.errorControl],["Revisão ativa",m.activeReview]];
+ const b=document.getElementById("prepBreakdownV60");if(b)b.innerHTML=p.map(([n,x])=>`<article class="v60-progress-item"><header><strong>${n}</strong><span>${x}%</span></header><div class="bar"><i style="width:${x}%"></i></div></article>`).join("")
+};
