@@ -323,3 +323,120 @@
   margin-top:13px;
 }
 .review-v58-timer-actions button{min-height:44px;border-radius:12px;font-weight:900}
+
+/* V5.9 — Níveis, sequência e conquistas */
+.level-v59-card,
+.streak-v59-card{
+  padding:16px;
+  margin-bottom:10px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:var(--card);
+}
+.level-v59-top{
+  display:flex;
+  align-items:center;
+  gap:11px;
+}
+.level-v59-medal{
+  width:50px;
+  height:50px;
+  flex:0 0 50px;
+  display:grid;
+  place-items:center;
+  border-radius:15px;
+  background:rgba(214,187,123,.08);
+  font-size:24px;
+}
+.level-v59-copy{flex:1;min-width:0}
+.level-v59-copy h3{font-size:17px;margin-top:4px}
+.level-v59-copy p{color:var(--muted);font-size:9px;line-height:1.4;margin-top:3px}
+.level-v59-top>strong{
+  color:var(--gold);
+  font-size:16px;
+  white-space:nowrap;
+}
+.level-v59-progress{margin-top:13px}
+.level-v59-progress>div:last-child{
+  display:flex;
+  justify-content:space-between;
+  margin-top:5px;
+}
+.level-v59-progress small{color:var(--muted);font-size:7.5px}
+.streak-v59-card{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+.streak-v59-card h3{font-size:15px;margin-top:4px}
+.streak-v59-card p{color:var(--muted);font-size:9px;line-height:1.4;margin-top:4px}
+.streak-v59-ring{
+  width:66px;
+  height:66px;
+  flex:0 0 66px;
+  border:2px solid var(--gold);
+  border-radius:50%;
+  display:grid;
+  place-content:center;
+  text-align:center;
+}
+.streak-v59-ring strong{color:var(--gold);font-size:20px}
+.streak-v59-ring small{color:var(--muted);font-size:6px}
+.achievement-v59-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  margin:17px 2px 9px;
+}
+.achievement-v59-head h3{font-size:16px;margin-top:3px}
+.achievement-v59-head>small{color:var(--gold);font-size:10px;font-weight:900}
+.achievement-v59-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  padding-bottom:100px;
+}
+.achievement-v59-item{
+  min-height:135px;
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:var(--card);
+  position:relative;
+}
+.achievement-v59-item.locked{opacity:.45}
+.achievement-v59-item .icon{
+  display:block;
+  font-size:25px;
+  margin-bottom:10px;
+}
+.achievement-v59-item strong{
+  display:block;
+  font-size:10px;
+  line-height:1.35;
+}
+.achievement-v59-item p{
+  color:var(--muted);
+  font-size:8px;
+  line-height:1.4;
+  margin-top:5px;
+}
+.achievement-v59-status{
+  position:absolute;
+  right:9px;
+  top:9px;
+  padding:3px 6px;
+  border-radius:999px;
+  background:rgba(102,197,154,.07);
+  color:var(--green);
+  font-size:6px;
+  font-weight:900;
+}
+.achievement-v59-item.locked .achievement-v59-status{
+  background:rgba(255,255,255,.04);
+  color:var(--muted);
+}
+@media(max-width:370px){
+  .achievement-v59-list{grid-template-columns:1fr}
+}
