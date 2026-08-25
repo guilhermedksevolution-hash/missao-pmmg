@@ -362,3 +362,5 @@ function initializeApp(){
   showScreen("homeScreen","navHome");
 }
 document.addEventListener("DOMContentLoaded",initializeApp);
+
+function openProfessorIA(){ showScreen("professorScreen"); }
