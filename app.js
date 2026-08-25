@@ -2213,7 +2213,9 @@ window.startSmartReviewSessionV617 = function(){
     correct: 0,
     attempts: 0,
     initial: pending.length,
-    currentError: null
+    currentError: null,
+    answeredCurrent: false,
+    resolvedIds: new Set()
   };
 
   if(typeof logStudyEventV60 === "function"){
@@ -2262,6 +2264,7 @@ function renderSmartSessionQuestionV617(){
   }
 
   smartSessionV617.currentError = {err,q};
+  smartSessionV617.answeredCurrent = false;
 
   const position = smartSessionV617.current + 1;
   const total = smartSessionV617.initial;
@@ -2299,6 +2302,11 @@ window.submitSmartSessionAnswerV617 = function(){
   if(!item) return;
 
   const {err,q} = item;
+
+  // V6.2.0: impede contabilização duplicada por toque duplo/reenvio
+  // depois que a questão já foi acertada.
+  if(smartSessionV617.answeredCurrent) return;
+
   const answer = Number(selected.value);
   const ok = answer === q.answer;
   smartSessionV617.attempts++;
@@ -2306,6 +2314,8 @@ window.submitSmartSessionAnswerV617 = function(){
   const feedback = document.getElementById("v617Feedback");
 
   if(ok){
+    smartSessionV617.answeredCurrent = true;
+
     // Usa a mesma lógica já aprovada na V6.1.6.
     removeError(Number(err.lessonNumber),Number(err.questionIndex));
     const reviewed = typeof getReviewedErrorsV616 === "function" ? getReviewedErrorsV616() : [];
@@ -2313,7 +2323,10 @@ window.submitSmartSessionAnswerV617 = function(){
       setReviewedErrorsV616([...reviewed,err.id]);
     }
 
-    smartSessionV617.correct++;
+    if(!smartSessionV617.resolvedIds.has(err.id)){
+      smartSessionV617.resolvedIds.add(err.id);
+      smartSessionV617.correct = smartSessionV617.resolvedIds.size;
+    }
 
     if(typeof logStudyEventV60 === "function"){
       logStudyEventV60("review","Erro revisado",`Aula ${String(err.lessonNumber).padStart(2,"0")} • questão corrigida`);
@@ -2347,7 +2360,7 @@ window.nextSmartSessionQuestionV617 = function(){
 function finishSmartReviewSessionV617(){
   const total = smartSessionV617.initial;
   const attempts = smartSessionV617.attempts;
-  const correct = smartSessionV617.correct;
+  const correct = Math.min(smartSessionV617.correct, total);
   const rate = attempts ? Math.round(correct/attempts*100) : 100;
 
   document.getElementById("v617DoneCorrect").textContent = correct;
