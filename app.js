@@ -2903,3 +2903,198 @@ document.addEventListener("DOMContentLoaded",()=>{
   obsV625.observe(document.body,{childList:true,subtree:true});
 });
 
+
+/* ==========================================================
+   V6.2.6 — ÍNDICE DE PREPARO PMMG 2.0
+   Evita distorção por repetição de questões.
+   ========================================================== */
+
+function getUniqueQuestionPerformanceV626(){
+  const attempts = v60Read("pmmg_question_history_v613",[]);
+  const latestByKey = new Map();
+
+  attempts.forEach(a=>{
+    const lesson = Number(a.lessonNumber||a.lesson||0);
+    const total = Number(a.total||0);
+    const correct = Number(a.correct||0);
+    const score = Number(a.score|| (total ? Math.round(correct/total*100) : 0));
+    const key = `${lesson}`;
+    latestByKey.set(key,{score,total,correct});
+  });
+
+  const arr=[...latestByKey.values()];
+  if(!arr.length) return {score:0,attempts:0};
+
+  // Cada aula pesa uma vez, usando o resultado mais recente.
+  const avg=Math.round(arr.reduce((s,x)=>s+x.score,0)/arr.length);
+  return {score:avg,attempts:arr.length};
+}
+
+function getSimulationPerformanceV626(){
+  // Fonte unificada das versões 6.2.4/6.2.5.
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]");}catch(e){hist=[];}
+  if(!hist.length) return {score:0,count:0,best:0};
+
+  // Considera os 5 simulados mais recentes, com peso maior para os últimos.
+  const recent=hist.slice(0,5);
+  let weighted=0,totalWeight=0;
+  recent.forEach((h,i)=>{
+    const w=recent.length-i;
+    weighted += Number(h.score||0)*w;
+    totalWeight += w;
+  });
+  return {
+    score: totalWeight ? Math.round(weighted/totalWeight) : 0,
+    count: hist.length,
+    best: Math.max(...hist.map(h=>Number(h.score||0)))
+  };
+}
+
+function getErrorRecoveryV626(){
+  const pending = typeof getErrorsV60==="function" ? getErrorsV60().length : 0;
+  const resolved = typeof getReviewedErrorsV616==="function" ? getReviewedErrorsV616().length : v60Read("pmmg_reviewed_errors_v60",[]).length;
+  const worked=pending+resolved;
+
+  if(!worked) return {score:100,pending,resolved};
+
+  // Mede resolução real, sem contar o mesmo erro várias vezes.
+  const score=Math.round((resolved/worked)*100);
+  return {score,pending,resolved};
+}
+
+function getConsistencyV626(){
+  const streak=Math.max(1,Number(state?.streak||localStorage.getItem("pmmg_streak")||1));
+  const history=v60Read("pmmg_history_v60",[]);
+  const days=new Set(
+    history
+      .map(e=>String(e.date||"").slice(0,10))
+      .filter(Boolean)
+  );
+
+  // Combina sequência atual + dias únicos com atividade.
+  const streakScore=Math.min(100,streak*12.5);
+  const activityScore=Math.min(100,days.size*10);
+  return Math.round(streakScore*0.6+activityScore*0.4);
+}
+
+function getReviewActivityV626(){
+  const revisions=v60Read("pmmg_revisions_v60",[]);
+  const completed = revisions.filter(r=>r.done).length;
+  const scheduled = revisions.length;
+
+  const smartDone = !!localStorage.getItem("pmmg_review_completed_v617");
+  let score=0;
+  if(scheduled) score=Math.round((completed/scheduled)*80);
+  if(smartDone) score=Math.min(100,score+20);
+  return score;
+}
+
+function getPreparationMetricsV626(){
+  const lessons = typeof getLessonNumbers==="function" ? getLessonNumbers() : [1,2];
+  const completed = Array.isArray(state?.completedLessons) ? state.completedLessons.length : 0;
+  const content = lessons.length ? Math.min(100,Math.round(completed/lessons.length*100)) : 0;
+
+  const lessonPerf=getUniqueQuestionPerformanceV626();
+  const simPerf=getSimulationPerformanceV626();
+  const errors=getErrorRecoveryV626();
+  const review=getReviewActivityV626();
+  const consistency=getConsistencyV626();
+
+  // Índice 2.0:
+  // conteúdo 25 | aulas 25 | simulados 20 | erros 15 | revisão 10 | constância 5
+  const score=Math.round(
+    content*0.25 +
+    lessonPerf.score*0.25 +
+    simPerf.score*0.20 +
+    errors.score*0.15 +
+    review*0.10 +
+    consistency*0.05
+  );
+
+  return {
+    score,
+    content,
+    lessonPerformance:lessonPerf.score,
+    simulationPerformance:simPerf.score,
+    errorRecovery:errors.score,
+    review,
+    consistency,
+    simCount:simPerf.count,
+    simBest:simPerf.best,
+    pendingErrors:errors.pending,
+    resolvedErrors:errors.resolved
+  };
+}
+
+function getPreparationLevelV626(score){
+  if(score>=95) return {name:"Pronto para a missão 🎯",message:"Seu índice está em nível máximo. Mantenha constância e revise pontos específicos."};
+  if(score>=85) return {name:"Nível competitivo",message:"Seu desempenho já está em faixa competitiva. Priorize estabilidade e simulados."};
+  if(score>=70) return {name:"Preparação avançada",message:"Boa base. Agora o foco é transformar erros recorrentes em acertos consistentes."};
+  if(score>=50) return {name:"Preparação intermediária",message:"A base está crescendo. Continue avançando no conteúdo e corrigindo erros."};
+  if(score>=30) return {name:"Em treinamento",message:"Você já saiu do início. A prioridade é ganhar consistência em provas e revisões."};
+  return {name:"Recruta",message:"Fase inicial. Construa base com aulas, questões e revisão dos erros."};
+}
+
+function getPreparationInsightV626(m){
+  const metrics=[
+    ["Conteúdo",m.content],
+    ["Aulas",m.lessonPerformance],
+    ["Simulados",m.simulationPerformance],
+    ["Erros",m.errorRecovery],
+    ["Revisão",m.review],
+    ["Constância",m.consistency]
+  ];
+  const sorted=[...metrics].sort((a,b)=>b[1]-a[1]);
+  return {strength:sorted[0][0],priority:sorted[sorted.length-1][0]};
+}
+
+window.renderPreparationIndexV60=function(){
+  const m=getPreparationMetricsV626();
+  const level=getPreparationLevelV626(m.score);
+  const insight=getPreparationInsightV626(m);
+
+  const set=(id,val)=>{
+    const el=document.getElementById(id);
+    if(el) el.textContent=val;
+  };
+
+  // Mantém compatibilidade visual com a tela antiga.
+  set("prepIndexValueV60",m.score);
+  set("prepIndexLabelV60",level.name);
+  set("prepIndexTextV60","Índice 2.0: usa desempenho recente e evita que repetir a mesma questão distorça sua preparação.");
+
+  // Novo card
+  set("prep626Score",m.score);
+  set("prep626Level",level.name);
+  set("prep626Message",level.message);
+  set("prep626Strength",insight.strength);
+  set("prep626Priority",insight.priority);
+
+  const scale=document.getElementById("prep626ScaleFill");
+  if(scale) scale.style.width=`${m.score}%`;
+
+  const parts=[
+    ["Conteúdo concluído",m.content],
+    ["Desempenho nas aulas",m.lessonPerformance],
+    ["Simulados recentes",m.simulationPerformance],
+    ["Erros resolvidos",m.errorRecovery],
+    ["Revisão ativa",m.review],
+    ["Constância",m.consistency]
+  ];
+
+  const box=document.getElementById("prepBreakdownV60");
+  if(box){
+    box.innerHTML=parts.map(([n,v])=>`
+      <article class="v60-progress-item">
+        <header><strong>${n}</strong><span>${v}%</span></header>
+        <div class="bar"><i style="width:${v}%"></i></div>
+      </article>`).join("");
+  }
+};
+
+window.openPreparationIndexV60=function(){
+  showScreen("preparationIndexScreenV60","navEvolution");
+  renderPreparationIndexV60();
+  window.scrollTo(0,0);
+};
