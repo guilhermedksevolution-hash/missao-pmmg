@@ -833,3 +833,19 @@
 .s629recent{height:180px;display:flex;align-items:flex-end;justify-content:space-around;border-bottom:1px solid rgba(255,255,255,.08)}
 .s629mini{height:100%;width:18%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}.s629mini b{color:#d8bb70;margin-bottom:auto}.s629mini i{width:28px;background:#d8bb70;border-radius:8px 8px 0 0}.s629mini small{margin:8px 0;color:#8f99ab}
 #advancedStats629 .primary-btn{width:100%;margin:22px 0 110px}
+
+/* V6.3.0 — correção visual do botão das Estatísticas */
+#advancedStats629 .primary-btn{
+  display:block;
+  width:100%;
+  min-height:64px;
+  border:0;
+  border-radius:18px;
+  background:linear-gradient(180deg,#ead184,#d2ad57);
+  color:#111;
+  font-size:20px;
+  font-weight:800;
+  padding:16px 18px;
+  margin:22px 0 110px;
+  opacity:1;
+}
