@@ -3207,4 +3207,40 @@ function renderWeakPoints631(){
   recs.innerHTML=measured.length?measured.slice(0,3).map((x,i)=>`<article><span>${i===0?'🎯':i===1?'🧠':'📘'}</span><div><b>${x.name}</b><small>${i===0?'Prioridade ALTA — revise os erros e refaça questões.':i===1?'Prioridade MÉDIA — faça uma revisão curta e treine.':'Mantenha este assunto no ciclo de revisão.'}</small></div><button onclick="openLesson(${x.lesson})">Estudar</button></article>`).join(""):'<div class="empty-state">As recomendações aparecerão conforme você estudar.</div>';
 }
 function openWeakPoints631(){showScreen("weakPoints631","navEvolution");renderWeakPoints631();scrollTo(0,0)}
-\n\n/* V6.3.2 — Plano de Estudos Inteligente */\nfunction getSmartPlan632(){\n  const data=getWeakData631().filter(x=>x.total>0||x.pending>0);\n  const top=data[0]||{lesson:1,name:"Interpretação de texto",accuracy:0,pending:0};\n  const reviewCount=Math.max(1,Math.min(5,top.pending||3));\n  return {top,reviewCount,goal:70};\n}\nfunction renderSmartPlan632(){\n  const {top,reviewCount,goal}=getSmartPlan632();\n  const title=document.getElementById("p632title"), text=document.getElementById("p632text"), steps=document.getElementById("p632steps"), bar=document.getElementById("p632bar"), prog=document.getElementById("p632progress"), goalEl=document.getElementById("p632goal");\n  if(!title||!steps)return;\n  title.textContent=`Fortalecer: ${top.name}`;\n  text.textContent=`Seu desempenho atual neste assunto é ${top.accuracy===null?"ainda não medido":top.accuracy+"%"}. A missão prioriza estudo, revisão e treino direcionado.`;\n  goalEl.textContent=`Meta: atingir pelo menos ${goal}% em ${top.name}.`;\n  const studied=(top.accuracy!==null&&top.accuracy>=goal);\n  const reviewed=top.pending===0;\n  const done=(studied?1:0)+(reviewed?1:0);\n  bar.style.width=Math.round(done/3*100)+"%"; prog.textContent=`${done} de 3 etapas concluídas`;\n  steps.innerHTML=`\n    <article><span>📘</span><div><b>1. Estudar ${top.name}</b><small>Reforce a teoria antes de aumentar a dificuldade.</small></div><button onclick="openLesson(${top.lesson})">Estudar</button></article>\n    <article><span>🧠</span><div><b>2. Revisar ${reviewCount} erro(s)</b><small>Use o Caderno de Erros para atacar as falhas recentes.</small></div><button onclick="openErrorNotebook()">Revisar</button></article>\n    <article><span>🎯</span><div><b>3. Fazer questões direcionadas</b><small>Faça um treino e busque pelo menos ${goal}% de acerto.</small></div><button onclick="startSimulationV510('rapido')">Treinar</button></article>`;\n}\nfunction openSmartPlan632(){showScreen("smartPlan632","navEvolution");renderSmartPlan632();scrollTo(0,0)}\nwindow.openSmartPlan632=openSmartPlan632;\n
+
+
+/* V6.3.2 — Plano de Estudos Inteligente */
+function getSmartPlan632(){
+  const data=getWeakData631().filter(x=>x.total>0||x.pending>0);
+  const top=data[0]||{lesson:1,name:"Interpretação de texto",accuracy:0,pending:0};
+  const reviewCount=Math.max(1,Math.min(5,top.pending||3));
+  return {top,reviewCount,goal:70};
+}
+function renderSmartPlan632(){
+  const {top,reviewCount,goal}=getSmartPlan632();
+  const title=document.getElementById("p632title"), text=document.getElementById("p632text"), steps=document.getElementById("p632steps"), bar=document.getElementById("p632bar"), prog=document.getElementById("p632progress"), goalEl=document.getElementById("p632goal");
+  if(!title||!steps)return;
+  title.textContent=`Fortalecer: ${top.name}`;
+  text.textContent=`Seu desempenho atual neste assunto é ${top.accuracy===null?"ainda não medido":top.accuracy+"%"}. A missão prioriza estudo, revisão e treino direcionado.`;
+  goalEl.textContent=`Meta: atingir pelo menos ${goal}% em ${top.name}.`;
+  const studied=(top.accuracy!==null&&top.accuracy>=goal);
+  const reviewed=top.pending===0;
+  const done=(studied?1:0)+(reviewed?1:0);
+  bar.style.width=Math.round(done/3*100)+"%"; prog.textContent=`${done} de 3 etapas concluídas`;
+  steps.innerHTML=`
+    <article><span>📘</span><div><b>1. Estudar ${top.name}</b><small>Reforce a teoria antes de aumentar a dificuldade.</small></div><button onclick="openLesson(${top.lesson})">Estudar</button></article>
+    <article><span>🧠</span><div><b>2. Revisar ${reviewCount} erro(s)</b><small>Use o Caderno de Erros para atacar as falhas recentes.</small></div><button onclick="openErrorNotebook()">Revisar</button></article>
+    <article><span>🎯</span><div><b>3. Fazer questões direcionadas</b><small>Faça um treino e busque pelo menos ${goal}% de acerto.</small></div><button onclick="startSimulationV510('rapido')">Treinar</button></article>`;
+}
+function openSmartPlan632(){showScreen("smartPlan632","navEvolution");renderSmartPlan632();scrollTo(0,0)}
+window.openSmartPlan632=openSmartPlan632;
+
+
+/* V6.3.3 — Perfil pessoal local */
+function getProfile633(){try{return JSON.parse(localStorage.getItem('pmmg_profile_v633')||'{}')}catch(e){return {}}}
+function saveProfile633(){const old=getProfile633();const p={name:(document.getElementById('profileName633')?.value||'').trim(),nickname:(document.getElementById('profileNick633')?.value||'').trim(),goal:(document.getElementById('profileGoal633')?.value||'').trim(),city:(document.getElementById('profileCity633')?.value||'').trim(),photo:old.photo||''};localStorage.setItem('pmmg_profile_v633',JSON.stringify(p));renderProfile633();alert('Perfil salvo neste aparelho.');}
+function renderProfile633(){const p=getProfile633();const map={profileName633:p.name||'',profileNick633:p.nickname||'',profileGoal633:p.goal||'Aprovação PMMG',profileCity633:p.city||''};Object.entries(map).forEach(([id,v])=>{const el=document.getElementById(id);if(el)el.value=v});const img=document.getElementById('profilePhoto633'),ph=document.getElementById('profilePlaceholder633');if(img&&ph){if(p.photo){img.src=p.photo;img.style.display='block';ph.style.display='none'}else{img.style.display='none';ph.style.display='grid'}}const label=document.getElementById('profileHeaderLabel633');if(label)label.textContent=p.nickname||p.name||'Perfil';}
+function chooseProfilePhoto633(){document.getElementById('profileFile633')?.click()}
+function profilePhotoChanged633(ev){const file=ev.target.files&&ev.target.files[0];if(!file)return;if(!file.type.startsWith('image/')){alert('Escolha uma imagem.');return}const reader=new FileReader();reader.onload=()=>{const p=getProfile633();p.photo=reader.result;localStorage.setItem('pmmg_profile_v633',JSON.stringify(p));renderProfile633()};reader.readAsDataURL(file);}
+function openProfile633(){showScreen('profileScreen633','');renderProfile633();scrollTo(0,0)}
+window.openProfile633=openProfile633;window.saveProfile633=saveProfile633;window.chooseProfilePhoto633=chooseProfilePhoto633;window.profilePhotoChanged633=profilePhotoChanged633;document.addEventListener('DOMContentLoaded',renderProfile633);
