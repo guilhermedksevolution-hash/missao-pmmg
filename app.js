@@ -364,3 +364,6 @@ function initializeApp(){
 document.addEventListener("DOMContentLoaded",initializeApp);
 
 function openProfessorIA(){ showScreen("professorScreen"); }
+
+function openStudyHub(){ showScreen("studyHubScreen"); }
+function openProfessorIA(){ showScreen("professorScreen"); }
