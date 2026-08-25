@@ -3109,3 +3109,31 @@ function openSimHistory627(){showScreen("simHistory627","navEvolution");renderSi
 window.openSimHistory627=openSimHistory627;
 function wireHist627(){document.querySelectorAll("article,button,.card,.menu-card").forEach(e=>{let t=(e.textContent||"").trim().toLowerCase();if((t.startsWith("histórico")||t.includes("histórico de simulados"))&&!e.closest("#simHistory627")){e.style.cursor="pointer";e.onclick=openSimHistory627}})}
 document.readyState==="loading"?document.addEventListener("DOMContentLoaded",wireHist627):wireHist627();
+
+/* ==========================================================
+   V6.2.8 — CORREÇÃO DO ACESSO AO HISTÓRICO DE SIMULADOS
+   ========================================================== */
+function fixEvolutionHistoryCardsV628(){
+  const evo=document.getElementById("evolutionScreen");
+  if(!evo) return;
+
+  evo.querySelectorAll("article").forEach(card=>{
+    const txt=(card.textContent||"").trim().toLowerCase();
+
+    if(txt.includes("histórico de simulados")){
+      card.onclick=openSimHistory627;
+      card.style.cursor="pointer";
+    }
+
+    if(txt.includes("atividade de estudos")){
+      card.onclick=openStudyHistoryV60;
+      card.style.cursor="pointer";
+    }
+  });
+}
+
+if(document.readyState==="loading"){
+  document.addEventListener("DOMContentLoaded",fixEvolutionHistoryCardsV628);
+}else{
+  fixEvolutionHistoryCardsV628();
+}
