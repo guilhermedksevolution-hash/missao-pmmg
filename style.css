@@ -571,3 +571,36 @@
 .v60-filter-row{display:flex;gap:6px;overflow:auto;padding:0 0 9px;scrollbar-width:none}.v60-filter-row button{flex:0 0 auto;padding:7px 10px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--muted);font-size:7px;font-weight:900}.v60-filter-row button.active{color:var(--gold);border-color:rgba(214,187,123,.24)}
 .v60-mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:9px}.v60-mini-stats article{padding:9px;text-align:center;border-radius:11px;background:var(--card);border:1px solid var(--line)}.v60-mini-stats strong{display:block;color:var(--gold);font-size:15px}.v60-mini-stats small{color:var(--muted);font-size:6px}
 @media(max-width:370px){.v60-grid{grid-template-columns:1fr}.v60-mini-stats{grid-template-columns:1fr 1fr}}
+
+/* V6.1.1 — abertura das aulas no celular */
+.lesson-card-v611{
+  position:relative;
+  cursor:pointer;
+  padding-right:12px;
+}
+.lesson-open-v611{
+  flex:0 0 auto;
+  min-height:36px;
+  padding:8px 10px;
+  border-radius:10px;
+  border:1px solid rgba(214,187,123,.18);
+  background:rgba(214,187,123,.07);
+  color:var(--gold);
+  font-size:8px;
+  font-weight:900;
+}
+.lesson-card-v611.locked{
+  cursor:not-allowed;
+}
+@media(max-width:420px){
+  .lesson-card-v611{
+    display:grid;
+    grid-template-columns:43px 1fr auto;
+    align-items:center;
+  }
+  .lesson-open-v611{
+    grid-column:2 / 4;
+    width:100%;
+    margin-top:8px;
+  }
+}
