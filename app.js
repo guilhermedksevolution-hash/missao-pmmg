@@ -2607,3 +2607,164 @@ document.addEventListener("DOMContentLoaded",()=>{
     }
   }catch(e){}
 });
+
+/* ==========================================================
+   V6.2.2 — CORREÇÃO DE INÍCIO DOS SIMULADOS 2.0
+   ========================================================== */
+
+function getSimulationPoolV622(){
+  const pool=[];
+
+  // Caminho 1: banco global atual.
+  try{
+    if(window.lessons && typeof window.lessons==="object"){
+      Object.keys(window.lessons).forEach(k=>{
+        const lesson=window.lessons[k];
+        if(!lesson || !Array.isArray(lesson.quiz)) return;
+        lesson.quiz.forEach((q,qi)=>{
+          if(!q || !Array.isArray(q.options)) return;
+          pool.push({
+            lessonNumber:Number(k),
+            lessonTitle:lesson.title || `Aula ${k}`,
+            questionIndex:qi,
+            question:q.question,
+            options:q.options,
+            answer:Number(q.answer),
+            explanation:q.explanation || "Revise o conteúdo relacionado a esta questão.",
+            tip:q.tip || "Compare a alternativa com a regra estudada."
+          });
+        });
+      });
+    }
+  }catch(e){
+    console.warn("Pool global V6.2.2:",e);
+  }
+
+  // Caminho 2: funções do próprio app, caso o banco global mude no futuro.
+  if(!pool.length){
+    try{
+      const nums=typeof getLessonNumbers==="function" ? getLessonNumbers() : [];
+      nums.forEach(n=>{
+        const lesson=typeof getLessonData==="function" ? getLessonData(n) : null;
+        if(!lesson || !Array.isArray(lesson.quiz)) return;
+        lesson.quiz.forEach((q,qi)=>{
+          if(!q || !Array.isArray(q.options)) return;
+          pool.push({
+            lessonNumber:Number(n),
+            lessonTitle:lesson.title || `Aula ${n}`,
+            questionIndex:qi,
+            question:q.question,
+            options:q.options,
+            answer:Number(q.answer),
+            explanation:q.explanation || "Revise o conteúdo relacionado a esta questão.",
+            tip:q.tip || "Compare a alternativa com a regra estudada."
+          });
+        });
+      });
+    }catch(e){
+      console.warn("Pool fallback V6.2.2:",e);
+    }
+  }
+
+  return pool;
+}
+
+window.startConfiguredSimulationV622=function(type="portugues"){
+  try{
+    const pool=getSimulationPoolV622();
+
+    if(!pool.length){
+      alert("⚠️ O banco de questões não foi carregado. Atualize a página e tente novamente.");
+      return;
+    }
+
+    const countEl=document.getElementById("sim621QuestionCount");
+    const timeEl=document.getElementById("sim621Minutes");
+    const count=Math.max(1,Number(countEl?.value || 10));
+    const minutes=Math.max(1,Number(timeEl?.value || 15));
+
+    simConfigV621={count,minutes,type};
+    localStorage.setItem("pmmg_sim_config_v621",JSON.stringify(simConfigV621));
+
+    // Fisher-Yates: embaralhamento confiável.
+    const shuffled=[...pool];
+    for(let i=shuffled.length-1;i>0;i--){
+      const j=Math.floor(Math.random()*(i+1));
+      [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
+    }
+
+    simQuestionsV510=shuffled.slice(0,Math.min(count,shuffled.length));
+    simAnswersV510=new Array(simQuestionsV510.length).fill(null);
+    simIndexV510=0;
+    simSecondsV510=minutes*60;
+    simStartedAtV510=Date.now();
+
+    if(simTimerV510){
+      clearInterval(simTimerV510);
+      simTimerV510=null;
+    }
+
+    const title=document.getElementById("simTitleV510");
+    const screen=document.getElementById("simulationScreenV510");
+    const card=document.getElementById("simQuestionCardV510");
+
+    if(!screen || !card){
+      alert("⚠️ A tela do simulado não foi encontrada. Recarregue o site.");
+      return;
+    }
+
+    if(title){
+      title.textContent=type==="portugues"
+        ? "Português • Simulado 2.0"
+        : "Misto • Simulado 2.0";
+    }
+
+    showScreen("simulationScreenV510","navTrain");
+    renderSimulationQuestionV510();
+    updateSimulationClockV510();
+    window.scrollTo(0,0);
+
+    simTimerV510=setInterval(()=>{
+      simSecondsV510=Math.max(0,simSecondsV510-1);
+      updateSimulationClockV510();
+
+      if(simSecondsV510<=0){
+        clearInterval(simTimerV510);
+        simTimerV510=null;
+        alert("⏱️ Tempo encerrado. O simulado será finalizado.");
+        finishSimulationV510(true);
+      }
+    },1000);
+
+  }catch(e){
+    console.error("Falha ao iniciar Simulado 2.0:",e);
+    alert("⚠️ Não foi possível iniciar o simulado. Atualize a página e tente novamente.");
+  }
+};
+
+// Mantém compatibilidade com a função da V6.2.1.
+window.startConfiguredSimulationV621=window.startConfiguredSimulationV622;
+
+// Event listeners diretos: funcionam mesmo se o onclick do navegador falhar.
+document.addEventListener("DOMContentLoaded",()=>{
+  const pt=document.getElementById("sim622StartPortuguese");
+  const mixed=document.getElementById("sim622StartMixed");
+
+  if(pt){
+    pt.addEventListener("click",(e)=>{
+      e.preventDefault();
+      e.stopPropagation();
+      startConfiguredSimulationV622("portugues");
+    });
+    pt.onclick=null;
+  }
+
+  if(mixed){
+    mixed.addEventListener("click",(e)=>{
+      e.preventDefault();
+      e.stopPropagation();
+      startConfiguredSimulationV622("misto");
+    });
+    mixed.onclick=null;
+  }
+});
