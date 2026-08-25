@@ -1,4 +1,3 @@
-
 const PASS_SCORE = 70;
 const XP_PER_APPROVAL = 100;
 
@@ -14,227 +13,143 @@ function defaultState() {
     scores: {},
     xp: 0,
     streak: 0,
-    lastStudyDate: null
+    lastStudyDate: null,
+    errors: []
   };
 }
 
 function loadState() {
   try {
-    const saved = localStorage.getItem("missaoPMMGState");
-    if (!saved) return defaultState();
+    const raw = localStorage.getItem("missaoPMMGState");
+    if (!raw) return defaultState();
 
-    const parsed = JSON.parse(saved);
+    const parsed = JSON.parse(raw);
 
     return {
       ...defaultState(),
       ...parsed,
-      unlockedLessons: Array.isArray(parsed.unlockedLessons)
-        ? parsed.unlockedLessons
-        : [1],
-      completedLessons: Array.isArray(parsed.completedLessons)
-        ? parsed.completedLessons
-        : [],
-      scores: parsed.scores || {}
+      unlockedLessons: Array.isArray(parsed.unlockedLessons) ? parsed.unlockedLessons : [1],
+      completedLessons: Array.isArray(parsed.completedLessons) ? parsed.completedLessons : [],
+      scores: parsed.scores || {},
+      errors: Array.isArray(parsed.errors) ? parsed.errors : []
     };
-  } catch (error) {
-    console.error("Erro ao carregar progresso:", error);
+  } catch (e) {
+    console.error("Erro ao carregar progresso:", e);
     return defaultState();
   }
 }
 
 function saveState() {
-  localStorage.setItem(
-    "missaoPMMGState",
-    JSON.stringify(state)
-  );
+  localStorage.setItem("missaoPMMGState", JSON.stringify(state));
 }
 
-function getAllScreens() {
-  return document.querySelectorAll(".screen");
-}
+function showScreen(id, nav = "") {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
 
-function showScreen(screenId) {
-  getAllScreens().forEach((screen) => {
-    screen.classList.remove("active");
-  });
+  const screen = document.getElementById(id);
+  if (screen) screen.classList.add("active");
 
-  const target = document.getElementById(screenId);
-
-  if (target) {
-    target.classList.add("active");
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
+  document.querySelectorAll(".bottom-nav button").forEach(b => b.classList.remove("active"));
+  if (nav) {
+    const btn = document.getElementById(nav);
+    if (btn) btn.classList.add("active");
   }
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function goHome() {
   updateDashboard();
-  showScreen("homeScreen");
+  showScreen("homeScreen", "navHome");
 }
 
 function openSubjects() {
   updateDashboard();
-  showScreen("subjectsScreen");
+  showScreen("subjectsScreen", "navSubjects");
 }
 
 function openPortuguese() {
   renderLessonList();
   updateDashboard();
-  showScreen("lessonsScreen");
+  showScreen("lessonsScreen", "navMission");
 }
 
-function getLessonData(lessonNumber) {
-  if (
-    typeof window.lessons !== "undefined" &&
-    window.lessons[lessonNumber]
-  ) {
-    return window.lessons[lessonNumber];
-  }
+function openErrorNotebook() {
+  renderErrorNotebook();
+  updateDashboard();
+  showScreen("errorsScreen", "navErrors");
+}
 
-  return null;
+function getLessonData(n) {
+  return (typeof window.lessons !== "undefined" && window.lessons[n])
+    ? window.lessons[n]
+    : null;
 }
 
 function getLessonNumbers() {
-  if (typeof window.lessons === "undefined") {
-    return [];
-  }
-
-  return Object.keys(window.lessons)
-    .map(Number)
-    .filter(Number.isFinite)
-    .sort((a, b) => a - b);
+  if (typeof window.lessons === "undefined") return [];
+  return Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b) => a-b);
 }
 
-function isLessonUnlocked(lessonNumber) {
-  return (
-    lessonNumber === 1 ||
-    state.unlockedLessons.includes(lessonNumber)
-  );
+function isLessonUnlocked(n) {
+  return n === 1 || state.unlockedLessons.includes(n);
 }
 
-function isLessonCompleted(lessonNumber) {
-  return state.completedLessons.includes(lessonNumber);
+function isLessonCompleted(n) {
+  return state.completedLessons.includes(n);
 }
 
 function renderLessonList() {
-  const lessonList = document.getElementById("lessonList");
-
-  if (!lessonList) return;
+  const el = document.getElementById("lessonList");
+  if (!el) return;
 
   const numbers = getLessonNumbers();
 
-  if (numbers.length === 0) {
-    lessonList.innerHTML = `
-      <div class="lesson-card">
-        <div class="lesson-card-content">
-          <h3>Nenhuma aula encontrada</h3>
-          <p>Verifique o arquivo lessons.js.</p>
-        </div>
-      </div>
-    `;
-    return;
-  }
-
-  lessonList.innerHTML = numbers.map((lessonNumber) => {
-    const lesson = getLessonData(lessonNumber);
-    const unlocked = isLessonUnlocked(lessonNumber);
-    const completed = isLessonCompleted(lessonNumber);
-    const score = state.scores[lessonNumber];
-
-    let statusIcon = "🔒";
-
-    if (completed) {
-      statusIcon = "✅";
-    } else if (unlocked) {
-      statusIcon = "▶️";
-    }
-
-    const classes = [
-      "lesson-card",
-      !unlocked ? "locked" : "",
-      completed ? "completed" : ""
-    ].filter(Boolean).join(" ");
-
-    const click = unlocked
-      ? `onclick="openLesson(${lessonNumber})"`
-      : "";
-
-    let statusText = "Bloqueada";
-
-    if (completed) {
-      statusText = "Concluída";
-    } else if (unlocked) {
-      statusText = "Disponível";
-    }
-
-    const scoreBadge = typeof score === "number"
-      ? `<span class="score-badge">Melhor nota: ${score}%</span>`
-      : "";
-
-    const lockMessage = !unlocked
-      ? `<div class="lock-message">Atinga 70% na aula anterior para liberar.</div>`
-      : "";
+  el.innerHTML = numbers.map(n => {
+    const lesson = getLessonData(n);
+    const unlocked = isLessonUnlocked(n);
+    const completed = isLessonCompleted(n);
+    const score = state.scores[n];
 
     return `
-      <div class="${classes}" ${click}>
-        <div class="lesson-number">
-          ${String(lessonNumber).padStart(2, "0")}
-        </div>
-
+      <div class="lesson-card ${!unlocked ? "locked" : ""} ${completed ? "completed" : ""}"
+           ${unlocked ? `onclick="openLesson(${n})"` : ""}>
+        <div class="lesson-number">${String(n).padStart(2,"0")}</div>
         <div class="lesson-card-content">
           <h3>${lesson.title}</h3>
           <p>${lesson.subtitle} • ${lesson.time}</p>
-          <p>${statusText}</p>
-          ${scoreBadge}
-          ${lockMessage}
+          <p>${completed ? "Concluída" : unlocked ? "Disponível" : "Bloqueada"}</p>
+          ${typeof score === "number" ? `<span class="score-badge">Melhor nota: ${score}%</span>` : ""}
+          ${!unlocked ? `<div class="lock-message">Atinga 70% na aula anterior para liberar.</div>` : ""}
         </div>
-
-        <div class="lesson-card-status">
-          ${statusIcon}
-        </div>
+        <div class="lesson-card-status">${completed ? "✓" : unlocked ? "›" : "🔒"}</div>
       </div>
     `;
   }).join("");
 }
 
-function openLesson(lessonNumber) {
-  if (!isLessonUnlocked(lessonNumber)) {
-    alert(
-      `A Aula ${lessonNumber} ainda está bloqueada. ` +
-      `Você precisa atingir pelo menos ${PASS_SCORE}% na aula anterior.`
-    );
-    return;
-  }
+function openLesson(n) {
+  if (!isLessonUnlocked(n)) return;
 
-  const lesson = getLessonData(lessonNumber);
-
+  const lesson = getLessonData(n);
   if (!lesson) {
-    alert(
-      `Conteúdo da Aula ${lessonNumber} não encontrado no lessons.js.`
-    );
+    alert(`Conteúdo da Aula ${n} não encontrado.`);
     return;
   }
 
-  currentLessonNumber = lessonNumber;
+  currentLessonNumber = n;
   currentQuiz = null;
 
-  const subtitle = document.getElementById("lessonSubtitle");
-  const title = document.getElementById("lessonTitle");
-  const time = document.getElementById("lessonTime");
-  const content = document.getElementById("lessonContent");
-
-  if (subtitle) subtitle.textContent = lesson.subtitle;
-  if (title) title.textContent = lesson.title;
-  if (time) time.textContent = lesson.time;
-  if (content) content.innerHTML = lesson.content;
+  document.getElementById("lessonSubtitle").textContent = lesson.subtitle;
+  document.getElementById("lessonTitle").textContent = lesson.title;
+  document.getElementById("lessonTime").textContent = lesson.time;
+  document.getElementById("lessonContent").innerHTML = lesson.content;
 
   updateStudyStreak();
   saveState();
   updateDashboard();
 
-  showScreen("lessonScreen");
+  showScreen("lessonScreen", "navMission");
 }
 
 function backToCurrentLesson() {
@@ -243,130 +158,141 @@ function backToCurrentLesson() {
 
 function startQuiz() {
   const lesson = getLessonData(currentLessonNumber);
-
-  if (
-    !lesson ||
-    !Array.isArray(lesson.quiz) ||
-    lesson.quiz.length === 0
-  ) {
-    alert("Esta aula ainda não possui prova cadastrada.");
+  if (!lesson || !Array.isArray(lesson.quiz) || lesson.quiz.length === 0) {
+    alert("Esta aula ainda não possui prova.");
     return;
   }
 
   currentQuiz = lesson.quiz;
+  document.getElementById("quizTitle").textContent =
+    `Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
 
-  const quizTitle = document.getElementById("quizTitle");
-  const quizForm = document.getElementById("quizForm");
-
-  if (quizTitle) {
-    quizTitle.textContent =
-      `Prova da Aula ${String(currentLessonNumber).padStart(2, "0")}`;
-  }
-
-  if (!quizForm) return;
-
-  quizForm.innerHTML = currentQuiz.map((question, index) => {
-    const options = question.options.map((option, optionIndex) => `
-      <label class="answer-option">
-        <input
-          type="radio"
-          name="question-${index}"
-          value="${optionIndex}"
-        >
-        <span>${option}</span>
-      </label>
-    `).join("");
-
-    return `
-      <div class="question-card">
-        <p class="question-number">
-          QUESTÃO ${String(index + 1).padStart(2, "0")}
-        </p>
-
-        <h3>${question.question}</h3>
-
-        <div class="answers">
-          ${options}
-        </div>
+  document.getElementById("quizForm").innerHTML = currentQuiz.map((q, i) => `
+    <div class="question-card">
+      <div class="question-number">QUESTÃO ${String(i+1).padStart(2,"0")}</div>
+      <h3>${q.question}</h3>
+      <div class="answers">
+        ${q.options.map((opt, oi) => `
+          <label class="answer-option">
+            <input type="radio" name="question-${i}" value="${oi}">
+            <span>${opt}</span>
+          </label>
+        `).join("")}
       </div>
-    `;
-  }).join("");
+    </div>
+  `).join("");
 
-  showScreen("quizScreen");
+  showScreen("quizScreen", "navMission");
 }
 
 function submitQuiz() {
-  if (!currentQuiz || currentQuiz.length === 0) {
-    alert("Nenhuma prova foi carregada.");
-    return;
-  }
+  if (!currentQuiz) return;
 
-  let correctAnswers = 0;
+  let correct = 0;
   let answered = 0;
 
-  currentQuiz.forEach((question, index) => {
-    const selected = document.querySelector(
-      `input[name="question-${index}"]:checked`
-    );
+  currentQuiz.forEach((q, i) => {
+    const selected = document.querySelector(`input[name="question-${i}"]:checked`);
+    if (!selected) return;
 
-    if (selected) {
-      answered += 1;
+    answered++;
+    const selectedIndex = Number(selected.value);
 
-      if (Number(selected.value) === question.answer) {
-        correctAnswers += 1;
-      }
+    if (selectedIndex === q.answer) {
+      correct++;
+      removeError(currentLessonNumber, i);
+    } else {
+      addError(currentLessonNumber, i, selectedIndex);
     }
   });
 
   if (answered < currentQuiz.length) {
-    const unanswered = currentQuiz.length - answered;
-
-    alert(
-      `Você ainda deixou ${unanswered} ` +
-      `${unanswered === 1 ? "questão" : "questões"} sem resposta.`
-    );
-
+    alert(`Você ainda deixou ${currentQuiz.length - answered} questão(ões) sem resposta.`);
     return;
   }
 
-  const score = Math.round(
-    (correctAnswers / currentQuiz.length) * 100
-  );
-
+  const score = Math.round((correct / currentQuiz.length) * 100);
   const approved = score >= PASS_SCORE;
 
-  registerResult(
-    currentLessonNumber,
-    score,
-    approved
-  );
-
-  showResult(
-    score,
-    correctAnswers,
-    currentQuiz.length,
-    approved
-  );
+  registerResult(currentLessonNumber, score, approved);
+  showResult(score, correct, currentQuiz.length, approved);
 }
 
-function registerResult(
-  lessonNumber,
-  score,
-  approved
-) {
-  const previousScore =
-    typeof state.scores[lessonNumber] === "number"
-      ? state.scores[lessonNumber]
-      : null;
+function addError(lessonNumber, questionIndex, selectedIndex) {
+  const lesson = getLessonData(lessonNumber);
+  if (!lesson) return;
 
-  const firstApproval =
-    approved &&
-    !state.completedLessons.includes(lessonNumber);
+  const q = lesson.quiz[questionIndex];
 
-  if (
-    previousScore === null ||
-    score > previousScore
-  ) {
+  const id = `${lessonNumber}-${questionIndex}`;
+
+  state.errors = state.errors.filter(e => e.id !== id);
+
+  state.errors.push({
+    id,
+    lessonNumber,
+    lessonTitle: lesson.title,
+    questionIndex,
+    question: q.question,
+    selectedIndex,
+    selectedText: q.options[selectedIndex],
+    correctIndex: q.answer,
+    correctText: q.options[q.answer],
+    addedAt: Date.now()
+  });
+
+  saveState();
+}
+
+function removeError(lessonNumber, questionIndex) {
+  const id = `${lessonNumber}-${questionIndex}`;
+  state.errors = state.errors.filter(e => e.id !== id);
+  saveState();
+}
+
+function renderErrorNotebook() {
+  const el = document.getElementById("errorNotebookList");
+  if (!el) return;
+
+  if (!state.errors.length) {
+    el.innerHTML = `
+      <div class="empty-state">
+        <strong>Seu caderno está limpo 🎯</strong>
+        Continue fazendo provas. As questões erradas aparecerão aqui automaticamente.
+      </div>
+    `;
+    return;
+  }
+
+  const sorted = [...state.errors].sort((a,b) => b.addedAt - a.addedAt);
+
+  el.innerHTML = sorted.map(e => `
+    <article class="error-card">
+      <div class="error-meta">
+        AULA ${String(e.lessonNumber).padStart(2,"0")} • ${e.lessonTitle}
+      </div>
+
+      <h3>${e.question}</h3>
+
+      <div class="wrong-answer">
+        <strong>Sua resposta:</strong> ${e.selectedText}
+      </div>
+
+      <div class="correct-answer">
+        <strong>Resposta correta:</strong> ${e.correctText}
+      </div>
+    </article>
+  `).join("");
+}
+
+function registerResult(lessonNumber, score, approved) {
+  const previousScore = typeof state.scores[lessonNumber] === "number"
+    ? state.scores[lessonNumber]
+    : null;
+
+  const firstApproval = approved && !state.completedLessons.includes(lessonNumber);
+
+  if (previousScore === null || score > previousScore) {
     state.scores[lessonNumber] = score;
   }
 
@@ -387,303 +313,129 @@ function registerResult(
 }
 
 function unlockNextLesson(currentNumber) {
-  const lessonNumbers = getLessonNumbers();
-  const currentIndex = lessonNumbers.indexOf(currentNumber);
+  const nums = getLessonNumbers();
+  const idx = nums.indexOf(currentNumber);
+  const next = nums[idx + 1];
 
-  if (currentIndex === -1) return;
-
-  const nextLesson = lessonNumbers[currentIndex + 1];
-
-  if (
-    nextLesson &&
-    !state.unlockedLessons.includes(nextLesson)
-  ) {
-    state.unlockedLessons.push(nextLesson);
+  if (next && !state.unlockedLessons.includes(next)) {
+    state.unlockedLessons.push(next);
   }
 }
 
-function showResult(
-  score,
-  correct,
-  total,
-  approved
-) {
-  const icon = document.getElementById("resultIcon");
-  const title = document.getElementById("resultTitle");
-  const scoreEl = document.getElementById("resultScore");
-  const message = document.getElementById("resultMessage");
-  const stats = document.getElementById("resultStats");
-  const buttons = document.getElementById("resultButtons");
+function showResult(score, correct, total, approved) {
+  document.getElementById("resultIcon").textContent = approved ? "🏆" : "📚";
+  document.getElementById("resultTitle").textContent =
+    approved ? "Missão cumprida!" : "Continue treinando";
 
-  if (icon) {
-    icon.textContent = approved ? "🏆" : "📚";
-  }
+  document.getElementById("resultScore").textContent = `${score}%`;
 
-  if (title) {
-    title.textContent = approved
-      ? "Missão cumprida!"
-      : "Continue treinando";
-  }
+  document.getElementById("resultMessage").textContent = approved
+    ? "Você atingiu a meta e concluiu a aula. A próxima etapa foi liberada."
+    : "Você precisa de pelo menos 70%. Revise o conteúdo e tente novamente.";
 
-  if (scoreEl) {
-    scoreEl.textContent = `${score}%`;
-  }
+  document.getElementById("resultStats").innerHTML = `
+    <div class="result-stat">
+      <strong>${correct}/${total}</strong>
+      <span>Acertos</span>
+    </div>
+    <div class="result-stat">
+      <strong>${state.errors.length}</strong>
+      <span>No caderno de erros</span>
+    </div>
+  `;
 
-  if (message) {
-    message.textContent = approved
-      ? `Você atingiu a meta de ${PASS_SCORE}% e concluiu esta aula.`
-      : `Você precisa de pelo menos ${PASS_SCORE}% para concluir a aula. Revise o conteúdo e tente novamente.`;
-  }
+  const next = getNextLessonNumber(currentLessonNumber);
 
-  if (stats) {
-    stats.innerHTML = `
-      <div class="result-stat">
-        <strong>${correct}/${total}</strong>
-        <span>Acertos</span>
-      </div>
-
-      <div class="result-stat">
-        <strong>${score}%</strong>
-        <span>Nota</span>
-      </div>
+  document.getElementById("resultButtons").innerHTML = approved
+    ? `
+      ${next ? `<button class="btn btn-primary full-width" onclick="openLesson(${next})">Próxima aula</button>` : ""}
+      <button class="secondary-btn" onclick="openErrorNotebook()">Abrir Caderno de Erros</button>
+      <button class="secondary-btn" onclick="openLesson(${currentLessonNumber})">Rever aula</button>
+      <button class="secondary-btn" onclick="startQuiz()">Refazer prova</button>
+    `
+    : `
+      <button class="btn btn-primary full-width" onclick="openLesson(${currentLessonNumber})">Revisar conteúdo</button>
+      <button class="secondary-btn" onclick="openErrorNotebook()">Abrir Caderno de Erros</button>
+      <button class="secondary-btn" onclick="startQuiz()">Refazer prova</button>
     `;
-  }
 
-  if (buttons) {
-    if (approved) {
-      const nextLesson = getNextLessonNumber(
-        currentLessonNumber
-      );
-
-      const nextButton = nextLesson
-        ? `
-          <button
-            class="primary-btn full"
-            onclick="openLesson(${nextLesson})"
-          >
-            Ir para a próxima aula
-          </button>
-        `
-        : `
-          <button
-            class="primary-btn full"
-            onclick="openPortuguese()"
-          >
-            Voltar para as aulas
-          </button>
-        `;
-
-      buttons.innerHTML = `
-        ${nextButton}
-
-        <button
-          class="secondary-btn"
-          onclick="openLesson(${currentLessonNumber})"
-        >
-          Rever esta aula
-        </button>
-
-        <button
-          class="secondary-btn"
-          onclick="startQuiz()"
-        >
-          Refazer prova
-        </button>
-      `;
-    } else {
-      buttons.innerHTML = `
-        <button
-          class="primary-btn full"
-          onclick="openLesson(${currentLessonNumber})"
-        >
-          Revisar conteúdo
-        </button>
-
-        <button
-          class="secondary-btn"
-          onclick="startQuiz()"
-        >
-          Refazer prova
-        </button>
-
-        <button
-          class="secondary-btn"
-          onclick="openPortuguese()"
-        >
-          Voltar para as aulas
-        </button>
-      `;
-    }
-  }
-
-  showScreen("resultScreen");
+  showScreen("resultScreen", "navMission");
 }
 
-function getNextLessonNumber(lessonNumber) {
-  const numbers = getLessonNumbers();
-  const index = numbers.indexOf(lessonNumber);
-
-  if (index === -1) return null;
-
-  return numbers[index + 1] || null;
+function getNextLessonNumber(n) {
+  const nums = getLessonNumbers();
+  const idx = nums.indexOf(n);
+  return idx >= 0 ? (nums[idx + 1] || null) : null;
 }
 
 function updateStudyStreak() {
-  const today = new Date();
-  const todayKey = toDateKey(today);
+  const today = toDateKey(new Date());
 
   if (!state.lastStudyDate) {
     state.streak = 1;
-    state.lastStudyDate = todayKey;
+    state.lastStudyDate = today;
     return;
   }
 
-  if (state.lastStudyDate === todayKey) {
-    return;
-  }
+  if (state.lastStudyDate === today) return;
 
-  const yesterday = new Date(today);
-  yesterday.setDate(yesterday.getDate() - 1);
-  const yesterdayKey = toDateKey(yesterday);
+  const y = new Date();
+  y.setDate(y.getDate() - 1);
 
-  if (state.lastStudyDate === yesterdayKey) {
-    state.streak += 1;
-  } else {
-    state.streak = 1;
-  }
+  state.streak = state.lastStudyDate === toDateKey(y)
+    ? state.streak + 1
+    : 1;
 
-  state.lastStudyDate = todayKey;
+  state.lastStudyDate = today;
 }
 
-function toDateKey(date) {
-  const year = date.getFullYear();
-  const month = String(
-    date.getMonth() + 1
-  ).padStart(2, "0");
-  const day = String(
-    date.getDate()
-  ).padStart(2, "0");
-
-  return `${year}-${month}-${day}`;
+function toDateKey(d) {
+  return [
+    d.getFullYear(),
+    String(d.getMonth()+1).padStart(2,"0"),
+    String(d.getDate()).padStart(2,"0")
+  ].join("-");
 }
 
 function updateDashboard() {
-  const totalLessons = getLessonNumbers().length;
-  const completed = state.completedLessons.filter(
-    (lessonNumber) =>
-      getLessonData(lessonNumber)
-  );
+  const total = getLessonNumbers().length;
+  const completed = state.completedLessons.filter(n => !!getLessonData(n));
+  const count = completed.length;
+  const progress = total ? Math.round((count / total) * 100) : 0;
 
-  const completedCount = completed.length;
-
-  const progress = totalLessons > 0
-    ? Math.round(
-        (completedCount / totalLessons) * 100
-      )
+  const scoreValues = Object.values(state.scores).filter(v => typeof v === "number");
+  const average = scoreValues.length
+    ? Math.round(scoreValues.reduce((a,b) => a+b, 0) / scoreValues.length)
     : 0;
 
-  const approvedScores = completed
-    .map((lessonNumber) => state.scores[lessonNumber])
-    .filter((score) => typeof score === "number");
+  setText("streakValue", state.streak);
+  setText("xpValue", `${state.xp} XP`);
+  setText("globalProgressText", `${progress}%`);
+  setText("averageScoreValue", `${average}%`);
+  setText("completedLessonsValue", count);
+  setText("errorCountValue", state.errors.length);
+  setText("progressSubtitle", `${count} de ${total} aulas concluídas`);
+  setText("portugueseProgressText", `${count} de ${total} aulas concluídas`);
 
-  const averageScore = approvedScores.length > 0
-    ? Math.round(
-        approvedScores.reduce(
-          (sum, score) => sum + score,
-          0
-        ) / approvedScores.length
-      )
-    : 0;
-
-  setText(
-    "streakValue",
-    state.streak
-  );
-
-  setText(
-    "xpValue",
-    `${state.xp} XP`
-  );
-
-  setText(
-    "globalProgressText",
-    `${progress}%`
-  );
-
-  setWidth(
-    "globalProgressBar",
-    progress
-  );
-
-  setText(
-    "completedLessonsValue",
-    completedCount
-  );
-
-  setText(
-    "approvedTestsValue",
-    completedCount
-  );
-
-  setText(
-    "averageScoreValue",
-    `${averageScore}%`
-  );
-
-  setText(
-    "portugueseProgressText",
-    `${completedCount} de ${totalLessons} aulas concluídas`
-  );
-
-  setWidth(
-    "portugueseProgressBar",
-    progress
-  );
+  setWidth("globalProgressBar", progress);
+  setWidth("portugueseProgressBar", progress);
+  setWidth("portugueseProgressBar2", progress);
 }
 
 function setText(id, value) {
-  const element = document.getElementById(id);
-
-  if (element) {
-    element.textContent = value;
-  }
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
 }
 
-function setWidth(id, percent) {
-  const element = document.getElementById(id);
-
-  if (element) {
-    element.style.width =
-      `${Math.min(100, Math.max(0, percent))}%`;
-  }
-}
-
-function resetProgress() {
-  const confirmed = confirm(
-    "Tem certeza que deseja apagar todo o progresso da Missão PMMG?"
-  );
-
-  if (!confirmed) return;
-
-  localStorage.removeItem("missaoPMMGState");
-  location.reload();
+function setWidth(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.style.width = `${Math.max(0, Math.min(100, value))}%`;
 }
 
 function initializeApp() {
-  if (
-    typeof window.lessons === "undefined"
-  ) {
-    console.error(
-      "O arquivo lessons.js não foi carregado corretamente."
-    );
-  }
-
   updateDashboard();
   renderLessonList();
-  showScreen("homeScreen");
+  showScreen("homeScreen", "navHome");
 }
 
-document.addEventListener(
-  "DOMContentLoaded",
-  initializeApp
-);
+document.addEventListener("DOMContentLoaded", initializeApp);
