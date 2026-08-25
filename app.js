@@ -2768,3 +2768,85 @@ document.addEventListener("DOMContentLoaded",()=>{
     mixed.onclick=null;
   }
 });
+
+/* ==========================================================
+   V6.2.3 — CORREÇÃO DETALHADA DO SIMULADO 2.0
+   ========================================================== */
+let simCorrectionFilterV623="todos";
+
+function getSimCorrectionDataV623(){
+  if(!simLastResultV510) return [];
+  return simLastResultV510.questions.map((q,i)=>{
+    const selected=simLastResultV510.answers[i];
+    const ok=selected===q.answer;
+    return {q,i,selected,ok};
+  });
+}
+
+window.setSimCorrectionFilterV623=function(filter){
+  simCorrectionFilterV623=filter;
+  renderSimulationCorrectionV623();
+};
+
+function renderSimulationCorrectionV623(){
+  if(!simLastResultV510) return;
+  const box=document.getElementById("simCorrectionV510");
+  const summary=document.getElementById("simCorrectionSummaryV623");
+  if(!box||!summary) return;
+
+  const data=getSimCorrectionDataV623();
+  const correct=data.filter(x=>x.ok).length;
+  const wrong=data.length-correct;
+  const unanswered=data.filter(x=>x.selected===null).length;
+  const rate=data.length?Math.round(correct/data.length*100):0;
+
+  summary.innerHTML=`
+    <div class="sim623-head">
+      <div><span class="kicker">CORREÇÃO DETALHADA</span><h3>Veja exatamente onde melhorar</h3></div>
+      <strong>${rate}%</strong>
+    </div>
+    <div class="sim623-mini-stats">
+      <article><b>${correct}</b><small>Acertos</small></article>
+      <article><b>${wrong}</b><small>Erros</small></article>
+      <article><b>${unanswered}</b><small>Em branco</small></article>
+    </div>
+    <div class="sim623-filters">
+      <button class="${simCorrectionFilterV623==='todos'?'active':''}" onclick="setSimCorrectionFilterV623('todos')">Todas</button>
+      <button class="${simCorrectionFilterV623==='erros'?'active':''}" onclick="setSimCorrectionFilterV623('erros')">Erros</button>
+      <button class="${simCorrectionFilterV623==='acertos'?'active':''}" onclick="setSimCorrectionFilterV623('acertos')">Acertos</button>
+    </div>`;
+  summary.classList.remove("hidden");
+
+  let filtered=data;
+  if(simCorrectionFilterV623==="erros") filtered=data.filter(x=>!x.ok);
+  if(simCorrectionFilterV623==="acertos") filtered=data.filter(x=>x.ok);
+
+  box.innerHTML=filtered.length?filtered.map(({q,i,selected,ok})=>{
+    const errId=`${q.lessonNumber}-${q.questionIndex}`;
+    const pending=(typeof getErrorsV60==='function'?getErrorsV60():[]).some(e=>e.id===errId);
+    const subject=q.lessonTitle||`Aula ${q.lessonNumber||''}`;
+    return `<article class="sim510-correction-item sim623-item ${ok?'ok':'bad'}">
+      <div class="sim623-item-top">
+        <strong>Questão ${i+1} • ${ok?'✅ Acertou':'❌ Errou'}</strong>
+        <small>${subject}</small>
+      </div>
+      <h4>${q.question}</h4>
+      <p class="sim623-answer ${ok?'good':'badans'}"><b>Sua resposta:</b> ${selected===null?'Não respondida':q.options[selected]}</p>
+      ${!ok?`<p class="good"><b>Resposta correta:</b> ${q.options[q.answer]}</p>`:''}
+      <div class="sim623-explain"><b>Por quê?</b><p>${q.explanation||'Revise o conteúdo relacionado a esta questão.'}</p></div>
+      <div class="sim623-tip"><b>💡 Dica</b><p>${q.tip||'Compare cada alternativa com a regra estudada.'}</p></div>
+      ${!ok&&pending?`<button class="secondary-btn sim623-review-btn" onclick="startSmartErrorReviewV616('${errId}')">🧠 Revisar este erro agora</button>`:''}
+      ${!ok&&!pending?`<small class="sim623-resolved">✅ Este erro já foi resolvido no Caderno 2.0.</small>`:''}
+    </article>`;
+  }).join(""):'<div class="empty-state"><strong>Nenhuma questão neste filtro.</strong></div>';
+  box.classList.remove("hidden");
+}
+
+// Substitui a correção antiga pela versão detalhada.
+window.reviewSimulationV510=function(){
+  if(!simLastResultV510) return;
+  simCorrectionFilterV623="todos";
+  renderSimulationCorrectionV623();
+  const summary=document.getElementById("simCorrectionSummaryV623");
+  if(summary) summary.scrollIntoView({behavior:"smooth",block:"start"});
+};
