@@ -604,3 +604,10 @@
     margin-top:8px;
   }
 }
+
+/* V6.1.3 — métricas reais de desempenho */
+.v613-subject-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:11px}
+.v613-subject-metrics span{padding:9px 5px;text-align:center;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.02)}
+.v613-subject-metrics strong{display:block;color:var(--gold);font-size:14px}
+.v613-subject-metrics small{display:block;color:var(--muted);font-size:6.5px;margin-top:2px}
+.v613-coming{opacity:.48}
