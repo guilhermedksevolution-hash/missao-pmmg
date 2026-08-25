@@ -440,3 +440,23 @@
 @media(max-width:370px){
   .achievement-v59-list{grid-template-columns:1fr}
 }
+
+/* V5.10 — Simulados funcionais */
+.sim510-hero{display:flex;gap:12px;align-items:center;padding:16px;margin-bottom:11px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.sim510-icon{width:50px;height:50px;flex:0 0 50px;display:grid;place-items:center;border-radius:15px;background:rgba(214,187,123,.08);font-size:24px}
+.sim510-hero h3{font-size:16px;margin-top:4px}.sim510-hero p{color:var(--muted);font-size:9.5px;line-height:1.45;margin-top:4px}
+.sim510-options{display:grid;gap:8px}
+.sim510-options button{min-height:92px;padding:14px;display:grid;grid-template-columns:42px 1fr;grid-template-rows:auto auto;column-gap:10px;text-align:left;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--text)}
+.sim510-options button>span{grid-row:1/3;align-self:center;font-size:24px}.sim510-options strong{font-size:11px;align-self:end}.sim510-options small{color:var(--muted);font-size:8px;align-self:start;margin-top:3px}
+.disabled-v510{opacity:.45}
+.sim510-history-head{display:flex;justify-content:space-between;align-items:end;margin:18px 2px 8px}.sim510-history-head h3{font-size:15px;margin-top:3px}.sim510-history-head small{color:var(--muted);font-size:8px}
+.sim510-history{display:grid;gap:7px;padding-bottom:100px}.sim510-history-item{padding:12px;display:flex;justify-content:space-between;align-items:center;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.sim510-history-item strong{font-size:10px}.sim510-history-item span{display:block;color:var(--muted);font-size:7.5px;margin-top:3px}.sim510-history-item b{color:var(--gold);font-size:15px}
+.sim510-topbar{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px}.sim510-topbar>div{padding:10px;border:1px solid var(--line);border-radius:13px;background:var(--card);text-align:center}.sim510-topbar span{display:block;color:var(--muted);font-size:7px}.sim510-topbar strong{display:block;color:var(--gold);font-size:15px;margin-top:3px}
+.sim510-question{padding:15px;border:1px solid var(--line);border-radius:17px;background:var(--card)}.sim510-question .qnum{color:var(--gold);font-size:7.5px;font-weight:900}.sim510-question h3{font-size:13px;line-height:1.45;margin-top:6px}
+.sim510-answers{display:grid;gap:7px;margin-top:12px}.sim510-answer{padding:11px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.025);display:flex;gap:9px;font-size:10.5px;line-height:1.4}.sim510-answer.selected{border-color:rgba(214,187,123,.32);background:rgba(214,187,123,.06)}.sim510-answer input{accent-color:var(--gold)}
+.sim510-nav{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:10px}.sim510-nav button{min-height:44px;border-radius:12px;font-weight:900}.sim510-finish{margin-top:7px}.hidden{display:none!important}
+.sim510-result-card{padding:22px 16px;text-align:center;border:1px solid var(--line);border-radius:20px;background:var(--card)}.sim510-result-icon{font-size:30px;margin-bottom:8px}.sim510-result-card>strong{display:block;color:var(--gold);font-size:42px;margin:10px 0 5px}.sim510-result-card>p{color:var(--muted);font-size:9px;line-height:1.45}
+.sim510-result-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:13px}.sim510-result-stats article{padding:9px;border-radius:10px;background:rgba(255,255,255,.025);border:1px solid var(--line)}.sim510-result-stats b{display:block;color:var(--gold);font-size:15px}.sim510-result-stats small{color:var(--muted);font-size:6.5px}
+.sim510-result-actions{display:grid;gap:7px;margin-top:10px}.sim510-result-actions button{min-height:44px;border-radius:12px;font-weight:900}
+.sim510-correction{display:grid;gap:8px;margin-top:12px;padding-bottom:100px}.sim510-correction-item{padding:13px;border:1px solid var(--line);border-radius:14px;background:var(--card)}.sim510-correction-item.ok{border-color:rgba(102,197,154,.2)}.sim510-correction-item.bad{border-color:rgba(230,133,133,.2)}.sim510-correction-item strong{display:block;font-size:10px;line-height:1.4}.sim510-correction-item p{font-size:8.5px;line-height:1.45;margin-top:6px}.sim510-correction-item .good{color:#b8e2cc}.sim510-correction-item .badans{color:#f1b4b4}.sim510-correction-item .why{color:var(--muted)}
