@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.2.0">
+<link rel="stylesheet" href="style.css?v=6.2.1">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.2.0</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.2.1</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -440,17 +440,56 @@
     </div>
   </div>
 
+
+  <div class="sim621-config">
+    <div class="sim621-config-head">
+      <div>
+        <span class="kicker">SIMULADOS 2.0</span>
+        <h3>Monte seu treino</h3>
+        <p>Escolha quantidade de questões e tempo antes de começar.</p>
+      </div>
+      <span class="sim621-badge">NOVO</span>
+    </div>
+
+    <div class="sim621-grid">
+      <label>
+        <span>Questões</span>
+        <select id="sim621QuestionCount">
+          <option value="5">5 questões</option>
+          <option value="10" selected>10 questões</option>
+        </select>
+      </label>
+      <label>
+        <span>Tempo</span>
+        <select id="sim621Minutes">
+          <option value="5">5 minutos</option>
+          <option value="10">10 minutos</option>
+          <option value="15" selected>15 minutos</option>
+        </select>
+      </label>
+    </div>
+
+    <button class="primary full sim621-start" onclick="startConfiguredSimulationV621('portugues')">
+      📘 Iniciar Português
+    </button>
+    <button class="secondary-btn sim621-start" onclick="startConfiguredSimulationV621('misto')">
+      🧩 Iniciar Misto
+    </button>
+
+    <small class="sim621-note">Os erros do simulado serão enviados automaticamente para o Caderno de Erros 2.0.</small>
+  </div>
+
   <div class="sim510-options">
     <button onclick="startSimulationV510('portugues')">
       <span>📘</span>
-      <strong>Português</strong>
-      <small>10 questões • 15 min</small>
+      <strong>Português rápido</strong>
+      <small>Atalho • 10 questões • 15 min</small>
     </button>
 
     <button onclick="startSimulationV510('misto')">
       <span>🧩</span>
-      <strong>Misto</strong>
-      <small>10 questões • 15 min</small>
+      <strong>Misto rápido</strong>
+      <small>Atalho • 10 questões • 15 min</small>
     </button>
 
     <button class="disabled-v510" onclick="showFutureSimulationV510()">
@@ -717,5 +756,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.2.0"></script><script src="app.js?v=6.2.0"></script>
+<script src="lessons.js?v=6.2.1"></script><script src="app.js?v=6.2.1"></script>
 </body></html>
