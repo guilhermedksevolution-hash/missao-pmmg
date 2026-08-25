@@ -20,6 +20,12 @@
     <button class="primary" onclick="continueStudy()">Continuar</button>
   </article>
 
+  
+  <div class="today-mission">
+    <div><span class="kicker">MISSÃO DO DIA</span><h3 id="dailyMissionTitle">Complete sua próxima etapa</h3><p id="dailyMissionText">1 aula • questões • revisão dos erros</p></div>
+    <div class="mission-ring"><strong id="preparationIndex">0</strong><small>PREPARO</small></div>
+  </div>
+
   <div class="section-head"><div><span class="kicker">PAINEL</span><h3>Resumo de hoje</h3></div><button onclick="openPerformance()">Detalhes</button></div>
   <div class="quick-stats">
     <article><span>Progresso</span><strong id="globalProgressText">0%</strong><div class="bar"><i id="globalProgressBar"></i></div><small id="progressSubtitle">0 de 2 aulas concluídas</small></article>
@@ -102,7 +108,16 @@
 
 <section id="studyHubScreen" class="screen">
  <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">CENTRAL</span><h2>Central de estudos</h2></div></div>
- <div class="hub-list"><article><b>📓 Caderno de erros</b><span>Revisão dos pontos fracos.</span></article><article><b>📊 Desempenho</b><span>Acompanhe sua evolução.</span></article><article><b>🎯 Simulados</b><span>Estrutura reservada para a próxima fase.</span></article><article><b>📅 Plano de estudos</b><span>Estrutura reservada para organização futura.</span></article></div>
+ <div class="hub-list">
+<article onclick="openPlan()"><b>📅 Plano de estudos</b><span>Meta diária e contagem regressiva.</span></article>
+<article onclick="showScreen('trainingScreen')"><b>🎯 Treinar</b><span>Simulados e revisão rápida.</span></article>
+<article onclick="openErrorNotebook()"><b>📓 Caderno de erros</b><span>Revisão dos pontos fracos.</span></article>
+<article onclick="openPerformance()"><b>📊 Desempenho</b><span>Acompanhe sua evolução.</span></article>
+<article onclick="openFavorites()"><b>⭐ Favoritos</b><span>Anotações e conteúdos salvos.</span></article>
+<article onclick="openSearch()"><b>🔎 Busca</b><span>Encontre conteúdos rapidamente.</span></article>
+<article onclick="openAchievements()"><b>🏅 Conquistas</b><span>Nível, sequência e marcos.</span></article>
+<article onclick="openProfessorIA()"><b>🤖 Professor IA</b><span>Base contextual preparada.</span></article>
+</div>
 </section>
 
 <section id="professorScreen" class="screen">
@@ -110,6 +125,66 @@
  <div class="professor"><div>🤖</div><span class="kicker">ESTRUTURA PREPARADA</span><h3>Professor integrado à sua preparação.</h3><p>No futuro, esta área poderá usar sua aula atual, desempenho e Caderno de Erros para explicar conteúdos e montar exercícios personalizados.</p></div>
  <div class="ia-grid"><article>💬<b>Tirar dúvidas</b><span>Contexto da aula atual</span></article><article>🧠<b>Explicar</b><span>Do básico ao avançado</span></article><article>📝<b>Treinar</b><span>Exercícios personalizados</span></article><article>📓<b>Revisar</b><span>Baseado nos seus erros</span></article></div>
 </section>
+
+<section id="trainingScreen" class="screen">
+ <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">TREINAMENTO</span><h2>Treinar</h2></div></div>
+ <div class="hub-list">
+  <article onclick="openSimulations()"><b>📝 Simulados</b><span>Por matéria, misto e completo.</span></article>
+  <article onclick="openQuickReview()"><b>⚡ Revisão rápida</b><span>Treinos de 10, 20 ou 30 minutos.</span></article>
+  <article onclick="openErrorNotebook()"><b>📓 Refazer erros</b><span>Treine seus pontos fracos.</span></article>
+  <article onclick="openFavorites()"><b>⭐ Favoritos</b><span>Conteúdos salvos para revisar.</span></article>
+ </div>
+</section>
+
+<section id="simulationsScreen" class="screen">
+ <div class="page-head"><button onclick="showScreen('trainingScreen')">←</button><div><span class="kicker">SIMULADOS</span><h2>Central de simulados</h2></div></div>
+ <div class="feature-banner"><b>📝 Estrutura pronta</b><p>Simulado por matéria, misto e completo, com cronômetro, correção e histórico.</p></div>
+ <div class="sim-grid">
+  <button onclick="placeholderFeature('Simulado de Português')">📘<strong>Por matéria</strong><small>Treino focado</small></button>
+  <button onclick="placeholderFeature('Simulado misto')">🧩<strong>Misto</strong><small>Vários assuntos</small></button>
+  <button onclick="placeholderFeature('Simulado completo')">🎯<strong>Completo</strong><small>Modelo de prova</small></button>
+ </div>
+</section>
+
+<section id="planScreen" class="screen">
+ <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">ORGANIZAÇÃO</span><h2>Plano de estudos</h2></div></div>
+ <div class="feature-banner"><b>📅 Plano inteligente</b><p>Defina disponibilidade e acompanhe a missão sugerida para o dia.</p></div>
+ <div class="plan-card">
+   <label>Meta diária <select id="dailyGoal" onchange="saveV5Settings()"><option value="30">30 min</option><option value="60" selected>1 hora</option><option value="90">1h30</option><option value="120">2 horas</option></select></label>
+   <label>Data da prova <input id="examDate" type="date" onchange="saveV5Settings()"></label>
+ </div>
+ <div id="countdownCard" class="countdown-card"></div>
+</section>
+
+<section id="quickReviewScreen" class="screen">
+ <div class="page-head"><button onclick="showScreen('trainingScreen')">←</button><div><span class="kicker">REVISÃO</span><h2>Revisão rápida</h2></div></div>
+ <p class="page-intro">Escolha quanto tempo você tem disponível.</p>
+ <div class="review-times">
+  <button onclick="startQuickReview(10)">10<small>minutos</small></button>
+  <button onclick="startQuickReview(20)">20<small>minutos</small></button>
+  <button onclick="startQuickReview(30)">30<small>minutos</small></button>
+ </div>
+ <div id="quickReviewResult" class="feature-banner"><b>⚡ Revisão personalizada</b><p>O sistema priorizará erros e conteúdos com menor desempenho.</p></div>
+</section>
+
+<section id="favoritesScreen" class="screen">
+ <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">BIBLIOTECA</span><h2>Favoritos e anotações</h2></div></div>
+ <div class="feature-banner"><b>⭐ Sua revisão pessoal</b><p>Estrutura preparada para salvar trechos, resumos e anotações das aulas.</p></div>
+ <div id="favoritesList" class="empty-state">Nenhum conteúdo salvo ainda.</div>
+</section>
+
+<section id="achievementsScreen" class="screen">
+ <div class="page-head"><button onclick="openPerformance()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Conquistas</h2></div></div>
+ <div id="levelCard" class="level-card"></div>
+ <div id="achievementList" class="achievement-list"></div>
+</section>
+
+<section id="searchScreen" class="screen">
+ <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">BUSCA</span><h2>Encontrar conteúdo</h2></div></div>
+ <div class="search-box"><input id="studySearch" placeholder="Ex.: inferência, interpretação..." oninput="runStudySearch()"></div>
+ <div id="searchResults" class="search-results"><div class="empty-state">Digite um assunto para pesquisar.</div></div>
+</section>
+
 </main>
 
 <nav class="bottom-nav">
