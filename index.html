@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.5.1">
+<link rel="stylesheet" href="style.css?v=5.6.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.5.1</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.6</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -181,11 +181,24 @@
  <div id="achievementList" class="achievement-list"></div>
 </section>
 
+
 <section id="searchScreen" class="screen">
- <div class="page-head"><button onclick="goHome()">←</button><div><span class="kicker">BUSCA</span><h2>Encontrar conteúdo</h2></div></div>
- <div class="search-box"><input id="studySearch" placeholder="Ex.: inferência, interpretação..." oninput="runStudySearch()"></div>
- <div id="searchResults" class="search-results"><div class="empty-state">Digite um assunto para pesquisar.</div></div>
+ <div class="page-head"><button onclick="showScreen('studyHubScreen','navStudy')">←</button><div><span class="kicker">BIBLIOTECA</span><h2>Busca inteligente</h2></div></div>
+ <div class="feature-banner"><b>🔎 Encontre o que precisa</b><p>Pesquise aulas, ferramentas e conteúdos da sua preparação.</p></div>
+ <div class="search-v56-box">
+   <div class="search-v56-input"><span>🔎</span><input id="globalSearchV56" type="search" autocomplete="off" placeholder="Ex.: interpretação, erros, simulado..." oninput="runSearchV56(this.value)"><button onclick="clearSearchV56()" aria-label="Limpar">×</button></div>
+   <div class="search-v56-chips">
+     <button onclick="setSearchV56('interpretação')">Interpretação</button>
+     <button onclick="setSearchV56('erros')">Erros</button>
+     <button onclick="setSearchV56('simulado')">Simulados</button>
+   </div>
+ </div>
+ <div class="search-v56-head"><b>Resultados</b><small id="searchCountV56">Digite para pesquisar</small></div>
+ <div id="searchResultsV56" class="search-v56-results">
+   <div class="empty-state"><b>🔎 Busca rápida</b><br>Comece digitando um assunto ou escolha um atalho acima.</div>
+ </div>
 </section>
+
 
 </main>
 
@@ -246,5 +259,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.5.1"></script><script src="app.js?v=5.5.1"></script>
+<script src="lessons.js?v=5.6.0"></script><script src="app.js?v=5.6.0"></script>
 </body></html>
