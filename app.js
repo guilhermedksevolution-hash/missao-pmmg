@@ -601,7 +601,7 @@ function renderStudyPlanV54(){
 const _saveV5SettingsV54=saveV5Settings;
 saveV5Settings=function(){ _saveV5SettingsV54(); renderStudyPlanV54(); };
 function openFavoritesV53(){utilityV53("Favoritos","Seus conteúdos e questões marcados para consultar depois.");}
-function openSearchV53(){utilityV53("Busca","Pesquisa rápida por matéria, aula e assunto.");}
+function openSearchV53(){openSearch();setMainNavActive("navStudy");window.scrollTo(0,0);}
 function openTipsV53(){utilityV53("Dicas de prova","Estratégias para leitura, tempo e eliminação de alternativas.");}
 function openQuickTrainingV53(){utilityV53("Treino rápido","Sessões curtas de questões para praticar todos os dias.");}
 function openSimulationV53(){utilityV53("Simulados","Área preparada para provas completas e resultados.");}
@@ -642,7 +642,7 @@ document.addEventListener('DOMContentLoaded',renderFavoritesV55);
 const SEARCH_ITEMS_V56 = [
   {icon:"📘",title:"Interpretação de texto",desc:"Português • Aula 01",terms:"interpretação compreensão texto português aula 1",action:()=>openLesson(1)},
   {icon:"🧠",title:"Ideia principal e inferência",desc:"Português • Aula 02",terms:"ideia principal inferência português aula 2",action:()=>openLesson(2)},
-  {icon:"📅",title:"Plano de estudos",desc:"Organize sua meta diária e prova",terms:"plano estudos meta calendário prova",action:()=>openStudyPlan()},
+  {icon:"📅",title:"Plano de estudos",desc:"Organize sua meta diária e prova",terms:"plano estudos meta calendário prova",action:()=>openStudyPlanV54()},
   {icon:"⭐",title:"Favoritos e anotações",desc:"Sua biblioteca de revisão",terms:"favoritos anotações biblioteca resumo",action:()=>openFavorites()},
   {icon:"📓",title:"Caderno de erros",desc:"Revise seus pontos fracos",terms:"caderno erros revisão questões erradas",action:()=>openErrorNotebook()},
   {icon:"📝",title:"Simulados",desc:"Treinos e provas",terms:"simulado simulados prova treino questões",action:()=>openSimulations()},
