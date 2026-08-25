@@ -695,3 +695,85 @@ function clearSearchV56(){
   const el=document.getElementById("globalSearchV56");
   if(el){el.value="";runSearchV56("");el.focus();}
 }
+
+// ============================================================
+// V5.7 — RESUMO RÁPIDO
+// ============================================================
+let currentSummaryLessonV57 = 1;
+
+const SUMMARY_DATA_V57 = {
+  1: {
+    title: "Interpretação de texto",
+    subtitle: "Português • Aula 01",
+    points: [
+      ["Leia o comando", "Antes de voltar ao texto, identifique exatamente o que a questão está pedindo."],
+      ["Responda pelo texto", "Sua resposta deve ser sustentada pelas informações apresentadas, e não por opinião pessoal."],
+      ["Explícito x implícito", "Explícito aparece diretamente; implícito é concluído por pistas do texto."],
+      ["Evite extrapolar", "Não acrescente fatos, causas ou consequências que o texto não permite concluir."],
+      ["Fato x opinião", "Fato pode ser verificado; opinião apresenta avaliação, julgamento ou ponto de vista."],
+      ["Palavras absolutas", "Termos como sempre, nunca, todos e somente podem tornar uma alternativa exagerada."],
+      ["Conectivos importam", "Mas, porém, entretanto e embora ajudam a identificar relações de oposição ou concessão."],
+      ["Confirme no texto", "Antes de marcar, volte ao trecho e procure a evidência que sustenta a alternativa."]
+    ],
+    tip: "Em interpretação, uma alternativa pode parecer verdadeira na vida real e ainda estar errada se não for sustentada pelo texto."
+  },
+  2: {
+    title: "Ideia principal e inferência",
+    subtitle: "Português • Aula 02",
+    points: [
+      ["Tema x ideia principal", "Tema é o assunto geral; ideia principal é o que o texto diz de mais importante sobre esse assunto."],
+      ["Procure o núcleo", "Elimine exemplos e detalhes e tente resumir a mensagem central em uma frase."],
+      ["Inferência exige pista", "Uma conclusão só é válida quando pode ser sustentada por elementos do texto."],
+      ["Não generalize", "Alguns não significa todos; pode não significa sempre; possibilidade não é certeza."],
+      ["Pressupostos", "Expressões como voltou a, parou de e continua podem carregar informações implícitas."],
+      ["Causa e consequência", "Observe a direção da relação para não inverter o motivo e o resultado."],
+      ["Conectivos", "Embora indica concessão; entretanto e porém costumam marcar contraste."],
+      ["Teste a conclusão", "Pergunte: qual trecho do texto prova essa inferência? Se não houver evidência, desconfie."]
+    ],
+    tip: "A melhor inferência não é a mais criativa; é a conclusão que exige menos suposições e possui mais apoio textual."
+  }
+};
+
+function openSummaryV57(){
+  showScreen("summaryScreenV57","navStudy");
+  renderSummaryV57(currentSummaryLessonV57);
+  window.scrollTo(0,0);
+}
+function renderSummaryV57(n){
+  currentSummaryLessonV57=n;
+  const data=SUMMARY_DATA_V57[n];
+  if(!data) return;
+  const title=document.getElementById("summaryTitleV57");
+  const subtitle=document.getElementById("summarySubtitleV57");
+  const content=document.getElementById("summaryContentV57");
+  if(title) title.textContent=data.title;
+  if(subtitle) subtitle.textContent=data.subtitle+" • revisão em 3–5 min";
+  ["summaryBtn1V57","summaryBtn2V57"].forEach(id=>document.getElementById(id)?.classList.remove("active"));
+  document.getElementById("summaryBtn"+n+"V57")?.classList.add("active");
+  if(content){
+    content.innerHTML=data.points.map((p,i)=>`
+      <article class="summary-v57-point">
+        <b>${String(i+1).padStart(2,"0")}</b>
+        <div><strong>${p[0]}</strong><p>${p[1]}</p></div>
+      </article>`).join("")+
+      `<article class="summary-v57-tip"><strong>💡 Dica de prova</strong><p>${data.tip}</p></article>`;
+  }
+}
+function openCurrentSummaryLessonV57(){
+  openLesson(currentSummaryLessonV57);
+}
+function saveSummaryFavoriteV57(){
+  const data=SUMMARY_DATA_V57[currentSummaryLessonV57];
+  if(!data) return;
+  // Reaproveita o armazenamento da V5.5.1, sem depender da tela estar aberta.
+  let list=[];
+  try{ list=JSON.parse(localStorage.getItem("pmmg_favorites_v55")||"[]"); }catch(e){ list=[]; }
+  const title="Resumo • "+data.title;
+  const body=data.points.map((p,i)=>`${i+1}. ${p[0]} — ${p[1]}`).join("\n")+"\n\nDica: "+data.tip;
+  const exists=list.some(x=>x.title===title);
+  if(exists){ alert("⭐ Este resumo já está salvo nos seus favoritos."); return; }
+  list.unshift({id:Date.now(),title,body,reviewed:false,createdAt:new Date().toISOString()});
+  localStorage.setItem("pmmg_favorites_v55",JSON.stringify(list));
+  alert("⭐ Resumo salvo nos favoritos!");
+}
+document.addEventListener("DOMContentLoaded",()=>renderSummaryV57(1));
