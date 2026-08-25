@@ -569,7 +569,37 @@ function utilityV53(title,text){
   document.getElementById("utilityTextV53").textContent=text;
   v53Show("utilityHubV53","navStudy");
 }
-function openStudyPlanV53(){utilityV53("Plano de estudos","Metas diárias, calendário e organização da sua preparação.");}
+function openStudyPlanV53(){ openStudyPlanV54(); }
+function openStudyPlanV54(){
+  showScreen("planScreen");
+  setMainNavActive("navStudy");
+  loadV5Settings();
+  renderStudyPlanV54();
+  window.scrollTo(0,0);
+}
+function renderStudyPlanV54(){
+  const goal=Number(localStorage.getItem("pmmg_daily_goal")||60);
+  const date=localStorage.getItem("pmmg_exam_date")||"";
+  const completed=Array.from({length:TOTAL_LESSONS},(_,i)=>i+1).filter(isPassed).length;
+  const remaining=Math.max(0,TOTAL_LESSONS-completed);
+  let extra=document.getElementById("planV54Extra");
+  if(!extra){
+    extra=document.createElement("div"); extra.id="planV54Extra"; extra.className="plan-v54-extra";
+    document.getElementById("countdownCard")?.insertAdjacentElement("afterend",extra);
+  }
+  const sessions=Math.max(1,Math.ceil(goal/30));
+  extra.innerHTML=`<div class="v54-plan-title"><span>MISSÃO DE HOJE</span><b>${goal} minutos de preparação</b><p>Plano automático baseado na sua meta diária.</p></div>
+  <div class="v54-plan-grid">
+   <article><strong>📖 Teoria</strong><b>${Math.round(goal*.45)} min</b><small>Continue a próxima aula disponível.</small></article>
+   <article><strong>🎯 Questões</strong><b>${Math.round(goal*.35)} min</b><small>Pratique o conteúdo estudado.</small></article>
+   <article><strong>🔁 Revisão</strong><b>${Math.max(5,Math.round(goal*.20))} min</b><small>Revise erros e pontos fracos.</small></article>
+   <article><strong>📚 Restantes</strong><b>${remaining}</b><small>Aulas ainda não aprovadas.</small></article>
+  </div>
+  <button class="v54-start" onclick="openSubjects()">Começar missão de hoje →</button>
+  <div class="v54-plan-note">💡 Meta dividida em aproximadamente ${sessions} bloco${sessions>1?'s':''} de estudo. Você pode alterar a meta acima a qualquer momento.</div>`;
+}
+const _saveV5SettingsV54=saveV5Settings;
+saveV5Settings=function(){ _saveV5SettingsV54(); renderStudyPlanV54(); };
 function openFavoritesV53(){utilityV53("Favoritos","Seus conteúdos e questões marcados para consultar depois.");}
 function openSearchV53(){utilityV53("Busca","Pesquisa rápida por matéria, aula e assunto.");}
 function openTipsV53(){utilityV53("Dicas de prova","Estratégias para leitura, tempo e eliminação de alternativas.");}
