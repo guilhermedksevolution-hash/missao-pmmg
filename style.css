@@ -784,3 +784,34 @@
 .sim623-explain,.sim623-tip{margin-top:9px;padding:10px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.02)}.sim623-explain>b,.sim623-tip>b{font-size:7px;color:var(--gold)}.sim623-explain p,.sim623-tip p{font-size:8px;line-height:1.45;color:var(--muted);margin-top:4px}.sim623-review-btn{width:100%;margin-top:10px}.sim623-resolved{display:block;margin-top:9px;font-size:7px;color:#77c99d}
 
 /* V6.2.5 — evolução unificada dos simulados */
+
+/* ==========================================================
+   V6.2.6 — Índice de Preparo 2.0
+   ========================================================== */
+.prep626-card{
+  margin:0 0 12px;
+  padding:16px;
+  border:1px solid rgba(214,187,123,.22);
+  border-radius:19px;
+  background:linear-gradient(145deg,rgba(214,187,123,.06),transparent 60%),var(--card)
+}
+.prep626-top{display:flex;align-items:center;gap:13px}
+.prep626-top>div:first-child{flex:1}
+.prep626-top h3{font-size:16px;margin-top:4px}
+.prep626-top p{font-size:8.5px;line-height:1.45;color:var(--muted);margin-top:4px}
+.prep626-ring{
+  width:74px;height:74px;flex:0 0 74px;
+  display:grid;place-content:center;text-align:center;
+  border:3px solid var(--gold);border-radius:50%
+}
+.prep626-ring strong{font-size:25px;color:var(--gold)}
+.prep626-ring small{font-size:7px;color:var(--muted)}
+.prep626-scale{margin-top:14px}
+.prep626-scale-bar{height:7px;border-radius:999px;background:rgba(255,255,255,.05);overflow:hidden}
+.prep626-scale-bar i{display:block;width:0;height:100%;border-radius:inherit;background:var(--gold);transition:width .25s ease}
+.prep626-scale-labels{display:flex;justify-content:space-between;margin-top:5px}
+.prep626-scale-labels span{font-size:6px;color:var(--muted)}
+.prep626-insights{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:12px}
+.prep626-insights article{padding:10px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.025)}
+.prep626-insights span{display:block;font-size:6px;color:var(--muted);font-weight:900}
+.prep626-insights strong{display:block;margin-top:4px;font-size:10px;color:var(--gold)}
