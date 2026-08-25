@@ -823,3 +823,13 @@
 #evolutionScreen .v60-grid article{
   cursor:pointer;
 }
+
+/* V6.2.9 */
+.stats629grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.stats629grid article,.stats629panel{background:#121d31;border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:20px}
+.stats629grid strong{display:block;color:#d8bb70;font-size:31px;margin:8px 0}.stats629grid small{color:#8f99ab}
+.stats629panel{margin:14px 0}.s629bar{height:11px;background:rgba(255,255,255,.07);border-radius:999px;overflow:hidden;margin-top:18px}
+.s629bar i{display:block;height:100%;background:linear-gradient(90deg,#8db8e5,#d8bb70);border-radius:999px}
+.s629recent{height:180px;display:flex;align-items:flex-end;justify-content:space-around;border-bottom:1px solid rgba(255,255,255,.08)}
+.s629mini{height:100%;width:18%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}.s629mini b{color:#d8bb70;margin-bottom:auto}.s629mini i{width:28px;background:#d8bb70;border-radius:8px 8px 0 0}.s629mini small{margin:8px 0;color:#8f99ab}
+#advancedStats629 .primary-btn{width:100%;margin:22px 0 110px}
