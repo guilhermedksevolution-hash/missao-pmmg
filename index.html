@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.10.0">
+<link rel="stylesheet" href="style.css?v=5.11.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.10</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.11</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -38,7 +38,7 @@
   <div class="action-list">
     <button onclick="openPortuguese()"><em>📘</em><div><strong>Continuar Português</strong><small id="portugueseProgressText">0 de 2 aulas concluídas</small><div class="bar"><i id="portugueseProgressBar"></i></div></div><b>›</b></button>
     <button onclick="openErrorNotebook()"><em>📓</em><div><strong>Revisar meus erros</strong><small>Foque no que precisa melhorar</small></div><b>›</b></button>
-    <button onclick="openTips()"><em>💡</em><div><strong>Dicas de prova</strong><small>Estratégias para resolver questões</small></div><b>›</b></button>
+    <button onclick="openTipsV511()"><em>💡</em><div><strong>Dicas de prova</strong><small>Estratégias para resolver questões</small></div><b>›</b></button>
   </div>
 
   <div class="section-head"><div><span class="kicker">CENTRAL</span><h3>Ferramentas</h3></div></div>
@@ -221,7 +221,7 @@
     <article onclick="openQuickTrainingV53()"><b>⚡ Treino rápido</b><p>5 questões para aquecer.</p></article>
     <article onclick="openSimulatorHubV510()"><b>📝 Simulado</b><p>Modo prova com resultado.</p></article>
     <article onclick="openReviewArea()"><b>🔁 Revisão</b><p>Refaça pontos fracos.</p></article>
-    <article onclick="openTipsV53()"><b>🧠 Estratégias</b><p>Técnicas para questões.</p></article>
+    <article onclick="openTipsV511()"><b>🧠 Estratégias</b><p>Técnicas para questões.</p></article>
   </div>
 </section>
 
@@ -232,7 +232,7 @@
     <article onclick="openErrorNotebook()"><b>❌ Meus erros</b><p>Revise respostas erradas.</p></article>
     <article onclick="openFavoritesV53()"><b>⭐ Favoritos</b><p>Revise itens marcados.</p></article>
     <article onclick="openQuickReviewV58()"><b>⚡ Revisão rápida</b><p>Sessão curta e focada.</p></article>
-    <article onclick="openTipsV53()"><b>💡 Dicas</b><p>Reforce sua estratégia.</p></article>
+    <article onclick="openTipsV511()"><b>💡 Dicas</b><p>Reforce sua estratégia.</p></article>
   </div>
 </section>
 
@@ -490,6 +490,37 @@
   <div id="simCorrectionV510" class="sim510-correction hidden"></div>
 </section>
 
+
+<section id="tipsHubV511" class="screen">
+  <div class="page-head">
+    <button onclick="goBackSmart()">←</button>
+    <div>
+      <span class="kicker">ESTRATÉGIA</span>
+      <h2>Dicas de prova</h2>
+    </div>
+  </div>
+
+  <div class="tips511-hero">
+    <div class="tips511-icon">💡</div>
+    <div>
+      <span class="kicker">ESTRATÉGIA DE PROVA</span>
+      <h3>Pequenas decisões, grande diferença.</h3>
+      <p>Use estas dicas para ganhar tempo, evitar pegadinhas e responder com mais segurança.</p>
+    </div>
+  </div>
+
+  <div class="tips511-categories">
+    <button class="active" onclick="filterTipsV511('todas',this)">Todas</button>
+    <button onclick="filterTipsV511('interpretacao',this)">Interpretação</button>
+    <button onclick="filterTipsV511('tempo',this)">Tempo</button>
+    <button onclick="filterTipsV511('alternativas',this)">Alternativas</button>
+    <button onclick="filterTipsV511('pegadinhas',this)">Pegadinhas</button>
+    <button onclick="filterTipsV511('prova',this)">Dia da prova</button>
+  </div>
+
+  <div id="tipsListV511" class="tips511-list"></div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -497,5 +528,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.10.0"></script><script src="app.js?v=5.10.0"></script>
+<script src="lessons.js?v=5.11.0"></script><script src="app.js?v=5.11.0"></script>
 </body></html>
