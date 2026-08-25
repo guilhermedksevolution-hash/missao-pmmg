@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=5.11.0">
+<link rel="stylesheet" href="style.css?v=6.0.0">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V5.11</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.0</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -206,6 +206,13 @@
 <section id="studyHubV53" class="screen v53-screen">
   <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>ESTUDAR</span><h2>Central de aprendizado</h2><p>Organize sua teoria antes de partir para as questões.</p></div></div>
   <div class="v53-feature" onclick="openSubjects()"><b>📘 Matérias e aulas</b><p>Continue sua trilha de Língua Portuguesa.</p><em>0 de 2 aulas concluídas ›</em></div>
+  <div class="v60-section-label"><span class="kicker">ORGANIZAÇÃO</span><h3>Planejamento</h3></div>
+  <div class="v60-grid">
+    <article onclick="openCalendarV60()"><b>📅 Calendário</b><p>Visualize estudo e revisões.</p></article>
+    <article onclick="openWeeklyGoalsV60()"><b>🎯 Metas semanais</b><p>Defina aulas, questões e revisão.</p></article>
+    <article onclick="openNotificationsV60()"><b>🔔 Lembretes</b><p>Crie avisos internos.</p></article>
+    <article onclick="openRevisionScheduleV60()"><b>🧠 Revisão programada</b><p>Organize revisões futuras.</p></article>
+  </div>
   <div class="v53-grid">
     <article onclick="openStudyPlanV54()"><b>📅 Plano de estudos</b><p>Metas e rotina diária.</p></article>
     <article onclick="openFavoritesV53()"><b>⭐ Favoritos</b><p>Conteúdos salvos.</p></article>
@@ -228,6 +235,11 @@
 <section id="reviewHubV53" class="screen v53-screen">
   <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>REVISAR</span><h2>Revisão inteligente</h2><p>Volte exatamente ao que precisa reforçar.</p></div></div>
   <div class="v53-feature" onclick="openErrorNotebook()"><b>🗒️ Caderno de erros</b><p>Questões erradas ficam salvas automaticamente.</p><em>Abrir caderno ›</em></div>
+  <div class="v60-section-label"><span class="kicker">REVISÃO</span><h3>Ferramentas avançadas</h3></div>
+  <div class="v60-grid">
+    <article onclick="openErrorsProV60()"><b>📓 Caderno 2.0</b><p>Filtros e visão detalhada.</p></article>
+    <article onclick="openRevisionScheduleV60()"><b>🧠 Revisão programada</b><p>Planeje quando revisar.</p></article>
+  </div>
   <div class="v53-grid">
     <article onclick="openErrorNotebook()"><b>❌ Meus erros</b><p>Revise respostas erradas.</p></article>
     <article onclick="openFavoritesV53()"><b>⭐ Favoritos</b><p>Revise itens marcados.</p></article>
@@ -243,6 +255,13 @@
     <article><small>MELHOR NOTA</small><strong>50%</strong><p>registrada</p></article>
     <article><small>XP</small><strong>0</strong><p>experiência</p></article>
     <article><small>SEQUÊNCIA</small><strong>1🔥</strong><p>dia ativo</p></article>
+  </div>
+  <div class="v60-section-label"><span class="kicker">ANÁLISE</span><h3>Dados da preparação</h3></div>
+  <div class="v60-grid">
+    <article onclick="openSubjectPerformanceV60()"><b>📊 Por matéria</b><p>Compare desempenho por disciplina.</p></article>
+    <article onclick="openQuestionStatsV60()"><b>🧮 Estatísticas</b><p>Acertos, erros e simulados.</p></article>
+    <article onclick="openStudyHistoryV60()"><b>🕘 Histórico</b><p>Veja sua atividade recente.</p></article>
+    <article onclick="openPreparationIndexV60()"><b>🧭 Índice de preparo</b><p>Entenda seu nível atual.</p></article>
   </div>
   <div class="v53-feature" onclick="openAchievementsV59()"><b>🏅 Conquistas</b><p>Veja seu nível, sequência e marcos alcançados.</p><em>Abrir conquistas ›</em></div>
 </section>
@@ -521,6 +540,93 @@
   <div id="tipsListV511" class="tips511-list"></div>
 </section>
 
+
+<section id="calendarScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ORGANIZAÇÃO</span><h2>Calendário de estudos</h2></div></div>
+  <div class="v60-hero"><div>📅</div><section><span class="kicker">VISÃO MENSAL</span><h3 id="calendarMonthTitleV60">Mês atual</h3><p>Veja dias estudados, revisões e metas.</p></section></div>
+  <div class="v60-calendar-nav"><button onclick="changeMonthV60(-1)">←</button><button onclick="goTodayV60()">Hoje</button><button onclick="changeMonthV60(1)">→</button></div>
+  <div class="v60-weekdays"><span>D</span><span>S</span><span>T</span><span>Q</span><span>Q</span><span>S</span><span>S</span></div>
+  <div id="calendarGridV60" class="v60-calendar-grid"></div>
+  <div class="v60-legend"><span><i class="study"></i> Estudo</span><span><i class="review"></i> Revisão</span><span><i class="today"></i> Hoje</span></div>
+</section>
+
+<section id="weeklyGoalsScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ORGANIZAÇÃO</span><h2>Metas semanais</h2></div></div>
+  <div class="v60-hero"><div>🎯</div><section><span class="kicker">SEMANA ATUAL</span><h3>Defina um alvo realista.</h3><p>Metas simples ajudam a manter constância.</p></section></div>
+  <div class="v60-form-card">
+    <label>Aulas na semana<input id="goalLessonsV60" type="number" min="1" max="20" value="3"></label>
+    <label>Questões na semana<input id="goalQuestionsV60" type="number" min="10" max="500" step="5" value="50"></label>
+    <label>Revisões na semana<input id="goalReviewsV60" type="number" min="1" max="20" value="3"></label>
+    <button class="primary full" onclick="saveWeeklyGoalsV60()">Salvar metas</button>
+  </div>
+  <div class="v60-section-label"><span class="kicker">PROGRESSO</span><h3>Esta semana</h3></div>
+  <div id="weeklyProgressV60" class="v60-progress-list"></div>
+</section>
+
+<section id="notificationsScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ORGANIZAÇÃO</span><h2>Lembretes internos</h2></div></div>
+  <div class="v60-hero"><div>🔔</div><section><span class="kicker">LEMBRETES</span><h3>Não dependa da memória.</h3><p>Crie avisos para estudo, revisão e simulados.</p></section></div>
+  <div class="v60-form-card">
+    <label>Título<input id="reminderTitleV60" type="text" placeholder="Ex.: Revisar Português"></label>
+    <label>Data<input id="reminderDateV60" type="date"></label>
+    <label>Horário<input id="reminderTimeV60" type="time"></label>
+    <button class="primary full" onclick="addReminderV60()">Adicionar lembrete</button>
+  </div>
+  <div class="v60-section-label"><span class="kicker">PRÓXIMOS</span><h3>Seus lembretes</h3></div>
+  <div id="reminderListV60" class="v60-list"></div>
+</section>
+
+<section id="revisionScheduleScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Revisão programada</h2></div></div>
+  <div class="v60-hero"><div>🧠</div><section><span class="kicker">REPETIÇÃO</span><h3>Revise antes de esquecer.</h3><p>Agende revisões por aula para 1, 7 e 30 dias.</p></section></div>
+  <div class="v60-form-card">
+    <label>Aula<select id="revisionLessonV60"><option value="1">Aula 01 • Interpretação de texto</option><option value="2">Aula 02 • Ideia principal e inferência</option></select></label>
+    <label>Quando revisar<select id="revisionDelayV60"><option value="1">Amanhã (1 dia)</option><option value="7">Em 7 dias</option><option value="30">Em 30 dias</option></select></label>
+    <button class="primary full" onclick="scheduleRevisionV60()">Agendar revisão</button>
+  </div>
+  <div class="v60-section-label"><span class="kicker">FILA</span><h3>Próximas revisões</h3></div>
+  <div id="revisionListV60" class="v60-list"></div>
+</section>
+
+<section id="subjectPerformanceScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Desempenho por matéria</h2></div></div>
+  <div class="v60-hero"><div>📊</div><section><span class="kicker">COMPARATIVO</span><h3>Veja onde você está melhor.</h3><p>A estrutura já está pronta para receber novas matérias.</p></section></div>
+  <div id="subjectPerformanceListV60" class="v60-subject-performance"></div>
+</section>
+
+<section id="questionStatsScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Estatísticas de questões</h2></div></div>
+  <div class="v60-stats-grid">
+    <article><span>PROVAS REGISTRADAS</span><strong id="statTestsV60">0</strong><small>tentativas</small></article>
+    <article><span>SIMULADOS</span><strong id="statSimsV60">0</strong><small>realizados</small></article>
+    <article><span>MELHOR NOTA</span><strong id="statBestV60">0%</strong><small>nas aulas</small></article>
+    <article><span>ERROS SALVOS</span><strong id="statErrorsV60">0</strong><small>para revisar</small></article>
+  </div>
+  <div class="v60-section-label"><span class="kicker">LEITURA</span><h3>Diagnóstico</h3></div>
+  <div id="questionDiagnosisV60" class="v60-diagnosis"></div>
+</section>
+
+<section id="studyHistoryScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Histórico de estudos</h2></div></div>
+  <div class="v60-hero"><div>🕘</div><section><span class="kicker">ATIVIDADE</span><h3>Sua jornada fica registrada.</h3><p>Aulas, simulados, revisões e ferramentas usadas.</p></section></div>
+  <div id="studyHistoryListV60" class="v60-list"></div>
+</section>
+
+<section id="preparationIndexScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Índice de preparo</h2></div></div>
+  <div class="v60-index-card"><div class="v60-index-ring"><strong id="prepIndexValueV60">0</strong><small>/100</small></div><section><span class="kicker">ÍNDICE ATUAL</span><h3 id="prepIndexLabelV60">Início da preparação</h3><p id="prepIndexTextV60">Continue estudando para formar uma base de dados mais precisa.</p></section></div>
+  <div class="v60-section-label"><span class="kicker">COMPOSIÇÃO</span><h3>O que pesa no índice</h3></div>
+  <div id="prepBreakdownV60" class="v60-progress-list"></div>
+</section>
+
+<section id="errorsProScreenV60" class="screen">
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Caderno de Erros 2.0</h2></div></div>
+  <div class="v60-hero"><div>📓</div><section><span class="kicker">PONTOS FRACOS</span><h3>Revise com prioridade.</h3><p>Filtre erros por aula e acompanhe o que já foi revisado.</p></section></div>
+  <div class="v60-filter-row"><button class="active" onclick="filterErrorsProV60('todos',this)">Todos</button><button onclick="filterErrorsProV60('1',this)">Aula 01</button><button onclick="filterErrorsProV60('2',this)">Aula 02</button><button onclick="filterErrorsProV60('revisados',this)">Revisados</button></div>
+  <div id="errorsProStatsV60" class="v60-mini-stats"></div>
+  <div id="errorsProListV60" class="v60-list"></div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -528,5 +634,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=5.11.0"></script><script src="app.js?v=5.11.0"></script>
+<script src="lessons.js?v=6.0.0"></script><script src="app.js?v=6.0.0"></script>
 </body></html>
