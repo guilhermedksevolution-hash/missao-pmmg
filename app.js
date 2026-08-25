@@ -3183,3 +3183,27 @@ function renderStats629(){
   document.getElementById("s629recent").innerHTML=scores.length?scores.map((s,i)=>`<div class="s629mini"><b>${s}%</b><i style="height:${Math.max(6,s)}%"></i><small>${i+1}</small></div>`).join(""):"<p>Nenhum simulado registrado.</p>";
 }
 function openAdvancedStats629(){showScreen("advancedStats629","navEvolution");renderStats629()}
+
+/* V6.3.1 — Análise de Pontos Fracos */
+function weakLessonName631(n){
+  try{const d=getLessonData(Number(n));if(d&&d.title)return d.title}catch(e){}
+  return Number(n)===1?"Interpretação de texto":Number(n)===2?"Ideia principal e inferência":`Aula ${String(n).padStart(2,"0")}`;
+}
+function getWeakData631(){
+  const attempts=v60Read("pmmg_question_history_v613",[]).filter(x=>Number.isFinite(Number(x.lesson))&&Number(x.total)>0);
+  const errors=(state&&Array.isArray(state.errors)?state.errors:[]);
+  const map={};
+  attempts.forEach(x=>{const k=Number(x.lesson);map[k]??={lesson:k,correct:0,total:0,pending:0};map[k].correct+=Number(x.correct)||0;map[k].total+=Number(x.total)||0});
+  errors.forEach(e=>{const k=Number(e.lessonNumber);if(!Number.isFinite(k))return;map[k]??={lesson:k,correct:0,total:0,pending:0};map[k].pending++});
+  [1,2].forEach(k=>map[k]??={lesson:k,correct:0,total:0,pending:0});
+  return Object.values(map).map(x=>{const accuracy=x.total?Math.round(x.correct/x.total*100):null;const weakness=accuracy===null?Math.min(100,x.pending*15):Math.min(100,Math.round((100-accuracy)*.75+Math.min(25,x.pending*4)));return {...x,name:weakLessonName631(x.lesson),accuracy,weakness}}).sort((a,b)=>b.weakness-a.weakness||b.pending-a.pending);
+}
+function renderWeakPoints631(){
+  const data=getWeakData631(),rank=document.getElementById("w631ranking"),recs=document.getElementById("w631recs");if(!rank||!recs)return;
+  const measured=data.filter(x=>x.total>0||x.pending>0),top=measured[0];
+  document.getElementById("w631title").textContent=top?`Prioridade atual: ${top.name}`:"Ainda faltam dados para o diagnóstico";
+  document.getElementById("w631text").textContent=top?`${top.pending} erro(s) pendente(s) neste assunto. Foque nele antes de aumentar a dificuldade dos simulados.`:"Conclua aulas e simulados para o sistema descobrir seus pontos fracos automaticamente.";
+  rank.innerHTML=measured.length?measured.map((x,i)=>`<article><div class="weak631top"><b>${i+1}. ${x.name}</b><strong>${x.accuracy===null?"—":x.accuracy+"%"}</strong></div><div class="weak631bar"><i style="width:${x.accuracy===null?0:x.accuracy}%"></i></div><small>${x.total} questão(ões) contabilizada(s) • ${x.pending} erro(s) pendente(s)</small></article>`).join(""):'<div class="empty-state">Faça sua primeira atividade para gerar o ranking.</div>';
+  recs.innerHTML=measured.length?measured.slice(0,3).map((x,i)=>`<article><span>${i===0?'🎯':i===1?'🧠':'📘'}</span><div><b>${x.name}</b><small>${i===0?'Prioridade ALTA — revise os erros e refaça questões.':i===1?'Prioridade MÉDIA — faça uma revisão curta e treine.':'Mantenha este assunto no ciclo de revisão.'}</small></div><button onclick="openLesson(${x.lesson})">Estudar</button></article>`).join(""):'<div class="empty-state">As recomendações aparecerão conforme você estudar.</div>';
+}
+function openWeakPoints631(){showScreen("weakPoints631","navEvolution");renderWeakPoints631();scrollTo(0,0)}
