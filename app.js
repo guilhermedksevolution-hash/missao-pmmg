@@ -3269,8 +3269,33 @@ window.openProgressCenter635=openProgressCenter635;
 
 /* V6.3.6 — Metas de Estudo */
 function getStudyGoals636(){try{return Object.assign({questions:20,reviews:1,lessons:1},JSON.parse(localStorage.getItem('pmmg_study_goals_v636')||'{}'))}catch(e){return {questions:20,reviews:1,lessons:1}}}
-function getTodayProgress636(){let questions=0,reviews=0,lessons=0;try{const h=v60Read('pmmg_question_history_v613',[]);questions=h.slice(-5).reduce((s,x)=>s+(Number(x.total)||0),0)}catch(e){}try{const d=dateKey();reviews=localStorage.getItem('pmmg_review_completed_'+d)==='1'?1:0}catch(e){}return {questions,reviews,lessons}}
-function renderStudyGoals636(){const g=getStudyGoals636(),p=getTodayProgress636(),set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};[['Questions',g.questions],['Reviews',g.reviews],['Lessons',g.lessons]].forEach(x=>{const e=document.getElementById('g636'+x[0]);if(e)e.value=x[1]});let sum=0;[['Q',p.questions,g.questions],['R',p.reviews,g.reviews],['L',p.lessons,g.lessons]].forEach(x=>{const pct=Math.min(100,Math.round(x[1]/Math.max(1,x[2])*100));sum+=pct;set('g636'+x[0]+'Now',x[1]+' / '+x[2]);const b=document.getElementById('g636'+x[0]+'Bar');if(b)b.style.width=pct+'%'});const o=Math.round(sum/3);set('g636Overall',o+'%');const b=document.getElementById('g636MainBar');if(b)b.style.width=o+'%';set('g636Status',o>=100?'🏆 Missão diária concluída!':o>=50?'🔥 Você está no caminho':'🎯 Missão em andamento');set('g636Summary',o>=100?'Metas alcançadas. Continue a sequência!':'Complete suas metas para fortalecer sua constância.')}
+function getTodayProgress636(){
+  const today=dateKey(); let questions=0,reviews=0,lessons=0;
+  try{
+    const h=v60Read('pmmg_question_history_v613',[]);
+    questions=h.filter(x=>x&&x.date&&dateKey(new Date(x.date))===today).reduce((s,x)=>s+(Number(x.total)||0),0);
+  }catch(e){}
+  try{
+    const hist=v60Read('pmmg_history_v60',[]).filter(x=>x&&x.date&&dateKey(new Date(x.date))===today);
+    reviews=hist.filter(x=>x.type==='review').length;
+    lessons=hist.filter(x=>x.type==='lesson').length;
+    if(localStorage.getItem('pmmg_review_completed_'+today)==='1') reviews=Math.max(reviews,1);
+  }catch(e){}
+  return {questions,reviews,lessons};
+}
+function renderStudyGoals636(){
+  const g=getStudyGoals636(),p=getTodayProgress636(),set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+  [['Questions',g.questions],['Reviews',g.reviews],['Lessons',g.lessons]].forEach(x=>{const e=document.getElementById('g636'+x[0]);if(e)e.value=x[1]});
+  let sum=0,done=0;
+  [['Q',p.questions,g.questions],['R',p.reviews,g.reviews],['L',p.lessons,g.lessons]].forEach(x=>{
+    const raw=Math.round(x[1]/Math.max(1,x[2])*100),pct=Math.min(100,raw); sum+=pct; if(x[1]>=x[2])done++;
+    set('g636'+x[0]+'Now',x[1]+' / '+x[2]+(raw>100?'  ✓ +'+(raw-100)+'%':''));
+    const b=document.getElementById('g636'+x[0]+'Bar');if(b)b.style.width=pct+'%';
+  });
+  const o=Math.round(sum/3);set('g636Overall',o+'%');const b=document.getElementById('g636MainBar');if(b)b.style.width=o+'%';
+  set('g636Status',done===3?'🏆 Missão diária concluída!':done===2?'🔥 Falta só 1 meta!':done===1?'💪 1 de 3 metas concluída':'🎯 Missão em andamento');
+  set('g636Summary',done===3?'Todas as metas de hoje foram alcançadas. Continue a sequência!':`${done} de 3 metas concluídas hoje. O progresso considera somente atividades feitas hoje.`);
+}
 function saveStudyGoals636(){const v=id=>Math.max(1,Number(document.getElementById(id)?.value)||1);localStorage.setItem('pmmg_study_goals_v636',JSON.stringify({questions:v('g636Questions'),reviews:v('g636Reviews'),lessons:v('g636Lessons')}));renderStudyGoals636();alert('Metas salvas! 🎯')}
 function openStudyGoals636(){showScreen('studyGoals636','navEvolution');renderStudyGoals636();scrollTo(0,0)}
 window.openStudyGoals636=openStudyGoals636;window.saveStudyGoals636=saveStudyGoals636;
