@@ -1781,3 +1781,56 @@ window.openSubjects = function(){
   showScreen("subjectsScreen","navStudy");
   window.scrollTo(0,0);
 };
+
+/* ==========================================================
+   V6.1.2 — EVOLUÇÃO SINCRONIZADA
+   ========================================================== */
+
+function renderEvolutionHubV612(){
+  // Usa o mesmo estado que alimenta a tela inicial.
+  if(typeof updateDashboard === "function"){
+    updateDashboard();
+  }
+
+  const nums = (typeof getLessonNumbers === "function") ? getLessonNumbers() : [];
+  const validLessons = nums.filter(n => typeof getLessonData !== "function" || !!getLessonData(n));
+
+  const completed = Array.isArray(state.completedLessons)
+    ? state.completedLessons.filter(n => validLessons.includes(Number(n))).length
+    : 0;
+
+  const total = validLessons.length;
+  const progress = total ? Math.round((completed / total) * 100) : 0;
+
+  const scores = state && state.scores
+    ? Object.values(state.scores).map(Number).filter(Number.isFinite)
+    : [];
+
+  const bestScore = scores.length ? Math.max(...scores) : 0;
+  const xp = Number(state?.xp || 0);
+  const streak = Math.max(1, Number(state?.streak || localStorage.getItem("pmmg_streak") || 1));
+
+  const set = (id, value) => {
+    const el = document.getElementById(id);
+    if(el) el.textContent = value;
+  };
+
+  set("evoProgressV612", `${progress}%`);
+  set("evoProgressSubV612", `${completed} de ${total} ${total === 1 ? "aula" : "aulas"}`);
+  set("evoBestScoreV612", `${bestScore}%`);
+  set("evoXpV612", String(xp));
+  set("evoStreakV612", `${streak}🔥`);
+  set("evoStreakSubV612", streak === 1 ? "dia ativo" : "dias ativos");
+}
+
+// Substitui a rota antiga para sempre atualizar antes de mostrar.
+window.openEvolutionArea = function(){
+  renderEvolutionHubV612();
+  v53Show("evolutionHubV53","navEvolution");
+  window.scrollTo(0,0);
+};
+
+// Também sincroniza ao tocar diretamente na aba Evolução.
+document.addEventListener("DOMContentLoaded", ()=>{
+  try{ renderEvolutionHubV612(); }catch(e){ console.warn("Evolução V6.1.2:", e); }
+});
