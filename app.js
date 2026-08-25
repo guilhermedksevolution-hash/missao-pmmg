@@ -777,3 +777,144 @@ function saveSummaryFavoriteV57(){
   alert("⭐ Resumo salvo nos favoritos!");
 }
 document.addEventListener("DOMContentLoaded",()=>renderSummaryV57(1));
+
+// ============================================================
+// V5.8 — REVISÃO RÁPIDA FUNCIONAL
+// ============================================================
+let reviewDurationV58 = 10;
+let reviewRemainingV58 = 600;
+let reviewTimerIdV58 = null;
+let reviewRunningV58 = false;
+let reviewPlanStepsV58 = [];
+
+function openQuickReviewV58(){
+  showScreen("quickReviewScreenV58","navReview");
+  window.scrollTo(0,0);
+}
+
+function getErrorCountV58(){
+  try{
+    const keys=["errorNotebook","missaoPMMGState"];
+    const direct=JSON.parse(localStorage.getItem("errorNotebook")||"[]");
+    if(Array.isArray(direct) && direct.length) return direct.length;
+    const state=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");
+    if(Array.isArray(state.errors)) return state.errors.length;
+  }catch(e){}
+  return 0;
+}
+
+function getBestScoreV58(n){
+  try{
+    const state=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");
+    if(state.scores && typeof state.scores[n] === "number") return state.scores[n];
+  }catch(e){}
+  return 0;
+}
+
+function buildQuickReviewV58(minutes){
+  reviewDurationV58 = minutes;
+  reviewRemainingV58 = minutes * 60;
+  reviewRunningV58 = false;
+  clearInterval(reviewTimerIdV58);
+  reviewTimerIdV58 = null;
+
+  const errors = getErrorCountV58();
+  const s1 = getBestScoreV58(1);
+  const s2 = getBestScoreV58(2);
+
+  let weakestLesson = 1;
+  if(s2 && (!s1 || s2 < s1)) weakestLesson = 2;
+
+  const lessonName = weakestLesson === 1 ? "Interpretação de texto" : "Ideia principal e inferência";
+
+  if(minutes === 10){
+    reviewPlanStepsV58 = [
+      {title:"Resumo essencial",time:"3 min",text:`Releia o Resumo Rápido de ${lessonName}.`},
+      {title:"Revisar pontos fracos",time:"4 min",text:errors ? `Revise até ${Math.min(errors,3)} questão(ões) do Caderno de Erros.` : "Revise as principais pegadinhas e dicas da aula."},
+      {title:"Fixação final",time:"3 min",text:"Explique mentalmente os pontos principais sem consultar o material."}
+    ];
+  } else if(minutes === 20){
+    reviewPlanStepsV58 = [
+      {title:"Resumo rápido",time:"5 min",text:`Revise os pontos essenciais de ${lessonName}.`},
+      {title:"Caderno de Erros",time:"7 min",text:errors ? `Revise até ${Math.min(errors,5)} erro(s) e tente justificar a resposta correta.` : "Faça uma revisão dirigida das regras que mais confundem."},
+      {title:"Treino ativo",time:"5 min",text:"Refaça mentalmente exemplos e compare alternativas."},
+      {title:"Fechamento",time:"3 min",text:"Anote uma dúvida ou regra importante nos Favoritos."}
+    ];
+  } else {
+    reviewPlanStepsV58 = [
+      {title:"Resumo da aula",time:"7 min",text:`Leia o resumo de ${lessonName} e marque os pontos menos seguros.`},
+      {title:"Revisão dos erros",time:"10 min",text:errors ? `Revise até ${Math.min(errors,8)} questão(ões) salvas no Caderno de Erros.` : "Revise exemplos e pegadinhas da aula."},
+      {title:"Treino ativo",time:"8 min",text:"Teste sua memória: explique conceitos e elimine alternativas erradas."},
+      {title:"Registro",time:"5 min",text:"Salve nos Favoritos as regras que ainda precisam de reforço."}
+    ];
+  }
+
+  const plan = document.getElementById("reviewPlanV58");
+  const timer = document.getElementById("reviewTimerV58");
+  if(plan){
+    plan.innerHTML = reviewPlanStepsV58.map((step,i)=>`
+      <article class="review-v58-block">
+        <span class="num">${String(i+1).padStart(2,"0")}</span>
+        <div>
+          <strong>${step.title}</strong>
+          <p>${step.text}</p>
+          <em>⏱️ ${step.time}</em>
+        </div>
+      </article>`).join("");
+  }
+  if(timer) timer.classList.remove("hidden");
+  updateReviewClockV58();
+  document.getElementById("reviewStartBtnV58").textContent="Iniciar";
+  document.getElementById("reviewStepV58").textContent=`Sessão de ${minutes} minutos pronta.`;
+  localStorage.setItem("pmmg_last_review_duration", String(minutes));
+}
+
+function updateReviewClockV58(){
+  const el=document.getElementById("reviewClockV58");
+  if(!el) return;
+  const m=Math.floor(reviewRemainingV58/60);
+  const s=reviewRemainingV58%60;
+  el.textContent=`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+}
+
+function toggleReviewTimerV58(){
+  const btn=document.getElementById("reviewStartBtnV58");
+  if(reviewRemainingV58<=0){
+    resetReviewTimerV58();
+  }
+  reviewRunningV58=!reviewRunningV58;
+  if(reviewRunningV58){
+    if(btn) btn.textContent="Pausar";
+    document.getElementById("reviewStepV58").textContent="Revisão em andamento. Mantenha o foco.";
+    reviewTimerIdV58=setInterval(()=>{
+      reviewRemainingV58--;
+      updateReviewClockV58();
+      if(reviewRemainingV58<=0){
+        clearInterval(reviewTimerIdV58);
+        reviewTimerIdV58=null;
+        reviewRunningV58=false;
+        if(btn) btn.textContent="Concluído";
+        document.getElementById("reviewStepV58").textContent="✅ Revisão concluída! Sessão registrada.";
+        const today=new Date().toISOString().slice(0,10);
+        localStorage.setItem("pmmg_review_completed_"+today,"1");
+      }
+    },1000);
+  }else{
+    clearInterval(reviewTimerIdV58);
+    reviewTimerIdV58=null;
+    if(btn) btn.textContent="Continuar";
+    document.getElementById("reviewStepV58").textContent="Sessão pausada.";
+  }
+}
+
+function resetReviewTimerV58(){
+  clearInterval(reviewTimerIdV58);
+  reviewTimerIdV58=null;
+  reviewRunningV58=false;
+  reviewRemainingV58=reviewDurationV58*60;
+  updateReviewClockV58();
+  const btn=document.getElementById("reviewStartBtnV58");
+  if(btn) btn.textContent="Iniciar";
+  const step=document.getElementById("reviewStepV58");
+  if(step) step.textContent=`Sessão de ${reviewDurationV58} minutos pronta.`;
+}
