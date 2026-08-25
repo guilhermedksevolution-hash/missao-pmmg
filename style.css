@@ -64,3 +64,19 @@
   .bottom-nav.v52-nav button small{font-size:5.6px !important;}
   .bottom-nav.v52-nav button span{font-size:14px !important;}
 }
+
+/* V5.3 — hubs definitivos */
+.v53-screen{padding-bottom:100px}
+.v53-head{display:flex;gap:14px;align-items:flex-start;margin:28px 20px 20px}
+.v53-head>button{width:48px;height:48px;flex:0 0 48px;border-radius:16px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:22px}
+.v53-head span{display:block;color:var(--gold);font-weight:900;letter-spacing:2px;font-size:11px;margin:4px 0 5px}
+.v53-head h2{font-size:28px;margin:0 0 5px;line-height:1.08}
+.v53-head p,.v53-feature p,.v53-grid p,.v53-stats p{color:var(--muted);margin:6px 0 0;line-height:1.45}
+.v53-feature{margin:0 20px 14px;padding:20px;border:1px solid var(--line);background:var(--card);border-radius:22px}
+.v53-feature b{font-size:17px}.v53-feature em{display:block;color:var(--gold);font-style:normal;font-size:12px;margin-top:13px}
+.v53-grid,.v53-stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 20px}
+.v53-grid article,.v53-stats article{min-height:118px;padding:17px;border:1px solid var(--line);background:var(--card);border-radius:20px}
+.v53-grid b{font-size:15px}.v53-grid p{font-size:12px}
+.v53-stats article{min-height:105px}.v53-stats small{color:var(--muted);font-weight:800;font-size:9px;letter-spacing:.8px}
+.v53-stats strong{display:block;color:var(--gold);font-size:27px;margin-top:8px}
+.v53-stats p{font-size:11px}
