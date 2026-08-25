@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.1.1">
+<link rel="stylesheet" href="style.css?v=6.1.2">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.1.1</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.1.2</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -251,10 +251,26 @@
 <section id="evolutionHubV53" class="screen v53-screen">
   <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>EVOLUÇÃO</span><h2>Seu desempenho</h2><p>Acompanhe seu avanço na preparação.</p></div></div>
   <div class="v53-stats">
-    <article><small>PROGRESSO</small><strong>0%</strong><p>0 de 2 aulas</p></article>
-    <article><small>MELHOR NOTA</small><strong>50%</strong><p>registrada</p></article>
-    <article><small>XP</small><strong>0</strong><p>experiência</p></article>
-    <article><small>SEQUÊNCIA</small><strong>1🔥</strong><p>dia ativo</p></article>
+    <article>
+      <small>PROGRESSO</small>
+      <strong id="evoProgressV612">0%</strong>
+      <p id="evoProgressSubV612">0 de 0 aulas</p>
+    </article>
+    <article>
+      <small>MELHOR NOTA</small>
+      <strong id="evoBestScoreV612">0%</strong>
+      <p>registrada</p>
+    </article>
+    <article>
+      <small>XP</small>
+      <strong id="evoXpV612">0</strong>
+      <p>experiência</p>
+    </article>
+    <article>
+      <small>SEQUÊNCIA</small>
+      <strong id="evoStreakV612">1🔥</strong>
+      <p id="evoStreakSubV612">dia ativo</p>
+    </article>
   </div>
   <div class="v60-section-label"><span class="kicker">ANÁLISE</span><h3>Dados da preparação</h3></div>
   <div class="v60-grid">
@@ -634,5 +650,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.1.1"></script><script src="app.js?v=6.1.1"></script>
+<script src="lessons.js?v=6.1.2"></script><script src="app.js?v=6.1.2"></script>
 </body></html>
