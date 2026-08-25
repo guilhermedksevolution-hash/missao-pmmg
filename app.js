@@ -918,3 +918,140 @@ function resetReviewTimerV58(){
   const step=document.getElementById("reviewStepV58");
   if(step) step.textContent=`Sessão de ${reviewDurationV58} minutos pronta.`;
 }
+
+// ============================================================
+// V5.9 — NÍVEIS, SEQUÊNCIA E CONQUISTAS
+// ============================================================
+const LEVELS_V59 = [
+  {name:"Recruta",min:0,max:100},
+  {name:"Aluno-Soldado",min:100,max:300},
+  {name:"Soldado",min:300,max:600},
+  {name:"Cabo",min:600,max:1000},
+  {name:"Sargento",min:1000,max:1500},
+  {name:"Subtenente",min:1500,max:2200},
+  {name:"Aspirante",min:2200,max:3000}
+];
+
+function getXpV59(){
+  try{
+    const state=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");
+    if(typeof state.xp==="number") return state.xp;
+  }catch(e){}
+  const direct=Number(localStorage.getItem("xp")||0);
+  return Number.isFinite(direct)?direct:0;
+}
+
+function getStreakV59(){
+  const values=[
+    Number(localStorage.getItem("pmmg_streak")||0),
+    (()=>{try{const s=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");return Number(s.streak||0)}catch(e){return 0}})()
+  ];
+  return Math.max(1,...values.filter(Number.isFinite));
+}
+
+function getCompletedLessonsV59(){
+  try{
+    const s=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");
+    if(Array.isArray(s.completedLessons)) return s.completedLessons.length;
+  }catch(e){}
+  return 0;
+}
+
+function getScoresV59(){
+  try{
+    const s=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");
+    if(s.scores && typeof s.scores==="object") return Object.values(s.scores).map(Number).filter(Number.isFinite);
+  }catch(e){}
+  return [];
+}
+
+function getErrorCountV59(){
+  try{
+    const s=JSON.parse(localStorage.getItem("missaoPMMGState")||"{}");
+    if(Array.isArray(s.errors)) return s.errors.length;
+  }catch(e){}
+  try{
+    const e=JSON.parse(localStorage.getItem("errorNotebook")||"[]");
+    if(Array.isArray(e)) return e.length;
+  }catch(e){}
+  return 0;
+}
+
+function getFavoritesCountV59(){
+  try{
+    const f=JSON.parse(localStorage.getItem("pmmg_favorites_v55")||"[]");
+    return Array.isArray(f)?f.length:0;
+  }catch(e){return 0}
+}
+
+function getReviewDoneV59(){
+  const today=new Date().toISOString().slice(0,10);
+  return localStorage.getItem("pmmg_review_completed_"+today)==="1";
+}
+
+function currentLevelV59(xp){
+  let level=LEVELS_V59[0];
+  for(const l of LEVELS_V59){
+    if(xp>=l.min) level=l;
+    if(xp<l.max) break;
+  }
+  return level;
+}
+
+function openAchievementsV59(){
+  showScreen("achievementsScreenV59","navEvolution");
+  renderAchievementsV59();
+  window.scrollTo(0,0);
+}
+
+function renderAchievementsV59(){
+  const xp=getXpV59();
+  const streak=getStreakV59();
+  const completed=getCompletedLessonsV59();
+  const scores=getScoresV59();
+  const errors=getErrorCountV59();
+  const favorites=getFavoritesCountV59();
+  const reviewDone=getReviewDoneV59();
+  const level=currentLevelV59(xp);
+
+  const max=level.max;
+  const min=level.min;
+  const progress=max>min?Math.max(0,Math.min(100,((xp-min)/(max-min))*100)):100;
+
+  document.getElementById("levelNameV59").textContent=level.name;
+  document.getElementById("levelXpV59").textContent=xp+" XP";
+  document.getElementById("levelMinV59").textContent=min+" XP";
+  document.getElementById("levelMaxV59").textContent=max+" XP";
+  document.getElementById("levelBarV59").style.width=progress+"%";
+  document.getElementById("levelSubtitleV59").textContent=
+    xp>=max ? "Nível máximo desta versão atingido." : `Faltam ${Math.max(0,max-xp)} XP para o próximo marco.`;
+
+  document.getElementById("streakDaysV59").textContent=streak;
+  document.getElementById("streakRingV59").textContent=streak;
+
+  const achievements=[
+    {icon:"🎓",title:"Primeira aprovação",desc:"Conclua sua primeira aula.",ok:completed>=1},
+    {icon:"💯",title:"Nota máxima",desc:"Tire 100% em uma prova.",ok:scores.some(s=>s===100)},
+    {icon:"📚",title:"Duas etapas vencidas",desc:"Conclua as duas primeiras aulas.",ok:completed>=2},
+    {icon:"⭐",title:"100 XP",desc:"Acumule pelo menos 100 XP.",ok:xp>=100},
+    {icon:"🔥",title:"Sequência de 3 dias",desc:"Estude por 3 dias consecutivos.",ok:streak>=3},
+    {icon:"🔥",title:"Sequência de 7 dias",desc:"Mantenha 7 dias de estudo.",ok:streak>=7},
+    {icon:"📓",title:"Aprendendo com os erros",desc:"Tenha ao menos 1 questão no Caderno de Erros.",ok:errors>=1},
+    {icon:"⭐",title:"Biblioteca pessoal",desc:"Salve 3 itens nos Favoritos.",ok:favorites>=3},
+    {icon:"⚡",title:"Revisão concluída",desc:"Complete uma sessão de Revisão Rápida hoje.",ok:reviewDone},
+    {icon:"🎯",title:"Excelente desempenho",desc:"Alcance 80% ou mais em uma prova.",ok:scores.some(s=>s>=80)}
+  ];
+
+  const unlocked=achievements.filter(a=>a.ok).length;
+  document.getElementById("achievementCountV59").textContent=`${unlocked}/${achievements.length}`;
+
+  const list=document.getElementById("achievementListV59");
+  list.innerHTML=achievements.map(a=>`
+    <article class="achievement-v59-item ${a.ok?"":"locked"}">
+      <span class="icon">${a.icon}</span>
+      <span class="achievement-v59-status">${a.ok?"CONQUISTADA":"BLOQUEADA"}</span>
+      <strong>${a.title}</strong>
+      <p>${a.desc}</p>
+    </article>
+  `).join("");
+}
