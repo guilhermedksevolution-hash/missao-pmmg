@@ -54,8 +54,8 @@ function showScreen(id,nav=""){
 }
 
 function goHome(){updateDashboard();showScreen("homeScreen","navHome");}
-function openSubjects(){updateDashboard();showScreen("subjectsScreen","navSubjects");}
-function openPortuguese(){renderLessonList();updateDashboard();showScreen("lessonsScreen","navMission");}
+function openSubjects(){updateDashboard();showScreen("subjectsScreen","navStudy");}
+function openPortuguese(){renderLessonList();updateDashboard();showScreen("lessonsScreen","navStudy");}
 function openTips(){showScreen("tipsScreen");}
 function openPerformance(){renderPerformance();showScreen("performanceScreen");}
 
@@ -103,7 +103,7 @@ function openLesson(n){
   document.getElementById("lessonContent").innerHTML=lesson.content;
 
   updateStudyStreak(); saveState(); updateDashboard();
-  showScreen("lessonScreen","navMission");
+  showScreen("lessonScreen","navStudy");
 }
 
 function backToCurrentLesson(){openLesson(currentLessonNumber);}
@@ -125,7 +125,7 @@ function startQuiz(){
           </label>`).join("")}
       </div>
     </article>`).join("");
-  showScreen("quizScreen","navMission");
+  showScreen("quizScreen","navStudy");
 }
 
 function submitQuiz(){
@@ -1670,3 +1670,114 @@ if(finishSimulationBeforeV60){finishSimulationV510=function(force=false){const r
 
 
 /* V6.1 — integração e acabamento */
+
+/* ==========================================================
+   V6.1.1 — CORREÇÃO: ABERTURA DAS AULAS
+   ========================================================== */
+
+window.renderLessonList = function(){
+  const el = document.getElementById("lessonList");
+  if(!el) return;
+
+  const nums = getLessonNumbers();
+  if(!nums.length){
+    el.innerHTML = '<div class="empty-state"><b>Conteúdo não carregado</b><br>Atualize a página e tente novamente.</div>';
+    return;
+  }
+
+  el.innerHTML = nums.map(n=>{
+    const l = getLessonData(n);
+    const unlocked = isLessonUnlocked(n);
+    const completed = isLessonCompleted(n);
+    const score = state.scores[n];
+
+    return `
+      <article class="lesson-card lesson-card-v611 ${!unlocked?"locked":""} ${completed?"completed":""}" data-lesson="${n}">
+        <div class="lesson-number">${String(n).padStart(2,"0")}</div>
+        <div class="lesson-card-content">
+          <h3>${l ? l.title : "Aula "+n}</h3>
+          <p>${l ? (l.subtitle || "") : ""}</p>
+          ${typeof score==="number" ? `<span class="score-badge">Melhor nota: ${score}%</span>` : ""}
+          ${!unlocked ? `<div class="lock-message">Atinga 70% na aula anterior.</div>` : ""}
+        </div>
+        <div class="lesson-card-status">${completed?"✓":unlocked?"›":"🔒"}</div>
+        ${unlocked ? `<button class="lesson-open-v611" type="button" data-open-lesson="${n}">Abrir aula</button>` : ""}
+      </article>`;
+  }).join("");
+
+  el.querySelectorAll("[data-open-lesson]").forEach(btn=>{
+    btn.addEventListener("click", (ev)=>{
+      ev.preventDefault();
+      ev.stopPropagation();
+      const n = Number(btn.dataset.openLesson);
+      window.openLessonV611(n);
+    });
+  });
+
+  el.querySelectorAll(".lesson-card-v611").forEach(card=>{
+    if(card.classList.contains("locked")) return;
+    card.addEventListener("click", ()=>{
+      const n = Number(card.dataset.lesson);
+      window.openLessonV611(n);
+    });
+  });
+};
+
+window.openLessonV611 = function(n){
+  n = Number(n);
+  if(!Number.isFinite(n)) return;
+
+  if(!isLessonUnlocked(n)){
+    alert("🔒 Esta aula ainda está bloqueada. Atinja pelo menos 70% na aula anterior.");
+    return;
+  }
+
+  const lesson = getLessonData(n);
+  if(!lesson){
+    alert("Não foi possível carregar o conteúdo desta aula. Atualize a página e tente novamente.");
+    return;
+  }
+
+  currentLessonNumber = n;
+  currentQuiz = null;
+
+  const subtitle = document.getElementById("lessonSubtitle");
+  const title = document.getElementById("lessonTitle");
+  const time = document.getElementById("lessonTime");
+  const content = document.getElementById("lessonContent");
+
+  if(subtitle) subtitle.textContent = lesson.subtitle || `AULA ${String(n).padStart(2,"0")}`;
+  if(title) title.textContent = lesson.title || `Aula ${n}`;
+  if(time) time.textContent = lesson.time || "—";
+  if(content) content.innerHTML = lesson.content || "<p>Conteúdo em preparação.</p>";
+
+  try{
+    if(typeof updateStudyStreak === "function") updateStudyStreak();
+    if(typeof saveState === "function") saveState();
+    if(typeof updateDashboard === "function") updateDashboard();
+    if(typeof logStudyEventV60 === "function") logStudyEventV60("lesson","Aula aberta",`Aula ${String(n).padStart(2,"0")}`);
+  }catch(e){
+    console.warn("Registro da aula:", e);
+  }
+
+  showScreen("lessonScreen","navStudy");
+  window.scrollTo(0,0);
+};
+
+// O onclick antigo e os módulos futuros também passam por esta função segura.
+window.openLesson = function(n){
+  return window.openLessonV611(n);
+};
+
+window.openPortuguese = function(){
+  renderLessonList();
+  if(typeof updateDashboard === "function") updateDashboard();
+  showScreen("lessonsScreen","navStudy");
+  window.scrollTo(0,0);
+};
+
+window.openSubjects = function(){
+  if(typeof updateDashboard === "function") updateDashboard();
+  showScreen("subjectsScreen","navStudy");
+  window.scrollTo(0,0);
+};
