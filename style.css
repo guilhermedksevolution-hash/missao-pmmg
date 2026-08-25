@@ -783,4 +783,4 @@
 .sim623-item{padding:15px!important}.sim623-item-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.sim623-item-top small{font-size:6.5px;color:var(--gold);text-align:right}.sim623-item h4{font-size:11px;line-height:1.45;margin:10px 0}.sim623-answer{padding:9px 10px;border-radius:10px;background:rgba(255,255,255,.025)}
 .sim623-explain,.sim623-tip{margin-top:9px;padding:10px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.02)}.sim623-explain>b,.sim623-tip>b{font-size:7px;color:var(--gold)}.sim623-explain p,.sim623-tip p{font-size:8px;line-height:1.45;color:var(--muted);margin-top:4px}.sim623-review-btn{width:100%;margin-top:10px}.sim623-resolved{display:block;margin-top:9px;font-size:7px;color:#77c99d}
 
-/* V6.2.4 — integração de simulados com evolução */
+/* V6.2.5 — evolução unificada dos simulados */
