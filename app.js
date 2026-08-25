@@ -3289,7 +3289,8 @@ function renderStudyGoals636(){
   let sum=0,done=0;
   [['Q',p.questions,g.questions],['R',p.reviews,g.reviews],['L',p.lessons,g.lessons]].forEach(x=>{
     const raw=Math.round(x[1]/Math.max(1,x[2])*100),pct=Math.min(100,raw); sum+=pct; if(x[1]>=x[2])done++;
-    set('g636'+x[0]+'Now',x[1]+' / '+x[2]+(raw>100?'  ✓ +'+(raw-100)+'%':''));
+    const extra=raw>200?'  ✓ Meta superada':raw>100?'  ✓ +'+(raw-100)+'%':'';
+    set('g636'+x[0]+'Now',x[1]+' / '+x[2]+extra);
     const b=document.getElementById('g636'+x[0]+'Bar');if(b)b.style.width=pct+'%';
   });
   const o=Math.round(sum/3);set('g636Overall',o+'%');const b=document.getElementById('g636MainBar');if(b)b.style.width=o+'%';
