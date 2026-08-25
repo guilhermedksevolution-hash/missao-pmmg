@@ -80,3 +80,7 @@
 .v53-stats article{min-height:105px}.v53-stats small{color:var(--muted);font-weight:800;font-size:9px;letter-spacing:.8px}
 .v53-stats strong{display:block;color:var(--gold);font-size:27px;margin-top:8px}
 .v53-stats p{font-size:11px}
+
+
+/* V5.4 — Plano de estudos funcional */
+.plan-v54-extra{margin-top:10px}.v54-plan-title{padding:17px;border:1px solid var(--line);background:var(--card);border-radius:18px;margin-bottom:10px}.v54-plan-title span{display:block;color:var(--gold);font-size:9px;font-weight:900;letter-spacing:1.5px}.v54-plan-title b{display:block;font-size:18px;margin-top:6px}.v54-plan-title p{font-size:11px;color:var(--muted);margin-top:5px}.v54-plan-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.v54-plan-grid article{padding:14px;min-height:120px;border:1px solid var(--line);background:var(--card);border-radius:17px}.v54-plan-grid strong{display:block;font-size:12px}.v54-plan-grid b{display:block;color:var(--gold);font-size:22px;margin:9px 0 5px}.v54-plan-grid small{display:block;color:var(--muted);font-size:9px;line-height:1.4}.v54-start{width:100%;min-height:50px;margin-top:10px;border:0;border-radius:14px;background:var(--gold);color:#101722;font-weight:900;font-size:14px}.v54-plan-note{margin-top:9px;padding:13px;border:1px solid var(--line);border-radius:14px;color:var(--muted);font-size:10px;line-height:1.5;background:rgba(255,255,255,.02)}
