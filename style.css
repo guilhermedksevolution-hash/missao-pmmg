@@ -677,3 +677,21 @@
 .v617-done-stats strong{display:block;color:var(--gold);font-size:18px}
 .v617-done-stats small{display:block;color:var(--muted);font-size:6.5px;margin-top:3px}
 .v617-done-card .secondary-btn{width:100%;min-height:44px;margin-top:7px;border-radius:12px}
+
+/* V6.1.8 — botão principal da revisão automática */
+.v618-smart-review-btn{
+  width:100%;margin-top:12px;padding:13px 14px;
+  display:flex;align-items:center;gap:11px;text-align:left;
+  border:1px solid rgba(214,187,123,.28);border-radius:14px;
+  background:linear-gradient(135deg,rgba(214,187,123,.12),rgba(214,187,123,.035));
+  color:var(--text);
+}
+.v618-smart-review-btn>span{
+  width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;
+  border-radius:11px;background:rgba(214,187,123,.10);font-size:19px;
+}
+.v618-smart-review-btn>div{flex:1}
+.v618-smart-review-btn strong{display:block;font-size:10px;color:var(--gold)}
+.v618-smart-review-btn small{display:block;margin-top:3px;font-size:7.5px;color:var(--muted)}
+.v618-smart-review-btn>b{font-size:22px;color:var(--gold)}
+.v618-smart-review-btn.is-empty{opacity:.55}
