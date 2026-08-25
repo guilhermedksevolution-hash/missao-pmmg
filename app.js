@@ -2424,3 +2424,186 @@ if(_removeErrorV618){
 }
 
 window.addEventListener("load", ()=>setTimeout(updateSmartReviewEntryV618,150));
+
+/* ==========================================================
+   V6.2.1 — SIMULADOS 2.0 / FASE 1
+   Configuração + integração com Caderno de Erros
+   ========================================================== */
+let simConfigV621 = { count:10, minutes:15, type:"portugues" };
+
+function getSimulationPoolV621(){
+  const pool=[];
+  if(typeof window.lessons!=="undefined"){
+    Object.keys(window.lessons).forEach(k=>{
+      const lesson=window.lessons[k];
+      if(Array.isArray(lesson.quiz)){
+        lesson.quiz.forEach((q,qi)=>{
+          pool.push({
+            lessonNumber:Number(k),
+            lessonTitle:lesson.title,
+            questionIndex:qi,
+            question:q.question,
+            options:q.options,
+            answer:q.answer,
+            explanation:q.explanation||"Revise o conteúdo relacionado a esta questão.",
+            tip:q.tip||"Volte ao conteúdo e compare a regra com a resposta correta."
+          });
+        });
+      }
+    });
+  }
+  return pool;
+}
+
+window.startConfiguredSimulationV621=function(type="portugues"){
+  const pool=getSimulationPoolV621();
+  if(pool.length<5){
+    alert("Ainda não há questões suficientes para montar o simulado.");
+    return;
+  }
+
+  const count=Math.max(5,Number(document.getElementById("sim621QuestionCount")?.value||10));
+  const minutes=Math.max(1,Number(document.getElementById("sim621Minutes")?.value||15));
+
+  simConfigV621={count,minutes,type};
+  localStorage.setItem("pmmg_sim_config_v621",JSON.stringify(simConfigV621));
+
+  const shuffled=[...pool].sort(()=>Math.random()-.5);
+  simQuestionsV510=shuffled.slice(0,Math.min(count,shuffled.length));
+  simAnswersV510=new Array(simQuestionsV510.length).fill(null);
+  simIndexV510=0;
+  simSecondsV510=minutes*60;
+  simStartedAtV510=Date.now();
+  clearInterval(simTimerV510);
+
+  document.getElementById("simTitleV510").textContent=
+    type==="portugues"?"Português • Simulado 2.0":"Misto • Simulado 2.0";
+
+  showScreen("simulationScreenV510","navTrain");
+  renderSimulationQuestionV510();
+  updateSimulationClockV510();
+
+  simTimerV510=setInterval(()=>{
+    simSecondsV510--;
+    updateSimulationClockV510();
+    if(simSecondsV510<=0){
+      clearInterval(simTimerV510);
+      simTimerV510=null;
+      alert("⏱️ Tempo encerrado. O simulado será finalizado.");
+      finishSimulationV510(true);
+    }
+  },1000);
+};
+
+function saveSimulationErrorsV621(){
+  if(!Array.isArray(simQuestionsV510)||!Array.isArray(simAnswersV510)) return 0;
+
+  let added=0;
+
+  simQuestionsV510.forEach((q,i)=>{
+    const selected=simAnswersV510[i];
+    if(selected===q.answer) return;
+
+    const id=`${q.lessonNumber}-${q.questionIndex}`;
+    state.errors=state.errors.filter(e=>e.id!==id);
+
+    state.errors.push({
+      id,
+      lessonNumber:q.lessonNumber,
+      lessonTitle:q.lessonTitle||`Aula ${q.lessonNumber}`,
+      questionIndex:q.questionIndex,
+      question:q.question,
+      selectedText:selected===null?"Não respondida":q.options[selected],
+      correctText:q.options[q.answer],
+      explanation:q.explanation||"",
+      tip:q.tip||"",
+      addedAt:Date.now(),
+      source:"simulado"
+    });
+    added++;
+  });
+
+  if(added){
+    saveState();
+    if(typeof updateDashboard==="function") updateDashboard();
+  }
+  return added;
+}
+
+// Captura a finalização sem alterar o motor antigo já testado.
+const finishSimulationV621Base = finishSimulationV510;
+finishSimulationV510=function(force=false){
+  const unanswered=simAnswersV510.filter(x=>x===null).length;
+  if(!force && unanswered>0){
+    if(!confirm(`Você deixou ${unanswered} questão(ões) sem resposta. Finalizar mesmo assim?`)) return;
+  }
+
+  const wrongBefore=(state.errors||[]).length;
+  const result=finishSimulationV621Base(true);
+  const added=saveSimulationErrorsV621();
+
+  if(typeof simLastResultV510!=="undefined" && simLastResultV510){
+    simLastResultV510.config={
+      questions:simQuestionsV510.length,
+      minutes:simConfigV621.minutes,
+      type:simConfigV621.type
+    };
+    simLastResultV510.errorsAdded=added;
+
+    // Regrava a última entrada com os novos metadados.
+    let hist=[];
+    try{hist=JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]");}catch(e){hist=[];}
+    if(hist.length){
+      hist[0].questions=simQuestionsV510.length;
+      hist[0].minutes=simConfigV621.minutes;
+      hist[0].type=simConfigV621.type;
+      hist[0].errorsAdded=added;
+      localStorage.setItem("pmmg_sim_history_v510",JSON.stringify(hist));
+    }
+
+    const text=document.getElementById("simResultTextV510");
+    if(text && added>0){
+      text.textContent += ` ${added} erro${added===1?" foi":"s foram"} enviado${added===1?"":"s"} ao Caderno de Erros 2.0.`;
+    }
+  }
+
+  return result;
+};
+
+// Histórico 2.0 com formato do simulado.
+window.renderSimulationHistoryV510=function(){
+  const box=document.getElementById("simHistoryV510");
+  const count=document.getElementById("simHistoryCountV510");
+  if(!box||!count)return;
+
+  let hist=[];
+  try{hist=JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]");}catch(e){hist=[];}
+  count.textContent=`${hist.length} ${hist.length===1?"simulado":"simulados"}`;
+
+  if(!hist.length){
+    box.innerHTML='<div class="empty-state"><b>Nenhum simulado realizado</b><br>Seu histórico aparecerá aqui.</div>';
+    return;
+  }
+
+  box.innerHTML=hist.map(h=>`
+    <article class="sim510-history-item sim621-history-item">
+      <div>
+        <strong>${new Date(h.date).toLocaleDateString("pt-BR")} • ${h.type==="misto"?"Misto":"Português"}</strong>
+        <span>${h.correct}/${h.total} acertos • ${formatSecondsV510(h.used)}${h.errorsAdded?` • ${h.errorsAdded} erro(s) ao Caderno 2.0`:""}</span>
+      </div>
+      <b>${h.score}%</b>
+    </article>`).join("");
+};
+
+// Restaura a última configuração escolhida.
+document.addEventListener("DOMContentLoaded",()=>{
+  try{
+    const cfg=JSON.parse(localStorage.getItem("pmmg_sim_config_v621")||"null");
+    if(cfg){
+      const q=document.getElementById("sim621QuestionCount");
+      const m=document.getElementById("sim621Minutes");
+      if(q && [...q.options].some(o=>o.value===String(cfg.count))) q.value=String(cfg.count);
+      if(m && [...m.options].some(o=>o.value===String(cfg.minutes))) m.value=String(cfg.minutes);
+    }
+  }catch(e){}
+});
