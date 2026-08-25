@@ -367,3 +367,99 @@ function openProfessorIA(){ showScreen("professorScreen"); }
 
 function openStudyHub(){ showScreen("studyHubScreen"); }
 function openProfessorIA(){ showScreen("professorScreen"); }
+
+/* ==========================================================
+   V5 - BASE COMPLETA / ESTRUTURA DAS 17 FUNCIONALIDADES
+   ========================================================== */
+function openPlan(){ showScreen("planScreen"); loadV5Settings(); }
+function openSimulations(){ showScreen("simulationsScreen"); }
+function openQuickReview(){ showScreen("quickReviewScreen"); }
+function openFavorites(){ showScreen("favoritesScreen"); }
+function openAchievements(){ showScreen("achievementsScreen"); renderAchievements(); }
+function openSearch(){ showScreen("searchScreen"); }
+function placeholderFeature(name){ alert("🚧 "+name+" já tem espaço reservado. O banco de questões será ligado quando entrarmos na fase de conteúdo."); }
+
+function saveV5Settings(){
+  const goal=document.getElementById("dailyGoal")?.value || "60";
+  const date=document.getElementById("examDate")?.value || "";
+  localStorage.setItem("pmmg_daily_goal",goal);
+  localStorage.setItem("pmmg_exam_date",date);
+  renderCountdown();
+}
+function loadV5Settings(){
+  const goal=localStorage.getItem("pmmg_daily_goal")||"60";
+  const date=localStorage.getItem("pmmg_exam_date")||"";
+  if(document.getElementById("dailyGoal")) document.getElementById("dailyGoal").value=goal;
+  if(document.getElementById("examDate")) document.getElementById("examDate").value=date;
+  renderCountdown();
+}
+function renderCountdown(){
+  const el=document.getElementById("countdownCard"); if(!el)return;
+  const raw=localStorage.getItem("pmmg_exam_date");
+  if(!raw){el.innerHTML="<b>📆 Contagem regressiva</b><br>Defina a data da prova para ativar.";return;}
+  const target=new Date(raw+"T12:00:00"), now=new Date();
+  const days=Math.ceil((target-now)/86400000);
+  el.innerHTML=days>=0?`<b>📆 Faltam ${days} dias</b><br>Seu plano poderá se adaptar ao tempo restante.`:"<b>📆 Data encerrada</b><br>Atualize a data da prova.";
+}
+function preparationIndex(){
+  let completed=0, scores=[];
+  for(let i=1;i<=TOTAL_LESSONS;i++){
+    if(isPassed(i))completed++;
+    const s=Number(localStorage.getItem(`bestScore${i}`)||0); if(s)scores.push(s);
+  }
+  const progress=(completed/TOTAL_LESSONS)*100;
+  const avg=scores.length?scores.reduce((a,b)=>a+b,0)/scores.length:0;
+  const reviewBonus=Math.min(100,getXP()/5);
+  return Math.round(progress*.45+avg*.45+reviewBonus*.10);
+}
+function renderV5Dashboard(){
+  const el=document.getElementById("preparationIndex"); if(el)el.textContent=preparationIndex();
+}
+function startQuickReview(minutes){
+  const el=document.getElementById("quickReviewResult");
+  const errors=JSON.parse(localStorage.getItem("errorNotebook")||"[]");
+  const focus=errors.length?`${Math.min(errors.length,Math.max(3,Math.floor(minutes/2)))} questões do seu Caderno de Erros`:"revisão dos principais pontos da aula atual";
+  el.innerHTML=`<b>⚡ Sessão de ${minutes} minutos</b><p>Prioridade: ${focus}. Quando o banco de questões crescer, esta seleção será automática.</p>`;
+}
+function getLevel(){
+ const xp=getXP();
+ if(xp<100)return["Recruta",0,100];
+ if(xp<300)return["Aluno-Soldado",100,300];
+ if(xp<600)return["Soldado",300,600];
+ if(xp<1000)return["Cabo",600,1000];
+ return["Sargento",1000,1500];
+}
+function renderAchievements(){
+ const box=document.getElementById("levelCard"), list=document.getElementById("achievementList");
+ if(!box||!list)return;
+ const [name,min,max]=getLevel(), xp=getXP();
+ box.innerHTML=`<span class="kicker">NÍVEL ATUAL</span><h3>${name}</h3><p>${xp} XP • próximo marco ${max} XP</p><div class="bar"><i style="width:${Math.min(100,((xp-min)/(max-min))*100)}%"></i></div>`;
+ let passed=0;for(let i=1;i<=TOTAL_LESSONS;i++)if(isPassed(i))passed++;
+ const errors=JSON.parse(localStorage.getItem("errorNotebook")||"[]").length;
+ const items=[
+  ["🎓","Primeira aprovação",passed>=1],
+  ["💯","Nota máxima",Array.from({length:TOTAL_LESSONS},(_,i)=>Number(localStorage.getItem(`bestScore${i+1}`)||0)).some(x=>x===100)],
+  ["📚","Duas aulas vencidas",passed>=2],
+  ["⭐","100 XP conquistados",xp>=100],
+  ["📓","Revisão ativa",errors>0]
+ ];
+ list.innerHTML=items.map(x=>`<div class="achievement ${x[2]?"":"locked"}"><span>${x[0]}</span><div><strong>${x[1]}</strong><small>${x[2]?"Conquistada":"Ainda bloqueada"}</small></div></div>`).join("");
+}
+function runStudySearch(){
+ const q=(document.getElementById("studySearch")?.value||"").trim().toLowerCase();
+ const out=document.getElementById("searchResults"); if(!out)return;
+ if(q.length<2){out.innerHTML='<div class="empty-state">Digite pelo menos 2 letras.</div>';return;}
+ let results=[];
+ if(typeof lessons!=="undefined"){
+  Object.keys(lessons).forEach(k=>{
+   const l=lessons[k], hay=((l.title||"")+" "+(l.content||"")).toLowerCase();
+   if(hay.includes(q))results.push({title:l.title||`Aula ${k}`,text:`Português • Aula ${String(k).padStart(2,"0")}`,n:Number(k)});
+  });
+ }
+ out.innerHTML=results.length?results.slice(0,10).map(r=>`<div class="search-result" onclick="openLesson(${r.n})"><strong>📘 ${r.title}</strong><p>${r.text}</p></div>`).join(""):'<div class="empty-state">Nenhum conteúdo encontrado.</div>';
+}
+const _oldSync = typeof sync==="function" ? sync : null;
+if(_oldSync){
+  sync = function(){ _oldSync(); renderV5Dashboard(); };
+}
+document.addEventListener("DOMContentLoaded",()=>{renderV5Dashboard();});
