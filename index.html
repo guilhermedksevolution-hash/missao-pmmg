@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.1.5">
+<link rel="stylesheet" href="style.css?v=6.1.7">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.1.6</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.1.7</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -234,6 +234,7 @@
 
 <section id="reviewHubV53" class="screen v53-screen">
   <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>REVISAR</span><h2>Revisão inteligente</h2><p>Volte exatamente ao que precisa reforçar.</p></div></div>
+  <div class="v617-smart-start" onclick="startSmartReviewSessionV617()"><div>🧠</div><section><span class="kicker">REVISÃO AUTOMÁTICA</span><h3>Revisar erros pendentes</h3><p>O sistema monta uma sessão com seus erros atuais.</p></section><b>›</b></div>
   <div class="v53-feature" onclick="openErrorNotebook()"><b>🗒️ Caderno de erros</b><p>Questões erradas ficam salvas automaticamente.</p><em>Abrir caderno ›</em></div>
   <div class="v60-section-label"><span class="kicker">REVISÃO</span><h3>Ferramentas avançadas</h3></div>
   <div class="v60-grid">
@@ -654,6 +655,52 @@
  <div id="smartErrorReviewBodyV616"></div>
 </section>
 
+
+<section id="smartReviewSessionV617" class="screen">
+  <div class="page-head">
+    <button onclick="exitSmartReviewSessionV617()">←</button>
+    <div>
+      <span class="kicker">REVISÃO INTELIGENTE</span>
+      <h2>Sessão de erros</h2>
+    </div>
+  </div>
+
+  <div class="v617-session-head">
+    <div>
+      <span class="kicker">SESSÃO ATUAL</span>
+      <h3 id="v617SessionTitle">Revisão automática</h3>
+      <p id="v617SessionSubtitle">Prioridade para os seus erros pendentes.</p>
+    </div>
+    <div class="v617-session-ring">
+      <strong id="v617SessionPosition">1/1</strong>
+      <small>QUESTÃO</small>
+    </div>
+  </div>
+
+  <div class="v617-progress-wrap">
+    <div class="bar"><i id="v617SessionBar"></i></div>
+    <div><span id="v617CorrectCount">0 acertos</span><span id="v617PendingCount">0 pendentes</span></div>
+  </div>
+
+  <div id="v617SessionBody"></div>
+</section>
+
+<section id="smartReviewDoneV617" class="screen">
+  <div class="v617-done-card">
+    <div class="v617-done-icon">🎯</div>
+    <span class="kicker">REVISÃO CONCLUÍDA</span>
+    <h2>Você zerou esta sessão!</h2>
+    <p id="v617DoneText">Todos os erros da sessão foram revisados.</p>
+    <div class="v617-done-stats">
+      <article><strong id="v617DoneCorrect">0</strong><small>Corrigidos</small></article>
+      <article><strong id="v617DoneAttempts">0</strong><small>Tentativas</small></article>
+      <article><strong id="v617DoneRate">0%</strong><small>Precisão</small></article>
+    </div>
+    <button class="primary full" onclick="openErrorsProV60()">Voltar ao Caderno 2.0</button>
+    <button class="secondary-btn" onclick="openPreparationIndexV60()">Ver Índice de Preparo</button>
+  </div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -661,5 +708,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.1.2"></script><script src="app.js?v=6.1.6"></script>
+<script src="lessons.js?v=6.1.7"></script><script src="app.js?v=6.1.7"></script>
 </body></html>
