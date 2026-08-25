@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.2.8">
+<link rel="stylesheet" href="style.css?v=6.2.9">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.2.8</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.2.9</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b></div>
 </header>
 
@@ -200,7 +200,19 @@
 </section>
 
 
-<section id="simHistory627" class="screen"><div class="page-head"><button class="back-btn" onclick="showScreen('evolutionScreen','navEvolution')">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Histórico de simulados</h2><p>Acompanhe sua evolução prova após prova.</p></div></div><div class="hist627stats"><article>Melhor nota<strong id="hBest">0%</strong></article><article>Média recente<strong id="hAvg">0%</strong></article><article>Simulados<strong id="hCount">0</strong></article></div><div class="hist627card"><span class="kicker">EVOLUÇÃO</span><h3>Últimos 5 simulados</h3><div id="hChart" class="hChart"></div></div><div id="hList" class="hList"></div></section></main>
+<section id="advancedStats629" class="screen">
+<div class="page-head"><button class="back-btn" onclick="showScreen('evolutionScreen','navEvolution')">←</button>
+<div><span class="kicker">EVOLUÇÃO</span><h2>Estatísticas avançadas</h2><p>Entenda seu desempenho e sua tendência recente.</p></div></div>
+<div class="stats629grid">
+<article>Taxa de acerto<strong id="s629acc">0%</strong><small>nos simulados</small></article>
+<article>Questões feitas<strong id="s629total">0</strong><small>total respondido</small></article>
+<article>Acertos<strong id="s629hits">0</strong><small>respostas corretas</small></article>
+<article>Erros<strong id="s629errors">0</strong><small>pontos para revisar</small></article>
+</div>
+<div class="stats629panel"><span class="kicker">DIAGNÓSTICO</span><h3 id="s629trend">Aguardando dados</h3><p id="s629trendtext">Faça simulados para gerar sua tendência.</p><div class="s629bar"><i id="s629bar"></i></div></div>
+<div class="stats629panel"><span class="kicker">ÚLTIMOS 5</span><h3>Desempenho recente</h3><div id="s629recent" class="s629recent"></div></div>
+<button class="primary-btn" onclick="openSimHistory627()">📈 Ver histórico de simulados</button>
+</section><section id="simHistory627" class="screen"><div class="page-head"><button class="back-btn" onclick="showScreen('evolutionScreen','navEvolution')">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Histórico de simulados</h2><p>Acompanhe sua evolução prova após prova.</p></div></div><div class="hist627stats"><article>Melhor nota<strong id="hBest">0%</strong></article><article>Média recente<strong id="hAvg">0%</strong></article><article>Simulados<strong id="hCount">0</strong></article></div><div class="hist627card"><span class="kicker">EVOLUÇÃO</span><h3>Últimos 5 simulados</h3><div id="hChart" class="hChart"></div></div><div id="hList" class="hList"></div></section></main>
 
 
 <section id="studyHubV53" class="screen v53-screen">
@@ -277,7 +289,7 @@
   <div class="v60-grid">
     <article onclick="openSubjectPerformanceV60()"><b>📊 Por matéria</b><p>Compare desempenho por disciplina.</p></article>
     <article onclick="openQuestionStatsV60()"><b>🧮 Estatísticas</b><p>Acertos, erros e simulados.</p></article>
-    <article onclick="openSimHistory627()"><b>📈 Histórico de simulados</b><p>Notas, média e evolução prova após prova.</p></article>
+    <article onclick="openAdvancedStats629()"><b>📊 Estatísticas avançadas</b><p>Taxa de acerto, volume e tendência recente.</p></article><article onclick="openSimHistory627()"><b>📈 Histórico de simulados</b><p>Notas, média e evolução prova após prova.</p></article>
     <article onclick="openStudyHistoryV60()"><b>🕘 Atividade de estudos</b><p>Aulas, revisões e ações registradas.</p></article>
     <article onclick="openPreparationIndexV60()"><b>🧭 Índice de preparo</b><p>Entenda seu nível atual.</p></article>
   </div>
@@ -758,5 +770,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.2.5"></script><script src="app.js?v=6.2.8"></script>
+<script src="lessons.js?v=6.2.5"></script><script src="app.js?v=6.2.9"></script>
 </body></html>
