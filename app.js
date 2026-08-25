@@ -463,3 +463,52 @@ if(_oldSync){
   sync = function(){ _oldSync(); renderV5Dashboard(); };
 }
 document.addEventListener("DOMContentLoaded",()=>{renderV5Dashboard();});
+
+/* ==========================================================
+   V5.1 — SISTEMAS FUNCIONAIS: MISSÃO, STREAK, XP E PREPARO
+   ========================================================== */
+function dateKey(d=new Date()){
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+function updateStudyStreak(){
+  const today=dateKey(), last=localStorage.getItem("pmmg_last_study_day");
+  let streak=Number(localStorage.getItem("pmmg_streak")||0);
+  if(last===today) return streak;
+  const y=new Date(); y.setDate(y.getDate()-1);
+  if(last===dateKey(y)) streak+=1; else streak=1;
+  localStorage.setItem("pmmg_streak",String(streak));
+  localStorage.setItem("pmmg_last_study_day",today);
+  return streak;
+}
+function getStudyStreak(){ return Number(localStorage.getItem("pmmg_streak")||1); }
+function registerStudyActivity(){
+  updateStudyStreak();
+  localStorage.setItem("pmmg_activity_"+dateKey(),"1");
+  renderV51();
+}
+function renderDailyMission(){
+  const pending=typeof firstPendingLesson==="function" ? firstPendingLesson() : 1;
+  const title=document.getElementById("dailyMissionTitle"), text=document.getElementById("dailyMissionText");
+  if(!title||!text)return;
+  if(!pending){title.textContent="Português concluído 🎯";text.textContent="Revise seus erros e mantenha sua sequência.";return;}
+  const errors=JSON.parse(localStorage.getItem("errorNotebook")||"[]").length;
+  title.textContent=`Aula ${String(pending).padStart(2,"0")} • ${getLessonTitle(pending)}`;
+  text.textContent=`1 aula • prova da aula${errors?` • revisar ${Math.min(errors,5)} erro(s)`:" • revisão rápida"}`;
+}
+function renderStreakBadge(){
+  const candidates=[...document.querySelectorAll(".top-stat,.header-stat,.pill")];
+  candidates.forEach(el=>{ if((el.textContent||"").includes("🔥")) el.innerHTML=`🔥 ${getStudyStreak()}`; });
+}
+function renderV51(){
+  renderDailyMission();
+  renderStreakBadge();
+  renderV5Dashboard();
+}
+const _v51OpenLesson=typeof openLesson==="function"?openLesson:null;
+if(_v51OpenLesson){
+  openLesson=function(n){registerStudyActivity();return _v51OpenLesson(n);}
+}
+document.addEventListener("DOMContentLoaded",()=>{
+  if(!localStorage.getItem("pmmg_streak")) localStorage.setItem("pmmg_streak","1");
+  renderV51();
+});
