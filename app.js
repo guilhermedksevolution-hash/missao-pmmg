@@ -3140,15 +3140,16 @@ if(document.readyState==="loading"){
 
 /* V6.2.9 — Estatísticas avançadas */
 function getStatsHistory629(){
+  // V6.3.0: usa EXATAMENTE a mesma fonte do Histórico de Simulados.
   try{
-    if(typeof getSimHistory627==="function"){
-      const a=getSimHistory627(); if(Array.isArray(a)) return a;
-    }
-  }catch(e){}
-  for(const k of ["pmmg_sim_history","simHistory","pmmgSimHistory","simulationHistory"]){
-    try{const a=JSON.parse(localStorage.getItem(k)||"null");if(Array.isArray(a))return a;}catch(e){}
+    const a = simHist627();
+    return Array.isArray(a) ? a : [];
+  }catch(e){
+    try{
+      const a=JSON.parse(localStorage.getItem("pmmg_sim_history_v510")||"[]");
+      return Array.isArray(a) ? a : [];
+    }catch(err){ return []; }
   }
-  return [];
 }
 function score629(x){
   const s=Number(x.score??x.percent??x.percentage??x.nota);
@@ -3163,8 +3164,11 @@ function total629(x){
 }
 function renderStats629(){
   const d=getStatsHistory629(), tq=d.reduce((s,x)=>s+total629(x),0), h=d.reduce((s,x)=>s+hits629(x),0), e=Math.max(0,tq-h), acc=tq?Math.round(h*100/tq):0;
-  s629acc.textContent=acc+"%"; s629total.textContent=tq; s629hits.textContent=h; s629errors.textContent=e;
-  const scores=d.slice(-5).map(score629);
+  document.getElementById("s629acc").textContent=acc+"%";
+  document.getElementById("s629total").textContent=tq;
+  document.getElementById("s629hits").textContent=h;
+  document.getElementById("s629errors").textContent=e;
+  const scores=d.slice(0,5).map(score629);
   let title="Sem tendência ainda",txt="Complete mais simulados para comparar sua evolução.",level=acc;
   if(scores.length>=2){
     const cut=Math.max(1,Math.floor(scores.length/2)), a=scores.slice(0,cut), b=scores.slice(cut);
@@ -3173,7 +3177,9 @@ function renderStats629(){
     else if(delta<=-5){title="📉 Atenção à queda recente";txt="Sua média recente caiu cerca de "+Math.abs(delta)+" pontos percentuais. Priorize o Caderno de Erros."}
     else{title="➡️ Desempenho estável";txt="Sua média recente está estável. Continue treinando para romper esse patamar."}
   }
-  s629trend.textContent=title;s629trendtext.textContent=txt;s629bar.style.width=Math.max(0,Math.min(100,level))+"%";
-  s629recent.innerHTML=scores.length?scores.map((s,i)=>`<div class="s629mini"><b>${s}%</b><i style="height:${Math.max(6,s)}%"></i><small>${i+1}</small></div>`).join(""):"<p>Nenhum simulado registrado.</p>";
+  document.getElementById("s629trend").textContent=title;
+  document.getElementById("s629trendtext").textContent=txt;
+  document.getElementById("s629bar").style.width=Math.max(0,Math.min(100,level))+"%";
+  document.getElementById("s629recent").innerHTML=scores.length?scores.map((s,i)=>`<div class="s629mini"><b>${s}%</b><i style="height:${Math.max(6,s)}%"></i><small>${i+1}</small></div>`).join(""):"<p>Nenhum simulado registrado.</p>";
 }
 function openAdvancedStats629(){showScreen("advancedStats629","navEvolution");renderStats629()}
