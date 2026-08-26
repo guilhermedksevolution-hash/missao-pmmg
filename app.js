@@ -15,15 +15,12 @@ const state = loadState();
 function syncUnlockedLessonsFromProgress(){
   if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
   if(!state.unlockedLessons.includes(1)) state.unlockedLessons.push(1);
-  ["Português","Literatura"].forEach(subject=>{
-    const nums=getLessonNumbers(subject);
-    if(subject==="Literatura" && nums.length && !state.unlockedLessons.includes(nums[0])) state.unlockedLessons.push(nums[0]);
-    nums.forEach((n,idx)=>{
-      const score=Number(state.scores && state.scores[n]);
-      const passed=(Number.isFinite(score)&&score>=PASS_SCORE) || state.completedLessons.includes(n);
-      const next=nums[idx+1];
-      if(passed && next && !state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
-    });
+  const nums=Object.keys(window.lessons||{}).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
+  nums.forEach((n,idx)=>{
+    const score=Number(state.scores&&state.scores[n]);
+    const passed=(Number.isFinite(score)&&score>=PASS_SCORE)||state.completedLessons.includes(n);
+    const next=nums[idx+1];
+    if(passed&&next&&!state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
   });
   state.unlockedLessons=[...new Set(state.unlockedLessons.map(Number))].sort((a,b)=>a-b);
   saveState();
@@ -40,7 +37,10 @@ function defaultState(){
     xp:0,
     streak:0,
     lastStudyDate:null,
-    errors:[]
+    errors:[],
+    literatureUnlocked:[1],
+    literatureCompleted:[],
+    literatureScores:{}
   };
 }
 
@@ -55,7 +55,10 @@ function loadState(){
       unlockedLessons:Array.isArray(parsed.unlockedLessons)?parsed.unlockedLessons:[1],
       completedLessons:Array.isArray(parsed.completedLessons)?parsed.completedLessons:[],
       scores:parsed.scores||{},
-      errors:Array.isArray(parsed.errors)?parsed.errors:[]
+      errors:Array.isArray(parsed.errors)?parsed.errors:[],
+      literatureUnlocked:Array.isArray(parsed.literatureUnlocked)?parsed.literatureUnlocked:[1],
+      literatureCompleted:Array.isArray(parsed.literatureCompleted)?parsed.literatureCompleted:[],
+      literatureScores:parsed.literatureScores||{}
     };
   }catch(e){
     console.error(e);
@@ -86,21 +89,7 @@ function openPortuguese(){
   document.getElementById("subjectTrailTitle").textContent="Trilha de aulas";
   renderLessonList();updateDashboard();showScreen("lessonsScreen","navStudy");
 }
-function openLiterature(){
-  currentSubject="Literatura";
-  if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
-  const litNums=getLessonNumbers("Literatura");
-  if(litNums.length && !state.unlockedLessons.includes(litNums[0])){
-    state.unlockedLessons.push(litNums[0]);
-    saveState();
-  }
-  const kicker=document.getElementById("subjectTrailKicker");
-  const title=document.getElementById("subjectTrailTitle");
-  if(kicker) kicker.textContent="LITERATURA";
-  if(title) title.textContent="Campo Geral + Vidas Secas";
-  renderLessonList();
-  showScreen("lessonsScreen","navStudy");
-}
+function openLiterature(){ return window.openLiteratureV6443(); }
 function openTips(){showScreen("tipsScreen");}
 function openPerformance(){renderPerformance();showScreen("performanceScreen");}
 
@@ -110,26 +99,40 @@ function continueStudy(){
   openLesson(firstPending || nums[nums.length-1] || 1);
 }
 
-function getLessonData(n){return typeof window.lessons!=="undefined"&&window.lessons[n]?window.lessons[n]:null;}
+function getLessonData(n){
+  if(currentSubject==="Literatura"){
+    return (window.literaturaLessons && window.literaturaLessons[n]) || null;
+  }
+  return (window.lessons && window.lessons[n]) || null;
+}
 function getLessonNumbers(subject=currentSubject){
-  if(typeof window.lessons==="undefined") return [];
-  return Object.keys(window.lessons).map(Number).filter(Number.isFinite).filter(n=>{
-    const l=window.lessons[n];
-    const s=l&&l.subject?l.subject:"Português";
-    return s===subject;
-  }).sort((a,b)=>a-b);
+  const source=subject==="Literatura"?window.literaturaLessons:window.lessons;
+  if(!source) return [];
+  return Object.keys(source).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
 }
 function getAllLessonNumbers(){
-  return typeof window.lessons==="undefined"?[]:Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
+  return window.lessons?Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b):[];
 }
-function isLessonUnlocked(n){const nums=getLessonNumbers(lessonSubject(n));return n===nums[0]||state.unlockedLessons.includes(n);}
-function isLessonCompleted(n){return state.completedLessons.includes(n);}
+function activeUnlocked(){
+  return currentSubject==="Literatura"?state.literatureUnlocked:state.unlockedLessons;
+}
+function activeCompleted(){
+  return currentSubject==="Literatura"?state.literatureCompleted:state.completedLessons;
+}
+function activeScores(){
+  return currentSubject==="Literatura"?state.literatureScores:state.scores;
+}
+function isLessonUnlocked(n){
+  const nums=getLessonNumbers();
+  return n===nums[0] || activeUnlocked().includes(n);
+}
+function isLessonCompleted(n){return activeCompleted().includes(n);}
 
 function renderLessonList(){
   const el=document.getElementById("lessonList");
   if(!el) return;
   el.innerHTML=getLessonNumbers().map(n=>{
-    const l=getLessonData(n), unlocked=isLessonUnlocked(n), completed=isLessonCompleted(n), score=state.scores[n];
+    const l=getLessonData(n), unlocked=isLessonUnlocked(n), completed=isLessonCompleted(n), score=activeScores()[n];
     return `
       <article class="lesson-card ${!unlocked?"locked":""} ${completed?"completed":""}" ${unlocked?`onclick="openLesson(${n})"`:""}>
         <div class="lesson-number">${String(n).padStart(2,"0")}</div>
@@ -151,7 +154,6 @@ function openLesson(n){
   if(!lesson){alert(`Conteúdo da Aula ${n} não encontrado.`);return;}
 
   currentLessonNumber=n;
-  currentSubject=lessonSubject(n);
   currentQuiz=null;
   document.getElementById("lessonSubtitle").textContent=lesson.subtitle;
   document.getElementById("lessonTitle").textContent=lesson.title;
@@ -184,7 +186,7 @@ function startQuiz(){
   // V6.4.2.1: embaralha as alternativas em cada tentativa e recalcula
   // o índice correto. Assim o gabarito não fica preso à letra A.
   currentQuiz=lesson.quiz.map(q=>shuffleQuestionOptions(q));
-  document.getElementById("quizTitle").textContent=currentLessonNumber>=100?`Prova • ${lesson.title}`:`Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
+  document.getElementById("quizTitle").textContent=(currentSubject==="Literatura"&&currentLessonNumber===7)?`Prova • ${lesson.title}`:`Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
   document.getElementById("quizForm").innerHTML=currentQuiz.map((q,i)=>`
     <article class="question-card">
       <div class="question-number">QUESTÃO ${String(i+1).padStart(2,"0")}</div>
@@ -298,10 +300,10 @@ function openCorrection(){
 }
 
 function addError(lessonNumber,questionIndex,selectedIndex){
-  const lesson=getLessonData(lessonNumber), q=lesson.quiz[questionIndex], id=`${lessonNumber}-${questionIndex}`;
+  const lesson=getLessonData(lessonNumber), q=lesson.quiz[questionIndex], id=`${currentSubject==="Literatura"?"L":"P"}-${lessonNumber}-${questionIndex}`;
   state.errors=state.errors.filter(e=>e.id!==id);
   state.errors.push({
-    id,lessonNumber,lessonTitle:lesson.title,questionIndex,question:q.question,
+    id,subject:currentSubject,lessonNumber,lessonTitle:lesson.title,questionIndex,question:q.question,
     selectedText:q.options[selectedIndex],correctText:q.options[q.answer],
     explanation:q.explanation||"",tip:q.tip||"",addedAt:Date.now()
   });
@@ -309,7 +311,7 @@ function addError(lessonNumber,questionIndex,selectedIndex){
 }
 
 function removeError(lessonNumber,questionIndex){
-  const id=`${lessonNumber}-${questionIndex}`;
+  const id=`${currentSubject==="Literatura"?"L":"P"}-${lessonNumber}-${questionIndex}`;
   state.errors=state.errors.filter(e=>e.id!==id);
   saveState();
 }
@@ -330,7 +332,7 @@ function renderErrorNotebook(){
 
   el.innerHTML=[...state.errors].sort((a,b)=>b.addedAt-a.addedAt).map(e=>`
     <article class="error-card">
-      <div class="error-meta">AULA ${String(e.lessonNumber).padStart(2,"0")} • ${e.lessonTitle}</div>
+      <div class="error-meta">${e.subject==="Literatura"?"LITERATURA • ":""}AULA ${String(e.lessonNumber).padStart(2,"0")} • ${e.lessonTitle}</div>
       <h3>${e.question}</h3>
       <div class="wrong-answer"><strong>Sua resposta:</strong> ${e.selectedText}</div>
       <div class="correct-answer"><strong>Correta:</strong> ${e.correctText}</div>
@@ -347,13 +349,14 @@ function clearErrorNotebook(){
 }
 
 function registerResult(lessonNumber,score,approved){
-  const previous=typeof state.scores[lessonNumber]==="number"?state.scores[lessonNumber]:null;
-  const firstApproval=approved&&!state.completedLessons.includes(lessonNumber);
+  const scores=activeScores(), completed=activeCompleted(), unlocked=activeUnlocked();
+  const previous=typeof scores[lessonNumber]==="number"?scores[lessonNumber]:null;
+  const firstApproval=approved&&!completed.includes(lessonNumber);
 
-  if(previous===null||score>previous) state.scores[lessonNumber]=score;
+  if(previous===null||score>previous) scores[lessonNumber]=score;
 
   if(approved){
-    if(!state.completedLessons.includes(lessonNumber)) state.completedLessons.push(lessonNumber);
+    if(!completed.includes(lessonNumber)) completed.push(lessonNumber);
     if(firstApproval) state.xp+=XP_PER_APPROVAL;
     unlockNextLesson(lessonNumber);
   }
@@ -361,13 +364,13 @@ function registerResult(lessonNumber,score,approved){
   saveState();updateDashboard();
 }
 
-function lessonSubject(n){const l=getLessonData(n);return l&&l.subject?l.subject:"Português";}
+function lessonSubject(n){return currentSubject;}
 function unlockNextLesson(n){
-  const nums=getLessonNumbers(lessonSubject(n)),idx=nums.indexOf(n),next=nums[idx+1];
-  if(next&&!state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
+  const nums=getLessonNumbers(),idx=nums.indexOf(n),next=nums[idx+1],unlocked=activeUnlocked();
+  if(next&&!unlocked.includes(next)) unlocked.push(next);
 }
 function getNextLessonNumber(n){
-  const nums=getLessonNumbers(lessonSubject(n)),idx=nums.indexOf(n);
+  const nums=getLessonNumbers(),idx=nums.indexOf(n);
   return idx>=0?(nums[idx+1]||null):null;
 }
 
@@ -3406,55 +3409,46 @@ document.addEventListener("DOMContentLoaded",()=>{
   }
 });
 
-/* ==========================================================
-   V6.4.4.3 — ACESSO DEFINITIVO À LITERATURA
-   Tela dedicada, independente da trilha de Português.
-   ========================================================== */
-function getLiteratureLessonsV6443(){
-  if(!window.lessons) return [];
-  return Object.keys(window.lessons)
-    .map(Number)
-    .filter(n=>n>=101 && n<=107 && window.lessons[n] && window.lessons[n].subject==="Literatura")
-    .sort((a,b)=>a-b);
-}
 
-function renderLiteratureTrailV6443(){
-  const nums=getLiteratureLessonsV6443();
+/* ==========================================================
+   V6.4.5 — LITERATURA EM ARQUIVO PRÓPRIO
+   literatura.js usa numeração 1–7 sem IDs 101–107.
+   ========================================================== */
+function renderLiteratureTrailV645(){
+  currentSubject="Literatura";
+  const nums=getLessonNumbers("Literatura");
   const box=document.getElementById("literatureLessonListV6443");
   if(!box) return;
-
   if(!nums.length){
     box.innerHTML='<div class="empty-state"><strong>Literatura não carregou.</strong><br>Atualize a página e tente novamente.</div>';
     return;
   }
 
-  if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
-  if(!state.unlockedLessons.includes(nums[0])) state.unlockedLessons.push(nums[0]);
+  if(!Array.isArray(state.literatureUnlocked)) state.literatureUnlocked=[1];
+  if(!state.literatureUnlocked.includes(1)) state.literatureUnlocked.push(1);
 
-  // Migra aprovações existentes e libera sequência.
   nums.forEach((n,i)=>{
-    const score=Number(state.scores?.[n]);
-    const passed=(Number.isFinite(score)&&score>=PASS_SCORE) || state.completedLessons.includes(n);
-    if(passed && nums[i+1] && !state.unlockedLessons.includes(nums[i+1])){
-      state.unlockedLessons.push(nums[i+1]);
-    }
+    const score=Number(state.literatureScores?.[n]);
+    const passed=(Number.isFinite(score)&&score>=PASS_SCORE)||state.literatureCompleted.includes(n);
+    const next=nums[i+1];
+    if(passed&&next&&!state.literatureUnlocked.includes(next)) state.literatureUnlocked.push(next);
   });
   saveState();
 
-  const done=nums.filter(n=>isLessonCompleted(n)).length;
+  const done=nums.filter(n=>state.literatureCompleted.includes(n)).length;
   const pct=Math.round(done/nums.length*100);
   const p=document.getElementById("litProgressTextV6443");
   const d=document.getElementById("litDoneTextV6443");
   if(p)p.textContent=pct+"%";
   if(d)d.textContent=`${done}/${nums.length}`;
 
-  box.innerHTML=nums.map((n,idx)=>{
-    const l=window.lessons[n];
-    const unlocked=idx===0 || state.unlockedLessons.includes(n);
-    const completed=isLessonCompleted(n);
-    const score=state.scores?.[n];
-    const display=idx===nums.length-1 ? "🏆" : String(idx+1).padStart(2,"0");
-    return `<article class="lesson-card ${!unlocked?"locked":""} ${completed?"completed":""}" data-lit-lesson="${n}" ${unlocked?'role="button" tabindex="0"':""}>
+  box.innerHTML=nums.map(n=>{
+    const l=window.literaturaLessons[n];
+    const unlocked=n===1||state.literatureUnlocked.includes(n);
+    const completed=state.literatureCompleted.includes(n);
+    const score=state.literatureScores?.[n];
+    const display=n===7?"🏆":String(n).padStart(2,"0");
+    return `<article class="lesson-card ${!unlocked?"locked":""} ${completed?"completed":""}" ${unlocked?`onclick="openLiteratureLessonV645(${n})"`:""}>
       <div class="lesson-number">${display}</div>
       <div class="lesson-card-content">
         <h3>${l.title}</h3>
@@ -3466,39 +3460,26 @@ function renderLiteratureTrailV6443(){
       <div class="lesson-card-status">${completed?"✓":unlocked?"›":"🔒"}</div>
     </article>`;
   }).join("");
-
-  box.querySelectorAll("[data-lit-lesson]").forEach(card=>{
-    const n=Number(card.dataset.litLesson);
-    if(!state.unlockedLessons.includes(n) && n!==nums[0]) return;
-    const go=()=>openLesson(n);
-    card.addEventListener("click",go);
-    card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go();}});
-  });
 }
+
+window.openLiteratureLessonV645=function(n){
+  currentSubject="Literatura";
+  openLesson(n);
+};
 
 window.openLiteratureV6443=function(){
   currentSubject="Literatura";
-  const nums=getLiteratureLessonsV6443();
-  if(!nums.length){
-    alert("⚠️ O conteúdo de Literatura não foi carregado. Atualize a página.");
-    return;
-  }
-  if(!state.unlockedLessons.includes(nums[0])) state.unlockedLessons.push(nums[0]);
-  saveState();
-  renderLiteratureTrailV6443();
+  renderLiteratureTrailV645();
   showScreen("literatureTrailScreenV6443","navStudy");
   window.scrollTo(0,0);
 };
-
-// Mantém compatibilidade com versões anteriores.
 window.openLiterature=window.openLiteratureV6443;
 
-// Delegação extra para mobile/GitHub Pages.
 document.addEventListener("click",e=>{
   const card=e.target.closest?.("#literatureSubjectCard");
   if(card){
     e.preventDefault();
     e.stopPropagation();
-    openLiteratureV6443();
+    window.openLiteratureV6443();
   }
 },true);
