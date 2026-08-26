@@ -8,6 +8,26 @@ let lastResult = null;
 
 const state = loadState();
 
+// V6.4.3.1 — migração de progresso das versões anteriores.
+// Se uma aula já tem nota >= 70% (ou consta como concluída),
+// libera automaticamente a aula seguinte sem apagar XP/notas/revisões.
+function syncUnlockedLessonsFromProgress(){
+  const nums=getLessonNumbers();
+  if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
+  if(!state.unlockedLessons.includes(1)) state.unlockedLessons.push(1);
+  nums.forEach((n,idx)=>{
+    const score=Number(state.scores && state.scores[n]);
+    const passed=(Number.isFinite(score)&&score>=PASS_SCORE) || state.completedLessons.includes(n);
+    const next=nums[idx+1];
+    if(passed && next && !state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
+  });
+  state.unlockedLessons=[...new Set(state.unlockedLessons.map(Number))].sort((a,b)=>a-b);
+  saveState();
+}
+
+// lessons.js é carregado antes de app.js, então os números das aulas já estão disponíveis.
+syncUnlockedLessonsFromProgress();
+
 function defaultState(){
   return {
     unlockedLessons:[1],
