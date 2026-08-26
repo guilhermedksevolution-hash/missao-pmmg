@@ -40,7 +40,7 @@ function defaultState(){
     errors:[],
     literatureUnlocked:[1],
     literatureCompleted:[],
-    literatureScores:{}
+    literatureScores:{},englishUnlocked:[1],englishCompleted:[],englishScores:{}
   };
 }
 
@@ -58,7 +58,7 @@ function loadState(){
       errors:Array.isArray(parsed.errors)?parsed.errors:[],
       literatureUnlocked:Array.isArray(parsed.literatureUnlocked)?parsed.literatureUnlocked:[1],
       literatureCompleted:Array.isArray(parsed.literatureCompleted)?parsed.literatureCompleted:[],
-      literatureScores:parsed.literatureScores||{}
+      literatureScores:parsed.literatureScores||{},englishUnlocked:Array.isArray(parsed.englishUnlocked)?parsed.englishUnlocked:[1],englishCompleted:Array.isArray(parsed.englishCompleted)?parsed.englishCompleted:[],englishScores:parsed.englishScores||{}
     };
   }catch(e){
     console.error(e);
@@ -100,13 +100,12 @@ function continueStudy(){
 }
 
 function getLessonData(n){
-  if(currentSubject==="Literatura"){
-    return (window.literaturaLessons && window.literaturaLessons[n]) || null;
-  }
-  return (window.lessons && window.lessons[n]) || null;
+  if(currentSubject==="Literatura") return window.literaturaLessons?.[n]||null;
+  if(currentSubject==="Inglês") return window.inglesLessons?.[n]||null;
+  return window.lessons?.[n]||null;
 }
 function getLessonNumbers(subject=currentSubject){
-  const source=subject==="Literatura"?window.literaturaLessons:window.lessons;
+  const source=subject==="Literatura"?window.literaturaLessons:(subject==="Inglês"?window.inglesLessons:window.lessons);
   if(!source) return [];
   return Object.keys(source).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
 }
@@ -114,13 +113,13 @@ function getAllLessonNumbers(){
   return window.lessons?Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b):[];
 }
 function activeUnlocked(){
-  return currentSubject==="Literatura"?state.literatureUnlocked:state.unlockedLessons;
+  return currentSubject==="Literatura"?state.literatureUnlocked:(currentSubject==="Inglês"?state.englishUnlocked:state.unlockedLessons);
 }
 function activeCompleted(){
-  return currentSubject==="Literatura"?state.literatureCompleted:state.completedLessons;
+  return currentSubject==="Literatura"?state.literatureCompleted:(currentSubject==="Inglês"?state.englishCompleted:state.completedLessons);
 }
 function activeScores(){
-  return currentSubject==="Literatura"?state.literatureScores:state.scores;
+  return currentSubject==="Literatura"?state.literatureScores:(currentSubject==="Inglês"?state.englishScores:state.scores);
 }
 function isLessonUnlocked(n){
   const nums=getLessonNumbers();
@@ -3483,3 +3482,6 @@ document.addEventListener("click",e=>{
     window.openLiteratureV6443();
   }
 },true);
+
+function renderEnglishTrailV646(){currentSubject="Inglês";const nums=getLessonNumbers("Inglês"),box=document.getElementById("englishLessonListV646");if(!box)return;if(!state.englishUnlocked.includes(1))state.englishUnlocked.push(1);nums.forEach((n,i)=>{const s=Number(state.englishScores[n]);if(((Number.isFinite(s)&&s>=70)||state.englishCompleted.includes(n))&&nums[i+1]&&!state.englishUnlocked.includes(nums[i+1]))state.englishUnlocked.push(nums[i+1]);});saveState();box.innerHTML=nums.map(n=>{const l=window.inglesLessons[n],u=n===1||state.englishUnlocked.includes(n),c=state.englishCompleted.includes(n);return `<article class="lesson-card ${!u?"locked":""} ${c?"completed":""}" ${u?`onclick="openEnglishLessonV646(${n})"`:""}><div class="lesson-number">${n===9?"🏆":String(n).padStart(2,"0")}</div><div class="lesson-card-content"><h3>${l.title}</h3><p>${l.subtitle} • ${l.time}</p><p>${c?"Concluída":u?"Disponível":"Bloqueada"}</p>${!u?'<div class="lock-message">Atinga 70% na aula anterior.</div>':""}</div><div class="lesson-card-status">${c?"✓":u?"›":"🔒"}</div></article>`}).join("")}
+window.openEnglishLessonV646=n=>{currentSubject="Inglês";openLesson(n)};window.openEnglishV646=()=>{currentSubject="Inglês";renderEnglishTrailV646();showScreen("englishTrailScreenV646","navStudy");scrollTo(0,0)};
