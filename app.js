@@ -3405,3 +3405,100 @@ document.addEventListener("DOMContentLoaded",()=>{
     card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openLiterature();}});
   }
 });
+
+/* ==========================================================
+   V6.4.4.3 — ACESSO DEFINITIVO À LITERATURA
+   Tela dedicada, independente da trilha de Português.
+   ========================================================== */
+function getLiteratureLessonsV6443(){
+  if(!window.lessons) return [];
+  return Object.keys(window.lessons)
+    .map(Number)
+    .filter(n=>n>=101 && n<=107 && window.lessons[n] && window.lessons[n].subject==="Literatura")
+    .sort((a,b)=>a-b);
+}
+
+function renderLiteratureTrailV6443(){
+  const nums=getLiteratureLessonsV6443();
+  const box=document.getElementById("literatureLessonListV6443");
+  if(!box) return;
+
+  if(!nums.length){
+    box.innerHTML='<div class="empty-state"><strong>Literatura não carregou.</strong><br>Atualize a página e tente novamente.</div>';
+    return;
+  }
+
+  if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
+  if(!state.unlockedLessons.includes(nums[0])) state.unlockedLessons.push(nums[0]);
+
+  // Migra aprovações existentes e libera sequência.
+  nums.forEach((n,i)=>{
+    const score=Number(state.scores?.[n]);
+    const passed=(Number.isFinite(score)&&score>=PASS_SCORE) || state.completedLessons.includes(n);
+    if(passed && nums[i+1] && !state.unlockedLessons.includes(nums[i+1])){
+      state.unlockedLessons.push(nums[i+1]);
+    }
+  });
+  saveState();
+
+  const done=nums.filter(n=>isLessonCompleted(n)).length;
+  const pct=Math.round(done/nums.length*100);
+  const p=document.getElementById("litProgressTextV6443");
+  const d=document.getElementById("litDoneTextV6443");
+  if(p)p.textContent=pct+"%";
+  if(d)d.textContent=`${done}/${nums.length}`;
+
+  box.innerHTML=nums.map((n,idx)=>{
+    const l=window.lessons[n];
+    const unlocked=idx===0 || state.unlockedLessons.includes(n);
+    const completed=isLessonCompleted(n);
+    const score=state.scores?.[n];
+    const display=idx===nums.length-1 ? "🏆" : String(idx+1).padStart(2,"0");
+    return `<article class="lesson-card ${!unlocked?"locked":""} ${completed?"completed":""}" data-lit-lesson="${n}" ${unlocked?'role="button" tabindex="0"':""}>
+      <div class="lesson-number">${display}</div>
+      <div class="lesson-card-content">
+        <h3>${l.title}</h3>
+        <p>${l.subtitle} • ${l.time}</p>
+        <p>${completed?"Concluída":unlocked?"Disponível":"Bloqueada"}</p>
+        ${typeof score==="number"?`<span class="score-badge">Melhor nota: ${score}%</span>`:""}
+        ${!unlocked?'<div class="lock-message">Atinga 70% na aula anterior.</div>':""}
+      </div>
+      <div class="lesson-card-status">${completed?"✓":unlocked?"›":"🔒"}</div>
+    </article>`;
+  }).join("");
+
+  box.querySelectorAll("[data-lit-lesson]").forEach(card=>{
+    const n=Number(card.dataset.litLesson);
+    if(!state.unlockedLessons.includes(n) && n!==nums[0]) return;
+    const go=()=>openLesson(n);
+    card.addEventListener("click",go);
+    card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go();}});
+  });
+}
+
+window.openLiteratureV6443=function(){
+  currentSubject="Literatura";
+  const nums=getLiteratureLessonsV6443();
+  if(!nums.length){
+    alert("⚠️ O conteúdo de Literatura não foi carregado. Atualize a página.");
+    return;
+  }
+  if(!state.unlockedLessons.includes(nums[0])) state.unlockedLessons.push(nums[0]);
+  saveState();
+  renderLiteratureTrailV6443();
+  showScreen("literatureTrailScreenV6443","navStudy");
+  window.scrollTo(0,0);
+};
+
+// Mantém compatibilidade com versões anteriores.
+window.openLiterature=window.openLiteratureV6443;
+
+// Delegação extra para mobile/GitHub Pages.
+document.addEventListener("click",e=>{
+  const card=e.target.closest?.("#literatureSubjectCard");
+  if(card){
+    e.preventDefault();
+    e.stopPropagation();
+    openLiteratureV6443();
+  }
+},true);
