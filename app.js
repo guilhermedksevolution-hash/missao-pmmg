@@ -3,6 +3,7 @@ const XP_PER_APPROVAL = 100;
 const TOTAL_LESSONS = 24; // 23 aulas + Prova Final de Português
 
 let currentLessonNumber = 1;
+let currentSubject = "Português";
 let currentQuiz = null;
 let lastResult = null;
 
@@ -12,14 +13,17 @@ const state = loadState();
 // Se uma aula já tem nota >= 70% (ou consta como concluída),
 // libera automaticamente a aula seguinte sem apagar XP/notas/revisões.
 function syncUnlockedLessonsFromProgress(){
-  const nums=getLessonNumbers();
   if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
   if(!state.unlockedLessons.includes(1)) state.unlockedLessons.push(1);
-  nums.forEach((n,idx)=>{
-    const score=Number(state.scores && state.scores[n]);
-    const passed=(Number.isFinite(score)&&score>=PASS_SCORE) || state.completedLessons.includes(n);
-    const next=nums[idx+1];
-    if(passed && next && !state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
+  ["Português","Literatura"].forEach(subject=>{
+    const nums=getLessonNumbers(subject);
+    if(subject==="Literatura" && nums.length && !state.unlockedLessons.includes(nums[0])) state.unlockedLessons.push(nums[0]);
+    nums.forEach((n,idx)=>{
+      const score=Number(state.scores && state.scores[n]);
+      const passed=(Number.isFinite(score)&&score>=PASS_SCORE) || state.completedLessons.includes(n);
+      const next=nums[idx+1];
+      if(passed && next && !state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
+    });
   });
   state.unlockedLessons=[...new Set(state.unlockedLessons.map(Number))].sort((a,b)=>a-b);
   saveState();
@@ -76,7 +80,20 @@ function showScreen(id,nav=""){
 
 function goHome(){updateDashboard();showScreen("homeScreen","navHome");}
 function openSubjects(){updateDashboard();showScreen("subjectsScreen","navStudy");}
-function openPortuguese(){renderLessonList();updateDashboard();showScreen("lessonsScreen","navStudy");}
+function openPortuguese(){
+  currentSubject="Português";
+  document.getElementById("subjectTrailKicker").textContent="PORTUGUÊS";
+  document.getElementById("subjectTrailTitle").textContent="Trilha de aulas";
+  renderLessonList();updateDashboard();showScreen("lessonsScreen","navStudy");
+}
+function openLiterature(){
+  currentSubject="Literatura";
+  if(!state.unlockedLessons.includes(101)) state.unlockedLessons.push(101);
+  syncUnlockedLessonsFromProgress(); saveState();
+  document.getElementById("subjectTrailKicker").textContent="LITERATURA";
+  document.getElementById("subjectTrailTitle").textContent="Campo Geral + Vidas Secas";
+  renderLessonList();updateDashboard();showScreen("lessonsScreen","navStudy");
+}
 function openTips(){showScreen("tipsScreen");}
 function openPerformance(){renderPerformance();showScreen("performanceScreen");}
 
@@ -87,7 +104,17 @@ function continueStudy(){
 }
 
 function getLessonData(n){return typeof window.lessons!=="undefined"&&window.lessons[n]?window.lessons[n]:null;}
-function getLessonNumbers(){return typeof window.lessons==="undefined"?[]:Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);}
+function getLessonNumbers(subject=currentSubject){
+  if(typeof window.lessons==="undefined") return [];
+  return Object.keys(window.lessons).map(Number).filter(Number.isFinite).filter(n=>{
+    const l=window.lessons[n];
+    const s=l&&l.subject?l.subject:"Português";
+    return s===subject;
+  }).sort((a,b)=>a-b);
+}
+function getAllLessonNumbers(){
+  return typeof window.lessons==="undefined"?[]:Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
+}
 function isLessonUnlocked(n){return n===1||state.unlockedLessons.includes(n);}
 function isLessonCompleted(n){return state.completedLessons.includes(n);}
 
@@ -117,6 +144,7 @@ function openLesson(n){
   if(!lesson){alert(`Conteúdo da Aula ${n} não encontrado.`);return;}
 
   currentLessonNumber=n;
+  currentSubject=lessonSubject(n);
   currentQuiz=null;
   document.getElementById("lessonSubtitle").textContent=lesson.subtitle;
   document.getElementById("lessonTitle").textContent=lesson.title;
@@ -149,7 +177,7 @@ function startQuiz(){
   // V6.4.2.1: embaralha as alternativas em cada tentativa e recalcula
   // o índice correto. Assim o gabarito não fica preso à letra A.
   currentQuiz=lesson.quiz.map(q=>shuffleQuestionOptions(q));
-  document.getElementById("quizTitle").textContent=`Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
+  document.getElementById("quizTitle").textContent=currentLessonNumber>=100?`Prova • ${lesson.title}`:`Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
   document.getElementById("quizForm").innerHTML=currentQuiz.map((q,i)=>`
     <article class="question-card">
       <div class="question-number">QUESTÃO ${String(i+1).padStart(2,"0")}</div>
@@ -326,13 +354,13 @@ function registerResult(lessonNumber,score,approved){
   saveState();updateDashboard();
 }
 
+function lessonSubject(n){const l=getLessonData(n);return l&&l.subject?l.subject:"Português";}
 function unlockNextLesson(n){
-  const nums=getLessonNumbers(),idx=nums.indexOf(n),next=nums[idx+1];
+  const nums=getLessonNumbers(lessonSubject(n)),idx=nums.indexOf(n),next=nums[idx+1];
   if(next&&!state.unlockedLessons.includes(next)) state.unlockedLessons.push(next);
 }
-
 function getNextLessonNumber(n){
-  const nums=getLessonNumbers(),idx=nums.indexOf(n);
+  const nums=getLessonNumbers(lessonSubject(n)),idx=nums.indexOf(n);
   return idx>=0?(nums[idx+1]||null):null;
 }
 
@@ -3348,3 +3376,16 @@ window.resetPreparation638=resetPreparation638;
     };
   }
 })();
+
+/* V6.4.4 — progresso de Literatura */
+function updateLiteratureProgressV644(){
+  const nums=getLessonNumbers("Literatura");
+  if(!nums.length) return;
+  const done=nums.filter(n=>isLessonCompleted(n)).length;
+  const pct=Math.round(done/nums.length*100);
+  const bar=document.getElementById("literatureProgressBar");
+  if(bar) bar.style.width=pct+"%";
+}
+document.addEventListener("DOMContentLoaded",updateLiteratureProgressV644);
+const _saveStateV644=saveState;
+saveState=function(){_saveStateV644();setTimeout(updateLiteratureProgressV644,0);}
