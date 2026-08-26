@@ -1089,7 +1089,8 @@ showScreen = function(id, nav=""){
     if(!last || last.id !== current.id){
       screenHistoryV591.push({
         id: current.id,
-        nav: getActiveNavV591()
+        nav: getActiveNavV591(),
+        scrollY: window.scrollY || document.documentElement.scrollTop || 0
       });
     }
 
@@ -1145,64 +1146,28 @@ goHome = function(){
 };
 
 // ============================================================
-// V5.9.2 — VOLTAR ESTÁVEL
-// Usa uma rota-pai explícita para cada tela e fica disponível
-// diretamente no window para funcionar com onclick no celular.
+// V6.3.8.1 — VOLTAR PARA ONDE ESTAVA
+// Usa o histórico real de telas e restaura também a rolagem.
 // ============================================================
 window.goBackSmart = function(){
-  const active = document.querySelector(".screen.active");
-  const id = active ? active.id : "";
-
-  const parentMap = {
-    "subjectsScreen": ["homeScreen","navHome"],
-    "lessonsScreen": ["subjectsScreen","navStudy"],
-    "lessonScreen": ["lessonsScreen","navStudy"],
-    "quizScreen": ["lessonScreen","navStudy"],
-    "resultScreen": ["quizScreen","navTrain"],
-    "correctionScreen": ["resultScreen","navTrain"],
-    "errorsScreen": ["reviewHubV53","navReview"],
-    "tipsScreen": ["studyHubV53","navStudy"],
-    "performanceScreen": ["evolutionHubV53","navEvolution"],
-    "studyHubScreen": ["homeScreen","navHome"],
-    "professorScreen": ["homeScreen","navHome"],
-    "trainingScreen": ["trainingHubV53","navTrain"],
-    "simulationsScreen": ["trainingHubV53","navTrain"],
-    "planScreen": ["studyHubV53","navStudy"],
-    "quickReviewScreen": ["reviewHubV53","navReview"],
-    "favoritesScreen": ["studyHubV53","navStudy"],
-    "achievementsScreen": ["evolutionHubV53","navEvolution"],
-    "searchScreen": ["studyHubV53","navStudy"],
-
-    "studyHubV53": ["homeScreen","navHome"],
-    "trainingHubV53": ["homeScreen","navHome"],
-    "reviewHubV53": ["homeScreen","navHome"],
-    "evolutionHubV53": ["homeScreen","navHome"],
-    "utilityHubV53": ["studyHubV53","navStudy"],
-
-    "summaryScreenV57": ["studyHubV53","navStudy"],
-    "quickReviewScreenV58": ["reviewHubV53","navReview"],
-    "achievementsScreenV59": ["evolutionHubV53","navEvolution"]
-  };
-
-  const target = parentMap[id] || ["homeScreen","navHome"];
-  const screenId = target[0];
-  const navId = target[1];
-
-  // Mostra a tela diretamente sem depender da pilha antiga.
-  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
-  const next = document.getElementById(screenId);
-
-  if(next){
-    next.classList.add("active");
-  }else{
-    const home = document.getElementById("homeScreen");
-    if(home) home.classList.add("active");
+  while(screenHistoryV591.length){
+    const previous = screenHistoryV591.pop();
+    if(previous && document.getElementById(previous.id)){
+      navigatingBackV591 = true;
+      originalShowScreenV591(previous.id, previous.nav || "");
+      if(previous.nav && typeof setMainNavActive === "function"){
+        setMainNavActive(previous.nav);
+      }
+      navigatingBackV591 = false;
+      requestAnimationFrame(()=>window.scrollTo(0, Number(previous.scrollY)||0));
+      return;
+    }
   }
 
-  if(typeof setMainNavActive === "function"){
-    setMainNavActive(navId || "navHome");
-  }
-
+  navigatingBackV591 = true;
+  originalShowScreenV591("homeScreen","navHome");
+  if(typeof setMainNavActive === "function") setMainNavActive("navHome");
+  navigatingBackV591 = false;
   window.scrollTo(0,0);
 };
 
