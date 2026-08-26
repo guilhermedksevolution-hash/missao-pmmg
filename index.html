@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.4.3.1">
+<link rel="stylesheet" href="style.css?v=6.4.4">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.4.3.1</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.4.4.1</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -55,12 +55,13 @@
  <p class="page-intro">Sua preparação organizada por disciplina.</p>
  <div class="subject-list">
   <article onclick="openPortuguese()"><em>📘</em><div><span class="kicker">PORTUGUÊS</span><h3>Língua Portuguesa</h3><p>Conteúdo oficial do edital, teoria, videoaulas e questões.</p><div class="bar"><i id="portugueseProgressBar2"></i></div></div><b>›</b></article>
-  <article class="locked-subject"><em>⚖️</em><div><span class="kicker">PRÓXIMA ETAPA</span><h3>Novas disciplinas</h3><p>A estrutura já está pronta para receber as próximas matérias.</p></div><b>🔒</b></article>
+  <article onclick="openLiterature()"><em>📚</em><div><span class="kicker">LITERATURA • EDITAL PMMG</span><h3>Literatura</h3><p>Campo Geral + Vidas Secas, teoria, videoaulas, questões e prova final.</p><div class="bar"><i id="literatureProgressBar"></i></div></div><b>›</b></article>
+  <article class="locked-subject"><em>🇬🇧</em><div><span class="kicker">PRÓXIMA ETAPA</span><h3>Noções de Língua Inglesa</h3><p>Será adicionada após validarmos Literatura.</p></div><b>🔒</b></article>
  </div>
 </section>
 
 <section id="lessonsScreen" class="screen">
- <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">PORTUGUÊS</span><h2>Trilha de aulas</h2></div></div>
+ <div class="page-head"><button onclick="goBackSmart()">←</button><div><span id="subjectTrailKicker" class="kicker">PORTUGUÊS</span><h2 id="subjectTrailTitle">Trilha de aulas</h2></div></div>
  <div class="rule"><b>🎯 Meta de aprovação</b><span>70% libera a próxima etapa.</span></div>
  <div id="lessonList" class="lesson-list"></div>
 </section>
@@ -802,5 +803,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.4.3.1"></script><script src="app.js?v=6.4.3.1"></script>
+<script src="lessons.js?v=6.4.4"></script><script src="app.js?v=6.4.4"></script>
 </body></html>
