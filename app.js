@@ -1,5 +1,6 @@
 const PASS_SCORE = 70;
 const XP_PER_APPROVAL = 100;
+const TOTAL_LESSONS = 24; // 23 aulas + Prova Final de Português
 
 let currentLessonNumber = 1;
 let currentQuiz = null;
@@ -3312,3 +3313,18 @@ function resetPreparation638(){
   goHome();
 }
 window.resetPreparation638=resetPreparation638;
+
+/* V6.4.3 — conclusão especial de Português */
+(function(){
+  const baseRegister=window.registerResult || (typeof registerResult==='function'?registerResult:null);
+  if(baseRegister){
+    window.registerResult=function(lessonNumber,score,approved){
+      const r=baseRegister(lessonNumber,score,approved);
+      if(Number(lessonNumber)===24 && approved){
+        localStorage.setItem('pmmg_portuguese_completed','1');
+        setTimeout(()=>alert('🏆 PARABÉNS! Língua Portuguesa concluída com aprovação na Prova Final.'),250);
+      }
+      return r;
+    };
+  }
+})();
