@@ -108,10 +108,26 @@ function openLesson(n){
 
 function backToCurrentLesson(){openLesson(currentLessonNumber);}
 
+
+function shuffleQuestionOptions(question){
+  const items=question.options.map((text,index)=>({text,isCorrect:index===question.answer}));
+  for(let i=items.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [items[i],items[j]]=[items[j],items[i]];
+  }
+  return {
+    ...question,
+    options:items.map(item=>item.text),
+    answer:items.findIndex(item=>item.isCorrect)
+  };
+}
+
 function startQuiz(){
   const lesson=getLessonData(currentLessonNumber);
   if(!lesson||!Array.isArray(lesson.quiz)||!lesson.quiz.length){alert("Esta aula ainda não possui prova.");return;}
-  currentQuiz=lesson.quiz;
+  // V6.4.2: embaralha as alternativas em cada tentativa e recalcula
+  // o índice correto. Assim o gabarito não fica preso à letra A.
+  currentQuiz=lesson.quiz.map(q=>shuffleQuestionOptions(q));
   document.getElementById("quizTitle").textContent=`Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
   document.getElementById("quizForm").innerHTML=currentQuiz.map((q,i)=>`
     <article class="question-card">
