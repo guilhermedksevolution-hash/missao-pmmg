@@ -110,5 +110,88 @@ window.lessons = {
 {question:'A união de dois radicais para formar uma palavra caracteriza:',options:['Composição.','Pontuação.','Concordância.','Acentuação.'],answer:0,explanation:'Composição combina bases/radicais.',tip:'Duas bases → composição.'},
 {question:'Na justaposição:',options:['Os elementos permanecem reconhecíveis.','Sempre desaparecem os dois radicais.','Há obrigatoriamente acento grave.','Só existem verbos.'],answer:0,explanation:'A justaposição une elementos sem perda estrutural relevante.',tip:'Justa + posição: lado a lado.'},
 {question:'Derivação sufixal ocorre quando:',options:['Acrescenta-se elemento depois da base.','Retira-se toda a palavra.','Une-se apenas pontuação.','Acrescenta-se artigo antes do substantivo.'],answer:0,explanation:'Sufixo é afixo posposto à base.',tip:'Sufixo vem no fim.'}
+]},
+9:{title:'Classes de palavras',subtitle:'Português • Aula 09 • Edital 1.10',time:'50 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • CLASSES DE PALAVRAS</div>
+<h3>As 10 classes gramaticais</h3><p>As palavras são agrupadas conforme seu comportamento e função: <b>substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição</b>.</p>
+<h3>Variáveis x invariáveis</h3><p>Substantivos, artigos, adjetivos, numerais, pronomes e verbos podem sofrer flexões. Advérbios, preposições, conjunções e interjeições são, em regra, invariáveis.</p>
+<div class="lesson-example"><b>Exemplo:</b> em “Os candidatos atentos estudaram muito”, “candidatos” é substantivo, “atentos” é adjetivo, “estudaram” é verbo e “muito” funciona como advérbio.</div>
+<div class="gold-rule">🎯 REGRA DE OURO: classifique a palavra dentro da frase; a mesma forma pode exercer funções diferentes conforme o contexto.</div>
+<div class="video-lesson"><span>🔥 VIDEOAULA POPULAR • +120 MIL VISUALIZAÇÕES</span><h3>Classes de palavras — Português para Concursos</h3><p>Mapa das 10 classes gramaticais e distinção entre variáveis e invariáveis.</p><iframe src="https://www.youtube.com/embed/MVsC4iP1FvA" title="Classes de palavras para concursos" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'Qual alternativa apresenta apenas classes invariáveis?',options:['Advérbio, preposição e conjunção.','Substantivo, artigo e adjetivo.','Pronome, verbo e numeral.','Adjetivo, advérbio e artigo.'],answer:0,explanation:'Advérbio, preposição e conjunção são classes invariáveis.',tip:'Comece separando variáveis de invariáveis.'},
+{question:'Em “candidato dedicado”, a palavra “dedicado” é:',options:['Adjetivo.','Preposição.','Artigo.','Conjunção.'],answer:0,explanation:'Caracteriza o substantivo “candidato”.',tip:'Característica do nome → adjetivo.'},
+{question:'A classe que normalmente indica ação, estado ou fenômeno é:',options:['Verbo.','Artigo.','Preposição.','Interjeição.'],answer:0,explanation:'O verbo expressa processo, ação, estado ou fenômeno.',tip:'Procure a palavra que se flexiona em tempo e pessoa.'},
+{question:'Em “estudou muito”, “muito” modifica o verbo e funciona como:',options:['Advérbio.','Substantivo.','Artigo.','Pronome.'],answer:0,explanation:'Nesse contexto intensifica a ação verbal.',tip:'A função depende do contexto.'},
+{question:'Preposições servem principalmente para:',options:['Relacionar termos.','Nomear seres.','Expressar ação.','Substituir sempre substantivos.'],answer:0,explanation:'A preposição estabelece relações entre termos.',tip:'de, em, com, para são exemplos frequentes.'},
+{question:'Conjunções atuam ligando:',options:['Orações ou termos de mesma função.','Somente substantivos próprios.','Apenas números.','Somente verbos no infinitivo.'],answer:0,explanation:'Conjunções conectam termos e orações.',tip:'Observe a relação lógica criada.'}
+]},
+10:{title:'Sintaxe da oração e do período',subtitle:'Português • Aula 10 • Edital • Sintaxe',time:'55 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • SINTAXE</div>
+<h3>Termos essenciais</h3><p>A oração se organiza em torno do <b>verbo</b>. Sujeito é o termo sobre o qual se declara algo; predicado é aquilo que se declara do sujeito. Há também objetos, complementos, adjuntos, aposto e vocativo.</p>
+<h3>Período simples e composto</h3><p>Período simples possui uma oração; período composto possui duas ou mais. As orações podem se relacionar por coordenação ou subordinação.</p>
+<div class="lesson-example"><b>Exemplo:</b> “Os candidatos resolveram a prova.” Sujeito: “Os candidatos”; núcleo: “candidatos”; predicado: “resolveram a prova”.</div>
+<div class="gold-rule">🎯 REGRA DE OURO: encontre primeiro o verbo; depois pergunte quem pratica/sofre o processo e quais termos completam seu sentido.</div>`,quiz:[
+{question:'Em “Os candidatos estudaram”, o sujeito é:',options:['Os candidatos.','Estudaram.','Oculto obrigatoriamente.','Inexistente.'],answer:0,explanation:'É o termo de que se declara a ação de estudar.',tip:'Pergunte: quem estudou?'},
+{question:'Uma oração organiza-se em torno de:',options:['Um verbo ou locução verbal.','Uma vírgula.','Um artigo.','Um adjetivo obrigatoriamente.'],answer:0,explanation:'O verbo é o núcleo estrutural da oração.',tip:'Conte verbos/locuções para começar a analisar.'},
+{question:'Período composto possui:',options:['Duas ou mais orações.','Nenhum verbo.','Somente um substantivo.','Obrigatoriamente três parágrafos.'],answer:0,explanation:'Há mais de uma oração.',tip:'Mais de uma estrutura verbal.'},
+{question:'O termo que completa o sentido de um verbo transitivo pode ser:',options:['Objeto.','Vocativo apenas.','Artigo.','Interjeição.'],answer:0,explanation:'Objetos direto e indireto completam verbos transitivos.',tip:'Pergunte o quê? quem? de quê? a quem?'},
+{question:'Vocativo é usado para:',options:['Chamar ou interpelar alguém.','Completar verbo transitivo.','Indicar sujeito obrigatoriamente.','Ligar duas orações.'],answer:0,explanation:'Vocativo é termo de chamamento.',tip:'“Soldado, atenção!”'},
+{question:'Em “João, candidato dedicado, foi aprovado”, “candidato dedicado” é:',options:['Aposto.','Objeto direto.','Verbo.','Conjunção.'],answer:0,explanation:'Explica/identifica o termo João.',tip:'Aposto explica outro termo nominal.'}
+]},
+11:{title:'Concordância verbal e nominal',subtitle:'Português • Aula 11 • Edital • Concordância',time:'55 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • CONCORDÂNCIA VERBAL E NOMINAL</div>
+<h3>Concordância verbal</h3><p>Como regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito: “Os candidatos <b>estudam</b>”. Casos com sujeito composto, expressões partitivas e verbos impessoais exigem atenção.</p>
+<h3>Concordância nominal</h3><p>Artigos, adjetivos, numerais e pronomes adjetivos ajustam-se ao substantivo a que se referem.</p>
+<div class="lesson-example"><b>Exemplo:</b> “As duas questões difíceis foram resolvidas.” Os determinantes e adjetivos acompanham o feminino plural de “questões”.</div>
+<div class="gold-rule">🎯 REGRA DE OURO: descubra o núcleo antes de concordar; palavras próximas podem tentar enganar você.</div>`,quiz:[
+{question:'Assinale a concordância adequada:',options:['Os candidatos estudam.','Os candidatos estuda.','Os candidato estudam.','Os candidatos estudas.'],answer:0,explanation:'O sujeito plural exige verbo no plural.',tip:'Ache o núcleo do sujeito.'},
+{question:'Na concordância nominal, o adjetivo relaciona-se principalmente ao:',options:['Substantivo a que se refere.','Ponto final.','Verbo impessoal sempre.','Título do texto.'],answer:0,explanation:'O adjetivo concorda com o nome em gênero e número, conforme a estrutura.',tip:'Descubra qual nome o adjetivo caracteriza.'},
+{question:'Em “As questões difíceis”, “difíceis” está no plural porque concorda com:',options:['Questões.','As apenas.','Uma palavra oculta.','Nenhum termo.'],answer:0,explanation:'O adjetivo caracteriza “questões”.',tip:'Nome + característica.'},
+{question:'O verbo “haver” com sentido de existir é, na norma-padrão:',options:['Impessoal e fica no singular.','Sempre plural.','Adjetivo.','Conjunção.'],answer:0,explanation:'Em “Havia candidatos”, haver = existir e permanece singular.',tip:'Haver = existir → singular.'},
+{question:'Assinale a forma padrão:',options:['Havia muitas pessoas.','Haviam muitas pessoas.','Houveram problemas ontem.','Existia muitas pessoas.'],answer:0,explanation:'Haver impessoal fica na 3ª pessoa do singular.',tip:'Não concorde “haver” existencial com o termo seguinte.'},
+{question:'A concordância verbal depende, em regra, do:',options:['Núcleo do sujeito.','Número de vírgulas.','Tamanho da frase.','Primeiro substantivo encontrado.'],answer:0,explanation:'É o núcleo do sujeito que orienta a concordância básica.',tip:'Núcleo primeiro.'}
+]},
+12:{title:'Regência verbal e nominal',subtitle:'Português • Aula 12 • Edital • Regência',time:'55 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • REGÊNCIA VERBAL E NOMINAL</div>
+<h3>O que é regência</h3><p>Regência estuda a relação entre um termo regente e seu complemento, especialmente a necessidade ou não de <b>preposição</b>. Verbos como assistir, obedecer, preferir e visar aparecem muito em exercícios de concurso.</p>
+<h3>Regência nominal</h3><p>Nomes também podem exigir preposição: “favorável <b>a</b>”, “necessidade <b>de</b>”, “respeito <b>a</b>”.</p>
+<div class="lesson-example"><b>Exemplo:</b> na norma-padrão, “obedecer <b>às</b> regras” apresenta preposição exigida pelo verbo.</div>
+<div class="gold-rule">🎯 REGRA DE OURO: não decore só a preposição; aprenda o sentido do verbo, porque a regência pode mudar com o significado.</div>
+<div class="video-lesson"><span>🔥 VIDEOAULA PARA CONCURSOS • +50 MIL VISUALIZAÇÕES</span><h3>Regência nominal e verbal — exercícios</h3><p>Treino prático com verbos frequentemente cobrados em concursos.</p><iframe src="https://www.youtube.com/embed/oOosGRe5gKo" title="Regência verbal e nominal para concursos" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'Regência estuda principalmente:',options:['A relação entre termos e seus complementos/preposições.','A posição da sílaba tônica.','Somente ortografia.','A divisão em parágrafos.'],answer:0,explanation:'Regência trata das relações de dependência entre termos.',tip:'Pergunte se o termo exige preposição.'},
+{question:'Na norma-padrão, o verbo “obedecer” rege:',options:['Preposição a.','Nenhuma preposição em qualquer caso.','Preposição com apenas.','Preposição por apenas.'],answer:0,explanation:'Obedecer a algo/alguém.',tip:'Obedecer às regras.'},
+{question:'Em “necessidade de estudo”, “de” é exigido por:',options:['Necessidade.','Estudo.','Um verbo oculto obrigatoriamente.','Pontuação.'],answer:0,explanation:'É caso de regência nominal.',tip:'Nome também pode reger preposição.'},
+{question:'A regência de um verbo pode variar conforme:',options:['Seu sentido no contexto.','A cor da página.','O tamanho da palavra seguinte.','A quantidade de parágrafos.'],answer:0,explanation:'Alguns verbos mudam de regência quando mudam de sentido.',tip:'Sentido + complemento.'},
+{question:'“Favorável a mudanças” exemplifica:',options:['Regência nominal.','Acentuação.','Concordância verbal.','Derivação.'],answer:0,explanation:'O adjetivo “favorável” rege a preposição a.',tip:'Termo regente é um nome/adjetivo.'},
+{question:'Para resolver questão de regência, é importante identificar:',options:['O termo regente e o sentido empregado.','Somente a última palavra.','A quantidade de vírgulas.','A fonte do texto apenas.'],answer:0,explanation:'Esses elementos determinam a construção adequada.',tip:'Quem rege? Qual sentido?' }
+]},
+13:{title:'Crase',subtitle:'Português • Aula 13 • Edital • Crase',time:'50 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • CRASE</div>
+<h3>O encontro de dois “a”</h3><p>A crase ocorre, em geral, quando a preposição <b>a</b> encontra o artigo feminino <b>a/as</b>. O acento grave <b>à</b> sinaliza essa fusão.</p>
+<h3>Teste prático</h3><p>Verifique se o termo anterior exige preposição “a” e se o termo seguinte admite artigo feminino. A troca por palavra masculina pode ajudar: se surgir “ao”, há forte indicação de crase no feminino.</p>
+<div class="lesson-example"><b>Exemplo:</b> “Dirigi-me <b>à escola</b>” → “Dirigi-me <b>ao colégio</b>”.</div>
+<h3>Casos sem crase</h3><p>Em regra, não há crase antes de verbo, palavra masculina e vários pronomes que não admitem artigo.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: crase não é “acento de palavra feminina”; confirme preposição + artigo.</div>
+<div class="video-lesson"><span>🎥 VIDEOAULA COM QUESTÕES PMMG</span><h3>Acentuação e crase em provas anteriores da PMMG</h3><p>Resolução direcionada ao concurso de Soldado da PMMG.</p><iframe src="https://www.youtube.com/embed/7HiCTNKmio8" title="Crase e acentuação PMMG" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'A crase normalmente representa a fusão de:',options:['Preposição a + artigo a/as.','Dois verbos.','Artigo o + preposição de.','Duas vírgulas.'],answer:0,explanation:'Essa é a situação básica representada por à/às.',tip:'a + a = à.'},
+{question:'Em “Dirigi-me à escola”, a troca por masculino pode resultar em:',options:['Dirigi-me ao colégio.','Dirigi-me o colégio.','Dirigi-me no colégio obrigatoriamente.','Dirigi-me pelo colégio sempre.'],answer:0,explanation:'O aparecimento de “ao” confirma preposição + artigo.',tip:'Teste do “ao”.'},
+{question:'Em regra, antes de verbo:',options:['Não ocorre crase.','A crase é sempre obrigatória.','Usa-se sempre “às”.','O verbo vira substantivo.'],answer:0,explanation:'Verbo não admite artigo feminino nessa estrutura.',tip:'Antes de verbo, geralmente sem crase.'},
+{question:'Crase deve ser analisada considerando:',options:['Regência e presença de artigo.','Somente gênero feminino.','Somente número de sílabas.','Pontuação final.'],answer:0,explanation:'É necessário verificar os dois “a”.',tip:'Quem exige “a”? O próximo termo aceita artigo?'},
+{question:'Assinale a construção com crase adequada:',options:['Fui à escola.','Começou à estudar.','Entreguei à Pedro.','Andei à pé.'],answer:0,explanation:'“Ir a” + “a escola” produz “à escola”.',tip:'Ao colégio → à escola.'},
+{question:'O acento usado para indicar crase é o:',options:['Grave.','Agudo.','Circunflexo.','Til.'],answer:0,explanation:'A crase é marcada pelo acento grave.',tip:'à.'}
+]},
+14:{title:'Coesão e coerência',subtitle:'Português • Aula 14 • Edital • Coesão e coerência',time:'50 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • COESÃO E COERÊNCIA</div>
+<h3>Coesão</h3><p>Coesão é a ligação linguística entre partes do texto. Pronomes, conjunções, substituições lexicais e elipses ajudam a conectar frases e parágrafos.</p>
+<h3>Coerência</h3><p>Coerência é a construção de sentido global sem contradições indevidas. Um texto pode ter conectivos e ainda ser incoerente se suas ideias entrarem em conflito.</p>
+<h3>Conectivos e relações</h3><p>“porque” pode indicar causa; “portanto”, conclusão; “embora”, concessão; “mas”, oposição. A banca frequentemente pergunta que relação um conector estabelece.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: ao trocar um conectivo, confira se a relação lógica original foi preservada.</div>`,quiz:[
+{question:'Coesão textual está ligada principalmente:',options:['À conexão linguística entre partes do texto.','À quantidade de páginas.','À caligrafia.','Somente ao título.'],answer:0,explanation:'Recursos coesivos conectam elementos textuais.',tip:'Pense em “costura” do texto.'},
+{question:'Coerência diz respeito:',options:['Ao sentido global e à compatibilidade das ideias.','Somente à ortografia.','Apenas ao uso de vírgulas.','À fonte utilizada.'],answer:0,explanation:'Coerência envolve lógica e sentido global.',tip:'As ideias fazem sentido juntas?'},
+{question:'O conectivo “portanto” costuma introduzir:',options:['Conclusão.','Causa.','Concessão.','Vocativo.'],answer:0,explanation:'“Portanto” marca conclusão/consequência argumentativa.',tip:'Portanto = logo.'},
+{question:'“Embora” normalmente expressa:',options:['Concessão.','Conclusão.','Adição apenas.','Explicação nominal.'],answer:0,explanation:'Introduz uma ideia concessiva.',tip:'Embora = apesar de.'},
+{question:'Um pronome que retoma termo anterior contribui para:',options:['Coesão referencial.','Acentuação.','Formação de palavras.','Regência exclusivamente.'],answer:0,explanation:'A retomada evita repetição e conecta partes do texto.',tip:'Retomar = referenciar.'},
+{question:'Trocar um conectivo sem analisar seu sentido pode:',options:['Alterar a relação lógica do texto.','Nunca mudar nada.','Corrigir automaticamente a gramática.','Eliminar o sujeito.'],answer:0,explanation:'Conectivos expressam relações semânticas específicas.',tip:'Compare causa, oposição, conclusão, concessão etc.'}
 ]}
+
 };
