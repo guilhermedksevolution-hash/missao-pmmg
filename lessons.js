@@ -49,7 +49,8 @@ window.lessons = {
 <h3>Tipo textual x gênero</h3><p><b>Tipo textual</b> é uma estrutura predominante: narração, descrição, exposição, argumentação e injunção. <b>Gênero textual</b> é uma forma concreta de comunicação: notícia, edital, receita, artigo de opinião, e-mail, relatório etc.</p>
 <h3>Como reconhecer</h3><p>Narração apresenta acontecimentos; descrição caracteriza; exposição explica; argumentação defende ponto de vista; injunção orienta ações.</p>
 <div class="lesson-example"><b>Exemplo:</b> uma receita é gênero textual e apresenta forte sequência injuntiva, pois orienta ações.</div>
-<div class="gold-rule">🎯 REGRA DE OURO: gênero é “o texto que circula”; tipo é “a estrutura linguística que predomina”.</div>`,quiz:[
+<div class="gold-rule">🎯 REGRA DE OURO: gênero é “o texto que circula”; tipo é “a estrutura linguística que predomina”.</div>
+<div class="video-lesson"><span>🔥 VIDEOAULA POPULAR • TIPOS E GÊNEROS TEXTUAIS</span><h3>Tipos e gêneros textuais — Português com Letícia</h3><p>Aula completa sobre tipos textuais, gêneros textuais e como diferenciá-los em questões.</p><iframe src="https://www.youtube.com/embed/keri15mSleA" title="Tipos e gêneros textuais" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
 {question:'Notícia, receita e artigo de opinião são exemplos de:',options:['Gêneros textuais.','Classes gramaticais.','Fonemas.','Orações subordinadas.'],answer:0,explanation:'São formas concretas de textos em situações sociais.',tip:'Gênero = formato social do texto.'},
 {question:'O tipo textual que orienta procedimentos é:',options:['Descritivo.','Injuntivo.','Narrativo.','Lírico.'],answer:1,explanation:'Injunção orienta, ordena ou instrui.',tip:'Manual e receita lembram injunção.'},
 {question:'Uma sequência que apresenta fatos em ordem temporal tende a ser:',options:['Narrativa.','Descritiva.','Injuntiva.','Apenas expositiva.'],answer:0,explanation:'Narração organiza acontecimentos.',tip:'Ação + tempo = pista de narração.'},
@@ -90,7 +91,8 @@ window.lessons = {
 <h3>Erro clássico</h3><p>Em regra, não se separa <b>sujeito do verbo</b> nem <b>verbo de seu complemento</b> apenas com uma vírgula.</p>
 <div class="lesson-example"><b>Exemplo:</b> “Os candidatos atentos resolveram a questão.” Não cabe vírgula entre “candidatos” e “resolveram”.</div>
 <h3>Dois-pontos e ponto e vírgula</h3><p>Dois-pontos podem introduzir explicação, enumeração ou fala. O ponto e vírgula pode separar estruturas coordenadas mais extensas.</p>
-<div class="gold-rule">🎯 REGRA DE OURO: antes de pôr vírgula, identifique a função sintática dos termos.</div>`,quiz:[
+<div class="gold-rule">🎯 REGRA DE OURO: antes de pôr vírgula, identifique a função sintática dos termos.</div>
+<div class="video-lesson"><span>🎥 VIDEOAULA • PONTUAÇÃO PARA CONCURSOS</span><h3>Pontuação — vírgula, ponto e vírgula, dois-pontos e travessão</h3><p>Aula direcionada aos principais usos de pontuação cobrados em concursos.</p><iframe src="https://www.youtube.com/embed/K9PRjM8POy0" title="Pontuação para concursos" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
 {question:'Em regra, a vírgula NÃO deve separar:',options:['Itens de uma enumeração.','Vocativo.','Sujeito e verbo.','Aposto explicativo.'],answer:2,explanation:'Sujeito e predicado mantêm ligação sintática direta.',tip:'Não corte a estrutura básica sujeito + verbo.'},
 {question:'Em “João, venha aqui”, a vírgula separa:',options:['Vocativo.','Sujeito do verbo.','Objeto direto.','Predicativo.'],answer:0,explanation:'“João” é chamamento, portanto vocativo.',tip:'Chamou alguém? Pense em vocativo.'},
 {question:'Os dois-pontos podem introduzir:',options:['Uma enumeração.','Somente uma pergunta.','Acentuação.','Concordância nominal.'],answer:0,explanation:'É um de seus usos frequentes.',tip:'Anúncio → explicação/lista.'},
