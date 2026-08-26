@@ -125,7 +125,7 @@ function shuffleQuestionOptions(question){
 function startQuiz(){
   const lesson=getLessonData(currentLessonNumber);
   if(!lesson||!Array.isArray(lesson.quiz)||!lesson.quiz.length){alert("Esta aula ainda não possui prova.");return;}
-  // V6.4.2: embaralha as alternativas em cada tentativa e recalcula
+  // V6.4.2.1: embaralha as alternativas em cada tentativa e recalcula
   // o índice correto. Assim o gabarito não fica preso à letra A.
   currentQuiz=lesson.quiz.map(q=>shuffleQuestionOptions(q));
   document.getElementById("quizTitle").textContent=`Prova da Aula ${String(currentLessonNumber).padStart(2,"0")}`;
