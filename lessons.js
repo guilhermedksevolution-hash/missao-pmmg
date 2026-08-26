@@ -1,847 +1,114 @@
+/* Missão PMMG V6.3.9 — Conteúdo real baseado no Anexo B do Edital DRH/CRS nº 10/2024 (CFSd QP-PM/2025). */
 window.lessons = {
-  1: {
-    title: "Interpretação de texto",
-    subtitle: "PORTUGUÊS • AULA 01",
-    time: "60–90 min",
-    content: `
-      <p class="eyebrow">MISSÃO 01</p>
-      <h2>Interpretação de texto</h2>
-
-      <p>
-        Interpretar um texto é compreender não apenas aquilo que está escrito de forma direta,
-        mas também as ideias que podem ser concluídas a partir das informações apresentadas.
-        Em provas, essa habilidade é fundamental porque muitas questões não perguntam apenas
-        “o que o texto diz”, mas também “o que se pode concluir”, “qual é a intenção do autor”
-        ou “qual alternativa está de acordo com o texto”.
-      </p>
-
-      <div class="attention-box">
-        <strong>Regra de ouro:</strong> responda com base no texto. Não escolha uma alternativa
-        apenas porque ela parece verdadeira na vida real.
-      </div>
-
-      <h2>1. Compreensão x interpretação</h2>
-
-      <h3>Compreensão</h3>
-      <p>
-        A compreensão trabalha principalmente com informações explícitas, isto é,
-        informações que aparecem diretamente no texto.
-      </p>
-
-      <div class="example-box">
-        <strong>Exemplo:</strong><br><br>
-        “Carlos saiu de casa às 6 horas e chegou ao trabalho às 7 horas.”<br><br>
-        Pergunta: A que horas Carlos chegou ao trabalho?<br>
-        Resposta: <strong>Às 7 horas.</strong><br><br>
-        Não foi necessário deduzir nada. A resposta estava escrita.
-      </div>
-
-      <h3>Interpretação</h3>
-      <p>
-        A interpretação pode exigir que o leitor relacione informações e faça uma conclusão
-        lógica que não aparece escrita exatamente da mesma maneira.
-      </p>
-
-      <div class="example-box">
-        <strong>Exemplo:</strong><br><br>
-        “Quando saiu de casa, Marina levou um guarda-chuva. O céu estava coberto por nuvens
-        escuras.”<br><br>
-        É possível inferir que Marina <strong>considerava possível que chovesse</strong>.
-        O texto não afirma literalmente “Marina achou que choveria”, mas os elementos permitem
-        essa conclusão.
-      </div>
-
-      <h2>2. Informação explícita</h2>
-
-      <p>
-        Informação explícita é aquela apresentada diretamente pelo autor. Em questões desse tipo,
-        procure no texto palavras ou ideias equivalentes às utilizadas no enunciado.
-      </p>
-
-      <p>Comandos comuns:</p>
-
-      <ul>
-        <li>“Segundo o texto...”</li>
-        <li>“De acordo com o texto...”</li>
-        <li>“O texto afirma que...”</li>
-        <li>“Conforme o autor...”</li>
-      </ul>
-
-      <div class="tip-box">
-        <strong>Dica:</strong> não procure necessariamente as mesmas palavras. A banca pode
-        reescrever a mesma informação usando sinônimos.
-      </div>
-
-      <h2>3. Informação implícita e inferência</h2>
-
-      <p>
-        Informação implícita não está declarada diretamente, mas pode ser percebida por meio
-        das pistas fornecidas pelo texto. A conclusão obtida a partir dessas pistas recebe,
-        em muitos casos, o nome de <strong>inferência</strong>.
-      </p>
-
-      <div class="example-box">
-        “Pedro entrou na sala completamente molhado e colocou o guarda-chuva ao lado da porta.”
-        <br><br>
-        Uma inferência razoável é que <strong>estava chovendo ou havia chovido</strong>.
-      </div>
-
-      <p>
-        É importante não exagerar. O texto permite concluir que Pedro teve contato com chuva,
-        mas não permite afirmar, por exemplo, que houve uma tempestade durante três horas.
-      </p>
-
-      <h2>4. Tema do texto</h2>
-
-      <p>
-        O tema é o assunto geral abordado. Para encontrá-lo, pergunte:
-        <strong>“Sobre o que esse texto fala?”</strong>
-      </p>
-
-      <div class="example-box">
-        Se um texto apresenta os benefícios da atividade física, os riscos do sedentarismo e
-        recomenda exercícios regulares, o tema pode ser formulado como
-        <strong>“atividade física e saúde”</strong>.
-      </div>
-
-      <h2>5. Ideia principal</h2>
-
-      <p>
-        A ideia principal é aquilo que o autor pretende comunicar de mais importante sobre o tema.
-        Ela é mais específica do que simplesmente identificar o assunto.
-      </p>
-
-      <div class="example-box">
-        <strong>Tema:</strong> atividade física.<br>
-        <strong>Possível ideia principal:</strong> a prática regular de atividade física
-        contribui para a manutenção da saúde e da qualidade de vida.
-      </div>
-
-      <p>
-        Tema e ideia principal não são exatamente a mesma coisa. Esse assunto será aprofundado
-        na Aula 02.
-      </p>
-
-      <h2>6. Finalidade do texto</h2>
-
-      <p>
-        A finalidade corresponde ao objetivo comunicativo. Um texto pode ter como objetivo,
-        entre outros:
-      </p>
-
-      <ul>
-        <li>informar;</li>
-        <li>explicar;</li>
-        <li>convencer ou defender uma opinião;</li>
-        <li>alertar;</li>
-        <li>orientar;</li>
-        <li>criticar;</li>
-        <li>divertir.</li>
-      </ul>
-
-      <div class="example-box">
-        Uma campanha que apresenta riscos de dirigir após consumir bebida alcoólica e pede ao
-        motorista que não faça isso tem finalidade principalmente
-        <strong>educativa, preventiva e persuasiva</strong>.
-      </div>
-
-      <h2>7. Fato e opinião</h2>
-
-      <h3>Fato</h3>
-      <p>
-        É uma informação apresentada como acontecimento ou dado que pode, em princípio,
-        ser verificado.
-      </p>
-
-      <h3>Opinião</h3>
-      <p>
-        Expressa avaliação, julgamento ou ponto de vista.
-      </p>
-
-      <div class="example-box">
-        “A biblioteca abre às 8 horas.” → informação factual.<br><br>
-        “Essa é a melhor biblioteca da cidade.” → opinião/julgamento.
-      </div>
-
-      <p>
-        Palavras como “excelente”, “péssimo”, “melhor”, “lamentável” e “importante”
-        podem indicar avaliação, dependendo do contexto.
-      </p>
-
-      <h2>8. Sentido das palavras no contexto</h2>
-
-      <p>
-        Uma mesma palavra pode assumir sentidos diferentes. Por isso, em interpretação textual,
-        não basta lembrar o significado isolado: é necessário observar o contexto.
-      </p>
-
-      <div class="example-box">
-        “A raiz da árvore danificou a calçada.” → raiz em sentido literal.<br><br>
-        “Precisamos encontrar a raiz do problema.” → raiz significa origem ou causa.
-      </div>
-
-      <h2>9. Conectivos e relações de sentido</h2>
-
-      <p>
-        Conectivos ajudam a perceber a relação entre as partes do texto.
-      </p>
-
-      <ul>
-        <li><strong>mas, porém, contudo:</strong> oposição/contraste;</li>
-        <li><strong>porque, pois:</strong> causa ou explicação, conforme o contexto;</li>
-        <li><strong>portanto, logo:</strong> conclusão;</li>
-        <li><strong>além disso:</strong> adição;</li>
-        <li><strong>embora:</strong> concessão;</li>
-        <li><strong>se:</strong> condição.</li>
-      </ul>
-
-      <div class="example-box">
-        “João estudou bastante, <strong>mas</strong> não conseguiu terminar a prova.”
-        <br><br>
-        O termo “mas” estabelece contraste entre o esforço de João e o resultado.
-      </div>
-
-      <h2>10. Referência de pronomes e expressões</h2>
-
-      <p>
-        Muitas questões exigem identificar a quem ou a quê uma palavra se refere.
-      </p>
-
-      <div class="example-box">
-        “Ana encontrou Beatriz na escola. <strong>Ela</strong> entregou os documentos.”
-        <br><br>
-        Dependendo do restante do contexto, é necessário identificar quem realizou a ação.
-        Quando houver ambiguidade real, não invente uma certeza que o texto não oferece.
-      </div>
-
-      <h2>11. Cuidado com alternativas incorretas</h2>
-
-      <p>Algumas alternativas parecem boas, mas alteram discretamente o texto. Observe:</p>
-
-      <ul>
-        <li>
-          <strong>Generalização:</strong> o texto diz “alguns” e a alternativa transforma em “todos”.
-        </li>
-        <li>
-          <strong>Restrição indevida:</strong> o texto apresenta uma ideia ampla e a alternativa
-          reduz seu alcance sem justificativa.
-        </li>
-        <li>
-          <strong>Inversão:</strong> troca causa por consequência ou altera quem praticou uma ação.
-        </li>
-        <li>
-          <strong>Extrapolação:</strong> acrescenta informação que o texto não permite concluir.
-        </li>
-        <li>
-          <strong>Contradição:</strong> afirma o contrário do texto.
-        </li>
-      </ul>
-
-      <div class="attention-box">
-        Palavras absolutas como <strong>sempre, nunca, somente, todos, nenhum,
-        exclusivamente</strong> merecem atenção. Elas não são automaticamente erradas,
-        mas podem tornar uma alternativa mais abrangente ou restritiva do que o texto.
-      </div>
-
-      <h2>12. Método prático para resolver questões</h2>
-
-      <ol>
-        <li>Leia o comando da questão com atenção.</li>
-        <li>Identifique exatamente o que está sendo pedido.</li>
-        <li>Leia o texto buscando tema, ideia central e relações importantes.</li>
-        <li>Volte ao trecho relacionado à pergunta.</li>
-        <li>Analise cada alternativa com base no texto.</li>
-        <li>Elimine as que contradizem, exageram ou acrescentam informações.</li>
-        <li>Escolha a alternativa mais fiel ao texto.</li>
-      </ol>
-
-      <h2>13. Texto para treinamento</h2>
-
-      <blockquote>
-        A disciplina não elimina as dificuldades de uma caminhada, mas ajuda o indivíduo
-        a enfrentá-las com constância. Grandes objetivos raramente são alcançados por uma
-        única ação extraordinária. Na maioria das vezes, resultam de pequenas decisões
-        repetidas durante um longo período. Estudar um pouco todos os dias, corrigir erros
-        e manter uma rotina possível pode produzir resultados maiores do que depender
-        apenas de momentos de motivação.
-      </blockquote>
-
-      <h3>Análise</h3>
-
-      <p>
-        <strong>Tema:</strong> disciplina e constância na busca de objetivos.
-      </p>
-
-      <p>
-        <strong>Ideia principal:</strong> resultados importantes tendem a ser construídos
-        por ações consistentes e repetidas, e não apenas por momentos isolados de motivação.
-      </p>
-
-      <p>
-        <strong>Uma inferência possível:</strong> o autor valoriza a regularidade como elemento
-        importante para alcançar objetivos.
-      </p>
-
-      <p>
-        <strong>Uma conclusão que NÃO seria permitida:</strong> “quem estuda todos os dias
-        certamente será aprovado”. O texto valoriza a constância, mas não garante aprovação.
-      </p>
-
-      <h2>14. Resumo da Aula 01</h2>
-
-      <ul>
-        <li>Compreensão procura informações apresentadas diretamente.</li>
-        <li>Interpretação também pode exigir relações e inferências.</li>
-        <li>Toda inferência deve possuir apoio no texto.</li>
-        <li>Tema é o assunto geral.</li>
-        <li>Ideia principal é a mensagem central desenvolvida sobre o tema.</li>
-        <li>A finalidade indica o objetivo comunicativo do texto.</li>
-        <li>Contexto é essencial para determinar o sentido das palavras.</li>
-        <li>Conectivos revelam relações entre ideias.</li>
-        <li>Alternativas podem errar por exagero, contradição ou extrapolação.</li>
-      </ul>
-
-      <div class="tip-box">
-        <strong>Antes da prova:</strong> não tente decorar frases. Entenda o método.
-        Em interpretação, o texto é sua principal fonte de evidência.
-      </div>
-    `,
-    quiz: [
-      {
-        question: "Em uma questão que pergunta “Segundo o texto...”, qual deve ser a principal referência do candidato?",
-        options: [
-          "Sua experiência pessoal sobre o assunto.",
-          "As informações apresentadas pelo próprio texto.",
-          "A alternativa que trouxer mais informações.",
-          "Aquilo que normalmente acontece na vida real."
-        ],
-        answer: 1
-      },
-      {
-        question: "Qual alternativa define melhor uma informação implícita?",
-        options: [
-          "Informação que aparece obrigatoriamente no título.",
-          "Informação sem qualquer relação com o texto.",
-          "Informação que pode ser concluída a partir de pistas do texto.",
-          "Informação copiada literalmente do texto."
-        ],
-        answer: 2
-      },
-      {
-        question: "Leia: “Rafael entrou em casa, fechou rapidamente as janelas e, minutos depois, ouviu trovões.” Qual inferência é mais adequada?",
-        options: [
-          "Rafael certamente tem medo de trovões.",
-          "Havia sinais de que poderia ocorrer chuva ou temporal.",
-          "Rafael quebrou uma das janelas.",
-          "A casa estava sem energia elétrica."
-        ],
-        answer: 1
-      },
-      {
-        question: "Se um texto fala sobre benefícios dos exercícios físicos, riscos do sedentarismo e importância de se manter ativo, qual é um tema adequado?",
-        options: [
-          "Atividade física e saúde.",
-          "História dos esportes olímpicos.",
-          "Construção de academias.",
-          "Alimentação exclusivamente vegetariana."
-        ],
-        answer: 0
-      },
-      {
-        question: "Em “Lucas treinou durante meses, mas não conseguiu completar a prova”, a palavra “mas” estabelece principalmente uma relação de:",
-        options: [
-          "Adição.",
-          "Conclusão.",
-          "Contraste.",
-          "Condição."
-        ],
-        answer: 2
-      },
-      {
-        question: "Qual alternativa apresenta uma opinião?",
-        options: [
-          "A reunião começou às 14 horas.",
-          "O prédio possui três andares.",
-          "O livro tem 200 páginas.",
-          "O atendimento daquele local é excelente."
-        ],
-        answer: 3
-      },
-      {
-        question: "Leia: “A raiz do problema precisa ser identificada antes da decisão.” Nesse contexto, “raiz” significa:",
-        options: [
-          "Parte subterrânea de uma planta.",
-          "Origem ou causa.",
-          "Decoração.",
-          "Consequência final."
-        ],
-        answer: 1
-      },
-      {
-        question: "O texto afirma: “Alguns candidatos preferem estudar pela manhã.” Qual alternativa extrapola essa informação?",
-        options: [
-          "Há candidatos que preferem estudar pela manhã.",
-          "Nem necessariamente todos os candidatos possuem a mesma preferência.",
-          "Todos os candidatos estudam melhor pela manhã.",
-          "O texto menciona a preferência de alguns candidatos."
-        ],
-        answer: 2
-      },
-      {
-        question: "Qual procedimento é mais adequado ao resolver uma questão de interpretação?",
-        options: [
-          "Escolher primeiro a alternativa mais longa.",
-          "Ignorar o texto quando já conhecer o assunto.",
-          "Comparar as alternativas com as evidências apresentadas no texto.",
-          "Marcar sempre a alternativa mais genérica."
-        ],
-        answer: 2
-      },
-      {
-        question: "No texto de treinamento da aula, qual ideia é defendida principalmente?",
-        options: [
-          "A motivação é completamente inútil.",
-          "Objetivos importantes podem ser favorecidos pela constância de pequenas ações.",
-          "Somente ações extraordinárias produzem resultados.",
-          "Uma rotina garante automaticamente qualquer resultado desejado."
-        ],
-        answer: 1
-      }
-    ]
-  },
-
-  2: {
-    title: "Ideia principal e inferência",
-    subtitle: "PORTUGUÊS • AULA 02",
-    time: "60–90 min",
-    content: `
-      <p class="eyebrow">MISSÃO 02</p>
-      <h2>Ideia principal e inferência</h2>
-
-      <p>
-        Nesta aula, você vai aprofundar duas habilidades essenciais para questões de interpretação:
-        identificar a <strong>ideia principal</strong> e realizar <strong>inferências seguras</strong>.
-        Esses conteúdos estão ligados porque compreender a mensagem central ajuda a avaliar quais
-        conclusões realmente são sustentadas pelo texto.
-      </p>
-
-      <h2>1. Tema x ideia principal</h2>
-
-      <p>
-        O <strong>tema</strong> responde, de maneira geral, à pergunta:
-        <strong>“Qual é o assunto do texto?”</strong>
-      </p>
-
-      <p>
-        A <strong>ideia principal</strong> responde:
-        <strong>“O que o texto afirma, explica ou defende de mais importante sobre esse assunto?”</strong>
-      </p>
-
-      <div class="example-box">
-        Imagine um texto explicando que dormir adequadamente melhora atenção, memória e disposição.
-        <br><br>
-        <strong>Tema:</strong> sono.<br>
-        <strong>Ideia principal:</strong> dormir adequadamente contribui para funções importantes
-        do organismo e para o desempenho cotidiano.
-      </div>
-
-      <h2>2. Como localizar a ideia principal</h2>
-
-      <p>Use quatro perguntas:</p>
-
-      <ol>
-        <li>Qual assunto aparece ao longo do texto?</li>
-        <li>O que o autor diz de mais importante sobre esse assunto?</li>
-        <li>Quais ideias se repetem ou são desenvolvidas?</li>
-        <li>Qual alternativa resume o texto sem exagerar nem reduzir demais seu sentido?</li>
-      </ol>
-
-      <div class="attention-box">
-        A ideia principal não precisa aparecer em uma única frase exatamente como será apresentada
-        na resposta. Muitas vezes, você precisa sintetizar diferentes partes do texto.
-      </div>
-
-      <h2>3. Ideias principais e secundárias</h2>
-
-      <p>
-        A ideia principal organiza o sentido central. As ideias secundárias ajudam a explicar,
-        exemplificar, justificar, detalhar ou comprovar essa ideia.
-      </p>
-
-      <div class="example-box">
-        “A leitura frequente amplia o contato com diferentes formas de expressão. Além disso,
-        pode aumentar o repertório vocabular e favorecer a compreensão de textos mais complexos.”
-        <br><br>
-        <strong>Ideia principal:</strong> a leitura frequente pode contribuir para o desenvolvimento
-        de habilidades linguísticas.<br><br>
-        <strong>Detalhes:</strong> contato com formas de expressão, ampliação do vocabulário
-        e melhora da compreensão.
-      </div>
-
-      <h2>4. Título e ideia principal</h2>
-
-      <p>
-        O título pode ajudar a antecipar o tema ou a perspectiva do texto, mas não substitui
-        a leitura. Um título pode ser figurado, irônico, amplo ou propositalmente chamativo.
-      </p>
-
-      <div class="tip-box">
-        Use o título como pista, não como resposta automática.
-      </div>
-
-      <h2>5. O que é inferência?</h2>
-
-      <p>
-        Inferir é chegar a uma conclusão com base em informações disponíveis.
-        Em interpretação textual, uma inferência válida precisa ser sustentada por elementos do texto.
-      </p>
-
-      <div class="example-box">
-        “O estacionamento estava vazio quando Fernanda chegou. Na porta, um aviso informava
-        que o estabelecimento não funcionaria naquele feriado.”
-        <br><br>
-        É possível inferir que o estabelecimento estava fechado naquele momento.
-      </div>
-
-      <h2>6. Inferência não é imaginação</h2>
-
-      <p>
-        Uma das maiores armadilhas é transformar uma pista em uma história inteira.
-      </p>
-
-      <div class="example-box">
-        Texto: “Marcelo chegou atrasado e pediu desculpas ao professor.”
-        <br><br>
-        Podemos afirmar que Marcelo chegou atrasado e se desculpou.<br>
-        Não podemos afirmar, sem outras informações, que ele perdeu o ônibus, acordou tarde
-        ou enfrentou trânsito.
-      </div>
-
-      <h2>7. Graus de certeza</h2>
-
-      <p>
-        Observe a força das palavras utilizadas nas alternativas. Existe diferença entre:
-      </p>
-
-      <ul>
-        <li>“pode”;</li>
-        <li>“tende a”;</li>
-        <li>“provavelmente”;</li>
-        <li>“sempre”;</li>
-        <li>“necessariamente”;</li>
-        <li>“exclusivamente”.</li>
-      </ul>
-
-      <p>
-        Uma alternativa pode começar com uma conclusão razoável e se tornar incorreta ao utilizar
-        uma palavra absoluta que o texto não autoriza.
-      </p>
-
-      <div class="example-box">
-        Texto: “A prática regular de exercícios pode contribuir para a qualidade de vida.”
-        <br><br>
-        Correto: exercícios <strong>podem contribuir</strong> para a qualidade de vida.<br>
-        Exagerado: exercícios <strong>sempre garantem</strong> qualidade de vida.
-      </div>
-
-      <h2>8. Pressupostos</h2>
-
-      <p>
-        Certas construções linguísticas carregam informações pressupostas.
-      </p>
-
-      <div class="example-box">
-        “Joana voltou a estudar.”
-        <br><br>
-        A expressão “voltou a” pressupõe que Joana <strong>já estudava anteriormente</strong>
-        e, em algum momento, deixou de fazê-lo.
-      </div>
-
-      <div class="example-box">
-        “Paulo parou de reclamar.”
-        <br><br>
-        A construção pressupõe que Paulo <strong>reclamava antes</strong>.
-      </div>
-
-      <h2>9. Relação de causa e consequência</h2>
-
-      <p>
-        Identificar causa e consequência é importante para não inverter a lógica do texto.
-      </p>
-
-      <div class="example-box">
-        “Devido à forte chuva, o evento foi adiado.”
-        <br><br>
-        <strong>Causa:</strong> forte chuva.<br>
-        <strong>Consequência:</strong> adiamento do evento.
-      </div>
-
-      <p>
-        Uma alternativa que afirmasse que “o adiamento provocou a chuva” inverteria completamente
-        a relação apresentada.
-      </p>
-
-      <h2>10. Relação de condição</h2>
-
-      <div class="example-box">
-        “Se o candidato atingir a pontuação mínima, avançará para a próxima etapa.”
-        <br><br>
-        A aprovação na condição apresentada depende de atingir a pontuação mínima.
-      </div>
-
-      <p>
-        Não transforme uma condição em fato consumado. A frase não afirma que o candidato
-        já atingiu a pontuação.
-      </p>
-
-      <h2>11. Contraste e concessão</h2>
-
-      <p>
-        Relações de contraste são importantes porque frequentemente revelam a direção argumentativa
-        de uma frase.
-      </p>
-
-      <div class="example-box">
-        “Embora estivesse cansada, Júlia terminou o trabalho.”
-        <br><br>
-        O cansaço poderia dificultar a ação, mas não impediu que Júlia concluísse o trabalho.
-      </div>
-
-      <h2>12. Generalização indevida</h2>
-
-      <p>
-        Compare cuidadosamente quantificadores:
-      </p>
-
-      <ul>
-        <li>alguns ≠ todos;</li>
-        <li>muitos ≠ todos;</li>
-        <li>pode ≠ sempre;</li>
-        <li>frequentemente ≠ obrigatoriamente;</li>
-        <li>em certos casos ≠ em qualquer situação.</li>
-      </ul>
-
-      <div class="attention-box">
-        Uma única palavra pode transformar uma alternativa aparentemente correta em incorreta.
-      </div>
-
-      <h2>13. Inferência sobre intenção e atitude</h2>
-
-      <p>
-        Em alguns textos, a banca pode perguntar sobre a postura do autor: crítica, favorável,
-        cautelosa, irônica, otimista, pessimista etc.
-      </p>
-
-      <p>
-        Para responder, procure marcas linguísticas. Não atribua emoções ou opiniões ao autor
-        sem evidência.
-      </p>
-
-      <div class="example-box">
-        “Infelizmente, mais uma vez a medida foi anunciada sem qualquer planejamento adequado.”
-        <br><br>
-        Palavras como “infelizmente” e a crítica à falta de planejamento revelam uma avaliação
-        negativa do enunciador.
-      </div>
-
-      <h2>14. Paráfrase</h2>
-
-      <p>
-        Paráfrase é a reformulação de uma ideia mantendo essencialmente seu sentido.
-        Muitas alternativas corretas em provas são paráfrases de trechos do texto.
-      </p>
-
-      <div class="example-box">
-        Original: “A constância é importante para o aprendizado.”<br><br>
-        Paráfrase possível: “Manter regularidade nos estudos contribui para o processo de aprendizagem.”
-      </div>
-
-      <p>
-        A banca pode trocar as palavras sem trocar o sentido. Por isso, não procure apenas
-        correspondência literal.
-      </p>
-
-      <h2>15. Método das evidências</h2>
-
-      <p>
-        Para cada alternativa, faça mentalmente a pergunta:
-        <strong>“Qual trecho ou conjunto de informações do texto sustenta isso?”</strong>
-      </p>
-
-      <p>
-        Se você não consegue encontrar suporte e a alternativa depende apenas de uma suposição,
-        desconfie dela.
-      </p>
-
-      <h2>16. Texto para treinamento</h2>
-
-      <blockquote>
-        A tecnologia facilitou o acesso a uma quantidade enorme de informações. Entretanto,
-        ter informação disponível não significa, por si só, possuir conhecimento. Para aprender,
-        é necessário selecionar fontes, compreender o conteúdo, relacioná-lo a conhecimentos
-        anteriores e avaliar criticamente aquilo que se lê. Nesse cenário, a facilidade de acesso
-        é uma vantagem importante, mas não substitui a participação ativa do estudante.
-      </blockquote>
-
-      <h3>Análise passo a passo</h3>
-
-      <p>
-        <strong>Tema:</strong> tecnologia, acesso à informação e aprendizagem.
-      </p>
-
-      <p>
-        <strong>Ideia principal:</strong> embora a tecnologia facilite o acesso à informação,
-        aprender exige participação ativa e análise do conteúdo.
-      </p>
-
-      <p>
-        <strong>Inferência válida:</strong> o simples acesso a muitas informações não garante
-        aprendizagem.
-      </p>
-
-      <p>
-        <strong>Inferência inválida:</strong> a tecnologia prejudica necessariamente todos
-        os estudantes. O texto não afirma isso.
-      </p>
-
-      <p>
-        <strong>Função de “Entretanto”:</strong> introduzir contraste entre ter acesso à informação
-        e efetivamente possuir conhecimento.
-      </p>
-
-      <h2>17. Estratégia para a prova</h2>
-
-      <ol>
-        <li>Descubra o tema geral.</li>
-        <li>Formule mentalmente a ideia principal em uma frase.</li>
-        <li>Identifique a posição do autor quando houver.</li>
-        <li>Observe conectivos e relações lógicas.</li>
-        <li>Separe fatos explícitos de conclusões inferidas.</li>
-        <li>Exija evidência para cada inferência.</li>
-        <li>Compare o grau de certeza da alternativa com o grau de certeza do texto.</li>
-        <li>Elimine generalizações, inversões e informações acrescentadas.</li>
-      </ol>
-
-      <h2>18. Resumo da Aula 02</h2>
-
-      <ul>
-        <li>Tema é o assunto geral; ideia principal é a mensagem central sobre esse assunto.</li>
-        <li>Ideias secundárias desenvolvem, explicam ou exemplificam a principal.</li>
-        <li>Inferência é uma conclusão sustentada por pistas do texto.</li>
-        <li>Inferir não significa inventar informações.</li>
-        <li>O grau de certeza da resposta deve respeitar o grau de certeza do texto.</li>
-        <li>Pressupostos podem estar associados a determinadas construções linguísticas.</li>
-        <li>Causa, consequência, condição e contraste precisam ser identificados corretamente.</li>
-        <li>Paráfrases mantêm a ideia essencial com palavras diferentes.</li>
-        <li>Uma alternativa correta precisa encontrar sustentação no texto.</li>
-      </ul>
-
-      <div class="tip-box">
-        <strong>Missão concluída quando você conseguir:</strong> ler um texto, explicar em uma frase
-        sua ideia central e justificar cada inferência apontando a evidência que a sustenta.
-      </div>
-    `,
-    quiz: [
-      {
-        question: "Qual é a diferença mais adequada entre tema e ideia principal?",
-        options: [
-          "Tema é o assunto geral; ideia principal é a mensagem central desenvolvida sobre esse assunto.",
-          "Tema e ideia principal são sempre exatamente a mesma coisa.",
-          "Tema é sempre uma frase longa; ideia principal é sempre uma palavra.",
-          "Ideia principal corresponde apenas ao título do texto."
-        ],
-        answer: 0
-      },
-      {
-        question: "Leia: “Bianca voltou a frequentar a biblioteca.” O emprego de “voltou a” permite pressupor que:",
-        options: [
-          "Bianca nunca havia frequentado uma biblioteca.",
-          "Bianca já frequentava a biblioteca em algum momento anterior.",
-          "Bianca trabalha obrigatoriamente na biblioteca.",
-          "Bianca comprou todos os livros da biblioteca."
-        ],
-        answer: 1
-      },
-      {
-        question: "Texto: “A leitura pode contribuir para ampliar o vocabulário.” Qual alternativa altera indevidamente o grau de certeza?",
-        options: [
-          "A leitura pode favorecer a ampliação do vocabulário.",
-          "Existe possibilidade de a leitura contribuir para o vocabulário.",
-          "A leitura sempre garante um vocabulário amplo a qualquer pessoa.",
-          "O texto associa a leitura a uma possível ampliação vocabular."
-        ],
-        answer: 2
-      },
-      {
-        question: "Leia: “Devido a uma falha no equipamento, a atividade foi interrompida.” Qual é a causa apresentada?",
-        options: [
-          "A interrupção da atividade.",
-          "A falha no equipamento.",
-          "A conclusão da atividade.",
-          "A troca obrigatória de todos os equipamentos."
-        ],
-        answer: 1
-      },
-      {
-        question: "Leia: “Embora estivesse nervoso, André apresentou o trabalho até o fim.” O trecho indica que:",
-        options: [
-          "André não apresentou o trabalho.",
-          "O nervosismo impediu necessariamente a apresentação.",
-          "Apesar do nervosismo, André concluiu a apresentação.",
-          "André não estava nervoso."
-        ],
-        answer: 2
-      },
-      {
-        question: "Qual alternativa descreve corretamente uma inferência válida?",
-        options: [
-          "Uma conclusão baseada em pistas e informações fornecidas pelo texto.",
-          "Qualquer opinião pessoal do leitor.",
-          "Uma informação inventada para completar o texto.",
-          "Uma conclusão que obrigatoriamente precisa aparecer escrita palavra por palavra."
-        ],
-        answer: 0
-      },
-      {
-        question: "Texto: “Alguns alunos utilizam resumos durante a revisão.” Qual alternativa apresenta generalização indevida?",
-        options: [
-          "Há alunos que utilizam resumos.",
-          "O texto menciona o uso de resumos por parte dos alunos.",
-          "Todos os alunos utilizam resumos durante a revisão.",
-          "A afirmação se refere a alguns alunos."
-        ],
-        answer: 2
-      },
-      {
-        question: "No texto de treinamento sobre tecnologia, qual é a ideia principal?",
-        options: [
-          "A tecnologia deve ser abandonada pelos estudantes.",
-          "Ter acesso à informação é suficiente para dominar qualquer conteúdo.",
-          "A tecnologia facilita o acesso à informação, mas aprender exige atuação ativa do estudante.",
-          "Conhecimentos anteriores não possuem utilidade no aprendizado."
-        ],
-        answer: 2
-      },
-      {
-        question: "No mesmo texto, a palavra “Entretanto” introduz principalmente uma ideia de:",
-        options: [
-          "Contraste.",
-          "Conclusão.",
-          "Enumeração.",
-          "Finalidade."
-        ],
-        answer: 0
-      },
-      {
-        question: "Qual é a melhor estratégia para verificar uma inferência em uma questão?",
-        options: [
-          "Perguntar se a conclusão combina com sua opinião pessoal.",
-          "Procurar quais evidências do texto sustentam a conclusão.",
-          "Escolher a alternativa com maior número de palavras.",
-          "Preferir sempre alternativas que utilizem “todos” e “sempre”."
-        ],
-        answer: 1
-      }
-    ]
-  }
+1:{title:'Interpretação e estudo de texto',subtitle:'Português • Aula 01 • Edital 1.4',time:'35 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.4 ESTUDO DE TEXTO</div>
+<h3>O que a prova quer de você</h3><p>Interpretar é responder com base no que o texto permite concluir. Em questões com comandos como <b>“segundo o texto”</b>, sua opinião pessoal não é a referência: a resposta precisa estar sustentada pelo texto.</p>
+<h3>Informação explícita x implícita</h3><p><b>Explícita</b> é a informação escrita diretamente. <b>Implícita</b> é uma conclusão autorizada por pistas do texto. Inferir não é inventar: é ligar pistas.</p>
+<div class="lesson-example"><b>Exemplo:</b> “Rafael fechou as janelas e, minutos depois, ouviu trovões.” É razoável inferir que havia sinais de chuva; não é possível afirmar que Rafael tem medo de trovões.</div>
+<h3>Tema, assunto e finalidade</h3><p>O <b>assunto</b> é o campo geral; o <b>tema</b> é o recorte tratado; a <b>finalidade</b> é o que o autor pretende fazer: informar, convencer, orientar, criticar, narrar etc.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: volte ao trecho e procure a prova textual da alternativa.</div>
+<div class="video-lesson"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Português para PMMG — visão geral</h3><p>Aula direcionada ao concurso PMMG.</p><iframe src="https://www.youtube.com/embed/wO8eyBE9lIo" title="Português PMMG" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'Em uma questão que pergunta “Segundo o texto...”, qual deve ser a principal referência?',options:['A experiência pessoal do candidato.','As informações apresentadas pelo texto.','A alternativa mais longa.','Aquilo que normalmente ocorre na vida real.'],answer:1,explanation:'O comando limita a resposta ao conteúdo textual.',tip:'Procure evidência no próprio texto.'},
+{question:'Informação implícita é aquela que:',options:['Aparece obrigatoriamente no título.','Não tem relação com o texto.','Pode ser concluída a partir de pistas do texto.','É copiada literalmente.'],answer:2,explanation:'A inferência nasce de pistas presentes no texto.',tip:'Implícito = não escrito diretamente, mas sustentado.'},
+{question:'Se um texto apresenta benefícios da atividade física e riscos do sedentarismo, um tema adequado é:',options:['Atividade física e saúde.','História das Olimpíadas.','Construção de academias.','Vegetarianismo.'],answer:0,explanation:'O tema resume o núcleo comum das ideias desenvolvidas.',tip:'Escolha a alternativa que abrange o texto sem fugir dele.'},
+{question:'A finalidade de um texto instrucional costuma ser:',options:['Narrar uma aventura.','Orientar como realizar algo.','Criar suspense.','Descrever apenas sentimentos.'],answer:1,explanation:'Textos instrucionais orientam procedimentos.',tip:'Pergunte: o autor quer que o leitor faça o quê?'},
+{question:'Uma inferência válida deve:',options:['Ser baseada apenas na opinião do leitor.','Contradizer o texto.','Ser sustentada por elementos do texto.','Adicionar fatos sem pistas.'],answer:2,explanation:'Inferências precisam ser autorizadas pelo texto.',tip:'Sem pista textual, é suposição.'},
+{question:'O assunto de um texto é:',options:['O campo geral de que ele trata.','Sempre a primeira frase.','A opinião do leitor.','Somente o título.'],answer:0,explanation:'Assunto é a área geral; tema é um recorte mais específico.',tip:'Pense no “sobre o que” em sentido amplo.'}
+]},
+2:{title:'Ideia principal, inferência e argumentação',subtitle:'Português • Aula 02 • Edital 1.2 e 1.4',time:'40 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.2 ARGUMENTOS + 1.4 ESTUDO DE TEXTO</div>
+<h3>Ideia principal</h3><p>A ideia principal é a mensagem central que organiza as demais informações. Detalhes, exemplos e dados servem para desenvolver ou sustentar essa ideia.</p>
+<h3>Tese e argumento</h3><p>Em texto argumentativo, a <b>tese</b> é o ponto de vista defendido. <b>Argumentos</b> são razões, dados, exemplos ou relações lógicas usados para sustentá-la.</p>
+<h3>Pertinência e relevância</h3><p>Um argumento é pertinente quando se relaciona diretamente à tese. É relevante quando contribui de modo importante para sustentá-la.</p>
+<div class="lesson-example"><b>Exemplo:</b> tese: “A leitura diária deve ser estimulada.” Um dado sobre ampliação de vocabulário é pertinente; a cor da capa de um livro, em regra, não é.</div>
+<div class="gold-rule">🎯 REGRA DE OURO: se retirar um detalhe e a mensagem central continuar intacta, provavelmente era informação secundária.</div>
+<div class="video-lesson"><span>🎥 VIDEOAULA PMMG</span><h3>Língua Portuguesa para PMMG</h3><p>Revisão direcionada aos conteúdos cobrados no concurso.</p><iframe src="https://www.youtube.com/embed/wO8eyBE9lIo" title="Português PMMG" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'Em um texto argumentativo, tese é:',options:['Um exemplo sem relação com o tema.','O ponto de vista central defendido.','Qualquer palavra repetida.','A assinatura do autor.'],answer:1,explanation:'A tese é a posição central que os argumentos procuram sustentar.',tip:'Procure o que o autor quer que o leitor aceite.'},
+{question:'Um argumento pertinente é aquele que:',options:['Tem relação direta com a tese.','É sempre longo.','Usa palavras difíceis.','Aparece no último parágrafo.'],answer:0,explanation:'Pertinência significa adequação ao ponto discutido.',tip:'Pergunte se o argumento ajuda a defender a tese.'},
+{question:'A ideia principal de um parágrafo corresponde:',options:['Ao detalhe menos importante.','À mensagem central desenvolvida.','Somente à primeira palavra.','A uma informação externa.'],answer:1,explanation:'Ela sintetiza o núcleo informacional do parágrafo.',tip:'Resuma o parágrafo em uma frase.'},
+{question:'Dados estatísticos podem funcionar como:',options:['Argumentos de sustentação.','Pontuação.','Título obrigatório.','Erro de coerência.'],answer:0,explanation:'Dados podem servir de evidência para uma tese.',tip:'Evidência fortalece argumento.'},
+{question:'Inferir significa:',options:['Copiar literalmente.','Concluir a partir de pistas.','Ignorar o texto.','Trocar o tema.'],answer:1,explanation:'Inferência é conclusão sustentada por indícios.',tip:'Pista + raciocínio = inferência.'},
+{question:'Qual elemento costuma ser secundário?',options:['A tese do texto.','Um exemplo usado para ilustrar a tese.','A ideia central.','A conclusão principal.'],answer:1,explanation:'Exemplos normalmente desenvolvem uma ideia maior.',tip:'Diferencie núcleo de apoio.'}
+]},
+3:{title:'Seleção vocabular e sentido das palavras',subtitle:'Português • Aula 03 • Edital 1.3 e 1.25',time:'35 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.3 SELEÇÃO VOCABULAR + 1.25 SEMÂNTICA</div>
+<h3>Palavra certa no contexto</h3><p>Seleção vocabular é a escolha de palavras adequadas ao sentido, ao nível de formalidade e à intenção comunicativa. A banca pode trocar uma palavra e perguntar se o sentido foi mantido.</p>
+<h3>Denotação e conotação</h3><p><b>Denotação</b>: sentido literal. <b>Conotação</b>: sentido figurado. Em “o policial manteve a cabeça fria”, não se fala de temperatura, mas de autocontrole.</p>
+<h3>Sinônimos e contexto</h3><p>Palavras próximas nem sempre são intercambiáveis em qualquer frase. O contexto decide.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: nunca avalie uma palavra isoladamente quando a questão pede sentido no texto.</div>
+<div class="video-lesson"><span>🎥 VIDEOAULA DE APOIO</span><h3>Português PMMG — conteúdos recorrentes</h3><iframe src="https://www.youtube.com/embed/wO8eyBE9lIo" title="Português PMMG" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'Em “ele manteve a cabeça fria durante a ocorrência”, a expressão está em sentido:',options:['Literal.','Conotativo.','Técnico matemático.','Sem sentido.'],answer:1,explanation:'“Cabeça fria” indica calma/autocontrole.',tip:'Conotação = sentido figurado.'},
+{question:'A escolha vocabular adequada deve considerar:',options:['Apenas o tamanho da palavra.','Contexto e intenção comunicativa.','Somente a letra inicial.','A preferência pessoal do leitor.'],answer:1,explanation:'Vocabulário precisa se ajustar ao contexto e objetivo.',tip:'Contexto governa sentido.'},
+{question:'Denotação corresponde ao sentido:',options:['Figurado.','Literal.','Irônico obrigatoriamente.','Ambíguo obrigatoriamente.'],answer:1,explanation:'Denotação é o sentido básico/literal.',tip:'Dicionário lembra denotação.'},
+{question:'Sinônimos:',options:['São sempre substituíveis sem alterar nada.','Podem variar de adequação conforme o contexto.','Nunca têm sentidos próximos.','São apenas verbos.'],answer:1,explanation:'A equivalência depende do uso concreto.',tip:'Teste a troca na frase.'},
+{question:'Uma palavra com mais de um sentido apresenta:',options:['Polissemia.','Pontuação.','Concordância.','Acentuação.'],answer:0,explanation:'Polissemia é multiplicidade de sentidos relacionados.',tip:'Poli = muitos.'},
+{question:'Em prova, para determinar o sentido de uma palavra, é mais seguro:',options:['Ignorar a frase.','Ler o contexto em que aparece.','Escolher o significado mais raro.','Usar apenas a memória do dicionário.'],answer:1,explanation:'O contexto seleciona o sentido efetivo.',tip:'Leia antes e depois da palavra.'}
+]},
+4:{title:'Tipologia e gêneros textuais',subtitle:'Português • Aula 04 • Edital 1.5',time:'40 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.5 TIPOLOGIA TEXTUAL E GÊNEROS TEXTUAIS</div>
+<h3>Tipo textual x gênero</h3><p><b>Tipo textual</b> é uma estrutura predominante: narração, descrição, exposição, argumentação e injunção. <b>Gênero textual</b> é uma forma concreta de comunicação: notícia, edital, receita, artigo de opinião, e-mail, relatório etc.</p>
+<h3>Como reconhecer</h3><p>Narração apresenta acontecimentos; descrição caracteriza; exposição explica; argumentação defende ponto de vista; injunção orienta ações.</p>
+<div class="lesson-example"><b>Exemplo:</b> uma receita é gênero textual e apresenta forte sequência injuntiva, pois orienta ações.</div>
+<div class="gold-rule">🎯 REGRA DE OURO: gênero é “o texto que circula”; tipo é “a estrutura linguística que predomina”.</div>`,quiz:[
+{question:'Notícia, receita e artigo de opinião são exemplos de:',options:['Gêneros textuais.','Classes gramaticais.','Fonemas.','Orações subordinadas.'],answer:0,explanation:'São formas concretas de textos em situações sociais.',tip:'Gênero = formato social do texto.'},
+{question:'O tipo textual que orienta procedimentos é:',options:['Descritivo.','Injuntivo.','Narrativo.','Lírico.'],answer:1,explanation:'Injunção orienta, ordena ou instrui.',tip:'Manual e receita lembram injunção.'},
+{question:'Uma sequência que apresenta fatos em ordem temporal tende a ser:',options:['Narrativa.','Descritiva.','Injuntiva.','Apenas expositiva.'],answer:0,explanation:'Narração organiza acontecimentos.',tip:'Ação + tempo = pista de narração.'},
+{question:'Um texto que defende uma tese é predominantemente:',options:['Argumentativo.','Descritivo.','Injuntivo.','Enumerativo sem função.'],answer:0,explanation:'Argumentação busca sustentar um ponto de vista.',tip:'Tese + argumentos.'},
+{question:'Descrição tem como foco principal:',options:['Caracterizar seres, objetos, lugares ou situações.','Dar ordens.','Defender sempre uma tese.','Apresentar apenas diálogos.'],answer:0,explanation:'A descrição constrói características.',tip:'Pergunte “como é?”.'},
+{question:'Um mesmo gênero textual:',options:['Pode combinar diferentes tipos textuais.','Só pode ter um tipo textual.','Não possui finalidade.','Nunca muda conforme contexto.'],answer:0,explanation:'Gêneros frequentemente misturam sequências tipológicas.',tip:'Predominância não significa exclusividade.'}
+]},
+5:{title:'Ortografia oficial',subtitle:'Português • Aula 05 • Edital 1.6',time:'40 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.6 ORTOGRAFIA OFICIAL</div>
+<h3>Onde a banca costuma apertar</h3><p>Ortografia envolve grafia correta, emprego de letras, hífen e pares que geram dúvida. Para concurso, vale estudar o padrão oficial e revisar erros recorrentes.</p>
+<h3>Por que / porque / por quê / porquê</h3><p><b>por que</b> em perguntas ou equivalente a “pelo qual”; <b>porque</b> em explicações/respostas; <b>por quê</b> no fim de enunciado; <b>porquê</b> como substantivo.</p>
+<h3>Há x a</h3><p><b>Há</b> indica tempo passado ou existência. <b>A</b> pode indicar tempo futuro ou distância.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: transforme a regra em contraste e treine em frases, não em listas soltas.</div>`,quiz:[
+{question:'Assinale a forma adequada: “Não sei ___ ele faltou.”',options:['porque','por que','porquê','por quê'],answer:1,explanation:'Em pergunta indireta, usa-se “por que”.',tip:'Equivale a “por qual motivo”.'},
+{question:'Assinale: “Ele faltou ___ estava doente.”',options:['por que','porque','por quê','porquê'],answer:1,explanation:'“Porque” introduz explicação/causa.',tip:'Resposta → porque.'},
+{question:'Assinale: “Você saiu mais cedo ___?”',options:['porque','porquê','por que','por quê'],answer:3,explanation:'No fim da pergunta, usa-se “por quê”.',tip:'Antes da pontuação, o quê recebe acento.'},
+{question:'Assinale: “Ninguém explicou o ___ da mudança.”',options:['por que','porque','porquê','por quê'],answer:2,explanation:'Com artigo “o”, funciona como substantivo.',tip:'O porquê = o motivo.'},
+{question:'Em “Cheguei aqui há duas horas”, “há” indica:',options:['Tempo passado.','Tempo futuro.','Distância futura.','Condição.'],answer:0,explanation:'O verbo haver marca tempo decorrido.',tip:'Há = faz, quando indica passado.'},
+{question:'Em “A prova será daqui a dois meses”, usa-se “a” porque indica:',options:['Tempo futuro.','Tempo passado.','Existência.','Causa.'],answer:0,explanation:'Para intervalo futuro, emprega-se “a”.',tip:'Daqui a...' }
+]},
+6:{title:'Acentuação gráfica',subtitle:'Português • Aula 06 • Edital 1.7',time:'45 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.7 ACENTUAÇÃO GRÁFICA</div>
+<h3>Comece pela sílaba tônica</h3><p><b>Oxítona</b>: última sílaba tônica. <b>Paroxítona</b>: penúltima. <b>Proparoxítona</b>: antepenúltima — e toda proparoxítona é acentuada.</p>
+<h3>Regras muito cobradas</h3><p>Oxítonas terminadas em <b>a(s), e(s), o(s), em, ens</b> são acentuadas. Paroxítonas seguem terminações específicas. Hiatos com <b>i/u</b> tônicos exigem atenção às condições da regra.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: classifique a tonicidade antes de decidir a regra.</div>
+<div class="video-lesson"><span>🔥 VIDEOAULA POPULAR • +1,3 MI VISUALIZAÇÕES NA BUSCA</span><h3>Acentuação gráfica — Português sem Enrolação</h3><p>Revisão ampla para concursos e vestibulares.</p><iframe src="https://www.youtube.com/embed/Ytw1SjnqEJ8" title="Acentuação gráfica" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'Toda palavra proparoxítona:',options:['É acentuada.','Nunca é acentuada.','Só é acentuada se terminar em a.','Só aparece no plural.'],answer:0,explanation:'Todas as proparoxítonas recebem acento gráfico.',tip:'É a regra mais direta.'},
+{question:'A palavra “café” é:',options:['Oxítona.','Paroxítona.','Proparoxítona.','Átona.'],answer:0,explanation:'A sílaba tônica é a última: fé.',tip:'Pronuncie e localize a força.'},
+{question:'A palavra “médico” é:',options:['Oxítona.','Paroxítona.','Proparoxítona.','Monossílaba.'],answer:2,explanation:'Mé-di-co: tonicidade na antepenúltima.',tip:'Toda proparoxítona é acentuada.'},
+{question:'A palavra “também” recebe acento por ser:',options:['Oxítona terminada em em.','Proparoxítona.','Paroxítona terminada em a.','Monossílaba átona.'],answer:0,explanation:'É oxítona terminada em “em”.',tip:'Observe a terminação.'},
+{question:'Para aplicar regras de acentuação, primeiro é útil identificar:',options:['A sílaba tônica.','O número de letras apenas.','O autor do texto.','A pontuação anterior.'],answer:0,explanation:'A posição da sílaba tônica orienta a classificação.',tip:'Tonicidade primeiro.'},
+{question:'Qual palavra é proparoxítona?',options:['Café.','Também.','Lâmpada.','Papel.'],answer:2,explanation:'Lâm-pa-da tem tonicidade na antepenúltima.',tip:'Conte as sílabas a partir do fim.'}
+]},
+7:{title:'Pontuação',subtitle:'Português • Aula 07 • Edital 1.8',time:'45 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.8 EMPREGO DOS SINAIS DE PONTUAÇÃO</div>
+<h3>Vírgula não é “pausa para respirar”</h3><p>A vírgula marca relações sintáticas. Entre usos frequentes: separar itens de enumeração, vocativo, aposto, adjuntos deslocados e certas orações.</p>
+<h3>Erro clássico</h3><p>Em regra, não se separa <b>sujeito do verbo</b> nem <b>verbo de seu complemento</b> apenas com uma vírgula.</p>
+<div class="lesson-example"><b>Exemplo:</b> “Os candidatos atentos resolveram a questão.” Não cabe vírgula entre “candidatos” e “resolveram”.</div>
+<h3>Dois-pontos e ponto e vírgula</h3><p>Dois-pontos podem introduzir explicação, enumeração ou fala. O ponto e vírgula pode separar estruturas coordenadas mais extensas.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: antes de pôr vírgula, identifique a função sintática dos termos.</div>`,quiz:[
+{question:'Em regra, a vírgula NÃO deve separar:',options:['Itens de uma enumeração.','Vocativo.','Sujeito e verbo.','Aposto explicativo.'],answer:2,explanation:'Sujeito e predicado mantêm ligação sintática direta.',tip:'Não corte a estrutura básica sujeito + verbo.'},
+{question:'Em “João, venha aqui”, a vírgula separa:',options:['Vocativo.','Sujeito do verbo.','Objeto direto.','Predicativo.'],answer:0,explanation:'“João” é chamamento, portanto vocativo.',tip:'Chamou alguém? Pense em vocativo.'},
+{question:'Os dois-pontos podem introduzir:',options:['Uma enumeração.','Somente uma pergunta.','Acentuação.','Concordância nominal.'],answer:0,explanation:'É um de seus usos frequentes.',tip:'Anúncio → explicação/lista.'},
+{question:'Em uma enumeração simples, os itens podem ser separados por:',options:['Vírgulas.','Acentos circunflexos.','Hífens obrigatoriamente.','Apóstrofos.'],answer:0,explanation:'A vírgula é comum na separação de itens coordenados.',tip:'Lista simples = vírgulas.'},
+{question:'A pontuação pode:',options:['Alterar relações de sentido.','Ser ignorada sem efeito.','Substituir toda concordância.','Eliminar a necessidade de contexto.'],answer:0,explanation:'Mudanças de pontuação podem alterar organização e sentido.',tip:'Pontuação também constrói sentido.'},
+{question:'A vírgula entre verbo e complemento, sem elemento intercalado, é em regra:',options:['Inadequada.','Obrigatória.','Sempre opcional.','Exigida em qualquer frase longa.'],answer:0,explanation:'Não se rompe a ligação verbo-complemento sem motivo sintático.',tip:'Evite vírgula só porque a frase ficou longa.'}
+]},
+8:{title:'Estrutura e formação de palavras',subtitle:'Português • Aula 08 • Edital 1.9',time:'45 min',content:`
+<div class="edital-badge">📋 EDITAL PMMG • 1.9 ESTRUTURA E FORMAÇÃO DE PALAVRAS</div>
+<h3>Elementos mórficos</h3><p><b>Radical</b> concentra o núcleo de sentido; afixos podem ser prefixos ou sufixos. Desinências marcam flexões; vogal temática participa da estrutura de certas palavras.</p>
+<h3>Derivação</h3><p>Há derivação prefixal, sufixal, prefixal e sufixal, parassintética, regressiva e imprópria. A prova costuma exigir reconhecimento do processo.</p>
+<h3>Composição</h3><p>Na composição por <b>justaposição</b>, os elementos mantêm sua forma perceptível; na <b>aglutinação</b>, ocorre alteração fonética/gráfica na união.</p>
+<div class="gold-rule">🎯 REGRA DE OURO: compare a palavra formada com sua base e observe o que foi acrescentado ou alterado.</div>
+<div class="video-lesson"><span>🎥 VIDEOAULA PMMG</span><h3>Morfologia — PMMG 2025</h3><p>Aula específica para o concurso da PMMG.</p><iframe src="https://www.youtube.com/embed/7csC8xrdGks" title="Morfologia PMMG" allowfullscreen loading="lazy"></iframe></div>`,quiz:[
+{question:'O elemento que concentra o núcleo de sentido da palavra é o:',options:['Radical.','Ponto final.','Artigo.','Acento.'],answer:0,explanation:'O radical é a base lexical comum a palavras da mesma família.',tip:'Pedra, pedreiro, pedregulho → pedr-.'},
+{question:'Em “infeliz”, “in-” funciona como:',options:['Prefixo.','Sufixo.','Desinência verbal.','Artigo.'],answer:0,explanation:'O elemento é acrescentado antes da base “feliz”.',tip:'Antes = prefixo.'},
+{question:'Em “felizmente”, “-mente” é:',options:['Prefixo.','Sufixo.','Radical.','Preposição.'],answer:1,explanation:'É elemento acrescentado depois da base.',tip:'Depois = sufixo.'},
+{question:'A união de dois radicais para formar uma palavra caracteriza:',options:['Composição.','Pontuação.','Concordância.','Acentuação.'],answer:0,explanation:'Composição combina bases/radicais.',tip:'Duas bases → composição.'},
+{question:'Na justaposição:',options:['Os elementos permanecem reconhecíveis.','Sempre desaparecem os dois radicais.','Há obrigatoriamente acento grave.','Só existem verbos.'],answer:0,explanation:'A justaposição une elementos sem perda estrutural relevante.',tip:'Justa + posição: lado a lado.'},
+{question:'Derivação sufixal ocorre quando:',options:['Acrescenta-se elemento depois da base.','Retira-se toda a palavra.','Une-se apenas pontuação.','Acrescenta-se artigo antes do substantivo.'],answer:0,explanation:'Sufixo é afixo posposto à base.',tip:'Sufixo vem no fim.'}
+]}
 };
