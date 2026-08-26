@@ -878,3 +878,7 @@
 
 /* V6.3.9 — conteúdo oficial + videoaulas */
 .edital-badge{margin:0 0 16px;padding:10px 12px;border:1px solid rgba(216,187,112,.35);border-radius:12px;background:rgba(216,187,112,.08);color:#d8bb70;font-size:11px;font-weight:900;letter-spacing:.04em}.lesson-example,.gold-rule{margin:14px 0;padding:14px;border-radius:14px;background:rgba(255,255,255,.045);line-height:1.55}.gold-rule{border-left:3px solid #d8bb70}.video-lesson{margin:22px 0 8px;padding:14px;border:1px solid rgba(216,187,112,.25);border-radius:18px;background:#101a2c}.video-lesson>span{color:#d8bb70;font-size:9px;font-weight:900}.video-lesson h3{margin:6px 0}.video-lesson p{margin-bottom:12px}.video-lesson iframe{display:block;width:100%;aspect-ratio:16/9;height:auto;border:0;border-radius:14px;background:#000}
+
+/* V6.4.3 — destaque da prova final */
+.lesson-card[data-lesson="24"],.lesson-card-v611[data-lesson="24"]{border-color:rgba(216,187,112,.75);box-shadow:0 0 0 1px rgba(216,187,112,.12),0 12px 30px rgba(0,0,0,.18)}
+.lesson-card[data-lesson="24"] .lesson-number,.lesson-card-v611[data-lesson="24"] .lesson-number{color:#d8bb70;font-weight:900}
