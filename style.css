@@ -875,3 +875,6 @@
 .reset638-card small{display:block;margin-top:10px;text-align:center;color:var(--muted,#9aa6ba)}
 .reset638-btn{width:100%;padding:16px 18px;border-radius:16px;border:1px solid rgba(239,95,95,.5);background:rgba(145,40,40,.2);color:#ffd7d7;font-weight:800;font-size:1rem}
 .reset638-btn:active{transform:scale(.99)}
+
+/* V6.3.9 — conteúdo oficial + videoaulas */
+.edital-badge{margin:0 0 16px;padding:10px 12px;border:1px solid rgba(216,187,112,.35);border-radius:12px;background:rgba(216,187,112,.08);color:#d8bb70;font-size:11px;font-weight:900;letter-spacing:.04em}.lesson-example,.gold-rule{margin:14px 0;padding:14px;border-radius:14px;background:rgba(255,255,255,.045);line-height:1.55}.gold-rule{border-left:3px solid #d8bb70}.video-lesson{margin:22px 0 8px;padding:14px;border:1px solid rgba(216,187,112,.25);border-radius:18px;background:#101a2c}.video-lesson>span{color:#d8bb70;font-size:9px;font-weight:900}.video-lesson h3{margin:6px 0}.video-lesson p{margin-bottom:12px}.video-lesson iframe{display:block;width:100%;aspect-ratio:16/9;height:auto;border:0;border-radius:14px;background:#000}
