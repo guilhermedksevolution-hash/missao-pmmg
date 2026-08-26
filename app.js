@@ -88,11 +88,18 @@ function openPortuguese(){
 }
 function openLiterature(){
   currentSubject="Literatura";
-  if(!state.unlockedLessons.includes(101)) state.unlockedLessons.push(101);
-  syncUnlockedLessonsFromProgress(); saveState();
-  document.getElementById("subjectTrailKicker").textContent="LITERATURA";
-  document.getElementById("subjectTrailTitle").textContent="Campo Geral + Vidas Secas";
-  renderLessonList();updateDashboard();showScreen("lessonsScreen","navStudy");
+  if(!Array.isArray(state.unlockedLessons)) state.unlockedLessons=[1];
+  const litNums=getLessonNumbers("Literatura");
+  if(litNums.length && !state.unlockedLessons.includes(litNums[0])){
+    state.unlockedLessons.push(litNums[0]);
+    saveState();
+  }
+  const kicker=document.getElementById("subjectTrailKicker");
+  const title=document.getElementById("subjectTrailTitle");
+  if(kicker) kicker.textContent="LITERATURA";
+  if(title) title.textContent="Campo Geral + Vidas Secas";
+  renderLessonList();
+  showScreen("lessonsScreen","navStudy");
 }
 function openTips(){showScreen("tipsScreen");}
 function openPerformance(){renderPerformance();showScreen("performanceScreen");}
@@ -115,7 +122,7 @@ function getLessonNumbers(subject=currentSubject){
 function getAllLessonNumbers(){
   return typeof window.lessons==="undefined"?[]:Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
 }
-function isLessonUnlocked(n){return n===1||state.unlockedLessons.includes(n);}
+function isLessonUnlocked(n){const nums=getLessonNumbers(lessonSubject(n));return n===nums[0]||state.unlockedLessons.includes(n);}
 function isLessonCompleted(n){return state.completedLessons.includes(n);}
 
 function renderLessonList(){
@@ -3389,3 +3396,12 @@ function updateLiteratureProgressV644(){
 document.addEventListener("DOMContentLoaded",updateLiteratureProgressV644);
 const _saveStateV644=saveState;
 saveState=function(){_saveStateV644();setTimeout(updateLiteratureProgressV644,0);}
+
+/* V6.4.4.2 — acesso robusto à Literatura */
+document.addEventListener("DOMContentLoaded",()=>{
+  const card=document.getElementById("literatureSubjectCard");
+  if(card){
+    card.addEventListener("click",openLiterature);
+    card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openLiterature();}});
+  }
+});
