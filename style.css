@@ -886,3 +886,19 @@
 /* V6.4.4 — Literatura */
 .subject-list article:not(.locked-subject){cursor:pointer}
 #lessonList .lesson-card.completed .lesson-number{border:1px solid rgba(103,199,155,.35)}
+
+/* V6.4.4.3 — trilha dedicada de Literatura */
+.literature-v6443-summary{
+  display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 14px
+}
+.literature-v6443-summary>div{
+  padding:11px;border:1px solid var(--line);border-radius:12px;background:var(--card)
+}
+.literature-v6443-summary span{
+  display:block;font-size:6.5px;color:var(--muted);font-weight:900
+}
+.literature-v6443-summary strong{
+  display:block;margin-top:4px;font-size:17px;color:var(--gold)
+}
+#literatureSubjectCard{cursor:pointer;touch-action:manipulation}
+#literatureSubjectCard:active{transform:scale(.99)}
