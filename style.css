@@ -1281,63 +1281,6 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 .v72-history b{display:block;font-size:9px}.v72-history small{display:block;font-size:8px;color:var(--muted);margin-top:4px}.v72-history strong{font-size:20px;color:var(--gold)}
 @media(max-width:350px){.v72-subject-grid{grid-template-columns:1fr}.v72-priority-list article{grid-template-columns:28px 1fr}.v72-priority-list button{grid-column:2}}
 
-/* MISSÃO PMMG V7.2.2 — PADRONIZAÇÃO DO HISTÓRICO */
-#v72HistoryShortcut{
-  appearance:none !important;
-  -webkit-appearance:none !important;
-  width:100% !important;
-  height:100% !important;
-  min-height:0 !important;
-  padding:20px !important;
-  border:1px solid var(--line) !important;
-  border-radius:20px !important;
-  background:var(--card) !important;
-  color:var(--text) !important;
-  box-shadow:none !important;
-  text-align:left !important;
-  display:flex !important;
-  flex-direction:column !important;
-  justify-content:flex-start !important;
-  align-items:flex-start !important;
-  gap:8px !important;
-  font-family:inherit !important;
-  font-size:25px !important;
-}
-#v72HistoryShortcut strong{
-  display:block !important;
-  color:var(--text) !important;
-  font-size:17px !important;
-  line-height:1.25 !important;
-  font-weight:800 !important;
-  margin:0 !important;
-}
-#v72HistoryShortcut small{
-  display:block !important;
-  color:var(--muted) !important;
-  font-size:12px !important;
-  line-height:1.45 !important;
-  font-weight:400 !important;
-  margin:0 !important;
-}
-
-/* Faz a última linha herdar exatamente a altura padrão da grade Treinar. */
-#trainingHubV53 .tools > #v72HistoryShortcut,
-#trainingHubV53 .v53-grid > #v72HistoryShortcut,
-#trainHubV53 .tools > #v72HistoryShortcut,
-#trainHubV53 .v53-grid > #v72HistoryShortcut{
-  min-height:0 !important;
-  align-self:stretch !important;
-}
-
-/* Altura visual equivalente aos cards Treino rápido / Simulado / Revisão / Estratégias. */
-@media (min-width:331px){
-  #v72HistoryShortcut{
-    height:213px !important;
-  }
-}
-@media (max-width:390px){
-  #v72HistoryShortcut{
-    height:213px !important;
-    padding:20px !important;
-  }
-}
+/* V7.2.3 — Histórico usa o MESMO elemento dos cards (.v53-grid article) */
+#v72HistoryShortcut{cursor:pointer;touch-action:manipulation}
+#v72HistoryShortcut:active{transform:scale(.985)}
