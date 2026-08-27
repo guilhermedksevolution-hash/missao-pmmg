@@ -1,4 +1,4 @@
-/* Missão PMMG V6.5.1 — Matemática completa com videoaulas */
+/* Missão PMMG V7.0.0 — Matemática refinada */
 window.matematicaLessons={
   "1": {
     "title": "Números e operações fundamentais",
@@ -7,52 +7,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 01</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Números e operações fundamentais</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Domine operações com naturais, inteiros, racionais e reais. Use parênteses primeiro; depois potências/raízes, multiplicação/divisão e soma/subtração. Em problemas, traduza o texto para operações antes de calcular.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Operações com números naturais — expressões e quatro operações</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/qRceiJJ6t6c\" title=\"Operações com números naturais — expressões e quatro operações\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 01 (Números e operações fundamentais), qual é a estratégia mais segura?",
+        "question": "Quanto vale 18 - 3 × 4?",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "6",
+          "60",
+          "12",
+          "15"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "A multiplicação vem antes da subtração: 3×4=12; 18−12=6.",
+        "tip": "Respeite a ordem das operações."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de números e operações fundamentais é:",
+        "question": "Qual número pertence ao conjunto dos inteiros, mas não aos naturais?",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "-4",
+          "4",
+          "1/2",
+          "√2"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Números inteiros incluem negativos; naturais não.",
+        "tip": "Inteiros: ...,−2,−1,0,1,2,..."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Quanto vale (-7)+12?",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "5",
+          "-19",
+          "19",
+          "-5"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Somar 12 a −7 resulta em 5.",
+        "tip": "Na reta numérica, avance 12 casas."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Quanto vale 48 ÷ 6 + 2?",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "10",
+          "6",
+          "12",
+          "16"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "48÷6=8; 8+2=10.",
+        "tip": "Divisão antes da soma."
+      },
+      {
+        "question": "O valor de 2³ + 5 é:",
+        "options": [
+          "13",
+          "11",
+          "16",
+          "21"
+        ],
+        "answer": 0,
+        "explanation": "2³=8 e 8+5=13.",
+        "tip": "Potência antes da soma."
       }
     ]
   },
@@ -63,52 +75,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 02</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Frações — fundamentos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Fração representa partes de um todo ou razão entre quantidades. Simplifique dividindo numerador e denominador pelo mesmo fator. Para comparar, use denominadores comuns ou produto cruzado quando adequado.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>O que é uma fração? — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/NoBHpMF2MOE\" title=\"O que é uma fração? — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 02 (Frações — fundamentos), qual é a estratégia mais segura?",
+        "question": "A fração 6/8 simplificada é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "3/4",
+          "2/4",
+          "6/4",
+          "4/3"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Dividindo numerador e denominador por 2: 6/8=3/4.",
+        "tip": "Simplifique pelo MDC."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de frações — fundamentos é:",
+        "question": "Qual fração é equivalente a 2/3?",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "8/12",
+          "4/5",
+          "6/8",
+          "3/2"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Multiplicando 2/3 por 4/4 obtemos 8/12.",
+        "tip": "Multiplique numerador e denominador pelo mesmo número."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Entre 3/5 e 2/3, a maior é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "2/3",
+          "3/5",
+          "São iguais",
+          "Não é possível comparar"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "3×3=9 e 2×5=10; portanto 2/3 é maior.",
+        "tip": "Use produto cruzado."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "A fração que representa 25% é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "1/4",
+          "1/2",
+          "3/4",
+          "1/5"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "25%=25/100=1/4.",
+        "tip": "Converta percentual para fração."
+      },
+      {
+        "question": "7/7 é igual a:",
+        "options": [
+          "1",
+          "7",
+          "0",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Todo número não nulo dividido por ele mesmo é 1.",
+        "tip": "Numerador igual ao denominador."
       }
     ]
   },
@@ -119,52 +143,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 03</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Frações — operações e problemas</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Para somar ou subtrair frações, use denominador comum. Multiplique numeradores e denominadores na multiplicação. Na divisão, multiplique pela inversa da segunda fração. Sempre interprete o que a fração representa no enunciado.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Adição e subtração de frações</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/O7eLNYH5eQ0\" title=\"Adição e subtração de frações\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 03 (Frações — operações e problemas), qual é a estratégia mais segura?",
+        "question": "Quanto vale 1/2 + 1/3?",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "5/6",
+          "2/5",
+          "1/5",
+          "2/6"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "MMC(2,3)=6: 3/6+2/6=5/6.",
+        "tip": "Use denominador comum."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de frações — operações e problemas é:",
+        "question": "Quanto vale 3/4 - 1/8?",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "5/8",
+          "2/4",
+          "1/2",
+          "7/8"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "3/4=6/8; 6/8−1/8=5/8.",
+        "tip": "Converta para denominadores iguais."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "2/3 × 9/4 é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "3/2",
+          "18/7",
+          "2/12",
+          "6"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "18/12 simplifica para 3/2.",
+        "tip": "Multiplique e simplifique."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "(3/5) ÷ (9/10) é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "2/3",
+          "27/50",
+          "3/2",
+          "6/5"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "3/5×10/9=30/45=2/3.",
+        "tip": "Dividir por uma fração = multiplicar pela inversa."
+      },
+      {
+        "question": "Metade de 3/4 é:",
+        "options": [
+          "3/8",
+          "3/2",
+          "1/4",
+          "6/4"
+        ],
+        "answer": 0,
+        "explanation": "1/2×3/4=3/8.",
+        "tip": "'De' geralmente indica multiplicação."
       }
     ]
   },
@@ -175,52 +211,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 04</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Razão e proporção</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Razão compara duas grandezas. Proporção é igualdade entre duas razões. Se a/b=c/d, então ad=bc. Verifique unidades antes de montar a relação.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Razão e proporção — Parte I</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/4HBKywBYUx0\" title=\"Razão e proporção — Parte I\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 04 (Razão e proporção), qual é a estratégia mais segura?",
+        "question": "Se a razão entre homens e mulheres é 2:3 e há 10 homens, quantas mulheres há?",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "15",
+          "12",
+          "20",
+          "8"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "2/3=10/x ⇒ 2x=30 ⇒ x=15.",
+        "tip": "Monte a proporção mantendo a ordem."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de razão e proporção é:",
+        "question": "Na proporção 4/5 = x/20, x vale:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "16",
+          "25",
+          "10",
+          "8"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "5x=80 ⇒ x=16.",
+        "tip": "Produto dos meios = produto dos extremos."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "A razão 12:18 simplificada é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "2:3",
+          "3:2",
+          "6:9",
+          "4:5"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Dividindo ambos por 6: 2:3.",
+        "tip": "Simplifique os dois termos pelo mesmo divisor."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Se a:b=3:4 e b=20, então a=",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "15",
+          "16",
+          "12",
+          "24"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "3/4=a/20 ⇒ 4a=60 ⇒ a=15.",
+        "tip": "Conserve a correspondência da razão."
+      },
+      {
+        "question": "Uma escala 1:100 significa:",
+        "options": [
+          "1 unidade no desenho corresponde a 100 na realidade",
+          "100 no desenho corresponde a 1 real",
+          "A área é 100 vezes maior",
+          "Não há proporção"
+        ],
+        "answer": 0,
+        "explanation": "Escala é uma razão entre medida no desenho e medida real.",
+        "tip": "Leia 1:n como desenho:real."
       }
     ]
   },
@@ -231,52 +279,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 05</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regra de três simples</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Na proporção direta, as grandezas crescem ou diminuem juntas. Na inversa, uma cresce enquanto a outra diminui. Identifique a relação antes de montar a conta.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Regra de três simples</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/7gK3-QG363o\" title=\"Regra de três simples\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 05 (Regra de três simples), qual é a estratégia mais segura?",
+        "question": "4 cadernos custam R$ 28. Quanto custam 7 cadernos?",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "R$ 49",
+          "R$ 35",
+          "R$ 42",
+          "R$ 56"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Preço unitário=7; 7×7=49.",
+        "tip": "Grandezas diretamente proporcionais."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de regra de três simples é:",
+        "question": "Uma máquina produz 120 peças em 3 h. No mesmo ritmo, em 5 h produz:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "200",
+          "180",
+          "150",
+          "240"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "40 peças/hora; 40×5=200.",
+        "tip": "Encontre a taxa unitária."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Se 6 trabalhadores fazem um serviço em 10 dias, 12 trabalhadores, no mesmo ritmo, fazem em:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "5 dias",
+          "20 dias",
+          "12 dias",
+          "8 dias"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Trabalhadores e dias são inversamente proporcionais: 6×10=12×x.",
+        "tip": "Mais trabalhadores, menos dias."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "3 kg custam R$ 21. 8 kg custam:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "R$ 56",
+          "R$ 48",
+          "R$ 63",
+          "R$ 42"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "R$7/kg ×8 = R$56.",
+        "tip": "Use proporção direta."
+      },
+      {
+        "question": "Um carro percorre 180 km com 15 L. Mantendo o consumo, com 25 L percorre:",
+        "options": [
+          "300 km",
+          "270 km",
+          "250 km",
+          "360 km"
+        ],
+        "answer": 0,
+        "explanation": "12 km/L ×25 =300 km.",
+        "tip": "Calcule km por litro."
       }
     ]
   },
@@ -287,52 +347,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 06</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regra de três composta</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Organize as grandezas em tabela e compare cada uma com a incógnita. Inverta apenas as relações inversamente proporcionais. Simplifique antes de multiplicar para reduzir erros.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Regra de três composta</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/QXd6ubUNUuU\" title=\"Regra de três composta\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 06 (Regra de três composta), qual é a estratégia mais segura?",
+        "question": "8 operários, trabalhando 6 h/dia, fazem uma obra em 15 dias. Com 12 operários a 6 h/dia, o tempo será:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "10 dias",
+          "22,5 dias",
+          "15 dias",
+          "8 dias"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Mais operários reduzem dias: 8×15=12×x ⇒ x=10.",
+        "tip": "Identifique relações inversas."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de regra de três composta é:",
+        "question": "4 máquinas fazem 800 peças em 5 h. 10 máquinas, em 2 h, fazem:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "800",
+          "1000",
+          "400",
+          "2000"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Produção ∝ máquinas×tempo. 800×(10/4)×(2/5)=800.",
+        "tip": "Compare cada grandeza com a produção."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "6 pessoas consomem 18 L em 3 dias. 10 pessoas em 6 dias consomem:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "60 L",
+          "30 L",
+          "36 L",
+          "90 L"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "18×(10/6)×(6/3)=60.",
+        "tip": "Consumo é direto com pessoas e dias."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Quanto mais velocidade para a mesma distância, o tempo é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Menor",
+          "Maior",
+          "Igual",
+          "Nulo"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Velocidade e tempo são inversamente proporcionais para distância fixa.",
+        "tip": "Pergunte se as grandezas crescem juntas."
+      },
+      {
+        "question": "Na regra de três composta, antes de calcular deve-se:",
+        "options": [
+          "Classificar cada relação como direta ou inversa",
+          "Somar todas as grandezas",
+          "Ignorar unidades",
+          "Multiplicar tudo sem organizar"
+        ],
+        "answer": 0,
+        "explanation": "A classificação das relações é o passo essencial.",
+        "tip": "Monte uma tabela."
       }
     ]
   },
@@ -343,52 +415,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 07</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Porcentagem — fundamentos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>x% significa x/100. Para encontrar p% de V, calcule V·p/100. Aumento de p% multiplica por 1+p/100; desconto multiplica por 1-p/100.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Porcentagem — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/nUgAGtEBleM\" title=\"Porcentagem — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 07 (Porcentagem — fundamentos), qual é a estratégia mais segura?",
+        "question": "20% de 250 é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "50",
+          "25",
+          "75",
+          "100"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "0,20×250=50.",
+        "tip": "p% = p/100."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de porcentagem — fundamentos é:",
+        "question": "Um produto de R$ 80 com desconto de 15% custa:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "R$ 68",
+          "R$ 65",
+          "R$ 72",
+          "R$ 60"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Desconto=12; preço final=68.",
+        "tip": "Use fator 0,85."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "R$ 200 aumentados em 10% resultam em:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "R$ 220",
+          "R$ 210",
+          "R$ 240",
+          "R$ 180"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "200×1,10=220.",
+        "tip": "Aumento de 10% = fator 1,10."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "45 é quantos por cento de 180?",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "25%",
+          "20%",
+          "30%",
+          "40%"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "45/180=0,25=25%.",
+        "tip": "Parte ÷ total ×100."
+      },
+      {
+        "question": "125% de 40 é:",
+        "options": [
+          "50",
+          "45",
+          "55",
+          "32"
+        ],
+        "answer": 0,
+        "explanation": "1,25×40=50.",
+        "tip": "Percentuais podem ser maiores que 100%."
       }
     ]
   },
@@ -399,52 +483,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 08</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Porcentagem — variações sucessivas</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Percentuais sucessivos não devem ser simplesmente somados em geral. Um aumento de 10% seguido de desconto de 10% aplica fatores 1,10 e 0,90, resultando em 0,99 do valor inicial.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Porcentagem — aumento e desconto percentual</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/e-RF3sUzqLw\" title=\"Porcentagem — aumento e desconto percentual\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 08 (Porcentagem — variações sucessivas), qual é a estratégia mais segura?",
+        "question": "Um valor sobe 20% e depois cai 20%. Em relação ao inicial, fica:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "4% menor",
+          "Igual",
+          "4% maior",
+          "20% menor"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "1,20×0,80=0,96.",
+        "tip": "Percentuais sucessivos multiplicam fatores."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de porcentagem — variações sucessivas é:",
+        "question": "R$ 100 sofre aumentos sucessivos de 10% e 20%. Valor final:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "R$ 132",
+          "R$ 130",
+          "R$ 120",
+          "R$ 133"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "100×1,10×1,20=132.",
+        "tip": "Não some percentuais sucessivos automaticamente."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Um preço de R$ 500 recebe dois descontos de 10%. Final:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "R$ 405",
+          "R$ 400",
+          "R$ 450",
+          "R$ 410"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "500×0,9×0,9=405.",
+        "tip": "A segunda taxa incide sobre o novo valor."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Para voltar de 80 para 100, o aumento percentual é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "25%",
+          "20%",
+          "15%",
+          "30%"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "20/80=25%.",
+        "tip": "A base do percentual é o valor inicial da variação."
+      },
+      {
+        "question": "Fator equivalente a desconto de 35%:",
+        "options": [
+          "0,65",
+          "1,35",
+          "0,35",
+          "0,75"
+        ],
+        "answer": 0,
+        "explanation": "100%−35%=65%=0,65.",
+        "tip": "Desconto = 1−taxa."
       }
     ]
   },
@@ -455,52 +551,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 09</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Equação do 1º grau</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Uma equação mantém igualdade. Faça a mesma operação nos dois lados. Organize termos com incógnita de um lado e constantes do outro. Depois confira substituindo a solução.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Equação do 1º grau — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/HXqlCoeF-yY\" title=\"Equação do 1º grau — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 09 (Equação do 1º grau), qual é a estratégia mais segura?",
+        "question": "Resolva: 3x+5=20.",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "x=5",
+          "x=15",
+          "x=25/3",
+          "x=3"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "3x=15 ⇒ x=5.",
+        "tip": "Isole a incógnita."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de equação do 1º grau é:",
+        "question": "2(x−4)=10. x=",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "9",
+          "1",
+          "7",
+          "14"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "x−4=5 ⇒ x=9.",
+        "tip": "Divida primeiro por 2."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "5x−7=2x+8. x=",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "5",
+          "3",
+          "1",
+          "15"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "3x=15 ⇒ x=5.",
+        "tip": "Leve termos com x para um lado."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "x/4 + 3 = 8. x=",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "20",
+          "5",
+          "11",
+          "32"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "x/4=5 ⇒ x=20.",
+        "tip": "Desfaça as operações na ordem inversa."
+      },
+      {
+        "question": "A solução de 7x=0 é:",
+        "options": [
+          "0",
+          "7",
+          "1",
+          "Não existe"
+        ],
+        "answer": 0,
+        "explanation": "Dividindo por 7, x=0.",
+        "tip": "Zero é solução válida."
       }
     ]
   },
@@ -511,52 +619,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 10</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Problemas com equação do 1º grau</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Defina a incógnita claramente. Traduza expressões como dobro, metade, diferença e soma. Monte a equação antes de iniciar cálculos.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Equação do 1º grau — resolução de problemas</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/r9jwYjv85HM\" title=\"Equação do 1º grau — resolução de problemas\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 10 (Problemas com equação do 1º grau), qual é a estratégia mais segura?",
+        "question": "O dobro de um número mais 6 é 30. O número é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "12",
+          "18",
+          "15",
+          "10"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "2x+6=30 ⇒ 2x=24 ⇒ x=12.",
+        "tip": "Traduza 'dobro' por 2x."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de problemas com equação do 1º grau é:",
+        "question": "A soma de um número com 15 é 42. Número:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "27",
+          "57",
+          "17",
+          "28"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "x+15=42 ⇒ x=27.",
+        "tip": "Defina a incógnita."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Ana tem 8 anos a mais que Bia. Juntas têm 32. Bia tem:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "12",
+          "20",
+          "16",
+          "8"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "x+(x+8)=32 ⇒ 2x=24 ⇒ x=12.",
+        "tip": "Expresse uma idade em função da outra."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Um número diminuído de sua terça parte é 20. Número:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "30",
+          "24",
+          "60",
+          "15"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "x−x/3=20 ⇒ 2x/3=20 ⇒ x=30.",
+        "tip": "Use frações na equação."
+      },
+      {
+        "question": "O perímetro de um retângulo é 50 e o comprimento é 15. A largura é:",
+        "options": [
+          "10",
+          "20",
+          "25",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "2(15+x)=50 ⇒ 15+x=25 ⇒ x=10.",
+        "tip": "Traduza a fórmula do perímetro."
       }
     ]
   },
@@ -567,52 +687,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 11</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Equação do 2º grau</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Use Δ=b²-4ac. Se Δ>0 há duas raízes reais distintas; Δ=0, uma raiz real dupla; Δ<0, não há raízes reais. Fórmula: x=(-b±√Δ)/(2a).</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Equação/Função do 2º grau — conceitos e resolução</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/2zWE0O151Y8\" title=\"Equação/Função do 2º grau — conceitos e resolução\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 11 (Equação do 2º grau), qual é a estratégia mais segura?",
+        "question": "As raízes de x²−5x+6=0 são:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "2 e 3",
+          "1 e 6",
+          "-2 e -3",
+          "3 e 6"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "(x−2)(x−3)=0.",
+        "tip": "Procure dois números que somem 5 e multipliquem 6."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de equação do 2º grau é:",
+        "question": "Para x²−4=0, as raízes são:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "-2 e 2",
+          "0 e 4",
+          "2 apenas",
+          "-4 e 4"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "x²=4 ⇒ x=±2.",
+        "tip": "Lembre do ±."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Em x²+2x+5=0, o discriminante é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "-16",
+          "24",
+          "16",
+          "-24"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Δ=2²−4·1·5=4−20=−16.",
+        "tip": "Δ=b²−4ac."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Se Δ=0, uma equação do 2º grau tem:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Uma raiz real dupla",
+          "Duas raízes reais distintas",
+          "Nenhuma raiz complexa",
+          "Três raízes"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Δ=0 produz duas raízes coincidentes.",
+        "tip": "Classifique pelo discriminante."
+      },
+      {
+        "question": "O coeficiente a em 3x²−2x+7=0 é:",
+        "options": [
+          "3",
+          "-2",
+          "7",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "a é o coeficiente de x².",
+        "tip": "Identifique a forma ax²+bx+c."
       }
     ]
   },
@@ -623,52 +755,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 12</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sistemas de equações</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Sistemas representam condições simultâneas. Na substituição, isole uma incógnita e substitua. Na eliminação, combine equações para cancelar uma variável.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Sistema de equações do 1º grau com duas incógnitas</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/9g-iqUgMw64\" title=\"Sistema de equações do 1º grau com duas incógnitas\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 12 (Sistemas de equações), qual é a estratégia mais segura?",
+        "question": "No sistema x+y=10 e x−y=2, x vale:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "6",
+          "4",
+          "8",
+          "5"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Somando as equações: 2x=12 ⇒ x=6.",
+        "tip": "Eliminação pode ser mais rápida."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de sistemas de equações é:",
+        "question": "No mesmo sistema x+y=10 e x−y=2, y vale:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "4",
+          "6",
+          "2",
+          "8"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Com x=6, y=4.",
+        "tip": "Substitua a primeira solução."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Sistema x+y=7 e 2x+2y=14 possui:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "Infinitas soluções",
+          "Uma solução",
+          "Nenhuma solução",
+          "Duas soluções"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "A segunda equação é múltipla da primeira.",
+        "tip": "Equações equivalentes representam a mesma reta."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "x+y=5 e x+y=8 possui:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Nenhuma solução",
+          "Uma solução",
+          "Infinitas soluções",
+          "x=3"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "As mesmas variáveis não podem somar 5 e 8 simultaneamente.",
+        "tip": "Retas paralelas."
+      },
+      {
+        "question": "No método da substituição, primeiro costuma-se:",
+        "options": [
+          "Isolar uma incógnita",
+          "Multiplicar tudo por zero",
+          "Somar respostas",
+          "Eliminar as duas incógnitas"
+        ],
+        "answer": 0,
+        "explanation": "Depois, substitui-se na outra equação.",
+        "tip": "Escolha a equação mais simples."
       }
     ]
   },
@@ -679,52 +823,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 13</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Conjuntos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>A∪B reúne elementos de A ou B; A∩B reúne elementos comuns. Em contagem, n(A∪B)=n(A)+n(B)-n(A∩B).</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Conjuntos para concursos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/jtZ0F25ucLI\" title=\"Conjuntos para concursos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 13 (Conjuntos), qual é a estratégia mais segura?",
+        "question": "Se A={1,2,3} e B={3,4}, A∩B é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "{3}",
+          "{1,2,4}",
+          "{1,2,3,4}",
+          "∅"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Interseção contém elementos comuns.",
+        "tip": "∩ = 'e'."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de conjuntos é:",
+        "question": "A∪B para os mesmos conjuntos é:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "{1,2,3,4}",
+          "{3}",
+          "{1,2}",
+          "{4}"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "União reúne todos sem repetir.",
+        "tip": "∪ = 'ou'."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Se n(A)=20, n(B)=15 e n(A∩B)=5, n(A∪B)=",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "30",
+          "40",
+          "35",
+          "10"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "20+15−5=30.",
+        "tip": "Subtraia a interseção contada duas vezes."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "O conjunto vazio é representado por:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "∅",
+          "∞",
+          "∈",
+          "⊂"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "∅ indica conjunto sem elementos.",
+        "tip": "Não confunda ∅ com {0}."
+      },
+      {
+        "question": "Se x∈A, significa que:",
+        "options": [
+          "x pertence a A",
+          "x contém A",
+          "A é vazio",
+          "x é igual a A"
+        ],
+        "answer": 0,
+        "explanation": "∈ representa pertinência.",
+        "tip": "Elemento pertence; conjunto está contido."
       }
     ]
   },
@@ -735,52 +891,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 14</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Funções — fundamentos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Função associa cada elemento do domínio a um único valor de saída. Leia eixos, escalas, crescimento, zeros e valores específicos do gráfico.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Funções — definição e leitura inicial</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/SGdo3lfBOf0\" title=\"Funções — definição e leitura inicial\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 14 (Funções — fundamentos), qual é a estratégia mais segura?",
+        "question": "Se f(x)=2x+1, f(3)=",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "7",
+          "6",
+          "5",
+          "8"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "f(3)=2·3+1=7.",
+        "tip": "Substitua x pelo valor dado."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de funções — fundamentos é:",
+        "question": "Em uma função, cada elemento do domínio associa-se a:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "Um único valor de saída",
+          "Dois valores obrigatórios",
+          "Nenhum valor",
+          "Todos os valores"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Essa é a ideia fundamental de função.",
+        "tip": "Uma entrada → uma saída."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Os zeros de uma função são os valores de x onde:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "f(x)=0",
+          "x=0 sempre",
+          "f(x)=1",
+          "O gráfico não existe"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Zeros são interseções com o eixo x.",
+        "tip": "Procure onde y=0."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "O domínio de uma função é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "O conjunto de valores de entrada",
+          "Somente os zeros",
+          "O eixo y",
+          "A média dos valores"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Domínio = entradas permitidas.",
+        "tip": "Pense nos valores possíveis de x."
+      },
+      {
+        "question": "Num gráfico cartesiano, o eixo horizontal normalmente representa:",
+        "options": [
+          "x",
+          "y",
+          "f(x) sempre zero",
+          "A média"
+        ],
+        "answer": 0,
+        "explanation": "O eixo horizontal é o eixo das abscissas.",
+        "tip": "x horizontal, y vertical."
       }
     ]
   },
@@ -791,52 +959,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 15</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Função afim</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>O gráfico é uma reta. a é coeficiente angular e indica crescimento/decrescimento; b é intercepto no eixo y. O zero satisfaz ax+b=0.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Função afim — questão de concurso</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/9KQLlkPCSog\" title=\"Função afim — questão de concurso\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 15 (Função afim), qual é a estratégia mais segura?",
+        "question": "Em f(x)=3x−6, o zero da função é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "2",
+          "-2",
+          "6",
+          "3"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "3x−6=0 ⇒ x=2.",
+        "tip": "Iguale f(x) a zero."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de função afim é:",
+        "question": "Em f(x)=−2x+5, a função é:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "Decrescente",
+          "Crescente",
+          "Constante",
+          "Quadrática"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Coeficiente angular negativo indica decrescimento.",
+        "tip": "Observe o sinal de a."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Em f(x)=4x+7, o coeficiente linear é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "7",
+          "4",
+          "-7",
+          "0"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "b=7.",
+        "tip": "f(x)=ax+b."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Uma função afim tem gráfico em forma de:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Reta",
+          "Parábola",
+          "Circunferência",
+          "Hipérbole sempre"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "f(x)=ax+b é linear no plano.",
+        "tip": "Reta."
+      },
+      {
+        "question": "Se a=0 em f(x)=ax+b, a função é:",
+        "options": [
+          "Constante",
+          "Quadrática",
+          "Sem domínio",
+          "Sempre crescente"
+        ],
+        "answer": 0,
+        "explanation": "f(x)=b.",
+        "tip": "Coeficiente angular zero."
       }
     ]
   },
@@ -847,52 +1027,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 16</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Função quadrática</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>f(x)=ax²+bx+c gera parábola. O sinal de a determina concavidade. xv=-b/(2a) e yv=f(xv). Raízes são interseções com eixo x.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Função quadrática — conceitos iniciais</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/xpVl4yYmzSY\" title=\"Função quadrática — conceitos iniciais\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 16 (Função quadrática), qual é a estratégia mais segura?",
+        "question": "Em f(x)=x²−4x+3, o eixo de simetria é x=",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "2",
+          "4",
+          "-2",
+          "1"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "xv=−b/(2a)=4/2=2.",
+        "tip": "Use xv=−b/2a."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de função quadrática é:",
+        "question": "Se a>0 numa função quadrática, a parábola tem concavidade:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "Para cima",
+          "Para baixo",
+          "Horizontal",
+          "Indefinida"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Sinal positivo de a abre para cima.",
+        "tip": "Observe a."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "As raízes de x²−1 são:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "-1 e 1",
+          "0 e 1",
+          "1 apenas",
+          "-1 apenas"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "x²=1 ⇒ x=±1.",
+        "tip": "Diferença de quadrados."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "O vértice de uma parábola representa:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Ponto de máximo ou mínimo",
+          "Sempre uma raiz",
+          "O domínio",
+          "Somente o eixo y"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Conforme a concavidade, o vértice é máximo ou mínimo.",
+        "tip": "Vértice = extremo."
+      },
+      {
+        "question": "Se uma quadrática tem Δ<0, ela possui:",
+        "options": [
+          "Nenhuma raiz real",
+          "Duas raízes reais",
+          "Uma raiz real dupla",
+          "Três raízes"
+        ],
+        "answer": 0,
+        "explanation": "Discriminante negativo impede raízes reais.",
+        "tip": "Classifique pelo Δ."
       }
     ]
   },
@@ -903,52 +1095,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 17</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sequências e padrões</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Procure diferenças, razões, alternâncias ou regras por posição. Não escolha padrão apenas por poucos termos: confirme em todos os termos dados.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Sequências numéricas e reconhecimento de padrões</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/Ooml-aGpg14\" title=\"Sequências numéricas e reconhecimento de padrões\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 17 (Sequências e padrões), qual é a estratégia mais segura?",
+        "question": "Qual o próximo termo: 2,4,8,16,...?",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "32",
+          "20",
+          "24",
+          "18"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Cada termo é o dobro do anterior.",
+        "tip": "Procure a regra de formação."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de sequências e padrões é:",
+        "question": "Sequência 5,8,11,14,... possui diferença constante de:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "3",
+          "5",
+          "8",
+          "2"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "8−5=3, 11−8=3.",
+        "tip": "Calcule diferenças."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "1,1,2,3,5,8,... próximo termo:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "13",
+          "10",
+          "11",
+          "16"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Cada termo é soma dos dois anteriores.",
+        "tip": "Reconheça o padrão."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Na sequência 20,17,14,11,... o próximo é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "8",
+          "9",
+          "7",
+          "10"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Subtrai 3 a cada passo.",
+        "tip": "Confirme em todos os termos."
+      },
+      {
+        "question": "Um padrão numérico deve ser aceito quando:",
+        "options": [
+          "É consistente com todos os termos fornecidos",
+          "Funciona só nos dois primeiros",
+          "É o mais complicado",
+          "Sempre usa multiplicação"
+        ],
+        "answer": 0,
+        "explanation": "A regra precisa explicar a sequência observada.",
+        "tip": "Teste a regra."
       }
     ]
   },
@@ -959,52 +1163,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 18</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Progressão Aritmética (PA)</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Em PA, a diferença entre termos consecutivos é constante r. an=a1+(n-1)r. Soma: Sn=n(a1+an)/2.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Progressão Aritmética — PA</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/SKCDt0UHiYc\" title=\"Progressão Aritmética — PA\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 18 (Progressão Aritmética (PA)), qual é a estratégia mais segura?",
+        "question": "Na PA 3,7,11,... a razão é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "4",
+          "3",
+          "7",
+          "11"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "7−3=4.",
+        "tip": "r=a₂−a₁."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de progressão aritmética (pa) é:",
+        "question": "O 10º termo da PA 2,5,8,... é:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "29",
+          "30",
+          "27",
+          "32"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "a10=2+9·3=29.",
+        "tip": "an=a1+(n−1)r."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "A soma dos 5 primeiros termos de 2,4,6,8,10 é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "30",
+          "20",
+          "25",
+          "40"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "2+4+6+8+10=30.",
+        "tip": "Use Sn=n(a1+an)/2."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Uma PA com razão negativa é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Decrescente",
+          "Crescente sempre",
+          "Constante",
+          "Geométrica"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Cada termo diminui pelo valor de |r|.",
+        "tip": "Sinal de r."
+      },
+      {
+        "question": "Se a1=10 e r=0, a PA é:",
+        "options": [
+          "Constante",
+          "Crescente",
+          "Decrescente",
+          "Sem termos"
+        ],
+        "answer": 0,
+        "explanation": "Todos os termos são 10.",
+        "tip": "r=0."
       }
     ]
   },
@@ -1015,52 +1231,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 19</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Progressão Geométrica (PG)</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Em PG, cada termo é obtido multiplicando o anterior por q. an=a1·q^(n-1). Para q≠1, Sn=a1(q^n-1)/(q-1).</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Progressão Geométrica — PG</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/RIEkTcq2MeE\" title=\"Progressão Geométrica — PG\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 19 (Progressão Geométrica (PG)), qual é a estratégia mais segura?",
+        "question": "Na PG 2,6,18,... a razão é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "3",
+          "4",
+          "6",
+          "2"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "6/2=3.",
+        "tip": "q=a₂/a₁."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de progressão geométrica (pg) é:",
+        "question": "O 5º termo da PG 1,2,4,... é:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "16",
+          "8",
+          "32",
+          "10"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "a5=1·2⁴=16.",
+        "tip": "an=a1·q^(n−1)."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Na PG 81,27,9,... q=",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "1/3",
+          "3",
+          "-3",
+          "1/9"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "27/81=1/3.",
+        "tip": "Razão pode ser fracionária."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "A soma 1+2+4+8 é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "15",
+          "16",
+          "14",
+          "12"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Somando os quatro termos =15.",
+        "tip": "Confira também pela fórmula de soma."
+      },
+      {
+        "question": "Se q=1, uma PG é:",
+        "options": [
+          "Constante",
+          "Sempre decrescente",
+          "PA de razão 1",
+          "Sem definição"
+        ],
+        "answer": 0,
+        "explanation": "Cada termo é multiplicado por 1.",
+        "tip": "q=1 mantém o valor."
       }
     ]
   },
@@ -1071,52 +1299,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 20</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Leitura de tabelas e gráficos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Leia título, unidade, legenda, escala e período antes de calcular. Questões podem pedir comparação absoluta, relativa ou tendência.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Organizando dados em tabelas e gráficos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/Ld3i9Wcqaew\" title=\"Organizando dados em tabelas e gráficos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 20 (Leitura de tabelas e gráficos), qual é a estratégia mais segura?",
+        "question": "Antes de interpretar um gráfico, deve-se observar primeiro:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "Título, eixos, legenda e escala",
+          "A cor favorita",
+          "A maior barra apenas",
+          "Somente a última informação"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Esses elementos definem o significado dos dados.",
+        "tip": "Leia o gráfico antes de calcular."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de leitura de tabelas e gráficos é:",
+        "question": "Uma barra de altura 40 comparada a outra de 20 representa:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "O dobro",
+          "A metade",
+          "20% a mais",
+          "Quatro vezes"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "40/20=2.",
+        "tip": "Compare proporcionalmente."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Num gráfico de linhas, uma subida entre dois pontos indica:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "Aumento da variável representada",
+          "Queda obrigatória",
+          "Valor nulo",
+          "Erro de escala sempre"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "A linha ascendente indica crescimento entre os pontos.",
+        "tip": "Leia a tendência."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Se uma tabela traz valores em milhares, o número 25 representa:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "25.000",
+          "2.500",
+          "250",
+          "25"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "A unidade 'milhares' multiplica por 1000.",
+        "tip": "Leia a unidade."
+      },
+      {
+        "question": "Um gráfico pode induzir interpretação errada quando:",
+        "options": [
+          "A escala do eixo é truncada ou inadequada",
+          "Tem título",
+          "Possui legenda",
+          "Usa números"
+        ],
+        "answer": 0,
+        "explanation": "Escalas podem exagerar visualmente diferenças.",
+        "tip": "Cheque a origem e intervalos dos eixos."
       }
     ]
   },
@@ -1127,52 +1367,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 21</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Escalas e conversões</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Escala 1:n significa 1 unidade no desenho para n unidades reais. Converta tudo para a mesma unidade antes de aplicar a razão.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Escalas — razão entre desenho e realidade</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/MlpfXdvG_04\" title=\"Escalas — razão entre desenho e realidade\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 21 (Escalas e conversões), qual é a estratégia mais segura?",
+        "question": "Em escala 1:50.000, 2 cm no mapa representam:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "1 km",
+          "100 m",
+          "10 km",
+          "500 m"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "2×50.000=100.000 cm=1 km.",
+        "tip": "Converta unidades no final."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de escalas e conversões é:",
+        "question": "1,5 m equivalem a:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "150 cm",
+          "15 cm",
+          "1500 cm",
+          "0,15 cm"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
-      },
-      {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
-        "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
-        ],
-        "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
+        "explanation": "1 m=100 cm.",
         "tip": "Padronize as unidades."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "3 km equivalem a:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "3000 m",
+          "300 m",
+          "30.000 m",
+          "3 m"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "1 km=1000 m.",
+        "tip": "Use fatores de conversão."
+      },
+      {
+        "question": "Na escala 1:100, 5 cm representam na realidade:",
+        "options": [
+          "5 m",
+          "50 m",
+          "0,5 m",
+          "500 m"
+        ],
+        "answer": 0,
+        "explanation": "5×100=500 cm=5 m.",
+        "tip": "Mesma unidade primeiro."
+      },
+      {
+        "question": "Uma planta em escala 1:20 é:",
+        "options": [
+          "Uma redução",
+          "Uma ampliação de 20 vezes",
+          "Sem escala",
+          "Uma área"
+        ],
+        "answer": 0,
+        "explanation": "1 unidade no desenho representa 20 reais.",
+        "tip": "n>1 indica redução."
       }
     ]
   },
@@ -1183,52 +1435,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 22</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estatística — média, mediana e moda</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Média é soma dividida pela quantidade. Mediana é o valor central após ordenar. Moda é o valor mais frequente. Em quantidade par, mediana é média dos dois centrais.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Média, mediana e desvio padrão</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/5-TERv1ky_c\" title=\"Média, mediana e desvio padrão\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 22 (Estatística — média, mediana e moda), qual é a estratégia mais segura?",
+        "question": "A média de 4,6,8 é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "6",
+          "18",
+          "5",
+          "7"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "(4+6+8)/3=6.",
+        "tip": "Some e divida pela quantidade."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de estatística — média, mediana e moda é:",
+        "question": "A mediana de 2,9,5 é:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "5",
+          "9",
+          "2",
+          "16/3"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Ordenando: 2,5,9; valor central=5.",
+        "tip": "Ordene os dados."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "A moda de 1,2,2,3,4 é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "2",
+          "1",
+          "3",
+          "4"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "2 aparece mais vezes.",
+        "tip": "Moda = mais frequente."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "A mediana de 1,3,7,9 é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "5",
+          "4",
+          "7",
+          "3"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "(3+7)/2=5.",
+        "tip": "Quantidade par: média dos dois centrais."
+      },
+      {
+        "question": "Conjunto 5,5,5,5 possui média:",
+        "options": [
+          "5",
+          "20",
+          "1",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "20/4=5.",
+        "tip": "Média de valores iguais é o próprio valor."
       }
     ]
   },
@@ -1239,52 +1503,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 23</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estatística — amplitude e interpretação</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Amplitude é maior valor menos menor valor. Compare conjuntos não apenas pela média: distribuição e dispersão também importam.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Estatística — média e amplitude de dados</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/iZ0obVo5LRc\" title=\"Estatística — média e amplitude de dados\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 23 (Estatística — amplitude e interpretação), qual é a estratégia mais segura?",
+        "question": "A amplitude do conjunto 3,8,10,15 é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "12",
+          "15",
+          "3",
+          "9"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "15−3=12.",
+        "tip": "Máximo menos mínimo."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de estatística — amplitude e interpretação é:",
+        "question": "Dois conjuntos podem ter a mesma média e:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "Amplitudes diferentes",
+          "Obrigatoriamente os mesmos valores",
+          "A mesma moda sempre",
+          "A mesma quantidade sempre"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "A média não determina a dispersão.",
+        "tip": "Compare além da média."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "No conjunto 2,4,6,8, a amplitude é:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "6",
+          "8",
+          "4",
+          "2"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "8−2=6.",
+        "tip": "Maior − menor."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Uma amplitude maior sugere, de forma simples:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Maior espalhamento entre extremos",
+          "Média maior obrigatoriamente",
+          "Moda maior",
+          "Mais elementos"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Amplitude mede distância entre extremo máximo e mínimo.",
+        "tip": "Não confunda dispersão com média."
+      },
+      {
+        "question": "Se todos os valores aumentam 10 unidades, a amplitude:",
+        "options": [
+          "Permanece igual",
+          "Aumenta 10",
+          "Dobra",
+          "Zera"
+        ],
+        "answer": 0,
+        "explanation": "(máx+10)−(mín+10)=máx−mín.",
+        "tip": "Translação não altera amplitude."
       }
     ]
   },
@@ -1295,52 +1571,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 24</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Geometria plana — perímetros</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Perímetro é a soma dos lados. Em figuras compostas, conte apenas o contorno externo. Padronize unidades.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Perímetro e área — problema de concurso</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/2gKjoUwEDM8\" title=\"Perímetro e área — problema de concurso\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 24 (Geometria plana — perímetros), qual é a estratégia mais segura?",
+        "question": "Perímetro de um quadrado de lado 7 cm:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "28 cm",
+          "49 cm²",
+          "14 cm",
+          "21 cm"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "4×7=28.",
+        "tip": "Perímetro é contorno."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de geometria plana — perímetros é:",
+        "question": "Perímetro de retângulo 8 cm por 5 cm:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "26 cm",
+          "40 cm²",
+          "13 cm",
+          "16 cm"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "2(8+5)=26.",
+        "tip": "Some todos os lados."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Triângulo com lados 3,4,5 tem perímetro:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "12",
+          "6",
+          "20",
+          "10"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "3+4+5=12.",
+        "tip": "Perímetro = soma dos lados."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Uma circunferência de raio r tem comprimento:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "2πr",
+          "πr²",
+          "r²",
+          "4r"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Comprimento da circunferência é 2πr.",
+        "tip": "Não confunda comprimento com área."
+      },
+      {
+        "question": "Ao calcular perímetro de figura composta, devemos contar:",
+        "options": [
+          "Somente o contorno externo",
+          "Todas as linhas internas e externas",
+          "A área",
+          "Somente dois lados"
+        ],
+        "answer": 0,
+        "explanation": "Perímetro é a borda da figura.",
+        "tip": "Desconsidere divisões internas."
       }
     ]
   },
@@ -1351,52 +1639,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 25</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Geometria plana — áreas</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Retângulo: A=bh; triângulo: A=bh/2; trapézio: A=(B+b)h/2; círculo: A=πr². Desenhe e identifique medidas.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Geometria plana — áreas</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/IS7_Uiep7H0\" title=\"Geometria plana — áreas\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 25 (Geometria plana — áreas), qual é a estratégia mais segura?",
+        "question": "Área de retângulo 8×5:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "40",
+          "26",
+          "13",
+          "80"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "A=base×altura=40.",
+        "tip": "Área usa unidades quadradas."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de geometria plana — áreas é:",
+        "question": "Área de triângulo base 10 e altura 6:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "30",
+          "60",
+          "16",
+          "20"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "A=10×6/2=30.",
+        "tip": "Divida por 2."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Área de quadrado lado 9:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "81",
+          "36",
+          "18",
+          "90"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "A=9²=81.",
+        "tip": "Quadrado: lado²."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Área de círculo de raio 3:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "9π",
+          "6π",
+          "3π",
+          "18π"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "A=πr²=9π.",
+        "tip": "Raio ao quadrado."
+      },
+      {
+        "question": "Área de trapézio B=10, b=6, h=4:",
+        "options": [
+          "32",
+          "64",
+          "40",
+          "24"
+        ],
+        "answer": 0,
+        "explanation": "(10+6)×4/2=32.",
+        "tip": "A=(B+b)h/2."
       }
     ]
   },
@@ -1407,52 +1707,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 26</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Geometria espacial — volumes</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Volume de prisma é área da base vezes altura. Cubo: a³; paralelepípedo: abc; cilindro: πr²h. Atenção a unidades cúbicas.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Áreas e volumes de sólidos geométricos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/9O_lwAkJ2Z0\" title=\"Áreas e volumes de sólidos geométricos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 26 (Geometria espacial — volumes), qual é a estratégia mais segura?",
+        "question": "Volume de cubo de aresta 4:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "64",
+          "16",
+          "48",
+          "12"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "V=4³=64.",
+        "tip": "Unidade cúbica."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de geometria espacial — volumes é:",
+        "question": "Volume de paralelepípedo 2×3×5:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "30",
+          "10",
+          "15",
+          "60"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "V=2·3·5=30.",
+        "tip": "Multiplique as três dimensões."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Volume de cilindro raio 2 e altura 5:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "20π",
+          "10π",
+          "40π",
+          "25π"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "π·2²·5=20π.",
+        "tip": "V=área da base×altura."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "1 litro equivale a:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "1000 cm³",
+          "100 cm³",
+          "1 cm³",
+          "10.000 cm³"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "1 L = 1 dm³ = 1000 cm³.",
+        "tip": "Conheça conversões básicas."
+      },
+      {
+        "question": "Num prisma, volume é:",
+        "options": [
+          "Área da base × altura",
+          "Perímetro × altura",
+          "Base + altura",
+          "Área lateral apenas"
+        ],
+        "answer": 0,
+        "explanation": "Prismas possuem V=Ab·h.",
+        "tip": "Primeiro calcule a base."
       }
     ]
   },
@@ -1463,52 +1775,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 27</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Análise combinatória — princípio multiplicativo</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Se uma escolha tem a opções e outra b opções independentes, há a·b combinações. Evite listar quando o princípio multiplicativo resolve.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Princípio Fundamental da Contagem</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/duf2XkeH65A\" title=\"Princípio Fundamental da Contagem\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 27 (Análise combinatória — princípio multiplicativo), qual é a estratégia mais segura?",
+        "question": "3 camisas e 4 calças formam quantos conjuntos diferentes?",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "12",
+          "7",
+          "24",
+          "1"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "3×4=12.",
+        "tip": "Princípio multiplicativo."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de análise combinatória — princípio multiplicativo é:",
+        "question": "Uma senha tem 2 letras (26 opções cada) e 1 dígito (10), com repetição. Quantas?",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "6760",
+          "260",
+          "520",
+          "676"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "26×26×10=6760.",
+        "tip": "Multiplique opções por etapa."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "2 rotas para ir e 3 para voltar geram:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "6 possibilidades",
+          "5",
+          "3",
+          "2"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "2×3=6.",
+        "tip": "Etapas independentes multiplicam."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Se uma tarefa pode ser feita de 5 maneiras OU outra de 4 maneiras, sem sobreposição, total:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "9",
+          "20",
+          "1",
+          "5"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Princípio aditivo: 5+4.",
+        "tip": "OU geralmente soma; E geralmente multiplica."
+      },
+      {
+        "question": "PFC é mais útil quando o processo ocorre:",
+        "options": [
+          "Em etapas sucessivas",
+          "Sem escolhas",
+          "Com uma única opção",
+          "Apenas em médias"
+        ],
+        "answer": 0,
+        "explanation": "Conte opções em cada etapa.",
+        "tip": "Divida o processo."
       }
     ]
   },
@@ -1519,52 +1843,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 28</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Permutações e combinações</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Permutação considera ordem. Combinação escolhe sem considerar ordem. Antes de usar fórmula, pergunte: trocar a ordem cria resultado diferente?</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Análise combinatória — questões de concurso</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/zbzGlgarojA\" title=\"Análise combinatória — questões de concurso\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 28 (Permutações e combinações), qual é a estratégia mais segura?",
+        "question": "Número de maneiras de ordenar 4 pessoas em fila:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "24",
+          "16",
+          "12",
+          "4"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "4!=24.",
+        "tip": "Ordem importa: permutação."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de permutações e combinações é:",
+        "question": "Escolher 2 pessoas entre 5 para uma dupla, sem cargos:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "10",
+          "20",
+          "5",
+          "25"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "C(5,2)=10.",
+        "tip": "Sem ordem: combinação."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Escolher presidente e vice entre 5 pessoas:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "20",
+          "10",
+          "25",
+          "5"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "5 opções para presidente ×4 para vice=20.",
+        "tip": "Cargos tornam a ordem relevante."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "3! é igual a:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "6",
+          "3",
+          "9",
+          "1"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "3×2×1=6.",
+        "tip": "Fatorial."
+      },
+      {
+        "question": "Em combinação, trocar a ordem dos escolhidos:",
+        "options": [
+          "Não cria novo resultado",
+          "Sempre cria outro resultado",
+          "Dobra sempre",
+          "Zera o resultado"
+        ],
+        "answer": 0,
+        "explanation": "Combinações ignoram ordem.",
+        "tip": "Pergunte se AB e BA são iguais."
       }
     ]
   },
@@ -1575,52 +1911,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 29</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Probabilidade</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Quando resultados são equiprováveis, P(A)=casos favoráveis/casos possíveis. Probabilidade fica entre 0 e 1. Use complemento quando mais simples.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Probabilidade — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/vAheWef9mKw\" title=\"Probabilidade — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 29 (Probabilidade), qual é a estratégia mais segura?",
+        "question": "Ao lançar moeda justa, P(cara)=",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "1/2",
+          "1",
+          "1/3",
+          "0"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "1 resultado favorável em 2 possíveis.",
+        "tip": "Favoráveis/possíveis."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de probabilidade é:",
+        "question": "Num dado justo, P(sair número par)=",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "1/2",
+          "1/6",
+          "2/3",
+          "1/3"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Pares: 2,4,6 → 3/6=1/2.",
+        "tip": "Liste casos favoráveis."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "Uma urna tem 3 bolas vermelhas e 2 azuis. P(vermelha)=",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "3/5",
+          "2/5",
+          "3/2",
+          "1/5"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "3 favoráveis em 5 totais.",
+        "tip": "Totalize o espaço amostral."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "Se P(A)=0, o evento é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Impossível",
+          "Certo",
+          "Provável em 50%",
+          "Dependente"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Probabilidade zero indica impossibilidade no modelo.",
+        "tip": "0≤P≤1."
+      },
+      {
+        "question": "Se P(A)=0,3, então P(não A)=",
+        "options": [
+          "0,7",
+          "0,3",
+          "1,3",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "Complemento=1−0,3=0,7.",
+        "tip": "Use P(Aᶜ)=1−P(A)."
       }
     ]
   },
@@ -1631,52 +1979,64 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 30</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Lógica proposicional e argumentação</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Proposição é sentença declarativa com valor verdadeiro ou falso. Estude ¬, ∧, ∨, → e ↔; equivalências, negações e estrutura de argumentos. Na condicional p→q, só é falsa quando p é verdadeira e q é falsa.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Lógica proposicional — proposições e tabela-verdade</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/KXm8Hi-I_G0\" title=\"Lógica proposicional — proposições e tabela-verdade\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Na Aula 30 (Lógica proposicional e argumentação), qual é a estratégia mais segura?",
+        "question": "A negação de 'João estuda e Maria trabalha' é:",
         "options": [
-          "Identificar a regra do problema antes de calcular.",
-          "Escolher a maior alternativa.",
-          "Ignorar unidades.",
-          "Começar pela resposta."
+          "João não estuda ou Maria não trabalha",
+          "João não estuda e Maria não trabalha",
+          "João estuda ou Maria trabalha",
+          "Maria não trabalha apenas"
         ],
         "answer": 0,
-        "explanation": "A estratégia correta é identificar a regra e organizar os dados antes do cálculo.",
-        "tip": "Volte à teoria e organize os dados."
+        "explanation": "Pela lei de De Morgan: ¬(p∧q)=¬p∨¬q.",
+        "tip": "Negue cada parte e troque E por OU."
       },
       {
-        "question": "Uma boa verificação após resolver uma questão de lógica proposicional e argumentação é:",
+        "question": "A condicional p→q é falsa somente quando:",
         "options": [
-          "Conferir se o resultado atende ao enunciado.",
-          "Trocar o sinal sem motivo.",
-          "Ignorar o contexto.",
-          "Arredondar sempre."
+          "p é verdadeira e q é falsa",
+          "p e q são verdadeiras",
+          "p é falsa e q verdadeira",
+          "p e q são falsas"
         ],
         "answer": 0,
-        "explanation": "Verificar o resultado no contexto ajuda a detectar erros.",
-        "tip": "Confira unidades, sinais e condições."
+        "explanation": "Essa é a única linha falsa da implicação.",
+        "tip": "Decore a exceção da condicional."
       },
       {
-        "question": "Em problemas matemáticos de concurso, unidades diferentes devem ser:",
+        "question": "A bicondicional p↔q é verdadeira quando:",
         "options": [
-          "Convertidas para uma unidade compatível antes do cálculo.",
-          "Somadas diretamente.",
-          "Ignoradas.",
-          "Sempre transformadas em porcentagem."
+          "p e q têm o mesmo valor lógico",
+          "p é sempre falsa",
+          "q é sempre verdadeira",
+          "p e q são diferentes"
         ],
         "answer": 0,
-        "explanation": "Grandezas precisam estar em unidades compatíveis.",
-        "tip": "Padronize as unidades."
+        "explanation": "Bicondicional expressa equivalência.",
+        "tip": "Mesmo valor lógico."
       },
       {
-        "question": "Se o resultado obtido contradiz uma condição explícita do problema, você deve:",
+        "question": "A negação de 'Todos os candidatos estudaram' é:",
         "options": [
-          "Revisar a montagem e os cálculos.",
-          "Manter o resultado.",
-          "Eliminar a condição.",
-          "Escolher uma alternativa aleatória."
+          "Pelo menos um candidato não estudou",
+          "Nenhum candidato estudou",
+          "Todos faltaram",
+          "Alguns estudaram"
         ],
         "answer": 0,
-        "explanation": "Contradições indicam erro de interpretação ou cálculo.",
-        "tip": "Faça uma checagem final."
+        "explanation": "Negar universal gera existência de contraexemplo.",
+        "tip": "'Nem todos' = pelo menos um não."
+      },
+      {
+        "question": "Se 'Se estudo, então passo' e 'estudo' são verdadeiras, concluir 'passo' usa:",
+        "options": [
+          "Modus ponens",
+          "Negação",
+          "Bicondicional",
+          "Falácia da afirmação do consequente"
+        ],
+        "answer": 0,
+        "explanation": "p→q e p permitem concluir q.",
+        "tip": "Reconheça argumentos válidos."
       }
     ]
   },
@@ -1687,363 +2047,363 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">🏆 PROVA FINAL • 30 QUESTÕES</div><h3>Fechamento da disciplina</h3><p>Uma questão de cada uma das 30 aulas. As alternativas são embaralhadas pelo sistema.</p><div class=\"gold-rule\">🎯 APROVAÇÃO: mínimo de <b>70%</b>.</div>",
     "quiz": [
       {
-        "question": "Questão integradora — Números e operações fundamentais: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Quanto vale 18 - 3 × 4?",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "6",
+          "60",
+          "12",
+          "15"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "A multiplicação vem antes da subtração: 3×4=12; 18−12=6.",
         "tip": "Revise a Aula 01."
       },
       {
-        "question": "Questão integradora — Frações — fundamentos: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "A fração 6/8 simplificada é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "3/4",
+          "2/4",
+          "6/4",
+          "4/3"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Dividindo numerador e denominador por 2: 6/8=3/4.",
         "tip": "Revise a Aula 02."
       },
       {
-        "question": "Questão integradora — Frações — operações e problemas: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Quanto vale 1/2 + 1/3?",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "5/6",
+          "2/5",
+          "1/5",
+          "2/6"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "MMC(2,3)=6: 3/6+2/6=5/6.",
         "tip": "Revise a Aula 03."
       },
       {
-        "question": "Questão integradora — Razão e proporção: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Se a razão entre homens e mulheres é 2:3 e há 10 homens, quantas mulheres há?",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "15",
+          "12",
+          "20",
+          "8"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "2/3=10/x ⇒ 2x=30 ⇒ x=15.",
         "tip": "Revise a Aula 04."
       },
       {
-        "question": "Questão integradora — Regra de três simples: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "4 cadernos custam R$ 28. Quanto custam 7 cadernos?",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "R$ 49",
+          "R$ 35",
+          "R$ 42",
+          "R$ 56"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Preço unitário=7; 7×7=49.",
         "tip": "Revise a Aula 05."
       },
       {
-        "question": "Questão integradora — Regra de três composta: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "8 operários, trabalhando 6 h/dia, fazem uma obra em 15 dias. Com 12 operários a 6 h/dia, o tempo será:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "10 dias",
+          "22,5 dias",
+          "15 dias",
+          "8 dias"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Mais operários reduzem dias: 8×15=12×x ⇒ x=10.",
         "tip": "Revise a Aula 06."
       },
       {
-        "question": "Questão integradora — Porcentagem — fundamentos: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "20% de 250 é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "50",
+          "25",
+          "75",
+          "100"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "0,20×250=50.",
         "tip": "Revise a Aula 07."
       },
       {
-        "question": "Questão integradora — Porcentagem — variações sucessivas: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Um valor sobe 20% e depois cai 20%. Em relação ao inicial, fica:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "4% menor",
+          "Igual",
+          "4% maior",
+          "20% menor"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "1,20×0,80=0,96.",
         "tip": "Revise a Aula 08."
       },
       {
-        "question": "Questão integradora — Equação do 1º grau: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Resolva: 3x+5=20.",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "x=5",
+          "x=15",
+          "x=25/3",
+          "x=3"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "3x=15 ⇒ x=5.",
         "tip": "Revise a Aula 09."
       },
       {
-        "question": "Questão integradora — Problemas com equação do 1º grau: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "O dobro de um número mais 6 é 30. O número é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "12",
+          "18",
+          "15",
+          "10"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "2x+6=30 ⇒ 2x=24 ⇒ x=12.",
         "tip": "Revise a Aula 10."
       },
       {
-        "question": "Questão integradora — Equação do 2º grau: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "As raízes de x²−5x+6=0 são:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "2 e 3",
+          "1 e 6",
+          "-2 e -3",
+          "3 e 6"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "(x−2)(x−3)=0.",
         "tip": "Revise a Aula 11."
       },
       {
-        "question": "Questão integradora — Sistemas de equações: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "No sistema x+y=10 e x−y=2, x vale:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "6",
+          "4",
+          "8",
+          "5"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Somando as equações: 2x=12 ⇒ x=6.",
         "tip": "Revise a Aula 12."
       },
       {
-        "question": "Questão integradora — Conjuntos: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Se A={1,2,3} e B={3,4}, A∩B é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "{3}",
+          "{1,2,4}",
+          "{1,2,3,4}",
+          "∅"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Interseção contém elementos comuns.",
         "tip": "Revise a Aula 13."
       },
       {
-        "question": "Questão integradora — Funções — fundamentos: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Se f(x)=2x+1, f(3)=",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "7",
+          "6",
+          "5",
+          "8"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "f(3)=2·3+1=7.",
         "tip": "Revise a Aula 14."
       },
       {
-        "question": "Questão integradora — Função afim: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Em f(x)=3x−6, o zero da função é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "2",
+          "-2",
+          "6",
+          "3"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "3x−6=0 ⇒ x=2.",
         "tip": "Revise a Aula 15."
       },
       {
-        "question": "Questão integradora — Função quadrática: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Em f(x)=x²−4x+3, o eixo de simetria é x=",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "2",
+          "4",
+          "-2",
+          "1"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "xv=−b/(2a)=4/2=2.",
         "tip": "Revise a Aula 16."
       },
       {
-        "question": "Questão integradora — Sequências e padrões: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Qual o próximo termo: 2,4,8,16,...?",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "32",
+          "20",
+          "24",
+          "18"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Cada termo é o dobro do anterior.",
         "tip": "Revise a Aula 17."
       },
       {
-        "question": "Questão integradora — Progressão Aritmética (PA): qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Na PA 3,7,11,... a razão é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "4",
+          "3",
+          "7",
+          "11"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "7−3=4.",
         "tip": "Revise a Aula 18."
       },
       {
-        "question": "Questão integradora — Progressão Geométrica (PG): qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Na PG 2,6,18,... a razão é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "3",
+          "4",
+          "6",
+          "2"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "6/2=3.",
         "tip": "Revise a Aula 19."
       },
       {
-        "question": "Questão integradora — Leitura de tabelas e gráficos: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Antes de interpretar um gráfico, deve-se observar primeiro:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "Título, eixos, legenda e escala",
+          "A cor favorita",
+          "A maior barra apenas",
+          "Somente a última informação"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Esses elementos definem o significado dos dados.",
         "tip": "Revise a Aula 20."
       },
       {
-        "question": "Questão integradora — Escalas e conversões: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Em escala 1:50.000, 2 cm no mapa representam:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "1 km",
+          "100 m",
+          "10 km",
+          "500 m"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "2×50.000=100.000 cm=1 km.",
         "tip": "Revise a Aula 21."
       },
       {
-        "question": "Questão integradora — Estatística — média, mediana e moda: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "A média de 4,6,8 é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "6",
+          "18",
+          "5",
+          "7"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "(4+6+8)/3=6.",
         "tip": "Revise a Aula 22."
       },
       {
-        "question": "Questão integradora — Estatística — amplitude e interpretação: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "A amplitude do conjunto 3,8,10,15 é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "12",
+          "15",
+          "3",
+          "9"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "15−3=12.",
         "tip": "Revise a Aula 23."
       },
       {
-        "question": "Questão integradora — Geometria plana — perímetros: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Perímetro de um quadrado de lado 7 cm:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "28 cm",
+          "49 cm²",
+          "14 cm",
+          "21 cm"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "4×7=28.",
         "tip": "Revise a Aula 24."
       },
       {
-        "question": "Questão integradora — Geometria plana — áreas: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Área de retângulo 8×5:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "40",
+          "26",
+          "13",
+          "80"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "A=base×altura=40.",
         "tip": "Revise a Aula 25."
       },
       {
-        "question": "Questão integradora — Geometria espacial — volumes: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Volume de cubo de aresta 4:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "64",
+          "16",
+          "48",
+          "12"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "V=4³=64.",
         "tip": "Revise a Aula 26."
       },
       {
-        "question": "Questão integradora — Análise combinatória — princípio multiplicativo: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "3 camisas e 4 calças formam quantos conjuntos diferentes?",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "12",
+          "7",
+          "24",
+          "1"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "3×4=12.",
         "tip": "Revise a Aula 27."
       },
       {
-        "question": "Questão integradora — Permutações e combinações: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Número de maneiras de ordenar 4 pessoas em fila:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "24",
+          "16",
+          "12",
+          "4"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "4!=24.",
         "tip": "Revise a Aula 28."
       },
       {
-        "question": "Questão integradora — Probabilidade: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "Ao lançar moeda justa, P(cara)=",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "1/2",
+          "1",
+          "1/3",
+          "0"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "1 resultado favorável em 2 possíveis.",
         "tip": "Revise a Aula 29."
       },
       {
-        "question": "Questão integradora — Lógica proposicional e argumentação: qual procedimento reduz mais o risco de erro em prova?",
+        "question": "A negação de 'João estuda e Maria trabalha' é:",
         "options": [
-          "Identificar dados, regra, calcular e conferir o resultado.",
-          "Escolher pela aparência.",
-          "Ignorar unidades.",
-          "Pular a leitura do enunciado."
+          "João não estuda ou Maria não trabalha",
+          "João não estuda e Maria não trabalha",
+          "João estuda ou Maria trabalha",
+          "Maria não trabalha apenas"
         ],
         "answer": 0,
-        "explanation": "Organização e conferência são essenciais.",
+        "explanation": "Pela lei de De Morgan: ¬(p∧q)=¬p∨¬q.",
         "tip": "Revise a Aula 30."
       }
     ]
