@@ -40,7 +40,7 @@ function defaultState(){
     errors:[],
     literatureUnlocked:[1],
     literatureCompleted:[],
-    literatureScores:{},englishUnlocked:[1],englishCompleted:[],englishScores:{}
+    literatureScores:{},englishUnlocked:[1],englishCompleted:[],englishScores:{},lawUnlocked:[1],lawCompleted:[],lawScores:{}
   };
 }
 
@@ -58,7 +58,7 @@ function loadState(){
       errors:Array.isArray(parsed.errors)?parsed.errors:[],
       literatureUnlocked:Array.isArray(parsed.literatureUnlocked)?parsed.literatureUnlocked:[1],
       literatureCompleted:Array.isArray(parsed.literatureCompleted)?parsed.literatureCompleted:[],
-      literatureScores:parsed.literatureScores||{},englishUnlocked:Array.isArray(parsed.englishUnlocked)?parsed.englishUnlocked:[1],englishCompleted:Array.isArray(parsed.englishCompleted)?parsed.englishCompleted:[],englishScores:parsed.englishScores||{}
+      literatureScores:parsed.literatureScores||{},englishUnlocked:Array.isArray(parsed.englishUnlocked)?parsed.englishUnlocked:[1],englishCompleted:Array.isArray(parsed.englishCompleted)?parsed.englishCompleted:[],englishScores:parsed.englishScores||{},lawUnlocked:Array.isArray(parsed.lawUnlocked)?parsed.lawUnlocked:[1],lawCompleted:Array.isArray(parsed.lawCompleted)?parsed.lawCompleted:[],lawScores:parsed.lawScores||{}
     };
   }catch(e){
     console.error(e);
@@ -102,10 +102,11 @@ function continueStudy(){
 function getLessonData(n){
   if(currentSubject==="Literatura") return window.literaturaLessons?.[n]||null;
   if(currentSubject==="Inglês") return window.inglesLessons?.[n]||null;
+  if(currentSubject==="Direito") return window.direitoLessons?.[n]||null;
   return window.lessons?.[n]||null;
 }
 function getLessonNumbers(subject=currentSubject){
-  const source=subject==="Literatura"?window.literaturaLessons:(subject==="Inglês"?window.inglesLessons:window.lessons);
+  const source=subject==="Literatura"?window.literaturaLessons:(subject==="Inglês"?window.inglesLessons:(subject==="Direito"?window.direitoLessons:window.lessons));
   if(!source) return [];
   return Object.keys(source).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
 }
@@ -113,13 +114,13 @@ function getAllLessonNumbers(){
   return window.lessons?Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b):[];
 }
 function activeUnlocked(){
-  return currentSubject==="Literatura"?state.literatureUnlocked:(currentSubject==="Inglês"?state.englishUnlocked:state.unlockedLessons);
+  return currentSubject==="Literatura"?state.literatureUnlocked:(currentSubject==="Inglês"?state.englishUnlocked:(currentSubject==="Direito"?state.lawUnlocked:state.unlockedLessons));
 }
 function activeCompleted(){
-  return currentSubject==="Literatura"?state.literatureCompleted:(currentSubject==="Inglês"?state.englishCompleted:state.completedLessons);
+  return currentSubject==="Literatura"?state.literatureCompleted:(currentSubject==="Inglês"?state.englishCompleted:(currentSubject==="Direito"?state.lawCompleted:state.completedLessons));
 }
 function activeScores(){
-  return currentSubject==="Literatura"?state.literatureScores:(currentSubject==="Inglês"?state.englishScores:state.scores);
+  return currentSubject==="Literatura"?state.literatureScores:(currentSubject==="Inglês"?state.englishScores:(currentSubject==="Direito"?state.lawScores:state.scores));
 }
 function isLessonUnlocked(n){
   const nums=getLessonNumbers();
@@ -3483,5 +3484,32 @@ document.addEventListener("click",e=>{
   }
 },true);
 
-function renderEnglishTrailV646(){currentSubject="Inglês";const nums=getLessonNumbers("Inglês"),box=document.getElementById("englishLessonListV646");if(!box)return;if(!state.englishUnlocked.includes(1))state.englishUnlocked.push(1);nums.forEach((n,i)=>{const s=Number(state.englishScores[n]);if(((Number.isFinite(s)&&s>=70)||state.englishCompleted.includes(n))&&nums[i+1]&&!state.englishUnlocked.includes(nums[i+1]))state.englishUnlocked.push(nums[i+1]);});saveState();box.innerHTML=nums.map(n=>{const l=window.inglesLessons[n],u=n===1||state.englishUnlocked.includes(n),c=state.englishCompleted.includes(n);return `<article class="lesson-card ${!u?"locked":""} ${c?"completed":""}" ${u?`onclick="openEnglishLessonV646(${n})"`:""}><div class="lesson-number">${n===9?"🏆":String(n).padStart(2,"0")}</div><div class="lesson-card-content"><h3>${l.title}</h3><p>${l.subtitle} • ${l.time}</p><p>${c?"Concluída":u?"Disponível":"Bloqueada"}</p>${!u?'<div class="lock-message">Atinga 70% na aula anterior.</div>':""}</div><div class="lesson-card-status">${c?"✓":u?"›":"🔒"}</div></article>`}).join("")}
+function renderEnglishTrailV646(){currentSubject="Inglês";const nums=getLessonNumbers("Inglês"),box=document.getElementById("englishLessonListV646");if(!box)return;if(!state.englishUnlocked.includes(1))state.englishUnlocked.push(1);nums.forEach((n,i)=>{const s=Number(state.englishScores[n]);if(((Number.isFinite(s)&&s>=70)||state.englishCompleted.includes(n))&&nums[i+1]&&!state.englishUnlocked.includes(nums[i+1]))state.englishUnlocked.push(nums[i+1]);});saveState();box.innerHTML=nums.map(n=>{const l=window.inglesLessons[n],u=n===1||state.englishUnlocked.includes(n),c=state.englishCompleted.includes(n);return `<article class="lesson-card ${!u?"locked":""} ${c?"completed":""}" ${u?`onclick="openEnglishLessonV646(${n})"`:""}><div class="lesson-number">${n===13?"🏆":String(n).padStart(2,"0")}</div><div class="lesson-card-content"><h3>${l.title}</h3><p>${l.subtitle} • ${l.time}</p><p>${c?"Concluída":u?"Disponível":"Bloqueada"}</p>${!u?'<div class="lock-message">Atinga 70% na aula anterior.</div>':""}</div><div class="lesson-card-status">${c?"✓":u?"›":"🔒"}</div></article>`}).join("")}
 window.openEnglishLessonV646=n=>{currentSubject="Inglês";openLesson(n)};window.openEnglishV646=()=>{currentSubject="Inglês";renderEnglishTrailV646();showScreen("englishTrailScreenV646","navStudy");scrollTo(0,0)};
+
+/* V6.4.8 — Direito e Direitos Humanos em arquivo independente */
+function renderLawTrailV648(){
+  currentSubject="Direito";
+  const nums=getLessonNumbers("Direito"),box=document.getElementById("lawLessonListV648");
+  if(!box)return;
+  if(!Array.isArray(state.lawUnlocked))state.lawUnlocked=[1];
+  if(!state.lawUnlocked.includes(1))state.lawUnlocked.push(1);
+  nums.forEach((n,i)=>{
+    const s=Number(state.lawScores?.[n]);
+    const passed=(Number.isFinite(s)&&s>=PASS_SCORE)||state.lawCompleted.includes(n);
+    if(passed&&nums[i+1]&&!state.lawUnlocked.includes(nums[i+1]))state.lawUnlocked.push(nums[i+1]);
+  });
+  saveState();
+  const done=nums.filter(n=>state.lawCompleted.includes(n)).length,pct=nums.length?Math.round(done/nums.length*100):0;
+  const p=document.getElementById("lawProgressTextV648"),d=document.getElementById("lawDoneTextV648");
+  if(p)p.textContent=pct+"%"; if(d)d.textContent=`${done}/${nums.length}`;
+  box.innerHTML=nums.map(n=>{
+    const l=window.direitoLessons[n],u=n===1||state.lawUnlocked.includes(n),c=state.lawCompleted.includes(n),score=state.lawScores?.[n];
+    return `<article class="lesson-card ${!u?"locked":""} ${c?"completed":""}" ${u?`onclick="openLawLessonV648(${n})"`:""}>
+      <div class="lesson-number">${n===13?"🏆":String(n).padStart(2,"0")}</div>
+      <div class="lesson-card-content"><h3>${l.title}</h3><p>${l.subtitle} • ${l.time}</p><p>${c?"Concluída":u?"Disponível":"Bloqueada"}</p>${typeof score==="number"?`<span class="score-badge">Melhor nota: ${score}%</span>`:""}${!u?'<div class="lock-message">Atinga 70% na aula anterior.</div>':""}</div>
+      <div class="lesson-card-status">${c?"✓":u?"›":"🔒"}</div></article>`;
+  }).join("");
+}
+window.openLawLessonV648=n=>{currentSubject="Direito";openLesson(n)};
+window.openLawV648=()=>{currentSubject="Direito";renderLawTrailV648();showScreen("lawTrailScreenV648","navStudy");scrollTo(0,0)};
