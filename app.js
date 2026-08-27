@@ -339,6 +339,7 @@ function renderErrorNotebook(){
       <div class="correct-answer"><strong>Correta:</strong> ${e.correctText}</div>
       ${e.explanation?`<div class="error-explanation"><strong>Por quê?</strong> ${e.explanation}</div>`:""}
       ${e.tip?`<div class="mini-tip"><strong>💡 Dica:</strong> ${e.tip}</div>`:""}
+      <button class="v860-error-prof" onclick='v860ProfessorFromError(${JSON.stringify(e)})'>🤖 Explicar este erro com o Professor</button>
     </article>`).join("");
 }
 
@@ -4826,72 +4827,191 @@ document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderExamP
 
 
 /* ============================================================
-   MISSÃO PMMG V8.5 — PROFESSOR IA GRATUITO / LOCAL
-   Sem API, sem token e sem custo. Motor didático no navegador.
+   MISSÃO PMMG V8.5.1 — PROFESSOR CONTEXTUAL
+   Correção do reconhecimento + memória curta de assunto.
    ============================================================ */
-const V850_KNOWLEDGE={
+const V851_KNOWLEDGE={
  "Português":[
-  {k:["inferência","inferencia"],t:"Inferência",e:"Inferência é chegar a uma conclusão que não está escrita literalmente, mas é sustentada por pistas do texto. Na prova, procure a evidência antes de concluir.",x:"Se o texto diz que Rafael fechou as janelas e depois ouviu trovões, podemos inferir que havia sinais de chuva ou temporal."},
-  {k:["ideia principal","principal"],t:"Ideia principal",e:"É a mensagem mais importante que o texto desenvolve sobre o tema. Tema é o assunto; ideia principal é o que o autor diz de essencial sobre esse assunto.",x:"Tema: atividade física. Ideia principal: manter-se ativo traz benefícios à saúde e reduz riscos do sedentarismo."},
-  {k:["interpretação","interpretacao","texto"],t:"Interpretação de texto",e:"Leia primeiro o comando, identifique o que ele pede e volte ao trecho que sustenta a resposta. Evite acrescentar informações que o texto não permite concluir.",x:"Em questões com 'Segundo o texto', a referência principal deve ser o próprio texto, não sua experiência pessoal."},
-  {k:["metáfora","metafora"],t:"Metáfora",e:"É uma comparação implícita por aproximação de sentidos, sem precisar usar 'como'.",x:"'Meu coração é um deserto' aproxima coração e deserto para produzir sentido figurado."}
+  {k:["inferência","inferencia","inferir"],t:"Inferência",e:"Inferência é uma conclusão que o leitor obtém a partir de pistas do texto, mesmo quando a informação não aparece escrita de forma direta. Em prova, a conclusão precisa ser sustentada pelo texto.",x:"Exemplo: 'Rafael fechou rapidamente as janelas e, minutos depois, ouviu trovões.' Podemos inferir que havia sinais de chuva ou temporal."},
+  {k:["ideia principal","principal"],t:"Ideia principal",e:"É a mensagem central desenvolvida pelo texto. Tema é o assunto; ideia principal é aquilo que o texto afirma de mais importante sobre esse assunto.",x:"Tema: atividade física. Ideia principal: manter-se ativo traz benefícios à saúde e reduz riscos do sedentarismo."},
+  {k:["interpretação","interpretacao","texto"],t:"Interpretação de texto",e:"Interpretação exige responder com base no que o texto permite afirmar. Leia o comando, localize evidências e evite acrescentar informações externas.",x:"Se a questão diz 'Segundo o texto', sua principal referência deve ser o próprio texto."},
+  {k:["metáfora","metafora"],t:"Metáfora",e:"Metáfora é uma comparação implícita por aproximação de sentidos.",x:"'Meu coração é um deserto' aproxima coração e deserto sem usar 'como'."}
  ],
  "Matemática":[
-  {k:["porcentagem","porcento","%"],t:"Porcentagem",e:"Porcentagem representa uma parte de 100. Para calcular x% de um valor, multiplique o valor por x e divida por 100.",x:"20% de 150 = 150 × 20 ÷ 100 = 30."},
-  {k:["regra de três","regra de tres"],t:"Regra de três",e:"Use quando duas grandezas possuem uma relação proporcional. Organize valores correspondentes na mesma posição e resolva a proporção.",x:"Se 2 cadernos custam R$10, 6 cadernos custam R$30, mantendo o mesmo preço unitário."},
-  {k:["fração","fracao"],t:"Frações",e:"Uma fração representa partes de um todo. O número de cima é o numerador e o de baixo é o denominador.",x:"3/4 significa três partes de um total dividido em quatro partes iguais."}
+  {k:["porcentagem","porcento","percentual"],t:"Porcentagem",e:"Porcentagem representa uma parte de 100. Para calcular x% de um valor, multiplique o valor por x e divida por 100.",x:"20% de 150 = 150 × 20 ÷ 100 = 30."},
+  {k:["regra de três","regra de tres"],t:"Regra de três",e:"É usada em relações proporcionais. Organize valores correspondentes e resolva a proporção.",x:"Se 2 cadernos custam R$10, 6 custam R$30, mantendo o mesmo preço unitário."},
+  {k:["fração","fracao","frações","fracoes"],t:"Frações",e:"Uma fração representa partes de um todo. O numerador fica em cima e o denominador embaixo.",x:"3/4 significa três partes de um total dividido em quatro partes iguais."}
  ],
  "Inglês":[
-  {k:["verb to be","to be"],t:"Verb to be",e:"O verbo to be significa principalmente ser ou estar. No presente: I am, you/we/they are, he/she/it is.",x:"She is a student = Ela é uma estudante. They are ready = Eles estão prontos."},
-  {k:["interpretação","interpretacao","reading"],t:"Reading",e:"Na leitura em inglês, procure palavras-chave, cognatos e contexto. Você não precisa traduzir cada palavra para compreender a ideia central.",x:"Se um anúncio repete 'sale', preços e descontos, o contexto indica uma promoção."}
+  {k:["verb to be","to be"],t:"Verb to be",e:"O verbo to be significa principalmente ser ou estar. No presente: I am; you/we/they are; he/she/it is.",x:"She is a student = Ela é uma estudante. They are ready = Eles estão prontos."},
+  {k:["reading","leitura","interpretação","interpretacao"],t:"Reading",e:"Procure palavras-chave, cognatos e contexto. Não é necessário traduzir palavra por palavra para entender a ideia central.",x:"Um anúncio com 'sale', preços e descontos indica uma promoção."}
  ],
  "Literatura":[
-  {k:["literatura","texto literário","texto literario"],t:"Texto literário",e:"O texto literário valoriza efeitos estéticos, subjetividade e múltiplos sentidos. Figuras de linguagem são recursos frequentes.",x:"Um poema pode usar metáforas e imagens para transmitir sentimentos sem explicar tudo literalmente."}
+  {k:["literatura","texto literário","texto literario"],t:"Texto literário",e:"Valoriza efeitos estéticos, subjetividade e múltiplos sentidos.",x:"Um poema pode usar metáforas para transmitir sentimentos sem explicar tudo literalmente."}
  ],
  "Direito":[
-  {k:["constituição","constituicao"],t:"Constituição",e:"A Constituição é a norma fundamental do Estado e serve de referência para as demais normas. Para prova, atenção ao texto legal exigido no edital.",x:"Quando uma questão cobra dispositivo constitucional, diferencie o texto da lei de interpretações ou opiniões."},
-  {k:["direitos","garantias"],t:"Direitos e garantias",e:"Em questões jurídicas, identifique exatamente qual direito, garantia ou regra o enunciado está cobrando e evite ampliar o texto legal além do que foi apresentado.",x:"Palavras absolutas como 'sempre' e 'nunca' merecem atenção especial em alternativas."}
+  {k:["constituição","constituicao"],t:"Constituição",e:"A Constituição é a norma fundamental do Estado e serve de referência para as demais normas.",x:"Em questão de texto constitucional, diferencie o que a norma diz de interpretações acrescentadas pela alternativa."},
+  {k:["direitos","garantias"],t:"Direitos e garantias",e:"Identifique exatamente o direito ou garantia cobrado e evite ampliar o texto legal além do apresentado.",x:"Termos absolutos como 'sempre' e 'nunca' merecem atenção especial em alternativas."}
  ]
 };
-function v850Esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function v850Norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
-function v850Find(subject,q){
- const rows=[...(V850_KNOWLEDGE[subject]||[]),...Object.values(V850_KNOWLEDGE).flat()];
- const nq=v850Norm(q);
- return rows.find(r=>r.k.some(k=>nq.includes(v850Norm(k))))||null
+
+let V851_CONTEXT={subject:"Português",topic:null};
+
+function v851Esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function v851Norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+function v851Rows(subject){return V851_KNOWLEDGE[subject]||[]}
+function v851Find(subject,q){
+ const nq=v851Norm(q);
+ const own=v851Rows(subject);
+ let hit=own.find(r=>r.k.some(k=>nq.includes(v851Norm(k))));
+ if(hit)return hit;
+ return Object.values(V851_KNOWLEDGE).flat().find(r=>r.k.some(k=>nq.includes(v851Norm(k))))||null;
 }
-function v850Reply(q,mode){
- const subject=document.getElementById("v850Subject")?.value||"Geral", hit=v850Find(subject,q);
- if(hit){
-   if(mode==="example"||/exemplo/.test(v850Norm(q)))return `<b>${hit.t} — exemplo</b><br>${hit.x}`;
-   if(mode==="quiz"||/quest|teste|pergunta/.test(v850Norm(q)))return `<b>Teste rápido sobre ${hit.t}</b><br>Explique com suas palavras o conceito de ${hit.t}. Depois, crie um exemplo próprio e confira se ele respeita esta ideia:<br><br>${hit.e}`;
-   if(mode==="review")return `<b>Revisão rápida — ${hit.t}</b><br>1. Conceito: ${hit.e}<br><br>2. Exemplo: ${hit.x}<br><br>3. Agora tente explicar sem consultar o texto.`;
-   return `<b>${hit.t}</b><br>${hit.e}<br><br><b>Exemplo:</b> ${hit.x}`;
- }
- const generic={
-  "Português":"Em Português, posso ajudar principalmente com interpretação, ideia principal, inferência e figuras de linguagem. Tente escrever o nome do assunto.",
-  "Matemática":"Em Matemática, posso ajudar com os assuntos cadastrados no projeto, como porcentagem, regra de três e frações. Escreva o tema da dúvida.",
-  "Inglês":"Em Inglês, posso explicar os conteúdos cadastrados, como verb to be e estratégias de leitura.",
-  "Literatura":"Em Literatura, posso revisar conceitos de texto literário e linguagem.",
-  "Direito":"Em Direito, posso ajudar a revisar os conceitos cadastrados no projeto. Para texto de lei específico, use também o conteúdo da aula correspondente.",
-  "Geral":"Escolha uma matéria e escreva o assunto. Meu conhecimento gratuito cresce junto com as aulas do Missão PMMG."
+function v851Intent(q,forced){
+ if(forced)return forced;
+ const n=v851Norm(q);
+ if(/exemplo|exemplifique/.test(n))return "example";
+ if(/teste|testar|questao|questões|pergunta/.test(n))return "quiz";
+ if(/revis|resumo|resuma/.test(n))return "review";
+ return "explain";
+}
+function v851Quiz(hit){
+ const qs={
+  "Inferência":"Leia: “Marina saiu de casa levando um guarda-chuva, embora o céu ainda estivesse claro.” Qual inferência é mais adequada?<br><br>A) Marina perdeu o guarda-chuva.<br>B) Marina considerava possível chover.<br>C) Já estava chovendo forte.<br>D) Marina não sairia de casa.<br><br><b>Responda com A, B, C ou D.</b>",
+  "Porcentagem":"Quanto é 25% de 200?<br><br>A) 25<br>B) 40<br>C) 50<br>D) 75<br><br><b>Responda com A, B, C ou D.</b>"
  };
- return generic[subject]||generic.Geral
+ return qs[hit.t]||`Explique com suas palavras o que é <b>${hit.t}</b>. Depois tente criar um exemplo próprio.`;
 }
-function v850Add(who,html){
+function v851Reply(q,forced){
+ const subject=document.getElementById("v850Subject")?.value||V851_CONTEXT.subject||"Português";
+ V851_CONTEXT.subject=subject;
+ const found=v851Find(subject,q);
+ if(found)V851_CONTEXT.topic=found;
+ const hit=found||V851_CONTEXT.topic;
+ const intent=v851Intent(q,forced);
+
+ // Tiny answer-check context for the built-in quiz.
+ const n=v851Norm(q).trim();
+ if(hit?.t==="Inferência" && /^[abcd]$/.test(n)){
+   return n==="b"?"✅ <b>Correto!</b> Marina levar o guarda-chuva é uma pista de que ela considerava possível chover. Isso é inferência: concluir a partir de uma pista.":"❌ A melhor resposta é <b>B</b>. O texto não diz que já chovia; o guarda-chuva funciona como pista de que Marina considerava possível chover.";
+ }
+ if(hit?.t==="Porcentagem" && /^[abcd]$/.test(n)){
+   return n==="c"?"✅ <b>Correto!</b> 25% de 200 = 200 × 25 ÷ 100 = 50.":"❌ A resposta correta é <b>C</b>. 25% de 200 = 50.";
+ }
+
+ if(hit){
+   if(intent==="example")return `<b>${hit.t} — exemplo</b><br>${hit.x}<br><br>Se quiser, toque em <b>Me testar</b> e eu monto uma questão sobre este mesmo assunto.`;
+   if(intent==="quiz")return `<b>Teste rápido — ${hit.t}</b><br><br>${v851Quiz(hit)}`;
+   if(intent==="review")return `<b>Revisão — ${hit.t}</b><br><br><b>Conceito:</b> ${hit.e}<br><br><b>Exemplo:</b> ${hit.x}<br><br><b>Regra de prova:</b> tente explicar o conceito sem olhar e depois confira.`;
+   return `<b>${hit.t}</b><br>${hit.e}<br><br><b>Exemplo:</b> ${hit.x}<br><br>Quer continuar? Posso dar outro exemplo, revisar ou testar você neste assunto.`;
+ }
+ const names=v851Rows(subject).map(r=>r.t).join(", ");
+ return `Ainda não tenho esse tópico na minha base local de <b>${subject}</b>. Nesta versão consigo trabalhar com: ${names||"os conteúdos cadastrados no projeto"}.`;
+}
+function v851Add(who,html){
  const chat=document.getElementById("v850Chat");if(!chat)return;
  const a=document.createElement("article");a.className=who==="user"?"v850-user":"v850-bot";
- a.innerHTML=`<span>${who==="user"?"👤":"🤖"}</span><p>${html}</p>`;chat.appendChild(a);chat.scrollTop=chat.scrollHeight
+ a.innerHTML=`<span>${who==="user"?"👤":"🤖"}</span><p>${html}</p>`;
+ chat.appendChild(a);chat.scrollTop=chat.scrollHeight;
 }
 function v850Ask(mode){
  const inp=document.getElementById("v850Question"),q=(inp?.value||"").trim();
  if(!q)return;
- v850Add("user",v850Esc(q));if(inp)inp.value="";
- setTimeout(()=>v850Add("bot",v850Reply(q,mode)),120)
+ v851Add("user",v851Esc(q));if(inp)inp.value="";
+ setTimeout(()=>v851Add("bot",v851Reply(q,mode)),100);
 }
 function v850Quick(mode){
- const prompts={explain:"Explique o assunto principal desta matéria.",example:"Me dê um exemplo do assunto.",quiz:"Me teste com o assunto.",review:"Faça uma revisão do assunto."};
- const inp=document.getElementById("v850Question");if(inp&&!inp.value)inp.value=prompts[mode];
- v850Ask(mode)
+ const hit=V851_CONTEXT.topic;
+ if(!hit){
+   const inp=document.getElementById("v850Question");
+   if(inp&&!inp.value)inp.value="Explique o assunto principal desta matéria.";
+   return v850Ask(mode);
+ }
+ const labels={explain:`Explique ${hit.t}`,example:`Me dê um exemplo de ${hit.t}`,quiz:`Me teste sobre ${hit.t}`,review:`Revise ${hit.t}`};
+ v851Add("user",v851Esc(labels[mode]||labels.explain));
+ setTimeout(()=>v851Add("bot",v851Reply(hit.t,mode)),100);
 }
+document.addEventListener("change",e=>{
+ if(e.target?.id==="v850Subject"){V851_CONTEXT={subject:e.target.value,topic:null};}
+});
 window.v850Ask=v850Ask;window.v850Quick=v850Quick;
+
+
+/* ============================================================
+   MISSÃO PMMG V8.6.0 — PROFESSOR INTEGRADO
+   Aula atual + Caderno de Erros -> Professor.
+   ============================================================ */
+let V860_CONTEXT=null;
+
+function v860SubjectFromLesson(lesson){
+  const raw=(lesson?.subtitle||"")+" "+(lesson?.title||"");
+  const n=v851Norm(raw);
+  if(n.includes("matem"))return "Matemática";
+  if(n.includes("liter"))return "Literatura";
+  if(n.includes("ingles")||n.includes("ingl"))return "Inglês";
+  if(n.includes("direito")||n.includes("constit"))return "Direito";
+  return "Português";
+}
+function v860ShowContext(){
+  const card=document.getElementById("v860ContextCard");
+  if(!card)return;
+  if(!V860_CONTEXT){card.style.display="none";return}
+  card.style.display="";
+  const t=document.getElementById("v860ContextTitle"),x=document.getElementById("v860ContextText");
+  if(t)t.textContent=V860_CONTEXT.type==="error"?"Erro carregado":"Aula carregada";
+  if(x)x.textContent=V860_CONTEXT.label||"";
+}
+function v860OpenProfessor(){
+  showScreen("professorScreen","navStudy");
+  setTimeout(()=>{v860ShowContext();const q=document.getElementById("v850Question");if(q)q.focus()},40);
+}
+function v860ProfessorFromLesson(){
+  try{
+    const lesson=getLessonData(currentLessonNumber);
+    if(!lesson)return;
+    const subject=v860SubjectFromLesson(lesson);
+    V860_CONTEXT={type:"lesson",subject,label:`${subject} • Aula ${String(currentLessonNumber).padStart(2,"0")} • ${lesson.title}`,title:lesson.title};
+    V851_CONTEXT={subject,topic:v851Find(subject,lesson.title)};
+    v860OpenProfessor();
+    setTimeout(()=>{
+      const sel=document.getElementById("v850Subject");if(sel)sel.value=subject;
+      v851Add("bot",`📘 Estou acompanhando sua aula <b>${v851Esc(lesson.title)}</b>. Você pode pedir para eu explicar o assunto, dar um exemplo, revisar ou testar você.`);
+    },70);
+  }catch(e){}
+}
+function v860ProfessorFromError(e){
+  if(!e)return;
+  const subject=e.subject||"Português";
+  V860_CONTEXT={type:"error",subject,label:`${subject} • ${e.lessonTitle||"Caderno de Erros"}`,error:e};
+  V851_CONTEXT={subject,topic:v851Find(subject,(e.lessonTitle||"")+" "+(e.question||""))};
+  v860OpenProfessor();
+  setTimeout(()=>{
+    const sel=document.getElementById("v850Subject");if(sel)sel.value=subject;
+    const correct=v851Esc(e.correctText||"");
+    const wrong=v851Esc(e.selectedText||"");
+    const exp=e.explanation?`<br><br><b>Explicação registrada:</b> ${v851Esc(e.explanation)}`:"";
+    v851Add("bot",`❌ Vamos entender este erro.<br><br><b>Questão:</b> ${v851Esc(e.question||"")}<br><b>Sua resposta:</b> ${wrong}<br><b>Resposta correta:</b> ${correct}${exp}<br><br>Posso explicar o conceito por trás da questão ou criar outra parecida para você treinar.`);
+  },70);
+}
+function v860ClearContext(){
+  V860_CONTEXT=null;v860ShowContext();
+}
+window.v860ProfessorFromLesson=v860ProfessorFromLesson;
+window.v860ProfessorFromError=v860ProfessorFromError;
+window.v860ClearContext=v860ClearContext;
+
+// Make generic contextual requests understand the loaded lesson/error even if topic title
+// isn't one of the small local knowledge entries.
+const v860ReplyBase=v851Reply;
+v851Reply=function(q,forced){
+  const normal=v851Norm(q), generic=/assunto|esta aula|essa aula|este erro|esse erro|explique|explica|revis/.test(normal);
+  if(V860_CONTEXT&&generic&&!v851Find(V860_CONTEXT.subject,q)&&!V851_CONTEXT.topic){
+    if(V860_CONTEXT.type==="error"){
+      const e=V860_CONTEXT.error||{};
+      return `<b>Sobre o erro carregado</b><br>A resposta correta é <b>${v851Esc(e.correctText||"")}</b>, enquanto você marcou <b>${v851Esc(e.selectedText||"")}</b>. ${e.explanation?v851Esc(e.explanation):"Use a explicação da aula e compare cada alternativa com o enunciado."}<br><br>Depois, tente justificar com suas palavras por que a correta é melhor.`;
+    }
+    return `<b>${v851Esc(V860_CONTEXT.title||"Aula atual")}</b><br>Estou usando esta aula como contexto. Nesta versão gratuita local, consigo orientar sua revisão e conectar o assunto aos tópicos que já estão na minha base. Se você escrever o nome do conceito específico da aula, consigo responder com mais precisão.`;
+  }
+  return v860ReplyBase(q,forced);
+};
+window.v851Reply=v851Reply;
