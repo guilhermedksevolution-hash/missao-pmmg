@@ -1500,3 +1500,24 @@ html,body{touch-action:manipulation}
 #smartPlan632 .v790-rewards article>span{font-size:18px}
 #smartPlan632 .v790-rewards b{display:block;font-size:7.5px;margin-top:4px}
 #smartPlan632 .v790-rewards small{display:block;font-size:7px;color:var(--gold);margin-top:2px}
+
+/* V8.0 — Preparação para a prova, somente na aba Evolução */
+#evolutionHubV53 .v800-exam-card{
+  margin:14px 20px 18px;padding:16px;border:1px solid #2a3038;border-radius:20px;
+  background:linear-gradient(145deg,#11161d,#090d12)
+}
+#evolutionHubV53 .v800-exam-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+#evolutionHubV53 .v800-exam-head h3{font-size:17px;margin:4px 0 0}
+#evolutionHubV53 .v800-exam-head>strong{font-size:25px;color:var(--gold)}
+#evolutionHubV53 .v800-exam-card>p{font-size:8.5px;line-height:1.5;color:var(--muted);margin:9px 0}
+#evolutionHubV53 .v800-readiness-bar{height:8px;border-radius:99px;background:#1b222b;overflow:hidden;margin-bottom:12px}
+#evolutionHubV53 .v800-readiness-bar i{display:block;width:0;height:100%;border-radius:99px;background:linear-gradient(90deg,#8da7ce,var(--gold));transition:width .25s ease}
+#evolutionHubV53 .v800-exam-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+#evolutionHubV53 .v800-exam-grid article{padding:11px;border:1px solid #242b34;border-radius:13px;background:#0a0f14}
+#evolutionHubV53 .v800-exam-grid article>span{font-size:17px}
+#evolutionHubV53 .v800-exam-grid strong{display:block;color:var(--gold);font-size:19px;margin:5px 0 2px}
+#evolutionHubV53 .v800-exam-grid small{font-size:7.5px;color:var(--muted)}
+#evolutionHubV53 .v800-next-action{display:flex;gap:10px;align-items:center;margin-top:9px;padding:11px;border:1px solid #2a3038;border-radius:13px;background:#0b1016}
+#evolutionHubV53 .v800-next-action>span{font-size:21px}
+#evolutionHubV53 .v800-next-action b{display:block;font-size:8.5px}
+#evolutionHubV53 .v800-next-action small{display:block;font-size:7.5px;color:var(--muted);line-height:1.45;margin-top:3px}
