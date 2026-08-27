@@ -1165,98 +1165,87 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 @media(max-width:380px){.v71-review-summary{grid-template-columns:1fr}.v71-backup-actions{grid-template-columns:1fr}}
 
 /* ============================================================
-   MISSÃO PMMG V7.1.1 — POLIMENTO DA TELA REVISAR
+   MISSÃO PMMG V7.1.2 — CORREÇÃO EXATA DA TELA REVISAR
    ============================================================ */
-#reviewScreen .tools,
-#reviewArea .tools,
-#reviewHubScreen .tools,
-#reviewScreenV60 .tools,
-.screen[id*="review"] .tools{
-  grid-template-columns:repeat(2,minmax(0,1fr))!important;
-  gap:10px!important;
-  align-items:stretch!important;
+#reviewHubV53 .v60-grid,
+#reviewHubV53 .v53-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:10px !important;
+  margin-left:20px !important;
+  margin-right:20px !important;
 }
-#reviewScreen .tools button,
-#reviewArea .tools button,
-#reviewHubScreen .tools button,
-#reviewScreenV60 .tools button,
-.screen[id*="review"] .tools button{
-  min-height:132px!important;
-  height:100%!important;
-  padding:15px!important;
-  border-radius:17px!important;
-  display:flex!important;
-  flex-direction:column!important;
-  justify-content:flex-start!important;
-  align-items:flex-start!important;
-  gap:7px!important;
-  line-height:1.2!important;
+
+#reviewHubV53 .v60-grid article,
+#reviewHubV53 .v53-grid article{
+  min-height:126px !important;
+  padding:15px !important;
+  border-radius:18px !important;
+  border:1px solid var(--line) !important;
+  background:var(--card) !important;
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:flex-start !important;
+  align-items:flex-start !important;
 }
-#reviewScreen .tools button strong,
-#reviewArea .tools button strong,
-#reviewHubScreen .tools button strong,
-#reviewScreenV60 .tools button strong,
-.screen[id*="review"] .tools button strong{
-  margin-top:4px!important;
-  font-size:13px!important;
-  line-height:1.2!important;
+
+#reviewHubV53 .v60-grid article b,
+#reviewHubV53 .v53-grid article b{
+  font-size:13px !important;
+  line-height:1.25 !important;
 }
-#reviewScreen .tools button small,
-#reviewArea .tools button small,
-#reviewHubScreen .tools button small,
-#reviewScreenV60 .tools button small,
-.screen[id*="review"] .tools button small{
-  font-size:9px!important;
-  line-height:1.45!important;
-  margin-top:0!important;
+
+#reviewHubV53 .v60-grid article p,
+#reviewHubV53 .v53-grid article p{
+  font-size:9px !important;
+  line-height:1.45 !important;
+  color:var(--muted) !important;
+  margin-top:7px !important;
 }
-#reviewScreen .tools button,
-#reviewArea .tools button,
-#reviewHubScreen .tools button,
-#reviewScreenV60 .tools button,
-.screen[id*="review"] .tools button{
-  font-size:23px!important;
+
+/* O terceiro card da área avançada ocupa as duas colunas.
+   Isso elimina o "buraco" visual que aparecia à direita. */
+#reviewHubV53 .v60-grid article:nth-child(3){
+  grid-column:1 / -1 !important;
+  min-height:104px !important;
 }
-#reviewScreen .section-head,
-#reviewArea .section-head,
-#reviewHubScreen .section-head,
-#reviewScreenV60 .section-head,
-.screen[id*="review"] .section-head{
-  margin-top:18px!important;
+
+/* Espaço consistente entre Ferramentas avançadas e o bloco inferior */
+#reviewHubV53 .v60-grid{
+  margin-bottom:18px !important;
 }
-#reviewScreen .review-v711-grid,
-#reviewArea .review-v711-grid,
-.screen[id*="review"] .review-v711-grid{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:10px;
+
+#reviewHubV53 .v53-grid{
+  margin-top:0 !important;
 }
-#reviewScreen .v60-list-item,
-#reviewArea .v60-list-item,
-#reviewHubScreen .v60-list-item,
-#reviewScreenV60 .v60-list-item,
-.screen[id*="review"] .v60-list-item{
-  border-radius:15px!important;
-}
+
+/* Mobile-first */
 @media(max-width:390px){
-  #reviewScreen .tools,
-  #reviewArea .tools,
-  #reviewHubScreen .tools,
-  #reviewScreenV60 .tools,
-  .screen[id*="review"] .tools{
-    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  #reviewHubV53 .v60-grid,
+  #reviewHubV53 .v53-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:9px !important;
   }
-  #reviewScreen .tools button,
-  #reviewArea .tools button,
-  #reviewHubScreen .tools button,
-  #reviewScreenV60 .tools button,
-  .screen[id*="review"] .tools button{
-    min-height:126px!important;
-    padding:13px!important;
+
+  #reviewHubV53 .v60-grid article,
+  #reviewHubV53 .v53-grid article{
+    min-height:122px !important;
+    padding:13px !important;
   }
-  #reviewScreen .tools button strong,
-  #reviewArea .tools button strong,
-  #reviewHubScreen .tools button strong,
-  #reviewScreenV60 .tools button strong,
-  .screen[id*="review"] .tools button strong{font-size:12px!important}
+
+  #reviewHubV53 .v60-grid article:nth-child(3){
+    grid-column:1 / -1 !important;
+    min-height:96px !important;
+  }
+}
+
+@media(max-width:330px){
+  #reviewHubV53 .v60-grid,
+  #reviewHubV53 .v53-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  #reviewHubV53 .v60-grid article:nth-child(3){
+    grid-column:auto !important;
+  }
 }
