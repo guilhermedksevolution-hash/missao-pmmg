@@ -1,6 +1,6 @@
 const PASS_SCORE = 70;
 const XP_PER_APPROVAL = 100;
-const TOTAL_LESSONS = 24; // 23 aulas + Prova Final de Português
+const TOTAL_LESSONS = Object.keys(window.lessons||{}).length; // V7: Português dinâmico
 
 let currentLessonNumber = 1;
 let currentSubject = "Português";
@@ -3631,3 +3631,226 @@ document.addEventListener("DOMContentLoaded",()=>{
   }
   updateMathSubjectCardV6502();
 });
+
+
+/* ============================================================
+   MISSÃO PMMG V7.0.0 — PAINEL GLOBAL + SIMULADO + REVISÃO
+   ============================================================ */
+const V7_SUBJECTS = [
+  {name:"Português",source:()=>window.lessons||{},completed:"completedLessons",scores:"scores",icon:"📘"},
+  {name:"Literatura",source:()=>window.literaturaLessons||{},completed:"literatureCompleted",scores:"literatureScores",icon:"📚"},
+  {name:"Inglês",source:()=>window.inglesLessons||{},completed:"englishCompleted",scores:"englishScores",icon:"🇬🇧"},
+  {name:"Direito",source:()=>window.direitoLessons||{},completed:"lawCompleted",scores:"lawScores",icon:"⚖️"},
+  {name:"Matemática",source:()=>window.matematicaLessons||{},completed:"mathCompleted",scores:"mathScores",icon:"🧮"}
+];
+
+function v7SubjectStats(def){
+  const src=def.source(), nums=Object.keys(src).map(Number).filter(Number.isFinite);
+  const completed=(state[def.completed]||[]).filter(n=>src[n]).length;
+  const scores=Object.values(state[def.scores]||{}).filter(v=>typeof v==="number"&&Number.isFinite(v));
+  const avg=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):0;
+  return {name:def.name,icon:def.icon,total:nums.length,completed,avg,pct:nums.length?Math.round(completed/nums.length*100):0,scores};
+}
+function v7AllStats(){
+  const subs=V7_SUBJECTS.map(v7SubjectStats);
+  return {
+    subs,
+    total:subs.reduce((a,s)=>a+s.total,0),
+    completed:subs.reduce((a,s)=>a+s.completed,0),
+    allScores:V7_SUBJECTS.flatMap(d=>Object.values(state[d.scores]||{}).filter(v=>typeof v==="number"&&Number.isFinite(v)))
+  };
+}
+function getAverageScoreV7(){
+  const vals=v7AllStats().allScores;
+  return vals.length?Math.round(vals.reduce((a,b)=>a+b,0)/vals.length):0;
+}
+
+const updateDashboardLegacyV7 = updateDashboard;
+updateDashboard = function(){
+  const g=v7AllStats(), progress=g.total?Math.round(g.completed/g.total*100):0, avg=getAverageScoreV7();
+  setText("streakValue",state.streak);
+  setText("xpValue",`${state.xp} XP`);
+  setText("globalProgressText",`${progress}%`);
+  setText("averageScoreValue",`${avg}%`);
+  setText("completedLessonsValue",g.completed);
+  setText("errorCountValue",state.errors.length);
+  setText("progressSubtitle",`${g.completed} de ${g.total} etapas concluídas`);
+  const pt=g.subs[0];
+  setText("portugueseProgressText",`${pt.completed} de ${pt.total} etapas concluídas`);
+  setWidth("globalProgressBar",progress); setWidth("portugueseProgressBar",pt.pct); setWidth("portugueseProgressBar2",pt.pct);
+
+  const home=document.getElementById("v7HomeSubjects");
+  if(home) home.innerHTML=g.subs.map(s=>`<article><div><span>${s.icon}</span><b>${s.name}</b></div><strong>${s.pct}%</strong><small>${s.completed}/${s.total}</small><div class="bar"><i style="width:${s.pct}%"></i></div></article>`).join("");
+
+  updateDailyMissionV7();
+  if(typeof updateMathSubjectCardV6502==="function") updateMathSubjectCardV6502();
+};
+window.updateDashboard=updateDashboard;
+
+function updateDailyMissionV7(){
+  const title=document.getElementById("dailyMissionTitle"), text=document.getElementById("dailyMissionText");
+  if(!title||!text)return;
+  if(state.errors.length>=5){
+    title.textContent="Ataque seus pontos fracos";
+    text.textContent=`Revise ${Math.min(10,state.errors.length)} questões do Caderno de Erros`;
+    return;
+  }
+  for(const d of V7_SUBJECTS){
+    const src=d.source(), nums=Object.keys(src).map(Number).sort((a,b)=>a-b);
+    const done=state[d.completed]||[];
+    const n=nums.find(x=>!done.includes(x));
+    if(n){
+      title.textContent=`Avance em ${d.name}`;
+      text.textContent=`${d.icon} Aula/etapa ${String(n).padStart(2,"0")} • teoria • vídeo • questões`;
+      return;
+    }
+  }
+  title.textContent="Preparação completa 🏆";
+  text.textContent="Use simulados e revisões para manter o nível.";
+}
+
+const renderPerformanceLegacyV7=renderPerformance;
+renderPerformance=function(){
+  updateDashboard();
+  setText("perfAverage",getAverageScoreV7()+"%");
+  setText("perfErrors",state.errors.length);setText("perfXp",state.xp);setText("perfStreak",state.streak);
+  const g=v7AllStats(), box=document.getElementById("v7SubjectPerformance");
+  if(box) box.innerHTML=g.subs.map(s=>`
+    <article><div><span>${s.icon}</span><div><b>${s.name}</b><small>${s.completed}/${s.total} etapas</small></div></div>
+    <strong>${s.avg}%</strong><div class="bar"><i style="width:${s.pct}%"></i></div><p>${s.pct}% da trilha concluída</p></article>`).join("");
+  const scored=g.subs.filter(s=>s.scores.length);
+  const weak=scored.sort((a,b)=>a.avg-b.avg)[0];
+  setText("v7WeakestSubject",weak?`${weak.icon} ${weak.name} está com a menor média registrada (${weak.avg}%). Priorize revisão e questões dessa matéria.`:"Faça provas para gerar seu diagnóstico por matéria.");
+
+  const history=document.getElementById("scoreHistory");
+  if(history){
+    const rows=[];
+    for(const d of V7_SUBJECTS){
+      const src=d.source(), scores=state[d.scores]||{};
+      Object.keys(scores).map(Number).sort((a,b)=>a-b).forEach(n=>{
+        if(src[n])rows.push({subject:d.name,icon:d.icon,n,title:src[n].title,score:scores[n]});
+      });
+    }
+    history.innerHTML=rows.length?rows.map(r=>`<div class="score-row"><span>${r.icon} ${r.subject} • ${String(r.n).padStart(2,"0")} • ${r.title}</span><strong>${r.score}%</strong></div>`).join(""):`<div class="empty-state"><strong>Nenhuma prova registrada</strong>Suas melhores notas aparecerão aqui.</div>`;
+  }
+};
+window.renderPerformance=renderPerformance;
+
+/* Caderno de erros: IDs únicos para todas as matérias */
+function v7SubjectCode(s){return s==="Português"?"P":s==="Literatura"?"L":s==="Inglês"?"I":s==="Direito"?"D":"M";}
+addError=function(lessonNumber,questionIndex,selectedIndex){
+  const lesson=getLessonData(lessonNumber),q=lesson?.quiz?.[questionIndex]; if(!lesson||!q)return;
+  const id=`${v7SubjectCode(currentSubject)}-${lessonNumber}-${questionIndex}`;
+  state.errors=state.errors.filter(e=>e.id!==id);
+  state.errors.push({id,subject:currentSubject,lessonNumber,lessonTitle:lesson.title,questionIndex,question:q.question,
+    selectedText:q.options[selectedIndex],correctText:q.options[q.answer],explanation:q.explanation||"",tip:q.tip||"",addedAt:Date.now()});
+  saveState();
+};
+removeError=function(lessonNumber,questionIndex){
+  const id=`${v7SubjectCode(currentSubject)}-${lessonNumber}-${questionIndex}`;
+  state.errors=state.errors.filter(e=>e.id!==id);saveState();
+};
+window.addError=addError;window.removeError=removeError;
+
+let v7ErrorFilter="Todos";
+function setErrorFilterV7(subject,btn){
+  v7ErrorFilter=subject;
+  document.querySelectorAll(".v7-error-filters button").forEach(b=>b.classList.remove("active"));
+  btn?.classList.add("active");renderErrorNotebook();
+}
+window.setErrorFilterV7=setErrorFilterV7;
+renderErrorNotebook=function(){
+  const el=document.getElementById("errorNotebookList"), counter=document.getElementById("errorNotebookCounter");if(!el)return;
+  const all=state.errors||[], list=v7ErrorFilter==="Todos"?all:all.filter(e=>e.subject===v7ErrorFilter);
+  if(counter)counter.textContent=`${list.length} ${list.length===1?"questão":"questões"}`;
+  if(!list.length){el.innerHTML=`<div class="empty-state"><strong>Nenhuma questão aqui 🎯</strong>${v7ErrorFilter==="Todos"?"Seu caderno está limpo.":"Nenhum erro registrado em "+v7ErrorFilter+"."}</div>`;return;}
+  el.innerHTML=[...list].sort((a,b)=>b.addedAt-a.addedAt).map(e=>`
+    <article class="error-card"><div class="error-meta">${e.subject.toUpperCase()} • AULA ${String(e.lessonNumber).padStart(2,"0")} • ${e.lessonTitle}</div>
+    <h3>${e.question}</h3><div class="wrong-answer"><strong>Sua resposta:</strong> ${e.selectedText}</div>
+    <div class="correct-answer"><strong>Correta:</strong> ${e.correctText}</div>
+    ${e.explanation?`<div class="error-explanation"><strong>Por quê?</strong> ${e.explanation}</div>`:""}
+    ${e.tip?`<div class="mini-tip"><strong>💡 Dica:</strong> ${e.tip}</div>`:""}</article>`).join("");
+};
+window.renderErrorNotebook=renderErrorNotebook;
+
+/* Pool global de questões */
+function getSimulationPoolV7(subject="Todos"){
+  const pool=[];
+  for(const d of V7_SUBJECTS){
+    if(subject!=="Todos"&&subject!==d.name)continue;
+    const src=d.source();
+    Object.keys(src).forEach(k=>{
+      const lesson=src[k];
+      (lesson.quiz||[]).forEach((q,qi)=>pool.push({
+        subject:d.name,lessonNumber:Number(k),lessonTitle:lesson.title,questionIndex:qi,
+        question:q.question,options:[...q.options],answer:q.answer,explanation:q.explanation||"",tip:q.tip||""
+      }));
+    });
+  }
+  return pool;
+}
+getSimulationPoolV510=function(){return getSimulationPoolV7("Todos")};
+window.getSimulationPoolV510=getSimulationPoolV510;
+
+function v7ShuffleQuestion(q){
+  const tagged=q.options.map((text,i)=>({text,correct:i===q.answer})).sort(()=>Math.random()-.5);
+  return {...q,options:tagged.map(x=>x.text),answer:tagged.findIndex(x=>x.correct)};
+}
+function startGeneralSimulationV7(){
+  const pool=getSimulationPoolV7("Todos");
+  if(pool.length<50){alert("Ainda não há 50 questões disponíveis.");return;}
+  simQuestionsV510=[...pool].sort(()=>Math.random()-.5).slice(0,50).map(v7ShuffleQuestion);
+  simAnswersV510=new Array(50).fill(null);simIndexV510=0;simSecondsV510=5400;simStartedAtV510=Date.now();
+  clearInterval(simTimerV510);setText("simTitleV510","Simulado Geral PMMG");showScreen("simulationScreenV510","navTrain");
+  renderSimulationQuestionV510();updateSimulationClockV510();
+  simTimerV510=setInterval(()=>{simSecondsV510--;updateSimulationClockV510();if(simSecondsV510<=0){clearInterval(simTimerV510);simTimerV510=null;finishSimulationV510(true)}},1000);
+}
+window.startGeneralSimulationV7=startGeneralSimulationV7;
+
+function openQuestionBankV7(){
+  const total=getSimulationPoolV7("Todos").length;setText("v7BankTotal",`${total} questões disponíveis`);
+  showScreen("questionBankV7","navTrain");scrollTo(0,0);
+}
+function startQuestionBankV7(){
+  const subject=document.getElementById("v7BankSubject")?.value||"Todos",count=Number(document.getElementById("v7BankCount")?.value||10);
+  const pool=getSimulationPoolV7(subject);
+  if(!pool.length){alert("Sem questões nessa matéria.");return;}
+  simQuestionsV510=[...pool].sort(()=>Math.random()-.5).slice(0,Math.min(count,pool.length)).map(v7ShuffleQuestion);
+  simAnswersV510=new Array(simQuestionsV510.length).fill(null);simIndexV510=0;simSecondsV510=Math.max(300,simQuestionsV510.length*90);simStartedAtV510=Date.now();
+  clearInterval(simTimerV510);setText("simTitleV510",subject==="Todos"?"Banco misto":`Banco • ${subject}`);
+  showScreen("simulationScreenV510","navTrain");renderSimulationQuestionV510();updateSimulationClockV510();
+  simTimerV510=setInterval(()=>{simSecondsV510--;updateSimulationClockV510();if(simSecondsV510<=0){clearInterval(simTimerV510);simTimerV510=null;finishSimulationV510(true)}},1000);
+}
+window.openQuestionBankV7=openQuestionBankV7;window.startQuestionBankV7=startQuestionBankV7;
+
+/* Configurado 2.0 agora usa todas as matérias quando "misto" */
+if(typeof startConfiguredSimulationV622==="function"){
+  const oldStartConfiguredV7=startConfiguredSimulationV622;
+  startConfiguredSimulationV622=function(type){
+    if(type==="portugues")return oldStartConfiguredV7(type);
+    const count=Number(document.getElementById("sim621QuestionCount")?.value||10);
+    const mins=Number(document.getElementById("sim621Minutes")?.value||15);
+    const pool=getSimulationPoolV7("Todos");
+    simQuestionsV510=[...pool].sort(()=>Math.random()-.5).slice(0,Math.min(count,pool.length)).map(v7ShuffleQuestion);
+    simAnswersV510=new Array(simQuestionsV510.length).fill(null);simIndexV510=0;simSecondsV510=mins*60;simStartedAtV510=Date.now();
+    clearInterval(simTimerV510);setText("simTitleV510","Misto • Todas as matérias");showScreen("simulationScreenV510","navTrain");
+    renderSimulationQuestionV510();updateSimulationClockV510();
+    simTimerV510=setInterval(()=>{simSecondsV510--;updateSimulationClockV510();if(simSecondsV510<=0){clearInterval(simTimerV510);simTimerV510=null;finishSimulationV510(true)}},1000);
+  };
+  window.startConfiguredSimulationV622=startConfiguredSimulationV622;
+}
+
+/* Reset V7: mantém perfil + LOGIN + preferências */
+resetPreparation638=function(){
+  if(!confirm("⚠️ Reiniciar toda a preparação?\n\nProgresso, notas, XP, sequência, simulados, revisões e erros serão apagados.\n\nPerfil, foto e acesso serão preservados."))return;
+  if(!confirm("🚨 CONFIRMAÇÃO FINAL\n\nDeseja realmente voltar ao início dos estudos?"))return;
+  const keepKeys=["pmmg_profile_v633","pmmg_study_goals_v636","pmmg_daily_goal","pmmg_exam_date","pmmg_auth_v6493"];
+  const preserved={};keepKeys.forEach(k=>{const v=localStorage.getItem(k);if(v!==null)preserved[k]=v});
+  const remove=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k&&(k==="missaoPMMGState"||k==="errorNotebook"||k==="xp"||k.startsWith("bestScore")||k.startsWith("pmmg_")))remove.push(k)}
+  remove.forEach(k=>localStorage.removeItem(k));Object.entries(preserved).forEach(([k,v])=>localStorage.setItem(k,v));
+  const fresh=defaultState();Object.keys(state).forEach(k=>delete state[k]);Object.assign(state,fresh);saveState();
+  if(typeof renderProfile633==="function")renderProfile633();updateDashboard();alert("✅ Preparação reiniciada. Perfil e login foram mantidos.");goHome();
+};
+window.resetPreparation638=resetPreparation638;
+
+document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{updateDashboard();if(document.getElementById("v7BankTotal"))setText("v7BankTotal",`${getSimulationPoolV7("Todos").length} questões disponíveis`)},80)});
