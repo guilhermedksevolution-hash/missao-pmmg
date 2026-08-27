@@ -1146,3 +1146,20 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 .v7-bank-card select{width:100%;margin-top:5px;padding:11px;border-radius:11px;border:1px solid var(--line);background:#0d1727;color:var(--text)}
 .v7-bank-info b{font-size:11px;color:var(--gold)}
 @media(max-width:390px){.v7-home-subjects{grid-template-columns:1fr}.v7-error-filters span{width:100%;margin-left:0}}
+
+/* ============================================================
+   MISSÃO PMMG V7.1 — adaptativo, revisão, backup
+   ============================================================ */
+.v71-weak-train{width:100%;margin:10px 0;padding:13px;border-radius:13px;background:linear-gradient(#dcc487,#bea05f);color:#17120a;font-weight:900}
+.v71-review-form{display:grid;gap:8px}.v71-review-form select{width:100%;margin-top:5px;padding:10px;border:1px solid var(--line);border-radius:10px;background:#0d1727;color:var(--text)}
+.v71-review-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:10px 0}
+.v71-review-summary article{text-align:center;padding:11px;border:1px solid var(--line);border-radius:13px;background:var(--card)}
+.v71-review-summary strong{display:block;color:var(--gold);font-size:18px}.v71-review-summary small{color:var(--muted);font-size:7px}
+.v71-due{border-color:rgba(223,102,90,.45)!important;background:linear-gradient(145deg,rgba(150,45,35,.10),var(--card))!important}
+.v71-backup-card{margin-top:10px;padding:15px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.v71-backup-card h3{font-size:13px;margin:5px 0}.v71-backup-card p,.v71-backup-card small{font-size:8px;color:var(--muted);line-height:1.5}
+.v71-backup-actions{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:11px 0 7px}
+.v71-backup-actions button{padding:11px 8px;border-radius:11px;border:1px solid var(--line);background:#172338;font-size:8px;font-weight:900}
+#errorsProScreenV60 .v60-filter-row{display:flex;flex-wrap:wrap;gap:5px}
+#errorsProScreenV60 .v60-filter-row button{font-size:7px}
+@media(max-width:380px){.v71-review-summary{grid-template-columns:1fr}.v71-backup-actions{grid-template-columns:1fr}}
