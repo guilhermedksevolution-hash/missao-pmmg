@@ -4447,12 +4447,28 @@ function v750Next(){
     const n=ns.find(x=>!done.includes(x));if(n)o.push({type:"lesson",subject:d.name,icon:d.icon||"📘",lesson:n,title:s[n]?.title||`Aula ${n}`,label:"Próxima aula",p:20})
   });return o
 }
+function v760SubjectScore(subject){
+  const rows=v750Weak().filter(x=>x.subject===subject), scores=rows.map(x=>Number(x.score)).filter(Number.isFinite);
+  return scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null;
+}
 function v750Plan(){
   let a=[];
-  v750Due().slice(0,3).forEach(x=>a.push({type:"review",subject:x.subject||"Revisão",icon:"🧠",lesson:+x.lesson||1,title:x.title||"Revisão programada",label:"Revisão vencida",p:100}));
-  v750Weak().slice(0,4).forEach(x=>a.push({type:"weak",subject:x.subject,icon:x.icon||"🎯",lesson:x.lesson,title:x.title,label:`Ponto fraco${x.score!==null?" • "+x.score+"%":""}`,p:70+(+x.weakness||0)/10}));
-  a.push(...v750Next());a.sort((x,y)=>y.p-x.p);
-  const seen=new Set();return a.filter(x=>{const k=x.subject+"|"+x.lesson;if(seen.has(k))return false;seen.add(k);return true})
+  v750Due().forEach(x=>{
+    const days=x.due?Math.max(0,Math.floor((Date.now()-new Date(x.due+"T00:00:00").getTime())/86400000)):0;
+    a.push({type:"review",subject:x.subject||"Revisão",icon:"🧠",lesson:+x.lesson||1,title:x.title||"Revisão programada",label:days?`Revisão vencida há ${days} dia(s)`:"Revisão para hoje",p:120+Math.min(days,30)});
+  });
+  v750Weak().forEach(x=>{
+    const score=Number(x.score), weakness=Number.isFinite(score)?Math.max(0,100-score):(Number(x.weakness)||40);
+    a.push({type:"weak",subject:x.subject,icon:x.icon||"🎯",lesson:x.lesson,title:x.title,label:Number.isFinite(score)?`Ponto fraco • ${score}%`:"Ponto fraco pendente",p:75+weakness});
+  });
+  v750Next().forEach(x=>{
+    const avg=v760SubjectScore(x.subject), boost=Number.isFinite(avg)?Math.max(0,70-avg)/5:0;
+    a.push({...x,p:25+boost});
+  });
+  a.sort((x,y)=>y.p-x.p);
+  const seen=new Set(),out=[];
+  for(const x of a){const k=x.subject+"|"+x.lesson;if(seen.has(k))continue;seen.add(k);out.push(x)}
+  return out;
 }
 function v750Open(s,l,t){
   if(t==="review"&&typeof openRevisionScheduleV60==="function"){openRevisionScheduleV60();return}
@@ -4471,3 +4487,23 @@ window.renderScheduleV750=renderScheduleV750;
 const v750Base=window.renderSmartPlan632;
 if(typeof v750Base==="function"){window.renderSmartPlan632=function(){const r=v750Base.apply(this,arguments);try{renderScheduleV750()}catch(e){}return r};renderSmartPlan632=window.renderSmartPlan632}
 document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderScheduleV750()}catch(e){}},180));
+
+/* V7.6 — explicação segura do cronograma */
+function renderPlanExplanationV760(){
+  const due=v750Due().length,weak=v750Weak().length,next=v750Next().length;
+  const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+  put("v760DueBadge",`${due} ${due===1?"revisão":"revisões"}`);
+  put("v760WeakBadge",`${weak} ${weak===1?"ponto fraco":"pontos fracos"}`);
+  put("v760NextBadge",`${next} ${next===1?"próxima aula":"próximas aulas"}`);
+  let reason="Sem pendências críticas: o plano está priorizando avanço nas próximas aulas.";
+  if(due)reason=`Há ${due} revisão(ões) vencida(s); elas recebem prioridade máxima antes de conteúdo novo.`;
+  else if(weak)reason=`Há ${weak} ponto(s) fraco(s); as menores notas recebem prioridade primeiro.`;
+  put("v760PlanReason",reason);
+}
+window.renderPlanExplanationV760=renderPlanExplanationV760;
+const renderScheduleV760Base=window.renderScheduleV750;
+if(typeof renderScheduleV760Base==="function"){
+  window.renderScheduleV750=function(){const r=renderScheduleV760Base.apply(this,arguments);try{renderPlanExplanationV760()}catch(e){}return r};
+  renderScheduleV750=window.renderScheduleV750;
+}
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderPlanExplanationV760()}catch(e){}},220));
