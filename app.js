@@ -3526,6 +3526,8 @@ function setLoginGate6493(show){
   const gate=document.getElementById("loginGate6493");
   if(!gate)return;
   gate.classList.toggle("is-hidden",!show);
+  gate.style.display=show?"block":"none";
+  gate.setAttribute("aria-hidden",show?"false":"true");
   document.documentElement.classList.toggle("login6493-locked",show);
   document.body.classList.toggle("login6493-locked",show);
   if(show){
@@ -3539,8 +3541,13 @@ function login6493Submit(ev){
   const err=document.getElementById("login6493Error");
   if(user===PMMG_LOGIN_6493 && pass===PMMG_PASSWORD_6493){
     localStorage.setItem(PMMG_AUTH_KEY_6493,"1");
+    sessionStorage.setItem(PMMG_AUTH_KEY_6493,"1");
     if(err)err.textContent="";
     setLoginGate6493(false);
+    requestAnimationFrame(()=>{
+      const gate=document.getElementById("loginGate6493");
+      if(gate) gate.style.display="none";
+    });
     return false;
   }
   if(err)err.textContent="Login ou senha incorretos.";
@@ -3555,7 +3562,7 @@ function togglePassword6493(){
   if(p)p.type=p.type==="password"?"text":"password";
 }
 function logout6493(){
-  localStorage.removeItem(PMMG_AUTH_KEY_6493);
+  localStorage.removeItem(PMMG_AUTH_KEY_6493); sessionStorage.removeItem(PMMG_AUTH_KEY_6493);
   setLoginGate6493(true);
   const p=document.getElementById("login6493Pass");
   if(p)p.value="";
@@ -3564,7 +3571,11 @@ function logout6493(){
   scrollTo(0,0);
 }
 function initLogin6493(){
-  const ok=localStorage.getItem(PMMG_AUTH_KEY_6493)==="1";
+  let ok=false;
+  try{
+    ok=localStorage.getItem(PMMG_AUTH_KEY_6493)==="1" ||
+       sessionStorage.getItem(PMMG_AUTH_KEY_6493)==="1";
+  }catch(e){}
   setLoginGate6493(!ok);
 }
 window.login6493Submit=login6493Submit;
