@@ -4433,3 +4433,41 @@ document.addEventListener("DOMContentLoaded",()=>{
     }
   },150);
 });
+
+
+/* V7.5.0 — CRONOGRAMA INTELIGENTE */
+function v750Due(){
+  let a=[];try{a=JSON.parse(localStorage.getItem("pmmg_spaced_reviews_v71")||"[]");if(!Array.isArray(a))a=[]}catch(e){}
+  const t=new Date().toISOString().slice(0,10);return a.filter(x=>!x.done&&x.due&&x.due<=t)
+}
+function v750Weak(){try{return (typeof getWeakDataV71==="function"?getWeakDataV71():getWeakData631()).filter(x=>x.score!==null||x.pending>0)}catch(e){return []}}
+function v750Next(){
+  const o=[];(typeof V7_SUBJECTS!=="undefined"?V7_SUBJECTS:[]).forEach(d=>{
+    const s=d.source?d.source():{}, ns=Object.keys(s).map(Number).sort((a,b)=>a-b), done=Array.isArray(state?.[d.completed])?state[d.completed].map(Number):[];
+    const n=ns.find(x=>!done.includes(x));if(n)o.push({type:"lesson",subject:d.name,icon:d.icon||"📘",lesson:n,title:s[n]?.title||`Aula ${n}`,label:"Próxima aula",p:20})
+  });return o
+}
+function v750Plan(){
+  let a=[];
+  v750Due().slice(0,3).forEach(x=>a.push({type:"review",subject:x.subject||"Revisão",icon:"🧠",lesson:+x.lesson||1,title:x.title||"Revisão programada",label:"Revisão vencida",p:100}));
+  v750Weak().slice(0,4).forEach(x=>a.push({type:"weak",subject:x.subject,icon:x.icon||"🎯",lesson:x.lesson,title:x.title,label:`Ponto fraco${x.score!==null?" • "+x.score+"%":""}`,p:70+(+x.weakness||0)/10}));
+  a.push(...v750Next());a.sort((x,y)=>y.p-x.p);
+  const seen=new Set();return a.filter(x=>{const k=x.subject+"|"+x.lesson;if(seen.has(k))return false;seen.add(k);return true})
+}
+function v750Open(s,l,t){
+  if(t==="review"&&typeof openRevisionScheduleV60==="function"){openRevisionScheduleV60();return}
+  if(typeof openSubjectLessonV71==="function"){openSubjectLessonV71(s,l);return}
+}
+window.v750Open=v750Open;
+function renderScheduleV750(){
+  const p=v750Plan(),due=v750Due().length,weak=v750Weak().length;
+  const title=document.getElementById("v750DailyTitle"),text=document.getElementById("v750DailyText"),steps=document.getElementById("v750DailySteps"),q=document.getElementById("v750Queue");if(!steps||!q)return;
+  title.textContent=due?"Prioridade: revisões":weak?"Prioridade: pontos fracos":"Prioridade: avançar";
+  text.textContent=due?`${due} revisão(ões) vencida(s). Elas vêm antes do conteúdo novo.`:weak?"O plano priorizou os assuntos com menor desempenho.":"Sem pendências críticas. Continue nas próximas aulas.";
+  steps.innerHTML=p.slice(0,3).map((x,i)=>`<article><span class="v750-order">${i+1}</span><div><b>${x.icon} ${x.subject} • ${x.title}</b><small>${x.label}</small></div><button onclick='v750Open(${JSON.stringify(x.subject)},${x.lesson},${JSON.stringify(x.type)})'>Abrir</button></article>`).join("")||'<div class="empty-state">Nenhuma prioridade pendente.</div>';
+  q.innerHTML=p.slice(3,9).map(x=>`<article><span>${x.icon}</span><div><b>${x.subject} • ${x.title}</b><small>${x.label}</small></div><button onclick='v750Open(${JSON.stringify(x.subject)},${x.lesson},${JSON.stringify(x.type)})'>→</button></article>`).join("")||'<div class="empty-state">Fila vazia.</div>'
+}
+window.renderScheduleV750=renderScheduleV750;
+const v750Base=window.renderSmartPlan632;
+if(typeof v750Base==="function"){window.renderSmartPlan632=function(){const r=v750Base.apply(this,arguments);try{renderScheduleV750()}catch(e){}return r};renderSmartPlan632=window.renderSmartPlan632}
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderScheduleV750()}catch(e){}},180));
