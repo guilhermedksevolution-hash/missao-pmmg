@@ -40,7 +40,7 @@ function defaultState(){
     errors:[],
     literatureUnlocked:[1],
     literatureCompleted:[],
-    literatureScores:{},englishUnlocked:[1],englishCompleted:[],englishScores:{},lawUnlocked:[1],lawCompleted:[],lawScores:{}
+    literatureScores:{},englishUnlocked:[1],englishCompleted:[],englishScores:{},lawUnlocked:[1],lawCompleted:[],lawScores:{},mathUnlocked:[1],mathCompleted:[],mathScores:{}
   };
 }
 
@@ -58,7 +58,7 @@ function loadState(){
       errors:Array.isArray(parsed.errors)?parsed.errors:[],
       literatureUnlocked:Array.isArray(parsed.literatureUnlocked)?parsed.literatureUnlocked:[1],
       literatureCompleted:Array.isArray(parsed.literatureCompleted)?parsed.literatureCompleted:[],
-      literatureScores:parsed.literatureScores||{},englishUnlocked:Array.isArray(parsed.englishUnlocked)?parsed.englishUnlocked:[1],englishCompleted:Array.isArray(parsed.englishCompleted)?parsed.englishCompleted:[],englishScores:parsed.englishScores||{},lawUnlocked:Array.isArray(parsed.lawUnlocked)?parsed.lawUnlocked:[1],lawCompleted:Array.isArray(parsed.lawCompleted)?parsed.lawCompleted:[],lawScores:parsed.lawScores||{}
+      literatureScores:parsed.literatureScores||{},englishUnlocked:Array.isArray(parsed.englishUnlocked)?parsed.englishUnlocked:[1],englishCompleted:Array.isArray(parsed.englishCompleted)?parsed.englishCompleted:[],englishScores:parsed.englishScores||{},lawUnlocked:Array.isArray(parsed.lawUnlocked)?parsed.lawUnlocked:[1],lawCompleted:Array.isArray(parsed.lawCompleted)?parsed.lawCompleted:[],lawScores:parsed.lawScores||{},mathUnlocked:Array.isArray(parsed.mathUnlocked)?parsed.mathUnlocked:[1],mathCompleted:Array.isArray(parsed.mathCompleted)?parsed.mathCompleted:[],mathScores:parsed.mathScores||{}
     };
   }catch(e){
     console.error(e);
@@ -103,10 +103,11 @@ function getLessonData(n){
   if(currentSubject==="Literatura") return window.literaturaLessons?.[n]||null;
   if(currentSubject==="Inglês") return window.inglesLessons?.[n]||null;
   if(currentSubject==="Direito") return window.direitoLessons?.[n]||null;
+  if(currentSubject==="Matemática") return window.matematicaLessons?.[n]||null;
   return window.lessons?.[n]||null;
 }
 function getLessonNumbers(subject=currentSubject){
-  const source=subject==="Literatura"?window.literaturaLessons:(subject==="Inglês"?window.inglesLessons:(subject==="Direito"?window.direitoLessons:window.lessons));
+  const source=subject==="Literatura"?window.literaturaLessons:(subject==="Inglês"?window.inglesLessons:(subject==="Direito"?window.direitoLessons:(subject==="Matemática"?window.matematicaLessons:window.lessons)));
   if(!source) return [];
   return Object.keys(source).map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
 }
@@ -114,13 +115,13 @@ function getAllLessonNumbers(){
   return window.lessons?Object.keys(window.lessons).map(Number).filter(Number.isFinite).sort((a,b)=>a-b):[];
 }
 function activeUnlocked(){
-  return currentSubject==="Literatura"?state.literatureUnlocked:(currentSubject==="Inglês"?state.englishUnlocked:(currentSubject==="Direito"?state.lawUnlocked:state.unlockedLessons));
+  return currentSubject==="Literatura"?state.literatureUnlocked:(currentSubject==="Inglês"?state.englishUnlocked:(currentSubject==="Direito"?state.lawUnlocked:(currentSubject==="Matemática"?state.mathUnlocked:state.unlockedLessons)));
 }
 function activeCompleted(){
-  return currentSubject==="Literatura"?state.literatureCompleted:(currentSubject==="Inglês"?state.englishCompleted:(currentSubject==="Direito"?state.lawCompleted:state.completedLessons));
+  return currentSubject==="Literatura"?state.literatureCompleted:(currentSubject==="Inglês"?state.englishCompleted:(currentSubject==="Direito"?state.lawCompleted:(currentSubject==="Matemática"?state.mathCompleted:state.completedLessons)));
 }
 function activeScores(){
-  return currentSubject==="Literatura"?state.literatureScores:(currentSubject==="Inglês"?state.englishScores:(currentSubject==="Direito"?state.lawScores:state.scores));
+  return currentSubject==="Literatura"?state.literatureScores:(currentSubject==="Inglês"?state.englishScores:(currentSubject==="Direito"?state.lawScores:(currentSubject==="Matemática"?state.mathScores:state.scores)));
 }
 function isLessonUnlocked(n){
   const nums=getLessonNumbers();
@@ -3570,3 +3571,30 @@ window.login6493Submit=login6493Submit;
 window.togglePassword6493=togglePassword6493;
 window.logout6493=logout6493;
 document.addEventListener("DOMContentLoaded",initLogin6493);
+
+/* V6.5.0 — Raciocínio Lógico-Matemático */
+function renderMathTrailV650(){
+  currentSubject="Matemática";
+  const nums=getLessonNumbers("Matemática"),box=document.getElementById("mathLessonListV650");
+  if(!box)return;
+  if(!Array.isArray(state.mathUnlocked))state.mathUnlocked=[1];
+  if(!state.mathUnlocked.includes(1))state.mathUnlocked.push(1);
+  nums.forEach((n,i)=>{
+    const s=Number(state.mathScores?.[n]);
+    const passed=(Number.isFinite(s)&&s>=PASS_SCORE)||state.mathCompleted.includes(n);
+    if(passed&&nums[i+1]&&!state.mathUnlocked.includes(nums[i+1]))state.mathUnlocked.push(nums[i+1]);
+  });
+  saveState();
+  const done=nums.filter(n=>state.mathCompleted.includes(n)).length,pct=nums.length?Math.round(done/nums.length*100):0;
+  const p=document.getElementById("mathProgressTextV650"),d=document.getElementById("mathDoneTextV650");
+  if(p)p.textContent=pct+"%";if(d)d.textContent=`${done}/${nums.length}`;
+  box.innerHTML=nums.map(n=>{
+    const l=window.matematicaLessons[n],u=n===1||state.mathUnlocked.includes(n),c=state.mathCompleted.includes(n),score=state.mathScores?.[n];
+    return `<article class="lesson-card ${!u?"locked":""} ${c?"completed":""}" ${u?`onclick="openMathLessonV650(${n})"`:""}>
+      <div class="lesson-number">${n===31?"🏆":String(n).padStart(2,"0")}</div>
+      <div class="lesson-card-content"><h3>${l.title}</h3><p>${l.subtitle} • ${l.time}</p><p>${c?"Concluída":u?"Disponível":"Bloqueada"}</p>${typeof score==="number"?`<span class="score-badge">Melhor nota: ${score}%</span>`:""}${!u?'<div class="lock-message">Atinga 70% na aula anterior.</div>':""}</div>
+      <div class="lesson-card-status">${c?"✓":u?"›":"🔒"}</div></article>`;
+  }).join("");
+}
+window.openMathLessonV650=n=>{currentSubject="Matemática";openLesson(n)};
+window.openMathV650=()=>{currentSubject="Matemática";renderMathTrailV650();showScreen("mathTrailScreenV650","navStudy");scrollTo(0,0)};
