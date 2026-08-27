@@ -4507,3 +4507,74 @@ if(typeof renderScheduleV760Base==="function"){
   renderScheduleV750=window.renderScheduleV750;
 }
 document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderPlanExplanationV760()}catch(e){}},220));
+
+
+/* ============================================================
+   MISSÃO PMMG V7.7.0 — MISSÃO SEMANAL
+   Somente leitura dos dados já existentes. Não altera navegação.
+   ============================================================ */
+function v770ParseArray(key){
+  try{const x=JSON.parse(localStorage.getItem(key)||"[]");return Array.isArray(x)?x:[]}catch(e){return []}
+}
+function v770DateOf(x){
+  const raw=x?.date||x?.createdAt||x?.timestamp||x?.finishedAt||x?.completedAt;
+  const d=raw?new Date(raw):null;
+  return d && Number.isFinite(d.getTime()) ? d : null;
+}
+function v770StartOfWeek(){
+  const d=new Date(), day=(d.getDay()+6)%7;
+  d.setHours(0,0,0,0); d.setDate(d.getDate()-day); return d;
+}
+function renderWeeklyMissionV770(){
+  const start=v770StartOfWeek().getTime();
+
+  // Activities recorded by the site's existing history.
+  const hist=v770ParseArray("pmmg_history_v60");
+  const weekActivities=hist.filter(x=>{const d=v770DateOf(x);return d&&d.getTime()>=start}).length;
+  const studyDone=Math.min(3,weekActivities);
+
+  // Simulations recorded by the existing V7.2 history.
+  const sims=v770ParseArray("pmmg_sim_history_v72");
+  const weekSims=sims.filter(x=>{const d=v770DateOf(x);return d&&d.getTime()>=start}).length;
+  const simDone=Math.min(1,weekSims);
+
+  // Existing adaptive schedule already knows overdue reviews.
+  let due=0;
+  try{due=typeof v750Due==="function"?v750Due().length:0}catch(e){}
+  const reviewDone=due===0?1:0;
+
+  const points=studyDone+simDone+reviewDone;
+  const total=5;
+  const pct=Math.round(points/total*100);
+  const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+
+  put("v770WeekPct",pct+"%");
+  put("v770StudyGoal",`${studyDone}/3 concluída${studyDone===1?"":"s"}`);
+  put("v770SimGoal",`${simDone}/1 concluído`);
+  put("v770ReviewGoal",due===0?"Nenhuma revisão vencida":`${due} revisão(ões) vencida(s)`);
+  put("v770StudyCheck",studyDone>=3?"✓":"○");
+  put("v770SimCheck",simDone>=1?"✓":"○");
+  put("v770ReviewCheck",reviewDone?"✓":"○");
+
+  const bar=document.getElementById("v770WeekBar");
+  if(bar)bar.style.width=pct+"%";
+
+  let msg="Comece pelas prioridades do Plano de hoje.";
+  if(pct===100)msg="Missão semanal concluída. Continue mantendo a preparação em dia.";
+  else if(due>0)msg="Há revisão vencida: ela é a prioridade para avançar na missão semanal.";
+  else if(studyDone<3)msg=`Faltam ${3-studyDone} atividade(s) de estudo para a meta semanal.`;
+  else if(simDone<1)msg="Sua próxima meta semanal é realizar 1 simulado.";
+  put("v770WeekMessage",msg);
+}
+window.renderWeeklyMissionV770=renderWeeklyMissionV770;
+
+const renderScheduleV770Base=window.renderScheduleV750;
+if(typeof renderScheduleV770Base==="function"){
+  window.renderScheduleV750=function(){
+    const r=renderScheduleV770Base.apply(this,arguments);
+    try{renderWeeklyMissionV770()}catch(e){}
+    return r;
+  };
+  renderScheduleV750=window.renderScheduleV750;
+}
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderWeeklyMissionV770()}catch(e){}},260));
