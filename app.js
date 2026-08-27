@@ -3513,3 +3513,60 @@ function renderLawTrailV648(){
 }
 window.openLawLessonV648=n=>{currentSubject="Direito";openLesson(n)};
 window.openLawV648=()=>{currentSubject="Direito";renderLawTrailV648();showScreen("lawTrailScreenV648","navStudy");scrollTo(0,0)};
+
+/* ==========================================================
+   V6.4.9.3 — TELA DE LOGIN PRIVADA (SITE ESTÁTICO)
+   ========================================================== */
+const PMMG_LOGIN_6493 = "35997772422";
+const PMMG_PASSWORD_6493 = "Luana09.";
+const PMMG_AUTH_KEY_6493 = "pmmg_auth_v6493";
+
+function setLoginGate6493(show){
+  const gate=document.getElementById("loginGate6493");
+  if(!gate)return;
+  gate.classList.toggle("is-hidden",!show);
+  document.documentElement.classList.toggle("login6493-locked",show);
+  document.body.classList.toggle("login6493-locked",show);
+  if(show){
+    setTimeout(()=>document.getElementById("login6493User")?.focus(),120);
+  }
+}
+function login6493Submit(ev){
+  ev?.preventDefault();
+  const user=(document.getElementById("login6493User")?.value||"").trim();
+  const pass=document.getElementById("login6493Pass")?.value||"";
+  const err=document.getElementById("login6493Error");
+  if(user===PMMG_LOGIN_6493 && pass===PMMG_PASSWORD_6493){
+    localStorage.setItem(PMMG_AUTH_KEY_6493,"1");
+    if(err)err.textContent="";
+    setLoginGate6493(false);
+    return false;
+  }
+  if(err)err.textContent="Login ou senha incorretos.";
+  const card=document.querySelector(".login6493-card");
+  card?.classList.remove("login6493-shake");
+  void card?.offsetWidth;
+  card?.classList.add("login6493-shake");
+  return false;
+}
+function togglePassword6493(){
+  const p=document.getElementById("login6493Pass");
+  if(p)p.type=p.type==="password"?"text":"password";
+}
+function logout6493(){
+  localStorage.removeItem(PMMG_AUTH_KEY_6493);
+  setLoginGate6493(true);
+  const p=document.getElementById("login6493Pass");
+  if(p)p.value="";
+  const u=document.getElementById("login6493User");
+  if(u)u.value="";
+  scrollTo(0,0);
+}
+function initLogin6493(){
+  const ok=localStorage.getItem(PMMG_AUTH_KEY_6493)==="1";
+  setLoginGate6493(!ok);
+}
+window.login6493Submit=login6493Submit;
+window.togglePassword6493=togglePassword6493;
+window.logout6493=logout6493;
+document.addEventListener("DOMContentLoaded",initLogin6493);
