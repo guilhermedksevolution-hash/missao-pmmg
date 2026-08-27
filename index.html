@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.4.7.1">
+<link rel="stylesheet" href="style.css?v=6.4.9">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.4.7.1</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.4.9</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -61,6 +61,18 @@
 </section>
 
 
+<section id="lawTrailScreenV648" class="screen">
+  <div class="page-head">
+    <button onclick="showScreen('subjectsScreen','navStudy')">←</button>
+    <div><span class="kicker">NOÇÕES DE DIREITO E DIREITOS HUMANOS • PMMG</span><h2>Trilha de Direito</h2></div>
+  </div>
+  <div class="rule"><b>🎯 Meta de aprovação</b><span>70% libera a próxima aula.</span></div>
+  <div class="literature-v6443-summary">
+    <div><span>PROGRESSO</span><strong id="lawProgressTextV648">0%</strong></div>
+    <div><span>CONCLUÍDAS</span><strong id="lawDoneTextV648">0/13</strong></div>
+  </div>
+  <div id="lawLessonListV648" class="lesson-list"></div>
+</section>
 <section id="englishTrailScreenV646" class="screen"><div class="page-head"><button onclick="showScreen('subjectsScreen','navStudy')">←</button><div><span class="kicker">INGLÊS • PMMG</span><h2>Trilha de Inglês</h2></div></div><div class="rule"><b>🎯 Meta</b><span>70% libera a próxima aula.</span></div><div id="englishLessonListV646" class="lesson-list"></div></section><section id="literatureTrailScreenV6443" class="screen">
   <div class="page-head">
     <button onclick="showScreen('subjectsScreen','navStudy')">←</button>
@@ -248,7 +260,7 @@
 
 <section id="studyHubV53" class="screen v53-screen">
   <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>ESTUDAR</span><h2>Central de aprendizado</h2><p>Organize sua teoria antes de partir para as questões.</p></div></div>
-  <div class="v53-feature" onclick="openSubjects()"><b>📘 Matérias e aulas</b><p>Português, Literatura e Inglês.</p><em>0 de 3 matérias concluídas ›</em></div>
+  <div class="v53-feature" onclick="openSubjects()"><b>📘 Matérias e aulas</b><p>Português, Literatura, Inglês e Direito.</p><em>0 de 4 matérias concluídas ›</em></div>
   <div class="v60-section-label"><span class="kicker">ORGANIZAÇÃO</span><h3>Planejamento</h3></div>
   <div class="v60-grid">
     <article onclick="openCalendarV60()"><b>📅 Calendário</b><p>Visualize estudo e revisões.</p></article>
@@ -817,5 +829,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.4.7.1"></script><script src="literatura.js?v=6.4.7.1"></script><script src="ingles.js?v=6.4.7.1"></script><script src="app.js?v=6.4.7.1"></script>
+<script src="lessons.js?v=6.4.9"></script><script src="literatura.js?v=6.4.9"></script><script src="ingles.js?v=6.4.9"></script><script src="direito.js?v=6.4.9"></script><script src="app.js?v=6.4.9"></script>
 </body></html>
