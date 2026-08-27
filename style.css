@@ -1066,3 +1066,5 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 @media (min-height:780px){
   .login6493-content{justify-content:center;padding-top:25px;padding-bottom:25px}
 }
+
+#mathSubjectCard{cursor:pointer;touch-action:manipulation}#mathSubjectCard:active{transform:scale(.99)}.math-video-guide-v650{opacity:.92}
