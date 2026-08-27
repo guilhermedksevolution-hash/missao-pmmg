@@ -1521,3 +1521,25 @@ html,body{touch-action:manipulation}
 #evolutionHubV53 .v800-next-action>span{font-size:21px}
 #evolutionHubV53 .v800-next-action b{display:block;font-size:8.5px}
 #evolutionHubV53 .v800-next-action small{display:block;font-size:7.5px;color:var(--muted);line-height:1.45;margin-top:3px}
+
+/* V8.5 — Professor IA gratuito */
+#professorScreen .v850-professor{margin-bottom:10px}
+#professorScreen .v850-status{margin:0 20px 10px;padding:10px 12px;display:flex;gap:9px;align-items:center;border:1px solid #294033;border-radius:13px;background:#0b1510}
+#professorScreen .v850-status>span{color:#8fd3a5;font-weight:900}
+#professorScreen .v850-status b{display:block;font-size:8.5px} #professorScreen .v850-status small{display:block;font-size:7px;color:var(--muted);margin-top:2px}
+#professorScreen .v850-controls{margin:0 20px 10px}
+#professorScreen .v850-controls label{font-size:8px;color:var(--muted)}
+#professorScreen .v850-controls select{width:100%;margin-top:5px;padding:10px;border-radius:12px}
+#professorScreen .v850-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+#professorScreen .v850-actions button{padding:10px;border:1px solid #29313b;border-radius:11px;background:#111821;color:var(--text);font-size:8px;font-weight:800}
+#professorScreen .v850-chat{margin:0 20px 10px;min-height:220px;max-height:360px;overflow:auto;padding:10px;border:1px solid #252c35;border-radius:16px;background:#080c11}
+#professorScreen .v850-chat article{display:flex;gap:8px;margin:7px 0;align-items:flex-start}
+#professorScreen .v850-chat article>span{font-size:18px}
+#professorScreen .v850-chat p{max-width:86%;margin:0;padding:10px 11px;border-radius:13px;font-size:8.5px;line-height:1.55}
+#professorScreen .v850-bot p{background:#111821;border:1px solid #28313b}
+#professorScreen .v850-user{justify-content:flex-end} #professorScreen .v850-user>span{order:2}
+#professorScreen .v850-user p{background:#2a2417;border:1px solid #4b4026}
+#professorScreen .v850-compose{margin:0 20px;display:grid;grid-template-columns:1fr auto;gap:7px;align-items:end}
+#professorScreen .v850-compose textarea{resize:none;padding:10px;border-radius:12px;font-size:9px}
+#professorScreen .v850-compose button{height:42px;padding:0 13px;border:0;border-radius:11px;background:linear-gradient(180deg,#e4c36f,#c9a650);color:#111;font-weight:900;font-size:8px}
+#professorScreen .v850-note{margin:9px 20px 100px;color:var(--muted);font-size:7px;line-height:1.45;text-align:center}
