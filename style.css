@@ -1436,3 +1436,24 @@ html,body{touch-action:manipulation}
 #smartPlan632 .v760-plan-info small{display:block;color:var(--muted);font-size:7.5px;line-height:1.45;margin-top:3px}
 #smartPlan632 .v760-plan-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 #smartPlan632 .v760-plan-badges span{padding:6px 8px;border-radius:999px;border:1px solid #29313b;background:#111821;color:var(--gold);font-size:7px;font-weight:800}
+
+/* V7.7 — Missão semanal, somente no Plano Inteligente */
+#smartPlan632 .v770-weekly-mission{
+  margin:12px 20px;padding:16px;border:1px solid #272d35;border-radius:19px;
+  background:linear-gradient(145deg,#10151b,#0a0e13)
+}
+#smartPlan632 .v770-weekly-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+#smartPlan632 .v770-weekly-head h3{font-size:17px;margin:4px 0 0}
+#smartPlan632 .v770-weekly-head>strong{font-size:22px;color:var(--gold)}
+#smartPlan632 .v770-weekly-mission>p{font-size:8px;line-height:1.5;color:var(--muted);margin:9px 0}
+#smartPlan632 .v770-week-progress{height:7px;border-radius:99px;background:#1b222b;overflow:hidden;margin-bottom:12px}
+#smartPlan632 .v770-week-progress i{display:block;width:0;height:100%;border-radius:99px;background:linear-gradient(90deg,#8da7ce,var(--gold));transition:width .25s ease}
+#smartPlan632 .v770-week-goals{display:grid;gap:7px}
+#smartPlan632 .v770-week-goals article{
+  display:grid;grid-template-columns:30px 1fr 24px;align-items:center;gap:8px;
+  padding:10px;border:1px solid #232a32;border-radius:13px;background:#0a0f14
+}
+#smartPlan632 .v770-week-goals article>span{font-size:18px}
+#smartPlan632 .v770-week-goals b{display:block;font-size:8.5px}
+#smartPlan632 .v770-week-goals small{display:block;font-size:7.5px;color:var(--muted);margin-top:3px}
+#smartPlan632 .v770-week-goals em{font-style:normal;color:var(--gold);font-size:16px;font-weight:900;text-align:center}
