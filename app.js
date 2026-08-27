@@ -4361,8 +4361,16 @@ document.addEventListener("DOMContentLoaded",()=>{
     // Add history shortcut to training screen without duplicating if already present.
     const area=document.querySelector("#trainingHubV53 .tools, #trainingHubV53 .v53-grid, #trainHubV53 .tools, #trainHubV53 .v53-grid");
     if(area && !document.getElementById("v72HistoryShortcut")){
-      const b=document.createElement("button");b.id="v72HistoryShortcut";b.onclick=openSimulationHistoryV72;
-      b.innerHTML="📊<strong>Histórico de simulados</strong><small>Acompanhe sua evolução</small>";area.appendChild(b);
+      /* V7.2.3: usa ARTICLE igual aos outros cards da grade.
+         Assim o Histórico herda exatamente o mesmo tamanho, padding e tipografia. */
+      const card=document.createElement("article");
+      card.id="v72HistoryShortcut";
+      card.setAttribute("role","button");
+      card.setAttribute("tabindex","0");
+      card.onclick=openSimulationHistoryV72;
+      card.onkeydown=(e)=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openSimulationHistoryV72();}};
+      card.innerHTML="<b>📊 Histórico de simulados</b><p>Acompanhe sua evolução.</p>";
+      area.appendChild(card);
     }
   },150);
 });
