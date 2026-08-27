@@ -4823,3 +4823,75 @@ if(typeof renderEvolutionV800Base==="function"){
   renderEvolutionHubV612=window.renderEvolutionHubV612;
 }
 document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderExamPrepV800()}catch(e){}},360));
+
+
+/* ============================================================
+   MISSÃO PMMG V8.5 — PROFESSOR IA GRATUITO / LOCAL
+   Sem API, sem token e sem custo. Motor didático no navegador.
+   ============================================================ */
+const V850_KNOWLEDGE={
+ "Português":[
+  {k:["inferência","inferencia"],t:"Inferência",e:"Inferência é chegar a uma conclusão que não está escrita literalmente, mas é sustentada por pistas do texto. Na prova, procure a evidência antes de concluir.",x:"Se o texto diz que Rafael fechou as janelas e depois ouviu trovões, podemos inferir que havia sinais de chuva ou temporal."},
+  {k:["ideia principal","principal"],t:"Ideia principal",e:"É a mensagem mais importante que o texto desenvolve sobre o tema. Tema é o assunto; ideia principal é o que o autor diz de essencial sobre esse assunto.",x:"Tema: atividade física. Ideia principal: manter-se ativo traz benefícios à saúde e reduz riscos do sedentarismo."},
+  {k:["interpretação","interpretacao","texto"],t:"Interpretação de texto",e:"Leia primeiro o comando, identifique o que ele pede e volte ao trecho que sustenta a resposta. Evite acrescentar informações que o texto não permite concluir.",x:"Em questões com 'Segundo o texto', a referência principal deve ser o próprio texto, não sua experiência pessoal."},
+  {k:["metáfora","metafora"],t:"Metáfora",e:"É uma comparação implícita por aproximação de sentidos, sem precisar usar 'como'.",x:"'Meu coração é um deserto' aproxima coração e deserto para produzir sentido figurado."}
+ ],
+ "Matemática":[
+  {k:["porcentagem","porcento","%"],t:"Porcentagem",e:"Porcentagem representa uma parte de 100. Para calcular x% de um valor, multiplique o valor por x e divida por 100.",x:"20% de 150 = 150 × 20 ÷ 100 = 30."},
+  {k:["regra de três","regra de tres"],t:"Regra de três",e:"Use quando duas grandezas possuem uma relação proporcional. Organize valores correspondentes na mesma posição e resolva a proporção.",x:"Se 2 cadernos custam R$10, 6 cadernos custam R$30, mantendo o mesmo preço unitário."},
+  {k:["fração","fracao"],t:"Frações",e:"Uma fração representa partes de um todo. O número de cima é o numerador e o de baixo é o denominador.",x:"3/4 significa três partes de um total dividido em quatro partes iguais."}
+ ],
+ "Inglês":[
+  {k:["verb to be","to be"],t:"Verb to be",e:"O verbo to be significa principalmente ser ou estar. No presente: I am, you/we/they are, he/she/it is.",x:"She is a student = Ela é uma estudante. They are ready = Eles estão prontos."},
+  {k:["interpretação","interpretacao","reading"],t:"Reading",e:"Na leitura em inglês, procure palavras-chave, cognatos e contexto. Você não precisa traduzir cada palavra para compreender a ideia central.",x:"Se um anúncio repete 'sale', preços e descontos, o contexto indica uma promoção."}
+ ],
+ "Literatura":[
+  {k:["literatura","texto literário","texto literario"],t:"Texto literário",e:"O texto literário valoriza efeitos estéticos, subjetividade e múltiplos sentidos. Figuras de linguagem são recursos frequentes.",x:"Um poema pode usar metáforas e imagens para transmitir sentimentos sem explicar tudo literalmente."}
+ ],
+ "Direito":[
+  {k:["constituição","constituicao"],t:"Constituição",e:"A Constituição é a norma fundamental do Estado e serve de referência para as demais normas. Para prova, atenção ao texto legal exigido no edital.",x:"Quando uma questão cobra dispositivo constitucional, diferencie o texto da lei de interpretações ou opiniões."},
+  {k:["direitos","garantias"],t:"Direitos e garantias",e:"Em questões jurídicas, identifique exatamente qual direito, garantia ou regra o enunciado está cobrando e evite ampliar o texto legal além do que foi apresentado.",x:"Palavras absolutas como 'sempre' e 'nunca' merecem atenção especial em alternativas."}
+ ]
+};
+function v850Esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function v850Norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+function v850Find(subject,q){
+ const rows=[...(V850_KNOWLEDGE[subject]||[]),...Object.values(V850_KNOWLEDGE).flat()];
+ const nq=v850Norm(q);
+ return rows.find(r=>r.k.some(k=>nq.includes(v850Norm(k))))||null
+}
+function v850Reply(q,mode){
+ const subject=document.getElementById("v850Subject")?.value||"Geral", hit=v850Find(subject,q);
+ if(hit){
+   if(mode==="example"||/exemplo/.test(v850Norm(q)))return `<b>${hit.t} — exemplo</b><br>${hit.x}`;
+   if(mode==="quiz"||/quest|teste|pergunta/.test(v850Norm(q)))return `<b>Teste rápido sobre ${hit.t}</b><br>Explique com suas palavras o conceito de ${hit.t}. Depois, crie um exemplo próprio e confira se ele respeita esta ideia:<br><br>${hit.e}`;
+   if(mode==="review")return `<b>Revisão rápida — ${hit.t}</b><br>1. Conceito: ${hit.e}<br><br>2. Exemplo: ${hit.x}<br><br>3. Agora tente explicar sem consultar o texto.`;
+   return `<b>${hit.t}</b><br>${hit.e}<br><br><b>Exemplo:</b> ${hit.x}`;
+ }
+ const generic={
+  "Português":"Em Português, posso ajudar principalmente com interpretação, ideia principal, inferência e figuras de linguagem. Tente escrever o nome do assunto.",
+  "Matemática":"Em Matemática, posso ajudar com os assuntos cadastrados no projeto, como porcentagem, regra de três e frações. Escreva o tema da dúvida.",
+  "Inglês":"Em Inglês, posso explicar os conteúdos cadastrados, como verb to be e estratégias de leitura.",
+  "Literatura":"Em Literatura, posso revisar conceitos de texto literário e linguagem.",
+  "Direito":"Em Direito, posso ajudar a revisar os conceitos cadastrados no projeto. Para texto de lei específico, use também o conteúdo da aula correspondente.",
+  "Geral":"Escolha uma matéria e escreva o assunto. Meu conhecimento gratuito cresce junto com as aulas do Missão PMMG."
+ };
+ return generic[subject]||generic.Geral
+}
+function v850Add(who,html){
+ const chat=document.getElementById("v850Chat");if(!chat)return;
+ const a=document.createElement("article");a.className=who==="user"?"v850-user":"v850-bot";
+ a.innerHTML=`<span>${who==="user"?"👤":"🤖"}</span><p>${html}</p>`;chat.appendChild(a);chat.scrollTop=chat.scrollHeight
+}
+function v850Ask(mode){
+ const inp=document.getElementById("v850Question"),q=(inp?.value||"").trim();
+ if(!q)return;
+ v850Add("user",v850Esc(q));if(inp)inp.value="";
+ setTimeout(()=>v850Add("bot",v850Reply(q,mode)),120)
+}
+function v850Quick(mode){
+ const prompts={explain:"Explique o assunto principal desta matéria.",example:"Me dê um exemplo do assunto.",quiz:"Me teste com o assunto.",review:"Faça uma revisão do assunto."};
+ const inp=document.getElementById("v850Question");if(inp&&!inp.value)inp.value=prompts[mode];
+ v850Ask(mode)
+}
+window.v850Ask=v850Ask;window.v850Quick=v850Quick;
