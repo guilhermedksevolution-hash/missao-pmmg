@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=7.7.0">
+<link rel="stylesheet" href="style.css?v=7.9.0">
 </head>
 <body>
 
@@ -68,7 +68,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V7.7.0</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V7.9.0</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -327,6 +327,41 @@
   <div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MISSÃO INTELIGENTE</span><h2>Plano de estudos</h2><p>Seu próximo estudo montado automaticamente pelo seu desempenho.</p></div></div>
   <div class="v750-daily-card"><span class="kicker">CRONOGRAMA INTELIGENTE</span><h3 id="v750DailyTitle">Plano de hoje</h3><p id="v750DailyText">Montando seu plano com base no progresso...</p><div id="v750DailySteps" class="v750-daily-steps"></div><div class="v760-plan-info"><div><span>🧠</span><p><b>Como o plano decidiu</b><small id="v760PlanReason">Analisando seu desempenho...</small></p></div><div class="v760-plan-badges"><span id="v760DueBadge">0 revisões</span><span id="v760WeakBadge">0 pontos fracos</span><span id="v760NextBadge">0 próximas aulas</span></div></div></div>
 
+
+
+<div class="v790-progression">
+  <div class="v790-prog-head">
+    <div><span class="kicker">PROGRESSÃO</span><h3>Patente de preparação</h3></div>
+    <strong id="v790Level">Nível 1</strong>
+  </div>
+  <div class="v790-rank">
+    <span id="v790RankIcon">🛡️</span>
+    <div><b id="v790RankName">Recruta</b><small id="v790RankNext">Continue estudando para subir de patente.</small></div>
+    <em id="v790TotalXp">0 XP</em>
+  </div>
+  <div class="v790-xpbar"><i id="v790XpBar"></i></div>
+  <div class="v790-rewards">
+    <article><span>📚</span><div><b>Aula aprovada</b><small>+50 XP</small></div></article>
+    <article><span>📝</span><div><b>Simulado registrado</b><small>+25 XP</small></div></article>
+    <article><span>🔥</span><div><b>Dia ativo</b><small>+10 XP</small></div></article>
+  </div>
+</div>
+<div class="v780-today-mission">
+  <div class="v780-today-head">
+    <div><span class="kicker">MISSÃO DE HOJE</span><h3>Ritmo diário</h3></div>
+    <strong id="v780TodayPct">0%</strong>
+  </div>
+  <p id="v780TodayMessage">Preparando sua meta de hoje...</p>
+  <div class="v780-today-progress"><i id="v780TodayBar"></i></div>
+  <div class="v780-today-grid">
+    <article><span>📖</span><div><b>Estudar</b><small id="v780StudyToday">Pendente hoje</small></div><em id="v780StudyTodayCheck">○</em></article>
+    <article><span>🎯</span><div><b>Praticar</b><small id="v780PracticeToday">Pendente hoje</small></div><em id="v780PracticeTodayCheck">○</em></article>
+    <article><span>🧠</span><div><b>Revisar</b><small id="v780ReviewToday">Verificando...</small></div><em id="v780ReviewTodayCheck">○</em></article>
+  </div>
+  <div class="v780-streak-row">
+    <span>🔥</span><div><b id="v780StreakText">0 dias de sequência</b><small>A sequência cresce automaticamente quando há atividade registrada no dia.</small></div>
+  </div>
+</div>
 <div class="v770-weekly-mission">
   <div class="v770-weekly-head">
     <div><span class="kicker">MISSÃO DA SEMANA</span><h3>Consistência de preparação</h3></div>
@@ -983,5 +1018,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=7.7.0"></script><script src="literatura.js?v=7.7.0"></script><script src="ingles.js?v=7.7.0"></script><script src="direito.js?v=7.7.0"></script><script src="matematica.js?v=7.7.0"></script><script src="app.js?v=7.7.0"></script>
+<script src="lessons.js?v=7.9.0"></script><script src="literatura.js?v=7.9.0"></script><script src="ingles.js?v=7.9.0"></script><script src="direito.js?v=7.9.0"></script><script src="matematica.js?v=7.9.0"></script><script src="app.js?v=7.9.0"></script>
 </body></html>
