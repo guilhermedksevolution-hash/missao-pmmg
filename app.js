@@ -3602,3 +3602,21 @@ window.openMathV650=()=>{currentSubject="Matemática";renderMathTrailV650();show
 document.addEventListener("DOMContentLoaded",()=>{
   try{ initLogin6493(); }catch(e){ setLoginGate6493(true); }
 });
+
+/* V6.5.0.2 — fix definitivo do card de Matemática */
+function updateMathSubjectCardV6502(){
+  const total=Object.keys(window.matematicaLessons||{}).length;
+  const done=(state.mathCompleted||[]).length;
+  const pct=total?Math.round(done/total*100):0;
+  const bar=document.getElementById("mathProgressBarV650");
+  if(bar)bar.style.width=pct+"%";
+}
+document.addEventListener("DOMContentLoaded",()=>{
+  const card=document.getElementById("mathSubjectCard");
+  if(card){
+    card.addEventListener("keydown",e=>{
+      if(e.key==="Enter"||e.key===" "){e.preventDefault();openMathV650();}
+    });
+  }
+  updateMathSubjectCardV6502();
+});
