@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=7.0.0">
+<link rel="stylesheet" href="style.css?v=7.1.0">
 </head>
 <body>
 
@@ -68,7 +68,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V7.0.0</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V7.1.0</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -250,9 +250,9 @@
  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">SIMULADOS</span><h2>Central de simulados</h2></div></div>
  <div class="feature-banner"><b>📝 Estrutura pronta</b><p>Simulado por matéria, misto e completo, com cronômetro, correção e histórico.</p></div>
  <div class="sim-grid">
-  <button onclick="placeholderFeature('Simulado de Português')">📘<strong>Por matéria</strong><small>Treino focado</small></button>
-  <button onclick="placeholderFeature('Simulado misto')">🧩<strong>Misto</strong><small>Vários assuntos</small></button>
-  <button onclick="placeholderFeature('Simulado completo')">🎯<strong>Completo</strong><small>Modelo de prova</small></button>
+  <button onclick="openQuestionBankV7()">📚<strong>Por matéria</strong><small>Banco de Questões</small></button>
+  <button onclick="startConfiguredSimulationV622('misto')">🧩<strong>Misto</strong><small>Todas as matérias</small></button>
+  <button onclick="startGeneralSimulationV7()">🎯<strong>Completo</strong><small>Simulado Geral PMMG</small></button>
  </div>
 </section>
 
@@ -312,7 +312,18 @@
 
 
 
-<section id="profileScreen633" class="screen"><div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MINHA CONTA</span><h2>Meu perfil</h2><p>Suas informações pessoais de preparação.</p></div></div><div class="profile633hero"><button class="profile633photo" onclick="chooseProfilePhoto633()"><span id="profilePlaceholder633">👤</span><img id="profilePhoto633" alt="Foto do perfil"><small>Alterar foto</small></button><div><span class="kicker">CANDIDATO</span><h3 id="profileHeaderLabel633">Perfil</h3><p>Missão: conquistar sua aprovação.</p></div></div><div class="profile633card"><span class="kicker">INFORMAÇÕES</span><h3>Dados do perfil</h3><label>Nome<input id="profileName633" maxlength="60" placeholder="Seu nome"></label><label>Como quer ser chamado<input id="profileNick633" maxlength="30" placeholder="Ex.: Soldado"></label><label>Objetivo<input id="profileGoal633" maxlength="80" placeholder="Ex.: Aprovação PMMG"></label><label>Cidade<input id="profileCity633" maxlength="60" placeholder="Sua cidade"></label><input id="profileFile633" type="file" accept="image/*" hidden onchange="profilePhotoChanged633(event)"><button class="primary full" onclick="saveProfile633()">Salvar perfil</button></div><div class="profile633note"><b>🔒 Acesso privado</b><p>Seu perfil e progresso ficam salvos neste navegador/aparelho.</p><button class="logout6493-btn" onclick="logout6493()">🚪 Sair da conta</button></div><div class="reset638-card"><span class="kicker">ZONA DE SEGURANÇA</span><h3>Reiniciar preparação</h3><p>Use quando quiser começar seus estudos novamente do zero. Seu progresso, simulados, revisões, erros, estatísticas, XP e sequência serão apagados. <b>Sua foto e seus dados pessoais serão mantidos.</b></p><button class="reset638-btn" onclick="resetPreparation638()">🔄 Reiniciar todas as matérias</button><small>Esta ação exige duas confirmações.</small></div></section><section id="smartPlan632" class="screen">
+<section id="profileScreen633" class="screen"><div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MINHA CONTA</span><h2>Meu perfil</h2><p>Suas informações pessoais de preparação.</p></div></div><div class="profile633hero"><button class="profile633photo" onclick="chooseProfilePhoto633()"><span id="profilePlaceholder633">👤</span><img id="profilePhoto633" alt="Foto do perfil"><small>Alterar foto</small></button><div><span class="kicker">CANDIDATO</span><h3 id="profileHeaderLabel633">Perfil</h3><p>Missão: conquistar sua aprovação.</p></div></div><div class="profile633card"><span class="kicker">INFORMAÇÕES</span><h3>Dados do perfil</h3><label>Nome<input id="profileName633" maxlength="60" placeholder="Seu nome"></label><label>Como quer ser chamado<input id="profileNick633" maxlength="30" placeholder="Ex.: Soldado"></label><label>Objetivo<input id="profileGoal633" maxlength="80" placeholder="Ex.: Aprovação PMMG"></label><label>Cidade<input id="profileCity633" maxlength="60" placeholder="Sua cidade"></label><input id="profileFile633" type="file" accept="image/*" hidden onchange="profilePhotoChanged633(event)"><button class="primary full" onclick="saveProfile633()">Salvar perfil</button></div><div class="profile633note"><b>🔒 Acesso privado</b><p>Seu perfil e progresso ficam salvos neste navegador/aparelho.</p><button class="logout6493-btn" onclick="logout6493()">🚪 Sair da conta</button></div>
+<div class="v71-backup-card">
+  <span class="kicker">SEGURANÇA DOS DADOS</span>
+  <h3>💾 Backup da preparação</h3>
+  <p>Exporte seu progresso para guardar ou transferir para outro aparelho.</p>
+  <div class="v71-backup-actions">
+    <button onclick="exportBackupV71()">⬇ Exportar backup</button>
+    <button onclick="document.getElementById('backupImportV71').click()">⬆ Importar backup</button>
+  </div>
+  <input id="backupImportV71" type="file" accept=".json,application/json" hidden onchange="importBackupV71(event)">
+  <small>Inclui progresso, notas, XP, simulados, revisões, preferências e perfil.</small>
+</div><div class="reset638-card"><span class="kicker">ZONA DE SEGURANÇA</span><h3>Reiniciar preparação</h3><p>Use quando quiser começar seus estudos novamente do zero. Seu progresso, simulados, revisões, erros, estatísticas, XP e sequência serão apagados. <b>Sua foto e seus dados pessoais serão mantidos.</b></p><button class="reset638-btn" onclick="resetPreparation638()">🔄 Reiniciar todas as matérias</button><small>Esta ação exige duas confirmações.</small></div></section><section id="smartPlan632" class="screen">
   <div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MISSÃO INTELIGENTE</span><h2>Plano de estudos</h2><p>Seu próximo estudo montado automaticamente pelo seu desempenho.</p></div></div>
   <div class="plan632hero"><span class="kicker">🎯 MISSÃO DE HOJE</span><h3 id="p632title">Montando sua missão...</h3><p id="p632text">O sistema vai priorizar o assunto que mais precisa de reforço.</p><div class="plan632progress"><i id="p632bar"></i></div><small id="p632progress">0 de 3 etapas concluídas</small></div>
   <div class="plan632section"><span class="kicker">ROTEIRO</span><h3>O que fazer agora</h3><div id="p632steps" class="plan632steps"></div></div>
@@ -323,7 +334,8 @@
   <div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Pontos fracos</h2><p>Identifique onde você precisa melhorar primeiro.</p></div></div>
   <div class="weak631hero"><span class="kicker">ANÁLISE INTELIGENTE</span><h3 id="w631title">Calculando suas prioridades...</h3><p id="w631text">Seus erros e tentativas serão transformados em um plano de foco.</p></div>
   <div class="weak631section"><span class="kicker">RANKING</span><h3>Prioridade por assunto</h3><div id="w631ranking" class="weak631ranking"></div></div>
-  <div class="weak631section"><span class="kicker">RECOMENDAÇÕES</span><h3>O que estudar agora</h3><div id="w631recs" class="weak631recs"></div></div>
+  <div class="weak631section"><span class="kicker">RECOMENDAÇÕES</span><h3>O que estudar agora</h3><button class="v71-weak-train" onclick="trainWeakPointsV71()">🎯 Treinar meus pontos fracos</button>
+  <div id="w631recs" class="weak631recs"></div></div>
 </section>
 
 <section id="advancedStats629" class="screen">
@@ -376,7 +388,8 @@
   <div class="v53-feature" onclick="openErrorNotebook()"><b>🗒️ Caderno de erros</b><p>Questões erradas ficam salvas automaticamente.</p><em>Abrir caderno ›</em></div>
   <div class="v60-section-label"><span class="kicker">REVISÃO</span><h3>Ferramentas avançadas</h3></div>
   <div class="v60-grid">
-    <article onclick="openErrorsProV60()"><b>📓 Caderno 2.0</b><p>Filtros e visão detalhada.</p></article>
+    <article onclick="openErrorsProV60()"><b>📓 Caderno de Erros</b><p>Filtros, prioridade e revisão inteligente.</p></article><article id="v71AdaptiveReviewCard" onclick="openWeakPoints631()"><b>🎯 Revisão adaptativa</b><p>Prioriza assuntos fracos e revisões vencidas.</p></article>
+
     <article onclick="openRevisionScheduleV60()"><b>🧠 Revisão programada</b><p>Planeje quando revisar.</p></article>
   </div>
   <div class="v53-grid">
@@ -807,10 +820,18 @@
 <section id="revisionScheduleScreenV60" class="screen">
   <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Revisão programada</h2></div></div>
   <div class="v60-hero"><div>🧠</div><section><span class="kicker">REPETIÇÃO</span><h3>Revise antes de esquecer.</h3><p>Agende revisões por aula para 1, 7 e 30 dias.</p></section></div>
-  <div class="v60-form-card">
-    <label>Aula<select id="revisionLessonV60"><option value="1">Aula 01 • Interpretação de texto</option><option value="2">Aula 02 • Ideia principal e inferência</option></select></label>
+  <div class="v60-form-card v71-review-form">
+    <label>Matéria<select id="revisionSubjectV71" onchange="populateRevisionLessonsV71()">
+      <option>Português</option><option>Literatura</option><option>Inglês</option><option>Direito</option><option>Matemática</option>
+    </select></label>
+    <label>Aula<select id="revisionLessonV60"></select></label>
     <label>Quando revisar<select id="revisionDelayV60"><option value="1">Amanhã (1 dia)</option><option value="7">Em 7 dias</option><option value="30">Em 30 dias</option></select></label>
-    <button class="primary full" onclick="scheduleRevisionV60()">Agendar revisão</button>
+    <button class="primary full" onclick="scheduleRevisionV71()">Agendar revisão</button>
+  </div>
+  <div class="v71-review-summary">
+    <article><strong id="v71ReviewDue">0</strong><small>Vencidas/hoje</small></article>
+    <article><strong id="v71ReviewWeek">0</strong><small>Próximos 7 dias</small></article>
+    <article><strong id="v71ReviewDone">0</strong><small>Concluídas</small></article>
   </div>
   <div class="v60-section-label"><span class="kicker">FILA</span><h3>Próximas revisões</h3></div>
   <div id="revisionListV60" class="v60-list"></div>
@@ -852,7 +873,7 @@
 </section>
 
 <section id="errorsProScreenV60" class="screen">
-  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Caderno de Erros 2.0</h2></div></div>
+  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO</span><h2>Caderno de Erros</h2></div></div>
   <div class="v60-hero"><div>📓</div><section><span class="kicker">PONTOS FRACOS</span><h3>Revise com prioridade.</h3><p>Filtre erros por aula e acompanhe o que já foi revisado.</p></section></div>
   <button id="startSmartReviewBtnV619" class="v619-smart-review-btn" onclick="startSmartReviewSessionV617()">
     <span class="v619-brain">🧠</span>
@@ -916,7 +937,7 @@
       <article><strong id="v617DoneAttempts">0</strong><small>Tentativas</small></article>
       <article><strong id="v617DoneRate">0%</strong><small>Precisão</small></article>
     </div>
-    <button class="primary full" onclick="openErrorsProV60()">Voltar ao Caderno 2.0</button>
+    <button class="primary full" onclick="openErrorsProV60()">Voltar ao Caderno de Erros</button>
     <button class="secondary-btn" onclick="openPreparationIndexV60()">Ver Índice de Preparo</button>
   </div>
 </section>
@@ -928,6 +949,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=7.0.0"></script><script src="literatura.js?v=7.0.0"></script><script src="ingles.js?v=7.0.0"></script><script src="direito.js?v=7.0.0"></script><script src="matematica.js?v=7.0.0"></script><script src="app.js?v=7.0.0"></script>
+<script src="lessons.js?v=7.1.0"></script><script src="literatura.js?v=7.1.0"></script><script src="ingles.js?v=7.1.0"></script><script src="direito.js?v=7.1.0"></script><script src="matematica.js?v=7.1.0"></script><script src="app.js?v=7.1.0"></script>
 </body></html>
-
