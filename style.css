@@ -1284,3 +1284,92 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 /* V7.2.3 — Histórico usa o MESMO elemento dos cards (.v53-grid article) */
 #v72HistoryShortcut{cursor:pointer;touch-action:manipulation}
 #v72HistoryShortcut:active{transform:scale(.985)}
+
+/* ============================================================
+   MISSÃO PMMG V7.3.0 — BLACK PROFESSIONAL
+   Mantém estrutura e funções; altera somente acabamento visual.
+   ============================================================ */
+:root{
+  --bg:#05080c !important;
+  --bg2:#080c11 !important;
+  --card:#0d1117 !important;
+  --card2:#10151c !important;
+  --line:#242a32 !important;
+  --text:#f4f5f7 !important;
+  --muted:#9298a2 !important;
+  --gold:#e2bd63 !important;
+  --gold2:#b99342 !important;
+}
+html,body{background:#05080c !important;color:var(--text) !important}
+body{
+  background:
+    radial-gradient(circle at 50% -15%,rgba(226,189,99,.055),transparent 31%),
+    linear-gradient(180deg,#070a0e 0%,#04070a 100%) !important;
+}
+.topbar,.app-header,header{
+  background:rgba(5,8,12,.94) !important;
+  border-bottom:1px solid #20252c !important;
+  backdrop-filter:blur(14px);
+}
+.card,.panel,.hero,.mission-card,.v53-card,.v60-card,
+.tools article,.v53-grid article,.v60-grid article,
+#v72HistoryShortcut,.v72-score-card,.v72-subject-grid article,
+.v72-priority-list article,.v72-history article{
+  background:linear-gradient(145deg,#10151b,#0b0f14) !important;
+  border-color:#252b33 !important;
+  box-shadow:0 10px 30px rgba(0,0,0,.16) !important;
+}
+button,.btn{font-family:inherit}
+.primary,.btn-primary,.gold-btn{
+  background:linear-gradient(180deg,#e4c36f,#c9a650) !important;
+  color:#111 !important;
+  border-color:#e4c36f !important;
+}
+.bottom-nav,.bottomnav,nav.bottom{
+  background:rgba(10,14,19,.97) !important;
+  border-color:#252b33 !important;
+  box-shadow:0 -10px 35px rgba(0,0,0,.28) !important;
+}
+.bottom-nav .active,.bottomnav .active,nav.bottom .active{
+  background:#11161c !important;
+  color:var(--gold) !important;
+}
+.kicker,.eyebrow,.section-label{color:var(--gold) !important}
+.progress-bar,.bar,.track{background:#1a2028 !important}
+input,select,textarea{
+  background:#0b1016 !important;color:var(--text) !important;
+  border-color:#292f38 !important;
+}
+.screen{background:transparent !important}
+
+/* Cards de Treinar no padrão visual da referência aprovada */
+#trainingHubV53 .v53-grid article,
+#trainingHubV53 .tools article,
+#trainHubV53 .v53-grid article,
+#trainHubV53 .tools article{
+  background:linear-gradient(145deg,#101419,#0b0f13) !important;
+  border:1px solid #292e35 !important;
+  border-radius:20px !important;
+}
+#v72HistoryShortcut{
+  background:linear-gradient(145deg,#101419,#0b0f13) !important;
+}
+
+/* V7.3 — Painel compacto de estatísticas, preto/dourado */
+#v73StatsPanel{
+  margin:18px 20px 115px;
+  padding:17px;
+  border:1px solid #282e36;
+  border-radius:20px;
+  background:linear-gradient(145deg,#101419,#090d11);
+  box-shadow:0 12px 32px rgba(0,0,0,.18);
+}
+#v73StatsPanel .v73-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+#v73StatsPanel .v73-head b{font-size:15px}
+#v73StatsPanel .v73-head button{border:0;background:none;color:var(--gold);font-size:10px;font-weight:800}
+.v73-stat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.v73-stat-grid article{padding:12px;border:1px solid #232a32;border-radius:14px;background:#0b1015}
+.v73-stat-grid strong{display:block;font-size:20px;color:var(--gold);margin:4px 0}
+.v73-stat-grid small{font-size:8px;color:var(--muted);line-height:1.35}
+.v73-stat-grid span{font-size:16px}
+@media(min-width:600px){.v73-stat-grid{grid-template-columns:repeat(4,1fr)}}
