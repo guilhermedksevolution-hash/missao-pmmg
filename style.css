@@ -1361,29 +1361,3 @@ html,body{touch-action:manipulation}
 .bottom-nav,.bottomnav,nav.bottom{pointer-events:auto!important}
 .bottom-nav button,.bottomnav button,nav.bottom button{pointer-events:auto!important}
 .screen.active{pointer-events:auto!important}
-
-/* ============================================================
-   MISSÃO PMMG V7.3.2 — SEU PROGRESSO / BLACK PROFESSIONAL
-   ============================================================ */
-.v732-progress-panel{
-  margin:18px 20px 24px;
-  padding:16px;
-  border:1px solid #252b33;
-  border-radius:20px;
-  background:linear-gradient(145deg,#10151b,#0a0e13);
-  box-shadow:0 10px 30px rgba(0,0,0,.16);
-}
-.v732-progress-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
-.v732-progress-head h3{margin:3px 0 0;font-size:16px;color:var(--text)}
-.v732-progress-head button{
-  border:0;background:transparent;color:var(--gold);font-size:9px;font-weight:900;padding:8px 0
-}
-.v732-progress-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.v732-progress-grid article{
-  min-height:104px;padding:12px;border:1px solid #232a32;border-radius:15px;
-  background:#0b1015;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start
-}
-.v732-progress-grid article span{font-size:18px}
-.v732-progress-grid article strong{display:block;margin:6px 0 3px;color:var(--gold);font-size:21px}
-.v732-progress-grid article small{font-size:8px;line-height:1.4;color:var(--muted)}
-@media(max-width:340px){.v732-progress-grid{grid-template-columns:1fr}}
