@@ -1868,40 +1868,99 @@ window.openSubjects = function(){
    ========================================================== */
 
 function renderEvolutionHubV612(){
-  // Usa o mesmo estado que alimenta a tela inicial.
+  // V7.4: atualiza somente os dados da tela Evolução.
+  // Nenhuma rota, tela ou botão de navegação é criado/modificado aqui.
   if(typeof updateDashboard === "function"){
-    updateDashboard();
+    try{ updateDashboard(); }catch(e){}
   }
 
-  const nums = (typeof getLessonNumbers === "function") ? getLessonNumbers() : [];
-  const validLessons = nums.filter(n => typeof getLessonData !== "function" || !!getLessonData(n));
+  const defs = (typeof V7_SUBJECTS!=="undefined" && Array.isArray(V7_SUBJECTS)) ? V7_SUBJECTS : [];
+  const subjectRows = defs.map(def=>{
+    const src = def.source ? def.source() : {};
+    const nums = Object.keys(src||{}).map(Number).filter(Number.isFinite);
+    const doneArr = Array.isArray(state?.[def.completed]) ? state[def.completed] : [];
+    const done = doneArr.filter(n=>nums.includes(Number(n))).length;
+    const scoreVals = Object.values(state?.[def.scores]||{}).map(Number).filter(Number.isFinite);
+    const avg = scoreVals.length ? Math.round(scoreVals.reduce((a,b)=>a+b,0)/scoreVals.length) : 0;
+    const best = scoreVals.length ? Math.max(...scoreVals) : 0;
+    const pct = nums.length ? Math.round(done/nums.length*100) : 0;
+    return {name:def.name,icon:def.icon||"📘",total:nums.length,done,pct,avg,best,tests:scoreVals.length};
+  });
 
-  const completed = Array.isArray(state.completedLessons)
-    ? state.completedLessons.filter(n => validLessons.includes(Number(n))).length
-    : 0;
+  const total = subjectRows.reduce((a,x)=>a+x.total,0);
+  const completed = subjectRows.reduce((a,x)=>a+x.done,0);
+  const progress = total ? Math.round(completed/total*100) : 0;
+  const allScores = subjectRows.flatMap(x=>{
+    const def=defs.find(d=>d.name===x.name);
+    return Object.values(state?.[def?.scores]||{}).map(Number).filter(Number.isFinite);
+  });
+  const bestScore = allScores.length ? Math.max(...allScores) : 0;
+  const xp = Number(state?.xp||0);
+  const streak = Math.max(0,Number(state?.streak||localStorage.getItem("pmmg_streak")||0));
 
-  const total = validLessons.length;
-  const progress = total ? Math.round((completed / total) * 100) : 0;
+  const set=(id,value)=>{const el=document.getElementById(id);if(el)el.textContent=value};
+  set("evoProgressV612",`${progress}%`);
+  set("evoProgressSubV612",`${completed} de ${total} etapas`);
+  set("evoBestScoreV612",`${bestScore}%`);
+  set("evoXpV612",String(xp));
+  set("evoStreakV612",`${streak}🔥`);
+  set("evoStreakSubV612",streak===1?"dia ativo":"dias ativos");
 
-  const scores = state && state.scores
-    ? Object.values(state.scores).map(Number).filter(Number.isFinite)
-    : [];
+  // Estatísticas de provas de aula.
+  set("v740LessonTests",subjectRows.reduce((a,x)=>a+x.tests,0));
 
-  const bestScore = scores.length ? Math.max(...scores) : 0;
-  const xp = Number(state?.xp || 0);
-  const streak = Math.max(1, Number(state?.streak || localStorage.getItem("pmmg_streak") || 1));
+  // Histórico dos simulados da V7.2.
+  let simHist=[];
+  try{
+    simHist=JSON.parse(localStorage.getItem("pmmg_sim_history_v72")||"[]");
+    if(!Array.isArray(simHist))simHist=[];
+  }catch(e){simHist=[]}
+  const simQuestions=simHist.reduce((a,x)=>a+(Number(x.total)||0),0);
+  const simScores=simHist.map(x=>Number(x.pct)).filter(Number.isFinite);
+  const simAvg=simScores.length?Math.round(simScores.reduce((a,b)=>a+b,0)/simScores.length):0;
+  const simBest=simScores.length?Math.max(...simScores):0;
+  set("v740SimQuestions",simQuestions);
+  set("v740SimAverage",`${simAvg}%`);
+  set("v740SimBest",`${simBest}%`);
 
-  const set = (id, value) => {
-    const el = document.getElementById(id);
-    if(el) el.textContent = value;
-  };
+  // Atividades reais registradas no histórico.
+  let hist=[];
+  try{
+    hist=JSON.parse(localStorage.getItem("pmmg_history_v60")||"[]");
+    if(!Array.isArray(hist))hist=[];
+  }catch(e){hist=[]}
+  const now=Date.now(),day=86400000;
+  const week=hist.filter(x=>{const t=new Date(x.date).getTime();return Number.isFinite(t)&&(now-t)<=7*day}).length;
+  const month=hist.filter(x=>{const t=new Date(x.date).getTime();return Number.isFinite(t)&&(now-t)<=30*day}).length;
+  set("v740WeekActivity",week);
+  set("v740MonthActivity",month);
 
-  set("evoProgressV612", `${progress}%`);
-  set("evoProgressSubV612", `${completed} de ${total} ${total === 1 ? "aula" : "aulas"}`);
-  set("evoBestScoreV612", `${bestScore}%`);
-  set("evoXpV612", String(xp));
-  set("evoStreakV612", `${streak}🔥`);
-  set("evoStreakSubV612", streak === 1 ? "dia ativo" : "dias ativos");
+  const subjectBox=document.getElementById("v740SubjectStats");
+  if(subjectBox){
+    subjectBox.innerHTML=subjectRows.map(x=>`
+      <article>
+        <div class="v740-subject-top"><span>${x.icon}</span><div><b>${x.name}</b><small>${x.done}/${x.total} etapas • média ${x.avg}%</small></div><strong>${x.pct}%</strong></div>
+        <div class="v740-line"><i style="width:${x.pct}%"></i></div>
+      </article>`).join("");
+  }
+
+  const bars=document.getElementById("v740TrendBars");
+  const trendText=document.getElementById("v740TrendText");
+  if(bars){
+    const recent=[...simHist].slice(0,6).reverse();
+    bars.innerHTML=recent.length?recent.map((x,i)=>{
+      const score=Math.max(0,Math.min(100,Number(x.pct)||0));
+      return `<div><i style="height:${Math.max(6,score)}%"></i><small>${score}%</small></div>`;
+    }).join(""):'<div class="v740-empty-trend">Sem simulados ainda</div>';
+    if(trendText){
+      if(recent.length<2){
+        trendText.textContent=recent.length?"Faça mais um simulado para calcular a tendência.":"Faça simulados para acompanhar sua tendência.";
+      }else{
+        const first=Number(recent[0].pct)||0,last=Number(recent[recent.length-1].pct)||0,diff=last-first;
+        trendText.textContent=diff>0?`📈 Evolução de ${diff} ponto(s) entre o primeiro e o último simulado exibido.`:diff<0?`📉 Queda de ${Math.abs(diff)} ponto(s). Priorize revisão antes do próximo simulado.`:"➡️ Desempenho estável nos simulados recentes.";
+      }
+    }
+  }
 }
 
 // Substitui a rota antiga para sempre atualizar antes de mostrar.
