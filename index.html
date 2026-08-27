@@ -5,11 +5,57 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.4.9">
+<link rel="stylesheet" href="style.css?v=6.4.9.3">
 </head>
 <body>
+
+<section id="loginGate6493" class="login6493" aria-label="Acesso ao Missão PMMG">
+  <div class="login6493-bg"></div>
+  <div class="login6493-glow login6493-glow-a"></div>
+  <div class="login6493-glow login6493-glow-b"></div>
+  <div class="login6493-content">
+    <div class="login6493-rank" aria-hidden="true">
+      <span>★</span><i></i><i></i>
+    </div>
+    <div class="login6493-brand">
+      <small>PREPARAÇÃO PARA SOLDADO</small>
+      <h1>MISSÃO<br><b>PMMG</b></h1>
+      <p>SUA MISSÃO É HOJE.<br>SEU FUTURO É A PMMG.</p>
+    </div>
+
+    <div class="login6493-features" aria-hidden="true">
+      <div><span>◉</span><b>ESTUDE</b></div>
+      <div><span>↗</span><b>TREINE</b></div>
+      <div><span>⌁</span><b>EVOLUA</b></div>
+      <div><span>🏆</span><b>REALIZE</b></div>
+    </div>
+
+    <form class="login6493-card" onsubmit="return login6493Submit(event)">
+      <span class="login6493-kicker">ACESSO PRIVADO</span>
+      <h2>Entrar na preparação</h2>
+      <p>Use seu login e senha para continuar sua missão.</p>
+
+      <label>Login
+        <input id="login6493User" type="tel" inputmode="numeric" autocomplete="username" placeholder="Digite seu login">
+      </label>
+
+      <label>Senha
+        <div class="login6493-password">
+          <input id="login6493Pass" type="password" autocomplete="current-password" placeholder="Digite sua senha">
+          <button type="button" onclick="togglePassword6493()" aria-label="Mostrar ou ocultar senha">👁</button>
+        </div>
+      </label>
+
+      <div id="login6493Error" class="login6493-error" role="alert"></div>
+      <button class="login6493-enter" type="submit">ENTRAR NA MISSÃO</button>
+    </form>
+
+    <footer>Persistência • Disciplina • Foco • Fé</footer>
+  </div>
+</section>
+
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.4.9.2</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.4.9.3.3</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -230,7 +276,7 @@
 
 
 
-<section id="profileScreen633" class="screen"><div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MINHA CONTA</span><h2>Meu perfil</h2><p>Suas informações pessoais de preparação.</p></div></div><div class="profile633hero"><button class="profile633photo" onclick="chooseProfilePhoto633()"><span id="profilePlaceholder633">👤</span><img id="profilePhoto633" alt="Foto do perfil"><small>Alterar foto</small></button><div><span class="kicker">CANDIDATO</span><h3 id="profileHeaderLabel633">Perfil</h3><p>Missão: conquistar sua aprovação.</p></div></div><div class="profile633card"><span class="kicker">INFORMAÇÕES</span><h3>Dados do perfil</h3><label>Nome<input id="profileName633" maxlength="60" placeholder="Seu nome"></label><label>Como quer ser chamado<input id="profileNick633" maxlength="30" placeholder="Ex.: Soldado"></label><label>Objetivo<input id="profileGoal633" maxlength="80" placeholder="Ex.: Aprovação PMMG"></label><label>Cidade<input id="profileCity633" maxlength="60" placeholder="Sua cidade"></label><input id="profileFile633" type="file" accept="image/*" hidden onchange="profilePhotoChanged633(event)"><button class="primary full" onclick="saveProfile633()">Salvar perfil</button></div><div class="profile633note"><b>🔒 Perfil pessoal</b><p>Nesta versão, os dados e a foto ficam salvos somente neste navegador/aparelho. O login privado será conectado em uma etapa futura.</p></div><div class="reset638-card"><span class="kicker">ZONA DE SEGURANÇA</span><h3>Reiniciar preparação</h3><p>Use quando quiser começar seus estudos novamente do zero. Seu progresso, simulados, revisões, erros, estatísticas, XP e sequência serão apagados. <b>Sua foto e seus dados pessoais serão mantidos.</b></p><button class="reset638-btn" onclick="resetPreparation638()">🔄 Reiniciar todas as matérias</button><small>Esta ação exige duas confirmações.</small></div></section><section id="smartPlan632" class="screen">
+<section id="profileScreen633" class="screen"><div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MINHA CONTA</span><h2>Meu perfil</h2><p>Suas informações pessoais de preparação.</p></div></div><div class="profile633hero"><button class="profile633photo" onclick="chooseProfilePhoto633()"><span id="profilePlaceholder633">👤</span><img id="profilePhoto633" alt="Foto do perfil"><small>Alterar foto</small></button><div><span class="kicker">CANDIDATO</span><h3 id="profileHeaderLabel633">Perfil</h3><p>Missão: conquistar sua aprovação.</p></div></div><div class="profile633card"><span class="kicker">INFORMAÇÕES</span><h3>Dados do perfil</h3><label>Nome<input id="profileName633" maxlength="60" placeholder="Seu nome"></label><label>Como quer ser chamado<input id="profileNick633" maxlength="30" placeholder="Ex.: Soldado"></label><label>Objetivo<input id="profileGoal633" maxlength="80" placeholder="Ex.: Aprovação PMMG"></label><label>Cidade<input id="profileCity633" maxlength="60" placeholder="Sua cidade"></label><input id="profileFile633" type="file" accept="image/*" hidden onchange="profilePhotoChanged633(event)"><button class="primary full" onclick="saveProfile633()">Salvar perfil</button></div><div class="profile633note"><b>🔒 Acesso privado</b><p>Seu perfil e progresso ficam salvos neste navegador/aparelho.</p><button class="logout6493-btn" onclick="logout6493()">🚪 Sair da conta</button></div><div class="reset638-card"><span class="kicker">ZONA DE SEGURANÇA</span><h3>Reiniciar preparação</h3><p>Use quando quiser começar seus estudos novamente do zero. Seu progresso, simulados, revisões, erros, estatísticas, XP e sequência serão apagados. <b>Sua foto e seus dados pessoais serão mantidos.</b></p><button class="reset638-btn" onclick="resetPreparation638()">🔄 Reiniciar todas as matérias</button><small>Esta ação exige duas confirmações.</small></div></section><section id="smartPlan632" class="screen">
   <div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">MISSÃO INTELIGENTE</span><h2>Plano de estudos</h2><p>Seu próximo estudo montado automaticamente pelo seu desempenho.</p></div></div>
   <div class="plan632hero"><span class="kicker">🎯 MISSÃO DE HOJE</span><h3 id="p632title">Montando sua missão...</h3><p id="p632text">O sistema vai priorizar o assunto que mais precisa de reforço.</p><div class="plan632progress"><i id="p632bar"></i></div><small id="p632progress">0 de 3 etapas concluídas</small></div>
   <div class="plan632section"><span class="kicker">ROTEIRO</span><h3>O que fazer agora</h3><div id="p632steps" class="plan632steps"></div></div>
@@ -830,5 +876,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.4.9"></script><script src="literatura.js?v=6.4.9"></script><script src="ingles.js?v=6.4.9"></script><script src="direito.js?v=6.4.9.2"></script><script src="app.js?v=6.4.9"></script>
+<script src="lessons.js?v=6.4.9.3"></script><script src="literatura.js?v=6.4.9.3"></script><script src="ingles.js?v=6.4.9.3"></script><script src="direito.js?v=6.4.9.3"></script><script src="app.js?v=6.4.9.3"></script>
 </body></html>
