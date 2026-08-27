@@ -1409,3 +1409,20 @@ html,body{touch-action:manipulation}
 @media(max-width:340px){
   #evolutionHubV53 .v740-summary-grid{grid-template-columns:1fr}
 }
+
+/* V7.5 — Cronograma inteligente, somente dentro do Plano Inteligente */
+#smartPlan632 .v750-daily-card,#smartPlan632 .v750-week-card{margin:12px 20px;padding:16px;border:1px solid #272d35;border-radius:19px;background:linear-gradient(145deg,#10151b,#0a0e13)}
+#smartPlan632 .v750-daily-card h3,#smartPlan632 .v750-week-card h3{font-size:17px;margin:4px 0}
+#smartPlan632 .v750-daily-card>p{font-size:8.5px;line-height:1.5;color:var(--muted);margin:5px 0 13px}
+#smartPlan632 .v750-daily-steps,#smartPlan632 .v750-queue{display:grid;gap:8px}
+#smartPlan632 .v750-daily-steps article{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:9px;padding:11px;border:1px solid #232a32;border-radius:14px;background:#0a0f14}
+#smartPlan632 .v750-order{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#1b222b;color:var(--gold);font-weight:900;font-size:10px}
+#smartPlan632 .v750-daily-steps b,#smartPlan632 .v750-queue b{display:block;font-size:8.5px;line-height:1.35}
+#smartPlan632 .v750-daily-steps small,#smartPlan632 .v750-queue small{display:block;color:var(--muted);font-size:7.5px;margin-top:3px}
+#smartPlan632 .v750-daily-steps button{padding:8px 9px;border-radius:9px;border:1px solid #303744;background:#18202a;color:var(--gold);font-size:7px;font-weight:900}
+#smartPlan632 .v750-week-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px}
+#smartPlan632 .v750-week-head small{font-size:7px;color:var(--muted)}
+#smartPlan632 .v750-queue article{display:grid;grid-template-columns:28px 1fr 28px;align-items:center;gap:8px;padding:10px;border-bottom:1px solid #20262e}
+#smartPlan632 .v750-queue article:last-child{border-bottom:0}
+#smartPlan632 .v750-queue article>span{font-size:18px}
+#smartPlan632 .v750-queue button{width:28px;height:28px;border-radius:9px;border:1px solid #2c333d;background:#141b24;color:var(--gold)}
