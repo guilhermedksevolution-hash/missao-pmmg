@@ -902,3 +902,68 @@
 }
 #literatureSubjectCard{cursor:pointer;touch-action:manipulation}
 #literatureSubjectCard:active{transform:scale(.99)}
+
+/* V6.4.7 — aula escrita completa antes das videoaulas */
+.written-lesson-v647{
+  margin:18px 0;
+  padding:16px;
+  border:1px solid rgba(143,184,229,.18);
+  border-radius:17px;
+  background:linear-gradient(145deg,rgba(143,184,229,.055),transparent 62%),var(--card);
+}
+.written-lesson-v647-head{
+  margin-bottom:14px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--line);
+}
+.written-lesson-v647-head>span{
+  display:inline-block;
+  font-size:7px;
+  font-weight:900;
+  letter-spacing:.11em;
+  color:#8fb8e5;
+}
+.written-lesson-v647-head h3{
+  margin-top:5px;
+  font-size:16px;
+}
+.written-lesson-v647-head p{
+  margin-top:6px;
+  color:var(--muted);
+  font-size:9px;
+  line-height:1.55;
+}
+.written-lesson-v647>h3{
+  margin:15px 0 6px;
+  font-size:13px;
+  color:var(--gold);
+}
+.written-lesson-v647>p{
+  margin:0 0 9px;
+  font-size:10px;
+  line-height:1.68;
+  color:var(--text);
+}
+.written-check-v647{
+  margin-top:15px;
+  padding:12px;
+  border-radius:12px;
+  background:rgba(214,187,123,.055);
+  border:1px solid rgba(214,187,123,.15);
+}
+.written-check-v647 b{
+  font-size:9px;
+  color:var(--gold);
+}
+.written-check-v647 ul{
+  margin:8px 0 0 18px;
+  padding:0;
+}
+.written-check-v647 li{
+  margin:5px 0;
+  font-size:9px;
+  line-height:1.45;
+}
+.video-lesson{
+  margin-top:20px;
+}
