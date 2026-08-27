@@ -5015,3 +5015,68 @@ v851Reply=function(q,forced){
   return v860ReplyBase(q,forced);
 };
 window.v851Reply=v851Reply;
+
+
+/* ============================================================
+   MISSÃO PMMG V8.6.1 — AJUSTE DE CONTEXTO DO PROFESSOR
+   Sem contexto: pergunta qual assunto o aluno quer.
+   Com aula/erro: ações rápidas usam o contexto carregado.
+   ============================================================ */
+function v861AvailableTopics(subject){
+  return (V851_KNOWLEDGE[subject]||[]).map(x=>x.t);
+}
+function v861AskTopic(subject,mode){
+  const topics=v861AvailableTopics(subject);
+  const action={
+    explain:"explicar",
+    example:"dar um exemplo",
+    quiz:"testar você",
+    review:"revisar"
+  }[mode]||"explicar";
+  const list=topics.length?`<br><br>Na minha base atual tenho: <b>${topics.map(v851Esc).join(", ")}</b>.`:"";
+  v851Add("bot",`Qual assunto de <b>${v851Esc(subject)}</b> você quer que eu ${action}? Escreva o nome do assunto no campo abaixo.${list}`);
+}
+function v861ContextTopic(){
+  if(V851_CONTEXT.topic)return V851_CONTEXT.topic;
+  if(!V860_CONTEXT)return null;
+  const seed=V860_CONTEXT.type==="lesson"
+    ? (V860_CONTEXT.title||V860_CONTEXT.label||"")
+    : ((V860_CONTEXT.error?.lessonTitle||"")+" "+(V860_CONTEXT.error?.question||""));
+  const hit=v851Find(V860_CONTEXT.subject||V851_CONTEXT.subject,seed);
+  if(hit)V851_CONTEXT.topic=hit;
+  return hit;
+}
+function v850Quick(mode){
+  const subject=document.getElementById("v850Subject")?.value||V851_CONTEXT.subject||"Português";
+  V851_CONTEXT.subject=subject;
+
+  // Context loaded from a lesson/error: never invent a random topic.
+  if(V860_CONTEXT){
+    const hit=v861ContextTopic();
+    if(hit){
+      const labels={explain:`Explique ${hit.t}`,example:`Me dê um exemplo de ${hit.t}`,quiz:`Me teste sobre ${hit.t}`,review:`Revise ${hit.t}`};
+      v851Add("user",v851Esc(labels[mode]||labels.explain));
+      setTimeout(()=>v851Add("bot",v851Reply(hit.t,mode)),100);
+      return;
+    }
+    const contextName=V860_CONTEXT.type==="lesson"
+      ? (V860_CONTEXT.title||"esta aula")
+      : "este erro";
+    const labels={explain:`Explique ${contextName}`,example:`Dê um exemplo sobre ${contextName}`,quiz:`Me teste sobre ${contextName}`,review:`Revise ${contextName}`};
+    v851Add("user",v851Esc(labels[mode]||labels.explain));
+    setTimeout(()=>v851Add("bot",v851Reply(labels[mode]||labels.explain,mode)),100);
+    return;
+  }
+
+  // No context and no previously discussed topic: ask, don't guess.
+  if(!V851_CONTEXT.topic){
+    v861AskTopic(subject,mode);
+    return;
+  }
+
+  const hit=V851_CONTEXT.topic;
+  const labels={explain:`Explique ${hit.t}`,example:`Me dê um exemplo de ${hit.t}`,quiz:`Me teste sobre ${hit.t}`,review:`Revise ${hit.t}`};
+  v851Add("user",v851Esc(labels[mode]||labels.explain));
+  setTimeout(()=>v851Add("bot",v851Reply(hit.t,mode)),100);
+}
+window.v850Quick=v850Quick;
