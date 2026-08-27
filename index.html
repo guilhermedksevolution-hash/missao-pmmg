@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=6.5.1">
+<link rel="stylesheet" href="style.css?v=7.0.0">
 </head>
 <body>
 
@@ -68,7 +68,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V6.5.1.3</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V7.0.0</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -93,7 +93,9 @@
     <article onclick="openErrorNotebook()"><span>Para revisar</span><strong id="errorCountValue">0</strong><small>Caderno de erros</small></article>
   </div>
 
-  <div class="section-head"><div><span class="kicker">ESTUDAR</span><h3>Sua preparação</h3></div></div>
+  <div class="section-head"><div><span class="kicker">MATÉRIAS</span><h3>Progresso por disciplina</h3></div><button onclick="openSubjects()">Ver todas</button></div>
+<div id="v7HomeSubjects" class="v7-home-subjects"></div>
+<div class="section-head"><div><span class="kicker">ESTUDAR</span><h3>Sua preparação</h3></div></div>
   <div class="action-list">
     <button onclick="openPortuguese()"><em>📘</em><div><strong>Continuar Português</strong><small id="portugueseProgressText">0 de 2 aulas concluídas</small><div class="bar"><i id="portugueseProgressBar"></i></div></div><b>›</b></button>
     <button onclick="openErrorNotebook()"><em>📓</em><div><strong>Revisar meus erros</strong><small>Foque no que precisa melhorar</small></div><b>›</b></button>
@@ -184,7 +186,16 @@
 <section id="errorsScreen" class="screen">
  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">REVISÃO INTELIGENTE</span><h2>Caderno de Erros</h2></div></div>
  <div class="rule"><b>📓 Revisão automática</b><span>Seus erros ficam salvos para revisão.</span></div>
- <div class="filter-row"><button class="active">Todos</button><button>Português</button><span id="errorNotebookCounter">0 questões</span><button onclick="clearErrorNotebook()">Limpar</button></div>
+ <div class="filter-row v7-error-filters">
+  <button class="active" onclick="setErrorFilterV7('Todos',this)">Todos</button>
+  <button onclick="setErrorFilterV7('Português',this)">Português</button>
+  <button onclick="setErrorFilterV7('Literatura',this)">Literatura</button>
+  <button onclick="setErrorFilterV7('Inglês',this)">Inglês</button>
+  <button onclick="setErrorFilterV7('Direito',this)">Direito</button>
+  <button onclick="setErrorFilterV7('Matemática',this)">Matemática</button>
+  <span id="errorNotebookCounter">0 questões</span>
+  <button onclick="clearErrorNotebook()">Limpar</button>
+</div>
  <div id="errorNotebookList" class="error-list"></div>
 </section>
 
@@ -202,9 +213,10 @@
  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">ANÁLISE</span><h2>Desempenho</h2></div></div>
  <div class="performance-grid"><article><span>Melhor desempenho</span><strong id="perfAverage">0%</strong><small>Notas registradas</small></article><article><span>Erros</span><strong id="perfErrors">0</strong><small>Para revisar</small></article><article><span>XP</span><strong id="perfXp">0</strong><small>Acumulado</small></article><article><span>Sequência</span><strong id="perfStreak">0</strong><small>Dias</small></article></div>
  <div class="history"><span class="kicker">HISTÓRICO</span><h3>Melhores resultados</h3><div id="scoreHistory" class="score-history"></div></div>
-</section>
-
-<section id="studyHubScreen" class="screen">
+<div class="section-head v7-perf-head"><div><span class="kicker">POR MATÉRIA</span><h3>Desempenho individual</h3></div></div>
+<div id="v7SubjectPerformance" class="v7-subject-performance"></div>
+<div class="v7-weak-card"><span class="kicker">DIAGNÓSTICO</span><h3>🧠 Ponto de atenção</h3><p id="v7WeakestSubject">Faça provas para gerar seu diagnóstico.</p></div>
+</section><section id="studyHubScreen" class="screen">
  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">CENTRAL</span><h2>Central de estudos</h2></div></div>
  <div class="hub-list">
 <article onclick="openPlan()"><b>📅 Plano de estudos</b><span>Meta diária e contagem regressiva.</span></article>
@@ -635,14 +647,17 @@
       <small>Atalho • 10 questões • 15 min</small>
     </button>
 
-    <button class="disabled-v510" onclick="showFutureSimulationV510()">
+    <button onclick="startGeneralSimulationV7()">
       <span>🎯</span>
-      <strong>Completo PMMG</strong>
-      <small>Será liberado quando houver mais matérias</small>
+      <strong>Simulado Geral PMMG</strong>
+      <small>50 questões • todas as matérias • 90 min</small>
     </button>
   </div>
 
-  <div class="sim510-history-head">
+  <div class="v7-bank-launch">
+  <button class="secondary-btn" onclick="openQuestionBankV7()">📚 Banco de Questões — treinar por matéria</button>
+</div>
+<div class="sim510-history-head">
     <div>
       <span class="kicker">HISTÓRICO</span>
       <h3>Últimos resultados</h3>
@@ -650,6 +665,19 @@
     <small id="simHistoryCountV510">0 simulados</small>
   </div>
   <div id="simHistoryV510" class="sim510-history"></div>
+</section>
+
+<section id="questionBankV7" class="screen">
+  <div class="page-head"><button onclick="openSimulatorHubV510()">←</button><div><span class="kicker">TREINO LIVRE</span><h2>Banco de Questões</h2><p>Treine sem precisar refazer uma aula.</p></div></div>
+  <div class="v7-bank-card">
+    <label>Matéria<select id="v7BankSubject">
+      <option value="Todos">Todas as matérias</option>
+      <option>Português</option><option>Literatura</option><option>Inglês</option><option>Direito</option><option>Matemática</option>
+    </select></label>
+    <label>Quantidade<select id="v7BankCount"><option value="5">5 questões</option><option value="10" selected>10 questões</option><option value="20">20 questões</option></select></label>
+    <button class="primary full" onclick="startQuestionBankV7()">Começar treino</button>
+  </div>
+  <div class="v7-bank-info"><b id="v7BankTotal">0 questões disponíveis</b><p>As questões são sorteadas das aulas já cadastradas.</p></div>
 </section>
 
 <section id="simulationScreenV510" class="screen">
@@ -900,5 +928,6 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=6.5.1"></script><script src="literatura.js?v=6.5.1"></script><script src="ingles.js?v=6.5.1"></script><script src="direito.js?v=6.5.1"></script><script src="matematica.js?v=6.5.1"></script><script src="app.js?v=6.5.1"></script>
+<script src="lessons.js?v=7.0.0"></script><script src="literatura.js?v=7.0.0"></script><script src="ingles.js?v=7.0.0"></script><script src="direito.js?v=7.0.0"></script><script src="matematica.js?v=7.0.0"></script><script src="app.js?v=7.0.0"></script>
 </body></html>
+
