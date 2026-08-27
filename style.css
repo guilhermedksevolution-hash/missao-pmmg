@@ -1109,3 +1109,15 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
   background:linear-gradient(160deg,rgba(7,13,17,.88),rgba(3,8,11,.94));
 }
 #mathSubjectCard{display:flex!important}
+
+/* V6.5.0.2 — wallpaper somente soldado */
+.login6493-bg{
+  background-image:
+    linear-gradient(180deg,rgba(0,0,0,.38) 0%,rgba(0,0,0,.14) 35%,rgba(0,0,0,.72) 76%,rgba(0,0,0,.94) 100%),
+    url("soldado-login.png") !important;
+  background-size:cover!important;
+  background-position:center top!important;
+  background-repeat:no-repeat!important;
+}
+.login6493-bg:after{background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.48))!important}
+#mathSubjectCard{display:flex!important;visibility:visible!important;opacity:1!important}
