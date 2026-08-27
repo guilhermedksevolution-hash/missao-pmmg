@@ -1121,3 +1121,28 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 }
 .login6493-bg:after{background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.48))!important}
 #mathSubjectCard{display:flex!important;visibility:visible!important;opacity:1!important}
+
+/* ============================================================
+   MISSÃO PMMG V7.0 — Painel, evolução, banco e revisão
+   ============================================================ */
+.v7-home-subjects{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.v7-home-subjects article{padding:12px;border:1px solid var(--line);border-radius:15px;background:var(--card)}
+.v7-home-subjects article>div:first-child{display:flex;align-items:center;gap:6px}.v7-home-subjects span{font-size:17px}
+.v7-home-subjects b{font-size:9px}.v7-home-subjects strong{display:block;color:var(--gold);font-size:18px;margin-top:7px}
+.v7-home-subjects small{font-size:7px;color:var(--muted)}
+.v7-subject-performance{display:grid;gap:8px}
+.v7-subject-performance article{padding:13px;border-radius:15px;background:var(--card);border:1px solid var(--line)}
+.v7-subject-performance article>div:first-child{display:flex;align-items:center;gap:9px}
+.v7-subject-performance article>div:first-child span{font-size:22px}.v7-subject-performance b{font-size:11px}
+.v7-subject-performance small,.v7-subject-performance p{display:block;color:var(--muted);font-size:7.5px;margin-top:2px}
+.v7-subject-performance strong{display:block;color:var(--gold);font-size:20px;margin-top:8px}
+.v7-weak-card,.v7-bank-card,.v7-bank-info{margin-top:10px;padding:14px;border-radius:15px;background:var(--card);border:1px solid var(--line)}
+.v7-weak-card h3{margin:5px 0;font-size:12px}.v7-weak-card p,.v7-bank-info p{font-size:8px;color:var(--muted);line-height:1.5}
+.v7-error-filters{display:flex;flex-wrap:wrap;gap:5px}.v7-error-filters button{padding:7px 9px;border-radius:999px;background:#111b2d;border:1px solid var(--line);font-size:7px}
+.v7-error-filters button.active{background:rgba(214,187,123,.16);border-color:var(--gold);color:var(--gold)}
+.v7-error-filters span{margin-left:auto;align-self:center;font-size:7px;color:var(--muted)}
+.v7-bank-launch{margin:10px 0}.v7-bank-launch button{width:100%}
+.v7-bank-card{display:grid;gap:10px}.v7-bank-card label{font-size:8px;color:var(--muted)}
+.v7-bank-card select{width:100%;margin-top:5px;padding:11px;border-radius:11px;border:1px solid var(--line);background:#0d1727;color:var(--text)}
+.v7-bank-info b{font-size:11px;color:var(--gold)}
+@media(max-width:390px){.v7-home-subjects{grid-template-columns:1fr}.v7-error-filters span{width:100%;margin-left:0}}
