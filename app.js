@@ -4746,3 +4746,80 @@ if(typeof renderScheduleV790Base==="function"){
   renderScheduleV750=window.renderScheduleV750;
 }
 document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderProgressionV790()}catch(e){}},340));
+
+
+/* ============================================================
+   MISSÃO PMMG V8.0.0 — PREPARAÇÃO PARA A PROVA
+   Painel de leitura dentro de Evolução. Não altera navegação.
+   ============================================================ */
+function v800SubjectProgress(){
+  let total=0,done=0;
+  try{
+    (typeof V7_SUBJECTS!=="undefined"?V7_SUBJECTS:[]).forEach(d=>{
+      const src=d.source?d.source():{};
+      const nums=Object.keys(src||{}).map(Number).filter(Number.isFinite);
+      const completed=Array.isArray(state?.[d.completed])?state[d.completed].map(Number):[];
+      total+=nums.length;
+      done+=nums.filter(n=>completed.includes(n)).length;
+    });
+  }catch(e){}
+  return {total,done,pct:total?Math.round(done/total*100):0};
+}
+function v800SimStats(){
+  let h=[];
+  try{h=JSON.parse(localStorage.getItem("pmmg_sim_history_v72")||"[]");if(!Array.isArray(h))h=[]}catch(e){}
+  const vals=h.map(x=>Number(x.pct)).filter(Number.isFinite);
+  return {
+    count:vals.length,
+    avg:vals.length?Math.round(vals.reduce((a,b)=>a+b,0)/vals.length):0,
+    best:vals.length?Math.max(...vals):0
+  };
+}
+function v800WeakCount(){
+  try{
+    const rows=typeof v750Weak==="function"?v750Weak():[];
+    return Array.isArray(rows)?rows.length:0;
+  }catch(e){return 0}
+}
+function renderExamPrepV800(){
+  const content=v800SubjectProgress(),sim=v800SimStats(),weak=v800WeakCount();
+  // Balanced readiness: content coverage + simulated performance.
+  // If no simulation exists yet, simulated component remains zero instead of inventing performance.
+  const readiness=Math.round(content.pct*0.55+sim.avg*0.45);
+  const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+  put("v800Readiness",readiness+"%");
+  put("v800ContentPct",content.pct+"%");
+  put("v800SimAvg",sim.avg+"%");
+  put("v800BestSim",sim.best+"%");
+  put("v800WeakCount",String(weak));
+  const bar=document.getElementById("v800ReadinessBar");if(bar)bar.style.width=readiness+"%";
+
+  let status="Início da preparação. Priorize conteúdo e constância.";
+  if(readiness>=80)status="Preparação avançada. Mantenha simulados e revisão dos pontos fracos.";
+  else if(readiness>=60)status="Boa evolução. Aumente simulados e corrija os pontos fracos.";
+  else if(readiness>=35)status="Preparação em desenvolvimento. Continue avançando e praticando.";
+  put("v800ReadinessText",status);
+
+  let action="Avance nas próximas aulas do Plano Inteligente.";
+  let due=0;try{due=typeof v750Due==="function"?v750Due().length:0}catch(e){}
+  if(due>0)action=`Resolva ${due} revisão(ões) vencida(s) antes de avançar.`;
+  else if(weak>0)action=`Revise seus ${weak} ponto(s) fraco(s) e depois faça questões.`;
+  else if(sim.count===0)action="Faça seu primeiro simulado para medir o desempenho em prova.";
+  else if(sim.avg<70)action="Priorize treino de questões antes do próximo simulado.";
+  else if(content.pct<100)action="Continue avançando nas aulas sem abandonar os simulados.";
+  else action="Conteúdo concluído: foque em simulados, revisão e manutenção.";
+  put("v800NextAction",action);
+}
+window.renderExamPrepV800=renderExamPrepV800;
+
+// Reuse the already-existing Evolution renderer; only append data refresh.
+const renderEvolutionV800Base=window.renderEvolutionHubV612;
+if(typeof renderEvolutionV800Base==="function"){
+  window.renderEvolutionHubV612=function(){
+    const r=renderEvolutionV800Base.apply(this,arguments);
+    try{renderExamPrepV800()}catch(e){}
+    return r;
+  };
+  renderEvolutionHubV612=window.renderEvolutionHubV612;
+}
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderExamPrepV800()}catch(e){}},360));
