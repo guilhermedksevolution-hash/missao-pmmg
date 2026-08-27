@@ -3519,7 +3519,7 @@ window.openLawV648=()=>{currentSubject="Direito";renderLawTrailV648();showScreen
    V6.4.9.3 — TELA DE LOGIN PRIVADA (SITE ESTÁTICO)
    ========================================================== */
 const PMMG_LOGIN_6493 = "35997772422";
-const PMMG_PASSWORD_6493 = "Luana09.";
+const PMMG_PASSWORD_6493 = "Luana09";
 const PMMG_AUTH_KEY_6493 = "pmmg_auth_v6493";
 
 function setLoginGate6493(show){
@@ -3570,7 +3570,7 @@ function initLogin6493(){
 window.login6493Submit=login6493Submit;
 window.togglePassword6493=togglePassword6493;
 window.logout6493=logout6493;
-document.addEventListener("DOMContentLoaded",initLogin6493);
+
 
 /* V6.5.0 — Raciocínio Lógico-Matemático */
 function renderMathTrailV650(){
@@ -3598,3 +3598,7 @@ function renderMathTrailV650(){
 }
 window.openMathLessonV650=n=>{currentSubject="Matemática";openLesson(n)};
 window.openMathV650=()=>{currentSubject="Matemática";renderMathTrailV650();showScreen("mathTrailScreenV650","navStudy");scrollTo(0,0)};
+
+document.addEventListener("DOMContentLoaded",()=>{
+  try{ initLogin6493(); }catch(e){ setLoginGate6493(true); }
+});
