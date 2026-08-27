@@ -4184,3 +4184,185 @@ document.addEventListener("DOMContentLoaded",()=>{
     updateDashboard();
   },120);
 });
+
+
+/* ============================================================
+   MISSÃO PMMG V7.2.0 — SIMULADO REALISTA + RELATÓRIO PÓS-PROVA
+   ============================================================ */
+const V72_SIM_KEY="pmmg_sim_history_v72";
+let v72LastSimulationMeta=null;
+
+function v72Read(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch(e){return fallback}}
+function v72Write(key,val){localStorage.setItem(key,JSON.stringify(val))}
+
+function v72StartExam(){
+  const pool=getSimulationPoolV7("Todos");
+  if(!pool.length){alert("Banco de questões indisponível.");return}
+  // 50 questões balanceadas entre as cinco disciplinas existentes no projeto.
+  // É um modo de treino PMMG do aplicativo; não afirma reproduzir um edital específico.
+  const subjects=["Português","Literatura","Inglês","Direito","Matemática"];
+  const target={Português:14,Literatura:6,Inglês:8,Direito:10,Matemática:12};
+  let selected=[];
+  subjects.forEach(s=>{
+    const arr=pool.filter(q=>q.subject===s).sort(()=>Math.random()-.5);
+    selected.push(...arr.slice(0,Math.min(target[s],arr.length)));
+  });
+  if(selected.length<50){
+    const used=new Set(selected.map(q=>`${q.subject}|${q.lessonNumber}|${q.questionIndex}`));
+    const extra=pool.filter(q=>!used.has(`${q.subject}|${q.lessonNumber}|${q.questionIndex}`)).sort(()=>Math.random()-.5);
+    selected.push(...extra.slice(0,50-selected.length));
+  }
+  simQuestionsV510=selected.slice(0,50).map(v7ShuffleQuestion);
+  simAnswersV510=new Array(simQuestionsV510.length).fill(null);
+  simIndexV510=0;
+  simSecondsV510=3*60*60; // janela de treino de 3h
+  simStartedAtV510=Date.now();
+  v72LastSimulationMeta={mode:"Simulado PMMG • 50 questões",startedAt:Date.now(),count:simQuestionsV510.length};
+  clearInterval(simTimerV510);
+  setText("simTitleV510","Simulado PMMG • Modo Prova");
+  showScreen("simulationScreenV510","navTrain");
+  renderSimulationQuestionV510();updateSimulationClockV510();
+  simTimerV510=setInterval(()=>{
+    simSecondsV510--;updateSimulationClockV510();
+    if(simSecondsV510<=0){clearInterval(simTimerV510);simTimerV510=null;finishSimulationV510(true)}
+  },1000);
+}
+window.v72StartExam=v72StartExam;
+
+// Point the existing "general" simulation entry to the enhanced exam.
+startGeneralSimulationV7=v72StartExam;
+window.startGeneralSimulationV7=v72StartExam;
+
+function v72AnalyzeSimulation(){
+  const total=simQuestionsV510.length;
+  if(!total)return null;
+  const rows=simQuestionsV510.map((q,i)=>{
+    const ans=simAnswersV510[i];
+    const correct=ans===q.correct;
+    return {...q,selected:ans,correctAnswer:q.correct,isCorrect:correct};
+  });
+  const correct=rows.filter(r=>r.isCorrect).length;
+  const elapsed=Math.max(0,Math.round((Date.now()-(simStartedAtV510||Date.now()))/1000));
+  const bySubject={};
+  const byTopic={};
+  rows.forEach(r=>{
+    const s=r.subject||"Outros";
+    bySubject[s]??={total:0,correct:0};
+    bySubject[s].total++; if(r.isCorrect)bySubject[s].correct++;
+    const topic=`${s}|${r.lessonNumber}|${r.lessonTitle||"Aula "+r.lessonNumber}`;
+    byTopic[topic]??={subject:s,lesson:r.lessonNumber,title:r.lessonTitle||`Aula ${r.lessonNumber}`,total:0,correct:0};
+    byTopic[topic].total++; if(r.isCorrect)byTopic[topic].correct++;
+  });
+  Object.values(bySubject).forEach(x=>x.pct=Math.round(x.correct/x.total*100));
+  const topics=Object.values(byTopic).map(x=>({...x,pct:Math.round(x.correct/x.total*100)}))
+    .sort((a,b)=>a.pct-b.pct||b.total-a.total);
+  return {total,correct,wrong:total-correct,pct:Math.round(correct/total*100),elapsed,bySubject,topics,rows};
+}
+
+function v72FmtTime(sec){
+  const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
+  return h?`${h}h ${String(m).padStart(2,"0")}min`:`${m}min ${String(s).padStart(2,"0")}s`;
+}
+
+function v72SaveReport(r){
+  const hist=v72Read(V72_SIM_KEY,[]);
+  hist.unshift({
+    id:Date.now(),date:new Date().toISOString(),mode:v72LastSimulationMeta?.mode||"Simulado",
+    total:r.total,correct:r.correct,pct:r.pct,elapsed:r.elapsed,bySubject:r.bySubject,
+    weakTopics:r.topics.slice(0,5)
+  });
+  v72Write(V72_SIM_KEY,hist.slice(0,100));
+}
+
+function v72RenderReport(r){
+  let screen=document.getElementById("simulationReportV72");
+  if(!screen){
+    screen=document.createElement("section");
+    screen.id="simulationReportV72";
+    screen.className="screen";
+    document.querySelector("main")?.appendChild(screen) || document.body.appendChild(screen);
+  }
+  const subjects=Object.entries(r.bySubject).sort((a,b)=>a[0].localeCompare(b[0]));
+  const weak=r.topics.filter(x=>x.pct<70).slice(0,5);
+  const unanswered=r.rows.filter(x=>x.selected===null||typeof x.selected==="undefined").length;
+  screen.innerHTML=`
+    <div class="v72-report-head">
+      <button class="back" onclick="openTrainingHubV53?.()">←</button>
+      <div><span class="kicker">RELATÓRIO PÓS-PROVA</span><h2>Simulado PMMG</h2></div>
+    </div>
+    <div class="v72-score-card">
+      <span>DESEMPENHO GERAL</span><strong>${r.pct}%</strong>
+      <p>${r.correct} acertos • ${r.wrong} erros${unanswered?` • ${unanswered} sem resposta`:""} • ${v72FmtTime(r.elapsed)}</p>
+      <div class="v72-score-bar"><i style="width:${r.pct}%"></i></div>
+    </div>
+    <h3 class="v72-title">Desempenho por matéria</h3>
+    <div class="v72-subject-grid">
+      ${subjects.map(([name,x])=>`<article><b>${name}</b><strong>${x.pct}%</strong><small>${x.correct}/${x.total} acertos</small><div><i style="width:${x.pct}%"></i></div></article>`).join("")}
+    </div>
+    <h3 class="v72-title">Prioridades após a prova</h3>
+    <div class="v72-priority-list">
+      ${weak.length?weak.map((x,i)=>`<article><span>${i+1}</span><div><b>${x.subject} • ${x.title}</b><small>${x.correct}/${x.total} • ${x.pct}% de acerto</small></div><button onclick='openSubjectLessonV71(${JSON.stringify(x.subject)},${x.lesson})'>Reestudar</button></article>`).join(""):'<article class="v72-good">🏆 Nenhum assunto abaixo de 70% neste simulado.</article>'}
+    </div>
+    <div class="v72-report-actions">
+      <button onclick="v72TrainFromLastReport()">🎯 Treinar erros deste simulado</button>
+      <button onclick="openErrorsProV60()">📓 Abrir Caderno de Erros</button>
+      <button onclick="v72StartExam()">🔄 Novo simulado</button>
+    </div>
+    <p class="v72-disclaimer">Este modo é uma ferramenta de treino do Missão PMMG. A distribuição usada no aplicativo não deve ser interpretada como reprodução de um edital específico.</p>`;
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
+  screen.classList.add("active");
+}
+
+function v72TrainFromLastReport(){
+  const r=window.v72LastReport;
+  if(!r)return;
+  let wrong=r.rows.filter(x=>!x.isCorrect);
+  if(!wrong.length){alert("Você não teve erros neste simulado. Excelente!");return}
+  simQuestionsV510=wrong.slice(0,20).map(q=>v7ShuffleQuestion(q));
+  simAnswersV510=new Array(simQuestionsV510.length).fill(null);simIndexV510=0;
+  simSecondsV510=Math.max(600,simQuestionsV510.length*90);simStartedAtV510=Date.now();
+  v72LastSimulationMeta={mode:"Treino dos erros do último simulado",startedAt:Date.now(),count:simQuestionsV510.length};
+  clearInterval(simTimerV510);setText("simTitleV510","Treino • Erros do Simulado");
+  showScreen("simulationScreenV510","navTrain");renderSimulationQuestionV510();updateSimulationClockV510();
+  simTimerV510=setInterval(()=>{simSecondsV510--;updateSimulationClockV510();if(simSecondsV510<=0){clearInterval(simTimerV510);simTimerV510=null;finishSimulationV510(true)}},1000);
+}
+window.v72TrainFromLastReport=v72TrainFromLastReport;
+
+// Wrap the final simulation completion function at the very end of the app.
+const finishSimulationV72Base=finishSimulationV510;
+finishSimulationV510=function(auto=false){
+  const report=v72AnalyzeSimulation();
+  // Let the original engine register its normal history/errors first.
+  const originalResult=finishSimulationV72Base(auto);
+  if(report){
+    window.v72LastReport=report;
+    v72SaveReport(report);
+    setTimeout(()=>v72RenderReport(report),30);
+  }
+  return originalResult;
+};
+window.finishSimulationV510=finishSimulationV510;
+
+function openSimulationHistoryV72(){
+  const hist=v72Read(V72_SIM_KEY,[]);
+  let screen=document.getElementById("simulationHistoryV72");
+  if(!screen){
+    screen=document.createElement("section");screen.id="simulationHistoryV72";screen.className="screen";
+    document.querySelector("main")?.appendChild(screen)||document.body.appendChild(screen);
+  }
+  screen.innerHTML=`<div class="v72-report-head"><button class="back" onclick="openTrainingHubV53?.()">←</button><div><span class="kicker">EVOLUÇÃO</span><h2>Histórico de simulados</h2></div></div>
+  <div class="v72-history">${hist.length?hist.map(x=>`<article><div><b>${new Date(x.date).toLocaleDateString("pt-BR")} • ${x.mode}</b><small>${x.correct}/${x.total} acertos • ${v72FmtTime(x.elapsed)}</small></div><strong>${x.pct}%</strong></article>`).join(""):'<div class="empty-state">Faça seu primeiro simulado para criar o histórico.</div>'}</div>`;
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));screen.classList.add("active");
+}
+window.openSimulationHistoryV72=openSimulationHistoryV72;
+
+document.addEventListener("DOMContentLoaded",()=>{
+  setTimeout(()=>{
+    // Add history shortcut to training screen without duplicating if already present.
+    const area=document.querySelector("#trainingHubV53 .tools, #trainingHubV53 .v53-grid, #trainHubV53 .tools, #trainHubV53 .v53-grid");
+    if(area && !document.getElementById("v72HistoryShortcut")){
+      const b=document.createElement("button");b.id="v72HistoryShortcut";b.onclick=openSimulationHistoryV72;
+      b.innerHTML="📊<strong>Histórico de simulados</strong><small>Acompanhe sua evolução</small>";area.appendChild(b);
+    }
+  },150);
+});
