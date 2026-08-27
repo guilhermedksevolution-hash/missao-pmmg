@@ -1355,21 +1355,9 @@ input,select,textarea{
   background:linear-gradient(145deg,#101419,#0b0f13) !important;
 }
 
-/* V7.3 — Painel compacto de estatísticas, preto/dourado */
-#v73StatsPanel{
-  margin:18px 20px 115px;
-  padding:17px;
-  border:1px solid #282e36;
-  border-radius:20px;
-  background:linear-gradient(145deg,#101419,#090d11);
-  box-shadow:0 12px 32px rgba(0,0,0,.18);
-}
-#v73StatsPanel .v73-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
-#v73StatsPanel .v73-head b{font-size:15px}
-#v73StatsPanel .v73-head button{border:0;background:none;color:var(--gold);font-size:10px;font-weight:800}
-.v73-stat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.v73-stat-grid article{padding:12px;border:1px solid #232a32;border-radius:14px;background:#0b1015}
-.v73-stat-grid strong{display:block;font-size:20px;color:var(--gold);margin:4px 0}
-.v73-stat-grid small{font-size:8px;color:var(--muted);line-height:1.35}
-.v73-stat-grid span{font-size:16px}
-@media(min-width:600px){.v73-stat-grid{grid-template-columns:repeat(4,1fr)}}
+/* V7.3.1 — HOTFIX DE NAVEGAÇÃO
+   Tema Black Professional mantido sem adicionar camadas funcionais. */
+html,body{touch-action:manipulation}
+.bottom-nav,.bottomnav,nav.bottom{pointer-events:auto!important}
+.bottom-nav button,.bottomnav button,nav.bottom button{pointer-events:auto!important}
+.screen.active{pointer-events:auto!important}
