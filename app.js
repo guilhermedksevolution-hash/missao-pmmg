@@ -3854,3 +3854,333 @@ resetPreparation638=function(){
 window.resetPreparation638=resetPreparation638;
 
 document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{updateDashboard();if(document.getElementById("v7BankTotal"))setText("v7BankTotal",`${getSimulationPoolV7("Todos").length} questões disponíveis`)},80)});
+
+
+/* ============================================================
+   MISSÃO PMMG V7.1.0 — MOTOR ADAPTATIVO, REVISÃO E BACKUP
+   ============================================================ */
+const V71_REVIEW_KEY="pmmg_spaced_reviews_v71";
+const V71_REVIEW_LOG_KEY="pmmg_review_log_v71";
+
+function v71Read(key,fallback){
+  try{const x=JSON.parse(localStorage.getItem(key));return x??fallback}catch(e){return fallback}
+}
+function v71Write(key,value){localStorage.setItem(key,JSON.stringify(value))}
+function v71Today(d=new Date()){
+  const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,"0"),day=String(d.getDate()).padStart(2,"0");
+  return `${y}-${m}-${day}`;
+}
+function v71DatePlus(days){
+  const d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()+Number(days||0));return v71Today(d);
+}
+function v71SubjectDef(name){return (typeof V7_SUBJECTS!=="undefined"?V7_SUBJECTS:[]).find(x=>x.name===name)}
+function v71Source(name){return v71SubjectDef(name)?.source?.()||{}}
+function v71Scores(name){const d=v71SubjectDef(name);return d?(state[d.scores]||{}):{}}
+function v71Completed(name){const d=v71SubjectDef(name);return d?(state[d.completed]||[]):[]}
+
+/* ---------- Diagnóstico por assunto/aula ---------- */
+function getWeakDataV71(){
+  const rows=[];
+  (typeof V7_SUBJECTS!=="undefined"?V7_SUBJECTS:[]).forEach(def=>{
+    const src=def.source(),scores=state[def.scores]||{},completed=state[def.completed]||[];
+    Object.keys(src).map(Number).filter(Number.isFinite).forEach(n=>{
+      const lesson=src[n],score=typeof scores[n]==="number"?Number(scores[n]):null;
+      const errs=(state.errors||[]).filter(e=>e.subject===def.name&&Number(e.lessonNumber)===n);
+      const reviewed=v71Read("pmmg_reviewed_errors_v60",[]);
+      const pending=errs.filter(e=>!reviewed.includes(e.id)).length;
+      const attempts=score===null?0:1;
+      let weakness=0;
+      if(score!==null) weakness += Math.max(0,100-score)*0.72;
+      if(pending) weakness += Math.min(28,pending*7);
+      if(score===null && !pending) weakness=-1;
+      rows.push({
+        subject:def.name,icon:def.icon,lesson:n,title:lesson.title,
+        score,attempts,pending,completed:completed.includes(n),
+        weakness:Math.round(Math.max(-1,Math.min(100,weakness)))
+      });
+    });
+  });
+  return rows.sort((a,b)=>b.weakness-a.weakness||b.pending-a.pending||((a.score??101)-(b.score??101)));
+}
+getWeakData631=getWeakDataV71;
+window.getWeakData631=getWeakDataV71;
+
+function openSubjectLessonV71(subject,n){
+  currentSubject=subject;
+  if(subject==="Português"){openPortuguese();setTimeout(()=>openLesson(n),10);return}
+  if(subject==="Literatura"){openLiterature();setTimeout(()=>window.openLiteratureLessonV6443?openLiteratureLessonV6443(n):openLesson(n),10);return}
+  if(subject==="Inglês"){window.openEnglishV646?.();setTimeout(()=>window.openEnglishLessonV646?openEnglishLessonV646(n):openLesson(n),10);return}
+  if(subject==="Direito"){window.openLawV648?.();setTimeout(()=>window.openLawLessonV648?openLawLessonV648(n):openLesson(n),10);return}
+  if(subject==="Matemática"){window.openMathV650?.();setTimeout(()=>window.openMathLessonV650?openMathLessonV650(n):openLesson(n),10)}
+}
+window.openSubjectLessonV71=openSubjectLessonV71;
+
+renderWeakPoints631=function(){
+  const data=getWeakDataV71();
+  const measured=data.filter(x=>x.score!==null||x.pending>0);
+  const top=measured[0];
+  const rank=document.getElementById("w631ranking"),recs=document.getElementById("w631recs");
+  if(!rank||!recs)return;
+  setText("w631title",top?`Prioridade: ${top.subject} • ${top.title}`:"Ainda faltam dados para o diagnóstico");
+  setText("w631text",top?`${top.pending} erro(s) pendente(s) • melhor nota ${top.score===null?"não registrada":top.score+"%"}.`:"Faça provas para o sistema encontrar assuntos específicos que precisam de reforço.");
+  rank.innerHTML=measured.length?measured.slice(0,15).map((x,i)=>`
+    <article><div class="weak631top"><b>${i+1}. ${x.icon} ${x.subject} • ${x.title}</b><strong>${x.score===null?"—":x.score+"%"}</strong></div>
+    <div class="weak631bar"><i style="width:${x.score===null?0:x.score}%"></i></div>
+    <small>${x.pending} erro(s) pendente(s) • prioridade ${x.weakness>=55?"ALTA":x.weakness>=30?"MÉDIA":"BAIXA"}</small></article>`).join(""):'<div class="empty-state">Faça atividades para gerar seu ranking por assunto.</div>';
+  recs.innerHTML=measured.length?measured.slice(0,5).map((x,i)=>`
+    <article><span>${i===0?"🎯":i===1?"🧠":"📘"}</span><div><b>${x.subject} • ${x.title}</b><small>${x.score===null?"Sem nota":x.score+"%"} • ${x.pending} pendência(s)</small></div>
+    <button onclick='openSubjectLessonV71(${JSON.stringify(x.subject)},${x.lesson})'>Estudar</button></article>`).join(""):'<div class="empty-state">As recomendações aparecerão conforme você estudar.</div>';
+};
+window.renderWeakPoints631=renderWeakPoints631;
+
+/* ---------- Treino automático de pontos fracos ---------- */
+function getWeakQuestionPoolV71(){
+  const weak=getWeakDataV71().filter(x=>x.score!==null||x.pending>0).slice(0,8);
+  const keys=new Set(weak.map(x=>`${x.subject}|${x.lesson}`));
+  let pool=getSimulationPoolV7("Todos").filter(q=>keys.has(`${q.subject}|${q.lessonNumber}`));
+  // Erros pendentes têm prioridade extra
+  const pendingIds=new Set((state.errors||[]).map(e=>`${e.subject}|${e.lessonNumber}|${e.questionIndex}`));
+  const priority=pool.filter(q=>pendingIds.has(`${q.subject}|${q.lessonNumber}|${q.questionIndex}`));
+  const rest=pool.filter(q=>!pendingIds.has(`${q.subject}|${q.lessonNumber}|${q.questionIndex}`));
+  return [...priority,...rest];
+}
+function trainWeakPointsV71(){
+  let pool=getWeakQuestionPoolV71();
+  if(!pool.length){alert("Ainda faltam resultados para montar um treino de pontos fracos. Faça algumas provas primeiro.");return}
+  pool=[...pool].sort(()=>Math.random()-.5);
+  const count=Math.min(15,pool.length);
+  simQuestionsV510=pool.slice(0,count).map(v7ShuffleQuestion);
+  simAnswersV510=new Array(count).fill(null);simIndexV510=0;simSecondsV510=Math.max(600,count*90);simStartedAtV510=Date.now();
+  clearInterval(simTimerV510);setText("simTitleV510","Treino • Pontos Fracos");showScreen("simulationScreenV510","navTrain");
+  renderSimulationQuestionV510();updateSimulationClockV510();
+  simTimerV510=setInterval(()=>{simSecondsV510--;updateSimulationClockV510();if(simSecondsV510<=0){clearInterval(simTimerV510);simTimerV510=null;finishSimulationV510(true)}},1000);
+}
+window.trainWeakPointsV71=trainWeakPointsV71;
+
+/* ---------- Revisão espaçada automática 1-7-30 ---------- */
+function ensureSpacedReviewsV71(subject,lesson,title,score){
+  if(!subject||!lesson)return;
+  let list=v71Read(V71_REVIEW_KEY,[]);
+  const now=Date.now();
+  [1,7,30].forEach((days,idx)=>{
+    const key=`${subject}|${lesson}|${days}`;
+    if(!list.some(r=>r.key===key&&r.status!=="deleted")){
+      list.push({id:now+idx,key,subject,lesson:Number(lesson),title:title||`Aula ${lesson}`,days,due:v71DatePlus(days),done:false,created:now,score:Number(score)||0});
+    }
+  });
+  v71Write(V71_REVIEW_KEY,list);
+}
+function populateRevisionLessonsV71(){
+  const subject=document.getElementById("revisionSubjectV71")?.value||"Português";
+  const sel=document.getElementById("revisionLessonV60");if(!sel)return;
+  const src=v71Source(subject);
+  sel.innerHTML=Object.keys(src).map(Number).sort((a,b)=>a-b).map(n=>`<option value="${n}">Aula ${String(n).padStart(2,"0")} • ${src[n].title}</option>`).join("");
+}
+window.populateRevisionLessonsV71=populateRevisionLessonsV71;
+
+function scheduleRevisionV71(){
+  const subject=document.getElementById("revisionSubjectV71")?.value||"Português";
+  const lesson=Number(document.getElementById("revisionLessonV60")?.value);
+  const delay=Number(document.getElementById("revisionDelayV60")?.value||1);
+  const src=v71Source(subject),title=src[lesson]?.title||`Aula ${lesson}`;
+  let list=v71Read(V71_REVIEW_KEY,[]);
+  list.push({id:Date.now(),key:`manual|${Date.now()}`,subject,lesson,title,days:delay,due:v71DatePlus(delay),done:false,created:Date.now(),score:null});
+  v71Write(V71_REVIEW_KEY,list);renderRevisionScheduleV60();
+  if(typeof logStudyEventV60==="function")logStudyEventV60("review","Revisão agendada",`${subject} • ${title} • ${delay} dia(s)`);
+}
+window.scheduleRevisionV71=scheduleRevisionV71;
+
+renderRevisionScheduleV60=function(){
+  populateRevisionLessonsV71();
+  const box=document.getElementById("revisionListV60");if(!box)return;
+  let list=v71Read(V71_REVIEW_KEY,[]).filter(r=>r.status!=="deleted").sort((a,b)=>(a.done-b.done)||a.due.localeCompare(b.due));
+  const today=v71Today(),in7=v71DatePlus(7);
+  setText("v71ReviewDue",list.filter(r=>!r.done&&r.due<=today).length);
+  setText("v71ReviewWeek",list.filter(r=>!r.done&&r.due>today&&r.due<=in7).length);
+  setText("v71ReviewDone",list.filter(r=>r.done).length);
+  box.innerHTML=list.length?list.map(r=>{
+    const due=r.due<=today&&!r.done;
+    return `<article class="v60-list-item ${due?"v71-due":""}"><span class="icon">${r.done?"✅":due?"🔴":"🧠"}</span><div class="copy">
+      <strong>${r.subject} • ${r.title}</strong><p>${r.done?"Concluída":"Revisar em "+new Date(r.due+"T12:00:00").toLocaleDateString("pt-BR")}</p>
+      <em>${r.days?`ciclo ${r.days} dia(s)`:"manual"}</em></div>
+      <button onclick="completeSpacedReviewV71(${r.id})">${r.done?"Reabrir":"Concluir"}</button></article>`;
+  }).join(""):'<div class="empty-state">Nenhuma revisão programada. Ao fazer provas, o ciclo 1-7-30 será criado automaticamente.</div>';
+};
+window.renderRevisionScheduleV60=renderRevisionScheduleV60;
+
+function completeSpacedReviewV71(id){
+  let list=v71Read(V71_REVIEW_KEY,[]),r=list.find(x=>Number(x.id)===Number(id));if(!r)return;
+  r.done=!r.done;r.completedAt=r.done?Date.now():null;v71Write(V71_REVIEW_KEY,list);
+  if(r.done){
+    const log=v71Read(V71_REVIEW_LOG_KEY,[]);log.unshift({subject:r.subject,lesson:r.lesson,title:r.title,date:Date.now(),cycle:r.days});v71Write(V71_REVIEW_LOG_KEY,log.slice(0,500));
+    if(typeof logStudyEventV60==="function")logStudyEventV60("review","Revisão espaçada concluída",`${r.subject} • ${r.title}`);
+  }
+  renderRevisionScheduleV60();updateDashboard();
+}
+window.completeSpacedReviewV71=completeSpacedReviewV71;
+
+// Hook results AFTER all previous result wrappers
+const registerResultV71Base=registerResult;
+registerResult=function(lessonNumber,score,approved){
+  const subject=currentSubject,lesson=getLessonData(lessonNumber);
+  const result=registerResultV71Base(lessonNumber,score,approved);
+  // Toda prova cria o ciclo; notas baixas continuam aparecendo como ponto fraco.
+  ensureSpacedReviewsV71(subject,lessonNumber,lesson?.title,score);
+  return result;
+};
+window.registerResult=registerResult;
+
+/* ---------- Missão diária adaptativa ---------- */
+updateDailyMissionV7=function(){
+  const title=document.getElementById("dailyMissionTitle"),text=document.getElementById("dailyMissionText");if(!title||!text)return;
+  const reviews=v71Read(V71_REVIEW_KEY,[]),today=v71Today();
+  const due=reviews.filter(r=>!r.done&&r.due<=today);
+  if(due.length){
+    title.textContent="Revisões vencidas para hoje";
+    text.textContent=`🧠 ${due.length} revisão(ões) • priorize o ciclo antes de avançar`;
+    return;
+  }
+  const weak=getWeakDataV71().find(x=>x.weakness>=40);
+  if(weak){
+    title.textContent=`Fortaleça ${weak.subject}`;
+    text.textContent=`🎯 ${weak.title} • ${weak.score===null?"sem nota":weak.score+"%"} • ${weak.pending} erro(s)`;
+    return;
+  }
+  for(const d of V7_SUBJECTS){
+    const src=d.source(),nums=Object.keys(src).map(Number).sort((a,b)=>a-b),done=state[d.completed]||[];
+    const n=nums.find(x=>!done.includes(x));
+    if(n){title.textContent=`Avance em ${d.name}`;text.textContent=`${d.icon} ${src[n].title} • teoria • vídeo • questões`;return}
+  }
+  title.textContent="Preparação completa 🏆";text.textContent="Mantenha simulados e revisões em dia.";
+};
+window.updateDailyMissionV7=updateDailyMissionV7;
+
+/* ---------- Índice de preparo V7.1 ---------- */
+function getPreparationIndexV71(){
+  const g=v7AllStats(),progress=g.total?g.completed/g.total*100:0;
+  const lessonAvg=getAverageScoreV7();
+  const sims=v71Read("pmmg_sim_history_v510",[]);
+  const simRecent=sims.slice(0,10),simAvg=simRecent.length?simRecent.reduce((s,x)=>s+Number(x.score||0),0)/simRecent.length:0;
+  const reviewed=v71Read("pmmg_reviewed_errors_v60",[]);
+  const totalErrors=(state.errors||[]).length,reviewedErrors=(state.errors||[]).filter(e=>reviewed.includes(e.id)).length;
+  const errorRecovery=totalErrors?Math.round(reviewedErrors/totalErrors*100):(g.completed?100:0);
+  const rev=v71Read(V71_REVIEW_KEY,[]),today=v71Today(),due=rev.filter(r=>r.due<=today),doneDue=due.filter(r=>r.done).length;
+  const reviewScore=due.length?Math.round(doneDue/due.length*100):(rev.length?100:0);
+  const score=Math.round(progress*.25+lessonAvg*.25+simAvg*.20+errorRecovery*.15+reviewScore*.15);
+  return {score,progress:Math.round(progress),lessonAvg,simAvg:Math.round(simAvg),errorRecovery,reviewScore};
+}
+function renderPreparationIndexV71(){
+  const x=getPreparationIndexV71();
+  setText("prepIndexValueV60",x.score);setText("preparationIndex",x.score);
+  let label=x.score>=85?"Nível competitivo":x.score>=70?"Preparação avançada":x.score>=50?"Em evolução":x.score>=25?"Base em construção":"Início da preparação";
+  setText("prepIndexLabelV60",label);
+  setText("prepIndexTextV60","Índice de estudo: combina progresso, notas, simulados, recuperação de erros e revisões. Não é previsão de aprovação.");
+  const box=document.getElementById("prepBreakdownV60");
+  if(box)box.innerHTML=[
+    ["Conteúdo concluído",x.progress],["Desempenho nas aulas",x.lessonAvg],["Simulados recentes",x.simAvg],
+    ["Recuperação de erros",x.errorRecovery],["Revisões em dia",x.reviewScore]
+  ].map(([n,v])=>`<article><div><b>${n}</b><strong>${v}%</strong></div><div class="bar"><i style="width:${v}%"></i></div></article>`).join("");
+}
+renderPreparationIndexV60=renderPreparationIndexV71;
+window.renderPreparationIndexV60=renderPreparationIndexV71;
+
+/* ---------- Plano inteligente V7.1 ---------- */
+renderSmartPlan632=function(){
+  const weak=getWeakDataV71().filter(x=>x.score!==null||x.pending>0)[0];
+  const title=document.getElementById("p632title"),text=document.getElementById("p632text"),steps=document.getElementById("p632steps"),
+        bar=document.getElementById("p632bar"),prog=document.getElementById("p632progress"),goalEl=document.getElementById("p632goal");
+  if(!title||!steps)return;
+  if(!weak){
+    title.textContent="Comece pela primeira aula";
+    text.textContent="Ainda faltam dados para personalizar o plano.";
+    goalEl.textContent="Meta: criar sua primeira base de desempenho.";
+    bar.style.width="0%";prog.textContent="0 de 3 etapas concluídas";
+    steps.innerHTML='<article><span>📘</span><div><b>Estudar Português • Aula 01</b><small>Comece a gerar dados para o plano adaptativo.</small></div><button onclick="openSubjectLessonV71(\'Português\',1)">Estudar</button></article>';
+    return;
+  }
+  title.textContent=`Fortalecer: ${weak.subject} • ${weak.title}`;
+  text.textContent=`Melhor nota ${weak.score===null?"não registrada":weak.score+"%"} • ${weak.pending} erro(s) pendente(s).`;
+  goalEl.textContent=`Meta: atingir 70%+ e zerar pendências neste assunto.`;
+  const scoreOk=(weak.score??0)>=70,pendingOk=weak.pending===0;
+  const done=(scoreOk?1:0)+(pendingOk?1:0);bar.style.width=Math.round(done/3*100)+"%";prog.textContent=`${done} de 3 etapas concluídas`;
+  steps.innerHTML=`
+    <article><span>📘</span><div><b>1. Reestudar ${weak.title}</b><small>Volte à teoria e à videoaula.</small></div><button onclick='openSubjectLessonV71(${JSON.stringify(weak.subject)},${weak.lesson})'>Estudar</button></article>
+    <article><span>🧠</span><div><b>2. Corrigir erros pendentes</b><small>${weak.pending} item(ns) deste assunto ainda registrados.</small></div><button onclick="openErrorsProV60()">Revisar</button></article>
+    <article><span>🎯</span><div><b>3. Treino adaptativo</b><small>Questões selecionadas dos seus assuntos mais fracos.</small></div><button onclick="trainWeakPointsV71()">Treinar</button></article>`;
+};
+window.renderSmartPlan632=renderSmartPlan632;
+
+/* ---------- Caderno canônico: filtros por matéria + status ---------- */
+let v71ProFilter="todos";
+function filterErrorsProV60(filter,btn){
+  v71ProFilter=filter;
+  document.querySelectorAll("#errorsProScreenV60 .v60-filter-row button").forEach(b=>b.classList.remove("active"));btn?.classList.add("active");
+  renderErrorsProV60(filter);
+}
+window.filterErrorsProV60=filterErrorsProV60;
+
+function rebuildErrorFilterButtonsV71(){
+  const row=document.querySelector("#errorsProScreenV60 .v60-filter-row");if(!row)return;
+  row.innerHTML=`<button class="active" onclick="filterErrorsProV60('todos',this)">Todos</button>
+    <button onclick="filterErrorsProV60('Português',this)">Português</button><button onclick="filterErrorsProV60('Literatura',this)">Literatura</button>
+    <button onclick="filterErrorsProV60('Inglês',this)">Inglês</button><button onclick="filterErrorsProV60('Direito',this)">Direito</button>
+    <button onclick="filterErrorsProV60('Matemática',this)">Matemática</button><button onclick="filterErrorsProV60('revisados',this)">Revisados</button>`;
+}
+renderErrorsProV60=function(filter=v71ProFilter){
+  const all=(state.errors||[]),reviewed=v71Read("pmmg_reviewed_errors_v60",[]);
+  const box=document.getElementById("errorsProListV60"),stats=document.getElementById("errorsProStatsV60");if(!box||!stats)return;
+  let list=all;if(filter==="revisados")list=all.filter(e=>reviewed.includes(e.id));else if(filter!=="todos")list=all.filter(e=>e.subject===filter);
+  const revisedCount=all.filter(e=>reviewed.includes(e.id)).length;
+  stats.innerHTML=`<article><strong>${all.length}</strong><small>Total</small></article><article><strong>${revisedCount}</strong><small>Revisados</small></article><article><strong>${all.length-revisedCount}</strong><small>Pendentes</small></article>`;
+  box.innerHTML=list.length?list.map(e=>`<article class="v60-list-item"><span class="icon">${reviewed.includes(e.id)?"✅":"❌"}</span><div class="copy">
+    <strong>${e.subject||"Português"} • ${e.question||"Questão"}</strong><p><b>Sua resposta:</b> ${e.selectedText||""}</p><p><b>Correta:</b> ${e.correctText||""}</p>
+    <em>Aula ${String(e.lessonNumber||"").padStart(2,"0")}</em></div><button onclick="toggleReviewedErrorV60('${e.id}')">${reviewed.includes(e.id)?"Pendente":"Revisado"}</button></article>`).join(""):'<div class="empty-state">Nenhuma questão neste filtro.</div>';
+  const pending=all.length-revisedCount;setText("smartReviewPendingV619",pending?`${pending} erro(s) pendente(s)`:"Nenhuma pendência 🎯");
+};
+window.renderErrorsProV60=renderErrorsProV60;
+
+/* ---------- Backup e restauração ---------- */
+function exportBackupV71(){
+  const data={format:"missao-pmmg-backup",version:"7.1.0",exportedAt:new Date().toISOString(),localStorage:{}};
+  for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k)data.localStorage[k]=localStorage.getItem(k)}
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`missao-pmmg-backup-${v71Today()}.json`;
+  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);
+}
+window.exportBackupV71=exportBackupV71;
+
+function importBackupV71(ev){
+  const file=ev.target.files?.[0];if(!file)return;
+  const reader=new FileReader();
+  reader.onload=()=>{
+    try{
+      const data=JSON.parse(reader.result);
+      if(data?.format!=="missao-pmmg-backup"||!data.localStorage||typeof data.localStorage!=="object")throw new Error("Formato inválido");
+      if(!confirm("Importar este backup? Os dados atuais da preparação serão substituídos."))return;
+      Object.keys(data.localStorage).forEach(k=>localStorage.setItem(k,String(data.localStorage[k])));
+      alert("✅ Backup importado. A página será recarregada.");location.reload();
+    }catch(e){alert("Não foi possível importar. Selecione um backup válido do Missão PMMG.")}
+  };
+  reader.readAsText(file);ev.target.value="";
+}
+window.importBackupV71=importBackupV71;
+
+/* ---------- Atualização do painel ---------- */
+const updateDashboardV71Base=updateDashboard;
+updateDashboard=function(){
+  updateDashboardV71Base();
+  const x=getPreparationIndexV71();setText("preparationIndex",x.score);
+  const reviews=v71Read(V71_REVIEW_KEY,[]),today=v71Today(),due=reviews.filter(r=>!r.done&&r.due<=today).length;
+  const err=document.getElementById("errorCountValue");
+  if(err)err.textContent=(state.errors||[]).length + (due?` +${due}`:"");
+};
+window.updateDashboard=updateDashboard;
+
+/* Inicialização canônica */
+document.addEventListener("DOMContentLoaded",()=>{
+  setTimeout(()=>{
+    rebuildErrorFilterButtonsV71();
+    populateRevisionLessonsV71();
+    updateDashboard();
+  },120);
+});
