@@ -1249,3 +1249,34 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
     grid-column:auto !important;
   }
 }
+
+/* ============================================================
+   MISSÃO PMMG V7.2 — RELATÓRIO DE SIMULADO
+   ============================================================ */
+#simulationReportV72,#simulationHistoryV72{padding:20px 20px 120px}
+.v72-report-head{display:flex;align-items:center;gap:13px;margin:12px 0 20px}
+.v72-report-head .back{width:48px;height:48px;border-radius:15px;border:1px solid var(--line);background:var(--card);font-size:22px}
+.v72-report-head h2{font-size:25px;margin:4px 0 0}
+.v72-score-card{padding:20px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#152136,#111b2d);margin-bottom:20px}
+.v72-score-card>span{font-size:8px;color:var(--gold);font-weight:900;letter-spacing:1.2px}
+.v72-score-card>strong{display:block;font-size:44px;color:var(--gold);margin:8px 0 3px}
+.v72-score-card p{font-size:9px;color:var(--muted)}
+.v72-score-bar,.v72-subject-grid article>div{height:7px;background:#202c40;border-radius:99px;overflow:hidden;margin-top:13px}
+.v72-score-bar i,.v72-subject-grid article>div i{display:block;height:100%;background:linear-gradient(90deg,#8ca7d0,#dec47f);border-radius:99px}
+.v72-title{font-size:16px;margin:20px 2px 11px}
+.v72-subject-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.v72-subject-grid article{padding:14px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.v72-subject-grid b{display:block;font-size:9px}.v72-subject-grid strong{display:block;color:var(--gold);font-size:22px;margin:7px 0 2px}.v72-subject-grid small{font-size:8px;color:var(--muted)}
+.v72-priority-list{display:grid;gap:8px}
+.v72-priority-list article{display:grid;grid-template-columns:30px 1fr auto;gap:9px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:15px;background:var(--card)}
+.v72-priority-list article>span{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#202d43;color:var(--gold);font-weight:900}
+.v72-priority-list b{font-size:9px}.v72-priority-list small{display:block;font-size:8px;color:var(--muted);margin-top:3px}
+.v72-priority-list button{padding:8px;border-radius:9px;background:#202d43;border:1px solid var(--line);font-size:7px}
+.v72-priority-list .v72-good{display:block}
+.v72-report-actions{display:grid;gap:8px;margin-top:18px}
+.v72-report-actions button{padding:13px;border-radius:13px;border:1px solid var(--line);background:#17243a;font-weight:900}
+.v72-report-actions button:first-child{background:linear-gradient(#dcc47f,#bea15f);color:#17120a}
+.v72-disclaimer{font-size:7px;line-height:1.5;color:var(--muted);margin:15px 3px}
+.v72-history{display:grid;gap:9px}.v72-history article{display:flex;justify-content:space-between;align-items:center;padding:14px;border:1px solid var(--line);border-radius:15px;background:var(--card)}
+.v72-history b{display:block;font-size:9px}.v72-history small{display:block;font-size:8px;color:var(--muted);margin-top:4px}.v72-history strong{font-size:20px;color:var(--gold)}
+@media(max-width:350px){.v72-subject-grid{grid-template-columns:1fr}.v72-priority-list article{grid-template-columns:28px 1fr}.v72-priority-list button{grid-column:2}}
