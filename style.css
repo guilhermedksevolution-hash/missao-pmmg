@@ -1543,3 +1543,16 @@ html,body{touch-action:manipulation}
 #professorScreen .v850-compose textarea{resize:none;padding:10px;border-radius:12px;font-size:9px}
 #professorScreen .v850-compose button{height:42px;padding:0 13px;border:0;border-radius:11px;background:linear-gradient(180deg,#e4c36f,#c9a650);color:#111;font-weight:900;font-size:8px}
 #professorScreen .v850-note{margin:9px 20px 100px;color:var(--muted);font-size:7px;line-height:1.45;text-align:center}
+
+/* V8.6 — Integração Professor ↔ aulas/erros */
+#lessonScreen .v860-professor-help{width:calc(100% - 40px);margin:10px 20px 100px;padding:13px;display:grid;grid-template-columns:28px 1fr auto;gap:9px;align-items:center;text-align:left;border:1px solid #3b3422;border-radius:14px;background:linear-gradient(145deg,#17140d,#0d0f12);color:var(--text)}
+#lessonScreen .v860-professor-help>b{font-size:18px}
+#lessonScreen .v860-professor-help span b{display:block;font-size:9px;color:var(--gold)}
+#lessonScreen .v860-professor-help span small{display:block;font-size:7px;color:var(--muted);margin-top:2px}
+#lessonScreen .v860-professor-help em{font-style:normal;color:var(--gold);font-size:16px}
+.errorsScreen .v860-error-prof,.v860-error-prof{width:100%;margin-top:9px;padding:9px;border:1px solid #34301f;border-radius:10px;background:#15130d;color:var(--gold);font-size:7.5px;font-weight:900}
+#professorScreen .v860-context-card{margin:0 20px 9px;padding:10px;display:grid;grid-template-columns:25px 1fr 25px;align-items:center;gap:8px;border:1px solid #3c3420;border-radius:12px;background:#15130d}
+#professorScreen .v860-context-card>span{font-size:16px}
+#professorScreen .v860-context-card b{display:block;font-size:8px;color:var(--gold)}
+#professorScreen .v860-context-card small{display:block;font-size:7px;color:var(--muted);margin-top:2px}
+#professorScreen .v860-context-card button{border:0;background:transparent;color:var(--muted);font-size:16px}
