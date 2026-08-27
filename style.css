@@ -1361,3 +1361,51 @@ html,body{touch-action:manipulation}
 .bottom-nav,.bottomnav,nav.bottom{pointer-events:auto!important}
 .bottom-nav button,.bottomnav button,nav.bottom button{pointer-events:auto!important}
 .screen.active{pointer-events:auto!important}
+
+/* ============================================================
+   MISSÃO PMMG V7.4.0 — EVOLUÇÃO AVANÇADA
+   Escopo restrito à aba Evolução.
+   ============================================================ */
+#evolutionHubV53 .v740-section-label{margin:20px 20px 9px}
+#evolutionHubV53 .v740-section-label h3{font-size:16px;margin-top:3px}
+#evolutionHubV53 .v740-summary-grid{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:0 20px
+}
+#evolutionHubV53 .v740-summary-grid article{
+  min-height:112px;padding:13px;border:1px solid #252b33;border-radius:16px;
+  background:linear-gradient(145deg,#10151b,#0b0f14)
+}
+#evolutionHubV53 .v740-summary-grid span{font-size:19px}
+#evolutionHubV53 .v740-summary-grid strong{display:block;color:var(--gold);font-size:22px;margin:7px 0 3px}
+#evolutionHubV53 .v740-summary-grid small{font-size:8px;color:var(--muted);line-height:1.4}
+#evolutionHubV53 .v740-subject-stats{display:grid;gap:8px;margin:0 20px}
+#evolutionHubV53 .v740-subject-stats article{
+  padding:13px;border:1px solid #252b33;border-radius:16px;background:linear-gradient(145deg,#10151b,#0b0f14)
+}
+#evolutionHubV53 .v740-subject-top{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:8px}
+#evolutionHubV53 .v740-subject-top>span{font-size:22px}
+#evolutionHubV53 .v740-subject-top b{display:block;font-size:10px}
+#evolutionHubV53 .v740-subject-top small{display:block;font-size:7.5px;color:var(--muted);margin-top:3px}
+#evolutionHubV53 .v740-subject-top strong{font-size:17px;color:var(--gold)}
+#evolutionHubV53 .v740-line{height:6px;border-radius:99px;background:#1b222b;overflow:hidden;margin-top:10px}
+#evolutionHubV53 .v740-line i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#8da7ce,var(--gold))}
+#evolutionHubV53 .v740-trend-card{
+  margin:0 20px 18px;padding:15px;border:1px solid #252b33;border-radius:18px;
+  background:linear-gradient(145deg,#10151b,#0b0f14)
+}
+#evolutionHubV53 .v740-trend-head{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+#evolutionHubV53 .v740-trend-head>div{padding:10px;border-radius:12px;background:#0a0f14;border:1px solid #202730}
+#evolutionHubV53 .v740-trend-head strong{display:block;color:var(--gold);font-size:20px}
+#evolutionHubV53 .v740-trend-head small{font-size:7.5px;color:var(--muted)}
+#evolutionHubV53 .v740-trend-bars{
+  min-height:118px;display:flex;align-items:flex-end;justify-content:space-around;gap:7px;
+  padding:15px 5px 3px;margin-top:10px;border-bottom:1px solid #242b34
+}
+#evolutionHubV53 .v740-trend-bars>div{height:100px;min-width:28px;flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:5px}
+#evolutionHubV53 .v740-trend-bars i{width:70%;max-width:28px;min-height:6px;border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--gold),#806a39)}
+#evolutionHubV53 .v740-trend-bars small{font-size:7px;color:var(--muted)}
+#evolutionHubV53 .v740-empty-trend{width:100%;height:auto!important;min-width:100%!important;justify-content:center!important;color:var(--muted);font-size:9px}
+#evolutionHubV53 .v740-trend-card>p{font-size:8px;color:var(--muted);line-height:1.5;margin-top:11px}
+@media(max-width:340px){
+  #evolutionHubV53 .v740-summary-grid{grid-template-columns:1fr}
+}
