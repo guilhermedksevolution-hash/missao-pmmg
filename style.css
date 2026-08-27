@@ -1068,3 +1068,44 @@ html.login6493-locked,body.login6493-locked{overflow:hidden!important}
 }
 
 #mathSubjectCard{cursor:pointer;touch-action:manipulation}#mathSubjectCard:active{transform:scale(.99)}.math-video-guide-v650{opacity:.92}
+
+/* V6.5.0.1 — correção login + wallpaper do soldado */
+.login6493{
+  background:#030608;
+}
+.login6493-bg{
+  position:fixed;
+  inset:0;
+  background-image:
+    linear-gradient(180deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,.34) 48%,rgba(0,0,0,.76) 100%),
+    url("soldado-login.png");
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+.login6493-bg:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(180deg,rgba(4,8,10,.08),rgba(4,8,10,.52)),
+    radial-gradient(circle at 50% 20%,rgba(229,177,54,.10),transparent 30%);
+}
+.login6493-glow{display:none}
+.login6493-content{
+  min-height:100dvh;
+  padding-top:max(24px,env(safe-area-inset-top));
+  padding-bottom:max(24px,env(safe-area-inset-bottom));
+  justify-content:flex-start;
+}
+.login6493-brand{
+  margin-top:8px;
+  text-shadow:0 2px 12px rgba(0,0,0,.9);
+}
+.login6493-card{
+  margin-top:auto;
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  background:linear-gradient(160deg,rgba(7,13,17,.88),rgba(3,8,11,.94));
+}
+#mathSubjectCard{display:flex!important}
