@@ -1562,3 +1562,30 @@ html,body{touch-action:manipulation}
   border-color:#3b3423;
   background:linear-gradient(145deg,#11151a,#0b0f13);
 }
+
+/* V8.9.0 — polimento final mobile; sem alteração de lógica */
+html{scroll-behavior:smooth}
+body,button,select,textarea,input{-webkit-tap-highlight-color:transparent}
+button{touch-action:manipulation}
+.screen{padding-bottom:max(105px,calc(92px + env(safe-area-inset-bottom)))}
+.card,.hub-tool,.v53-tools article,.v850-chat p,.v860-context-card,#studyHubV53 article{overflow-wrap:anywhere;word-break:normal}
+#studyHubV53 .v53-tools article{min-width:0}
+.bottom-nav{padding-bottom:max(8px,env(safe-area-inset-bottom));bottom:max(8px,env(safe-area-inset-bottom))}
+#professorScreen .v850-chat{scrollbar-width:thin}
+#professorScreen .v850-compose textarea{min-width:0}
+#professorScreen .v850-compose button{white-space:nowrap}
+#professorScreen .v860-context-card{min-width:0}
+#studyHubV53 .v53-tools article,#studyHubV53 .v862-professor-card{height:auto;min-height:150px}
+#studyHubV53 .v53-tools article b{line-height:1.22}
+#studyHubV53 .v53-tools article p{line-height:1.45}
+@media(max-width:380px){
+ #studyHubV53 .v53-tools{gap:8px}
+ #studyHubV53 .v53-tools article{padding:14px 12px;min-height:142px}
+ #professorScreen .v850-actions{gap:5px}
+ #professorScreen .v850-actions button{padding:9px 5px}
+ #professorScreen .v850-compose{grid-template-columns:minmax(0,1fr) auto}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
