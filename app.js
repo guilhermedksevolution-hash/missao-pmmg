@@ -4578,3 +4578,171 @@ if(typeof renderScheduleV770Base==="function"){
   renderScheduleV750=window.renderScheduleV750;
 }
 document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderWeeklyMissionV770()}catch(e){}},260));
+
+
+/* ============================================================
+   MISSÃO PMMG V7.8.0 — MISSÃO DIÁRIA + SEQUÊNCIA AUTOMÁTICA
+   Apenas leitura dos históricos existentes. Não altera navegação.
+   ============================================================ */
+function v780DayKey(d){
+  const x=new Date(d); if(!Number.isFinite(x.getTime())) return "";
+  const y=x.getFullYear(),m=String(x.getMonth()+1).padStart(2,"0"),day=String(x.getDate()).padStart(2,"0");
+  return `${y}-${m}-${day}`;
+}
+function v780TodayKey(){return v780DayKey(new Date())}
+function v780HistoryArrays(){
+  const keys=["pmmg_history_v60","pmmg_sim_history_v72"];
+  const out=[];
+  keys.forEach(k=>{try{const a=JSON.parse(localStorage.getItem(k)||"[]");if(Array.isArray(a))out.push(...a)}catch(e){}});
+  return out;
+}
+function v780ItemDate(x){
+  const raw=x?.date||x?.createdAt||x?.timestamp||x?.finishedAt||x?.completedAt;
+  const d=raw?new Date(raw):null; return d&&Number.isFinite(d.getTime())?d:null;
+}
+function v780TodayActivity(){
+  const today=v780TodayKey(), hist=v780HistoryArrays();
+  const todays=hist.filter(x=>{const d=v780ItemDate(x);return d&&v780DayKey(d)===today});
+  let study=false, practice=false;
+  todays.forEach(x=>{
+    const s=JSON.stringify(x).toLowerCase();
+    if(s.includes("simulad")||s.includes("treino")||s.includes("quest")) practice=true;
+    else study=true;
+  });
+  // A simulação registrada hoje conta como prática.
+  try{
+    const sims=JSON.parse(localStorage.getItem("pmmg_sim_history_v72")||"[]");
+    if(Array.isArray(sims)&&sims.some(x=>{const d=v780ItemDate(x);return d&&v780DayKey(d)===today})) practice=true;
+  }catch(e){}
+  return {study,practice,any:study||practice};
+}
+function v780Streak(){
+  const days=new Set();
+  v780HistoryArrays().forEach(x=>{const d=v780ItemDate(x);if(d)days.add(v780DayKey(d))});
+  let d=new Date(), streak=0;
+  // Se ainda não houve atividade hoje, a sequência válida pode terminar ontem.
+  if(!days.has(v780DayKey(d))) d.setDate(d.getDate()-1);
+  while(days.has(v780DayKey(d))){
+    streak++; d.setDate(d.getDate()-1);
+  }
+  return streak;
+}
+function renderDailyMissionV780(){
+  const act=v780TodayActivity();
+  let due=0;try{due=typeof v750Due==="function"?v750Due().length:0}catch(e){}
+  const review=due===0;
+  const done=(act.study?1:0)+(act.practice?1:0)+(review?1:0);
+  const pct=Math.round(done/3*100);
+  const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+  put("v780TodayPct",pct+"%");
+  put("v780StudyToday",act.study?"Concluído hoje":"Pendente hoje");
+  put("v780PracticeToday",act.practice?"Concluído hoje":"Pendente hoje");
+  put("v780ReviewToday",review?"Revisões em dia":`${due} revisão(ões) vencida(s)`);
+  put("v780StudyTodayCheck",act.study?"✓":"○");
+  put("v780PracticeTodayCheck",act.practice?"✓":"○");
+  put("v780ReviewTodayCheck",review?"✓":"○");
+  const streak=v780Streak();
+  put("v780StreakText",`${streak} ${streak===1?"dia":"dias"} de sequência`);
+  const bar=document.getElementById("v780TodayBar");if(bar)bar.style.width=pct+"%";
+  let msg="Comece pelo Plano de hoje para avançar na missão diária.";
+  if(pct===100) msg="Missão de hoje concluída. Excelente: estudo, prática e revisão estão em dia.";
+  else if(due>0) msg="Há revisão vencida. Resolva-a para completar a parte de revisão da missão.";
+  else if(!act.study) msg="Sua próxima meta é registrar uma atividade de estudo hoje.";
+  else if(!act.practice) msg="Estudo registrado. Agora falta uma atividade de prática.";
+  put("v780TodayMessage",msg);
+}
+window.renderDailyMissionV780=renderDailyMissionV780;
+
+const renderScheduleV780Base=window.renderScheduleV750;
+if(typeof renderScheduleV780Base==="function"){
+  window.renderScheduleV750=function(){
+    const r=renderScheduleV780Base.apply(this,arguments);
+    try{renderDailyMissionV780()}catch(e){}
+    return r;
+  };
+  renderScheduleV750=window.renderScheduleV750;
+}
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderDailyMissionV780()}catch(e){}},300));
+
+
+/* ============================================================
+   MISSÃO PMMG V7.9.0 — PROGRESSÃO, XP E PATENTES
+   Calculado automaticamente a partir dos dados já registrados.
+   ============================================================ */
+function v790Array(key){
+  try{const a=JSON.parse(localStorage.getItem(key)||"[]");return Array.isArray(a)?a:[]}catch(e){return []}
+}
+function v790CompletedLessons(){
+  let total=0;
+  try{
+    (typeof V7_SUBJECTS!=="undefined"?V7_SUBJECTS:[]).forEach(d=>{
+      const a=state?.[d.completed]; if(Array.isArray(a)) total+=new Set(a.map(Number)).size;
+    });
+  }catch(e){}
+  return total;
+}
+function v790ActiveDays(){
+  const days=new Set();
+  try{
+    if(typeof v780HistoryArrays==="function"){
+      v780HistoryArrays().forEach(x=>{
+        const d=typeof v780ItemDate==="function"?v780ItemDate(x):null;
+        if(d&&typeof v780DayKey==="function")days.add(v780DayKey(d));
+      });
+    }
+  }catch(e){}
+  return days.size;
+}
+function v790Stats(){
+  const lessons=v790CompletedLessons();
+  const sims=v790Array("pmmg_sim_history_v72").length;
+  const days=v790ActiveDays();
+  const xp=lessons*50+sims*25+days*10;
+  return {lessons,sims,days,xp};
+}
+function v790RankFor(xp){
+  const ranks=[
+    {min:0,name:"Recruta",icon:"🛡️"},
+    {min:250,name:"Aluno em formação",icon:"🎖️"},
+    {min:600,name:"Preparação firme",icon:"⭐"},
+    {min:1200,name:"Candidato avançado",icon:"🏅"},
+    {min:2000,name:"Pronto para a missão",icon:"🚔"}
+  ];
+  let idx=0;for(let i=0;i<ranks.length;i++)if(xp>=ranks[i].min)idx=i;
+  const cur=ranks[idx],next=ranks[idx+1]||null;
+  return {cur,next,level:idx+1};
+}
+function renderProgressionV790(){
+  const s=v790Stats(),r=v790RankFor(s.xp);
+  const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+  put("v790Level",`Nível ${r.level}`);
+  put("v790RankIcon",r.cur.icon);
+  put("v790RankName",r.cur.name);
+  put("v790TotalXp",`${s.xp} XP`);
+  let pct=100,msg="Patente máxima de preparação alcançada.";
+  if(r.next){
+    const span=r.next.min-r.cur.min, earned=s.xp-r.cur.min;
+    pct=Math.max(0,Math.min(100,Math.round(earned/span*100)));
+    msg=`Faltam ${Math.max(0,r.next.min-s.xp)} XP para ${r.next.name}.`;
+  }
+  put("v790RankNext",msg);
+  const bar=document.getElementById("v790XpBar");if(bar)bar.style.width=pct+"%";
+
+  // Keep the existing header XP synchronized with the automatic calculation when possible.
+  try{
+    const xpEls=[...document.querySelectorAll(".xp-pill, [data-xp], #xpValue, #xpCount")];
+    xpEls.forEach(e=>{if(e&&/xp/i.test(e.textContent||""))e.textContent=`⭐ ${s.xp} XP`});
+  }catch(e){}
+}
+window.renderProgressionV790=renderProgressionV790;
+
+const renderScheduleV790Base=window.renderScheduleV750;
+if(typeof renderScheduleV790Base==="function"){
+  window.renderScheduleV750=function(){
+    const r=renderScheduleV790Base.apply(this,arguments);
+    try{renderProgressionV790()}catch(e){}
+    return r;
+  };
+  renderScheduleV750=window.renderScheduleV750;
+}
+document.addEventListener("DOMContentLoaded",()=>setTimeout(()=>{try{renderProgressionV790()}catch(e){}},340));
