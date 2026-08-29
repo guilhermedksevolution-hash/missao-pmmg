@@ -1,4 +1,4 @@
-/* Missão PMMG V9.3.0 — Biblioteca completa baseada nas aulas da preparação */
+/* Missão PMMG V9.4.0 — Biblioteca Avançada: aprofundamento e revisão */
 (function(){
 const KEY='pmmg_library_v91';
 const subjects=[
@@ -37,6 +37,18 @@ function buildMaterials(){
  return out;
 }
 const materials=buildMaterials();
+
+const advanced={
+ 'lesson-1':{summary:'Interpretação exige evidência textual. Diferencie informação explícita, implícita, tema, assunto, ideia central e finalidade.',falls:['Comandos como “segundo o texto” limitam a resposta ao que o texto sustenta.','Inferência válida nasce de pistas; não é opinião pessoal.','Alternativas absolutas podem distorcer um texto mais moderado.'],extra:[['Se a alternativa é verdadeira na vida real, ela está automaticamente correta?','Não. Em interpretação, ela precisa ser sustentada pelo texto.'],['O que torna uma inferência válida?','A existência de pistas textuais que autorizem a conclusão.']]},
+ 'lesson-2':{summary:'A ideia principal organiza o texto. Em argumentação, tese é o ponto defendido e argumentos são as razões usadas para sustentá-lo.',falls:['Tema e ideia principal não são sinônimos.','Argumento pertinente se relaciona diretamente à tese.','Exemplos e dados podem sustentar a tese sem serem a mensagem central.'],extra:[['Qual a diferença entre tese e argumento?','Tese é o ponto de vista defendido; argumento é a razão ou evidência usada para sustentá-lo.'],['Como identificar informação secundária?','Verifique se ela pode ser retirada sem destruir a mensagem central.']]},
+ 'law-1':{summary:'Os arts. 1º a 4º da Constituição tratam dos fundamentos da República, Poderes da União, objetivos fundamentais e princípios das relações internacionais.',falls:['Memorize os fundamentos do art. 1º sem confundi-los com objetivos do art. 3º.','Legislativo, Executivo e Judiciário são independentes e harmônicos entre si.','Prevalência dos direitos humanos aparece nas relações internacionais.'],extra:[['A dignidade da pessoa humana é fundamento ou objetivo?','Fundamento da República Federativa do Brasil.'],['De quem emana todo o poder?','Do povo, que o exerce por representantes eleitos ou diretamente, nos termos da Constituição.']]},
+ 'law-2':{summary:'O art. 5º reúne direitos e garantias fundamentais e exige atenção à literalidade, especialmente legalidade, manifestação, reunião e garantias processuais.',falls:['A manifestação do pensamento é livre, vedado o anonimato.','Habeas corpus protege a liberdade de locomoção contra ilegalidade ou abuso.','Contraditório e ampla defesa alcançam processos judiciais e administrativos nos termos constitucionais.'],extra:[['Qual direito o habeas corpus protege principalmente?','A liberdade de locomoção.'],['O anonimato é protegido pela liberdade de manifestação?','Não. A manifestação do pensamento é livre, mas o anonimato é vedado.']]}
+};
+function advancedHtml(id){
+ const a=advanced[id]; if(!a)return '';
+ return `<section class="v94-advanced"><div class="v94-advanced-head"><span>🔥 BIBLIOTECA AVANÇADA</span><h3>Aprofundamento e revisão</h3><p>Use depois da leitura principal para fixar o assunto.</p></div><div class="v94-summary"><b>⚡ Resumo rápido</b><p>${a.summary}</p></div><div class="v94-falls"><b>🎯 O que mais merece atenção</b><ul>${a.falls.map(x=>`<li>${x}</li>`).join('')}</ul></div><div class="v94-extra"><b>📝 Questões extras</b>${a.extra.map((q,i)=>`<details><summary>${i+1}. ${q[0]}</summary><p><strong>Resposta:</strong> ${q[1]}</p></details>`).join('')}</div><button class="v94-ai" onclick="askProfessorFromLibraryV92()">🤖 Perguntar este assunto ao Professor IA</button></section>`;
+}
+
 const official=[
  {id:'of-cf',subject:'Direito',title:'Constituição Federal — guia de leitura',source:'Planalto',url:'https://www4.planalto.gov.br/legislacao/legis-federal/constituicao',content:`<div class="edital-badge">🏛 FONTE OFICIAL • CONSTITUIÇÃO FEDERAL</div><h2>Guia de leitura — Constituição Federal</h2><p>Este material organiza a leitura constitucional dentro do Missão PMMG. Para preparação, comece pelos dispositivos já conectados às aulas de Direito do projeto.</p><h3>1. Princípios Fundamentais</h3><p>Revise os arts. 1º a 4º: fundamentos da República, separação dos Poderes, objetivos fundamentais e princípios das relações internacionais.</p><h3>2. Direitos e Garantias Fundamentais</h3><p>Dê atenção especial ao art. 5º. Treine a literalidade dos direitos, deveres e garantias e aprenda a diferenciar os principais instrumentos de proteção.</p><div class="gold-rule">🎯 Use este guia para estudar dentro do site. O botão “Fonte oficial” fica disponível apenas para conferir o texto atualizado no Planalto.</div>`},
  {id:'of-cp',subject:'Direito',title:'Código Penal — guia de estudo',source:'Planalto',url:'https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm',content:`<div class="edital-badge">🏛 FONTE OFICIAL • CÓDIGO PENAL</div><h2>Guia de estudo — Código Penal</h2><p>Use esta página como ponto de entrada para a legislação penal dentro da Biblioteca. O foco deve seguir exatamente os tópicos previstos no edital-base e nas aulas de Direito do projeto.</p><h3>Como estudar lei seca</h3><p>Faça uma primeira leitura para entender a estrutura. Na segunda, destaque conceitos, requisitos, exceções e palavras que alteram o sentido da regra. Depois, teste o conteúdo com questões.</p><h3>Revisão ativa</h3><p>Ao terminar um bloco, tente explicar a regra sem olhar o texto e anote no Caderno de Erros qualquer confusão recorrente.</p><div class="gold-rule">🎯 O texto oficial pode sofrer alterações. Use “Fonte oficial” quando quiser conferir a redação vigente.</div>`},
@@ -78,7 +90,7 @@ function openReader(item,html,kicker,subtitle){
  kickerEl.textContent=kicker||'BIBLIOTECA PMMG';
  titleEl.textContent=item.title||'Material';
  subtitleEl.textContent=subtitle||'';
- bodyEl.innerHTML=html||'<p>Material indisponível.</p>';
+ bodyEl.innerHTML=(html||'<p>Material indisponível.</p>')+advancedHtml(item.id);
  if(source) source.style.display=item.url?'inline-flex':'none';
  updateReaderDone();
  // V9.2.1: ativação direta do leitor. Não depende de outras rotinas de navegação.
