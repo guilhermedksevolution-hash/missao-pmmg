@@ -1,4 +1,4 @@
-/* Missão PMMG V9.4.0 — Biblioteca Avançada: aprofundamento e revisão */
+/* Missão PMMG V9.5.0 — Biblioteca Complementar: sem duplicar as aulas */
 (function(){
 const KEY='pmmg_library_v91';
 const subjects=[
@@ -8,46 +8,24 @@ const subjects=[
  {id:'Literatura',icon:'📚',desc:'Obras, análise e revisão'},
  {id:'Inglês',icon:'🌐',desc:'Leitura, vocabulário e gramática'}
 ];
-const subjectSources=[
- {subject:'Português',source:'lesson',icon:'📘',data:()=>window.lessons},
- {subject:'Matemática',source:'math',icon:'🧮',data:()=>window.matematicaLessons},
- {subject:'Direito',source:'law',icon:'⚖️',data:()=>window.direitoLessons},
- {subject:'Literatura',source:'lit',icon:'📚',data:()=>window.literaturaLessons},
- {subject:'Inglês',source:'eng',icon:'🌐',data:()=>window.inglesLessons}
+const materials=[
+ {id:'comp-pt-1',subject:'Português',icon:'⚡',tag:'RESUMO RÁPIDO',title:'Interpretação em 10 minutos',desc:'Revisão objetiva para antes de questões.',content:`<div class="edital-badge">⚡ REVISÃO • PORTUGUÊS</div><h2>Interpretação em 10 minutos</h2><p>Use este material como revisão, não como substituto da aula. Em questões de interpretação, procure primeiro o comando e depois a evidência textual.</p><h3>Checklist de prova</h3><ul><li><b>Segundo o texto:</b> responda apenas com o que o texto sustenta.</li><li><b>Infere-se:</b> procure pistas que autorizem a conclusão.</li><li><b>Tema:</b> identifique o recorte central.</li><li><b>Finalidade:</b> pergunte o que o autor pretende produzir no leitor.</li></ul><div class="gold-rule">🎯 Não escolha uma alternativa só porque ela é verdadeira fora do texto.</div>`},
+ {id:'comp-pt-2',subject:'Português',icon:'🧠',tag:'MAPA MENTAL',title:'Explícito x implícito x inferência',desc:'Mapa de revisão para não confundir os conceitos.',content:`<div class="edital-badge">🧠 MAPA MENTAL • PORTUGUÊS</div><h2>Explícito x implícito x inferência</h2><h3>Explícito</h3><p>A informação aparece diretamente no texto.</p><h3>Implícito</h3><p>A informação não está escrita de forma literal, mas pode ser percebida pelas relações construídas no texto.</p><h3>Inferência</h3><p>É a conclusão produzida a partir de pistas textuais. Precisa ser justificável.</p><div class="gold-rule">🎯 Se você não consegue apontar a pista, trate a conclusão como suspeita.</div>`},
+ {id:'comp-pt-3',subject:'Português',icon:'⚠️',tag:'ARMADILHAS',title:'10 armadilhas de Português em prova',desc:'Erros de leitura e linguagem para evitar.',content:`<div class="edital-badge">⚠️ ARMADILHAS • PORTUGUÊS</div><h2>10 armadilhas para vigiar</h2><ol><li>Responder pela opinião pessoal.</li><li>Ignorar palavras como “exceto” e “incorreta”.</li><li>Confundir tema com detalhe.</li><li>Transformar possibilidade em certeza.</li><li>Não observar conectivos.</li><li>Ignorar a referência de pronomes.</li><li>Trocar causa por consequência.</li><li>Generalizar uma afirmação limitada.</li><li>Escolher pela alternativa mais longa.</li><li>Não voltar ao trecho antes de marcar.</li></ol>`},
+ {id:'comp-pt-4',subject:'Português',icon:'📝',tag:'TREINO EXTRA',title:'Treino rápido de interpretação',desc:'Questões complementares para revisão ativa.',content:`<div class="edital-badge">📝 TREINO EXTRA • PORTUGUÊS</div><h2>Treino rápido</h2><p><b>Texto:</b> “A leitura frequente amplia o contato com diferentes formas de expressão. Por isso, pode contribuir para o desenvolvimento do vocabulário.”</p><details><summary>1. O texto afirma que a leitura garante vocabulário perfeito?</summary><p><b>Resposta:</b> Não. O texto diz que ela <i>pode contribuir</i>.</p></details><details><summary>2. Qual relação é indicada por “Por isso”?</summary><p><b>Resposta:</b> Uma relação de conclusão/consequência em relação à ideia anterior.</p></details>`},
+ {id:'comp-math-1',subject:'Matemática',icon:'📐',tag:'FOLHA DE FÓRMULAS',title:'Fórmulas essenciais de Matemática',desc:'Consulta rápida para revisão antes dos exercícios.',content:`<div class="edital-badge">📐 FÓRMULAS • MATEMÁTICA</div><h2>Folha de fórmulas essenciais</h2><h3>Porcentagem</h3><p>p% de V = (p/100) × V.</p><h3>Regra de três</h3><p>Organize grandezas correspondentes e verifique se a relação é direta ou inversa antes de multiplicar.</p><h3>Média aritmética</h3><p>Média = soma dos valores ÷ quantidade de valores.</p><h3>PA</h3><p>aₙ = a₁ + (n−1)r.</p><h3>PG</h3><p>aₙ = a₁·qⁿ⁻¹.</p><div class="gold-rule">🎯 Fórmula só ajuda depois que você identifica corretamente o que o problema pede.</div>`},
+ {id:'comp-math-2',subject:'Matemática',icon:'🧭',tag:'PASSO A PASSO',title:'Como atacar problemas matemáticos',desc:'Método de 5 passos para reduzir erros.',content:`<div class="edital-badge">🧭 MÉTODO • MATEMÁTICA</div><h2>5 passos para problemas</h2><ol><li>Leia sem calcular.</li><li>Separe dados e pergunta.</li><li>Identifique a relação matemática.</li><li>Calcule organizadamente.</li><li>Confira unidade, sinal e plausibilidade.</li></ol><div class="gold-rule">🎯 Antes da conta, escreva o que precisa descobrir.</div>`},
+ {id:'comp-math-3',subject:'Matemática',icon:'⚡',tag:'REVISÃO',title:'Porcentagem e regra de três — revisão expressa',desc:'Resumo complementar para exercícios.',content:`<div class="edital-badge">⚡ REVISÃO • MATEMÁTICA</div><h2>Porcentagem e regra de três</h2><p>Transforme porcentagens em fração sobre 100 ou decimal quando isso simplificar a conta. Em regra de três, compare as grandezas antes de montar a proporção.</p><h3>Exemplo</h3><p>20% de 250 = 0,20 × 250 = 50.</p><div class="gold-rule">🎯 Em grandezas inversas, uma aumenta enquanto a outra diminui.</div>`},
+ {id:'comp-law-1',subject:'Direito',icon:'⚖️',tag:'LEI SECA ORGANIZADA',title:'CF/88 — roteiro de artigos para revisão',desc:'Roteiro complementar para leitura constitucional.',content:`<div class="edital-badge">⚖️ LEI SECA • DIREITO</div><h2>Roteiro constitucional</h2><p>Use como roteiro de revisão dos blocos constitucionais estudados no projeto.</p><h3>Arts. 1º a 4º</h3><p>Fundamentos, Poderes, objetivos fundamentais e relações internacionais.</p><h3>Art. 5º</h3><p>Direitos, deveres e garantias fundamentais. Dê atenção à literalidade e às diferenças entre os instrumentos de proteção.</p><div class="gold-rule">🎯 Leia a regra, identifique palavras-chave e depois tente explicá-la sem olhar.</div>`},
+ {id:'comp-law-2',subject:'Direito',icon:'🧠',tag:'QUADRO COMPARATIVO',title:'Fundamentos x objetivos x princípios internacionais',desc:'Quadro mental para evitar confusões na Constituição.',content:`<div class="edital-badge">🧠 QUADRO • DIREITO</div><h2>Não misture os artigos 1º, 3º e 4º</h2><h3>Art. 1º — Fundamentos</h3><p>É a base estruturante da República Federativa do Brasil.</p><h3>Art. 3º — Objetivos fundamentais</h3><p>Indica finalidades constitucionais a serem perseguidas.</p><h3>Art. 4º — Relações internacionais</h3><p>Reúne princípios que orientam o Brasil em suas relações internacionais.</p><div class="gold-rule">🎯 Em prova, primeiro descubra de qual grupo o item está falando.</div>`},
+ {id:'comp-law-3',subject:'Direito',icon:'🛡️',tag:'REVISÃO',title:'Art. 5º — garantias em linguagem simples',desc:'Revisão complementar das garantias fundamentais.',content:`<div class="edital-badge">🛡️ REVISÃO • DIREITO</div><h2>Garantias fundamentais</h2><p>O art. 5º exige leitura cuidadosa. Em vez de decorar frases soltas, associe cada garantia ao bem que ela protege.</p><h3>Legalidade</h3><p>Ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei.</p><h3>Manifestação</h3><p>A manifestação do pensamento é livre, sendo vedado o anonimato.</p><h3>Habeas corpus</h3><p>Relacione-o à proteção da liberdade de locomoção contra ilegalidade ou abuso.</p>`},
+ {id:'comp-lit-1',subject:'Literatura',icon:'🗺️',tag:'MAPA DA OBRA',title:'Campo Geral — mapa de personagens e temas',desc:'Revisão visual em texto da obra de Guimarães Rosa.',content:`<div class="edital-badge">🗺️ MAPA • LITERATURA</div><h2>Campo Geral — mapa de revisão</h2><h3>Miguilim</h3><p>Centro da narrativa e da percepção infantil.</p><h3>Dito</h3><p>Figura afetiva importante na formação de Miguilim.</p><h3>Mutúm</h3><p>Espaço mineiro que participa da experiência e do amadurecimento do protagonista.</p><h3>Eixos</h3><p>Infância, família, percepção, perda, natureza e amadurecimento.</p><div class="gold-rule">🎯 Terceira pessoa não significa distanciamento: a focalização acompanha de perto Miguilim.</div>`},
+ {id:'comp-lit-2',subject:'Literatura',icon:'⚡',tag:'REVISÃO',title:'Campo Geral — revisão de véspera',desc:'Pontos-chave para relembrar rapidamente.',content:`<div class="edital-badge">⚡ VÉSPERA • LITERATURA</div><h2>Revisão de véspera</h2><ul><li>Autor: João Guimarães Rosa.</li><li>Protagonista: Miguilim.</li><li>Espaço central: Mutúm, em Minas Gerais.</li><li>Focalização próxima da percepção infantil.</li><li>Família, Dito, perdas e amadurecimento são eixos importantes.</li><li>A descoberta da miopia dialoga com transformação e nova percepção.</li></ul>`},
+ {id:'comp-eng-1',subject:'Inglês',icon:'🔎',tag:'GUIA DE LEITURA',title:'Inglês sem traduzir tudo',desc:'Estratégia complementar para textos de prova.',content:`<div class="edital-badge">🔎 READING • INGLÊS</div><h2>Leia com objetivo</h2><p>Comece pela pergunta. Depois use <b>skimming</b> para captar o assunto e <b>scanning</b> para localizar a informação pedida.</p><h3>Pistas úteis</h3><ul><li>Título e subtítulo.</li><li>Palavras repetidas.</li><li>Cognatos confirmados pelo contexto.</li><li>Conectivos.</li><li>Pronomes e seus referentes.</li></ul><div class="gold-rule">🎯 Palavra desconhecida não significa texto incompreensível.</div>`},
+ {id:'comp-eng-2',subject:'Inglês',icon:'⚠️',tag:'VOCABULÁRIO',title:'Falsos cognatos para revisar',desc:'Lista curta dos falsos cognatos mais perigosos do material.',content:`<div class="edital-badge">⚠️ VOCABULÁRIO • INGLÊS</div><h2>Falsos cognatos</h2><ul><li><b>actually</b> = na verdade.</li><li><b>parents</b> = pais.</li><li><b>pretend</b> = fingir.</li><li><b>push</b> = empurrar.</li></ul><div class="gold-rule">🎯 Se a tradução óbvia deixar a frase estranha, confirme pelo contexto.</div>`}
 ];
-function buildMaterials(){
- const out=[];
- subjectSources.forEach(group=>{
-   const data=group.data()||{};
-   Object.keys(data).map(Number).filter(Number.isFinite).sort((a,b)=>a-b).forEach((lesson,index)=>{
-     const l=data[lesson]||{};
-     const isFinal=/prova|simulado|final/i.test((l.title||'')+' '+(l.subtitle||''));
-     out.push({
-       id:`${group.source}-${lesson}`,
-       subject:group.subject,
-       icon:isFinal?'🎯':group.icon,
-       tag:isFinal?'PROVA / REVISÃO':index===0?'MATERIAL PRINCIPAL':'APOSTILA DA AULA',
-       title:l.title||`Aula ${String(lesson).padStart(2,'0')}`,
-       desc:(l.subtitle||`${group.subject} • Aula ${String(lesson).padStart(2,'0')}`)+(l.time?` • ${l.time}`:''),
-       source:group.source,
-       lesson
-     });
-   });
- });
- return out;
-}
-const materials=buildMaterials();
 
-const advanced={
- 'lesson-1':{summary:'Interpretação exige evidência textual. Diferencie informação explícita, implícita, tema, assunto, ideia central e finalidade.',falls:['Comandos como “segundo o texto” limitam a resposta ao que o texto sustenta.','Inferência válida nasce de pistas; não é opinião pessoal.','Alternativas absolutas podem distorcer um texto mais moderado.'],extra:[['Se a alternativa é verdadeira na vida real, ela está automaticamente correta?','Não. Em interpretação, ela precisa ser sustentada pelo texto.'],['O que torna uma inferência válida?','A existência de pistas textuais que autorizem a conclusão.']]},
- 'lesson-2':{summary:'A ideia principal organiza o texto. Em argumentação, tese é o ponto defendido e argumentos são as razões usadas para sustentá-lo.',falls:['Tema e ideia principal não são sinônimos.','Argumento pertinente se relaciona diretamente à tese.','Exemplos e dados podem sustentar a tese sem serem a mensagem central.'],extra:[['Qual a diferença entre tese e argumento?','Tese é o ponto de vista defendido; argumento é a razão ou evidência usada para sustentá-lo.'],['Como identificar informação secundária?','Verifique se ela pode ser retirada sem destruir a mensagem central.']]},
- 'law-1':{summary:'Os arts. 1º a 4º da Constituição tratam dos fundamentos da República, Poderes da União, objetivos fundamentais e princípios das relações internacionais.',falls:['Memorize os fundamentos do art. 1º sem confundi-los com objetivos do art. 3º.','Legislativo, Executivo e Judiciário são independentes e harmônicos entre si.','Prevalência dos direitos humanos aparece nas relações internacionais.'],extra:[['A dignidade da pessoa humana é fundamento ou objetivo?','Fundamento da República Federativa do Brasil.'],['De quem emana todo o poder?','Do povo, que o exerce por representantes eleitos ou diretamente, nos termos da Constituição.']]},
- 'law-2':{summary:'O art. 5º reúne direitos e garantias fundamentais e exige atenção à literalidade, especialmente legalidade, manifestação, reunião e garantias processuais.',falls:['A manifestação do pensamento é livre, vedado o anonimato.','Habeas corpus protege a liberdade de locomoção contra ilegalidade ou abuso.','Contraditório e ampla defesa alcançam processos judiciais e administrativos nos termos constitucionais.'],extra:[['Qual direito o habeas corpus protege principalmente?','A liberdade de locomoção.'],['O anonimato é protegido pela liberdade de manifestação?','Não. A manifestação do pensamento é livre, mas o anonimato é vedado.']]}
-};
-function advancedHtml(id){
- const a=advanced[id]; if(!a)return '';
- return `<section class="v94-advanced"><div class="v94-advanced-head"><span>🔥 BIBLIOTECA AVANÇADA</span><h3>Aprofundamento e revisão</h3><p>Use depois da leitura principal para fixar o assunto.</p></div><div class="v94-summary"><b>⚡ Resumo rápido</b><p>${a.summary}</p></div><div class="v94-falls"><b>🎯 O que mais merece atenção</b><ul>${a.falls.map(x=>`<li>${x}</li>`).join('')}</ul></div><div class="v94-extra"><b>📝 Questões extras</b>${a.extra.map((q,i)=>`<details><summary>${i+1}. ${q[0]}</summary><p><strong>Resposta:</strong> ${q[1]}</p></details>`).join('')}</div><button class="v94-ai" onclick="askProfessorFromLibraryV92()">🤖 Perguntar este assunto ao Professor IA</button></section>`;
-}
+function advancedHtml(id){ return ''; }
 
 const official=[
  {id:'of-cf',subject:'Direito',title:'Constituição Federal — guia de leitura',source:'Planalto',url:'https://www4.planalto.gov.br/legislacao/legis-federal/constituicao',content:`<div class="edital-badge">🏛 FONTE OFICIAL • CONSTITUIÇÃO FEDERAL</div><h2>Guia de leitura — Constituição Federal</h2><p>Este material organiza a leitura constitucional dentro do Missão PMMG. Para preparação, comece pelos dispositivos já conectados às aulas de Direito do projeto.</p><h3>1. Princípios Fundamentais</h3><p>Revise os arts. 1º a 4º: fundamentos da República, separação dos Poderes, objetivos fundamentais e princípios das relações internacionais.</p><h3>2. Direitos e Garantias Fundamentais</h3><p>Dê atenção especial ao art. 5º. Treine a literalidade dos direitos, deveres e garantias e aprenda a diferenciar os principais instrumentos de proteção.</p><div class="gold-rule">🎯 Use este guia para estudar dentro do site. O botão “Fonte oficial” fica disponível apenas para conferir o texto atualizado no Planalto.</div>`},
@@ -60,17 +38,14 @@ function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){
 function save(v){localStorage.setItem(KEY,JSON.stringify(v))}
 function getDone(id){return !!load()[id]}
 function setDone(id,val){const s=load();s[id]=val;save(s)}
-function lessonData(m){
- const src=m.source==='lesson'?window.lessons:m.source==='math'?window.matematicaLessons:m.source==='law'?window.direitoLessons:m.source==='lit'?window.literaturaLessons:window.inglesLessons;
- return src?.[m.lesson]||null;
-}
+function lessonData(m){ return m; }
 window.toggleLibraryDoneV9=function(id){setDone(id,!getDone(id));renderLibraryV9();}
 window.openLibraryV9=function(){renderLibraryV9(); if(typeof showScreen==='function') showScreen('libraryV9Screen','navStudy');}
 window.selectLibrarySubjectV9=function(subject){const f=document.getElementById('v9libFilter');if(f)f.value='all';const q=document.getElementById('v9libSearch');if(q)q.value='';window.v9libSubject=subject;renderLibraryV9();document.getElementById('v9libMaterials')?.scrollIntoView({behavior:'smooth'});}
 window.openLibraryMaterialV9=function(id){
- const m=materials.find(x=>x.id===id); if(!m)return; const l=lessonData(m); if(!l)return;
+ const m=materials.find(x=>x.id===id); if(!m)return;
  current={...m,url:null};
- openReader(current,l.content,`${m.tag} • ${m.subject}`,m.desc);
+ openReader(current,m.content,`${m.tag} • ${m.subject}`,m.desc);
 }
 window.openOfficialV9=function(id){
  const o=official.find(x=>x.id===id); if(!o)return; current=o;
