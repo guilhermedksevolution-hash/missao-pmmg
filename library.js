@@ -1,4 +1,4 @@
-/* Missão PMMG V9.2 — Biblioteca PMMG interna */
+/* Missão PMMG V9.2.1 — Biblioteca PMMG interna • correção do leitor */
 (function(){
 const KEY='pmmg_library_v91';
 const subjects=[
@@ -48,13 +48,33 @@ window.openOfficialV9=function(id){
  openReader(o,o.content,'FONTE OFICIAL • '+o.source,'Leitura organizada dentro do Missão PMMG.');
 }
 function openReader(item,html,kicker,subtitle){
- document.getElementById('v92ReaderKicker').textContent=kicker;
- document.getElementById('v92ReaderTitle').textContent=item.title;
- document.getElementById('v92ReaderSubtitle').textContent=subtitle||'';
- document.getElementById('v92ReaderBody').innerHTML=html;
- const source=document.getElementById('v92ReaderSource'); source.style.display=item.url?'inline-flex':'none';
+ const reader=document.getElementById('libraryReaderV92Screen');
+ const kickerEl=document.getElementById('v92ReaderKicker');
+ const titleEl=document.getElementById('v92ReaderTitle');
+ const subtitleEl=document.getElementById('v92ReaderSubtitle');
+ const bodyEl=document.getElementById('v92ReaderBody');
+ const source=document.getElementById('v92ReaderSource');
+ if(!reader||!kickerEl||!titleEl||!subtitleEl||!bodyEl){
+   console.error('Biblioteca PMMG: leitor interno não encontrado.');
+   return;
+ }
+ kickerEl.textContent=kicker||'BIBLIOTECA PMMG';
+ titleEl.textContent=item.title||'Material';
+ subtitleEl.textContent=subtitle||'';
+ bodyEl.innerHTML=html||'<p>Material indisponível.</p>';
+ if(source) source.style.display=item.url?'inline-flex':'none';
  updateReaderDone();
- if(typeof showScreen==='function')showScreen('libraryReaderV92Screen','navStudy');
+ // V9.2.1: ativação direta do leitor. Não depende de outras rotinas de navegação.
+ document.querySelectorAll('.screen').forEach(function(screen){
+   screen.classList.remove('active');
+   screen.style.display='';
+ });
+ reader.classList.add('active');
+ reader.style.display='block';
+ const navStudy=document.getElementById('navStudy');
+ document.querySelectorAll('.bottom-nav button').forEach(function(btn){btn.classList.remove('active');});
+ if(navStudy) navStudy.classList.add('active');
+ window.scrollTo(0,0);
 }
 function updateReaderDone(){const b=document.getElementById('v92ReaderDone');if(b&&current)b.textContent=getDone(current.id)?'✓ Estudado':'○ Marcar estudado';}
 window.toggleCurrentLibraryDoneV92=function(force){if(!current)return;setDone(current.id,force===true?true:!getDone(current.id));updateReaderDone();renderLibraryV9();}
@@ -70,7 +90,7 @@ window.renderLibraryV9=function(){
  const t=document.getElementById('v9libProgressText'),b=document.getElementById('v9libProgressBar'),sub=document.getElementById('v9libProgressSub');if(t)t.textContent=pct+'%';if(b)b.style.width=pct+'%';if(sub)sub.textContent=doneCount+' de '+allCount+' materiais estudados';
  const se=document.getElementById('v9libSubjects');if(se)se.innerHTML=subjects.map(s=>{const list=materials.filter(m=>m.subject===s.id),d=list.filter(m=>status[m.id]).length,p=list.length?Math.round(d/list.length*100):0;return `<article onclick="selectLibrarySubjectV9('${s.id}')"><em>${s.icon}</em><div><b>${s.id==='Matemática'?'Raciocínio Lógico-Matemático':s.id}</b><p>${s.desc}</p><div class="bar"><i style="width:${p}%"></i></div><small>${d}/${list.length} estudados</small></div><strong>›</strong></article>`}).join('');
  let list=materials.filter(m=>(!window.v9libSubject||m.subject===window.v9libSubject)&&(!q||(m.title+' '+m.desc+' '+m.subject).toLowerCase().includes(q))&&(filter==='all'||(filter==='done'?status[m.id]:!status[m.id])));
- const me=document.getElementById('v9libMaterials');if(me)me.innerHTML=(window.v9libSubject?`<button class="v9lib-clear" onclick="window.v9libSubject=null;renderLibraryV9()">← Ver todas as matérias</button>`:'')+(list.length?list.map(m=>`<article class="${status[m.id]?'is-done':''}"><div class="v9lib-mat-icon">${m.icon}</div><div class="v9lib-mat-main"><span>${m.tag} • ${m.subject}</span><b>${m.title}</b><p>${m.desc}</p><div><button onclick="openLibraryMaterialV9('${m.id}')">Ler dentro do site</button><button class="v9lib-check" onclick="event.stopPropagation();toggleLibraryDoneV9('${m.id}')">${status[m.id]?'✓ Estudado':'Marcar estudado'}</button></div></div></article>`).join(''):'<div class="v9lib-empty">Nenhum material encontrado com esse filtro.</div>');
- const oe=document.getElementById('v9libOfficial');if(oe)oe.innerHTML=official.map(o=>`<article class="${status[o.id]?'is-done':''}"><div>🏛️</div><section><span>LEITURA INTERNA • ${o.source}</span><b>${o.title}</b><small>Abra sem sair do Missão PMMG</small></section><div class="v9lib-off-actions"><button onclick="openOfficialV9('${o.id}')">Ler aqui</button><button onclick="toggleLibraryDoneV9('${o.id}')">${status[o.id]?'✓':'○'}</button></div></article>`).join('');
+ const me=document.getElementById('v9libMaterials');if(me)me.innerHTML=(window.v9libSubject?`<button class="v9lib-clear" onclick="window.v9libSubject=null;renderLibraryV9()">← Ver todas as matérias</button>`:'')+(list.length?list.map(m=>`<article class="${status[m.id]?'is-done':''}"><div class="v9lib-mat-icon">${m.icon}</div><div class="v9lib-mat-main"><span>${m.tag} • ${m.subject}</span><b>${m.title}</b><p>${m.desc}</p><div><button type="button" onclick="event.preventDefault();event.stopPropagation();window.openLibraryMaterialV9('${m.id}')">Ler dentro do site</button><button class="v9lib-check" onclick="event.stopPropagation();toggleLibraryDoneV9('${m.id}')">${status[m.id]?'✓ Estudado':'Marcar estudado'}</button></div></div></article>`).join(''):'<div class="v9lib-empty">Nenhum material encontrado com esse filtro.</div>');
+ const oe=document.getElementById('v9libOfficial');if(oe)oe.innerHTML=official.map(o=>`<article class="${status[o.id]?'is-done':''}"><div>🏛️</div><section><span>LEITURA INTERNA • ${o.source}</span><b>${o.title}</b><small>Abra sem sair do Missão PMMG</small></section><div class="v9lib-off-actions"><button type="button" onclick="event.preventDefault();event.stopPropagation();window.openOfficialV9('${o.id}')">Ler aqui</button><button onclick="toggleLibraryDoneV9('${o.id}')">${status[o.id]?'✓':'○'}</button></div></article>`).join('');
 }
 })();
