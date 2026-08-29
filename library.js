@@ -1,4 +1,4 @@
-/* Missão PMMG V9.2.1 — Biblioteca PMMG interna • correção do leitor */
+/* Missão PMMG V9.3.0 — Biblioteca completa baseada nas aulas da preparação */
 (function(){
 const KEY='pmmg_library_v91';
 const subjects=[
@@ -8,18 +8,35 @@ const subjects=[
  {id:'Literatura',icon:'📚',desc:'Obras, análise e revisão'},
  {id:'Inglês',icon:'🌐',desc:'Leitura, vocabulário e gramática'}
 ];
-const materials=[
- {id:'pt-interp',subject:'Português',icon:'📘',tag:'MATERIAL PRINCIPAL',title:'Interpretação e estudo de texto',desc:'Aula escrita completa + exemplos + questões.',source:'lesson',lesson:1},
- {id:'pt-arg',subject:'Português',icon:'📝',tag:'REVISÃO',title:'Ideia principal, inferência e argumentação',desc:'Reforce tese, argumentos e inferências.',source:'lesson',lesson:2},
- {id:'mat-op',subject:'Matemática',icon:'🧮',tag:'MATERIAL PRINCIPAL',title:'Números e operações fundamentais',desc:'Base matemática para avançar com segurança.',source:'math',lesson:1},
- {id:'mat-frac',subject:'Matemática',icon:'➗',tag:'REVISÃO',title:'Frações — fundamentos',desc:'Equivalência, simplificação e comparação.',source:'math',lesson:2},
- {id:'dir-cf',subject:'Direito',icon:'⚖️',tag:'MATERIAL PRINCIPAL',title:'Princípios Fundamentais da Constituição',desc:'Aula interna sobre os arts. 1º a 4º.',source:'law',lesson:1},
- {id:'dir-art5',subject:'Direito',icon:'🛡️',tag:'ESSENCIAL',title:'Direitos e Garantias Fundamentais',desc:'Aula interna focada no art. 5º.',source:'law',lesson:2},
- {id:'lit-campo',subject:'Literatura',icon:'📖',tag:'OBRA',title:'Campo Geral — contexto e narrador',desc:'Miguilim, Mutúm, foco narrativo e amadurecimento.',source:'lit',lesson:1},
- {id:'lit-person',subject:'Literatura',icon:'📖',tag:'REVISÃO',title:'Campo Geral — personagens e conflitos',desc:'Dito, família, perdas e transformação.',source:'lit',lesson:2},
- {id:'ing-read',subject:'Inglês',icon:'🌐',tag:'MATERIAL PRINCIPAL',title:'Estratégias de leitura — do zero',desc:'Skimming, scanning e interpretação.',source:'eng',lesson:1},
- {id:'ing-cog',subject:'Inglês',icon:'🔤',tag:'REVISÃO',title:'Cognatos e falsos cognatos',desc:'Vocabulário essencial para leitura.',source:'eng',lesson:2}
+const subjectSources=[
+ {subject:'Português',source:'lesson',icon:'📘',data:()=>window.lessons},
+ {subject:'Matemática',source:'math',icon:'🧮',data:()=>window.matematicaLessons},
+ {subject:'Direito',source:'law',icon:'⚖️',data:()=>window.direitoLessons},
+ {subject:'Literatura',source:'lit',icon:'📚',data:()=>window.literaturaLessons},
+ {subject:'Inglês',source:'eng',icon:'🌐',data:()=>window.inglesLessons}
 ];
+function buildMaterials(){
+ const out=[];
+ subjectSources.forEach(group=>{
+   const data=group.data()||{};
+   Object.keys(data).map(Number).filter(Number.isFinite).sort((a,b)=>a-b).forEach((lesson,index)=>{
+     const l=data[lesson]||{};
+     const isFinal=/prova|simulado|final/i.test((l.title||'')+' '+(l.subtitle||''));
+     out.push({
+       id:`${group.source}-${lesson}`,
+       subject:group.subject,
+       icon:isFinal?'🎯':group.icon,
+       tag:isFinal?'PROVA / REVISÃO':index===0?'MATERIAL PRINCIPAL':'APOSTILA DA AULA',
+       title:l.title||`Aula ${String(lesson).padStart(2,'0')}`,
+       desc:(l.subtitle||`${group.subject} • Aula ${String(lesson).padStart(2,'0')}`)+(l.time?` • ${l.time}`:''),
+       source:group.source,
+       lesson
+     });
+   });
+ });
+ return out;
+}
+const materials=buildMaterials();
 const official=[
  {id:'of-cf',subject:'Direito',title:'Constituição Federal — guia de leitura',source:'Planalto',url:'https://www4.planalto.gov.br/legislacao/legis-federal/constituicao',content:`<div class="edital-badge">🏛 FONTE OFICIAL • CONSTITUIÇÃO FEDERAL</div><h2>Guia de leitura — Constituição Federal</h2><p>Este material organiza a leitura constitucional dentro do Missão PMMG. Para preparação, comece pelos dispositivos já conectados às aulas de Direito do projeto.</p><h3>1. Princípios Fundamentais</h3><p>Revise os arts. 1º a 4º: fundamentos da República, separação dos Poderes, objetivos fundamentais e princípios das relações internacionais.</p><h3>2. Direitos e Garantias Fundamentais</h3><p>Dê atenção especial ao art. 5º. Treine a literalidade dos direitos, deveres e garantias e aprenda a diferenciar os principais instrumentos de proteção.</p><div class="gold-rule">🎯 Use este guia para estudar dentro do site. O botão “Fonte oficial” fica disponível apenas para conferir o texto atualizado no Planalto.</div>`},
  {id:'of-cp',subject:'Direito',title:'Código Penal — guia de estudo',source:'Planalto',url:'https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm',content:`<div class="edital-badge">🏛 FONTE OFICIAL • CÓDIGO PENAL</div><h2>Guia de estudo — Código Penal</h2><p>Use esta página como ponto de entrada para a legislação penal dentro da Biblioteca. O foco deve seguir exatamente os tópicos previstos no edital-base e nas aulas de Direito do projeto.</p><h3>Como estudar lei seca</h3><p>Faça uma primeira leitura para entender a estrutura. Na segunda, destaque conceitos, requisitos, exceções e palavras que alteram o sentido da regra. Depois, teste o conteúdo com questões.</p><h3>Revisão ativa</h3><p>Ao terminar um bloco, tente explicar a regra sem olhar o texto e anote no Caderno de Erros qualquer confusão recorrente.</p><div class="gold-rule">🎯 O texto oficial pode sofrer alterações. Use “Fonte oficial” quando quiser conferir a redação vigente.</div>`},
