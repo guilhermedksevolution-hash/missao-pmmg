@@ -479,6 +479,7 @@
     <article onclick="openErrorsProV60()"><b>📓 Caderno de Erros</b><p>Filtros, prioridade e revisão inteligente.</p></article><article id="v71AdaptiveReviewCard" onclick="openWeakPoints631()"><b>🎯 Revisão adaptativa</b><p>Prioriza assuntos fracos e revisões vencidas.</p></article>
 
     <article onclick="openRevisionScheduleV60()"><b>🧠 Revisão programada</b><p>Planeje quando revisar.</p></article>
+    <article onclick="openFlashcardsV100()"><b>🃏 Flashcards inteligentes</b><p>524 cartões das suas questões com revisão 1, 7 e 30 dias.</p></article>
   </div>
   <div class="v53-grid">
     <article onclick="openErrorNotebook()"><b>❌ Meus erros</b><p>Revise respostas erradas.</p></article>
@@ -1067,6 +1068,60 @@
   </div>
 </section>
 
+<section id="flashcardsHubV100" class="screen">
+  <div class="page-head"><button onclick="openReviewArea()">←</button><div><span class="kicker">V10 • REVISÃO ATIVA</span><h2>Flashcards inteligentes</h2><p>Transforme as questões das aulas em memória de longo prazo.</p></div></div>
+  <div class="fc100-hero"><span class="kicker">REPETIÇÃO ESPAÇADA</span><h3>O sistema decide quando cada cartão volta.</h3><p>Marque “Preciso rever” ou “Sei” e a próxima revisão será organizada automaticamente.</p></div>
+  <div class="fc100-stats">
+    <article><strong id="fc100Total">0</strong><small>TOTAL</small></article>
+    <article><strong id="fc100Due">0</strong><small>PARA REVISAR</small></article>
+    <article><strong id="fc100Studied">0</strong><small>ESTUDADOS</small></article>
+    <article><strong id="fc100Mastered">0</strong><small>DOMINADOS</small></article>
+  </div>
+  <div class="v60-section-label"><span class="kicker">MATÉRIA</span><h3>Escolha o foco</h3></div>
+  <div id="fc100Subjects" class="fc100-subjects"></div>
+  <div class="v60-section-label"><span class="kicker">FILTRO</span><h3>Qual fila estudar?</h3></div>
+  <div class="fc100-modes">
+    <button class="fc100-mode active" data-fc-mode="due" onclick="setFlashcardModeV100('due')">⏰ Para revisar</button>
+    <button class="fc100-mode" data-fc-mode="new" onclick="setFlashcardModeV100('new')">✨ Novos</button>
+    <button class="fc100-mode" data-fc-mode="hard" onclick="setFlashcardModeV100('hard')">🔥 Difíceis</button>
+    <button class="fc100-mode" data-fc-mode="all" onclick="setFlashcardModeV100('all')">📚 Todos</button>
+  </div>
+  <p id="fc100Available" style="opacity:.7;margin:4px 0 14px"></p>
+  <button class="primary full" onclick="startFlashcardsV100()">🃏 Iniciar sessão de 10 cartões</button>
+  <button class="secondary-btn" onclick="resetFlashcardsV100()" style="margin-top:10px">Reiniciar apenas Flashcards</button>
+</section>
+
+<section id="flashcardSessionV100" class="screen">
+  <div class="page-head"><button onclick="openFlashcardsV100()">←</button><div><span class="kicker">FLASHCARDS</span><h2>Sessão ativa</h2></div><strong id="fc100Pos">1/10</strong></div>
+  <div class="fc100-progress"><i id="fc100Bar"></i></div>
+  <article class="fc100-card">
+    <div id="fc100Meta" class="fc100-meta"></div>
+    <div id="fc100Front" class="fc100-question"></div>
+    <div id="fc100Back" class="fc100-back" style="display:none">
+      <span class="kicker">RESPOSTA</span>
+      <div id="fc100Answer" class="fc100-answer"></div>
+      <div id="fc100Explanation" class="fc100-explain"></div>
+      <div id="fc100Tip" class="fc100-tip"></div>
+      <small id="fc100CardDue" style="display:block;margin-top:14px;opacity:.6"></small>
+    </div>
+  </article>
+  <button id="fc100Reveal" class="primary full" onclick="revealFlashcardV100()">Mostrar resposta</button>
+  <div id="fc100Actions" class="fc100-actions" style="display:none">
+    <button class="secondary-btn fc100-hard" onclick="gradeFlashcardV100('hard')">😵 Preciso rever<br><small>volta amanhã</small></button>
+    <button class="secondary-btn fc100-know" onclick="gradeFlashcardV100('know')">✅ Sei<br><small>1 → 7 → 30 dias</small></button>
+  </div>
+</section>
+
+<section id="flashcardDoneV100" class="screen">
+  <div class="fc100-done">
+    <div class="icon">🎯</div><span class="kicker">SESSÃO CONCLUÍDA</span><h2>Revisão finalizada!</h2>
+    <p>Você revisou <strong id="fc100DoneCount">0</strong> cartões. O sistema já programou quando eles devem aparecer novamente.</p>
+    <div class="fc100-stats"><article><strong id="fc100DoneDue">0</strong><small>AINDA PARA REVISAR</small></article><article><strong>1/7/30</strong><small>CICLO DE DIAS</small></article></div>
+    <button class="primary full" onclick="openFlashcardsV100()">Continuar revisando</button>
+    <button class="secondary-btn" onclick="openReviewArea()" style="margin-top:10px">Voltar para Revisar</button>
+  </div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -1074,5 +1129,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=9.8.0"></script><script src="app.js?v=9.0.0"></script>
+<script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=9.8.0"></script><script src="app.js?v=9.0.0"></script><script src="flashcards.js?v=10.0.0"></script>
 </body></html>
