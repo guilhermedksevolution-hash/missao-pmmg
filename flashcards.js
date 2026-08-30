@@ -1,3 +1,4 @@
+/* MISSÃO PMMG V10.8.0 — módulo consolidado; dados/chaves preservados. */
 (function(){
 'use strict';
 const KEY='pmmg_flashcards_v100';
