@@ -1,4 +1,4 @@
-/* MISSÃO PMMG V10.3 — Banco de Questões 2.0
+/* MISSÃO PMMG V10.8.0 — Banco de Questões consolidado.
    Evolui o banco existente; não cria um segundo banco. */
 (function(){
   'use strict';
