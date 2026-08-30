@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=10.8.2">
+<link rel="stylesheet" href="style.css?v=9.0.0">
 </head>
 <body>
 
@@ -68,7 +68,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V10.8.3</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V9.0.0</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -578,6 +578,10 @@
 </section>
 
 <section id="studyGoals636" class="screen"><div class="page-head"><button class="back-btn" onclick="goBackSmart()">←</button><div><span class="kicker">PLANEJAMENTO</span><h2>Metas de estudo</h2><p>Objetivos claros para cada dia.</p></div></div><div class="goals636-hero"><span class="kicker">MISSÃO DE HOJE</span><h3 id="g636Status">Configure suas metas</h3><p id="g636Summary">Escolha quanto quer avançar.</p><div class="goals636-mainbar"><i id="g636MainBar"></i></div><strong id="g636Overall">0%</strong></div><div class="goals636-grid"><article><span>📝 QUESTÕES</span><strong id="g636QNow">0 / 20</strong><div><i id="g636QBar"></i></div></article><article><span>🧠 REVISÃO</span><strong id="g636RNow">0 / 1</strong><div><i id="g636RBar"></i></div></article><article><span>📚 AULAS</span><strong id="g636LNow">0 / 1</strong><div><i id="g636LBar"></i></div></article></div><div class="goals636-config"><span class="kicker">SUAS METAS DIÁRIAS</span><h3>Definir objetivo</h3><label>Questões por dia<input id="g636Questions" type="number" min="1" max="500" value="20"></label><label>Sessões de revisão por dia<input id="g636Reviews" type="number" min="1" max="20" value="1"></label><label>Aulas por dia<input id="g636Lessons" type="number" min="1" max="10" value="1"></label><button onclick="saveStudyGoals636()">🎯 Salvar minhas metas</button></div><div class="goals636-tip"><b>💡 Como funciona</b><p>As metas ficam salvas neste aparelho e usam os registros do Missão PMMG.</p></div></section>
+<section id="utilityHubV53" class="screen v53-screen">
+  <div class="v53-head"><button onclick="goBackSmart()">←</button><div><span>FERRAMENTA</span><h2 id="utilityTitleV53">Em construção</h2><p id="utilityTextV53">Estrutura preparada para a próxima etapa.</p></div></div>
+  <div class="v53-feature"><b>🚧 Módulo preparado</b><p>Esta área já está conectada à navegação e receberá a função completa nas próximas versões.</p><em>MISSÃO PMMG V5.5</em></div>
+</section>
 
 
 <section id="summaryScreenV57" class="screen">
@@ -791,12 +795,12 @@
   </div>
 
   <div class="sim510-options v1072-training-tools">
-    <button type="button" id="openBankV1082">
+    <button onclick="openQuestionBankV7()">
       <span>📚</span>
       <strong>Banco de Questões</strong>
       <small>Treine por matéria, assunto ou seus erros</small>
     </button>
-    <button type="button" id="openPastExamsV1082">
+    <button onclick="openPastExamsV104()">
       <span>🗂️</span>
       <strong>Provas Anteriores PMMG</strong>
       <small>Provas completas • 2022, 2023 e 2025</small>
@@ -1153,48 +1157,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="provas-v1083.js?v=10.8.3"></script>
-<script src="lessons.js?v=10.8.2"></script>
-<script src="literatura.js?v=10.8.2"></script>
-<script src="ingles.js?v=10.8.2"></script>
-<script src="direito.js?v=10.8.2"></script>
-<script src="matematica.js?v=10.8.2"></script>
-<script src="library.js?v=10.8.2"></script>
-<script src="app.js?v=10.8.2"></script>
-<script src="flashcards.js?v=10.8.2"></script>
-<script src="edital.js?v=10.8.2"></script>
-<script src="bank-v103.js?v=10.8.2"></script>
-
-<script id="v1082-training-card-fix">
-(function(){
-  function activateScreen(id){
-    document.querySelectorAll('.screen').forEach(function(s){s.classList.remove('active')});
-    var target=document.getElementById(id);
-    if(target) target.classList.add('active');
-    document.querySelectorAll('.bottom-nav button').forEach(function(b){b.classList.remove('active')});
-    var nav=document.getElementById('navTrain');
-    if(nav) nav.classList.add('active');
-    window.scrollTo(0,0);
-  }
-  function bind(id,fn,fallbackId,renderFn){
-    var btn=document.getElementById(id);
-    if(!btn)return;
-    btn.addEventListener('click',function(ev){
-      ev.preventDefault();
-      ev.stopPropagation();
-      try{
-        if(typeof window[fn]==='function'){ window[fn](); return; }
-      }catch(e){ console.error(e); }
-      activateScreen(fallbackId);
-      try{ if(renderFn && typeof window[renderFn]==='function') window[renderFn](); }catch(e){}
-    },false);
-  }
-  function init(){
-    bind('openBankV1082','openQuestionBankV7','questionBankV7');
-    bind('openPastExamsV1082','openPastExamsV104','pastExamsV104','renderPastExamsV104');
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init,{once:true});
-  else init();
-})();
-</script>
+<script src="provas-v1074.js?v=10.7.4"></script><script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=10.1.0"></script><script src="app.js?v=9.0.0"></script><script src="flashcards.js?v=10.0.0"></script><script src="edital.js?v=10.2.0"></script><script src="bank-v103.js?v=10.3.0"></script>
 </body></html>
