@@ -37,3 +37,16 @@ window.finishPastExamV1051=function(auto){if(finished)return;finished=true;clear
 window.startPastExamV105=window.startPastExamV1051;
 document.addEventListener('DOMContentLoaded',renderList);
 })();
+
+// V10.7.2 — navegação segura para a Central de Provas Anteriores
+window.openPastExamsV104=function(){
+  if(typeof window.showScreen==='function'){
+    window.showScreen('pastExamsV104','navTrain');
+  }else{
+    document.querySelectorAll('.screen').forEach(function(x){x.classList.remove('active')});
+    var target=document.getElementById('pastExamsV104');
+    if(target)target.classList.add('active');
+  }
+  if(typeof window.renderPastExamsV104==='function')window.renderPastExamsV104();
+  window.scrollTo(0,0);
+};
