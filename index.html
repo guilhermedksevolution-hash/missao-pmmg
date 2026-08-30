@@ -276,6 +276,109 @@ button:active{transform:scale(.985)}
 }
 </style>
 
+
+<style id="v113-redesign-guilherme">
+:root{
+  --brand-gold:#f2c85b;
+  --brand-ice:#8fd8ff;
+  --brand-bg:#05070b;
+  --brand-panel:#0b1017;
+  --brand-panel2:#111823;
+  --brand-line:rgba(255,255,255,.08);
+  --brand-text:#f6f8fc;
+  --brand-muted:rgba(246,248,252,.58);
+}
+body{
+  background:
+    radial-gradient(circle at 10% 0%,rgba(74,150,255,.08),transparent 28%),
+    radial-gradient(circle at 90% 5%,rgba(242,200,91,.08),transparent 28%),
+    #05070b!important;
+}
+header,.topbar,.app-header{
+  background:rgba(5,7,11,.86)!important;
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(255,255,255,.07)!important;
+}
+.v113-brand-signature{
+  display:flex;align-items:center;gap:10px;margin-left:10px;
+  padding-left:10px;border-left:1px solid rgba(255,255,255,.08)
+}
+.v113-brand-signature small{
+  display:block;font-size:.48rem;letter-spacing:.12em;font-weight:900;
+  color:rgba(255,255,255,.45);text-transform:uppercase
+}
+.v113-brand-signature strong{
+  display:block;margin-top:2px;font-size:.67rem;letter-spacing:.04em;color:#f2c85b
+}
+.v109-hero{
+  position:relative!important;overflow:hidden!important;
+  background:
+    radial-gradient(circle at 90% 10%,rgba(242,200,91,.10),transparent 30%),
+    linear-gradient(145deg,rgba(16,21,30,.99),rgba(8,11,16,.99))!important;
+  border:1px solid rgba(255,255,255,.08)!important;
+  border-radius:22px!important;
+}
+.v109-hero:after{
+  content:"GUILHERME ALVES";
+  position:absolute;right:18px;bottom:14px;
+  font-size:.53rem;font-weight:900;letter-spacing:.18em;
+  color:rgba(242,200,91,.32)
+}
+.v109-hero h1,.v109-hero h2{
+  letter-spacing:-.045em!important
+}
+.v109-mission,.v11-step,.v112-today,.v112-day,#v7HomeSubjects>*{
+  border-radius:16px!important;
+}
+.section-head.v109-head{
+  display:flex!important;align-items:end!important;justify-content:space-between!important;
+  gap:12px!important;margin-top:28px!important
+}
+.section-head.v109-head h3{font-size:1rem!important}
+.kicker{color:#f2c85b!important}
+.v11-journey{
+  position:relative;padding:4px 0
+}
+.v11-step{
+  background:linear-gradient(145deg,rgba(17,23,33,.98),rgba(8,11,16,.98))!important;
+}
+#v7HomeSubjects.v111-premium-subjects>*{
+  background:
+    linear-gradient(145deg,rgba(18,24,35,.99),rgba(8,11,16,.99))!important;
+}
+.v112-today{
+  background:
+    radial-gradient(circle at 100% 0%,rgba(242,200,91,.08),transparent 35%),
+    linear-gradient(145deg,rgba(18,22,29,.99),rgba(8,10,14,.99))!important;
+}
+.v112-creator{
+  border:1px solid rgba(255,255,255,.06)!important;
+  border-radius:16px!important;
+  background:linear-gradient(145deg,rgba(14,19,27,.7),rgba(7,9,13,.7))!important;
+}
+.v112-creator:before{
+  content:"CRIADOR";display:block;margin-bottom:7px;
+  font-size:.48rem;font-weight:900;letter-spacing:.16em;color:rgba(255,255,255,.38)
+}
+.v112-creator strong{
+  font-size:.82rem!important;color:#f2c85b!important
+}
+.v113-devline{
+  margin-top:8px;font-size:.58rem;color:rgba(255,255,255,.44)
+}
+button,.btn,.v11-step,#v7HomeSubjects>*{
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease
+}
+button:hover,.btn:hover,.v11-step:hover,#v7HomeSubjects>*:hover{
+  transform:translateY(-1px)
+}
+@media(max-width:760px){
+  .v113-brand-signature{display:none}
+  .v109-hero:after{right:14px;bottom:10px;font-size:.46rem}
+}
+</style>
+
 </head>
 <body>
 
@@ -338,7 +441,7 @@ button:active{transform:scale(.985)}
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.2.1</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.3</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -1577,7 +1680,7 @@ window.openPastExamsV104=function(){
 
 <div class="v112-creator" id="v112CreatorCredit">
     Desenvolvido para a preparação PMMG por
-    <strong>Guilherme Alves</strong>
+    <strong>Guilherme Alves</strong><div class="v113-devline">Criador e desenvolvedor do Missão PMMG</div>
     <span class="v112-tech-chip">🚔 MISSÃO PMMG • PLATAFORMA DE ESTUDOS</span>
   </div>
 
@@ -1750,6 +1853,24 @@ window.openPastExamsV104=function(){
  window.renderAdaptiveScheduleV112=render;
  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(render,500)},{once:true});else setTimeout(render,500);
  setTimeout(render,1300);
+})();
+</script>
+
+
+<script id="v113-brand-runtime">
+(function(){
+ function addBrand(){
+   var candidates=document.querySelectorAll("header,.topbar,.app-header");
+   var host=candidates&&candidates[0];
+   if(!host||document.getElementById("v113BrandSignature"))return;
+   var wrap=document.createElement("div");
+   wrap.id="v113BrandSignature";
+   wrap.className="v113-brand-signature";
+   wrap.innerHTML="<div><small>Criado por</small><strong>Guilherme Alves</strong></div>";
+   host.appendChild(wrap);
+ }
+ if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",addBrand,{once:true});else addBrand();
+ setTimeout(addBrand,500);
 })();
 </script>
 
