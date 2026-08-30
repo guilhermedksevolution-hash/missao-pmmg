@@ -581,6 +581,62 @@ header.topbar .status>b,header.topbar .profile-top633{
 }
 </style>
 
+
+<style id="v1141-review-grid-fix">
+/* V11.4.1 — correção isolada da tela Revisar */
+#reviewHubV53 .v60-grid,
+#reviewHubV53 .v53-grid{
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:12px!important;
+  align-items:stretch!important;
+}
+#reviewHubV53 .v60-grid article,
+#reviewHubV53 .v53-grid article{
+  width:auto!important;
+  min-width:0!important;
+  min-height:118px!important;
+  height:auto!important;
+  margin:0!important;
+  padding:18px!important;
+  border-radius:18px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:flex-start!important;
+  background:linear-gradient(145deg,rgba(16,23,33,.97),rgba(8,11,16,.97))!important;
+  border:1px solid rgba(255,255,255,.075)!important;
+  box-shadow:0 14px 32px rgba(0,0,0,.14)!important;
+}
+#reviewHubV53 .v60-grid article b,
+#reviewHubV53 .v53-grid article b{
+  display:block!important;
+  font-size:.86rem!important;
+  line-height:1.25!important;
+}
+#reviewHubV53 .v60-grid article p,
+#reviewHubV53 .v53-grid article p{
+  margin:7px 0 0!important;
+  font-size:.65rem!important;
+  line-height:1.45!important;
+  opacity:.62!important;
+}
+#reviewHubV53 .v60-grid article:hover,
+#reviewHubV53 .v53-grid article:hover{
+  border-color:rgba(244,201,93,.22)!important;
+  transform:translateY(-2px)!important;
+}
+@media(max-width:700px){
+  #reviewHubV53 .v60-grid,
+  #reviewHubV53 .v53-grid{
+    grid-template-columns:1fr!important;
+  }
+  #reviewHubV53 .v60-grid article,
+  #reviewHubV53 .v53-grid article{
+    min-height:96px!important;
+  }
+}
+</style>
+
 </head>
 <body>
 
@@ -643,7 +699,7 @@ header.topbar .status>b,header.topbar .profile-top633{
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.4</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.4.1</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
