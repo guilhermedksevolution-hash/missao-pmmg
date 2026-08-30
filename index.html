@@ -114,6 +114,7 @@
 <section id="subjectsScreen" class="screen">
  <div class="page-head"><button onclick="goBackSmart()">←</button><div><span class="kicker">PLANO DE ESTUDOS</span><h2>Matérias</h2></div></div>
  <p class="page-intro">Sua preparação organizada por disciplina.</p>
+ <div class="v102-edital-entry" onclick="openEditalMapV102()"><div><span class="kicker">NOVO • V10.2</span><h3>🗺️ Mapa do Edital PMMG</h3><p>Confira tópico por tópico o que já estudou e o que ainda falta cobrir.</p></div><b>›</b></div>
  <div class="subject-list">
   <article onclick="openPortuguese()"><em>📘</em><div><span class="kicker">PORTUGUÊS</span><h3>Língua Portuguesa</h3><p>Conteúdo oficial do edital, teoria, videoaulas e questões.</p><div class="bar"><i id="portugueseProgressBar2"></i></div></div><b>›</b></article>
   <article id="literatureSubjectCard" role="button" tabindex="0" onclick="openLiteratureV6443()"><em>📚</em><div><span class="kicker">LITERATURA • EDITAL PMMG</span><h3>Literatura</h3><p>Campo Geral + Vidas Secas, teoria, videoaulas, questões e prova final.</p><div class="bar"><i id="literatureProgressBar"></i></div></div><b>›</b></article>
@@ -1122,6 +1123,15 @@
   </div>
 </section>
 
+<section id="editalMapV102Screen" class="screen v102-edital-screen">
+  <div class="page-head"><button onclick="showScreen('subjectsScreen','navStudy')">←</button><div><span class="kicker">EDITAL-BASE • CFSd QP-PM/2025</span><h2>Mapa do Edital PMMG</h2></div></div>
+  <div class="v102-edital-hero"><span>🗺️</span><div><b>Seu edital, tópico por tópico</b><p>Marque seu nível em cada item. O progresso fica salvo neste aparelho.</p></div></div>
+  <div id="v102EditalStats" class="v102-edital-stats"></div>
+  <div class="v102-edital-filters"><select id="v102EditalSubject" onchange="renderEditalMapV102()"><option value="all">Todas as matérias</option><option value="portugues">Português</option><option value="literatura">Literatura</option><option value="ingles">Inglês</option><option value="direito">Direito / DH</option><option value="matematica">Raciocínio Lógico-Matemático</option></select><select id="v102EditalFilter" onchange="renderEditalMapV102()"><option value="all">Todos os tópicos</option><option value="pending">Não iniciados</option><option value="studying">Estudando</option><option value="done">Dominados</option></select></div>
+  <div id="v102EditalSubjects"></div>
+  <div class="v102-edital-note">Baseado no Anexo B do Edital DRH/CRS nº 10/2024 (CFSd QP-PM/2025). Use como mapa de cobertura do edital-base.</div>
+</section>
+
 <nav class="bottom-nav v52-nav">
   <button id="navHome" onclick="goHome()"><span>⌂</span><small>Início</small></button>
   <button id="navStudy" onclick="openStudyArea()"><span>▤</span><small>Estudar</small></button>
@@ -1129,5 +1139,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=10.1.0"></script><script src="app.js?v=9.0.0"></script><script src="flashcards.js?v=10.0.0"></script>
+<script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=10.1.0"></script><script src="app.js?v=9.0.0"></script><script src="flashcards.js?v=10.0.0"></script><script src="edital.js?v=10.2.0"></script>
 </body></html>
