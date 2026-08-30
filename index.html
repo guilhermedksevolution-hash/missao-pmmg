@@ -637,6 +637,135 @@ header.topbar .status>b,header.topbar .profile-top633{
 }
 </style>
 
+
+<style id="v1142-gamification-premium">
+/* V11.4.2 — Evolução visual da gamificação existente. Sem criar novo sistema. */
+#achievementsScreenV59{
+  background:
+    radial-gradient(circle at 85% 0%,rgba(242,200,91,.08),transparent 28%),
+    radial-gradient(circle at 10% 10%,rgba(97,163,255,.07),transparent 24%);
+}
+#achievementsScreenV59 .page-head{
+  margin-bottom:18px!important;
+}
+#achievementsScreenV59 .page-head h2{
+  font-size:1.45rem!important;
+  letter-spacing:-.035em!important;
+}
+#achievementsScreenV59 .level-v59-card,
+#achievementsScreenV59 .streak-v59-card,
+#achievementsScreenV59 .achievement-v59-list>*{
+  border:1px solid rgba(255,255,255,.075)!important;
+  background:
+    linear-gradient(145deg,rgba(17,23,33,.985),rgba(8,11,16,.985))!important;
+  box-shadow:0 16px 38px rgba(0,0,0,.17)!important;
+}
+#achievementsScreenV59 .level-v59-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:20px!important;
+  padding:20px!important;
+}
+#achievementsScreenV59 .level-v59-card:after{
+  content:"MISSÃO PMMG";
+  position:absolute;
+  right:16px;
+  top:14px;
+  font-size:.48rem;
+  font-weight:900;
+  letter-spacing:.14em;
+  color:rgba(242,200,91,.26);
+}
+#achievementsScreenV59 #levelXpV59{
+  color:#f2c85b!important;
+  font-size:1.2rem!important;
+}
+#achievementsScreenV59 .level-v59-bar,
+#achievementsScreenV59 .v59-levelbar{
+  height:7px!important;
+  border-radius:999px!important;
+  background:rgba(255,255,255,.06)!important;
+  overflow:hidden!important;
+}
+#achievementsScreenV59 .level-v59-bar i,
+#achievementsScreenV59 .v59-levelbar i{
+  background:linear-gradient(90deg,#c99f3d,#f2c85b)!important;
+  border-radius:999px!important;
+}
+#achievementsScreenV59 .streak-v59-card{
+  border-radius:20px!important;
+  padding:18px!important;
+}
+#achievementsScreenV59 .streak-v59-ring{
+  width:92px!important;
+  height:92px!important;
+  border-radius:50%!important;
+  display:grid!important;
+  place-items:center!important;
+  background:
+    radial-gradient(circle at center,#0b1017 58%,transparent 60%),
+    conic-gradient(#f2c85b 0 72%,rgba(255,255,255,.06) 72% 100%)!important;
+  box-shadow:0 0 26px rgba(242,200,91,.08)!important;
+}
+#achievementsScreenV59 .streak-v59-ring strong{
+  color:#f2c85b!important;
+  font-size:1.35rem!important;
+}
+#achievementsScreenV59 .achievement-v59-head{
+  margin-top:22px!important;
+  margin-bottom:12px!important;
+  padding:0 2px!important;
+}
+#achievementsScreenV59 .achievement-v59-list{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:12px!important;
+}
+#achievementsScreenV59 .achievement-v59-list>*{
+  position:relative;
+  min-height:132px;
+  border-radius:17px!important;
+  padding:16px!important;
+  overflow:hidden;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+#achievementsScreenV59 .achievement-v59-list>*:hover{
+  transform:translateY(-2px);
+  border-color:rgba(242,200,91,.2)!important;
+  box-shadow:0 20px 42px rgba(0,0,0,.22)!important;
+}
+#achievementsScreenV59 .achievement-v59-list>*:before{
+  content:"";
+  position:absolute;
+  left:0;top:0;bottom:0;
+  width:3px;
+  background:linear-gradient(180deg,#f2c85b,rgba(242,200,91,.08));
+}
+#achievementsScreenV59 .achievement-v59-list b{
+  font-size:.82rem!important;
+}
+#achievementsScreenV59 .achievement-v59-list p,
+#achievementsScreenV59 .achievement-v59-list small{
+  font-size:.62rem!important;
+  line-height:1.45!important;
+  opacity:.62!important;
+}
+@media(max-width:850px){
+  #achievementsScreenV59 .achievement-v59-list{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+}
+@media(max-width:560px){
+  #achievementsScreenV59 .achievement-v59-list{
+    grid-template-columns:1fr!important;
+  }
+  #achievementsScreenV59 .streak-v59-ring{
+    width:78px!important;
+    height:78px!important;
+  }
+}
+</style>
+
 </head>
 <body>
 
@@ -699,7 +828,7 @@ header.topbar .status>b,header.topbar .profile-top633{
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.4.1</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.4.2</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
