@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=10.9">
+<link rel="stylesheet" href="style.css?v=11.4.6">
 
 <style id="v109-home-premium">
 .v109-home{padding-bottom:24px}
@@ -862,75 +862,187 @@ header.topbar .status>b,header.topbar .profile-top633{
 </style>
 
 
-<style id="v1145-header-professional">
-/* V11.4.5 — Header profissional, sem alterar navegação */
-header,.topbar,.app-header{
-  min-height:68px!important;
-  padding:0 18px!important;
-  background:linear-gradient(180deg,rgba(7,10,15,.97),rgba(5,8,12,.95))!important;
-  border-bottom:1px solid rgba(255,255,255,.07)!important;
-  box-shadow:0 10px 30px rgba(0,0,0,.22)!important;
+
+
+<style id="v1146-header-real-selectors">
+/* V11.4.6 — Header Professional FIX
+   Seletores conferidos no HTML e no style.css reais do projeto. */
+.topbar{
+  height:76px!important;
+  min-height:76px!important;
+  padding:10px 18px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:16px!important;
+  position:sticky!important;
+  top:0!important;
+  z-index:50!important;
+  background:
+    radial-gradient(circle at 12% 0%,rgba(92,176,255,.08),transparent 28%),
+    linear-gradient(180deg,rgba(7,10,15,.985),rgba(5,8,12,.97))!important;
+  border-bottom:1px solid rgba(255,255,255,.075)!important;
+  box-shadow:0 12px 34px rgba(0,0,0,.28)!important;
+  backdrop-filter:blur(18px)!important;
+  -webkit-backdrop-filter:blur(18px)!important;
 }
-header .brand,.topbar .brand,.app-header .brand{
+.topbar .brand{
   display:flex!important;
   align-items:center!important;
   gap:12px!important;
+  min-width:0!important;
 }
-header .brand-icon,.topbar .brand-icon,.app-header .brand-icon{
-  width:42px!important;height:42px!important;
-  border-radius:13px!important;
-  display:grid!important;place-items:center!important;
+.topbar .shield{
+  width:46px!important;
+  height:46px!important;
+  flex:0 0 46px!important;
+  border-radius:14px!important;
+  display:grid!important;
+  place-items:center!important;
+  font-size:19px!important;
   background:
-    radial-gradient(circle at 35% 25%,rgba(121,210,255,.18),transparent 40%),
-    linear-gradient(145deg,#162433,#0c141d)!important;
-  border:1px solid rgba(143,216,255,.16)!important;
-  box-shadow:inset 0 0 20px rgba(143,216,255,.035),0 8px 20px rgba(0,0,0,.22)!important;
+    radial-gradient(circle at 35% 20%,rgba(122,211,255,.20),transparent 40%),
+    linear-gradient(145deg,#172737,#0c151f)!important;
+  border:1px solid rgba(139,214,255,.18)!important;
+  box-shadow:
+    inset 0 0 22px rgba(139,214,255,.045),
+    0 9px 24px rgba(0,0,0,.26)!important;
 }
-header .brand small,.topbar .brand small,.app-header .brand small{
-  font-size:.50rem!important;
-  font-weight:900!important;
-  letter-spacing:.17em!important;
-  color:#e8bd55!important;
+.topbar .brand>div:last-child{
+  min-width:0!important;
 }
-header .brand h1,.topbar .brand h1,.app-header .brand h1{
-  margin-top:3px!important;
-  font-size:1.02rem!important;
-  letter-spacing:-.025em!important;
+.topbar .brand span{
+  display:block!important;
+  color:#e9bd55!important;
+  font-size:7px!important;
+  line-height:1!important;
+  letter-spacing:1.75px!important;
+  font-weight:950!important;
+  text-transform:uppercase!important;
+  opacity:.9!important;
+}
+.topbar .brand h1{
+  display:flex!important;
+  align-items:center!important;
+  gap:7px!important;
+  margin:5px 0 0!important;
+  color:#f7f9fc!important;
+  font-size:17px!important;
+  line-height:1!important;
+  letter-spacing:-.35px!important;
   font-weight:850!important;
+  white-space:nowrap!important;
 }
-header .version,.topbar .version,.app-header .version,
-header .version-badge,.topbar .version-badge,.app-header .version-badge{
-  padding:4px 7px!important;
+.topbar .version-badge{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  margin-left:1px!important;
+  padding:3px 6px!important;
   border-radius:999px!important;
-  border:1px solid rgba(232,189,85,.16)!important;
-  background:rgba(232,189,85,.055)!important;
-  color:#e8bd55!important;
-  font-size:.46rem!important;
-  font-weight:900!important;
-  letter-spacing:.06em!important;
+  vertical-align:middle!important;
+  color:#e9bd55!important;
+  background:rgba(233,189,85,.065)!important;
+  border:1px solid rgba(233,189,85,.18)!important;
+  font-size:5.5px!important;
+  line-height:1!important;
+  letter-spacing:.45px!important;
+  font-weight:950!important;
+}
+.topbar .status{
+  margin-left:auto!important;
+  display:flex!important;
+  align-items:center!important;
+  gap:7px!important;
+}
+.topbar .status>b{
+  min-height:34px!important;
+  padding:0 11px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:4px!important;
+  border:1px solid rgba(255,255,255,.075)!important;
+  border-radius:999px!important;
+  background:linear-gradient(180deg,rgba(21,29,41,.95),rgba(13,19,28,.95))!important;
+  box-shadow:inset 0 1px rgba(255,255,255,.025)!important;
+  color:#f4f6fa!important;
+  font-size:8px!important;
+}
+.topbar .status i{
+  font-style:normal!important;
+}
+.topbar .profile-top633{
+  width:36px!important;
+  height:36px!important;
+  min-width:36px!important;
+  padding:0!important;
+  display:grid!important;
+  place-items:center!important;
+  overflow:hidden!important;
+  border-radius:50%!important;
+  border:1px solid rgba(139,214,255,.12)!important;
+  background:linear-gradient(145deg,#172333,#0d151f)!important;
+  box-shadow:0 7px 18px rgba(0,0,0,.22)!important;
+}
+.topbar .profile-top633 span{
+  color:inherit!important;
+  font-size:16px!important;
+  letter-spacing:0!important;
+}
+.topbar .profile-top633 img{
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover!important;
 }
 #v113BrandSignature{
-  margin-left:auto!important;
-  padding:7px 12px!important;
-  border-left:0!important;
-  border:1px solid rgba(255,255,255,.065)!important;
-  border-radius:11px!important;
-  background:rgba(255,255,255,.025)!important;
+  margin-left:4px!important;
+  padding:7px 11px!important;
+  border-left:1px solid rgba(255,255,255,.07)!important;
+  border-top:0!important;
+  border-right:0!important;
+  border-bottom:0!important;
+  border-radius:0!important;
+  background:transparent!important;
 }
 #v113BrandSignature small{
-  font-size:.43rem!important;
-  letter-spacing:.14em!important;
-  opacity:.55!important;
+  display:block!important;
+  color:rgba(255,255,255,.40)!important;
+  font-size:5px!important;
+  line-height:1!important;
+  letter-spacing:1.25px!important;
 }
 #v113BrandSignature strong{
-  font-size:.62rem!important;
-  color:#e8bd55!important;
+  display:block!important;
+  margin-top:4px!important;
+  color:#e9bd55!important;
+  font-size:9px!important;
+  line-height:1!important;
+  font-weight:900!important;
+  letter-spacing:.15px!important;
 }
 @media(max-width:760px){
-  header,.topbar,.app-header{min-height:62px!important;padding:0 12px!important}
-  header .brand-icon,.topbar .brand-icon,.app-header .brand-icon{width:38px!important;height:38px!important}
-  header .brand h1,.topbar .brand h1,.app-header .brand h1{font-size:.92rem!important}
+  .topbar{
+    height:68px!important;
+    min-height:68px!important;
+    padding:8px 12px!important;
+    gap:9px!important;
+  }
+  .topbar .shield{
+    width:40px!important;height:40px!important;flex-basis:40px!important;
+    border-radius:12px!important;font-size:17px!important;
+  }
+  .topbar .brand{gap:9px!important}
+  .topbar .brand span{font-size:6px!important;letter-spacing:1.35px!important}
+  .topbar .brand h1{font-size:15px!important;gap:5px!important}
+  .topbar .status{gap:5px!important}
+  .topbar .status>b{min-height:31px!important;padding:0 8px!important;font-size:7px!important}
+  .topbar .profile-top633{width:33px!important;height:33px!important;min-width:33px!important}
   #v113BrandSignature{display:none!important}
+}
+@media(max-width:430px){
+  .topbar .status>b:first-child{display:none!important}
+  .topbar .brand h1{font-size:14px!important}
 }
 </style>
 
@@ -996,7 +1108,7 @@ header .version-badge,.topbar .version-badge,.app-header .version-badge{
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.4.5</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.4.6</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
