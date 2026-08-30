@@ -796,7 +796,7 @@
 
   <div class="v7-bank-launch">
   <button class="secondary-btn" onclick="openQuestionBankV7()">📚 Banco de Questões — treinar por matéria</button>
-  <button class="secondary-btn" onclick="openPastExamsV104()">🗂️ Provas Anteriores PMMG — 2020 a 2026</button>
+  <button class="secondary-btn" onclick="openPastExamsV104()">🗂️ Provas Anteriores PMMG — 2022, 2023 e 2025</button>
 </div>
 <div class="sim510-history-head">
     <div>
@@ -810,25 +810,22 @@
 
 
 <section id="pastExamsV104" class="screen">
-  <div class="page-head"><button onclick="openSimulatorHubV510()">←</button><div><span class="kicker">ARQUIVO PMMG</span><h2>Provas Anteriores</h2><p>Histórico de 2020 a 2026, com status de verificação.</p></div></div>
+  <div class="page-head"><button onclick="openSimulatorHubV510()">←</button><div><span class="kicker">SIMULAÇÃO OFICIAL</span><h2>Provas Anteriores</h2><p>Faça provas oficiais completas dentro do Missão PMMG.</p></div></div>
   <div id="pastExamsSummaryV104"></div>
   <div id="pastExamsListV104"></div>
 </section>
 
 <section id="questionBankV7" class="screen">
   <div class="page-head"><button onclick="openSimulatorHubV510()">←</button><div><span class="kicker">TREINO LIVRE</span><h2>Banco de Questões</h2><p>Treine sem precisar refazer uma aula.</p></div></div>
-  <div class="v7-bank-card">
-    <label>Matéria<select id="v7BankSubject" onchange="v103BankSubjectChanged()">
-      <option value="Todos">Todas as matérias</option>
-      <option>Português</option><option>Literatura</option><option>Inglês</option><option>Direito</option><option>Matemática</option>
-    </select></label>
-    <label>Assunto / aula<select id="v103BankLesson" onchange="v103BankFilterChanged()"><option value="Todos">Todos os assuntos</option></select></label>
-    <label>Tipo de treino<select id="v103BankMode" onchange="v103BankFilterChanged()"><option value="all">Todas as questões</option><option value="errors">Somente meus erros</option></select></label>
-    <label>Quantidade<select id="v7BankCount"><option value="5">5 questões</option><option value="10" selected>10 questões</option><option value="20">20 questões</option></select></label>
-    <div id="v103BankMeta" style="display:flex;gap:6px;flex-wrap:wrap;margin:3px 0 9px;font-size:7px;color:var(--muted)"></div>
-    <button class="primary full" onclick="startQuestionBankV7()">Começar treino</button>
+  <div class="v1071-bank-hero"><div class="v1071-bank-icon">🎯</div><div><span class="kicker">TREINO PERSONALIZADO</span><strong>Monte seu treino</strong><p>Escolha exatamente o que quer praticar agora.</p></div></div>
+  <div class="v7-bank-card v1071-bank-card">
+    <div class="v1071-field"><span>01</span><label>Matéria<select id="v7BankSubject" onchange="v103BankSubjectChanged()"><option value="Todos">Todas as matérias</option><option>Português</option><option>Literatura</option><option>Inglês</option><option>Direito</option><option>Matemática</option></select></label></div>
+    <div class="v1071-field"><span>02</span><label>Assunto / aula<select id="v103BankLesson" onchange="v103BankFilterChanged()"><option value="Todos">Todos os assuntos</option></select></label></div>
+    <div class="v1071-bank-grid"><div class="v1071-field"><span>03</span><label>Tipo de treino<select id="v103BankMode" onchange="v103BankFilterChanged()"><option value="all">Todas as questões</option><option value="errors">Somente meus erros</option></select></label></div><div class="v1071-field"><span>04</span><label>Quantidade<select id="v7BankCount"><option value="5">5 questões</option><option value="10" selected>10 questões</option><option value="20">20 questões</option></select></label></div></div>
+    <div id="v103BankMeta" class="v1071-bank-meta"></div>
+    <button class="primary full v1071-bank-start" onclick="startQuestionBankV7()">Começar treino <b>→</b></button>
   </div>
-  <div class="v7-bank-info"><b id="v7BankTotal">0 questões disponíveis</b><p>As questões são sorteadas das aulas já cadastradas.</p></div>
+  <div class="v7-bank-info v1071-bank-info"><span>📚</span><div><b id="v7BankTotal">0 questões disponíveis</b><p>As questões são sorteadas das aulas já cadastradas.</p></div></div>
 </section>
 
 <section id="simulationScreenV510" class="screen">
@@ -1150,5 +1147,5 @@
   <button id="navReview" onclick="openReviewArea()"><span>✎</span><small>Revisar</small></button>
   <button id="navEvolution" onclick="openEvolutionArea()"><span>↗</span><small>Evolução</small></button>
 </nav>
-<script src="provas-v107.js?v=10.6.0"></script><script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=10.1.0"></script><script src="app.js?v=9.0.0"></script><script src="flashcards.js?v=10.0.0"></script><script src="edital.js?v=10.2.0"></script><script src="bank-v103.js?v=10.3.0"></script>
+<script src="provas-v1071.js?v=10.7.1"></script><script src="lessons.js?v=9.0.0"></script><script src="literatura.js?v=9.0.0"></script><script src="ingles.js?v=9.0.0"></script><script src="direito.js?v=9.0.0"></script><script src="matematica.js?v=9.0.0"></script><script src="library.js?v=10.1.0"></script><script src="app.js?v=9.0.0"></script><script src="flashcards.js?v=10.0.0"></script><script src="edital.js?v=10.2.0"></script><script src="bank-v103.js?v=10.3.0"></script>
 </body></html>
