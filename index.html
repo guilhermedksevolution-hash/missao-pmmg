@@ -5,7 +5,47 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1220">
 <title>Missão PMMG</title>
-<link rel="stylesheet" href="style.css?v=10.8.6">
+<link rel="stylesheet" href="style.css?v=10.9">
+
+<style id="v109-home-premium">
+.v109-home{padding-bottom:24px}
+.v109-hero{position:relative;overflow:hidden;border:1px solid rgba(218,176,78,.28);background:linear-gradient(145deg,rgba(22,26,35,.98),rgba(8,10,15,.98));box-shadow:0 18px 50px rgba(0,0,0,.24)}
+.v109-hero:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;right:-75px;top:-90px;background:radial-gradient(circle,rgba(218,176,78,.18),transparent 68%);pointer-events:none}
+.v109-hero-copy{position:relative;z-index:1}
+.v109-hero h2{max-width:520px;font-size:clamp(1.65rem,5vw,2.35rem);letter-spacing:-.035em;margin-top:7px}
+.v109-hero p{max-width:560px;line-height:1.55}
+.v109-hero-mini{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}
+.v109-hero-mini span{font-size:.76rem;padding:7px 10px;border:1px solid rgba(255,255,255,.08);border-radius:999px;background:rgba(255,255,255,.035)}
+.v109-continue{position:relative;z-index:1;min-width:180px}
+.v109-today{border:1px solid rgba(255,255,255,.08);background:linear-gradient(135deg,rgba(18,22,31,.98),rgba(11,13,19,.98));box-shadow:0 12px 32px rgba(0,0,0,.16)}
+.v109-today-copy{min-width:0}
+.v109-mission-action{margin-top:12px;padding:9px 13px;border-radius:10px;border:1px solid rgba(218,176,78,.24);background:rgba(218,176,78,.08);color:inherit;font-weight:800}
+.v109-ring{box-shadow:inset 0 0 0 1px rgba(255,255,255,.05),0 0 28px rgba(218,176,78,.07)}
+.v109-head{margin-top:26px}
+.v109-head h3{letter-spacing:-.02em}
+.v109-stats article{border:1px solid rgba(255,255,255,.075);background:linear-gradient(145deg,rgba(20,23,31,.96),rgba(12,14,20,.96));box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.v109-stats article strong{font-size:1.65rem}
+.v109-review-card{cursor:pointer}
+.v109-subjects>*{border-color:rgba(255,255,255,.075)!important}
+.v109-actions button,.v109-tools button{border-color:rgba(255,255,255,.075);background:linear-gradient(145deg,rgba(19,22,30,.96),rgba(11,13,18,.96));transition:transform .18s ease,border-color .18s ease,background .18s ease}
+.v109-actions button:active,.v109-tools button:active{transform:scale(.985)}
+.v109-tools button{min-height:116px}
+.v109-tools button strong{margin-top:7px}
+@media(max-width:680px){
+ .v109-hero{display:block}
+ .v109-continue{width:100%;margin-top:18px}
+ .v109-today{align-items:center}
+ .v109-mission-action{width:100%}
+ .v109-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v109-stats article{min-width:0}
+ .v109-tools{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:390px){
+ .v109-stats{grid-template-columns:1fr 1fr}
+ .v109-ring{transform:scale(.92)}
+}
+</style>
+
 </head>
 <body>
 
@@ -68,46 +108,69 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V10.8.6</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V10.9</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
 <main class="app">
-<section id="homeScreen" class="screen active">
-  <article class="mission">
-    <div><span class="kicker">MISSÃO ATUAL</span><h2>Continue sua preparação.</h2><p>Estudo direcionado, provas e revisão dos seus pontos fracos.</p></div>
-    <button class="primary" onclick="continueStudy()">Continuar</button>
+<section id="homeScreen" class="screen active v109-home">
+  <article class="mission v109-hero">
+    <div class="v109-hero-copy">
+      <span class="kicker">MISSÃO PMMG • PREPARAÇÃO ATIVA</span>
+      <h2>Continue sua preparação.</h2>
+      <p>Seu próximo passo já está pronto. Mantenha a constância até a aprovação.</p>
+      <div class="v109-hero-mini">
+        <span>🔥 <b id="v109StreakMirror">Sequência ativa</b></span>
+        <span>🎯 Foco na aprovação</span>
+      </div>
+    </div>
+    <button class="primary v109-continue" onclick="continueStudy()">Continuar estudando <b>→</b></button>
   </article>
 
-  
-  <div class="today-mission">
-    <div><span class="kicker">MISSÃO DO DIA</span><h3 id="dailyMissionTitle">Complete sua próxima etapa</h3><p id="dailyMissionText">1 aula • questões • revisão dos erros</p></div>
-    <div class="mission-ring"><strong id="preparationIndex">0</strong><small>PREPARO</small></div>
+  <div class="today-mission v109-today">
+    <div class="v109-today-copy">
+      <span class="kicker">MISSÃO DO DIA</span>
+      <h3 id="dailyMissionTitle">Complete sua próxima etapa</h3>
+      <p id="dailyMissionText">1 aula • questões • revisão dos erros</p>
+      <button type="button" class="v109-mission-action" onclick="continueStudy()">Cumprir missão →</button>
+    </div>
+    <div class="mission-ring v109-ring"><strong id="preparationIndex">0</strong><small>PREPARO</small></div>
   </div>
 
-  <div class="section-head"><div><span class="kicker">PAINEL</span><h3>Resumo de hoje</h3></div><button onclick="openPerformance()">Detalhes</button></div>
-  <div class="quick-stats">
-    <article><span>Progresso</span><strong id="globalProgressText">0%</strong><div class="bar"><i id="globalProgressBar"></i></div><small id="progressSubtitle">0 de 2 aulas concluídas</small></article>
+  <div class="section-head v109-head">
+    <div><span class="kicker">VISÃO GERAL</span><h3>Seu desempenho</h3></div>
+    <button onclick="openPerformance()">Ver detalhes</button>
+  </div>
+  <div class="quick-stats v109-stats">
+    <article><span>Progresso geral</span><strong id="globalProgressText">0%</strong><div class="bar"><i id="globalProgressBar"></i></div><small id="progressSubtitle">0 de 2 aulas concluídas</small></article>
     <article><span>Melhor desempenho</span><strong id="averageScoreValue">0%</strong><small>Notas registradas</small></article>
-    <article><span>Concluídas</span><strong id="completedLessonsValue">0</strong><small>Aulas aprovadas</small></article>
-    <article onclick="openErrorNotebook()"><span>Para revisar</span><strong id="errorCountValue">0</strong><small>Caderno de erros</small></article>
+    <article><span>Aulas concluídas</span><strong id="completedLessonsValue">0</strong><small>Aprovadas na preparação</small></article>
+    <article onclick="openErrorNotebook()" class="v109-review-card"><span>Revisões pendentes</span><strong id="errorCountValue">0</strong><small>Abrir Caderno de Erros →</small></article>
   </div>
 
-  <div class="section-head"><div><span class="kicker">MATÉRIAS</span><h3>Progresso por disciplina</h3></div><button onclick="openSubjects()">Ver todas</button></div>
-<div id="v7HomeSubjects" class="v7-home-subjects"></div>
-<div class="section-head"><div><span class="kicker">ESTUDAR</span><h3>Sua preparação</h3></div></div>
-  <div class="action-list">
+  <div class="section-head v109-head">
+    <div><span class="kicker">MATÉRIAS</span><h3>Progresso por disciplina</h3></div>
+    <button onclick="openSubjects()">Ver todas</button>
+  </div>
+  <div id="v7HomeSubjects" class="v7-home-subjects v109-subjects"></div>
+
+  <div class="section-head v109-head">
+    <div><span class="kicker">PRÓXIMOS PASSOS</span><h3>Continue evoluindo</h3></div>
+  </div>
+  <div class="action-list v109-actions">
     <button onclick="openPortuguese()"><em>📘</em><div><strong>Continuar Português</strong><small id="portugueseProgressText">0 de 2 aulas concluídas</small><div class="bar"><i id="portugueseProgressBar"></i></div></div><b>›</b></button>
-    <button onclick="openErrorNotebook()"><em>📓</em><div><strong>Revisar meus erros</strong><small>Foque no que precisa melhorar</small></div><b>›</b></button>
+    <button onclick="openErrorNotebook()"><em>📓</em><div><strong>Revisar meus erros</strong><small>Treine exatamente onde precisa melhorar</small></div><b>›</b></button>
     <button onclick="openTipsV511()"><em>💡</em><div><strong>Dicas de prova</strong><small>Estratégias para resolver questões</small></div><b>›</b></button>
   </div>
 
-  <div class="section-head"><div><span class="kicker">CENTRAL</span><h3>Ferramentas</h3></div></div>
-  <div class="tools">
+  <div class="section-head v109-head">
+    <div><span class="kicker">ACESSO RÁPIDO</span><h3>Ferramentas da preparação</h3></div>
+  </div>
+  <div class="tools v109-tools">
     <button onclick="openPerformance()">📊<strong>Desempenho</strong><small>Evolução e notas</small></button>
     <button onclick="openErrorNotebook()">✎<strong>Caderno de erros</strong><small>Revisão inteligente</small></button>
-    <button onclick="openProfessorIA()" class="future">🤖<strong>Professor IA</strong><small>Seu futuro tutor</small><i>EM BREVE</i></button>
-    <button onclick="openStudyHub()">☰<strong>Central de estudos</strong><small>Recursos da preparação</small></button>
+    <button onclick="openProfessorIA()">🤖<strong>Professor IA</strong><small>Tutor da preparação</small></button>
+    <button onclick="openStudyHub()">☰<strong>Central de estudos</strong><small>Todos os recursos</small></button>
   </div>
 </section>
 
