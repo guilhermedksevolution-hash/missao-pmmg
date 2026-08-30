@@ -1,3 +1,4 @@
+/* MISSÃO PMMG V10.8.0 — módulo consolidado; dados/chaves preservados. */
 /* Missão PMMG V9.8.0 — Expansão da Biblioteca: Matemática, Literatura e Inglês */
 (function(){
 const KEY='pmmg_library_v91';
