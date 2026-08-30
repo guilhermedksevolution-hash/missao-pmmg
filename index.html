@@ -46,6 +46,30 @@
 }
 </style>
 
+
+<style id="v11-journey-style">
+.v11-journey-head{margin-bottom:12px}
+.v11-journey{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:3px 0 2px}
+.v11-journey-line{position:absolute;left:8%;right:8%;top:50%;height:2px;background:rgba(255,255,255,.055);z-index:0;overflow:hidden;border-radius:999px}
+.v11-journey-line i{display:block;width:0;height:100%;background:linear-gradient(90deg,#d8aa42,#f0cc6b);border-radius:999px;transition:width .45s ease}
+.v11-step{position:relative;z-index:1;display:grid;grid-template-columns:42px 1fr auto;align-items:center;gap:10px;min-height:88px;padding:14px;border:1px solid rgba(255,255,255,.075);border-radius:15px;background:linear-gradient(145deg,rgba(19,22,30,.985),rgba(10,12,17,.985));color:inherit;text-align:left;box-shadow:0 10px 28px rgba(0,0,0,.12);transition:transform .18s ease,border-color .18s ease}
+.v11-step:active{transform:scale(.985)}
+.v11-step.is-active{border-color:rgba(218,176,78,.38);box-shadow:0 12px 32px rgba(0,0,0,.16),inset 0 0 0 1px rgba(218,176,78,.05)}
+.v11-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.045);font-size:1.15rem}
+.v11-step div{min-width:0}
+.v11-step b{display:block;font-size:.88rem}
+.v11-step small{display:block;margin-top:4px;font-size:.67rem;line-height:1.35;opacity:.62}
+.v11-step>strong{font-size:1rem;color:#e7bc55}
+.v11-state{font-size:.58rem;font-weight:900;letter-spacing:.08em;color:#e7bc55;border:1px solid rgba(231,188,85,.18);padding:5px 7px;border-radius:999px}
+.v11-final{background:linear-gradient(145deg,rgba(37,31,18,.78),rgba(12,13,17,.985))}
+@media(max-width:760px){
+ .v11-journey{grid-template-columns:1fr}
+ .v11-journey-line{left:34px;right:auto;top:30px;bottom:30px;width:2px;height:auto}
+ .v11-journey-line i{width:100%;height:0;transition:height .45s ease}
+ .v11-step{grid-template-columns:42px 1fr auto;min-height:76px}
+}
+</style>
+
 </head>
 <body>
 
@@ -108,7 +132,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V10.9</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -147,6 +171,34 @@
     <article><span>Aulas concluídas</span><strong id="completedLessonsValue">0</strong><small>Aprovadas na preparação</small></article>
     <article onclick="openErrorNotebook()" class="v109-review-card"><span>Revisões pendentes</span><strong id="errorCountValue">0</strong><small>Abrir Caderno de Erros →</small></article>
   </div>
+
+  
+  <div class="section-head v109-head v11-journey-head">
+    <div><span class="kicker">JORNADA PMMG</span><h3>Seu caminho até a aprovação</h3></div>
+    <button type="button" onclick="openStudyHub()">Ver preparação</button>
+  </div>
+  <div class="v11-journey" id="v11Journey">
+    <div class="v11-journey-line" aria-hidden="true"><i id="v11JourneyLine"></i></div>
+    <button type="button" class="v11-step" data-v11-step="content" onclick="openSubjects()">
+      <span class="v11-icon">📚</span><div><b>Conteúdo</b><small>Construa sua base nas matérias</small></div><strong id="v11ContentPct">0%</strong>
+    </button>
+    <button type="button" class="v11-step" data-v11-step="questions" onclick="openQuestionBankV7()">
+      <span class="v11-icon">📝</span><div><b>Questões</b><small>Transforme teoria em acertos</small></div><span class="v11-state">TREINAR</span>
+    </button>
+    <button type="button" class="v11-step" data-v11-step="review" onclick="openErrorNotebook()">
+      <span class="v11-icon">🧠</span><div><b>Revisão</b><small>Corrija seus pontos fracos</small></div><strong id="v11ReviewCount">0</strong>
+    </button>
+    <button type="button" class="v11-step" data-v11-step="simulations" onclick="openStudyHub()">
+      <span class="v11-icon">🎯</span><div><b>Simulados</b><small>Teste desempenho e estratégia</small></div><span class="v11-state">PRATICAR</span>
+    </button>
+    <button type="button" class="v11-step" data-v11-step="official" onclick="openPastExamsV104()">
+      <span class="v11-icon">📜</span><div><b>Provas oficiais</b><small>2022 • 2023 • 2025</small></div><span class="v11-state">135 Q.</span>
+    </button>
+    <button type="button" class="v11-step v11-final" data-v11-step="final" onclick="openPerformance()">
+      <span class="v11-icon">🚔</span><div><b>Preparação final</b><small>Acompanhe seu nível de preparo</small></div><strong id="v11PrepPct">0</strong>
+    </button>
+  </div>
+
 
   <div class="section-head v109-head">
     <div><span class="kicker">MATÉRIAS</span><h3>Progresso por disciplina</h3></div>
@@ -1295,5 +1347,42 @@ window.openPastExamsV104=function(){
 <script src="flashcards.js?v=10.8.2"></script>
 <script src="edital.js?v=10.8.2"></script>
 <script src="bank-v103.js?v=10.8.6"></script>
+
+
+<script id="v11-journey-runtime">
+(function(){
+  function numText(id){
+    var el=document.getElementById(id);
+    if(!el)return 0;
+    var n=parseInt(String(el.textContent||"").replace(/\D/g,""),10);
+    return isNaN(n)?0:n;
+  }
+  function syncJourneyV11(){
+    var progress=numText("globalProgressText");
+    var prep=numText("preparationIndex");
+    var errors=numText("errorCountValue");
+    var a=document.getElementById("v11ContentPct");
+    var b=document.getElementById("v11PrepPct");
+    var c=document.getElementById("v11ReviewCount");
+    if(a)a.textContent=progress+"%";
+    if(b)b.textContent=prep;
+    if(c)c.textContent=errors;
+    var line=document.getElementById("v11JourneyLine");
+    if(line){
+      var overall=Math.max(progress,prep);
+      if(window.matchMedia&&window.matchMedia("(max-width:760px)").matches) line.style.height=Math.min(100,overall)+"%";
+      else line.style.width=Math.min(100,overall)+"%";
+    }
+    var steps=document.querySelectorAll("#v11Journey .v11-step");
+    steps.forEach(function(x){x.classList.remove("is-active")});
+    var idx=progress<25?0:progress<50?1:errors>0?2:prep<60?3:prep<80?4:5;
+    if(steps[idx])steps[idx].classList.add("is-active");
+  }
+  window.syncJourneyV11=syncJourneyV11;
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(syncJourneyV11,250)});
+  else setTimeout(syncJourneyV11,250);
+  setTimeout(syncJourneyV11,900);
+})();
+</script>
 
 </body></html>
