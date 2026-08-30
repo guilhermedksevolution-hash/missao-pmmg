@@ -70,6 +70,43 @@
 }
 </style>
 
+
+<style id="v111-subjects-premium">
+/* V11.1 — Matérias Premium: somente apresentação, sem alterar aulas ou progresso */
+#v7HomeSubjects.v111-premium-subjects{gap:12px}
+#v7HomeSubjects.v111-premium-subjects>*{
+ position:relative;overflow:hidden;min-height:132px;padding:17px!important;
+ border:1px solid rgba(255,255,255,.08)!important;border-radius:17px!important;
+ background:linear-gradient(145deg,rgba(20,23,31,.99),rgba(10,12,17,.99))!important;
+ box-shadow:0 12px 30px rgba(0,0,0,.13);
+ transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease
+}
+#v7HomeSubjects.v111-premium-subjects>*:before{
+ content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+ background:linear-gradient(180deg,#e8bd55,rgba(232,189,85,.12))
+}
+#v7HomeSubjects.v111-premium-subjects>*:after{
+ content:"CONTINUAR  →";position:absolute;right:15px;bottom:14px;
+ font-size:.57rem;font-weight:900;letter-spacing:.09em;color:#e8bd55;opacity:.92
+}
+#v7HomeSubjects.v111-premium-subjects strong{font-size:1.12rem}
+#v7HomeSubjects.v111-premium-subjects .bar{margin-bottom:23px}
+#v7HomeSubjects.v111-premium-subjects>*:active{transform:scale(.987)}
+#v7HomeSubjects.v111-premium-subjects>*.v111-done{
+ border-color:rgba(86,196,132,.2)!important
+}
+#v7HomeSubjects.v111-premium-subjects>*.v111-done:before{background:linear-gradient(180deg,#62c98e,rgba(98,201,142,.1))}
+#v7HomeSubjects.v111-premium-subjects>*.v111-done:after{content:"CONCLUÍDA  ✓";color:#7bdca3}
+#v7HomeSubjects.v111-premium-subjects>*.v111-progress{
+ border-color:rgba(232,189,85,.2)!important;
+ box-shadow:0 12px 30px rgba(0,0,0,.14),inset 0 0 0 1px rgba(232,189,85,.025)
+}
+@media(max-width:680px){
+ #v7HomeSubjects.v111-premium-subjects>*{min-height:122px;padding:15px!important}
+ #v7HomeSubjects.v111-premium-subjects>*:after{right:13px;bottom:12px}
+}
+</style>
+
 </head>
 <body>
 
@@ -132,7 +169,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.1</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -1382,6 +1419,39 @@ window.openPastExamsV104=function(){
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(syncJourneyV11,250)});
   else setTimeout(syncJourneyV11,250);
   setTimeout(syncJourneyV11,900);
+})();
+</script>
+
+
+<script id="v111-subjects-runtime">
+(function(){
+ function pctFromCard(card){
+   var text=String(card.textContent||"");
+   var m=text.match(/(\d{1,3})\s*%/);
+   return m?Math.max(0,Math.min(100,parseInt(m[1],10)||0)):0;
+ }
+ function enhanceSubjectsV111(){
+   var box=document.getElementById("v7HomeSubjects");
+   if(!box)return;
+   box.classList.add("v111-premium-subjects");
+   Array.prototype.forEach.call(box.children,function(card){
+     card.classList.remove("v111-done","v111-progress");
+     var pct=pctFromCard(card);
+     if(pct>=100)card.classList.add("v111-done");
+     else if(pct>0)card.classList.add("v111-progress");
+   });
+ }
+ window.enhanceSubjectsV111=enhanceSubjectsV111;
+ function boot(){
+   enhanceSubjectsV111();
+   var box=document.getElementById("v7HomeSubjects");
+   if(box&&window.MutationObserver){
+     new MutationObserver(enhanceSubjectsV111).observe(box,{childList:true,subtree:true,characterData:true});
+   }
+ }
+ if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,300)},{once:true});
+ else setTimeout(boot,300);
+ setTimeout(enhanceSubjectsV111,1000);
 })();
 </script>
 
