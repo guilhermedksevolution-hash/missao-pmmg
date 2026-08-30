@@ -1,3 +1,4 @@
+/* MISSÃO PMMG V10.8.0 — base consolidada; funcionalidades preservadas. */
 const PASS_SCORE = 70;
 const XP_PER_APPROVAL = 100;
 const TOTAL_LESSONS = Object.keys(window.lessons||{}).length; // V7: Português dinâmico
@@ -642,11 +643,6 @@ openTrainingArea=function(){v53Show("trainingHubV53","navTrain");};
 openReviewArea=function(){v53Show("reviewHubV53","navReview");};
 openEvolutionArea=function(){v53Show("evolutionHubV53","navEvolution");};
 
-function utilityV53(title,text){
-  document.getElementById("utilityTitleV53").textContent=title;
-  document.getElementById("utilityTextV53").textContent=text;
-  v53Show("utilityHubV53","navStudy");
-}
 function openStudyPlanV53(){ openStudyPlanV54(); }
 function openStudyPlanV54(){
   showScreen("planScreen");
@@ -678,12 +674,8 @@ function renderStudyPlanV54(){
 }
 const _saveV5SettingsV54=saveV5Settings;
 saveV5Settings=function(){ _saveV5SettingsV54(); renderStudyPlanV54(); };
-function openFavoritesV53(){utilityV53("Favoritos","Seus conteúdos e questões marcados para consultar depois.");}
 function openSearchV53(){openSearch();setMainNavActive("navStudy");window.scrollTo(0,0);}
-function openTipsV53(){utilityV53("Dicas de prova","Estratégias para leitura, tempo e eliminação de alternativas.");}
 function openQuickTrainingV53(){startSimulationV510("rapido");}
-function openSimulationV53(){utilityV53("Simulados","Área preparada para provas completas e resultados.");}
-function openQuickReviewV53(){utilityV53("Revisão rápida","Uma sessão objetiva baseada nos seus pontos fracos.");}
 
 /* =========================================================
    V5.5 - FAVORITOS E ANOTACOES FUNCIONAIS
