@@ -28,6 +28,7 @@ function renderList(){
  sum.innerHTML=`<div class="v104-summary v1071-summary"><div><span class="kicker">PROVAS OFICIAIS</span><strong>Treine com provas anteriores</strong><p>Simule o dia da prova com tempo, correção e desempenho por matéria.</p></div><div class="v1071-summary-stat"><b>${EXAMS.length}</b><small>provas</small></div></div>`;
  list.innerHTML=`<div class="v104-list v1071-list">${EXAMS.map(x=>{const cfg=INTERACTIVE[x.year];return `<article class="v104-card v1071-exam-card"><div class="v1071-exam-icon">📝</div><div class="v1071-exam-main"><div class="v1071-exam-head"><div><span class="v1071-year">${x.year}</span><h3>${esc(x.title)}</h3></div><span class="v104-badge verified">✓ VERIFICADA</span></div><p>${esc(x.note)}</p><div class="v1071-exam-stats"><span>📋 ${cfg.count} questões</span><span>⏱ ${cfg.minutes} min</span><span>🏆 Gabarito oficial</span></div><button type="button" class="v105-start v1071-start" data-past-exam-year="${x.year}">Fazer prova completa <b>→</b></button></div></article>`}).join('')}</div><div class="v1071-total">📚 <b>${total} questões oficiais</b> disponíveis nas provas cadastradas.</div>`;
 }
+window.renderPastExamsV104=renderList;
 let timer=null,end=0,year=2025,answers={},current=0,finished=false;
 function activeQuestions(){return year===2022?QUESTIONS_2022:(year===2023?QUESTIONS_2023:QUESTIONS)}
 function examCfg(){return INTERACTIVE[year]||{count:activeQuestions().length,minutes:180}}
@@ -48,7 +49,7 @@ document.addEventListener('click',function(ev){
  ev.stopPropagation();
  window.startPastExamV1051(btn.getAttribute('data-past-exam-year'));
 },true);
-document.addEventListener('DOMContentLoaded',renderList);
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',renderList);}else{renderList();}
 })();
 
 // V10.7.2 — navegação segura para a Central de Provas Anteriores
@@ -60,6 +61,6 @@ window.openPastExamsV104=function(){
     var target=document.getElementById('pastExamsV104');
     if(target)target.classList.add('active');
   }
-  if(typeof window.renderPastExamsV104==='function')window.renderPastExamsV104();
+  if(typeof window.renderPastExamsV104==='function'){window.renderPastExamsV104();}
   window.scrollTo(0,0);
 };
