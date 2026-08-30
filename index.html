@@ -142,6 +142,129 @@
 }
 </style>
 
+
+<style id="v112-ui-tech-premium">
+/* V11.2 — UI Tech Premium: camada visual isolada */
+:root{
+  --ui112-bg:#07090d;
+  --ui112-panel:#0d1118;
+  --ui112-panel2:#121722;
+  --ui112-line:rgba(255,255,255,.07);
+  --ui112-gold:#e7bc55;
+  --ui112-text:#f4f7fb;
+  --ui112-muted:rgba(244,247,251,.58);
+}
+body{
+  background:
+    radial-gradient(circle at 50% -10%,rgba(231,188,85,.08),transparent 30%),
+    linear-gradient(180deg,#080b10 0%,#05070a 100%) !important;
+}
+main,.app-main,.content,.screen{
+  scroll-behavior:smooth;
+}
+.section-head.v109-head{
+  padding-top:2px;
+  margin-top:24px;
+}
+.section-head.v109-head h3{
+  letter-spacing:-.02em;
+}
+.kicker{
+  letter-spacing:.12em!important;
+}
+.v109-hero,
+.v109-mission,
+.v11-journey,
+.v112-schedule,
+#v7HomeSubjects>*{
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+.v109-hero{
+  border:1px solid rgba(231,188,85,.12)!important;
+  box-shadow:0 22px 55px rgba(0,0,0,.28), inset 0 0 0 1px rgba(255,255,255,.018)!important;
+}
+.v109-hero:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(120deg,rgba(255,255,255,.025),transparent 32%);
+}
+.v109-mission,
+.v11-step,
+.v112-today,
+.v112-day,
+#v7HomeSubjects.v111-premium-subjects>*{
+  border-color:rgba(255,255,255,.075)!important;
+}
+.v11-step:hover,
+#v7HomeSubjects.v111-premium-subjects>*:hover,
+.v112-day:hover{
+  border-color:rgba(231,188,85,.22)!important;
+  box-shadow:0 16px 36px rgba(0,0,0,.18);
+}
+.v112-today{
+  box-shadow:0 18px 42px rgba(0,0,0,.2)!important;
+}
+.v112-block{
+  background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.018))!important;
+}
+.v112-week{
+  gap:8px!important;
+}
+.v112-day{
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+.v112-day:hover{
+  transform:translateY(-2px);
+}
+.bottom-nav,.bottomNav,.nav-bottom{
+  box-shadow:0 14px 38px rgba(0,0,0,.42)!important;
+  border:1px solid rgba(255,255,255,.075)!important;
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+}
+button{
+  transition:transform .16s ease,opacity .16s ease,box-shadow .16s ease,border-color .16s ease;
+}
+button:active{transform:scale(.985)}
+.v112-creator{
+  margin:26px 0 110px;
+  padding:16px 18px;
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,.06);
+  color:rgba(255,255,255,.5);
+  font-size:.66rem;
+  letter-spacing:.03em;
+}
+.v112-creator strong{
+  display:block;
+  margin-top:4px;
+  color:#e7bc55;
+  font-size:.72rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.v112-tech-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-top:8px;
+  padding:5px 9px;
+  border:1px solid rgba(231,188,85,.14);
+  border-radius:999px;
+  background:rgba(231,188,85,.035);
+  color:rgba(255,255,255,.62);
+  font-size:.56rem;
+  font-weight:800;
+}
+@media(max-width:760px){
+  .section-head.v109-head{margin-top:20px}
+  .v112-creator{margin-bottom:95px}
+}
+</style>
+
 </head>
 <body>
 
@@ -204,7 +327,7 @@
 </script>
 
 <header class="topbar">
-  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.1.2</small></h1></div></div>
+  <div class="brand"><div class="shield">🛡️</div><div><span>PREPARAÇÃO PMMG</span><h1>Missão PMMG <small class="version-badge">V11.2</small></h1></div></div>
   <div class="status"><b>🔥 <i id="streakValue">0</i></b><b>⭐ <i id="xpValue">0 XP</i></b><button class="profile-top633" onclick="openProfile633()" aria-label="Abrir perfil"><span id="profileTopPlaceholder633">👤</span><img id="profileTopPhoto633" alt="Foto do perfil"></button></div>
 </header>
 
@@ -218,6 +341,13 @@
       <div class="v109-hero-mini">
         <span>🔥 <b id="v109StreakMirror">Sequência ativa</b></span>
         <span>🎯 Foco na aprovação</span>
+
+  <div class="v112-creator" id="v112CreatorCredit">
+    Desenvolvido para a preparação PMMG por
+    <strong>Guilherme Alves</strong>
+    <span class="v112-tech-chip">🚔 MISSÃO PMMG • PLATAFORMA DE ESTUDOS</span>
+  </div>
+
       </div>
     </div>
     <button class="primary v109-continue" onclick="continueStudy()">Continuar estudando <b>→</b></button>
