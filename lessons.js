@@ -7,7 +7,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.4 ESTUDO DE TEXTO</div>\n<h3>O que a prova quer de você</h3><p>Interpretar é responder com base no que o texto permite concluir. Em questões com comandos como <b>“segundo o texto”</b>, sua opinião pessoal não é a referência: a resposta precisa estar sustentada pelo texto.</p>\n<h3>Informação explícita x implícita</h3><p><b>Explícita</b> é a informação escrita diretamente. <b>Implícita</b> é uma conclusão autorizada por pistas do texto. Inferir não é inventar: é ligar pistas.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Rafael fechou as janelas e, minutos depois, ouviu trovões.” É razoável inferir que havia sinais de chuva; não é possível afirmar que Rafael tem medo de trovões.</div>\n<h3>Tema, assunto e finalidade</h3><p>O <b>assunto</b> é o campo geral; o <b>tema</b> é o recorte tratado; a <b>finalidade</b> é o que o autor pretende fazer: informar, convencer, orientar, criticar, narrar etc.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: volte ao trecho e procure a prova textual da alternativa.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Interpretação e estudo de texto</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Como interpretar sem cair em armadilhas</h3><p>Interpretar um texto significa reconstruir o sentido que ele oferece. A resposta correta precisa nascer das informações, relações e pistas presentes no próprio texto. Em concursos, é comum uma alternativa parecer verdadeira na vida real, mas estar errada porque o texto não a sustenta.</p><p>Comece identificando quem fala, sobre o quê se fala e com qual finalidade. Depois separe fatos expressos diretamente de conclusões que dependem de inferência. A inferência legítima é aquela que pode ser demonstrada por pistas; uma hipótese pessoal sem apoio textual não serve como resposta.</p><h3>Tema, ideia central e finalidade</h3><p>O tema é o recorte central desenvolvido. A ideia principal é aquilo que o texto afirma sobre esse tema. A finalidade pode ser informar, convencer, orientar, criticar, explicar, narrar ou produzir outro efeito. Esses três elementos são próximos, mas não são iguais.</p><p>Em uma questão, elimine alternativas que ampliem demais o texto, reduzam demais o assunto ou acrescentem julgamento que o autor não fez. Palavras absolutas como 'sempre', 'nunca', 'somente' e 'todos' merecem atenção quando o texto é mais moderado.</p><h3>Explícito, implícito e pressuposto</h3><p>Informação explícita está escrita. Informação implícita depende da conexão entre trechos. Pressupostos podem surgir de certas palavras e construções, por exemplo: 'João voltou a estudar' pressupõe que João estudava antes e havia parado.</p><p>Quando uma questão disser 'segundo o texto', sua tarefa é localizar ou reconstruir a informação textual, e não dar sua opinião sobre o tema.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>diferenciar explícito de implícito</li><li>identificar tema e ideia principal</li><li>justificar uma inferência usando pistas do texto</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Português para PMMG — visão geral</h3><p>Aula direcionada ao concurso PMMG.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Em uma questão que pergunta “Segundo o texto...”, qual deve ser a principal referência?",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em uma questão que pergunta “Segundo o texto...”, qual deve ser a principal referência?",
         "options": [
           "A experiência pessoal do candidato.",
           "As informações apresentadas pelo texto.",
@@ -19,7 +19,7 @@ window.lessons={
         "tip": "Procure evidência no próprio texto."
       },
       {
-        "question": "Informação implícita é aquela que:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, informação implícita é aquela que:",
         "options": [
           "Aparece obrigatoriamente no título.",
           "Não tem relação com o texto.",
@@ -31,7 +31,7 @@ window.lessons={
         "tip": "Implícito = não escrito diretamente, mas sustentado."
       },
       {
-        "question": "Se um texto apresenta benefícios da atividade física e riscos do sedentarismo, um tema adequado é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se um texto apresenta benefícios da atividade física e riscos do sedentarismo, um tema adequado é:",
         "options": [
           "Atividade física e saúde.",
           "História das Olimpíadas.",
@@ -43,7 +43,7 @@ window.lessons={
         "tip": "Escolha a alternativa que abrange o texto sem fugir dele."
       },
       {
-        "question": "A finalidade de um texto instrucional costuma ser:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a finalidade de um texto instrucional costuma ser:",
         "options": [
           "Narrar uma aventura.",
           "Orientar como realizar algo.",
@@ -55,7 +55,7 @@ window.lessons={
         "tip": "Pergunte: o autor quer que o leitor faça o quê?"
       },
       {
-        "question": "Uma inferência válida deve:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma inferência válida deve:",
         "options": [
           "Ser baseada apenas na opinião do leitor.",
           "Contradizer o texto.",
@@ -67,7 +67,7 @@ window.lessons={
         "tip": "Sem pista textual, é suposição."
       },
       {
-        "question": "O assunto de um texto é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o assunto de um texto é:",
         "options": [
           "O campo geral de que ele trata.",
           "Sempre a primeira frase.",
@@ -87,7 +87,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.2 ARGUMENTOS + 1.4 ESTUDO DE TEXTO</div>\n<h3>Ideia principal</h3><p>A ideia principal é a mensagem central que organiza as demais informações. Detalhes, exemplos e dados servem para desenvolver ou sustentar essa ideia.</p>\n<h3>Tese e argumento</h3><p>Em texto argumentativo, a <b>tese</b> é o ponto de vista defendido. <b>Argumentos</b> são razões, dados, exemplos ou relações lógicas usados para sustentá-la.</p>\n<h3>Pertinência e relevância</h3><p>Um argumento é pertinente quando se relaciona diretamente à tese. É relevante quando contribui de modo importante para sustentá-la.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> tese: “A leitura diária deve ser estimulada.” Um dado sobre ampliação de vocabulário é pertinente; a cor da capa de um livro, em regra, não é.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: se retirar um detalhe e a mensagem central continuar intacta, provavelmente era informação secundária.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Ideia principal, inferência e argumentação</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Ideia principal não é apenas o assunto</h3><p>Um texto pode ter como assunto 'segurança pública', mas sua ideia principal pode ser 'a aproximação entre polícia e comunidade melhora a prevenção'. O assunto nomeia o campo; a ideia principal expressa a mensagem central desenvolvida.</p><p>Para localizar a ideia principal, observe o título, a introdução, repetições de palavras, conclusão e relações entre parágrafos. Em textos argumentativos, pergunte qual posição o autor pretende sustentar.</p><h3>Inferência: conclusão controlada pelo texto</h3><p>Inferir é completar uma informação a partir de sinais. Se o texto afirma que uma pessoa saiu com guarda-chuva, o céu estava escuro e começou a trovejar, pode-se inferir possibilidade de chuva. Não se pode afirmar, sem outra pista, que a pessoa tem medo de chuva.</p><p>Em prova, desconfie de inferências exageradas. A correta costuma ser a conclusão mínima necessária para explicar as pistas.</p><h3>Argumentação e tese</h3><p>A tese é a posição central defendida. Argumentos são razões, exemplos, dados, comparações ou relações causais usados para sustentá-la. Contra-argumentos apresentam uma objeção que pode ser aceita, refutada ou relativizada.</p><p>Conectivos ajudam a mapear a argumentação: 'porque' costuma introduzir causa ou justificativa; 'portanto' aponta conclusão; 'porém' cria contraste; 'além disso' acrescenta argumento.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>separar assunto de ideia principal</li><li>encontrar a tese em texto argumentativo</li><li>identificar uma inferência exagerada</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • INFERÊNCIA E INTERPRETAÇÃO</span><h3>Compreensão e interpretação de textos para concursos</h3><p>Aula de apoio com inferências, contexto e compreensão textual.</p><iframe src=\"https://www.youtube.com/embed/ptbiYTNF_i4\" title=\"Inferência e interpretação de textos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Em um texto argumentativo, tese é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em um texto argumentativo, tese é:",
         "options": [
           "Um exemplo sem relação com o tema.",
           "O ponto de vista central defendido.",
@@ -99,7 +99,7 @@ window.lessons={
         "tip": "Procure o que o autor quer que o leitor aceite."
       },
       {
-        "question": "Um argumento pertinente é aquele que:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um argumento pertinente é aquele que:",
         "options": [
           "Tem relação direta com a tese.",
           "É sempre longo.",
@@ -111,7 +111,7 @@ window.lessons={
         "tip": "Pergunte se o argumento ajuda a defender a tese."
       },
       {
-        "question": "A ideia principal de um parágrafo corresponde:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a ideia principal de um parágrafo corresponde:",
         "options": [
           "Ao detalhe menos importante.",
           "À mensagem central desenvolvida.",
@@ -123,7 +123,7 @@ window.lessons={
         "tip": "Resuma o parágrafo em uma frase."
       },
       {
-        "question": "Dados estatísticos podem funcionar como:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, dados estatísticos podem funcionar como:",
         "options": [
           "Argumentos de sustentação.",
           "Pontuação.",
@@ -135,7 +135,7 @@ window.lessons={
         "tip": "Evidência fortalece argumento."
       },
       {
-        "question": "Inferir significa:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, inferir significa:",
         "options": [
           "Copiar literalmente.",
           "Concluir a partir de pistas.",
@@ -147,7 +147,7 @@ window.lessons={
         "tip": "Pista + raciocínio = inferência."
       },
       {
-        "question": "Qual elemento costuma ser secundário?",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual elemento costuma ser secundário?",
         "options": [
           "A tese do texto.",
           "Um exemplo usado para ilustrar a tese.",
@@ -167,7 +167,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.3 SELEÇÃO VOCABULAR + 1.25 SEMÂNTICA</div>\n<h3>Palavra certa no contexto</h3><p>Seleção vocabular é a escolha de palavras adequadas ao sentido, ao nível de formalidade e à intenção comunicativa. A banca pode trocar uma palavra e perguntar se o sentido foi mantido.</p>\n<h3>Denotação e conotação</h3><p><b>Denotação</b>: sentido literal. <b>Conotação</b>: sentido figurado. Em “o policial manteve a cabeça fria”, não se fala de temperatura, mas de autocontrole.</p>\n<h3>Sinônimos e contexto</h3><p>Palavras próximas nem sempre são intercambiáveis em qualquer frase. O contexto decide.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: nunca avalie uma palavra isoladamente quando a questão pede sentido no texto.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Seleção vocabular e sentido das palavras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Sentido depende do contexto</h3><p>Uma mesma palavra pode assumir sentidos diferentes. 'Cabeça' pode indicar parte do corpo, liderança, extremidade ou inteligência, dependendo do contexto. Por isso, questões de vocabulário não devem ser respondidas com base apenas no primeiro significado do dicionário.</p><p>Leia a frase inteira e, se necessário, o parágrafo. Observe quais palavras aparecem próximas e qual relação lógica existe entre elas.</p><h3>Denotação e conotação</h3><p>Denotação é o uso mais literal e objetivo. Conotação é o uso figurado, associado a valores e efeitos expressivos. Em 'a cidade acordou cedo', a cidade não acorda literalmente; há personificação e sentido conotativo.</p><p>Em textos informativos, predomina o uso denotativo, mas isso não impede figuras de linguagem. Em textos literários e publicitários, sentidos conotativos costumam ser mais frequentes.</p><h3>Sinonímia, antonímia e substituição</h3><p>Sinônimos raramente são idênticos em qualquer situação. Uma palavra pode ser substituída por outra em um contexto e não em outro. A banca pode perguntar se uma troca preserva sentido, intensidade, formalidade ou relação lógica.</p><p>Preste atenção também aos antônimos e a palavras que mudam apenas parcialmente o sentido. O contexto decide a equivalência.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar por que o contexto altera o sentido</li><li>diferenciar denotação de conotação</li><li>avaliar se uma substituição mantém o sentido</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +500 MIL VISUALIZAÇÕES</span><h3>Semântica — sentido das palavras</h3><p>Denotação, conotação, sinonímia, polissemia e outros pontos importantes para concursos.</p><iframe src=\"https://www.youtube.com/embed/P5DTDKxMCp0\" title=\"Semântica e sentido das palavras\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Em “ele manteve a cabeça fria durante a ocorrência”, a expressão está em sentido:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “ele manteve a cabeça fria durante a ocorrência”, a expressão está em sentido:",
         "options": [
           "Literal.",
           "Conotativo.",
@@ -179,7 +179,7 @@ window.lessons={
         "tip": "Conotação = sentido figurado."
       },
       {
-        "question": "A escolha vocabular adequada deve considerar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a escolha vocabular adequada deve considerar:",
         "options": [
           "Apenas o tamanho da palavra.",
           "Contexto e intenção comunicativa.",
@@ -191,7 +191,7 @@ window.lessons={
         "tip": "Contexto governa sentido."
       },
       {
-        "question": "Denotação corresponde ao sentido:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, denotação corresponde ao sentido:",
         "options": [
           "Figurado.",
           "Literal.",
@@ -203,7 +203,7 @@ window.lessons={
         "tip": "Dicionário lembra denotação."
       },
       {
-        "question": "Sinônimos:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, sinônimos:",
         "options": [
           "São sempre substituíveis sem alterar nada.",
           "Podem variar de adequação conforme o contexto.",
@@ -215,7 +215,7 @@ window.lessons={
         "tip": "Teste a troca na frase."
       },
       {
-        "question": "Uma palavra com mais de um sentido apresenta:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma palavra com mais de um sentido apresenta:",
         "options": [
           "Polissemia.",
           "Pontuação.",
@@ -227,7 +227,7 @@ window.lessons={
         "tip": "Poli = muitos."
       },
       {
-        "question": "Em prova, para determinar o sentido de uma palavra, é mais seguro:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em prova, para determinar o sentido de uma palavra, é mais seguro:",
         "options": [
           "Ignorar a frase.",
           "Ler o contexto em que aparece.",
@@ -247,7 +247,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.5 TIPOLOGIA TEXTUAL E GÊNEROS TEXTUAIS</div>\n<h3>Tipo textual x gênero</h3><p><b>Tipo textual</b> é uma estrutura predominante: narração, descrição, exposição, argumentação e injunção. <b>Gênero textual</b> é uma forma concreta de comunicação: notícia, edital, receita, artigo de opinião, e-mail, relatório etc.</p>\n<h3>Como reconhecer</h3><p>Narração apresenta acontecimentos; descrição caracteriza; exposição explica; argumentação defende ponto de vista; injunção orienta ações.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> uma receita é gênero textual e apresenta forte sequência injuntiva, pois orienta ações.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: gênero é “o texto que circula”; tipo é “a estrutura linguística que predomina”.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Tipologia e gêneros textuais</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Tipo textual e gênero textual são coisas diferentes</h3><p>Tipo textual é uma organização linguística predominante: narração, descrição, exposição, argumentação e injunção são categorias frequentes. Gênero textual é a forma social concreta do texto, como notícia, edital, receita, artigo de opinião, mensagem, relatório ou propaganda.</p><p>Um gênero pode misturar tipos. Uma reportagem pode narrar fatos, descrever cenário e apresentar explicações. A classificação deve observar a função predominante.</p><h3>Como reconhecer os tipos</h3><p>Narração organiza acontecimentos no tempo e costuma apresentar ações, personagens e mudanças. Descrição caracteriza seres, lugares ou situações. Exposição explica ou apresenta informações. Argumentação defende uma posição. Injunção orienta comportamento por meio de instruções, ordens ou recomendações.</p><p>Verbos no imperativo são frequentes em textos injuntivos, mas não são o único indício. Em um manual, por exemplo, a finalidade de orientar é mais importante que uma palavra isolada.</p><h3>Finalidade social do gênero</h3><p>Para reconhecer o gênero, pergunte: onde esse texto circularia? Quem o produz? Para quem? Com qual objetivo? Uma notícia procura informar sobre acontecimento de interesse público; um edital estabelece regras e condições; um artigo de opinião sustenta um ponto de vista.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>diferenciar tipo de gênero</li><li>reconhecer a tipologia predominante</li><li>relacionar gênero à finalidade</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • TIPOS E GÊNEROS TEXTUAIS</span><h3>Tipos e gêneros textuais — Português com Letícia</h3><p>Aula completa sobre tipos textuais, gêneros textuais e como diferenciá-los em questões.</p><iframe src=\"https://www.youtube.com/embed/keri15mSleA\" title=\"Tipos e gêneros textuais\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Notícia, receita e artigo de opinião são exemplos de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, notícia, receita e artigo de opinião são exemplos de:",
         "options": [
           "Gêneros textuais.",
           "Classes gramaticais.",
@@ -259,7 +259,7 @@ window.lessons={
         "tip": "Gênero = formato social do texto."
       },
       {
-        "question": "O tipo textual que orienta procedimentos é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o tipo textual que orienta procedimentos é:",
         "options": [
           "Descritivo.",
           "Injuntivo.",
@@ -271,7 +271,7 @@ window.lessons={
         "tip": "Manual e receita lembram injunção."
       },
       {
-        "question": "Uma sequência que apresenta fatos em ordem temporal tende a ser:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma sequência que apresenta fatos em ordem temporal tende a ser:",
         "options": [
           "Narrativa.",
           "Descritiva.",
@@ -283,7 +283,7 @@ window.lessons={
         "tip": "Ação + tempo = pista de narração."
       },
       {
-        "question": "Um texto que defende uma tese é predominantemente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um texto que defende uma tese é predominantemente:",
         "options": [
           "Argumentativo.",
           "Descritivo.",
@@ -295,7 +295,7 @@ window.lessons={
         "tip": "Tese + argumentos."
       },
       {
-        "question": "Descrição tem como foco principal:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, descrição tem como foco principal:",
         "options": [
           "Caracterizar seres, objetos, lugares ou situações.",
           "Dar ordens.",
@@ -307,7 +307,7 @@ window.lessons={
         "tip": "Pergunte “como é?”."
       },
       {
-        "question": "Um mesmo gênero textual:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um mesmo gênero textual:",
         "options": [
           "Pode combinar diferentes tipos textuais.",
           "Só pode ter um tipo textual.",
@@ -375,7 +375,7 @@ window.lessons={
         "tip": "O porquê = o motivo."
       },
       {
-        "question": "Em “Cheguei aqui há duas horas”, “há” indica:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “Cheguei aqui há duas horas”, “há” indica:",
         "options": [
           "Tempo passado.",
           "Tempo futuro.",
@@ -387,7 +387,7 @@ window.lessons={
         "tip": "Há = faz, quando indica passado."
       },
       {
-        "question": "Em “A prova será daqui a dois meses”, usa-se “a” porque indica:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “A prova será daqui a dois meses”, usa-se “a” porque indica:",
         "options": [
           "Tempo futuro.",
           "Tempo passado.",
@@ -407,7 +407,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.7 ACENTUAÇÃO GRÁFICA</div>\n<h3>Comece pela sílaba tônica</h3><p><b>Oxítona</b>: última sílaba tônica. <b>Paroxítona</b>: penúltima. <b>Proparoxítona</b>: antepenúltima — e toda proparoxítona é acentuada.</p>\n<h3>Regras muito cobradas</h3><p>Oxítonas terminadas em <b>a(s), e(s), o(s), em, ens</b> são acentuadas. Paroxítonas seguem terminações específicas. Hiatos com <b>i/u</b> tônicos exigem atenção às condições da regra.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: classifique a tonicidade antes de decidir a regra.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Acentuação gráfica</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Primeiro identifique a sílaba tônica</h3><p>Antes de aplicar qualquer regra, descubra onde está a sílaba mais forte. Oxítonas têm a última sílaba tônica, paroxítonas a penúltima e proparoxítonas a antepenúltima.</p><p>Todas as proparoxítonas são acentuadas. Nas oxítonas e paroxítonas, o acento depende da terminação da palavra.</p><h3>Regras fundamentais</h3><p>Oxítonas terminadas em a(s), e(s), o(s), em e ens costumam receber acento. Paroxítonas seguem lógica complementar, com várias terminações específicas. Monossílabos tônicos terminados em a(s), e(s), o(s) também podem ser acentuados.</p><p>Hiatos como 'saída' e 'baú' exigem atenção às regras do i e u tônicos, considerando posição e letras vizinhas.</p><h3>Acordo ortográfico</h3><p>Alguns acentos desapareceram, como em 'ideia' e 'assembleia'. O trema deixou de ser usado em palavras portuguesas, exceto em nomes próprios estrangeiros e derivados, quando aplicável.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar oxítona/paroxítona/proparoxítona</li><li>aplicar regras de terminação</li><li>reconhecer hiatos acentuados</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +1,3 MI VISUALIZAÇÕES NA BUSCA</span><h3>Acentuação gráfica — Português sem Enrolação</h3><p>Revisão ampla para concursos e vestibulares.</p><iframe src=\"https://www.youtube.com/embed/Ytw1SjnqEJ8\" title=\"Acentuação gráfica\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Toda palavra proparoxítona:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, toda palavra proparoxítona:",
         "options": [
           "É acentuada.",
           "Nunca é acentuada.",
@@ -419,7 +419,7 @@ window.lessons={
         "tip": "É a regra mais direta."
       },
       {
-        "question": "A palavra “café” é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a palavra “café” é:",
         "options": [
           "Oxítona.",
           "Paroxítona.",
@@ -431,7 +431,7 @@ window.lessons={
         "tip": "Pronuncie e localize a força."
       },
       {
-        "question": "A palavra “médico” é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a palavra “médico” é:",
         "options": [
           "Oxítona.",
           "Paroxítona.",
@@ -443,7 +443,7 @@ window.lessons={
         "tip": "Toda proparoxítona é acentuada."
       },
       {
-        "question": "A palavra “também” recebe acento por ser:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a palavra “também” recebe acento por ser:",
         "options": [
           "Oxítona terminada em em.",
           "Proparoxítona.",
@@ -455,7 +455,7 @@ window.lessons={
         "tip": "Observe a terminação."
       },
       {
-        "question": "Para aplicar regras de acentuação, primeiro é útil identificar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para aplicar regras de acentuação, primeiro é útil identificar:",
         "options": [
           "A sílaba tônica.",
           "O número de letras apenas.",
@@ -467,7 +467,7 @@ window.lessons={
         "tip": "Tonicidade primeiro."
       },
       {
-        "question": "Qual palavra é proparoxítona?",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual palavra é proparoxítona?",
         "options": [
           "Café.",
           "Também.",
@@ -487,7 +487,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.8 EMPREGO DOS SINAIS DE PONTUAÇÃO</div>\n<h3>Vírgula não é “pausa para respirar”</h3><p>A vírgula marca relações sintáticas. Entre usos frequentes: separar itens de enumeração, vocativo, aposto, adjuntos deslocados e certas orações.</p>\n<h3>Erro clássico</h3><p>Em regra, não se separa <b>sujeito do verbo</b> nem <b>verbo de seu complemento</b> apenas com uma vírgula.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos atentos resolveram a questão.” Não cabe vírgula entre “candidatos” e “resolveram”.</div>\n<h3>Dois-pontos e ponto e vírgula</h3><p>Dois-pontos podem introduzir explicação, enumeração ou fala. O ponto e vírgula pode separar estruturas coordenadas mais extensas.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: antes de pôr vírgula, identifique a função sintática dos termos.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pontuação</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Pontuação organiza sentido</h3><p>Vírgula não é simplesmente uma pausa para respirar. Ela marca relações sintáticas e discursivas. Pode separar termos coordenados, expressões deslocadas, vocativos, apostos e orações em determinadas condições.</p><p>Não se deve separar sujeito do verbo nem verbo de seu complemento apenas porque a frase é longa.</p><h3>Vírgula e deslocamento</h3><p>Adjuntos adverbiais deslocados podem ser isolados por vírgula, especialmente quando extensos. Orações adverbiais antecipadas geralmente são separadas. Vocativos devem ser isolados: 'Soldado, atenção ao comando.'</p><p>Em enumerações, a vírgula separa itens. Em orações coordenadas, pode marcar a passagem de uma oração para outra.</p><h3>Outros sinais</h3><p>Dois-pontos introduzem explicação, enumeração, citação ou consequência anunciada. Ponto e vírgula separa segmentos maiores ou itens já internamente pontuados. Travessões podem marcar fala, destaque ou intercalação.</p><p>Questões de pontuação frequentemente perguntam se a retirada ou deslocamento de um sinal altera sentido ou correção.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>evitar vírgula entre sujeito e verbo</li><li>identificar vocativo e aposto</li><li>explicar o efeito de dois-pontos e travessão</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PONTUAÇÃO PARA CONCURSOS</span><h3>Pontuação — vírgula, ponto e vírgula, dois-pontos e travessão</h3><p>Aula direcionada aos principais usos de pontuação cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/K9PRjM8POy0\" title=\"Pontuação para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Em regra, a vírgula NÃO deve separar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em regra, a vírgula NÃO deve separar:",
         "options": [
           "Itens de uma enumeração.",
           "Vocativo.",
@@ -499,7 +499,7 @@ window.lessons={
         "tip": "Não corte a estrutura básica sujeito + verbo."
       },
       {
-        "question": "Em “João, venha aqui”, a vírgula separa:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “João, venha aqui”, a vírgula separa:",
         "options": [
           "Vocativo.",
           "Sujeito do verbo.",
@@ -511,7 +511,7 @@ window.lessons={
         "tip": "Chamou alguém? Pense em vocativo."
       },
       {
-        "question": "Os dois-pontos podem introduzir:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, os dois-pontos podem introduzir:",
         "options": [
           "Uma enumeração.",
           "Somente uma pergunta.",
@@ -523,7 +523,7 @@ window.lessons={
         "tip": "Anúncio → explicação/lista."
       },
       {
-        "question": "Em uma enumeração simples, os itens podem ser separados por:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em uma enumeração simples, os itens podem ser separados por:",
         "options": [
           "Vírgulas.",
           "Acentos circunflexos.",
@@ -535,7 +535,7 @@ window.lessons={
         "tip": "Lista simples = vírgulas."
       },
       {
-        "question": "A pontuação pode:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a pontuação pode:",
         "options": [
           "Alterar relações de sentido.",
           "Ser ignorada sem efeito.",
@@ -547,7 +547,7 @@ window.lessons={
         "tip": "Pontuação também constrói sentido."
       },
       {
-        "question": "A vírgula entre verbo e complemento, sem elemento intercalado, é em regra:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a vírgula entre verbo e complemento, sem elemento intercalado, é em regra:",
         "options": [
           "Inadequada.",
           "Obrigatória.",
@@ -567,7 +567,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.9 ESTRUTURA E FORMAÇÃO DE PALAVRAS</div>\n<h3>Elementos mórficos</h3><p><b>Radical</b> concentra o núcleo de sentido; afixos podem ser prefixos ou sufixos. Desinências marcam flexões; vogal temática participa da estrutura de certas palavras.</p>\n<h3>Derivação</h3><p>Há derivação prefixal, sufixal, prefixal e sufixal, parassintética, regressiva e imprópria. A prova costuma exigir reconhecimento do processo.</p>\n<h3>Composição</h3><p>Na composição por <b>justaposição</b>, os elementos mantêm sua forma perceptível; na <b>aglutinação</b>, ocorre alteração fonética/gráfica na união.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: compare a palavra formada com sua base e observe o que foi acrescentado ou alterado.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estrutura e formação de palavras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Morfemas e estrutura</h3><p>As palavras podem ser analisadas em unidades menores de sentido ou função. Radical concentra o núcleo lexical; prefixos aparecem antes do radical; sufixos aparecem depois; desinências podem indicar flexões.</p><p>Em 'infelizmente', há prefixo in-, base feliz e sufixo -mente. Identificar esses elementos ajuda a entender sentido e formação.</p><h3>Derivação</h3><p>Derivação prefixal acrescenta prefixo; sufixal acrescenta sufixo; prefixal e sufixal reúne ambos. Derivação parassintética exige acréscimo simultâneo de prefixo e sufixo para formar a palavra.</p><p>Derivação regressiva costuma formar substantivo a partir de verbo, e derivação imprópria ocorre quando uma palavra muda de classe sem alteração formal.</p><h3>Composição</h3><p>Na composição por justaposição, os elementos mantêm sua forma de maneira reconhecível. Na aglutinação, ocorre alteração fonética ou gráfica na junção.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar radical, prefixo e sufixo</li><li>distinguir derivação de composição</li><li>reconhecer derivação imprópria</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA PMMG</span><h3>Morfologia — PMMG 2025</h3><p>Aula específica para o concurso da PMMG.</p><iframe src=\"https://www.youtube.com/embed/7csC8xrdGks\" title=\"Morfologia PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "O elemento que concentra o núcleo de sentido da palavra é o:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o elemento que concentra o núcleo de sentido da palavra é o:",
         "options": [
           "Radical.",
           "Ponto final.",
@@ -579,7 +579,7 @@ window.lessons={
         "tip": "Pedra, pedreiro, pedregulho → pedr-."
       },
       {
-        "question": "Em “infeliz”, “in-” funciona como:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “infeliz”, “in-” funciona como:",
         "options": [
           "Prefixo.",
           "Sufixo.",
@@ -591,7 +591,7 @@ window.lessons={
         "tip": "Antes = prefixo."
       },
       {
-        "question": "Em “felizmente”, “-mente” é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “felizmente”, “-mente” é:",
         "options": [
           "Prefixo.",
           "Sufixo.",
@@ -603,7 +603,7 @@ window.lessons={
         "tip": "Depois = sufixo."
       },
       {
-        "question": "A união de dois radicais para formar uma palavra caracteriza:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a união de dois radicais para formar uma palavra caracteriza:",
         "options": [
           "Composição.",
           "Pontuação.",
@@ -615,7 +615,7 @@ window.lessons={
         "tip": "Duas bases → composição."
       },
       {
-        "question": "Na justaposição:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na justaposição:",
         "options": [
           "Os elementos permanecem reconhecíveis.",
           "Sempre desaparecem os dois radicais.",
@@ -627,7 +627,7 @@ window.lessons={
         "tip": "Justa + posição: lado a lado."
       },
       {
-        "question": "Derivação sufixal ocorre quando:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, derivação sufixal ocorre quando:",
         "options": [
           "Acrescenta-se elemento depois da base.",
           "Retira-se toda a palavra.",
@@ -647,7 +647,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CLASSES DE PALAVRAS</div>\n<h3>As 10 classes gramaticais</h3><p>As palavras são agrupadas conforme seu comportamento e função: <b>substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição</b>.</p>\n<h3>Variáveis x invariáveis</h3><p>Substantivos, artigos, adjetivos, numerais, pronomes e verbos podem sofrer flexões. Advérbios, preposições, conjunções e interjeições são, em regra, invariáveis.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> em “Os candidatos atentos estudaram muito”, “candidatos” é substantivo, “atentos” é adjetivo, “estudaram” é verbo e “muito” funciona como advérbio.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: classifique a palavra dentro da frase; a mesma forma pode exercer funções diferentes conforme o contexto.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Classes de palavras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Classes variáveis</h3><p>Substantivo nomeia seres, ações, estados ou conceitos. Adjetivo caracteriza ou relaciona o substantivo. Artigo determina o substantivo. Numeral expressa quantidade ou ordem. Pronome pode acompanhar ou substituir nomes. Verbo expressa ação, estado, fenômeno ou processo.</p><p>Essas classes podem sofrer flexões de gênero, número, pessoa, tempo e modo, conforme o caso.</p><h3>Classes invariáveis</h3><p>Advérbio modifica verbo, adjetivo, outro advérbio ou toda a oração. Preposição relaciona termos. Conjunção conecta termos ou orações. Interjeição expressa reação ou estado emotivo.</p><p>Uma palavra pode mudar de classe conforme o contexto. 'O jantar está pronto' traz 'jantar' como substantivo; 'vamos jantar' usa verbo.</p><h3>Valor contextual</h3><p>A banca pode perguntar não apenas a classe, mas a função ou o sentido. Um advérbio pode marcar intensidade, tempo, lugar, negação ou modalidade.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar palavras pelo contexto</li><li>distinguir pronome de artigo</li><li>identificar mudança de classe</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +120 MIL VISUALIZAÇÕES</span><h3>Classes de palavras — Português para Concursos</h3><p>Mapa das 10 classes gramaticais e distinção entre variáveis e invariáveis.</p><iframe src=\"https://www.youtube.com/embed/MVsC4iP1FvA\" title=\"Classes de palavras para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Qual alternativa apresenta apenas classes invariáveis?",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual alternativa apresenta apenas classes invariáveis?",
         "options": [
           "Advérbio, preposição e conjunção.",
           "Substantivo, artigo e adjetivo.",
@@ -659,7 +659,7 @@ window.lessons={
         "tip": "Comece separando variáveis de invariáveis."
       },
       {
-        "question": "Em “candidato dedicado”, a palavra “dedicado” é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “candidato dedicado”, a palavra “dedicado” é:",
         "options": [
           "Adjetivo.",
           "Preposição.",
@@ -671,7 +671,7 @@ window.lessons={
         "tip": "Característica do nome → adjetivo."
       },
       {
-        "question": "A classe que normalmente indica ação, estado ou fenômeno é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a classe que normalmente indica ação, estado ou fenômeno é:",
         "options": [
           "Verbo.",
           "Artigo.",
@@ -683,7 +683,7 @@ window.lessons={
         "tip": "Procure a palavra que se flexiona em tempo e pessoa."
       },
       {
-        "question": "Em “estudou muito”, “muito” modifica o verbo e funciona como:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “estudou muito”, “muito” modifica o verbo e funciona como:",
         "options": [
           "Advérbio.",
           "Substantivo.",
@@ -695,7 +695,7 @@ window.lessons={
         "tip": "A função depende do contexto."
       },
       {
-        "question": "Preposições servem principalmente para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, preposições servem principalmente para:",
         "options": [
           "Relacionar termos.",
           "Nomear seres.",
@@ -707,7 +707,7 @@ window.lessons={
         "tip": "de, em, com, para são exemplos frequentes."
       },
       {
-        "question": "Conjunções atuam ligando:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, conjunções atuam ligando:",
         "options": [
           "Orações ou termos de mesma função.",
           "Somente substantivos próprios.",
@@ -727,7 +727,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • SINTAXE</div>\n<h3>Termos essenciais</h3><p>A oração se organiza em torno do <b>verbo</b>. Sujeito é o termo sobre o qual se declara algo; predicado é aquilo que se declara do sujeito. Há também objetos, complementos, adjuntos, aposto e vocativo.</p>\n<h3>Período simples e composto</h3><p>Período simples possui uma oração; período composto possui duas ou mais. As orações podem se relacionar por coordenação ou subordinação.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos resolveram a prova.” Sujeito: “Os candidatos”; núcleo: “candidatos”; predicado: “resolveram a prova”.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: encontre primeiro o verbo; depois pergunte quem pratica/sofre o processo e quais termos completam seu sentido.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sintaxe da oração e do período</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Oração e período</h3><p>Oração é uma estrutura organizada em torno de verbo ou locução verbal. Período simples tem uma oração; período composto tem duas ou mais.</p><p>Nem toda frase precisa ter verbo, mas toda oração apresenta verbo ou locução verbal.</p><h3>Relações sintáticas</h3><p>A sintaxe analisa como os termos se relacionam. Sujeito liga-se ao predicado; verbos podem exigir complementos; nomes podem pedir complementos; adjuntos acrescentam circunstâncias ou características.</p><p>Para analisar uma frase, localize primeiro o verbo. Depois pergunte quem pratica ou sofre o processo, se o verbo exige complemento e quais termos acrescentam informação.</p><h3>Ordem direta e inversão</h3><p>Em português, a ordem direta sujeito-verbo-complementos é comum, mas a ordem pode ser invertida. A inversão não elimina funções sintáticas. Em 'Chegaram os candidatos', 'os candidatos' continua sendo sujeito.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar quantidade de orações</li><li>localizar sujeito e predicado</li><li>analisar frases com ordem invertida</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • SINTAXE PARA CONCURSOS</span><h3>Sintaxe — oração, sujeito e predicado</h3><p>Use esta aula como reforço para identificar a estrutura da oração antes de resolver as questões.</p><iframe src=\"https://www.youtube.com/embed/Xz7FzmxA4pk\" title=\"Sintaxe para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Em “Os candidatos estudaram”, o sujeito é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “Os candidatos estudaram”, o sujeito é:",
         "options": [
           "Os candidatos.",
           "Estudaram.",
@@ -739,7 +739,7 @@ window.lessons={
         "tip": "Pergunte: quem estudou?"
       },
       {
-        "question": "Uma oração organiza-se em torno de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma oração organiza-se em torno de:",
         "options": [
           "Um verbo ou locução verbal.",
           "Uma vírgula.",
@@ -751,7 +751,7 @@ window.lessons={
         "tip": "Conte verbos/locuções para começar a analisar."
       },
       {
-        "question": "Período composto possui:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, período composto possui:",
         "options": [
           "Duas ou mais orações.",
           "Nenhum verbo.",
@@ -763,7 +763,7 @@ window.lessons={
         "tip": "Mais de uma estrutura verbal."
       },
       {
-        "question": "O termo que completa o sentido de um verbo transitivo pode ser:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o termo que completa o sentido de um verbo transitivo pode ser:",
         "options": [
           "Objeto.",
           "Vocativo apenas.",
@@ -775,7 +775,7 @@ window.lessons={
         "tip": "Pergunte o quê? quem? de quê? a quem?"
       },
       {
-        "question": "Vocativo é usado para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, vocativo é usado para:",
         "options": [
           "Chamar ou interpelar alguém.",
           "Completar verbo transitivo.",
@@ -787,7 +787,7 @@ window.lessons={
         "tip": "“Soldado, atenção!”"
       },
       {
-        "question": "Em “João, candidato dedicado, foi aprovado”, “candidato dedicado” é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “João, candidato dedicado, foi aprovado”, “candidato dedicado” é:",
         "options": [
           "Aposto.",
           "Objeto direto.",
@@ -819,7 +819,7 @@ window.lessons={
         "tip": "Ache o núcleo do sujeito."
       },
       {
-        "question": "Na concordância nominal, o adjetivo relaciona-se principalmente ao:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na concordância nominal, o adjetivo relaciona-se principalmente ao:",
         "options": [
           "Substantivo a que se refere.",
           "Ponto final.",
@@ -831,7 +831,7 @@ window.lessons={
         "tip": "Descubra qual nome o adjetivo caracteriza."
       },
       {
-        "question": "Em “As questões difíceis”, “difíceis” está no plural porque concorda com:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “As questões difíceis”, “difíceis” está no plural porque concorda com:",
         "options": [
           "Questões.",
           "As apenas.",
@@ -843,7 +843,7 @@ window.lessons={
         "tip": "Nome + característica."
       },
       {
-        "question": "O verbo “haver” com sentido de existir é, na norma-padrão:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o verbo “haver” com sentido de existir é, na norma-padrão:",
         "options": [
           "Impessoal e fica no singular.",
           "Sempre plural.",
@@ -867,7 +867,7 @@ window.lessons={
         "tip": "Não concorde “haver” existencial com o termo seguinte."
       },
       {
-        "question": "A concordância verbal depende, em regra, do:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a concordância verbal depende, em regra, do:",
         "options": [
           "Núcleo do sujeito.",
           "Número de vírgulas.",
@@ -887,7 +887,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • REGÊNCIA VERBAL E NOMINAL</div>\n<h3>O que é regência</h3><p>Regência estuda a relação entre um termo regente e seu complemento, especialmente a necessidade ou não de <b>preposição</b>. Verbos como assistir, obedecer, preferir e visar aparecem muito em exercícios de concurso.</p>\n<h3>Regência nominal</h3><p>Nomes também podem exigir preposição: “favorável <b>a</b>”, “necessidade <b>de</b>”, “respeito <b>a</b>”.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> na norma-padrão, “obedecer <b>às</b> regras” apresenta preposição exigida pelo verbo.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: não decore só a preposição; aprenda o sentido do verbo, porque a regência pode mudar com o significado.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regência verbal e nominal</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>O que é regência</h3><p>Regência é a relação de dependência entre um termo regente e seu complemento, especialmente quanto ao uso de preposição. Alguns verbos mudam de sentido quando mudam de regência.</p><p>'Assistir ao filme' significa ver; 'assistir o paciente' pode significar prestar assistência. 'Visar ao cargo' indica ter como objetivo; 'visar o documento' pode significar rubricar.</p><h3>Verbos frequentes em prova</h3><p>Obedecer e desobedecer pedem preposição a. Preferir segue a construção 'preferir X a Y', sem 'mais'. Aspirar pode ser transitivo direto no sentido de sorver e indireto com a no sentido de desejar.</p><p>Chegar e ir, na norma-padrão, costumam combinar com a para destino em construções cobradas por bancas.</p><h3>Regência nominal</h3><p>Nomes também podem exigir preposição: necessidade de, respeito a/por, apto a/para, compatível com. A regência pode influenciar diretamente o emprego da crase.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer verbos que mudam de sentido</li><li>identificar preposição exigida</li><li>ligar regência ao uso da crase</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA PARA CONCURSOS • +50 MIL VISUALIZAÇÕES</span><h3>Regência nominal e verbal — exercícios</h3><p>Treino prático com verbos frequentemente cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/oOosGRe5gKo\" title=\"Regência verbal e nominal para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Regência estuda principalmente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, regência estuda principalmente:",
         "options": [
           "A relação entre termos e seus complementos/preposições.",
           "A posição da sílaba tônica.",
@@ -899,7 +899,7 @@ window.lessons={
         "tip": "Pergunte se o termo exige preposição."
       },
       {
-        "question": "Na norma-padrão, o verbo “obedecer” rege:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na norma-padrão, o verbo “obedecer” rege:",
         "options": [
           "Preposição a.",
           "Nenhuma preposição em qualquer caso.",
@@ -911,7 +911,7 @@ window.lessons={
         "tip": "Obedecer às regras."
       },
       {
-        "question": "Em “necessidade de estudo”, “de” é exigido por:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “necessidade de estudo”, “de” é exigido por:",
         "options": [
           "Necessidade.",
           "Estudo.",
@@ -923,7 +923,7 @@ window.lessons={
         "tip": "Nome também pode reger preposição."
       },
       {
-        "question": "A regência de um verbo pode variar conforme:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a regência de um verbo pode variar conforme:",
         "options": [
           "Seu sentido no contexto.",
           "A cor da página.",
@@ -935,7 +935,7 @@ window.lessons={
         "tip": "Sentido + complemento."
       },
       {
-        "question": "“Favorável a mudanças” exemplifica:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Favorável a mudanças” exemplifica:",
         "options": [
           "Regência nominal.",
           "Acentuação.",
@@ -947,7 +947,7 @@ window.lessons={
         "tip": "Termo regente é um nome/adjetivo."
       },
       {
-        "question": "Para resolver questão de regência, é importante identificar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para resolver questão de regência, é importante identificar:",
         "options": [
           "O termo regente e o sentido empregado.",
           "Somente a última palavra.",
@@ -967,7 +967,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CRASE</div>\n<h3>O encontro de dois “a”</h3><p>A crase ocorre, em geral, quando a preposição <b>a</b> encontra o artigo feminino <b>a/as</b>. O acento grave <b>à</b> sinaliza essa fusão.</p>\n<h3>Teste prático</h3><p>Verifique se o termo anterior exige preposição “a” e se o termo seguinte admite artigo feminino. A troca por palavra masculina pode ajudar: se surgir “ao”, há forte indicação de crase no feminino.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Dirigi-me <b>à escola</b>” → “Dirigi-me <b>ao colégio</b>”.</div>\n<h3>Casos sem crase</h3><p>Em regra, não há crase antes de verbo, palavra masculina e vários pronomes que não admitem artigo.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: crase não é “acento de palavra feminina”; confirme preposição + artigo.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Crase</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Crase é fusão, não acento decorativo</h3><p>O acento grave indica normalmente a fusão da preposição a com o artigo feminino a/as. Portanto, antes de usar crase, verifique duas condições: o termo anterior exige preposição a? O termo seguinte admite artigo feminino a/as?</p><p>Se uma das condições faltar, não há crase.</p><h3>Testes úteis</h3><p>Troque o termo feminino por um masculino semelhante. Se surgir 'ao', há forte indicação de 'à': 'fui à escola' → 'fui ao colégio'.</p><p>Em locuções adverbiais, prepositivas e conjuntivas femininas, a crase é frequente: à noite, à medida que, à frente de.</p><h3>Quando não usar</h3><p>Em regra, não há crase antes de palavra masculina, verbo, muitos pronomes ou quando há apenas preposição sem artigo. Antes de nomes de lugar, o uso depende de aceitarem artigo: 'vou à Bahia', mas 'vou a Brasília' em uso padrão sem artigo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>aplicar o teste do masculino</li><li>identificar preposição + artigo</li><li>reconhecer casos em que a crase é proibida</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA COM QUESTÕES PMMG</span><h3>Acentuação e crase em provas anteriores da PMMG</h3><p>Resolução direcionada ao concurso de Soldado da PMMG.</p><iframe src=\"https://www.youtube.com/embed/7HiCTNKmio8\" title=\"Crase e acentuação PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "A crase normalmente representa a fusão de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a crase normalmente representa a fusão de:",
         "options": [
           "Preposição a + artigo a/as.",
           "Dois verbos.",
@@ -979,7 +979,7 @@ window.lessons={
         "tip": "a + a = à."
       },
       {
-        "question": "Em “Dirigi-me à escola”, a troca por masculino pode resultar em:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “Dirigi-me à escola”, a troca por masculino pode resultar em:",
         "options": [
           "Dirigi-me ao colégio.",
           "Dirigi-me o colégio.",
@@ -991,7 +991,7 @@ window.lessons={
         "tip": "Teste do “ao”."
       },
       {
-        "question": "Em regra, antes de verbo:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em regra, antes de verbo:",
         "options": [
           "Não ocorre crase.",
           "A crase é sempre obrigatória.",
@@ -1003,7 +1003,7 @@ window.lessons={
         "tip": "Antes de verbo, geralmente sem crase."
       },
       {
-        "question": "Crase deve ser analisada considerando:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, crase deve ser analisada considerando:",
         "options": [
           "Regência e presença de artigo.",
           "Somente gênero feminino.",
@@ -1027,7 +1027,7 @@ window.lessons={
         "tip": "Ao colégio → à escola."
       },
       {
-        "question": "O acento usado para indicar crase é o:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o acento usado para indicar crase é o:",
         "options": [
           "Grave.",
           "Agudo.",
@@ -1047,7 +1047,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • COESÃO E COERÊNCIA</div>\n<h3>Coesão</h3><p>Coesão é a ligação linguística entre partes do texto. Pronomes, conjunções, substituições lexicais e elipses ajudam a conectar frases e parágrafos.</p>\n<h3>Coerência</h3><p>Coerência é a construção de sentido global sem contradições indevidas. Um texto pode ter conectivos e ainda ser incoerente se suas ideias entrarem em conflito.</p>\n<h3>Conectivos e relações</h3><p>“porque” pode indicar causa; “portanto”, conclusão; “embora”, concessão; “mas”, oposição. A banca frequentemente pergunta que relação um conector estabelece.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: ao trocar um conectivo, confira se a relação lógica original foi preservada.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Coesão e coerência</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Coesão: conexões visíveis</h3><p>Coesão é o conjunto de mecanismos que conectam partes do texto: pronomes, repetição controlada, sinônimos, elipses, conectivos e relações lexicais. Ela ajuda o leitor a acompanhar quem ou o que está sendo retomado.</p><p>Pronomes podem retomar informação anterior (anáfora) ou antecipar informação posterior (catáfora).</p><h3>Coerência: lógica global</h3><p>Coerência diz respeito à compatibilidade entre informações e à construção de um sentido possível. Um texto pode ter conectivos corretos e ainda ser incoerente se suas ideias se contradizem sem explicação.</p><p>O conhecimento de mundo participa da coerência, mas em prova a análise deve respeitar o universo criado pelo texto.</p><h3>Conectivos e relações</h3><p>Porque indica causa ou explicação em muitos contextos; portanto indica conclusão; contudo marca contraste; além disso adiciona informação; embora marca concessão. Trocar conectivo pode alterar a relação lógica mesmo que a frase continue gramatical.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar referente de um pronome</li><li>diferenciar coesão de coerência</li><li>explicar a relação criada por um conectivo</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • FOCO EM CONCURSOS</span><h3>Coesão e coerência — TecConcursos</h3><p>Aula completa sobre texto coeso e coerente, compreensão, interpretação e análise textual.</p><iframe src=\"https://www.youtube.com/embed/lsVWqWtuusI\" title=\"Coesão e coerência para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Coesão textual está ligada principalmente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, coesão textual está ligada principalmente:",
         "options": [
           "À conexão linguística entre partes do texto.",
           "À quantidade de páginas.",
@@ -1059,7 +1059,7 @@ window.lessons={
         "tip": "Pense em “costura” do texto."
       },
       {
-        "question": "Coerência diz respeito:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, coerência diz respeito:",
         "options": [
           "Ao sentido global e à compatibilidade das ideias.",
           "Somente à ortografia.",
@@ -1071,7 +1071,7 @@ window.lessons={
         "tip": "As ideias fazem sentido juntas?"
       },
       {
-        "question": "O conectivo “portanto” costuma introduzir:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o conectivo “portanto” costuma introduzir:",
         "options": [
           "Conclusão.",
           "Causa.",
@@ -1083,7 +1083,7 @@ window.lessons={
         "tip": "Portanto = logo."
       },
       {
-        "question": "“Embora” normalmente expressa:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Embora” normalmente expressa:",
         "options": [
           "Concessão.",
           "Conclusão.",
@@ -1095,7 +1095,7 @@ window.lessons={
         "tip": "Embora = apesar de."
       },
       {
-        "question": "Um pronome que retoma termo anterior contribui para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um pronome que retoma termo anterior contribui para:",
         "options": [
           "Coesão referencial.",
           "Acentuação.",
@@ -1107,7 +1107,7 @@ window.lessons={
         "tip": "Retomar = referenciar."
       },
       {
-        "question": "Trocar um conectivo sem analisar seu sentido pode:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, trocar um conectivo sem analisar seu sentido pode:",
         "options": [
           "Alterar a relação lógica do texto.",
           "Nunca mudar nada.",
@@ -1127,7 +1127,7 @@ window.lessons={
     "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • TERMOS DA ORAÇÃO</div><h3>Essenciais, integrantes e acessórios</h3><p>Depois de localizar o verbo, identifique sujeito e predicado. Em seguida, observe complementos verbais e nominais, agente da passiva, adjuntos, aposto e vocativo.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos entregaram os documentos ao fiscal.” Sujeito: “Os candidatos”; objeto direto: “os documentos”; objeto indireto: “ao fiscal”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: classifique o termo pela função que exerce na oração, não apenas pela posição.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Termos da oração</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Termos essenciais</h3><p>Sujeito e predicado organizam a oração. O sujeito pode ser simples, composto, oculto/desinencial, indeterminado ou inexistente em orações sem sujeito.</p><p>O predicado pode ser verbal, nominal ou verbo-nominal, conforme o núcleo e a estrutura.</p><h3>Termos integrantes</h3><p>Objeto direto completa verbo sem preposição obrigatória; objeto indireto completa verbo com preposição exigida. Complemento nominal completa o sentido de nome, adjetivo ou advérbio. Agente da passiva indica quem pratica a ação em certas construções passivas.</p><h3>Termos acessórios</h3><p>Adjunto adnominal caracteriza ou determina substantivo. Adjunto adverbial expressa circunstância. Aposto explica, resume ou especifica. Vocativo chama o interlocutor e não integra sujeito nem predicado.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir objeto indireto de complemento nominal</li><li>identificar vocativo</li><li>classificar predicado</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • SINTAXE</span><h3>Sujeito, predicado e termos da oração</h3><p>Reforço para análise sintática voltada a provas.</p><iframe src=\"https://www.youtube.com/embed/hHnPoZdYDDY\" title=\"Função sintática\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Em “Os candidatos entregaram os documentos”, o sujeito é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “Os candidatos entregaram os documentos”, o sujeito é:",
         "options": [
           "Os candidatos.",
           "Os documentos.",
@@ -1139,7 +1139,7 @@ window.lessons={
         "tip": "Pergunte quem entregou."
       },
       {
-        "question": "Objeto direto completa verbo:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, objeto direto completa verbo:",
         "options": [
           "Sem preposição obrigatória, em regra.",
           "Sempre com preposição a.",
@@ -1151,7 +1151,7 @@ window.lessons={
         "tip": "Pergunte o quê/quem."
       },
       {
-        "question": "Vocativo serve para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, vocativo serve para:",
         "options": [
           "Chamar ou interpelar.",
           "Completar substantivo.",
@@ -1163,7 +1163,7 @@ window.lessons={
         "tip": "Soldado, atenção!"
       },
       {
-        "question": "Aposto normalmente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, aposto normalmente:",
         "options": [
           "Explica ou especifica outro termo.",
           "É sempre verbo.",
@@ -1175,7 +1175,7 @@ window.lessons={
         "tip": "Veja se há explicação."
       },
       {
-        "question": "Adjunto adverbial expressa frequentemente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, adjunto adverbial expressa frequentemente:",
         "options": [
           "Circunstância.",
           "Sujeito.",
@@ -1187,7 +1187,7 @@ window.lessons={
         "tip": "Circunstância da ação."
       },
       {
-        "question": "Para iniciar análise sintática, é útil localizar primeiro:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para iniciar análise sintática, é útil localizar primeiro:",
         "options": [
           "O verbo.",
           "O título.",
@@ -1207,7 +1207,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • PERÍODO COMPOSTO</div><h3>Coordenação</h3><p>Orações coordenadas têm independência sintática e podem estabelecer adição, oposição, alternância, conclusão ou explicação.</p><h3>Subordinação</h3><p>Orações subordinadas exercem função em relação a outra oração e podem ser substantivas, adjetivas ou adverbiais.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Estudou, mas não descansou.” A conjunção “mas” introduz relação adversativa.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: identifique a relação de sentido criada pelo conectivo.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Período composto: coordenação e subordinação</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Coordenação</h3><p>Orações coordenadas são sintaticamente independentes entre si. Podem ser assindéticas ou ligadas por conjunções aditivas, adversativas, alternativas, conclusivas ou explicativas.</p><p>'Estudou muito, portanto foi aprovado' apresenta relação conclusiva.</p><h3>Subordinação</h3><p>Uma oração subordinada exerce função sintática em relação a outra. Pode ser substantiva, adjetiva ou adverbial.</p><p>Substantivas podem exercer funções de sujeito, objeto, complemento ou predicativo. Adjetivas caracterizam um nome. Adverbiais expressam circunstâncias como causa, condição, concessão, finalidade e tempo.</p><h3>Sentido e pontuação</h3><p>O tipo de oração influencia pontuação e significado. Orações adjetivas explicativas, isoladas por vírgulas, apresentam comentário sobre todo o referente; restritivas delimitam o grupo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar relações coordenativas</li><li>distinguir adjetiva restritiva de explicativa</li><li>reconhecer valor de oração adverbial</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PERÍODO COMPOSTO</span><h3>Período composto por subordinação</h3><p>Visão clara das principais relações entre orações.</p><iframe src=\"https://www.youtube.com/embed/u0HDf2FFu0g\" title=\"Período composto\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Orações coordenadas são, em regra:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, orações coordenadas são, em regra:",
         "options": [
           "Sintaticamente independentes entre si.",
           "Sempre sem verbo.",
@@ -1219,7 +1219,7 @@ window.lessons={
         "tip": "Coordenação = lado a lado."
       },
       {
-        "question": "“Mas” costuma introduzir oração coordenada:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Mas” costuma introduzir oração coordenada:",
         "options": [
           "Adversativa.",
           "Aditiva.",
@@ -1231,7 +1231,7 @@ window.lessons={
         "tip": "Mas = porém."
       },
       {
-        "question": "Orações subordinadas adjetivas normalmente se relacionam a:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, orações subordinadas adjetivas normalmente se relacionam a:",
         "options": [
           "Um nome antecedente.",
           "Um número.",
@@ -1243,7 +1243,7 @@ window.lessons={
         "tip": "Caracterizam um nome."
       },
       {
-        "question": "“Portanto” costuma indicar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Portanto” costuma indicar:",
         "options": [
           "Conclusão.",
           "Oposição.",
@@ -1255,7 +1255,7 @@ window.lessons={
         "tip": "Portanto = logo."
       },
       {
-        "question": "Uma oração subordinada substantiva exerce função típica de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma oração subordinada substantiva exerce função típica de:",
         "options": [
           "Substantivo.",
           "Advérbio apenas.",
@@ -1267,7 +1267,7 @@ window.lessons={
         "tip": "Tente substituir por “isso”."
       },
       {
-        "question": "Para classificar orações, observe principalmente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para classificar orações, observe principalmente:",
         "options": [
           "Função e relação de sentido.",
           "Quantidade de letras.",
@@ -1287,7 +1287,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • PRONOMES RELATIVOS</div><h3>Retomada e ligação</h3><p>Que, quem, o qual, cujo e onde podem retomar antecedente e introduzir oração subordinada adjetiva. O pronome relativo exerce função sintática dentro da oração que inicia.</p><div class=\"lesson-example\"><b>Exemplo:</b> “A prova que fiz estava difícil.” “que” retoma “prova” e funciona como objeto direto de “fiz”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: substitua o pronome pelo antecedente dentro da oração para descobrir sua função.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pronomes relativos e funções sintáticas</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Pronomes relativos</h3><p>Que, quem, o qual, cujo, onde e outros relativos retomam um antecedente e introduzem oração adjetiva. Para descobrir sua função sintática, substitua mentalmente o relativo pelo antecedente dentro da oração.</p><p>Em 'o livro que comprei', pense 'comprei o livro': 'que' funciona como objeto direto.</p><h3>Cujo</h3><p>Cujo expressa relação de posse e concorda com o termo posterior: 'a candidata cuja prova foi corrigida'. Não se usa artigo depois de cujo na norma-padrão.</p><h3>Onde e aonde</h3><p>Onde relaciona-se a permanência/lugar em que; aonde combina com ideia de movimento quando a regência exige a preposição a.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>determinar a função sintática de 'que'</li><li>usar cujo corretamente</li><li>distinguir onde de aonde</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +1 MILHÃO</span><h3>Pronomes — Português com Letícia</h3><p>Inclui pronomes relativos e seus usos.</p><iframe src=\"https://www.youtube.com/embed/4LVbsP4v13c\" title=\"Pronomes\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Pronome relativo normalmente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pronome relativo normalmente:",
         "options": [
           "Retoma um antecedente.",
           "Nunca liga orações.",
@@ -1299,7 +1299,7 @@ window.lessons={
         "tip": "Procure o antecedente."
       },
       {
-        "question": "Em “o livro que li”, “que” retoma:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “o livro que li”, “que” retoma:",
         "options": [
           "O livro.",
           "Li.",
@@ -1311,7 +1311,7 @@ window.lessons={
         "tip": "Que = o livro."
       },
       {
-        "question": "“Cujo” normalmente estabelece ideia de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Cujo” normalmente estabelece ideia de:",
         "options": [
           "Posse.",
           "Tempo.",
@@ -1323,7 +1323,7 @@ window.lessons={
         "tip": "Cujo = de quem/do qual, sem artigo depois."
       },
       {
-        "question": "“Onde” como relativo deve relacionar-se preferencialmente a:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Onde” como relativo deve relacionar-se preferencialmente a:",
         "options": [
           "Lugar.",
           "Pessoa.",
@@ -1335,7 +1335,7 @@ window.lessons={
         "tip": "Onde = em que lugar."
       },
       {
-        "question": "O pronome relativo exerce:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o pronome relativo exerce:",
         "options": [
           "Função sintática na oração que introduz.",
           "Somente função estética.",
@@ -1347,7 +1347,7 @@ window.lessons={
         "tip": "Recoloque o antecedente."
       },
       {
-        "question": "Orações introduzidas por pronome relativo são tipicamente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, orações introduzidas por pronome relativo são tipicamente:",
         "options": [
           "Adjetivas.",
           "Coordenadas conclusivas.",
@@ -1367,7 +1367,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • NOMES E PRONOMES</div><h3>Referência e concordância</h3><p>Pronomes substituem ou acompanham nomes e precisam manter referência clara. Atenção a pronomes pessoais, demonstrativos, possessivos, indefinidos e de tratamento.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Entre mim e você” é a construção padrão após preposição; “para eu estudar” usa “eu” porque é sujeito do infinitivo.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: descubra a função do pronome antes de escolher a forma.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Emprego de nomes e pronomes</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Pronomes pessoais</h3><p>Pronomes retos costumam exercer função de sujeito; oblíquos exercem funções de complemento. Na norma-padrão, 'para eu fazer' usa eu como sujeito do infinitivo; 'para mim' é adequado quando não exerce essa função.</p><p>Pronomes de tratamento exigem concordância verbal na terceira pessoa, mesmo quando se dirigem ao interlocutor.</p><h3>Demonstrativos e possessivos</h3><p>Demonstrativos podem organizar espaço, tempo e discurso. Este pode indicar proximidade do falante ou elemento que ainda será mencionado; esse costuma retomar algo já citado; aquele marca maior distância.</p><p>Possessivos podem gerar ambiguidade. 'João falou com Pedro sobre seu resultado' pode exigir reescrita para deixar claro de quem é o resultado.</p><h3>Emprego nominal</h3><p>A escolha de substantivos e adjetivos produz precisão ou avaliação. Em prova, observe se a troca de um nome preserva referente, intensidade e valor semântico.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>usar eu/mim em construções com infinitivo</li><li>interpretar demonstrativos</li><li>identificar ambiguidade possessiva</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR</span><h3>Pronomes para concursos</h3><p>Revisão das principais classes pronominais.</p><iframe src=\"https://www.youtube.com/embed/4LVbsP4v13c\" title=\"Pronomes para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Após preposição, em “entre ___ e você”, a forma padrão é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, após preposição, em “entre ___ e você”, a forma padrão é:",
         "options": [
           "mim.",
           "eu.",
@@ -1379,7 +1379,7 @@ window.lessons={
         "tip": "Entre mim e você."
       },
       {
-        "question": "Em “para eu estudar”, usa-se “eu” porque funciona como:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “para eu estudar”, usa-se “eu” porque funciona como:",
         "options": [
           "Sujeito de estudar.",
           "Objeto direto.",
@@ -1391,7 +1391,7 @@ window.lessons={
         "tip": "Quem vai estudar? eu."
       },
       {
-        "question": "Pronome demonstrativo pode indicar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pronome demonstrativo pode indicar:",
         "options": [
           "Posição/referência no discurso.",
           "Somente ação.",
@@ -1403,7 +1403,7 @@ window.lessons={
         "tip": "Observe contexto."
       },
       {
-        "question": "Pronomes possessivos indicam:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pronomes possessivos indicam:",
         "options": [
           "Relação de posse.",
           "Tempo verbal.",
@@ -1415,7 +1415,7 @@ window.lessons={
         "tip": "Posse."
       },
       {
-        "question": "A escolha pronominal deve considerar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a escolha pronominal deve considerar:",
         "options": [
           "Função sintática e referência.",
           "Somente tamanho da palavra.",
@@ -1427,7 +1427,7 @@ window.lessons={
         "tip": "Quem faz? Quem recebe?"
       },
       {
-        "question": "Pronome pode:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pronome pode:",
         "options": [
           "Substituir ou acompanhar um nome.",
           "Ser apenas verbo.",
@@ -1447,7 +1447,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • TEMPOS E MODOS VERBAIS</div><h3>Indicativo, subjuntivo e imperativo</h3><p>O indicativo tende a apresentar fatos; o subjuntivo, hipóteses, desejos ou possibilidades; o imperativo, ordens, pedidos e orientações. Os tempos verbais também organizam relações temporais no texto.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Se eu estudasse, teria mais segurança.” O pretérito imperfeito do subjuntivo marca hipótese.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em reescrita, preserve tempo, modo e relação de sentido.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Tempos e modos verbais</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Modo verbal</h3><p>Indicativo tende a apresentar fatos como certos ou assumidos. Subjuntivo aparece em hipóteses, desejos, possibilidades e condições. Imperativo orienta, ordena ou aconselha.</p><p>O modo deve ser interpretado em conjunto com o contexto, não isoladamente.</p><h3>Tempos e correlação</h3><p>Presente pode indicar hábito, fato atual ou verdade geral. Pretérito perfeito apresenta fato concluído; imperfeito pode indicar continuidade, habitualidade ou pano de fundo; mais-que-perfeito situa fato anterior a outro passado.</p><p>Futuro do presente projeta fato posterior; futuro do pretérito pode indicar hipótese, condição ou cortesia.</p><h3>Valor discursivo</h3><p>Autores podem usar presente histórico para aproximar acontecimentos passados. Também podem usar futuro com valor de suposição. A banca cobra valores, não apenas nomes.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir indicativo de subjuntivo</li><li>reconhecer valor do pretérito imperfeito</li><li>interpretar futuro do pretérito</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +600 MIL</span><h3>Tempos e modos verbais — Português com Letícia</h3><p>Visão geral objetiva dos modos e tempos.</p><iframe src=\"https://www.youtube.com/embed/WK6WqY3iRU8\" title=\"Tempos e modos verbais\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "O modo subjuntivo costuma expressar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o modo subjuntivo costuma expressar:",
         "options": [
           "Hipótese, desejo ou possibilidade.",
           "Somente certeza absoluta.",
@@ -1459,7 +1459,7 @@ window.lessons={
         "tip": "Se, talvez, desejo."
       },
       {
-        "question": "O modo imperativo é usado frequentemente para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o modo imperativo é usado frequentemente para:",
         "options": [
           "Ordens, pedidos e orientações.",
           "Narrar passado apenas.",
@@ -1471,7 +1471,7 @@ window.lessons={
         "tip": "Faça, estude, atenção."
       },
       {
-        "question": "Em “Se eu estudasse”, “estudasse” está no:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “Se eu estudasse”, “estudasse” está no:",
         "options": [
           "Pretérito imperfeito do subjuntivo.",
           "Presente do indicativo.",
@@ -1483,7 +1483,7 @@ window.lessons={
         "tip": "Se eu... -sse."
       },
       {
-        "question": "Tempo verbal ajuda a localizar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, tempo verbal ajuda a localizar:",
         "options": [
           "A ação no tempo.",
           "Somente o sujeito.",
@@ -1495,7 +1495,7 @@ window.lessons={
         "tip": "Quando ocorre?"
       },
       {
-        "question": "Em reescritas, alterar o modo verbal pode:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em reescritas, alterar o modo verbal pode:",
         "options": [
           "Alterar o sentido.",
           "Nunca alterar nada.",
@@ -1507,7 +1507,7 @@ window.lessons={
         "tip": "Compare fato x possibilidade."
       },
       {
-        "question": "Indicativo tende a apresentar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, indicativo tende a apresentar:",
         "options": [
           "Fatos como reais/certos.",
           "Somente desejos.",
@@ -1527,7 +1527,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • ORAÇÕES REDUZIDAS</div><h3>Infinitivo, gerúndio e particípio</h3><p>Orações reduzidas não apresentam conectivo típico e têm verbo em forma nominal. Podem ser desenvolvidas preservando a relação de sentido.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Ao terminar a prova, revise.” pode equivaler a “Quando terminar a prova, revise”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: desenvolva mentalmente a oração e descubra a relação semântica.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Orações reduzidas</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>O que caracteriza uma oração reduzida</h3><p>Oração reduzida não apresenta conjunção integrante ou pronome relativo explícito e tem o verbo em forma nominal: infinitivo, gerúndio ou particípio.</p><p>'Ao chegar, avisou' contém oração reduzida de infinitivo; 'Terminada a prova, saiu' traz reduzida de particípio.</p><h3>Desenvolver a oração</h3><p>Desenvolver significa transformá-la em oração com conectivo e verbo flexionado, preservando a relação de sentido. 'Ao chegar, ligou' pode equivaler, conforme contexto, a 'quando chegou, ligou'.</p><p>A relação semântica pode ser temporal, causal, condicional, concessiva ou outra, dependendo do contexto.</p><h3>Cuidado com equivalência</h3><p>Duas formas podem ser gramaticalmente possíveis e ainda não ser equivalentes. Sempre verifique se a transformação mantém tempo, sujeito e relação lógica.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer infinitivo/gerúndio/particípio</li><li>desenvolver oração reduzida</li><li>preservar a relação de sentido</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • ORAÇÕES REDUZIDAS</span><h3>Orações reduzidas para concursos</h3><p>Reforço sobre infinitivo, gerúndio e particípio.</p><iframe src=\"https://www.youtube.com/embed/u0HDf2FFu0g\" title=\"Orações reduzidas e subordinação\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Oração reduzida apresenta verbo em:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, oração reduzida apresenta verbo em:",
         "options": [
           "Forma nominal.",
           "Somente indicativo.",
@@ -1539,7 +1539,7 @@ window.lessons={
         "tip": "Formas nominais."
       },
       {
-        "question": "São formas nominais do verbo:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, são formas nominais do verbo:",
         "options": [
           "Infinitivo, gerúndio e particípio.",
           "Presente, passado e futuro.",
@@ -1551,7 +1551,7 @@ window.lessons={
         "tip": "-r, -ndo, particípio."
       },
       {
-        "question": "Desenvolver uma oração reduzida exige preservar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, desenvolver uma oração reduzida exige preservar:",
         "options": [
           "Seu sentido.",
           "A mesma quantidade de palavras.",
@@ -1563,7 +1563,7 @@ window.lessons={
         "tip": "Forma muda; sentido não."
       },
       {
-        "question": "“Ao estudar, aprendo” pode expressar relação de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, “Ao estudar, aprendo” pode expressar relação de:",
         "options": [
           "Tempo.",
           "Posse.",
@@ -1575,7 +1575,7 @@ window.lessons={
         "tip": "Desenvolva a oração."
       },
       {
-        "question": "Orações reduzidas geralmente não trazem:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, orações reduzidas geralmente não trazem:",
         "options": [
           "Conectivo introdutor típico.",
           "Verbo.",
@@ -1587,7 +1587,7 @@ window.lessons={
         "tip": "Reduzida = forma compacta."
       },
       {
-        "question": "Para classificar oração reduzida, observe:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para classificar oração reduzida, observe:",
         "options": [
           "Forma nominal e função/sentido.",
           "Número de letras.",
@@ -1607,7 +1607,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • COLOCAÇÃO PRONOMINAL</div><h3>Próclise, ênclise e mesóclise</h3><p>Próclise: pronome antes do verbo; ênclise: depois; mesóclise: no meio. Palavras negativas, pronomes relativos e certos advérbios podem atrair o pronome.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Não me diga isso.” A palavra negativa “não” favorece próclise.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: procure primeiro uma palavra atrativa.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Colocação pronominal</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Próclise, ênclise e mesóclise</h3><p>Próclise ocorre quando o pronome aparece antes do verbo; ênclise, depois; mesóclise, no interior de formas verbais do futuro em contextos formais específicos.</p><p>Na norma-padrão, palavras negativas, certos pronomes, advérbios sem pausa e conjunções subordinativas podem atrair o pronome.</p><h3>Início de oração</h3><p>Em registros formais cobrados em provas, evita-se iniciar oração com pronome oblíquo átono: prefere-se 'Disseram-me' a 'Me disseram' quando a questão exige norma-padrão estrita.</p><p>Na língua falada brasileira, usos diferentes são comuns, mas a banca pode cobrar a convenção formal.</p><h3>Locuções verbais</h3><p>Em locuções, há diferentes posições possíveis conforme presença de palavra atrativa e forma do verbo principal. Analise a estrutura inteira.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar palavra atrativa</li><li>distinguir próclise e ênclise</li><li>aplicar norma-padrão em início de oração</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • QUESTÃO DE CONCURSO</span><h3>Colocação pronominal — Português com Letícia</h3><p>Aplicação em questão de concurso.</p><iframe src=\"https://www.youtube.com/embed/_aKblqr6xPs\" title=\"Colocação pronominal\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Próclise é a colocação do pronome:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, próclise é a colocação do pronome:",
         "options": [
           "Antes do verbo.",
           "Depois do verbo.",
@@ -1619,7 +1619,7 @@ window.lessons={
         "tip": "Pró = antes."
       },
       {
-        "question": "Ênclise coloca o pronome:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ênclise coloca o pronome:",
         "options": [
           "Depois do verbo.",
           "Antes do verbo.",
@@ -1631,7 +1631,7 @@ window.lessons={
         "tip": "Ênclise = depois."
       },
       {
-        "question": "Mesóclise coloca o pronome:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, mesóclise coloca o pronome:",
         "options": [
           "No interior da forma verbal.",
           "Antes do substantivo.",
@@ -1643,7 +1643,7 @@ window.lessons={
         "tip": "Meso = meio."
       },
       {
-        "question": "Palavra negativa costuma favorecer:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, palavra negativa costuma favorecer:",
         "options": [
           "Próclise.",
           "Ênclise obrigatória.",
@@ -1655,7 +1655,7 @@ window.lessons={
         "tip": "Não me diga."
       },
       {
-        "question": "Pronome relativo pode funcionar como:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pronome relativo pode funcionar como:",
         "options": [
           "Fator de próclise.",
           "Sinal de pontuação.",
@@ -1667,7 +1667,7 @@ window.lessons={
         "tip": "Que me disse."
       },
       {
-        "question": "Ao resolver colocação pronominal, procure:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ao resolver colocação pronominal, procure:",
         "options": [
           "Palavra atrativa e contexto verbal.",
           "Somente o tamanho do verbo.",
@@ -1687,7 +1687,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • ESTILÍSTICA</div><h3>Escolhas expressivas</h3><p>Estilística observa como escolhas de palavras, estruturas, repetições, sonoridade e ordem dos termos produzem efeitos de sentido.</p><div class=\"lesson-example\"><b>Exemplo:</b> repetir uma expressão pode enfatizar uma ideia; inverter a ordem comum pode destacar um termo.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: pergunte qual efeito a escolha linguística produz naquele contexto.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estilística e efeitos de sentido</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Escolha linguística produz efeito</h3><p>Estilística estuda como escolhas de palavras, construções, repetições, sons e organização sintática produzem expressividade. Uma mesma informação pode soar formal, irônica, afetiva, agressiva ou neutra dependendo da forma.</p><p>Repetição pode reforçar uma ideia; frases curtas podem acelerar ritmo; inversão pode destacar um termo.</p><h3>Registro e adequação</h3><p>A linguagem varia conforme situação, interlocutor e finalidade. Um texto oficial tende a exigir maior formalidade; uma conversa informal aceita outras construções.</p><p>Questões podem perguntar o efeito da mudança de uma palavra por outra mais técnica, coloquial ou intensa.</p><h3>Som e ritmo</h3><p>Aliteração repete sons consonantais; assonância repete sons vocálicos. Esses recursos podem criar ritmo, musicalidade ou reforçar atmosferas.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar efeito de repetição</li><li>relacionar registro à situação</li><li>reconhecer aliteração e assonância</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • EFEITOS DE SENTIDO</span><h3>Figuras e recursos expressivos</h3><p>Base prática para reconhecer efeitos estilísticos em provas.</p><iframe src=\"https://www.youtube.com/embed/DZq92F2xg6c\" title=\"Estilística e figuras\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Estilística estuda principalmente:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, estilística estuda principalmente:",
         "options": [
           "Efeitos expressivos das escolhas linguísticas.",
           "Somente ortografia.",
@@ -1699,7 +1699,7 @@ window.lessons={
         "tip": "Como foi dito e com qual efeito?"
       },
       {
-        "question": "Repetição pode ser usada para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, repetição pode ser usada para:",
         "options": [
           "Criar ênfase.",
           "Eliminar sentido sempre.",
@@ -1711,7 +1711,7 @@ window.lessons={
         "tip": "Observe intenção."
       },
       {
-        "question": "A ordem dos termos pode:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a ordem dos termos pode:",
         "options": [
           "Produzir destaque e efeito de sentido.",
           "Nunca alterar foco.",
@@ -1723,7 +1723,7 @@ window.lessons={
         "tip": "O que ficou em evidência?"
       },
       {
-        "question": "Uma análise estilística deve considerar:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma análise estilística deve considerar:",
         "options": [
           "O contexto.",
           "Somente dicionário.",
@@ -1735,7 +1735,7 @@ window.lessons={
         "tip": "Contexto manda."
       },
       {
-        "question": "Recursos sonoros podem contribuir para:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, recursos sonoros podem contribuir para:",
         "options": [
           "Expressividade.",
           "Regência apenas.",
@@ -1747,7 +1747,7 @@ window.lessons={
         "tip": "Som também produz efeito."
       },
       {
-        "question": "Em prova, a pergunta central da estilística é:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em prova, a pergunta central da estilística é:",
         "options": [
           "Que efeito essa escolha produz?",
           "Quantas letras há?",
@@ -1767,7 +1767,7 @@ window.lessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • FIGURAS DE LINGUAGEM</div><h3>Figuras mais cobradas</h3><p>Metáfora, metonímia, ironia, eufemismo, hipérbole, antítese, personificação, pleonasmo, aliteração e outras figuras alteram ou intensificam a expressão.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Ele é uma fera nos estudos.” Há metáfora: uma característica é transferida sem conectivo comparativo explícito.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: não decore só o nome; identifique o mecanismo e o efeito no trecho.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Figuras de linguagem</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Figuras de sentido</h3><p>Metáfora aproxima sentidos sem conectivo comparativo explícito. Comparação usa elemento comparativo. Metonímia substitui um termo por outro com relação de proximidade, como autor pela obra.</p><p>Catacrese usa expressão figurada cristalizada, como 'pé da mesa'.</p><h3>Figuras de pensamento</h3><p>Antítese aproxima ideias opostas. Paradoxo combina ideias aparentemente incompatíveis. Hipérbole exagera. Eufemismo suaviza. Ironia comunica sentido diferente ou oposto ao literal em determinado contexto.</p><p>Personificação atribui características humanas a seres não humanos.</p><h3>Figuras de construção e som</h3><p>Elipse omite termo recuperável. Pleonasmo pode ser expressivo ou vicioso. Polissíndeto repete conjunções. Assíndeto omite conectivos. Aliteração e onomatopeia exploram sons.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir metáfora de comparação</li><li>reconhecer hipérbole, eufemismo e ironia</li><li>identificar personificação</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +380 MIL</span><h3>Figuras de linguagem — Português com Letícia</h3><p>Figuras sonoras e sintáticas com exemplos.</p><iframe src=\"https://www.youtube.com/embed/DZq92F2xg6c\" title=\"Figuras de linguagem\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Metáfora é uma comparação:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, metáfora é uma comparação:",
         "options": [
           "Implícita, por aproximação de sentidos.",
           "Sempre com “como”.",
@@ -1779,7 +1779,7 @@ window.lessons={
         "tip": "Comparação sem conectivo explícito."
       },
       {
-        "question": "Hipérbole caracteriza:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, hipérbole caracteriza:",
         "options": [
           "Exagero expressivo.",
           "Suavização.",
@@ -1791,7 +1791,7 @@ window.lessons={
         "tip": "“Esperei uma eternidade”."
       },
       {
-        "question": "Eufemismo busca:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, eufemismo busca:",
         "options": [
           "Suavizar uma ideia.",
           "Exagerar.",
@@ -1803,7 +1803,7 @@ window.lessons={
         "tip": "Suavização."
       },
       {
-        "question": "Antítese aproxima:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, antítese aproxima:",
         "options": [
           "Ideias opostas.",
           "Sons idênticos apenas.",
@@ -1815,7 +1815,7 @@ window.lessons={
         "tip": "Opostos."
       },
       {
-        "question": "Personificação atribui:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, personificação atribui:",
         "options": [
           "Características humanas a seres não humanos.",
           "Números a palavras.",
@@ -1827,7 +1827,7 @@ window.lessons={
         "tip": "Humanização."
       },
       {
-        "question": "Aliteração envolve repetição de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, aliteração envolve repetição de:",
         "options": [
           "Sons consonantais.",
           "Ideias opostas.",
@@ -1871,7 +1871,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Após leitura do último parágrafo do texto, infere-se possíveis sentimentos por parte do Tenente Jaguar, EXCETO.",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, após leitura do último parágrafo do texto, infere-se possíveis sentimentos por parte do Tenente Jaguar, EXCETO.",
         "options": [
           "Gratidão.",
           "Ironia.",
@@ -1919,7 +1919,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Marque a alternativa CORRETA. Na frase “Contava a história de um pai e um filho moribundo.”, o vocábulo destacado exerce a função de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, marque a alternativa CORRETA. Na frase “Contava a história de um pai e um filho moribundo.”, o vocábulo destacado exerce a função de:",
         "options": [
           "Adjetivo.",
           "Advérbio.",
@@ -2063,7 +2063,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "O texto I é um excerto do romance \"O homem que enganava a morte\", obra ficcional que conta a trajetória do personagem Pedro em vários momentos de sua vida. Com base nas afirmações abaixo e conhecendo as principais características deste gênero textual, responda: I. Forma literária narrativa escrita em prosa. II. Exposição de tema com um ponto de vista prescritivo e injuntivo. III. Pontos de vista com perspectiva em primeira e em terceira pessoa. IV. História que pode variar entre diferentes períodos temporais. V. Texto predominantemente argumentativo e dissertativo. Está CORRETA a seguinte assertiva:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o texto I é um excerto do romance \"O homem que enganava a morte\", obra ficcional que conta a trajetória do personagem Pedro em vários momentos de sua vida. Com base nas afirmações abaixo e conhecendo as principais características deste gênero textual, responda: I. Forma literária narrativa escrita em prosa. II. Exposição de tema com um ponto de vista prescritivo e injuntivo. III. Pontos de vista com perspectiva em primeira e em terceira pessoa. IV. História que pode variar entre diferentes períodos temporais. V. Texto predominantemente argumentativo e dissertativo. Está CORRETA a seguinte assertiva:",
         "options": [
           "Todas as alternativas são falsas.",
           "Há somente uma alternativa falsa.",
@@ -2075,7 +2075,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Como a percepção do protagonista em relação ao sargento Robson Aloísio evolui durante o texto? Marque a alternativa CORRETA:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, como a percepção do protagonista em relação ao sargento Robson Aloísio evolui durante o texto? Marque a alternativa CORRETA:",
         "options": [
           "A perspectiva do protagonista não mudou ao longo do texto, sugerindo que a percepção de Pedro sobre o sargento permaneceu impassível.",
           "O protagonista mantém uma visão negativa constante do sargento, ignorando quaisquer nuances na caracterização deste personagem.",
@@ -2087,7 +2087,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Qual é a função simbólica atribuída ao café na caracterização do sargento Robson Aloisio ao longo da narrativa?",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual é a função simbólica atribuída ao café na caracterização do sargento Robson Aloisio ao longo da narrativa?",
         "options": [
           "O café é utilizado como um dispositivo literário para destacar a humanidade do sargento, revelando-o como um personagem empedernido e abstraído.",
           "O café simboliza a acidez e o amargor do sargento, refletindo sua abordagem inexorável para com seus deveres policiais.",
@@ -2123,7 +2123,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "O termo em destaque \"E que, enfim, queria entrar para a polícia.\" (linha 29) justifica-se para indicar uma ideia de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o termo em destaque \"E que, enfim, queria entrar para a polícia.\" (linha 29) justifica-se para indicar uma ideia de:",
         "options": [
           "Conclusão.",
           "Continuação.",
@@ -2147,7 +2147,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "\"A cor do fardamento somente foi modificada para o brim prussiano caqui, em virtude das reformas do Coronel Dexter, a partir de 1912\". As palavras em destaque são exemplos de:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, \"A cor do fardamento somente foi modificada para o brim prussiano caqui, em virtude das reformas do Coronel Dexter, a partir de 1912\". As palavras em destaque são exemplos de:",
         "options": [
           "Conjunção, advérbio e locução adjetiva.",
           "Advérbio, adjetivo e locução prepositiva.",
@@ -2159,7 +2159,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Na oração \"Mesmo com as mudanças de nome, nos 193 primeiros anos, seus integrantes utilizaram fardas predominantemente na cor azul\", as palavras em destaque possuem diferenças quanto ao número e tipos de fonemas. Assinale a alternativa ERRADA:",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na oração \"Mesmo com as mudanças de nome, nos 193 primeiros anos, seus integrantes utilizaram fardas predominantemente na cor azul\", as palavras em destaque possuem diferenças quanto ao número e tipos de fonemas. Assinale a alternativa ERRADA:",
         "options": [
           "A palavra \"predominantemente\" tem igual número de fonemas comparado a \"preponderantemente\".",
           "Tanto a palavra \"mulher\" quanto a palavra \"fixo\" apresentam iguais números de fonemas que \"mesmo\".",
@@ -2183,7 +2183,7 @@ window.lessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Em qual das opções abaixo o acento indicativo de crase foi corretamente empregado?",
+        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em qual das opções abaixo o acento indicativo de crase foi corretamente empregado?",
         "options": [
           "Andavam lado à lado.",
           "Iremos à Curitiba e depois à Londrina.",
