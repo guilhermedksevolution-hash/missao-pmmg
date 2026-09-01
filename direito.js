@@ -7,7 +7,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Princípios Fundamentais — arts. 1º a 4º</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Fundamentos da República</h3><p>A República Federativa do Brasil constitui-se em Estado Democrático de Direito. Os fundamentos do art. 1º incluem soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político.</p><p>O parágrafo único do art. 1º afirma que todo poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos da Constituição.</p><h3>Poderes e objetivos</h3><p>Legislativo, Executivo e Judiciário são Poderes da União, independentes e harmônicos entre si. Os objetivos fundamentais do art. 3º incluem construir sociedade livre, justa e solidária, garantir desenvolvimento nacional, erradicar pobreza e reduzir desigualdades, e promover o bem de todos sem discriminações.</p><h3>Relações internacionais</h3><p>O art. 4º traz princípios como independência nacional, prevalência dos direitos humanos, autodeterminação dos povos, não intervenção, igualdade entre Estados, defesa da paz e solução pacífica dos conflitos.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Princípios Fundamentais da Constituição</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/Od6WAj4LWbI\" title=\"Princípios Fundamentais da Constituição\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual é fundamento da República Federativa do Brasil?",
+        "question": "Qual é fundamento da República Federativa do Brasil?",
         "options": [
           "Dignidade da pessoa humana.",
           "Separação absoluta dos Poderes.",
@@ -19,7 +19,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, todo poder emana:",
+        "question": "Todo poder emana:",
         "options": [
           "Do povo.",
           "Do Judiciário.",
@@ -31,7 +31,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, os Poderes da União são:",
+        "question": "Os Poderes da União são:",
         "options": [
           "Legislativo, Executivo e Judiciário.",
           "Polícia, Ministério Público e Judiciário.",
@@ -43,7 +43,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a prevalência dos direitos humanos aparece entre:",
+        "question": "A prevalência dos direitos humanos aparece entre:",
         "options": [
           "Os princípios das relações internacionais.",
           "Os direitos políticos.",
@@ -63,7 +63,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Direitos e garantias individuais e coletivos</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Núcleo do art. 5º</h3><p>O art. 5º assegura igualdade perante a lei e protege vida, liberdade, igualdade, segurança e propriedade. Muitas questões cobram a literalidade dos incisos, por isso leitura e interpretação devem caminhar juntas.</p><p>Direitos fundamentais não são simples frases decorativas: funcionam como limites ao poder estatal e proteção da pessoa.</p><h3>Legalidade, manifestação e reunião</h3><p>Ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei. A manifestação do pensamento é livre, vedado o anonimato. É assegurado o direito de reunião pacífica e sem armas, nos termos constitucionais.</p><h3>Garantias processuais</h3><p>Devido processo legal, contraditório e ampla defesa protegem pessoas em processos judiciais e administrativos. Habeas corpus protege liberdade de locomoção em situações de ilegalidade ou abuso; mandado de segurança tutela direito líquido e certo nos casos constitucionais.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Art. 5º — Direitos e Garantias Fundamentais</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/jK98DiHd7lI\" title=\"Art. 5º — Direitos e Garantias Fundamentais\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o art. 5º protege expressamente:",
+        "question": "O art. 5º protege expressamente:",
         "options": [
           "Vida, liberdade, igualdade, segurança e propriedade.",
           "Somente propriedade.",
@@ -75,7 +75,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a manifestação do pensamento é:",
+        "question": "A manifestação do pensamento é:",
         "options": [
           "Livre, sendo vedado o anonimato.",
           "Sempre proibida.",
@@ -87,7 +87,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o habeas corpus protege principalmente:",
+        "question": "O habeas corpus protege principalmente:",
         "options": [
           "Liberdade de locomoção.",
           "Patrimônio público.",
@@ -99,7 +99,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, contraditório e ampla defesa são garantias:",
+        "question": "Contraditório e ampla defesa são garantias:",
         "options": [
           "Aplicáveis nos termos constitucionais a processos judiciais e administrativos.",
           "Somente a processos civis.",
@@ -119,7 +119,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Nacionalidade e participação política</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Brasileiros natos e naturalizados</h3><p>A Constituição distingue brasileiros natos e naturalizados e define hipóteses de aquisição de nacionalidade. Em concurso, atenção às hipóteses constitucionais e aos cargos privativos de brasileiro nato.</p><p>Não confunda nacionalidade com cidadania: nacionalidade é vínculo jurídico-político com o Estado; cidadania relaciona-se ao exercício de direitos políticos.</p><h3>Direitos políticos</h3><p>Soberania popular é exercida pelo sufrágio universal e voto direto e secreto, com valor igual para todos, além de mecanismos constitucionais de participação direta.</p><p>A Constituição disciplina alistamento, voto, elegibilidade e hipóteses de perda ou suspensão de direitos políticos. A literalidade dos dispositivos é muito cobrada.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Nacionalidade e Direitos Políticos</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/iqu5AHVGk0M\" title=\"Nacionalidade e Direitos Políticos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, nacionalidade e cidadania:",
+        "question": "Nacionalidade e cidadania:",
         "options": [
           "São conceitos relacionados, mas distintos.",
           "São exatamente a mesma coisa.",
@@ -131,7 +131,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a soberania popular é exercida, entre outros meios, pelo:",
+        "question": "A soberania popular é exercida, entre outros meios, pelo:",
         "options": [
           "Sufrágio universal e voto direto e secreto.",
           "Voto aberto obrigatório para todos.",
@@ -143,7 +143,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a Constituição distingue:",
+        "question": "A Constituição distingue:",
         "options": [
           "Brasileiros natos e naturalizados.",
           "Cidadãos civis e militares apenas.",
@@ -155,7 +155,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, os direitos políticos tratam da:",
+        "question": "Os direitos políticos tratam da:",
         "options": [
           "Participação política e exercício da soberania popular.",
           "Ortografia oficial.",
@@ -175,7 +175,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Administração Pública e militares estaduais</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Princípios do art. 37</h3><p>A administração pública direta e indireta deve obedecer aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência — frequentemente lembrados pela sigla LIMPE.</p><p>Esses princípios orientam atuação administrativa e aparecem constantemente em provas.</p><h3>Concurso, cargos e funções</h3><p>A investidura em cargo ou emprego público depende, em regra, de aprovação prévia em concurso público, ressalvadas as hipóteses constitucionais de cargo em comissão. Funções de confiança e cargos em comissão têm disciplina própria no art. 37.</p><h3>Militares dos Estados</h3><p>O art. 42 trata dos membros das Polícias Militares e Corpos de Bombeiros Militares dos Estados, do Distrito Federal e dos Territórios como militares dos Estados, organizados com base em hierarquia e disciplina.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Administração Pública — art. 37</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/1mxGR-RKR3I\" title=\"Administração Pública — art. 37\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a sigla LIMPE reúne:",
+        "question": "A sigla LIMPE reúne:",
         "options": [
           "Legalidade, impessoalidade, moralidade, publicidade e eficiência.",
           "Legalidade, igualdade, mérito, proteção e ética.",
@@ -187,7 +187,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a investidura em cargo público depende, em regra, de:",
+        "question": "A investidura em cargo público depende, em regra, de:",
         "options": [
           "Concurso público.",
           "Indicação pessoal.",
@@ -199,7 +199,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, polícias Militares e Corpos de Bombeiros Militares estaduais são organizados com base em:",
+        "question": "Polícias Militares e Corpos de Bombeiros Militares estaduais são organizados com base em:",
         "options": [
           "Hierarquia e disciplina.",
           "Autonomia absoluta.",
@@ -211,7 +211,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o art. 37 trata principalmente da:",
+        "question": "O art. 37 trata principalmente da:",
         "options": [
           "Administração Pública.",
           "Literatura.",
@@ -231,7 +231,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Estrutura constitucional relacionada à segurança</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Justiça Militar e Justiça dos Estados</h3><p>O edital inclui trechos do Poder Judiciário relativos aos Tribunais e Juízes Militares e aos Tribunais e Juízes dos Estados. Para a prova, foque na estrutura constitucional e competências descritas nos dispositivos cobrados.</p><h3>Forças Armadas</h3><p>As Forças Armadas são constituídas pela Marinha, Exército e Aeronáutica, instituições nacionais permanentes e regulares, organizadas com base em hierarquia e disciplina. Não confunda Forças Armadas com Polícias Militares estaduais.</p><h3>Segurança Pública — art. 144</h3><p>A segurança pública é dever do Estado, direito e responsabilidade de todos. O art. 144 lista órgãos e competências. As Polícias Militares exercem polícia ostensiva e preservação da ordem pública; aos Corpos de Bombeiros Militares cabem atribuições definidas em lei e execução de atividades de defesa civil, nos termos constitucionais.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Segurança Pública — art. 144</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/aW4bw8njHzk\" title=\"Segurança Pública — art. 144\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a segurança pública é:",
+        "question": "A segurança pública é:",
         "options": [
           "Dever do Estado, direito e responsabilidade de todos.",
           "Responsabilidade exclusiva dos Municípios.",
@@ -243,7 +243,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, às Polícias Militares cabem:",
+        "question": "Às Polícias Militares cabem:",
         "options": [
           "Polícia ostensiva e preservação da ordem pública.",
           "Julgamento de ações penais.",
@@ -255,7 +255,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as Forças Armadas são constituídas por:",
+        "question": "As Forças Armadas são constituídas por:",
         "options": [
           "Marinha, Exército e Aeronáutica.",
           "PM, PC e PF.",
@@ -267,7 +267,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, forças Armadas e Polícias Militares:",
+        "question": "Forças Armadas e Polícias Militares:",
         "options": [
           "Não são a mesma instituição constitucional.",
           "São exatamente a mesma coisa.",
@@ -287,7 +287,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>LINDB para concursos</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Vigência e revogação</h3><p>A LINDB disciplina vigência, aplicação, interpretação e integração das normas. Regra clássica: salvo disposição contrária, a lei começa a vigorar em todo o país 45 dias depois de oficialmente publicada.</p><p>Lei posterior revoga a anterior quando expressamente o declare, quando seja incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior.</p><h3>Integração da lei</h3><p>Quando a lei for omissa, o juiz decidirá de acordo com analogia, costumes e princípios gerais de direito. Essa ordem aparece com frequência em questões literais.</p><h3>Interpretação e segurança jurídica</h3><p>Na aplicação da lei, deve-se atender aos fins sociais a que ela se dirige e às exigências do bem comum. Alterações posteriores na LINDB também reforçaram segurança jurídica e consideração de consequências práticas em decisões administrativas, controladoras e judiciais.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>LINDB — Lei de Introdução às Normas do Direito Brasileiro</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/NlJ2jhvOOeI\" title=\"LINDB — Lei de Introdução às Normas do Direito Brasileiro\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, salvo disposição contrária, a lei começa a vigorar no Brasil após:",
+        "question": "Salvo disposição contrária, a lei começa a vigorar no Brasil após:",
         "options": [
           "45 dias da publicação oficial.",
           "24 horas.",
@@ -299,7 +299,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na omissão da lei, utilizam-se:",
+        "question": "Na omissão da lei, utilizam-se:",
         "options": [
           "Analogia, costumes e princípios gerais de direito.",
           "Somente opinião pessoal.",
@@ -311,7 +311,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, lei posterior pode revogar anterior quando:",
+        "question": "Lei posterior pode revogar anterior quando:",
         "options": [
           "For incompatível com ela.",
           "For apenas mais recente sem conflito.",
@@ -323,7 +323,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a aplicação da lei deve atender:",
+        "question": "A aplicação da lei deve atender:",
         "options": [
           "Aos fins sociais e às exigências do bem comum.",
           "Somente ao interesse privado.",
@@ -343,7 +343,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Declaração Universal dos Direitos Humanos — 1948</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Contexto e fundamento</h3><p>A DUDH foi adotada pela Assembleia Geral das Nações Unidas em 10 de dezembro de 1948. Seu ponto de partida é a dignidade inerente a todos os seres humanos e a igualdade em direitos.</p><p>O art. 1º afirma que todos nascem livres e iguais em dignidade e direitos.</p><h3>Direitos protegidos</h3><p>A Declaração reconhece vida, liberdade e segurança pessoal; proíbe escravidão e tortura; protege igualdade perante a lei, privacidade, liberdade de pensamento, consciência e religião, expressão, reunião e associação pacíficas.</p><p>Também contempla direitos sociais, educação, trabalho, descanso e participação na vida cultural.</p><h3>Como cai em prova</h3><p>Muitas questões trocam palavras para restringir direitos apenas a cidadãos, excluir grupos ou admitir tortura em certas situações. Compare a alternativa com a universalidade e a literalidade da DUDH.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Declaração Universal dos Direitos Humanos — PMMG</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/MEJw-dPU6Kw\" title=\"Declaração Universal dos Direitos Humanos — PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a DUDH foi adotada em:",
+        "question": "A DUDH foi adotada em:",
         "options": [
           "10 de dezembro de 1948.",
           "1988.",
@@ -355,7 +355,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, segundo a DUDH, todos nascem:",
+        "question": "Segundo a DUDH, todos nascem:",
         "options": [
           "Livres e iguais em dignidade e direitos.",
           "Com direitos diferentes por nacionalidade.",
@@ -367,7 +367,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a DUDH:",
+        "question": "A DUDH:",
         "options": [
           "Proíbe tortura e tratamentos cruéis, desumanos ou degradantes.",
           "Autoriza tortura em emergência.",
@@ -379,7 +379,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a liberdade de pensamento, consciência e religião:",
+        "question": "A liberdade de pensamento, consciência e religião:",
         "options": [
           "É reconhecida pela DUDH.",
           "É proibida.",
@@ -399,7 +399,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Convenção Americana — Pacto de San José da Costa Rica</h3><p>Leia primeiro. A videoaula vem depois para reforçar.</p></div><h3>Origem e finalidade</h3><p>A Convenção Americana sobre Direitos Humanos foi assinada em San José, Costa Rica, em 22 de novembro de 1969. Ela organiza proteção regional de direitos humanos no sistema interamericano.</p><p>O texto reconhece direitos civis e políticos e impõe deveres aos Estados Partes.</p><h3>Direitos importantes</h3><p>Entre os temas cobrados estão direito à vida, integridade pessoal, liberdade pessoal, garantias judiciais, legalidade, proteção da honra e dignidade, liberdade de consciência e religião, pensamento e expressão, reunião, associação, circulação e residência, propriedade e proteção judicial.</p><h3>Sistema interamericano</h3><p>A Convenção prevê a Comissão Interamericana e a Corte Interamericana de Direitos Humanos. Em prova, atenção à diferença entre órgãos e às regras expressas do tratado.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Pacto de San José da Costa Rica</h3><p>Assista depois da leitura para reforçar a teoria.</p><iframe src=\"https://www.youtube.com/embed/rHlKBG_XT_s\" title=\"Pacto de San José da Costa Rica\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a Convenção Americana foi assinada em:",
+        "question": "A Convenção Americana foi assinada em:",
         "options": [
           "San José da Costa Rica, em 1969.",
           "Paris, em 1948.",
@@ -411,7 +411,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a Convenção Americana protege:",
+        "question": "A Convenção Americana protege:",
         "options": [
           "Direitos humanos no sistema interamericano.",
           "Somente direitos trabalhistas.",
@@ -423,7 +423,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, integram o sistema interamericano:",
+        "question": "Integram o sistema interamericano:",
         "options": [
           "Comissão e Corte Interamericanas de Direitos Humanos.",
           "STF e STJ.",
@@ -435,7 +435,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as penas privativas de liberdade, segundo a Convenção, devem ter por finalidade essencial:",
+        "question": "As penas privativas de liberdade, segundo a Convenção, devem ter por finalidade essencial:",
         "options": [
           "Reforma e readaptação social dos condenados.",
           "Vingança estatal.",
@@ -455,7 +455,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Remédios constitucionais</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Habeas corpus</h3><p>Protege a liberdade de locomoção contra ilegalidade ou abuso de poder. Pode atuar diante de ameaça ou de restrição já existente, conforme o caso.</p><h3>Mandado de segurança</h3><p>Protege direito líquido e certo não amparado por habeas corpus ou habeas data nas hipóteses constitucionais.</p><h3>Outras garantias</h3><p>Habeas data relaciona-se a informações pessoais em registros nos termos constitucionais. Mandado de injunção relaciona-se à falta de norma regulamentadora que inviabilize exercício de direitos nas hipóteses previstas.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Remédios Constitucionais — exercícios para concursos</h3><p>Reforce habeas corpus, mandado de segurança, habeas data e mandado de injunção por meio de questões.</p><iframe src=\"https://www.youtube.com/embed/hZyAqi-I8Co\" title=\"Remédios Constitucionais — exercícios para concursos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, habeas corpus protege:",
+        "question": "Habeas corpus protege:",
         "options": [
           "Liberdade de locomoção.",
           "Propriedade intelectual.",
@@ -467,7 +467,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, habeas data relaciona-se a:",
+        "question": "Habeas data relaciona-se a:",
         "options": [
           "Informações pessoais em registros.",
           "Liberdade de reunião.",
@@ -479,7 +479,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, mandado de segurança protege:",
+        "question": "Mandado de segurança protege:",
         "options": [
           "Direito líquido e certo nas hipóteses constitucionais.",
           "Somente locomoção.",
@@ -503,7 +503,7 @@ window.direitoLessons={
         "tip": "Associe cada remédio ao bem jurídico protegido."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o mandado de segurança é cabível, nos termos constitucionais, para proteger:",
+        "question": "O mandado de segurança é cabível, nos termos constitucionais, para proteger:",
         "options": [
           "direito líquido e certo não amparado por habeas corpus ou habeas data.",
           "qualquer pretensão sem prova pré-constituída.",
@@ -515,7 +515,7 @@ window.direitoLessons={
         "tip": "Não confunda MS com HC ou HD."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a falta de norma regulamentadora que torne inviável o exercício de direito constitucionalmente assegurado relaciona-se, em regra, ao:",
+        "question": "A falta de norma regulamentadora que torne inviável o exercício de direito constitucionalmente assegurado relaciona-se, em regra, ao:",
         "options": [
           "mandado de injunção.",
           "habeas corpus.",
@@ -535,7 +535,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Direitos Sociais</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Art. 6º</h3><p>A Constituição enumera direitos sociais como educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social e proteção à maternidade e à infância, além dos demais constantes do texto vigente.</p><h3>Finalidade</h3><p>Direitos sociais relacionam-se à busca de condições materiais compatíveis com dignidade e igualdade substancial.</p><h3>Como estudar</h3><p>Listas constitucionais são cobradas com troca de palavras. Compare as alternativas com o texto constitucional atualizado.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Direitos Sociais — art. 6º da Constituição</h3><p>Aula voltada a concursos sobre os direitos sociais previstos na Constituição Federal.</p><iframe src=\"https://www.youtube.com/embed/B6iFoiRTr2E\" title=\"Direitos Sociais — art. 6º da Constituição\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, é direito social:",
+        "question": "É direito social:",
         "options": [
           "Educação.",
           "Censura.",
@@ -547,7 +547,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, saúde é:",
+        "question": "Saúde é:",
         "options": [
           "Direito social.",
           "Remédio constitucional.",
@@ -559,7 +559,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, listas constitucionais devem ser estudadas pelo:",
+        "question": "Listas constitucionais devem ser estudadas pelo:",
         "options": [
           "Texto constitucional atualizado.",
           "Palpite.",
@@ -583,7 +583,7 @@ window.direitoLessons={
         "tip": "Diferencie direitos sociais de fundamentos e garantias processuais."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a finalidade dos direitos sociais está mais diretamente ligada à:",
+        "question": "A finalidade dos direitos sociais está mais diretamente ligada à:",
         "options": [
           "promoção de condições materiais de dignidade e igualdade substancial.",
           "supressão de liberdades individuais.",
@@ -595,7 +595,7 @@ window.direitoLessons={
         "tip": "Pense em prestações e proteção social."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em prova de literalidade constitucional, a estratégia mais segura ao comparar uma lista de direitos sociais é:",
+        "question": "Em prova de literalidade constitucional, a estratégia mais segura ao comparar uma lista de direitos sociais é:",
         "options": [
           "conferir o texto constitucional atualizado e desconfiar de trocas sutis.",
           "aceitar toda palavra relacionada a bem-estar.",
@@ -615,7 +615,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Teoria Geral dos Direitos Humanos</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Universalidade</h3><p>Direitos humanos têm vocação de proteção de todas as pessoas. Também são tratados como interdependentes e indivisíveis.</p><h3>Dimensões</h3><p>Didaticamente, a primeira dimensão associa-se a liberdades civis e políticas; a segunda a direitos sociais, econômicos e culturais; a terceira a interesses coletivos ou difusos.</p><h3>Complementaridade</h3><p>Uma dimensão não apaga a anterior. A proteção se expande e os grupos de direitos convivem.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Teoria Geral dos Direitos Humanos — concurso policial</h3><p>Revisão de características, universalidade, indivisibilidade e dimensões dos direitos humanos.</p><iframe src=\"https://www.youtube.com/embed/YJPzk6UMd1M\" title=\"Teoria Geral dos Direitos Humanos — concurso policial\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, universalidade indica proteção:",
+        "question": "Universalidade indica proteção:",
         "options": [
           "De todas as pessoas.",
           "Somente nacionais.",
@@ -627,7 +627,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, primeira dimensão associa-se a:",
+        "question": "Primeira dimensão associa-se a:",
         "options": [
           "Liberdades civis e políticas.",
           "Somente ambiente.",
@@ -639,7 +639,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as dimensões:",
+        "question": "As dimensões:",
         "options": [
           "São complementares.",
           "Apagam as anteriores.",
@@ -663,7 +663,7 @@ window.direitoLessons={
         "tip": "Dimensões acumulam proteção."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a indivisibilidade dos direitos humanos afasta a ideia de que:",
+        "question": "A indivisibilidade dos direitos humanos afasta a ideia de que:",
         "options": [
           "certos grupos de direitos possam ser tratados como totalmente dispensáveis em relação aos demais.",
           "direitos civis e sociais coexistam.",
@@ -675,7 +675,7 @@ window.direitoLessons={
         "tip": "Universalidade, indivisibilidade e interdependência se complementam."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a terceira dimensão é didaticamente associada, sobretudo, a:",
+        "question": "A terceira dimensão é didaticamente associada, sobretudo, a:",
         "options": [
           "interesses coletivos ou difusos.",
           "liberdades civis apenas.",
@@ -695,7 +695,7 @@ window.direitoLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Proteção internacional — revisão integrada</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Sistema global</h3><p>A Declaração Universal dos Direitos Humanos foi adotada em 1948 e é marco central da proteção universal.</p><h3>Sistema interamericano</h3><p>A Convenção Americana sobre Direitos Humanos foi assinada em 1969 e integra o sistema interamericano, no qual atuam Comissão e Corte Interamericanas.</p><h3>Comparação</h3><p>Não confunda os documentos: possuem datas, natureza e contextos distintos, embora ambos integrem a proteção internacional dos direitos humanos.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA 1 • DUDH</span><h3>Declaração Universal dos Direitos Humanos — revisão</h3><p>Revise os fundamentos e direitos centrais da DUDH antes da prova.</p><iframe src=\"https://www.youtube.com/embed/MEJw-dPU6Kw\" title=\"Declaração Universal dos Direitos Humanos — revisão\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • CADH</span><h3>Pacto de San José da Costa Rica — revisão</h3><p>Complete a revisão comparando o sistema global com o sistema interamericano.</p><iframe src=\"https://www.youtube.com/embed/rHlKBG_XT_s\" title=\"Pacto de San José da Costa Rica — revisão\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a DUDH é de:",
+        "question": "A DUDH é de:",
         "options": [
           "1948.",
           "1969.",
@@ -707,7 +707,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a Convenção Americana foi assinada em:",
+        "question": "A Convenção Americana foi assinada em:",
         "options": [
           "1969.",
           "1948.",
@@ -719,7 +719,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a Convenção Americana integra o sistema:",
+        "question": "A Convenção Americana integra o sistema:",
         "options": [
           "Interamericano.",
           "Europeu.",
@@ -731,7 +731,7 @@ window.direitoLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a respeito da DUDH e da CADH, assinale a alternativa correta.",
+        "question": "A respeito da DUDH e da CADH, assinale a alternativa correta.",
         "options": [
           "A DUDH é marco global de 1948; a CADH, assinada em 1969, integra o sistema interamericano.",
           "Ambas foram assinadas em 1988 e pertencem ao sistema europeu.",
@@ -743,7 +743,7 @@ window.direitoLessons={
         "tip": "1948 = DUDH; 1969 = CADH."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, no sistema interamericano de direitos humanos previsto na CADH, destacam-se:",
+        "question": "No sistema interamericano de direitos humanos previsto na CADH, destacam-se:",
         "options": [
           "Comissão Interamericana e Corte Interamericana de Direitos Humanos.",
           "STF e STJ.",
@@ -755,7 +755,7 @@ window.direitoLessons={
         "tip": "Não misture sistema internacional com órgãos internos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ao comparar DUDH e CADH em uma questão, é incorreto concluir que:",
+        "question": "Ao comparar DUDH e CADH em uma questão, é incorreto concluir que:",
         "options": [
           "são documentos idênticos em natureza, data e sistema institucional.",
           "ambos integram a proteção internacional dos direitos humanos.",
@@ -1003,7 +1003,7 @@ window.direitoLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, é fundamento da República:",
+        "question": "É fundamento da República:",
         "options": [
           "Dignidade da pessoa humana.",
           "Censura.",
@@ -1015,7 +1015,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, todo poder emana:",
+        "question": "Todo poder emana:",
         "options": [
           "Do povo.",
           "Do Judiciário.",
@@ -1027,7 +1027,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o art. 5º protege:",
+        "question": "O art. 5º protege:",
         "options": [
           "Vida, liberdade, igualdade, segurança e propriedade.",
           "Somente propriedade.",
@@ -1039,7 +1039,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, habeas corpus protege:",
+        "question": "Habeas corpus protege:",
         "options": [
           "Liberdade de locomoção.",
           "Direito de propriedade intelectual.",
@@ -1051,7 +1051,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, soberania popular envolve:",
+        "question": "Soberania popular envolve:",
         "options": [
           "Sufrágio universal e voto direto e secreto.",
           "Voto aberto obrigatório.",
@@ -1063,7 +1063,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, lIMPE inclui:",
+        "question": "LIMPE inclui:",
         "options": [
           "Legalidade, impessoalidade, moralidade, publicidade e eficiência.",
           "Legalidade, igualdade, mérito, proteção e ética.",
@@ -1075,7 +1075,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pMs estaduais organizam-se com base em:",
+        "question": "PMs estaduais organizam-se com base em:",
         "options": [
           "Hierarquia e disciplina.",
           "Ausência de hierarquia.",
@@ -1087,7 +1087,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a segurança pública é:",
+        "question": "A segurança pública é:",
         "options": [
           "Dever do Estado, direito e responsabilidade de todos.",
           "Dever apenas municipal.",
@@ -1099,7 +1099,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, à PM cabe:",
+        "question": "À PM cabe:",
         "options": [
           "Polícia ostensiva e preservação da ordem pública.",
           "Julgar crimes.",
@@ -1111,7 +1111,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as Forças Armadas são:",
+        "question": "As Forças Armadas são:",
         "options": [
           "Marinha, Exército e Aeronáutica.",
           "PM, PC e PF.",
@@ -1123,7 +1123,7 @@ window.direitoLessons={
         "tip": "Volte ao texto legal e identifique a regra exata."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a LINDB prevê, salvo regra diversa, vigência após:",
+        "question": "A LINDB prevê, salvo regra diversa, vigência após:",
         "options": [
           "45 dias.",
           "1 dia.",
@@ -1137,3 +1137,27 @@ window.direitoLessons={
     ]
   }
 };
+
+
+/* MISSÃO PMMG — MODO PROVA REAL
+   Evita padrão previsível de gabarito: redistribui a alternativa correta
+   em todas as avaliações sem alterar o conteúdo ou o gabarito factual. */
+(function(){
+  const banco=window.direitoLessons;
+  if(!banco) return;
+  Object.keys(banco).forEach((k,li)=>{
+    const aula=banco[k];
+    if(!aula || !Array.isArray(aula.quiz)) return;
+    aula.quiz.forEach((q,qi)=>{
+      if(!q || !Array.isArray(q.options) || q.options.length<2) return;
+      const correta=q.options[q.answer];
+      const n=q.options.length;
+      const alvo=(li*3 + qi*2 + 1) % n;
+      const restantes=q.options.filter((_,i)=>i!==q.answer);
+      const novas=[]; let r=0;
+      for(let i=0;i<n;i++) novas.push(i===alvo?correta:restantes[r++]);
+      q.options=novas; q.answer=alvo;
+      if(q.tip && /Volte|Revise|leitura|teoria/i.test(q.tip)) q.tip='Elimine as alternativas tecnicamente incompatíveis antes de marcar a resposta.';
+    });
+  });
+})();
