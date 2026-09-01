@@ -1,154 +1,154 @@
-/* MISSÃO PMMG — PORTUGUÊS • PACOTE CONSOLIDADO 2026 • 23 aulas + prova final */
+/* MISSÃO PMMG — PORTUGUÊS • VERSÃO FINAL CORRIGIDA E REAUDITADA • 2026 */
 window.lessons={
   "1": {
     "title": "Interpretação e estudo de texto",
     "subtitle": "Português • Aula 01 • Edital 1.4",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.4 ESTUDO DE TEXTO</div>\n<h3>Objetivo da aula</h3>\n<p>Ao final desta aula, você deverá conseguir distinguir compreensão de interpretação, localizar informações explícitas, produzir inferências legítimas, reconhecer pressupostos e subentendidos, identificar tema, tese, ideia central e finalidade e eliminar alternativas que extrapolam, contradizem ou reduzem indevidamente o texto.</p>\n\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Interpretação e estudo de texto</h3><p>Em prova, interpretar não é dizer o que você pensa sobre o assunto. É reconstruir, com precisão, o sentido autorizado pelo texto.</p></div>\n<h3>1. Compreensão x interpretação</h3>\n<p><b>Compreender</b> é recuperar aquilo que o texto apresenta diretamente: fatos, relações, dados, personagens, circunstâncias e afirmações. <b>Interpretar</b> exige relacionar essas informações e chegar a uma conclusão que o texto autoriza, mesmo que ela não esteja escrita literalmente.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Quando Henrique saiu do prédio, as calçadas estavam molhadas e várias pessoas fechavam os guarda-chuvas.” O texto não afirma literalmente que choveu, mas essa é uma inferência fortemente sustentada pelas pistas. Já afirmar que “Henrique odeia chuva” seria extrapolação.</div>\n\n<h3>2. Informação explícita, implícita, pressuposto e subentendido</h3>\n<p><b>Explícita:</b> aparece diretamente no enunciado. <b>Implícita:</b> precisa ser reconstruída. <b>Pressuposto:</b> informação tomada como anterior ou necessária para que determinada construção faça sentido. <b>Subentendido:</b> sentido sugerido pelo contexto e pela intenção comunicativa, geralmente mais dependente da situação.</p>\n<div class=\"lesson-example\"><b>Exemplo de pressuposto:</b> “Marina voltou a estudar para concursos.” O verbo <i>voltou</i> pressupõe que Marina estudava antes e interrompeu essa atividade em algum momento.</div>\n\n<h3>3. Assunto, tema, ideia central e tese</h3>\n<p>O <b>assunto</b> é o campo geral abordado. O <b>tema</b> é o recorte específico desenvolvido. A <b>ideia central</b> sintetiza o que o texto comunica sobre esse tema. Em textos argumentativos, a <b>tese</b> é a posição defendida pelo autor.</p>\n<p>Uma alternativa pode mencionar o mesmo assunto do texto e ainda assim estar errada porque apresenta um tema mais amplo, mais restrito ou uma conclusão que o autor não sustenta.</p>\n\n<h3>4. Finalidade e intenção comunicativa</h3>\n<p>Pergunte: <b>para que este texto foi produzido?</b> Ele pretende informar, explicar, orientar, persuadir, criticar, advertir, ironizar, narrar ou provocar reflexão? A finalidade deve ser inferida pela combinação entre gênero, linguagem, organização e conteúdo.</p>\n\n<h3>5. Relações lógicas que mudam o sentido</h3>\n<p>Conectivos são pistas decisivas. <b>Mas, porém, contudo</b> introduzem contraste; <b>portanto, logo</b> apontam conclusão; <b>porque, visto que</b> podem indicar causa/explicação; <b>embora, ainda que</b> introduzem concessão. Ignorar essas relações é uma das formas mais comuns de errar interpretação.</p>\n\n<h3>6. Armadilhas de alternativa</h3>\n<ul><li><b>Extrapolação:</b> acrescenta informação que o texto não permite concluir.</li><li><b>Contradição:</b> afirma o contrário do texto.</li><li><b>Redução:</b> transforma uma ideia ampla em algo indevidamente restrito.</li><li><b>Generalização:</b> troca “alguns/pode/frequentemente” por “todos/sempre/necessariamente”.</li><li><b>Meia verdade:</b> começa corretamente e termina com uma conclusão incompatível.</li></ul>\n\n<div class=\"lesson-example\"><b>Estratégia de prova:</b> para cada alternativa, pergunte “qual trecho ou relação textual prova isso?”. Se você não consegue apontar evidência, trate a alternativa com desconfiança.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: a alternativa correta precisa caber no texto inteiro, não apenas combinar com uma frase isolada.</div>\n<div class=\"written-check-v647\"><b>🎯 O que você precisa dominar:</b><ul><li>explícito x implícito;</li><li>inferência x extrapolação;</li><li>pressuposto x subentendido;</li><li>assunto, tema, ideia central e tese;</li><li>finalidade comunicativa;</li><li>efeito dos conectivos e modalizadores.</li></ul></div>\n</section>\n\n<div class=\"lesson-example\"><b>⚠️ CUIDADO NA PROVA:</b> palavras absolutas como <i>sempre, nunca, exclusivamente, todos, somente</i> podem transformar uma afirmação moderada do texto em uma generalização falsa. Não elimine automaticamente, mas confira se o texto realmente autoriza esse grau de certeza.</div>\n\n<div class=\"video-lesson\"><span>🎥 VIDEOAULA 1 • FOCO PMMG</span><h3>Português para PMMG — visão geral</h3><p>Videoaula já presente na sua trilha, mantida como introdução direcionada ao concurso.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>\n<div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • TEORIA + ESTRATÉGIA</span><h3>Interpretação de textos para concurso</h3><p>Técnicas práticas de leitura e resolução de questões de interpretação.</p><iframe src=\"https://www.youtube.com/embed/22iA3PPjr7c\" title=\"Interpretação de textos para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<div class=\"video-lesson\"><span>🎥 VIDEOAULA 3 • APROFUNDAMENTO</span><h3>Compreensão e interpretação de gêneros variados</h3><p>Reforço de contexto, inferência, hipóteses e construção do sentido.</p><iframe src=\"https://www.youtube.com/embed/ptbiYTNF_i4\" title=\"Compreensão e interpretação de textos\" allowfullscreen loading=\"lazy\"></iframe></div>\n\n<div class=\"gold-rule\">🧠 REVISÃO RÁPIDA: texto primeiro; opinião depois. Localize evidências, observe conectivos, controle o grau de certeza e elimine qualquer alternativa que acrescente algo não autorizado.</div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de leitura inferencial</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>tema, ideia principal, finalidade, pressupostos e limites da inferência</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Tema, ideia principal, finalidade, pressupostos e limites da inferência. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar interpretação e estudo de texto.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.4 ESTUDO DE TEXTO</div>\n<h3>Objetivo da aula</h3>\n<p>Ao final desta aula, você deverá conseguir distinguir compreensão de interpretação, localizar informações explícitas, produzir inferências legítimas, reconhecer pressupostos e subentendidos, identificar tema, tese, ideia central e finalidade e eliminar alternativas que extrapolam, contradizem ou reduzem indevidamente o texto.</p>\n\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Interpretação e estudo de texto</h3><p>Em prova, interpretar não é dizer o que você pensa sobre o assunto. É reconstruir, com precisão, o sentido autorizado pelo texto.</p></div>\n<h3>1. Compreensão x interpretação</h3>\n<p><b>Compreender</b> é recuperar aquilo que o texto apresenta diretamente: fatos, relações, dados, personagens, circunstâncias e afirmações. <b>Interpretar</b> exige relacionar essas informações e chegar a uma conclusão que o texto autoriza, mesmo que ela não esteja escrita literalmente.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Quando Henrique saiu do prédio, as calçadas estavam molhadas e várias pessoas fechavam os guarda-chuvas.” O texto não afirma literalmente que choveu, mas essa é uma inferência fortemente sustentada pelas pistas. Já afirmar que “Henrique odeia chuva” seria extrapolação.</div>\n\n<h3>2. Informação explícita, implícita, pressuposto e subentendido</h3>\n<p><b>Explícita:</b> aparece diretamente no enunciado. <b>Implícita:</b> precisa ser reconstruída. <b>Pressuposto:</b> informação tomada como anterior ou necessária para que determinada construção faça sentido. <b>Subentendido:</b> sentido sugerido pelo contexto e pela intenção comunicativa, geralmente mais dependente da situação.</p>\n<div class=\"lesson-example\"><b>Exemplo de pressuposto:</b> “Marina voltou a estudar para concursos.” O verbo <i>voltou</i> pressupõe que Marina estudava antes e interrompeu essa atividade em algum momento.</div>\n\n<h3>3. Assunto, tema, ideia central e tese</h3>\n<p>O <b>assunto</b> é o campo geral abordado. O <b>tema</b> é o recorte específico desenvolvido. A <b>ideia central</b> sintetiza o que o texto comunica sobre esse tema. Em textos argumentativos, a <b>tese</b> é a posição defendida pelo autor.</p>\n<p>Uma alternativa pode mencionar o mesmo assunto do texto e ainda assim estar errada porque apresenta um tema mais amplo, mais restrito ou uma conclusão que o autor não sustenta.</p>\n\n<h3>4. Finalidade e intenção comunicativa</h3>\n<p>Pergunte: <b>para que este texto foi produzido?</b> Ele pretende informar, explicar, orientar, persuadir, criticar, advertir, ironizar, narrar ou provocar reflexão? A finalidade deve ser inferida pela combinação entre gênero, linguagem, organização e conteúdo.</p>\n\n<h3>5. Relações lógicas que mudam o sentido</h3>\n<p>Conectivos são pistas decisivas. <b>Mas, porém, contudo</b> introduzem contraste; <b>portanto, logo</b> apontam conclusão; <b>porque, visto que</b> podem indicar causa/explicação; <b>embora, ainda que</b> introduzem concessão. Ignorar essas relações é uma das formas mais comuns de errar interpretação.</p>\n\n<h3>6. Armadilhas de alternativa</h3>\n<ul><li><b>Extrapolação:</b> acrescenta informação que o texto não permite concluir.</li><li><b>Contradição:</b> afirma o contrário do texto.</li><li><b>Redução:</b> transforma uma ideia ampla em algo indevidamente restrito.</li><li><b>Generalização:</b> troca “alguns/pode/frequentemente” por “todos/sempre/necessariamente”.</li><li><b>Meia verdade:</b> começa corretamente e termina com uma conclusão incompatível.</li></ul>\n\n<div class=\"lesson-example\"><b>Estratégia de prova:</b> para cada alternativa, pergunte “qual trecho ou relação textual prova isso?”. Se você não consegue apontar evidência, trate a alternativa com desconfiança.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: a alternativa correta precisa caber no texto inteiro, não apenas combinar com uma frase isolada.</div>\n<div class=\"written-check-v647\"><b>🎯 O que você precisa dominar:</b><ul><li>explícito x implícito;</li><li>inferência x extrapolação;</li><li>pressuposto x subentendido;</li><li>assunto, tema, ideia central e tese;</li><li>finalidade comunicativa;</li><li>efeito dos conectivos e modalizadores.</li></ul></div>\n</section>\n\n<div class=\"lesson-example\"><b>⚠️ CUIDADO NA PROVA:</b> palavras absolutas como <i>sempre, nunca, exclusivamente, todos, somente</i> podem transformar uma afirmação moderada do texto em uma generalização falsa. Não elimine automaticamente, mas confira se o texto realmente autoriza esse grau de certeza.</div>\n\n<div class=\"video-lesson\"><span>🎥 VIDEOAULA 1 • FOCO PMMG</span><h3>Português para PMMG — visão geral</h3><p>Videoaula já presente na sua trilha, mantida como introdução direcionada ao concurso.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>\n<div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • TEORIA + ESTRATÉGIA</span><h3>Interpretação de textos para concurso</h3><p>Técnicas práticas de leitura e resolução de questões de interpretação.</p><iframe src=\"https://www.youtube.com/embed/22iA3PPjr7c\" title=\"Interpretação de textos para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n\n\n<div class=\"gold-rule\">🧠 REVISÃO RÁPIDA: texto primeiro; opinião depois. Localize evidências, observe conectivos, controle o grau de certeza e elimine qualquer alternativa que acrescente algo não autorizado.</div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Leitura inferencial</h3><p>Foco desta etapa: <b>evidência textual, inferência, pressuposto, tese e finalidade</b>.</p></div><h3>Como resolver este assunto</h3><p>Localize a evidência antes de aceitar uma conclusão.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Não transforme possibilidade em certeza.</div></section>",
     "quiz": [
       {
-        "question": "Leia: “A prefeitura ampliou a iluminação da praça. Nas semanas seguintes, moradores passaram a permanecer no local até mais tarde. O relatório, porém, não registrou alteração no número de ocorrências policiais.” Com base apenas no trecho, assinale a conclusão correta.",
+        "question": "Leia: “O município instalou novos pontos de iluminação. Depois disso, aumentou o movimento noturno na praça, mas o relatório policial registrou o mesmo número de ocorrências.” Qual conclusão é autorizada pelo trecho?",
         "options": [
-          "A ampliação da iluminação eliminou a criminalidade na praça.",
-          "A permanência dos moradores aumentou, mas o trecho não permite atribuir mudança nas ocorrências à iluminação.",
-          "O número de ocorrências policiais necessariamente aumentou após a obra.",
-          "Os moradores permaneciam mais tarde porque a polícia passou a patrulhar o local."
+          "A nova iluminação eliminou a criminalidade da praça.",
+          "A iluminação provocou aumento das ocorrências policiais.",
+          "O aumento de movimento ocorreu porque houve reforço policial.",
+          "O movimento noturno aumentou, sem que o texto comprove mudança no número de ocorrências."
+        ],
+        "answer": 3,
+        "explanation": "O trecho informa aumento de movimento e estabilidade no número registrado de ocorrências, mas não estabelece relação causal além disso.",
+        "tip": "Separe fatos expressos de causas apenas imaginadas."
+      },
+      {
+        "question": "Em “Marina voltou a estudar para o concurso”, qual informação é pressuposta?",
+        "options": [
+          "Marina nunca havia estudado para concursos.",
+          "Marina estudava anteriormente e, em algum momento, interrompeu os estudos.",
+          "Marina foi aprovada no concurso anterior.",
+          "Marina passou a estudar exclusivamente à noite."
         ],
         "answer": 1,
-        "explanation": "O texto informa aumento da permanência e ausência de alteração registrada nas ocorrências. Não estabelece causalidade sobre criminalidade nem menciona patrulhamento.",
-        "tip": "Separe fato textual de relação causal inventada."
+        "explanation": "O verbo “voltar” pressupõe uma atividade anterior que havia sido interrompida.",
+        "tip": "Procure informações necessárias para que a construção faça sentido."
       },
       {
-        "question": "Em “Carlos deixou de reclamar do horário”, qual informação é pressuposta pela construção verbal?",
+        "question": "Leia: “Embora o atendimento tenha ficado mais rápido, parte dos usuários ainda o considera insuficiente.” A relação introduzida por “embora” é de:",
         "options": [
-          "Carlos nunca reclamou do horário.",
-          "Carlos reclamava do horário anteriormente.",
-          "O horário foi alterado obrigatoriamente.",
-          "Carlos concorda plenamente com o horário atual."
+          "causa.",
+          "concessão.",
+          "conclusão.",
+          "condição."
         ],
         "answer": 1,
-        "explanation": "A expressão “deixou de” pressupõe que a ação ocorria antes e cessou. As demais conclusões não são necessárias.",
-        "tip": "Pressuposto é uma informação necessária para a construção fazer sentido."
+        "explanation": "A oração concessiva reconhece um fato que não impede a validade da informação principal.",
+        "tip": "Concessão equivale a uma ideia do tipo “apesar de”."
       },
       {
-        "question": "Leia: “Embora a medida tenha reduzido o tempo de espera, parte dos usuários ainda considera o atendimento insuficiente.” A relação estabelecida por “embora” indica:",
+        "question": "Um texto afirma que “a tecnologia pode favorecer a aprendizagem quando integrada a um planejamento pedagógico”. Qual alternativa extrapola a afirmação?",
         "options": [
-          "causa que explica a insatisfação dos usuários.",
-          "conclusão decorrente da redução do tempo.",
-          "concessão: reconhece-se um resultado positivo sem eliminar uma avaliação negativa.",
-          "condição necessária para que o atendimento seja considerado suficiente."
-        ],
-        "answer": 2,
-        "explanation": "“Embora” é conectivo concessivo. O texto admite a redução do tempo, mas contrapõe a persistência de avaliação negativa.",
-        "tip": "Concessão = um fato é reconhecido, mas não impede o outro."
-      },
-      {
-        "question": "Um texto defende que “o uso de tecnologia pode melhorar o ensino quando acompanhado de planejamento pedagógico”. Qual alternativa extrapola essa tese?",
-        "options": [
-          "A tecnologia, isoladamente, garante melhoria da aprendizagem em qualquer contexto.",
-          "O planejamento pedagógico é apresentado como condição relevante para o uso produtivo da tecnologia.",
-          "O autor admite potencial positivo da tecnologia no ensino.",
-          "A formulação do texto não autoriza afirmar que toda tecnologia produz bons resultados."
+          "Toda tecnologia melhora necessariamente a aprendizagem, independentemente de planejamento.",
+          "O benefício apresentado é condicionado à integração pedagógica.",
+          "O autor admite que a tecnologia pode ter efeito positivo.",
+          "A frase não garante benefício em qualquer contexto."
         ],
         "answer": 0,
-        "explanation": "O texto usa “pode” e condiciona o benefício ao planejamento. A alternativa A converte possibilidade condicionada em garantia universal.",
-        "tip": "Observe modalizadores: “pode” não significa “sempre”."
+        "explanation": "A alternativa transforma uma possibilidade condicionada em uma regra universal.",
+        "tip": "Desconfie de absolutos quando o texto usa modalização."
       },
       {
-        "question": "Leia: “O programa foi criado para reduzir desperdícios. Em seis meses, o consumo caiu 8%, resultado considerado inicial pelos gestores.” A ideia central mais adequada é:",
+        "question": "Leia: “O programa foi criado para reduzir desperdícios e, em seis meses, diminuiu o consumo em 8%, índice tratado como inicial pelos gestores.” A ideia central é:",
         "options": [
-          "O programa fracassou porque reduziu apenas 8% do consumo.",
-          "Os gestores pretendem encerrar o programa após seis meses.",
+          "O programa fracassou porque a redução foi pequena.",
           "O programa busca reduzir desperdícios e apresentou uma redução inicial de consumo.",
-          "A redução de 8% prova que não havia desperdício antes do programa."
+          "Os gestores decidiram encerrar o programa.",
+          "A redução prova que antes não havia desperdício."
         ],
-        "answer": 2,
-        "explanation": "A alternativa C reúne finalidade e resultado sem acrescentar julgamento inexistente. “Inicial” não equivale a fracasso nem implica encerramento.",
-        "tip": "A ideia central deve sintetizar sem exagerar."
+        "answer": 1,
+        "explanation": "A síntese correta reúne finalidade e resultado sem acrescentar julgamento não expresso.",
+        "tip": "Ideia central deve condensar o texto sem exagerar."
       },
       {
-        "question": "Considere: “Nem todo candidato que estuda muitas horas estuda de modo eficiente.” Qual paráfrase preserva o sentido lógico?",
+        "question": "Considere: “Nem todo candidato que estuda muitas horas estuda de modo eficiente.” Qual paráfrase preserva o sentido?",
         "options": [
           "Nenhum candidato que estuda muitas horas é eficiente.",
-          "Todos os candidatos que estudam muitas horas são ineficientes.",
-          "Há candidatos que estudam muitas horas sem estudar de modo eficiente.",
-          "Estudar muitas horas impede necessariamente a eficiência."
+          "Há candidatos que estudam muitas horas, mas não estudam de modo eficiente.",
+          "Todos os candidatos que estudam muito são ineficientes.",
+          "Estudar muitas horas impede a eficiência."
         ],
-        "answer": 2,
-        "explanation": "“Nem todo A é B” equivale a afirmar que pelo menos um A não é B. As demais alternativas universalizam indevidamente.",
-        "tip": "Cuidado com a transformação de quantificadores."
+        "answer": 1,
+        "explanation": "“Nem todo A é B” significa que pelo menos um elemento de A não pertence a B.",
+        "tip": "Controle quantificadores."
       },
       {
-        "question": "Em uma reportagem, após apresentar dados de aumento de acidentes, o autor escreve: “Por isso, especialistas defendem maior fiscalização nas vias.” A expressão “Por isso” introduz:",
+        "question": "Em “Os dados são preliminares; portanto, uma conclusão definitiva seria precipitada”, “portanto” introduz:",
         "options": [
-          "uma consequência/conclusão construída a partir da informação anterior.",
-          "uma oposição aos dados apresentados.",
-          "uma condição hipotética sem relação com os acidentes.",
-          "uma retificação que anula a informação anterior."
+          "uma oposição.",
+          "uma conclusão derivada da informação anterior.",
+          "uma explicação da palavra “dados”.",
+          "uma condição hipotética."
         ],
-        "answer": 0,
-        "explanation": "“Por isso” retoma o dado anterior e introduz uma consequência argumentativa: diante do aumento, especialistas defendem fiscalização.",
-        "tip": "Mapeie o conectivo antes de interpretar o período."
+        "answer": 1,
+        "explanation": "O conectivo liga a premissa à conclusão argumentativa.",
+        "tip": "Mapeie o valor lógico do conectivo."
       },
       {
-        "question": "Leia: “A biblioteca passou a abrir aos domingos. A mudança agradou especialmente aos trabalhadores que não conseguiam frequentá-la durante a semana.” Qual inferência é autorizada?",
+        "question": "Leia: “A biblioteca passou a abrir aos domingos. A mudança agradou sobretudo aos trabalhadores que não conseguiam frequentá-la durante a semana.” Qual inferência é legítima?",
         "options": [
           "Todos os trabalhadores trabalham de segunda a sábado.",
-          "Antes da mudança, ao menos parte desses trabalhadores tinha dificuldade de acesso por incompatibilidade de horário.",
-          "A biblioteca ficava fechada durante toda a semana.",
-          "A abertura aos domingos foi exigida judicialmente pelos trabalhadores."
+          "Ao menos parte desses trabalhadores tinha dificuldade de acesso em dias úteis.",
+          "A biblioteca permanecia fechada durante toda a semana.",
+          "A abertura de domingo foi determinada judicialmente."
         ],
         "answer": 1,
-        "explanation": "A segunda frase permite inferir dificuldade anterior de acesso para parte dos trabalhadores. As outras opções acrescentam informações inexistentes ou absolutas.",
-        "tip": "Inferência válida usa pistas suficientes e não inventa circunstâncias."
+        "explanation": "A dificuldade de frequentar a biblioteca durante a semana está indicada para parte dos trabalhadores.",
+        "tip": "Prefira a inferência mínima sustentada."
       },
       {
-        "question": "Um candidato lê um artigo crítico ao desperdício de água e marca como finalidade “ensinar, passo a passo, a instalar um sistema hidráulico”. O erro principal foi:",
+        "question": "Um artigo critica o desperdício de água. Marcar como finalidade “ensinar a instalar uma tubulação” seria erro porque:",
         "options": [
-          "confundir finalidade comunicativa com um possível assunto relacionado ao tema.",
-          "considerar que textos críticos podem apresentar argumentos.",
-          "identificar que o texto trata de água.",
-          "procurar a intenção do autor."
+          "confunde o assunto geral com uma finalidade que o texto não apresenta.",
+          "todo texto crítico é necessariamente narrativo.",
+          "um texto sobre água não pode orientar o leitor.",
+          "a finalidade textual nunca depende do modo como o assunto é desenvolvido."
         ],
         "answer": 0,
-        "explanation": "Tratar de desperdício de água não transforma o texto em manual de instalação. A finalidade decorre do modo como o assunto é desenvolvido.",
-        "tip": "Assunto responde “sobre o quê?”; finalidade responde “para quê?”."
+        "explanation": "Tratar de água não torna o texto um manual.",
+        "tip": "Pergunte “sobre o quê?” e “para quê?”."
       },
       {
-        "question": "Leia: “O projeto não resolveu todos os problemas do bairro, mas criou um canal permanente de diálogo entre moradores e poder público.” Assinale a alternativa compatível com o texto.",
+        "question": "Leia: “O projeto não resolveu todos os problemas do bairro, mas criou um canal permanente de diálogo.” A interpretação adequada é:",
         "options": [
           "O projeto foi completamente inútil.",
-          "O projeto solucionou todos os problemas relevantes.",
-          "Apesar de suas limitações, o projeto produziu ao menos um resultado positivo.",
-          "O canal de diálogo já existia antes do projeto."
+          "O projeto solucionou todos os problemas.",
+          "O canal de diálogo já existia antes do projeto.",
+          "O projeto teve limitações, mas produziu ao menos um resultado positivo."
         ],
-        "answer": 2,
-        "explanation": "O conectivo “mas” contrapõe a limitação inicial a um resultado positivo: a criação do canal permanente.",
-        "tip": "Em estruturas adversativas, a informação posterior ao “mas” costuma ter forte peso argumentativo."
+        "answer": 3,
+        "explanation": "O “mas” contrapõe a limitação inicial ao resultado positivo.",
+        "tip": "Observe o peso argumentativo da adversativa."
       },
       {
-        "question": "Em “Até os servidores mais experientes tiveram dúvidas”, o emprego de “até” sugere que:",
+        "question": "Em “Até os servidores mais experientes tiveram dúvidas”, “até” sugere que:",
         "options": [
-          "somente os servidores experientes tiveram dúvidas.",
-          "era pouco esperado que os mais experientes também tivessem dúvidas.",
-          "os servidores menos experientes não tiveram dúvida alguma.",
-          "a experiência profissional é inútil em qualquer situação."
+          "somente os mais experientes tiveram dúvidas.",
+          "havia expectativa de que os mais experientes tivessem menor probabilidade de apresentar dúvidas.",
+          "os menos experientes não tiveram dúvida alguma.",
+          "experiência profissional é inútil."
         ],
         "answer": 1,
-        "explanation": "“Até” introduz elemento considerado menos esperado numa escala implícita. Não exclui dúvidas entre os menos experientes.",
-        "tip": "Certas palavras carregam pressupostos e efeitos argumentativos."
+        "explanation": "“Até” inclui elemento menos esperado numa escala implícita.",
+        "tip": "Palavras pequenas podem carregar pressupostos."
       },
       {
-        "question": "Leia: “Os dados são preliminares; portanto, qualquer conclusão definitiva seria precipitada.” Qual alternativa contradiz diretamente o trecho?",
+        "question": "Leia: “Os dados são preliminares, e novas medições serão realizadas.” Qual alternativa contradiz o trecho?",
         "options": [
-          "Os dados ainda não justificam uma conclusão definitiva.",
-          "O caráter preliminar recomenda cautela interpretativa.",
-          "Já é possível estabelecer, com segurança, uma conclusão final.",
-          "O autor distingue dados iniciais de conclusão definitiva."
+          "Ainda haverá novas medições.",
+          "Os dados atuais não encerram a análise.",
+          "O caráter preliminar recomenda cautela.",
+          "Os resultados já permitem uma conclusão final e incontestável."
         ],
-        "answer": 2,
-        "explanation": "O texto afirma expressamente que uma conclusão definitiva seria precipitada; a alternativa C sustenta o contrário.",
-        "tip": "Contradição costuma ser mais fácil de eliminar quando você reescreve a tese em palavras simples."
+        "answer": 3,
+        "explanation": "A certeza definitiva contradiz a natureza preliminar dos dados.",
+        "tip": "Reescreva a informação central para localizar contradição."
       }
     ]
   },
@@ -156,151 +156,151 @@ window.lessons={
     "title": "Ideia principal, inferência e argumentação",
     "subtitle": "Português • Aula 02 • Edital 1.2 e 1.4",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.2 ARGUMENTOS + 1.4 ESTUDO DE TEXTO</div>\n<h3>Ideia principal</h3><p>A ideia principal é a mensagem central que organiza as demais informações. Detalhes, exemplos e dados servem para desenvolver ou sustentar essa ideia.</p>\n<h3>Tese e argumento</h3><p>Em texto argumentativo, a <b>tese</b> é o ponto de vista defendido. <b>Argumentos</b> são razões, dados, exemplos ou relações lógicas usados para sustentá-la.</p>\n<h3>Pertinência e relevância</h3><p>Um argumento é pertinente quando se relaciona diretamente à tese. É relevante quando contribui de modo importante para sustentá-la.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> tese: “A leitura diária deve ser estimulada.” Um dado sobre ampliação de vocabulário é pertinente; a cor da capa de um livro, em regra, não é.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: se retirar um detalhe e a mensagem central continuar intacta, provavelmente era informação secundária.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Ideia principal, inferência e argumentação</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Ideia principal não é apenas o assunto</h3><p>Um texto pode ter como assunto 'segurança pública', mas sua ideia principal pode ser 'a aproximação entre polícia e comunidade melhora a prevenção'. O assunto nomeia o campo; a ideia principal expressa a mensagem central desenvolvida.</p><p>Para localizar a ideia principal, observe o título, a introdução, repetições de palavras, conclusão e relações entre parágrafos. Em textos argumentativos, pergunte qual posição o autor pretende sustentar.</p><h3>Inferência: conclusão controlada pelo texto</h3><p>Inferir é completar uma informação a partir de sinais. Se o texto afirma que uma pessoa saiu com guarda-chuva, o céu estava escuro e começou a trovejar, pode-se inferir possibilidade de chuva. Não se pode afirmar, sem outra pista, que a pessoa tem medo de chuva.</p><p>Em prova, desconfie de inferências exageradas. A correta costuma ser a conclusão mínima necessária para explicar as pistas.</p><h3>Argumentação e tese</h3><p>A tese é a posição central defendida. Argumentos são razões, exemplos, dados, comparações ou relações causais usados para sustentá-la. Contra-argumentos apresentam uma objeção que pode ser aceita, refutada ou relativizada.</p><p>Conectivos ajudam a mapear a argumentação: 'porque' costuma introduzir causa ou justificativa; 'portanto' aponta conclusão; 'porém' cria contraste; 'além disso' acrescenta argumento.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>separar assunto de ideia principal</li><li>encontrar a tese em texto argumentativo</li><li>identificar uma inferência exagerada</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • INFERÊNCIA E INTERPRETAÇÃO</span><h3>Compreensão e interpretação de textos para concursos</h3><p>Aula de apoio com inferências, contexto e compreensão textual.</p><iframe src=\"https://www.youtube.com/embed/ptbiYTNF_i4\" title=\"Inferência e interpretação de textos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de ideia principal e argumentação</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>tese, argumentos, evidências, pressupostos, conclusão e relações lógicas</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Tese, argumentos, evidências, pressupostos, conclusão e relações lógicas. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar ideia principal, inferência e argumentação.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar ideia principal, inferência e argumentação.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.2 ARGUMENTOS + 1.4 ESTUDO DE TEXTO</div>\n<h3>Ideia principal</h3><p>A ideia principal é a mensagem central que organiza as demais informações. Detalhes, exemplos e dados servem para desenvolver ou sustentar essa ideia.</p>\n<h3>Tese e argumento</h3><p>Em texto argumentativo, a <b>tese</b> é o ponto de vista defendido. <b>Argumentos</b> são razões, dados, exemplos ou relações lógicas usados para sustentá-la.</p>\n<h3>Pertinência e relevância</h3><p>Um argumento é pertinente quando se relaciona diretamente à tese. É relevante quando contribui de modo importante para sustentá-la.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> tese: “A leitura diária deve ser estimulada.” Um dado sobre ampliação de vocabulário é pertinente; a cor da capa de um livro, em regra, não é.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: se retirar um detalhe e a mensagem central continuar intacta, provavelmente era informação secundária.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Ideia principal, inferência e argumentação</h3></div><h3>Ideia principal não é apenas o assunto</h3><p>Um texto pode ter como assunto 'segurança pública', mas sua ideia principal pode ser 'a aproximação entre polícia e comunidade melhora a prevenção'. O assunto nomeia o campo; a ideia principal expressa a mensagem central desenvolvida.</p><p>Para localizar a ideia principal, observe o título, a introdução, repetições de palavras, conclusão e relações entre parágrafos. Em textos argumentativos, pergunte qual posição o autor pretende sustentar.</p><h3>Inferência: conclusão controlada pelo texto</h3><p>Inferir é completar uma informação a partir de sinais. Se o texto afirma que uma pessoa saiu com guarda-chuva, o céu estava escuro e começou a trovejar, pode-se inferir possibilidade de chuva. Não se pode afirmar, sem outra pista, que a pessoa tem medo de chuva.</p><p>Em prova, desconfie de inferências exageradas. A correta costuma ser a conclusão mínima necessária para explicar as pistas.</p><h3>Argumentação e tese</h3><p>A tese é a posição central defendida. Argumentos são razões, exemplos, dados, comparações ou relações causais usados para sustentá-la. Contra-argumentos apresentam uma objeção que pode ser aceita, refutada ou relativizada.</p><p>Conectivos ajudam a mapear a argumentação: 'porque' costuma introduzir causa ou justificativa; 'portanto' aponta conclusão; 'porém' cria contraste; 'além disso' acrescenta argumento.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>separar assunto de ideia principal</li><li>encontrar a tese em texto argumentativo</li><li>identificar uma inferência exagerada</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • INFERÊNCIA E INTERPRETAÇÃO</span><h3>Compreensão e interpretação de textos para concursos</h3><p>Aula de apoio com inferências, contexto e compreensão textual.</p><iframe src=\"https://www.youtube.com/embed/ptbiYTNF_i4\" title=\"Inferência e interpretação de textos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Argumentação</h3><p>Foco desta etapa: <b>tese, pertinência, evidência, contra-argumento e generalização</b>.</p></div><h3>Como resolver este assunto</h3><p>Separe tese de justificativa e teste a pertinência dos argumentos.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Correlação não prova causalidade.</div></section>",
     "quiz": [
       {
-        "question": "Em um texto argumentativo, tese é:",
+        "question": "Leia: “A ampliação do transporte coletivo reduzirá congestionamentos, pois permitirá que parte dos motoristas deixe o automóvel em casa.” A oração introduzida por “pois” funciona como:",
         "options": [
-          "A assinatura do autor.",
-          "Tem relação direta com a tese.",
-          "Um exemplo sem relação com o tema.",
-          "O ponto de vista central defendido."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “O ponto de vista central defendido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Um argumento pertinente é aquele que:",
-        "options": [
-          "O ponto de vista central defendido.",
-          "É sempre longo.",
-          "Usa palavras difíceis.",
-          "Tem relação direta com a tese."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Tem relação direta com a tese.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Dados estatísticos podem funcionar como:",
-        "options": [
-          "Título obrigatório.",
-          "Pontuação.",
-          "Erro de coerência.",
-          "Argumentos de sustentação."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Argumentos de sustentação.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A ideia principal de um parágrafo corresponde:",
-        "options": [
-          "A uma informação externa.",
-          "Um exemplo sem relação com o tema.",
-          "O ponto de vista central defendido.",
-          "À mensagem central desenvolvida."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “À mensagem central desenvolvida.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Qual elemento costuma ser secundário?",
-        "options": [
-          "A tese do texto.",
-          "A ideia central.",
-          "Um exemplo usado para ilustrar a tese.",
-          "O ponto de vista central defendido."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Um exemplo usado para ilustrar a tese.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Inferir significa:",
-        "options": [
-          "Ignorar o texto.",
-          "O ponto de vista central defendido.",
-          "Concluir a partir de pistas.",
-          "Um exemplo sem relação com o tema."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Concluir a partir de pistas.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em uma argumentação, a afirmação central que o autor procura sustentar denomina-se:",
-        "options": [
-          "digressão.",
-          "exemplo.",
-          "vocativo.",
-          "tese."
-        ],
-        "answer": 3,
-        "explanation": "Tese é a proposição central defendida por razões, dados ou exemplos.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Um dado estatístico empregado para sustentar uma opinião funciona, em regra, como:",
-        "options": [
-          "evidência argumentativa.",
-          "marcador de vocativo.",
-          "figura exclusivamente sonora.",
-          "sujeito oculto."
-        ],
-        "answer": 0,
-        "explanation": "Dados podem conferir sustentação empírica ao argumento.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "A expressão “portanto” tende a introduzir:",
-        "options": [
-          "oposição semântica.",
-          "causa anterior obrigatória.",
-          "condição hipotética.",
-          "conclusão decorrente do raciocínio anterior."
-        ],
-        "answer": 3,
-        "explanation": "“Portanto” é conector tipicamente conclusivo.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Se o autor reconhece uma objeção e depois a rebate, essa estratégia busca:",
-        "options": [
-          "eliminar toda relação lógica.",
-          "transformar o texto em descrição.",
-          "fortalecer a tese ao enfrentar um argumento contrário.",
-          "impedir a progressão temática."
-        ],
-        "answer": 2,
-        "explanation": "A contra-argumentação antecipa ou responde a posições adversárias.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em “Embora a medida seja cara, seus resultados justificam o investimento”, a primeira oração introduz ideia de:",
-        "options": [
-          "finalidade.",
-          "concessão.",
-          "conclusão.",
-          "adição."
+          "ressalva que enfraquece a tese.",
+          "justificativa para a relação defendida na afirmação anterior.",
+          "conclusão sem relação com a primeira oração.",
+          "exemplo que contradiz a tese."
         ],
         "answer": 1,
-        "explanation": "“Embora” introduz circunstância concessiva: um fato que poderia contrariar, mas não impede a conclusão.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A segunda oração apresenta a razão usada para sustentar a previsão.",
+        "tip": "Identifique a função argumentativa."
       },
       {
-        "question": "Uma inferência argumentativa é inadequada quando:",
+        "question": "Uma pesquisa mostra redução de 18% nos acidentes após determinada intervenção. Para usar esse dado com rigor, o autor deve:",
         "options": [
-          "respeita as restrições do texto.",
-          "decorre logicamente das informações apresentadas.",
-          "considera os conectores empregados.",
-          "atribui ao autor uma conclusão mais forte do que as premissas permitem."
+          "relacioná-lo à tese e considerar as condições em que foi produzido.",
+          "tratá-lo como prova universal para qualquer cidade.",
+          "dispensar todas as demais evidências.",
+          "substituí-lo por opinião pessoal."
+        ],
+        "answer": 0,
+        "explanation": "Dados sustentam uma tese quando pertinentes e interpretados dentro de seus limites.",
+        "tip": "Evidência forte não é prova universal."
+      },
+      {
+        "question": "Leia: “A leitura diária deve ser estimulada porque amplia o contato com diferentes estruturas linguísticas.” A tese é:",
+        "options": [
+          "Diferentes estruturas linguísticas existem.",
+          "O contato linguístico ocorre diariamente.",
+          "A leitura diária deve ser estimulada.",
+          "Toda leitura é obrigatoriamente literária."
+        ],
+        "answer": 2,
+        "explanation": "A tese é a proposição defendida; a oração causal apresenta justificativa.",
+        "tip": "Separe tese de justificativa."
+      },
+      {
+        "question": "Qual argumento é mais pertinente para sustentar “programas de prevenção reduzem acidentes de trânsito”?",
+        "options": [
+          "Uma série histórica que compare acidentes antes e depois da implantação dos programas.",
+          "A cor predominante dos veículos.",
+          "A quantidade de letras no nome do programa.",
+          "A preferência musical dos motoristas."
+        ],
+        "answer": 0,
+        "explanation": "O argumento tem relação direta e oferece evidência relevante.",
+        "tip": "Pertinência é ligação efetiva com a tese."
+      },
+      {
+        "question": "Leia: “O novo sistema reduziu filas, porém elevou o tempo de cadastro inicial.” “Porém” introduz:",
+        "options": [
+          "uma causa do primeiro efeito.",
+          "uma conclusão obrigatória.",
+          "uma condição.",
+          "um contraste entre dois efeitos do sistema."
         ],
         "answer": 3,
-        "explanation": "Extrapolar o alcance das premissas é armadilha recorrente em interpretação.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Porém” contrapõe uma vantagem a uma desvantagem.",
+        "tip": "Conectivos revelam a arquitetura do argumento."
+      },
+      {
+        "question": "“Como houve queda de 5% em um bairro, a mesma política reduzirá exatamente 5% em qualquer cidade.” O problema é:",
+        "options": [
+          "definição circular.",
+          "generalização indevida a partir de um caso particular.",
+          "ausência de verbo.",
+          "concessão."
+        ],
+        "answer": 1,
+        "explanation": "Um resultado localizado não autoriza prever o mesmo percentual em todos os contextos.",
+        "tip": "Não universalize dado particular."
+      },
+      {
+        "question": "Num texto argumentativo, contra-argumento é:",
+        "options": [
+          "a repetição literal da tese.",
+          "um exemplo sem relação com o tema.",
+          "a conclusão que resume o título.",
+          "uma objeção ou posição contrária que pode ser reconhecida e respondida."
+        ],
+        "answer": 3,
+        "explanation": "Contra-argumentar é enfrentar uma possível objeção.",
+        "tip": "Procure a posição contrária que o autor responde."
+      },
+      {
+        "question": "“É verdade que o projeto exige investimento inicial; contudo, a economia em cinco anos supera esse custo.” A estratégia é:",
+        "options": [
+          "abandonar a tese.",
+          "transformar o texto em descrição.",
+          "reconhecer uma objeção e apresentar argumento que preserva a tese.",
+          "eliminar a relação custo-benefício."
+        ],
+        "answer": 2,
+        "explanation": "O autor concede um ponto desfavorável e o contrapõe com nova razão.",
+        "tip": "Observe estruturas concessivas."
+      },
+      {
+        "question": "A ideia principal de um parágrafo é melhor identificada por:",
+        "options": [
+          "uma cópia do primeiro exemplo.",
+          "qualquer detalhe numérico.",
+          "uma opinião externa.",
+          "uma síntese que abarque a função das informações mais importantes."
+        ],
+        "answer": 3,
+        "explanation": "A ideia principal organiza os detalhes.",
+        "tip": "Teste se a síntese explica o conjunto."
+      },
+      {
+        "question": "“A medida pode reduzir custos, desde que seja acompanhada de fiscalização.” Qual conclusão respeita o texto?",
+        "options": [
+          "A medida reduzirá custos em qualquer circunstância.",
+          "A redução é uma possibilidade condicionada à fiscalização.",
+          "A fiscalização é desnecessária.",
+          "Os custos já foram reduzidos."
+        ],
+        "answer": 1,
+        "explanation": "“Pode” e “desde que” limitam o grau de certeza.",
+        "tip": "Observe modalizadores e condições."
+      },
+      {
+        "question": "Um argumento é relevante quando:",
+        "options": [
+          "usa vocabulário difícil.",
+          "é o trecho mais longo.",
+          "aparece no último parágrafo.",
+          "contribui significativamente para sustentar ou refutar a tese."
+        ],
+        "answer": 3,
+        "explanation": "Relevância é contribuição efetiva à linha de raciocínio.",
+        "tip": "Tamanho não garante força."
+      },
+      {
+        "question": "“Os acidentes caíram após a mudança, mas outros fatores também se alteraram.” A leitura rigorosa é:",
+        "options": [
+          "há associação observada, mas não se pode atribuir toda a queda exclusivamente à mudança.",
+          "a mudança foi a única causa.",
+          "não houve queda.",
+          "qualquer relação está descartada."
+        ],
+        "answer": 0,
+        "explanation": "Outros fatores impedem conclusão causal exclusiva.",
+        "tip": "Diferencie correlação de causalidade."
       }
     ]
   },
@@ -308,151 +308,151 @@ window.lessons={
     "title": "Seleção vocabular e sentido das palavras",
     "subtitle": "Português • Aula 03 • Edital 1.3 e 1.25",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.3 SELEÇÃO VOCABULAR + 1.25 SEMÂNTICA</div>\n<h3>Palavra certa no contexto</h3><p>Seleção vocabular é a escolha de palavras adequadas ao sentido, ao nível de formalidade e à intenção comunicativa. A banca pode trocar uma palavra e perguntar se o sentido foi mantido.</p>\n<h3>Denotação e conotação</h3><p><b>Denotação</b>: sentido literal. <b>Conotação</b>: sentido figurado. Em “o policial manteve a cabeça fria”, não se fala de temperatura, mas de autocontrole.</p>\n<h3>Sinônimos e contexto</h3><p>Palavras próximas nem sempre são intercambiáveis em qualquer frase. O contexto decide.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: nunca avalie uma palavra isoladamente quando a questão pede sentido no texto.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Seleção vocabular e sentido das palavras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Sentido depende do contexto</h3><p>Uma mesma palavra pode assumir sentidos diferentes. 'Cabeça' pode indicar parte do corpo, liderança, extremidade ou inteligência, dependendo do contexto. Por isso, questões de vocabulário não devem ser respondidas com base apenas no primeiro significado do dicionário.</p><p>Leia a frase inteira e, se necessário, o parágrafo. Observe quais palavras aparecem próximas e qual relação lógica existe entre elas.</p><h3>Denotação e conotação</h3><p>Denotação é o uso mais literal e objetivo. Conotação é o uso figurado, associado a valores e efeitos expressivos. Em 'a cidade acordou cedo', a cidade não acorda literalmente; há personificação e sentido conotativo.</p><p>Em textos informativos, predomina o uso denotativo, mas isso não impede figuras de linguagem. Em textos literários e publicitários, sentidos conotativos costumam ser mais frequentes.</p><h3>Sinonímia, antonímia e substituição</h3><p>Sinônimos raramente são idênticos em qualquer situação. Uma palavra pode ser substituída por outra em um contexto e não em outro. A banca pode perguntar se uma troca preserva sentido, intensidade, formalidade ou relação lógica.</p><p>Preste atenção também aos antônimos e a palavras que mudam apenas parcialmente o sentido. O contexto decide a equivalência.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar por que o contexto altera o sentido</li><li>diferenciar denotação de conotação</li><li>avaliar se uma substituição mantém o sentido</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +500 MIL VISUALIZAÇÕES</span><h3>Semântica — sentido das palavras</h3><p>Denotação, conotação, sinonímia, polissemia e outros pontos importantes para concursos.</p><iframe src=\"https://www.youtube.com/embed/P5DTDKxMCp0\" title=\"Semântica e sentido das palavras\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de semântica lexical</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>denotação, conotação, polissemia, sinonímia, antonímia e adequação vocabular</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Denotação, conotação, polissemia, sinonímia, antonímia e adequação vocabular. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar seleção vocabular e sentido das palavras.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar seleção vocabular e sentido das palavras.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.3 SELEÇÃO VOCABULAR + 1.25 SEMÂNTICA</div>\n<h3>Palavra certa no contexto</h3><p>Seleção vocabular é a escolha de palavras adequadas ao sentido, ao nível de formalidade e à intenção comunicativa. A banca pode trocar uma palavra e perguntar se o sentido foi mantido.</p>\n<h3>Denotação e conotação</h3><p><b>Denotação</b>: sentido literal. <b>Conotação</b>: sentido figurado. Em “o policial manteve a cabeça fria”, não se fala de temperatura, mas de autocontrole.</p>\n<h3>Sinônimos e contexto</h3><p>Palavras próximas nem sempre são intercambiáveis em qualquer frase. O contexto decide.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: nunca avalie uma palavra isoladamente quando a questão pede sentido no texto.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Seleção vocabular e sentido das palavras</h3></div><h3>Sentido depende do contexto</h3><p>Uma mesma palavra pode assumir sentidos diferentes. 'Cabeça' pode indicar parte do corpo, liderança, extremidade ou inteligência, dependendo do contexto. Por isso, questões de vocabulário não devem ser respondidas com base apenas no primeiro significado do dicionário.</p><p>Leia a frase inteira e, se necessário, o parágrafo. Observe quais palavras aparecem próximas e qual relação lógica existe entre elas.</p><h3>Denotação e conotação</h3><p>Denotação é o uso mais literal e objetivo. Conotação é o uso figurado, associado a valores e efeitos expressivos. Em 'a cidade acordou cedo', a cidade não acorda literalmente; há personificação e sentido conotativo.</p><p>Em textos informativos, predomina o uso denotativo, mas isso não impede figuras de linguagem. Em textos literários e publicitários, sentidos conotativos costumam ser mais frequentes.</p><h3>Sinonímia, antonímia e substituição</h3><p>Sinônimos raramente são idênticos em qualquer situação. Uma palavra pode ser substituída por outra em um contexto e não em outro. A banca pode perguntar se uma troca preserva sentido, intensidade, formalidade ou relação lógica.</p><p>Preste atenção também aos antônimos e a palavras que mudam apenas parcialmente o sentido. O contexto decide a equivalência.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar por que o contexto altera o sentido</li><li>diferenciar denotação de conotação</li><li>avaliar se uma substituição mantém o sentido</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +500 MIL VISUALIZAÇÕES</span><h3>Semântica — sentido das palavras</h3><p>Denotação, conotação, sinonímia, polissemia e outros pontos importantes para concursos.</p><iframe src=\"https://www.youtube.com/embed/P5DTDKxMCp0\" title=\"Semântica e sentido das palavras\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Semântica lexical</h3><p>Foco desta etapa: <b>contexto, polissemia, denotação, conotação e substituição vocabular</b>.</p></div><h3>Como resolver este assunto</h3><p>Leia a frase inteira antes de escolher o significado.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Sinônimos não são intercambiáveis em qualquer contexto.</div></section>",
     "quiz": [
       {
-        "question": "Em “ele manteve a cabeça fria durante a ocorrência”, a expressão está em sentido:",
+        "question": "No aviso “A direção endureceu as regras de acesso”, “endureceu” significa:",
         "options": [
-          "Conotativo.",
-          "Literal.",
-          "Contexto e intenção comunicativa.",
-          "Sem sentido."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Conotativo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A escolha vocabular adequada deve considerar:",
-        "options": [
-          "Contexto e intenção comunicativa.",
-          "Conotativo.",
-          "Apenas o tamanho da palavra.",
-          "A preferência pessoal do leitor."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Contexto e intenção comunicativa.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Sinônimos:",
-        "options": [
-          "São sempre substituíveis sem alterar nada.",
-          "Podem variar de adequação conforme o contexto.",
-          "Nunca têm sentidos próximos.",
-          "São apenas verbos."
+          "alterou fisicamente a consistência das regras.",
+          "tornou as regras mais rigorosas.",
+          "eliminou todas as regras.",
+          "aplicou técnica de resistência de materiais."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Podem variar de adequação conforme o contexto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O referente “regras” ativa sentido figurado.",
+        "tip": "Teste o sentido dentro do contexto."
       },
       {
-        "question": "Denotação corresponde ao sentido:",
+        "question": "Compare “resposta econômica” e “crise econômica”. A palavra “econômica” mostra que:",
         "options": [
-          "Conotativo.",
-          "Literal.",
-          "Ambíguo obrigatoriamente.",
-          "Contexto e intenção comunicativa."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Literal.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em prova, para determinar o sentido de uma palavra, é mais seguro:",
-        "options": [
-          "Conotativo.",
-          "Ignorar a frase.",
-          "Usar apenas a memória do dicionário.",
-          "Ler o contexto em que aparece."
+          "o significado é sempre idêntico.",
+          "toda polissemia é metáfora.",
+          "uma das construções é incorreta.",
+          "o contexto pode selecionar sentidos diferentes de uma mesma forma."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Ler o contexto em que aparece.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O entorno lexical determina a acepção pertinente.",
+        "tip": "Leia antes de escolher o significado."
       },
       {
-        "question": "Uma palavra com mais de um sentido apresenta:",
+        "question": "Em “O servidor foi transparente ao explicar os critérios”, “transparente” expressa:",
         "options": [
-          "Literal.",
-          "Concordância.",
-          "Conotativo.",
-          "Polissemia."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Polissemia.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “o policial manteve a cabeça fria”, a expressão “cabeça fria” foi empregada em sentido:",
-        "options": [
-          "conotativo, indicando calma e autocontrole.",
-          "denotativo, indicando baixa temperatura corporal.",
-          "técnico, indicando diagnóstico médico.",
-          "literal, indicando uma parte do uniforme."
-        ],
-        "answer": 0,
-        "explanation": "O contexto ativa sentido figurado, não o significado físico de temperatura.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "A polissemia ocorre quando:",
-        "options": [
-          "uma palavra não admite variação de sentido.",
-          "uma mesma palavra apresenta sentidos relacionados conforme o contexto.",
-          "duas palavras têm sempre grafia idêntica e sentidos opostos.",
-          "há erro obrigatório de ortografia."
-        ],
-        "answer": 1,
-        "explanation": "Polissemia é multiplicidade de sentidos de uma unidade lexical.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Na substituição de uma palavra por um sinônimo, deve-se verificar principalmente:",
-        "options": [
-          "se possui exatamente o mesmo número de letras.",
-          "se pertence obrigatoriamente à mesma família etimológica.",
-          "se começa pela mesma sílaba.",
-          "se o novo termo preserva o sentido no contexto específico."
-        ],
-        "answer": 3,
-        "explanation": "Sinônimos raramente são equivalentes em todos os contextos.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em texto formal, “o suspeito vazou do local” pode ser inadequado porque:",
-        "options": [
-          "a palavra não existe em português.",
-          "o termo é necessariamente estrangeiro.",
-          "o verbo, nesse uso, é coloquial e pode destoar do registro exigido.",
-          "todo verbo é proibido em texto formal."
+          "capacidade física de deixar passar luz.",
+          "ausência de opinião.",
+          "clareza e franqueza.",
+          "fragilidade material."
         ],
         "answer": 2,
-        "explanation": "Adequação vocabular considera situação comunicativa e registro.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O adjetivo tem sentido conotativo aplicado ao comportamento.",
+        "tip": "Veja se o sentido físico cabe no referente."
       },
       {
-        "question": "Denotação corresponde, em regra, ao uso:",
+        "question": "Qual substituição preserva “a decisão foi prudente”?",
         "options": [
-          "mais literal e convencional da palavra.",
-          "sempre ambíguo.",
-          "exclusivamente poético.",
-          "necessariamente irônico."
-        ],
-        "answer": 0,
-        "explanation": "Denotação privilegia o sentido referencial/literal.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Se “banco” designa instituição financeira em um trecho e assento em outro, há:",
-        "options": [
-          "concordância verbal.",
-          "polissemia/homonímia contextual, resolvida pelo contexto.",
-          "derivação parassintética.",
-          "crase obrigatória."
+          "a decisão foi precipitada.",
+          "a decisão foi sensata.",
+          "a decisão foi aleatória.",
+          "a decisão foi ruidosa."
         ],
         "answer": 1,
-        "explanation": "O contexto seleciona o significado pertinente da forma lexical.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Sensata” mantém a ideia de cautela e bom julgamento.",
+        "tip": "Sinonímia depende do contexto."
+      },
+      {
+        "question": "Em “O projeto abriu portas para novas parcerias”, a expressão indica:",
+        "options": [
+          "abertura literal de entradas.",
+          "encerramento de possibilidades.",
+          "mudança arquitetônica.",
+          "criação de oportunidades."
+        ],
+        "answer": 3,
+        "explanation": "“Abrir portas” é expressão figurada.",
+        "tip": "Não interprete expressão idiomática palavra por palavra."
+      },
+      {
+        "question": "Quando “banco” significa instituição financeira numa frase e assento em outra, o contexto:",
+        "options": [
+          "seleciona a acepção pertinente.",
+          "obriga o mesmo sentido.",
+          "transforma a palavra em verbo.",
+          "elimina a multiplicidade lexical."
+        ],
+        "answer": 0,
+        "explanation": "A forma pode ter sentidos distintos resolvidos pelo contexto.",
+        "tip": "Procure pistas ao redor da palavra."
+      },
+      {
+        "question": "Em “A crítica foi severa, mas justa”, “severa” pode ser substituída por:",
+        "options": [
+          "indiferente.",
+          "amigável.",
+          "rigorosa.",
+          "inexistente."
+        ],
+        "answer": 2,
+        "explanation": "“Rigorosa” preserva o sentido de crítica dura.",
+        "tip": "Considere também intensidade."
+      },
+      {
+        "question": "Em “A cidade acordou assustada com a notícia”, há uso conotativo porque:",
+        "options": [
+          "atribui à cidade uma reação humana.",
+          "“cidade” está incorreta.",
+          "os prédios dormem literalmente.",
+          "“acordar” só pode ser usado com lugares."
+        ],
+        "answer": 0,
+        "explanation": "O enunciado personifica a cidade.",
+        "tip": "Conotação aparece em figuras."
+      },
+      {
+        "question": "Qual frase emprega “frio” em sentido denotativo?",
+        "options": [
+          "A água permaneceu fria durante a manhã.",
+          "Ele recebeu a notícia com frieza glacial.",
+          "O candidato ficou com os pés frios antes da prova.",
+          "A recepção foi fria e distante."
+        ],
+        "answer": 0,
+        "explanation": "A primeira descreve temperatura física.",
+        "tip": "Denotação é uso literal."
+      },
+      {
+        "question": "Trocar “crescimento expressivo” por “crescimento insignificante” produz:",
+        "options": [
+          "manutenção integral.",
+          "apenas alteração ortográfica.",
+          "mudança só de gênero textual.",
+          "inversão relevante do sentido."
+        ],
+        "answer": 3,
+        "explanation": "Os adjetivos são semanticamente opostos.",
+        "tip": "Antônimos alteram a conclusão."
+      },
+      {
+        "question": "Em “Ele é uma fera em matemática”, “fera” indica:",
+        "options": [
+          "um animal literal.",
+          "grande habilidade.",
+          "erro de concordância.",
+          "sentido zoológico obrigatório."
+        ],
+        "answer": 1,
+        "explanation": "O contexto ativa sentido metafórico de competência.",
+        "tip": "Pergunte qual traço foi transferido."
+      },
+      {
+        "question": "Em “A medida mitigou os efeitos do problema”, “mitigou” significa:",
+        "options": [
+          "reduziu ou atenuou.",
+          "agravou.",
+          "eliminou totalmente.",
+          "ignorou."
+        ],
+        "answer": 0,
+        "explanation": "“Mitigar” é diminuir a intensidade.",
+        "tip": "Diferencie reduzir de eliminar."
       }
     ]
   },
@@ -460,151 +460,151 @@ window.lessons={
     "title": "Tipologia e gêneros textuais",
     "subtitle": "Português • Aula 04 • Edital 1.5",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.5 TIPOLOGIA TEXTUAL E GÊNEROS TEXTUAIS</div>\n<h3>Tipo textual x gênero</h3><p><b>Tipo textual</b> é uma estrutura predominante: narração, descrição, exposição, argumentação e injunção. <b>Gênero textual</b> é uma forma concreta de comunicação: notícia, edital, receita, artigo de opinião, e-mail, relatório etc.</p>\n<h3>Como reconhecer</h3><p>Narração apresenta acontecimentos; descrição caracteriza; exposição explica; argumentação defende ponto de vista; injunção orienta ações.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> uma receita é gênero textual e apresenta forte sequência injuntiva, pois orienta ações.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: gênero é “o texto que circula”; tipo é “a estrutura linguística que predomina”.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Tipologia e gêneros textuais</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Tipo textual e gênero textual são coisas diferentes</h3><p>Tipo textual é uma organização linguística predominante: narração, descrição, exposição, argumentação e injunção são categorias frequentes. Gênero textual é a forma social concreta do texto, como notícia, edital, receita, artigo de opinião, mensagem, relatório ou propaganda.</p><p>Um gênero pode misturar tipos. Uma reportagem pode narrar fatos, descrever cenário e apresentar explicações. A classificação deve observar a função predominante.</p><h3>Como reconhecer os tipos</h3><p>Narração organiza acontecimentos no tempo e costuma apresentar ações, personagens e mudanças. Descrição caracteriza seres, lugares ou situações. Exposição explica ou apresenta informações. Argumentação defende uma posição. Injunção orienta comportamento por meio de instruções, ordens ou recomendações.</p><p>Verbos no imperativo são frequentes em textos injuntivos, mas não são o único indício. Em um manual, por exemplo, a finalidade de orientar é mais importante que uma palavra isolada.</p><h3>Finalidade social do gênero</h3><p>Para reconhecer o gênero, pergunte: onde esse texto circularia? Quem o produz? Para quem? Com qual objetivo? Uma notícia procura informar sobre acontecimento de interesse público; um edital estabelece regras e condições; um artigo de opinião sustenta um ponto de vista.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>diferenciar tipo de gênero</li><li>reconhecer a tipologia predominante</li><li>relacionar gênero à finalidade</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • TIPOS E GÊNEROS TEXTUAIS</span><h3>Tipos e gêneros textuais — Português com Letícia</h3><p>Aula completa sobre tipos textuais, gêneros textuais e como diferenciá-los em questões.</p><iframe src=\"https://www.youtube.com/embed/keri15mSleA\" title=\"Tipos e gêneros textuais\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de tipologia e gêneros</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>narração, descrição, exposição, argumentação, injunção, finalidade e suporte</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Narração, descrição, exposição, argumentação, injunção, finalidade e suporte. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar tipologia e gêneros textuais.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar tipologia e gêneros textuais.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.5 TIPOLOGIA TEXTUAL E GÊNEROS TEXTUAIS</div>\n<h3>Tipo textual x gênero</h3><p><b>Tipo textual</b> é uma estrutura predominante: narração, descrição, exposição, argumentação e injunção. <b>Gênero textual</b> é uma forma concreta de comunicação: notícia, edital, receita, artigo de opinião, e-mail, relatório etc.</p>\n<h3>Como reconhecer</h3><p>Narração apresenta acontecimentos; descrição caracteriza; exposição explica; argumentação defende ponto de vista; injunção orienta ações.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> uma receita é gênero textual e apresenta forte sequência injuntiva, pois orienta ações.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: gênero é “o texto que circula”; tipo é “a estrutura linguística que predomina”.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Tipologia e gêneros textuais</h3></div><h3>Tipo textual e gênero textual são coisas diferentes</h3><p>Tipo textual é uma organização linguística predominante: narração, descrição, exposição, argumentação e injunção são categorias frequentes. Gênero textual é a forma social concreta do texto, como notícia, edital, receita, artigo de opinião, mensagem, relatório ou propaganda.</p><p>Um gênero pode misturar tipos. Uma reportagem pode narrar fatos, descrever cenário e apresentar explicações. A classificação deve observar a função predominante.</p><h3>Como reconhecer os tipos</h3><p>Narração organiza acontecimentos no tempo e costuma apresentar ações, personagens e mudanças. Descrição caracteriza seres, lugares ou situações. Exposição explica ou apresenta informações. Argumentação defende uma posição. Injunção orienta comportamento por meio de instruções, ordens ou recomendações.</p><p>Verbos no imperativo são frequentes em textos injuntivos, mas não são o único indício. Em um manual, por exemplo, a finalidade de orientar é mais importante que uma palavra isolada.</p><h3>Finalidade social do gênero</h3><p>Para reconhecer o gênero, pergunte: onde esse texto circularia? Quem o produz? Para quem? Com qual objetivo? Uma notícia procura informar sobre acontecimento de interesse público; um edital estabelece regras e condições; um artigo de opinião sustenta um ponto de vista.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>diferenciar tipo de gênero</li><li>reconhecer a tipologia predominante</li><li>relacionar gênero à finalidade</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • TIPOS E GÊNEROS TEXTUAIS</span><h3>Tipos e gêneros textuais — Português com Letícia</h3><p>Aula completa sobre tipos textuais, gêneros textuais e como diferenciá-los em questões.</p><iframe src=\"https://www.youtube.com/embed/keri15mSleA\" title=\"Tipos e gêneros textuais\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Gêneros e tipos</h3><p>Foco desta etapa: <b>narração, descrição, exposição, argumentação, injunção e finalidade</b>.</p></div><h3>Como resolver este assunto</h3><p>Classifique a função predominante e depois o gênero social.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Um gênero pode combinar vários tipos.</div></section><div class=\"video-lesson\"><span>🎥 REFORÇO ESPECÍFICO</span><h3>Tipos e gêneros textuais — teoria + questões</h3><p>Aula recente com teoria e questões comentadas sobre tipos e gêneros.</p><iframe src=\"https://www.youtube.com/embed/Yj0cJ3D9WUg\" title=\"Tipos e gêneros textuais — teoria + questões\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Notícia, receita e artigo de opinião são exemplos de:",
+        "question": "Um texto traz instruções numeradas e verbos como “preencha”, “confira” e “entregue”. Predomina a sequência:",
         "options": [
-          "Orações subordinadas.",
-          "Gêneros textuais.",
-          "Fonemas.",
-          "Injuntivo."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Gêneros textuais.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "O tipo textual que orienta procedimentos é:",
-        "options": [
-          "Lírico.",
-          "Injuntivo.",
-          "Narrativo.",
-          "Gêneros textuais."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Injuntivo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Um texto que defende uma tese é predominantemente:",
-        "options": [
-          "Injuntivo.",
-          "Descritivo.",
-          "Argumentativo.",
-          "Enumerativo sem função."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Argumentativo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Uma sequência que apresenta fatos em ordem temporal tende a ser:",
-        "options": [
-          "Narrativa.",
-          "Injuntiva.",
-          "Gêneros textuais.",
-          "Orações subordinadas."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Narrativa.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Um mesmo gênero textual:",
-        "options": [
-          "Gêneros textuais.",
-          "Pode combinar diferentes tipos textuais.",
-          "Nunca muda conforme contexto.",
-          "Não possui finalidade."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Pode combinar diferentes tipos textuais.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Descrição tem como foco principal:",
-        "options": [
-          "Caracterizar seres, objetos, lugares ou situações.",
-          "Orações subordinadas.",
-          "Gêneros textuais.",
-          "Dar ordens."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Caracterizar seres, objetos, lugares ou situações.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Um manual de instruções apresenta predominância:",
-        "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "injuntiva, pois orienta ações do leitor.",
-          "uma relação obrigatoriamente causal, independentemente do contexto."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de tipologia e gêneros sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Uma notícia tem como finalidade predominante:",
-        "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "informar sobre fato de interesse público.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de tipologia e gêneros sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em uma narrativa, é elemento estrutural típico:",
-        "options": [
-          "a sequência de acontecimentos envolvendo personagens.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma construção sempre proibida pela norma-padrão."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de tipologia e gêneros sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Descrição caracteriza-se por:",
-        "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "apresentar traços, estados e propriedades de seres ou ambientes."
+          "narrativa.",
+          "descritiva.",
+          "argumentativa.",
+          "injuntiva."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de tipologia e gêneros sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A finalidade principal é orientar ações.",
+        "tip": "Classifique pela função predominante."
       },
       {
-        "question": "Um artigo de opinião é predominantemente:",
+        "question": "Uma reportagem reconstrói fatos, apresenta dados e declarações. Isso mostra que:",
         "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma construção sempre proibida pela norma-padrão.",
+          "todo gênero possui só um tipo.",
+          "narração impede exposição.",
+          "um gênero pode combinar diferentes sequências tipológicas.",
+          "gênero e tipo são sinônimos."
+        ],
+        "answer": 2,
+        "explanation": "Gêneros concretos podem mesclar tipos.",
+        "tip": "Gênero é forma social; tipo é organização linguística."
+      },
+      {
+        "question": "Um artigo que apresenta uma posição e a sustenta com razões é predominantemente:",
+        "options": [
+          "descritivo.",
+          "injuntivo.",
+          "narrativo.",
           "argumentativo."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de tipologia e gêneros sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Defesa de tese por argumentos caracteriza argumentação.",
+        "tip": "Procure tese e justificativas."
       },
       {
-        "question": "Gênero textual e tipologia textual:",
+        "question": "Uma sequência centrada em acontecimentos ordenados no tempo é:",
         "options": [
-          "não são sinônimos: um gênero pode combinar diferentes sequências tipológicas.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra restrita a nomes próprios."
+          "narrativa.",
+          "descritiva.",
+          "injuntiva.",
+          "expositiva."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de tipologia e gêneros sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Narração organiza eventos e transformações.",
+        "tip": "Pergunte “o que aconteceu?”."
+      },
+      {
+        "question": "“A sala era ampla, silenciosa e iluminada por duas janelas.” Predomina:",
+        "options": [
+          "descrição.",
+          "argumentação.",
+          "narração.",
+          "injunção."
+        ],
+        "answer": 0,
+        "explanation": "O trecho caracteriza um espaço.",
+        "tip": "Descrição responde “como é?”."
+      },
+      {
+        "question": "Um verbete que explica um conceito sem defender posição tende a ser:",
+        "options": [
+          "injuntivo.",
+          "narrativo.",
+          "expositivo.",
+          "argumentativo."
+        ],
+        "answer": 2,
+        "explanation": "Exposição organiza informações explicativas.",
+        "tip": "Exposição não exige tese."
+      },
+      {
+        "question": "Uma receita culinária apresenta predominantemente:",
+        "options": [
+          "sequência narrativa.",
+          "sequência injuntiva.",
+          "sequência argumentativa.",
+          "sequência lírica."
+        ],
+        "answer": 1,
+        "explanation": "Receitas orientam etapas de execução.",
+        "tip": "Não confunda gênero com tipo."
+      },
+      {
+        "question": "A finalidade social de uma notícia é, em regra:",
+        "options": [
+          "ensinar obrigatoriamente um procedimento.",
+          "defender sempre tese pessoal.",
+          "descrever apenas características físicas.",
+          "informar sobre fatos de interesse público."
+        ],
+        "answer": 3,
+        "explanation": "A notícia prioriza informação factual.",
+        "tip": "Finalidade ajuda a reconhecer o gênero."
+      },
+      {
+        "question": "Um edital é gênero textual porque:",
+        "options": [
+          "é uma forma socialmente reconhecida com finalidade e organização próprias.",
+          "é exclusivamente injuntivo.",
+          "não pode misturar tipos.",
+          "é definido pelo número de parágrafos."
+        ],
+        "answer": 0,
+        "explanation": "Gêneros são práticas comunicativas concretas.",
+        "tip": "Considere finalidade, interlocutores e estrutura."
+      },
+      {
+        "question": "Num relatório, um parágrafo descreve o local e outro explica resultados. Logo:",
+        "options": [
+          "deixa de ser relatório.",
+          "o gênero relatório pode conter sequências descritivas e expositivas.",
+          "cada tipo exige gênero diferente.",
+          "misturar tipos torna o texto incoerente."
+        ],
+        "answer": 1,
+        "explanation": "Um gênero pode mobilizar tipos distintos.",
+        "tip": "Não espere correspondência de um para um."
+      },
+      {
+        "question": "Qual trecho é predominantemente injuntivo?",
+        "options": [
+          "“Antes de enviar o formulário, revise os dados e assine no campo indicado.”",
+          "“A praça possuía árvores altas.”",
+          "“Ontem, a equipe iniciou a vistoria.”",
+          "“A medida é necessária porque reduz riscos.”"
+        ],
+        "answer": 0,
+        "explanation": "Os verbos orientam ações do leitor.",
+        "tip": "Imperativos são forte indício de injunção."
+      },
+      {
+        "question": "Em propaganda que descreve um produto e apresenta razões para comprá-lo, predomina a finalidade:",
+        "options": [
+          "meramente narrativa.",
+          "exclusivamente descritiva.",
+          "persuasiva.",
+          "puramente documental."
+        ],
+        "answer": 2,
+        "explanation": "A organização global busca influenciar o destinatário.",
+        "tip": "A finalidade global pode prevalecer sobre tipos locais."
       }
     ]
   },
@@ -612,151 +612,151 @@ window.lessons={
     "title": "Ortografia oficial",
     "subtitle": "Português • Aula 05 • Edital 1.6",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.6 ORTOGRAFIA OFICIAL</div>\n<h3>Onde a banca costuma apertar</h3><p>Ortografia envolve grafia correta, emprego de letras, hífen e pares que geram dúvida. Para concurso, vale estudar o padrão oficial e revisar erros recorrentes.</p>\n<h3>Por que / porque / por quê / porquê</h3><p><b>por que</b> em perguntas ou equivalente a “pelo qual”; <b>porque</b> em explicações/respostas; <b>por quê</b> no fim de enunciado; <b>porquê</b> como substantivo.</p>\n<h3>Há x a</h3><p><b>Há</b> indica tempo passado ou existência. <b>A</b> pode indicar tempo futuro ou distância.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: transforme a regra em contraste e treine em frases, não em listas soltas.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Ortografia oficial</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Ortografia é convenção</h3><p>A ortografia define a forma oficialmente aceita de escrever as palavras. Muitas dúvidas não podem ser resolvidas apenas pela pronúncia, porque sons semelhantes podem ser representados de formas diferentes: 'sessão', 'seção' e 'cessão' têm pronúncias próximas, mas sentidos e grafias distintos.</p><p>Para concursos, vale estudar famílias de palavras, prefixos, sufixos e ocorrências frequentes em vez de decorar listas enormes sem contexto.</p><h3>Dúvidas recorrentes</h3><p>Tenha atenção a emprego de s, ss, ç, sc, x, ch, g e j; uso de hífen; grafia de palavras compostas; e distinção entre formas parecidas. A leitura frequente ajuda a criar memória visual da palavra.</p><p>Também é importante diferenciar 'por que', 'porque', 'por quê' e 'porquê', além de 'há' e 'a' em expressões de tempo e distância.</p><h3>Estratégia prática</h3><p>Quando estiver em dúvida, tente lembrar outra palavra da mesma família: 'análise' → 'analisar'; 'pesquisa' → 'pesquisar'. Nem toda palavra segue regra simples, por isso as exceções devem ser registradas no Caderno de Erros.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer grafias oficiais</li><li>distinguir palavras homófonas frequentes</li><li>usar famílias de palavras como apoio</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • ORTOGRAFIA PARA CONCURSOS</span><h3>Ortografia oficial — hífen, porquês e novo acordo</h3><p>Reforço direcionado aos pontos mais cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/39XGB8KKmBs\" title=\"Ortografia oficial para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de ortografia oficial</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>grafia, hífen, porquês, mau/mal, há/a, onde/aonde e convenções ortográficas</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Grafia, hífen, porquês, mau/mal, há/a, onde/aonde e convenções ortográficas. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar ortografia oficial.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar ortografia oficial.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.6 ORTOGRAFIA OFICIAL</div>\n<h3>Onde a banca costuma apertar</h3><p>Ortografia envolve grafia correta, emprego de letras, hífen e pares que geram dúvida. Para concurso, vale estudar o padrão oficial e revisar erros recorrentes.</p>\n<h3>Por que / porque / por quê / porquê</h3><p><b>por que</b> em perguntas ou equivalente a “pelo qual”; <b>porque</b> em explicações/respostas; <b>por quê</b> no fim de enunciado; <b>porquê</b> como substantivo.</p>\n<h3>Há x a</h3><p><b>Há</b> indica tempo passado ou existência. <b>A</b> pode indicar tempo futuro ou distância.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: transforme a regra em contraste e treine em frases, não em listas soltas.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Ortografia oficial</h3></div><h3>Ortografia é convenção</h3><p>A ortografia define a forma oficialmente aceita de escrever as palavras. Muitas dúvidas não podem ser resolvidas apenas pela pronúncia, porque sons semelhantes podem ser representados de formas diferentes: 'sessão', 'seção' e 'cessão' têm pronúncias próximas, mas sentidos e grafias distintos.</p><p>Para concursos, vale estudar famílias de palavras, prefixos, sufixos e ocorrências frequentes em vez de decorar listas enormes sem contexto.</p><h3>Dúvidas recorrentes</h3><p>Tenha atenção a emprego de s, ss, ç, sc, x, ch, g e j; uso de hífen; grafia de palavras compostas; e distinção entre formas parecidas. A leitura frequente ajuda a criar memória visual da palavra.</p><p>Também é importante diferenciar 'por que', 'porque', 'por quê' e 'porquê', além de 'há' e 'a' em expressões de tempo e distância.</p><h3>Estratégia prática</h3><p>Quando estiver em dúvida, tente lembrar outra palavra da mesma família: 'análise' → 'analisar'; 'pesquisa' → 'pesquisar'. Nem toda palavra segue regra simples, por isso as exceções devem ser registradas no Caderno de Erros.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer grafias oficiais</li><li>distinguir palavras homófonas frequentes</li><li>usar famílias de palavras como apoio</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • ORTOGRAFIA PARA CONCURSOS</span><h3>Ortografia oficial — hífen, porquês e novo acordo</h3><p>Reforço direcionado aos pontos mais cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/39XGB8KKmBs\" title=\"Ortografia oficial para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Ortografia</h3><p>Foco desta etapa: <b>porquês, há/a, onde/aonde, hífen e homófonos</b>.</p></div><h3>Como resolver este assunto</h3><p>Transforme cada dúvida em contraste de uso.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Som parecido não garante grafia igual.</div></section>",
     "quiz": [
       {
-        "question": "Assinale a forma adequada: “Não sei ___ ele faltou.”",
+        "question": "Assinale a alternativa inteiramente adequada:",
         "options": [
-          "por que",
-          "porquê",
-          "por quê",
-          "porque"
+          "Daqui há dois meses saberemos porquê o procedimento mudou.",
+          "Há dois meses ninguém explica por quê o procedimento mudou.",
+          "A dois meses ninguém sabe porque o procedimento foi alterado?",
+          "Daqui a dois meses saberemos por que o procedimento mudou."
+        ],
+        "answer": 3,
+        "explanation": "Tempo futuro pede “a”; pergunta indireta usa “por que”.",
+        "tip": "Analise cada dificuldade separadamente."
+      },
+      {
+        "question": "Assinale o emprego correto de mal/mau:",
+        "options": [
+          "O candidato dormiu mal e apresentou mau desempenho.",
+          "O candidato passou mau.",
+          "O relatório foi mau redigido.",
+          "Mal comportamento comprometeu a avaliação."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “por que”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Mal” opõe-se a “bem”; “mau”, a “bom”.",
+        "tip": "Use os pares mal/bem e mau/bom."
       },
       {
-        "question": "Assinale: “Ele faltou ___ estava doente.”",
+        "question": "Complete: “Ninguém explicou o ___ da mudança.”",
         "options": [
-          "por quê",
-          "por que",
           "porque",
-          "porquê"
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “porque”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Assinale: “Ninguém explicou o ___ da mudança.”",
-        "options": [
+          "por que",
           "porquê",
-          "porque",
-          "por que",
           "por quê"
         ],
-        "answer": 0,
-        "explanation": "A resposta correta é “porquê”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 2,
+        "explanation": "Com artigo, a forma substantivada é “porquê”.",
+        "tip": "Se equivaler a “motivo”, pense em “porquê”."
       },
       {
-        "question": "Assinale: “Você saiu mais cedo ___?”",
+        "question": "Complete: “Você saiu mais cedo ___?”",
         "options": [
           "por quê",
-          "porquê",
           "porque",
-          "por que"
+          "por que",
+          "porquê"
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “por quê”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "No fim de pergunta, usa-se “por quê”.",
+        "tip": "Antes de pontuação final, “quê” recebe acento."
       },
       {
-        "question": "Em “A prova será daqui a dois meses”, usa-se “a” porque indica:",
+        "question": "Assinale a alternativa correta quanto a onde/aonde:",
         "options": [
-          "por que",
-          "Causa.",
-          "Tempo futuro.",
-          "Existência."
+          "Aonde fica o local da prova?",
+          "Onde você se dirigiu após o atendimento?",
+          "Aonde você pretende ir depois da prova?",
+          "Aonde está o documento?"
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Tempo futuro.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Ir” rege “a”, por isso “aonde”.",
+        "tip": "Quem vai, vai a algum lugar."
       },
       {
-        "question": "Em “Cheguei aqui há duas horas”, “há” indica:",
+        "question": "Em “Cheguei aqui há duas horas”, “há” está correto porque:",
         "options": [
-          "porquê",
-          "Tempo passado.",
-          "por que",
-          "Condição."
+          "indica tempo futuro.",
+          "indica tempo decorrido.",
+          "marca destino.",
+          "marca distância obrigatoriamente."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Tempo passado.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Haver” pode indicar tempo passado, equivalente a “faz”.",
+        "tip": "Passado: há; futuro: a."
       },
       {
-        "question": "Em “daqui a dois anos”, emprega-se “a” porque:",
+        "question": "Qual das formas abaixo corresponde à grafia oficial da palavra que significa ressalva ou caso fora da regra?",
         "options": [
-          "há indicação de tempo futuro.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma construção sempre proibida pela norma-padrão."
+          "exceção",
+          "excessão",
+          "esceção",
+          "exsessão"
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de ortografia oficial sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A forma oficial é “exceção”.",
+        "tip": "Registre grafias recorrentes."
       },
       {
-        "question": "Em “cheguei há duas horas”, emprega-se “há” porque:",
+        "question": "Assinale a forma correta quanto ao hífen:",
         "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "uma relação sem qualquer efeito de sentido.",
-          "indica tempo decorrido.",
-          "um caso em que o contexto nunca interfere na análise."
+          "antiinflamatório",
+          "auto-escola",
+          "micro ondas",
+          "anti-inflamatório"
         ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de ortografia oficial sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "Mantém-se o hífen quando o prefixo termina com a mesma vogal que inicia o segundo elemento.",
+        "tip": "Observe as letras de encontro."
       },
       {
-        "question": "Na oposição vocabular tradicional, qual termo corresponde ao contrário de “mau”?",
+        "question": "Quanto à grafia do advérbio derivado de “discreto”, assinale a frase correta:",
         "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "bom.",
-          "uma relação sem qualquer efeito de sentido."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de ortografia oficial sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Se a frase emprega “mal” como advérbio, seu antônimo mais comum é:",
-        "options": [
-          "bem.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma regra restrita a nomes próprios.",
-          "uma relação sem qualquer efeito de sentido."
+          "O servidor agiu discretamente durante a reunião.",
+          "O servidor agiu discretamemte durante a reunião.",
+          "O servidor agiu descretamente durante a reunião.",
+          "O servidor agiu discrétamente durante a reunião."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de ortografia oficial sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Discretamente” deriva de “discreto” + “-mente”.",
+        "tip": "Observe a grafia da base."
       },
       {
-        "question": "Em pergunta direta no fim da frase, usa-se:",
+        "question": "Qual palavra está grafada corretamente?",
         "options": [
-          "por quê.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "reinvindicação",
+          "reinvindicaçao",
+          "reenvindicação",
+          "reivindicação"
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de ortografia oficial sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "A grafia padrão é “reivindicação”.",
+        "tip": "Cuidado com sons inseridos na fala."
       },
       {
-        "question": "Antes de palavra iniciada por h, muitos prefixos exigem:",
+        "question": "“Não sei ___ ele não veio, mas imagino que foi ___ estava doente.”",
         "options": [
-          "hífen, conforme a regra ortográfica aplicável.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra que só se aplica à linguagem informal."
+          "por que / porque",
+          "porque / porquê",
+          "por quê / por que",
+          "porquê / por quê"
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de ortografia oficial sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A primeira é interrogativa indireta; a segunda introduz explicação.",
+        "tip": "Pergunta indireta e resposta usam formas distintas."
+      },
+      {
+        "question": "Assinale a série correta:",
+        "options": [
+          "seção de cinema / sessão do documento / seção de direitos",
+          "cessão de cinema / sessão do documento / seção de direitos",
+          "sessão de cinema / cessão do documento / sessão de direitos",
+          "sessão de cinema / seção do documento / cessão de direitos"
+        ],
+        "answer": 3,
+        "explanation": "Sessão = período/reunião; seção = divisão; cessão = ato de ceder.",
+        "tip": "Homófonos se distinguem pelo sentido."
       }
     ]
   },
@@ -764,151 +764,151 @@ window.lessons={
     "title": "Acentuação gráfica",
     "subtitle": "Português • Aula 06 • Edital 1.7",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.7 ACENTUAÇÃO GRÁFICA</div>\n<h3>Comece pela sílaba tônica</h3><p><b>Oxítona</b>: última sílaba tônica. <b>Paroxítona</b>: penúltima. <b>Proparoxítona</b>: antepenúltima — e toda proparoxítona é acentuada.</p>\n<h3>Regras muito cobradas</h3><p>Oxítonas terminadas em <b>a(s), e(s), o(s), em, ens</b> são acentuadas. Paroxítonas seguem terminações específicas. Hiatos com <b>i/u</b> tônicos exigem atenção às condições da regra.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: classifique a tonicidade antes de decidir a regra.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Acentuação gráfica</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Primeiro identifique a sílaba tônica</h3><p>Antes de aplicar qualquer regra, descubra onde está a sílaba mais forte. Oxítonas têm a última sílaba tônica, paroxítonas a penúltima e proparoxítonas a antepenúltima.</p><p>Todas as proparoxítonas são acentuadas. Nas oxítonas e paroxítonas, o acento depende da terminação da palavra.</p><h3>Regras fundamentais</h3><p>Oxítonas terminadas em a(s), e(s), o(s), em e ens costumam receber acento. Paroxítonas seguem lógica complementar, com várias terminações específicas. Monossílabos tônicos terminados em a(s), e(s), o(s) também podem ser acentuados.</p><p>Hiatos como 'saída' e 'baú' exigem atenção às regras do i e u tônicos, considerando posição e letras vizinhas.</p><h3>Acordo ortográfico</h3><p>Alguns acentos desapareceram, como em 'ideia' e 'assembleia'. O trema deixou de ser usado em palavras portuguesas, exceto em nomes próprios estrangeiros e derivados, quando aplicável.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar oxítona/paroxítona/proparoxítona</li><li>aplicar regras de terminação</li><li>reconhecer hiatos acentuados</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +1,3 MI VISUALIZAÇÕES NA BUSCA</span><h3>Acentuação gráfica — Português sem Enrolação</h3><p>Revisão ampla para concursos e vestibulares.</p><iframe src=\"https://www.youtube.com/embed/Ytw1SjnqEJ8\" title=\"Acentuação gráfica\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de acentuação gráfica</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>oxítonas, paroxítonas, proparoxítonas, hiatos, ditongos e regras do Acordo Ortográfico</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Oxítonas, paroxítonas, proparoxítonas, hiatos, ditongos e regras do acordo ortográfico. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar acentuação gráfica.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar acentuação gráfica.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.7 ACENTUAÇÃO GRÁFICA</div>\n<h3>Comece pela sílaba tônica</h3><p><b>Oxítona</b>: última sílaba tônica. <b>Paroxítona</b>: penúltima. <b>Proparoxítona</b>: antepenúltima — e toda proparoxítona é acentuada.</p>\n<h3>Regras muito cobradas</h3><p>Oxítonas terminadas em <b>a(s), e(s), o(s), em, ens</b> são acentuadas. Paroxítonas seguem terminações específicas. Hiatos com <b>i/u</b> tônicos exigem atenção às condições da regra.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: classifique a tonicidade antes de decidir a regra.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Acentuação gráfica</h3></div><h3>Primeiro identifique a sílaba tônica</h3><p>Antes de aplicar qualquer regra, descubra onde está a sílaba mais forte. Oxítonas têm a última sílaba tônica, paroxítonas a penúltima e proparoxítonas a antepenúltima.</p><p>Todas as proparoxítonas são acentuadas. Nas oxítonas e paroxítonas, o acento depende da terminação da palavra.</p><h3>Regras fundamentais</h3><p>Oxítonas terminadas em a(s), e(s), o(s), em e ens costumam receber acento. Paroxítonas seguem lógica complementar, com várias terminações específicas. Monossílabos tônicos terminados em a(s), e(s), o(s) também podem ser acentuados.</p><p>Hiatos como 'saída' e 'baú' exigem atenção às regras do i e u tônicos, considerando posição e letras vizinhas.</p><h3>Acordo ortográfico</h3><p>Alguns acentos desapareceram, como em 'ideia' e 'assembleia'. O trema deixou de ser usado em palavras portuguesas, exceto em nomes próprios estrangeiros e derivados, quando aplicável.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar oxítona/paroxítona/proparoxítona</li><li>aplicar regras de terminação</li><li>reconhecer hiatos acentuados</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +1,3 MI VISUALIZAÇÕES NA BUSCA</span><h3>Acentuação gráfica — Português sem Enrolação</h3><p>Revisão ampla para concursos e vestibulares.</p><iframe src=\"https://www.youtube.com/embed/Ytw1SjnqEJ8\" title=\"Acentuação gráfica\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Acentuação</h3><p>Foco desta etapa: <b>tonicidade, oxítonas, paroxítonas, proparoxítonas, hiato e diferencial</b>.</p></div><h3>Como resolver este assunto</h3><p>Localize a sílaba tônica antes da regra.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Não confunda hiato com ditongo.</div></section>",
     "quiz": [
       {
-        "question": "Toda palavra proparoxítona:",
+        "question": "Assinale a alternativa em que todas as palavras são proparoxítonas:",
         "options": [
-          "Nunca é acentuada.",
-          "É acentuada.",
-          "Oxítona.",
-          "Só aparece no plural."
+          "café, também, cipó",
+          "fácil, caráter, tórax",
+          "saída, país, baú",
+          "médico, lâmpada, trânsito"
         ],
-        "answer": 1,
-        "explanation": "A resposta correta é “É acentuada.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 3,
+        "explanation": "As três têm antepenúltima sílaba tônica; toda proparoxítona é acentuada.",
+        "tip": "Localize primeiro a sílaba tônica."
       },
       {
-        "question": "A palavra “café” é:",
+        "question": "Qual regra geral justifica o acento gráfico da palavra “lâmpada”?",
         "options": [
-          "É acentuada.",
-          "Proparoxítona.",
-          "Oxítona.",
-          "Paroxítona."
+          "Todas as proparoxítonas são acentuadas.",
+          "Todas as oxítonas terminadas em “a” são acentuadas.",
+          "Todas as paroxítonas terminadas em ditongo são acentuadas.",
+          "Toda palavra que apresenta hiato recebe acento."
+        ],
+        "answer": 0,
+        "explanation": "“Lâmpada” é proparoxítona, e todas as palavras proparoxítonas recebem acento gráfico.",
+        "tip": "Primeiro localize a sílaba tônica; depois aplique a regra correspondente."
+      },
+      {
+        "question": "Em “saída”, o acento marca:",
+        "options": [
+          "uma oxítona terminada em “a”.",
+          "um ditongo aberto.",
+          "o “i” tônico em hiato com a vogal anterior.",
+          "uma proparoxítona."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Oxítona.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O “i” forma sílaba separada e tônica: sa-í-da.",
+        "tip": "Divida a palavra em sílabas."
       },
       {
-        "question": "A palavra “também” recebe acento por ser:",
+        "question": "Em qual opção a sílaba tônica está na última posição?",
         "options": [
-          "Oxítona terminada em em.",
-          "Proparoxítona.",
-          "Paroxítona terminada em a.",
-          "Monossílaba átona."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Oxítona terminada em em.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A palavra “médico” é:",
-        "options": [
-          "Proparoxítona.",
-          "Nunca é acentuada.",
-          "Monossílaba.",
-          "É acentuada."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Proparoxítona.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Qual palavra é proparoxítona?",
-        "options": [
-          "Lâmpada.",
-          "Também.",
-          "É acentuada.",
-          "Café."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Lâmpada.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Para aplicar regras de acentuação, primeiro é útil identificar:",
-        "options": [
-          "É acentuada.",
-          "O autor do texto.",
-          "Nunca é acentuada.",
-          "A sílaba tônica."
+          "fácil",
+          "lâmpada",
+          "tórax",
+          "café"
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “A sílaba tônica.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Em “café”, a última sílaba é tônica.",
+        "tip": "Oxítona = última sílaba tônica."
       },
       {
-        "question": "Toda proparoxítona é:",
+        "question": "Considere a palavra “caráter”. Quanto à posição da sílaba tônica, ela é classificada como:",
         "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "acentuada graficamente.",
-          "uma regra restrita a nomes próprios.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
+          "oxítona.",
+          "paroxítona.",
+          "proparoxítona.",
+          "monossílabo tônico."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de acentuação gráfica sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Em “caráter”, a sílaba tônica é “rá”, que ocupa a penúltima posição; portanto, a palavra é paroxítona.",
+        "tip": "Paroxítona é a palavra cuja sílaba tônica é a penúltima."
       },
       {
-        "question": "Oxítonas terminadas em a(s), e(s), o(s), em, ens são:",
+        "question": "O acento em “pôde” serve para:",
         "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "acentuadas.",
-          "uma regra que só se aplica à linguagem informal."
+          "marcar toda forma passada.",
+          "indicar proparoxítona.",
+          "distinguir o pretérito “pôde” do presente “pode”.",
+          "separar hiato obrigatório."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de acentuação gráfica sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "É um acento diferencial mantido pela ortografia.",
+        "tip": "Memorize os poucos acentos diferenciais vigentes."
       },
       {
-        "question": "A palavra “saída” recebe acento porque:",
+        "question": "Assinale a palavra corretamente acentuada:",
         "options": [
-          "o i tônico forma hiato nas condições previstas pela regra.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra restrita a nomes próprios."
+          "herói",
+          "heroi",
+          "idéia",
+          "assembléia"
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de acentuação gráfica sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Herói” mantém acento por ser oxítona com ditongo aberto; “ideia” e “assembleia” não.",
+        "tip": "O acordo afetou ditongos abertos em paroxítonas."
       },
       {
-        "question": "“Polícia” pode ser analisada, pela tradição escolar, como:",
+        "question": "Na divisão silábica ju-í-zes, qual fato justifica o acento em “juízes”?",
         "options": [
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "paroxítona terminada em ditongo crescente."
+          "é proparoxítona.",
+          "o “i” tônico forma hiato e sílaba distinta.",
+          "é oxítona terminada em “es”.",
+          "tem ditongo crescente."
         ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de acentuação gráfica sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "A divisão ju-í-zes evidencia o hiato.",
+        "tip": "Observe “i/u” tônicos em hiato."
       },
       {
-        "question": "Acento tônico e acento gráfico:",
+        "question": "Em qual caso a retirada do acento produz outra forma verbal válida?",
         "options": [
-          "não são conceitos idênticos.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto."
+          "pôde → pode",
+          "médico → medico",
+          "lâmpada → lampada",
+          "trânsito → transito"
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de acentuação gráfica sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Pôde” e “pode” são formas verbais de tempos distintos.",
+        "tip": "Acento diferencial pode mudar valor gramatical."
       },
       {
-        "question": "Monossílabos tônicos terminados em a(s), e(s), o(s):",
+        "question": "Em qual palavra o acento decorre da regra das paroxítonas?",
         "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra que só se aplica à linguagem informal.",
-          "recebem acento gráfico."
+          "café",
+          "médico",
+          "fácil",
+          "país"
         ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de acentuação gráfica sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "“Fácil” é paroxítona terminada em “l”.",
+        "tip": "Cruze tonicidade e terminação."
+      },
+      {
+        "question": "Qual par segue regras de acentuação diferentes?",
+        "options": [
+          "lâmpada / trânsito",
+          "café / cipó",
+          "médico / país",
+          "fácil / caráter"
+        ],
+        "answer": 2,
+        "explanation": "“Médico” é proparoxítona; “país” é acentuado por hiato.",
+        "tip": "Não agrupe só porque ambas têm acento."
+      },
+      {
+        "question": "“Também” é acentuada porque é:",
+        "options": [
+          "paroxítona terminada em “em”.",
+          "proparoxítona.",
+          "oxítona terminada em “em”.",
+          "monossílabo tônico."
+        ],
+        "answer": 2,
+        "explanation": "A sílaba tônica é a última.",
+        "tip": "Pronuncie e localize a tonicidade."
       }
     ]
   },
@@ -916,151 +916,151 @@ window.lessons={
     "title": "Pontuação",
     "subtitle": "Português • Aula 07 • Edital 1.8",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.8 EMPREGO DOS SINAIS DE PONTUAÇÃO</div>\n<h3>Vírgula não é “pausa para respirar”</h3><p>A vírgula marca relações sintáticas. Entre usos frequentes: separar itens de enumeração, vocativo, aposto, adjuntos deslocados e certas orações.</p>\n<h3>Erro clássico</h3><p>Em regra, não se separa <b>sujeito do verbo</b> nem <b>verbo de seu complemento</b> apenas com uma vírgula.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos atentos resolveram a questão.” Não cabe vírgula entre “candidatos” e “resolveram”.</div>\n<h3>Dois-pontos e ponto e vírgula</h3><p>Dois-pontos podem introduzir explicação, enumeração ou fala. O ponto e vírgula pode separar estruturas coordenadas mais extensas.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: antes de pôr vírgula, identifique a função sintática dos termos.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pontuação</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Pontuação organiza sentido</h3><p>Vírgula não é simplesmente uma pausa para respirar. Ela marca relações sintáticas e discursivas. Pode separar termos coordenados, expressões deslocadas, vocativos, apostos e orações em determinadas condições.</p><p>Não se deve separar sujeito do verbo nem verbo de seu complemento apenas porque a frase é longa.</p><h3>Vírgula e deslocamento</h3><p>Adjuntos adverbiais deslocados podem ser isolados por vírgula, especialmente quando extensos. Orações adverbiais antecipadas geralmente são separadas. Vocativos devem ser isolados: 'Soldado, atenção ao comando.'</p><p>Em enumerações, a vírgula separa itens. Em orações coordenadas, pode marcar a passagem de uma oração para outra.</p><h3>Outros sinais</h3><p>Dois-pontos introduzem explicação, enumeração, citação ou consequência anunciada. Ponto e vírgula separa segmentos maiores ou itens já internamente pontuados. Travessões podem marcar fala, destaque ou intercalação.</p><p>Questões de pontuação frequentemente perguntam se a retirada ou deslocamento de um sinal altera sentido ou correção.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>evitar vírgula entre sujeito e verbo</li><li>identificar vocativo e aposto</li><li>explicar o efeito de dois-pontos e travessão</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PONTUAÇÃO PARA CONCURSOS</span><h3>Pontuação — vírgula, ponto e vírgula, dois-pontos e travessão</h3><p>Aula direcionada aos principais usos de pontuação cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/K9PRjM8POy0\" title=\"Pontuação para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de pontuação</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>vírgula, ponto e vírgula, dois-pontos, travessão, aposto, vocativo e mudança de sentido</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Vírgula, ponto e vírgula, dois-pontos, travessão, aposto, vocativo e mudança de sentido. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar pontuação.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar pontuação.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.8 EMPREGO DOS SINAIS DE PONTUAÇÃO</div>\n<h3>Vírgula não é “pausa para respirar”</h3><p>A vírgula marca relações sintáticas. Entre usos frequentes: separar itens de enumeração, vocativo, aposto, adjuntos deslocados e certas orações.</p>\n<h3>Erro clássico</h3><p>Em regra, não se separa <b>sujeito do verbo</b> nem <b>verbo de seu complemento</b> apenas com uma vírgula.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos atentos resolveram a questão.” Não cabe vírgula entre “candidatos” e “resolveram”.</div>\n<h3>Dois-pontos e ponto e vírgula</h3><p>Dois-pontos podem introduzir explicação, enumeração ou fala. O ponto e vírgula pode separar estruturas coordenadas mais extensas.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: antes de pôr vírgula, identifique a função sintática dos termos.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pontuação</h3></div><h3>Pontuação organiza sentido</h3><p>Vírgula não é simplesmente uma pausa para respirar. Ela marca relações sintáticas e discursivas. Pode separar termos coordenados, expressões deslocadas, vocativos, apostos e orações em determinadas condições.</p><p>Não se deve separar sujeito do verbo nem verbo de seu complemento apenas porque a frase é longa.</p><h3>Vírgula e deslocamento</h3><p>Adjuntos adverbiais deslocados podem ser isolados por vírgula, especialmente quando extensos. Orações adverbiais antecipadas geralmente são separadas. Vocativos devem ser isolados: 'Soldado, atenção ao comando.'</p><p>Em enumerações, a vírgula separa itens. Em orações coordenadas, pode marcar a passagem de uma oração para outra.</p><h3>Outros sinais</h3><p>Dois-pontos introduzem explicação, enumeração, citação ou consequência anunciada. Ponto e vírgula separa segmentos maiores ou itens já internamente pontuados. Travessões podem marcar fala, destaque ou intercalação.</p><p>Questões de pontuação frequentemente perguntam se a retirada ou deslocamento de um sinal altera sentido ou correção.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>evitar vírgula entre sujeito e verbo</li><li>identificar vocativo e aposto</li><li>explicar o efeito de dois-pontos e travessão</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PONTUAÇÃO PARA CONCURSOS</span><h3>Pontuação — vírgula, ponto e vírgula, dois-pontos e travessão</h3><p>Aula direcionada aos principais usos de pontuação cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/K9PRjM8POy0\" title=\"Pontuação para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Pontuação</h3><p>Foco desta etapa: <b>vírgula, ponto e vírgula, dois-pontos, vocativo e orações adjetivas</b>.</p></div><h3>Como resolver este assunto</h3><p>Identifique a estrutura sintática antes de pontuar.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Vírgula não separa sujeito de verbo.</div></section>",
     "quiz": [
       {
-        "question": "Em regra, a vírgula NÃO deve separar:",
+        "question": "Em “Se o candidato estudar, terá melhor desempenho”, a vírgula se justifica porque:",
         "options": [
-          "Vocativo.",
-          "Itens de uma enumeração.",
-          "Aposto explicativo.",
-          "Sujeito e verbo."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Sujeito e verbo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “João, venha aqui”, a vírgula separa:",
-        "options": [
-          "Sujeito do verbo.",
-          "Predicativo.",
-          "Sujeito e verbo.",
-          "Vocativo."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Vocativo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em uma enumeração simples, os itens podem ser separados por:",
-        "options": [
-          "Apóstrofos.",
-          "Acentos circunflexos.",
-          "Hífens obrigatoriamente.",
-          "Vírgulas."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Vírgulas.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Os dois-pontos podem introduzir:",
-        "options": [
-          "Itens de uma enumeração.",
-          "Uma enumeração.",
-          "Sujeito e verbo.",
-          "Concordância nominal."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Uma enumeração.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A vírgula entre verbo e complemento, sem elemento intercalado, é em regra:",
-        "options": [
-          "Inadequada.",
-          "Exigida em qualquer frase longa.",
-          "Obrigatória.",
-          "Sujeito e verbo."
+          "separa oração subordinada adverbial antecipada.",
+          "separa sujeito e predicado.",
+          "isola vocativo.",
+          "separa objeto direto."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Inadequada.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "A oração condicional vem antes da principal.",
+        "tip": "Analise a estrutura, não só a pausa."
       },
       {
-        "question": "A pontuação pode:",
+        "question": "Compare “Não, espere.” e “Não espere.” A vírgula:",
         "options": [
-          "Itens de uma enumeração.",
-          "Substituir toda concordância.",
-          "Alterar relações de sentido.",
-          "Sujeito e verbo."
+          "é sempre opcional.",
+          "é proibida após palavra negativa.",
+          "altera a organização do enunciado e pode mudar o sentido.",
+          "transforma o verbo em substantivo."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Alterar relações de sentido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "No primeiro, há negação isolada; no segundo, ordem de não esperar.",
+        "tip": "Pontuação também produz sentido."
       },
       {
-        "question": "A vírgula entre sujeito e verbo, sem elemento intercalado, é:",
+        "question": "Assinale a frase em que a vírgula isola corretamente um vocativo:",
         "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "inadequada.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra que só se aplica à linguagem informal."
+          "Os candidatos, leram as instruções.",
+          "Os candidatos leram, as instruções.",
+          "Os, candidatos leram as instruções.",
+          "Candidatos, leiam atentamente as instruções."
+        ],
+        "answer": 3,
+        "explanation": "“Candidatos” é chamamento ao interlocutor.",
+        "tip": "Vocativo não é sujeito."
+      },
+      {
+        "question": "Em “O diretor, após a reunião, divulgou a decisão”, as vírgulas isolam:",
+        "options": [
+          "o sujeito simples.",
+          "um adjunto adverbial intercalado.",
+          "o objeto direto.",
+          "uma oração sem verbo."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de pontuação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Após a reunião” é expressão adverbial intercalada.",
+        "tip": "Elementos intercalados podem ser destacados."
       },
       {
-        "question": "Vocativo deve ser:",
+        "question": "Assinale a alternativa em que a vírgula é inadequada:",
         "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "isolado por vírgula(s)."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de pontuação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Oração adverbial antecipada costuma ser:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "separada por vírgula."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de pontuação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em uma enumeração anunciada por uma oração anterior, o sinal que pode introduzir os itens é:",
-        "options": [
-          "explicação, enumeração ou fala.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra restrita a nomes próprios.",
-          "uma relação sem qualquer efeito de sentido."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de pontuação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Vírgulas em oração adjetiva explicativa:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "marcam caráter explicativo e podem alterar o sentido em relação à restritiva.",
-          "uma regra restrita a nomes próprios."
+          "Depois da prova, os fiscais recolheram os cartões.",
+          "Marina, revise o formulário.",
+          "Os candidatos, chegaram cedo.",
+          "O relatório, que estava incompleto, foi devolvido."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de pontuação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Não se separa sujeito de verbo por vírgula.",
+        "tip": "Identifique sujeito e predicado."
       },
       {
-        "question": "Aposto explicativo costuma aparecer:",
+        "question": "Em “Os servidores que concluíram o treinamento receberam certificado”, a ausência de vírgulas indica que a oração relativa:",
         "options": [
-          "isolado por sinais de pontuação.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra restrita a nomes próprios.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "explica uma característica de todos.",
+          "é vocativo.",
+          "restringe o grupo de servidores a que a informação se aplica.",
+          "é coordenada."
+        ],
+        "answer": 2,
+        "explanation": "Oração adjetiva sem vírgulas é restritiva.",
+        "tip": "Vírgulas podem alterar o alcance."
+      },
+      {
+        "question": "Em “Os servidores, que concluíram o treinamento, receberam certificado”, as vírgulas sugerem que:",
+        "options": [
+          "somente parte concluiu.",
+          "a oração é adverbial.",
+          "o relativo perdeu antecedente.",
+          "a oração é explicativa."
+        ],
+        "answer": 3,
+        "explanation": "Com vírgulas, a oração adjetiva é explicativa.",
+        "tip": "Compare versões com e sem vírgula."
+      },
+      {
+        "question": "No período “O prazo terminou; os documentos, porém, ainda podem ser consultados”, o ponto e vírgula:",
+        "options": [
+          "equivale sempre a dois-pontos.",
+          "elimina a relação semântica.",
+          "separa orações relacionadas e organiza um período com vírgulas internas.",
+          "só pode aparecer em enumerações."
+        ],
+        "answer": 2,
+        "explanation": "Marca separação intermediária entre vírgula e ponto.",
+        "tip": "Observe a complexidade interna das partes."
+      },
+      {
+        "question": "Em “Ele tinha um objetivo: concluir a preparação antes do edital”, os dois-pontos introduzem:",
+        "options": [
+          "uma oposição.",
+          "um vocativo.",
+          "uma condição.",
+          "uma explicitação do objetivo mencionado."
+        ],
+        "answer": 3,
+        "explanation": "O segmento posterior especifica “um objetivo”.",
+        "tip": "Dois-pontos podem introduzir explicação."
+      },
+      {
+        "question": "Qual versão apresenta pontuação compatível com adjunto adverbial inicial e enumeração?",
+        "options": [
+          "Durante a manhã os candidatos, revisaram Português Matemática e Direito.",
+          "Durante a manhã, os candidatos revisaram Português, Matemática e Direito.",
+          "Durante a manhã, os candidatos revisaram, Português Matemática, e Direito.",
+          "Durante, a manhã os candidatos revisaram Português; Matemática, e Direito."
+        ],
+        "answer": 1,
+        "explanation": "O adjunto inicial é destacado e a enumeração é pontuada corretamente.",
+        "tip": "Pontue por função sintática."
+      },
+      {
+        "question": "Em “Segundo o relatório, a falha ocorreu durante a atualização”, a vírgula isola:",
+        "options": [
+          "uma expressão adverbial introdutória de fonte/ponto de referência.",
+          "o verbo de seu complemento.",
+          "um substantivo por ser longo.",
+          "oração adversativa."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de pontuação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Segundo o relatório” funciona como expressão introdutória.",
+        "tip": "Observe elementos deslocados."
+      },
+      {
+        "question": "“O candidato que estudou, foi aprovado” apresenta problema porque:",
+        "options": [
+          "faltam dois-pontos.",
+          "toda relativa exige duas vírgulas.",
+          "a vírgula separa indevidamente o sujeito expandido do predicado.",
+          "pronome relativo não pode integrar sujeito."
+        ],
+        "answer": 2,
+        "explanation": "Todo o grupo “O candidato que estudou” é sujeito de “foi aprovado”.",
+        "tip": "Não pontue só porque o trecho é longo."
       }
     ]
   },
@@ -1068,151 +1068,151 @@ window.lessons={
     "title": "Estrutura e formação de palavras",
     "subtitle": "Português • Aula 08 • Edital 1.9",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.9 ESTRUTURA E FORMAÇÃO DE PALAVRAS</div>\n<h3>Elementos mórficos</h3><p><b>Radical</b> concentra o núcleo de sentido; afixos podem ser prefixos ou sufixos. Desinências marcam flexões; vogal temática participa da estrutura de certas palavras.</p>\n<h3>Derivação</h3><p>Há derivação prefixal, sufixal, prefixal e sufixal, parassintética, regressiva e imprópria. A prova costuma exigir reconhecimento do processo.</p>\n<h3>Composição</h3><p>Na composição por <b>justaposição</b>, os elementos mantêm sua forma perceptível; na <b>aglutinação</b>, ocorre alteração fonética/gráfica na união.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: compare a palavra formada com sua base e observe o que foi acrescentado ou alterado.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estrutura e formação de palavras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Morfemas e estrutura</h3><p>As palavras podem ser analisadas em unidades menores de sentido ou função. Radical concentra o núcleo lexical; prefixos aparecem antes do radical; sufixos aparecem depois; desinências podem indicar flexões.</p><p>Em 'infelizmente', há prefixo in-, base feliz e sufixo -mente. Identificar esses elementos ajuda a entender sentido e formação.</p><h3>Derivação</h3><p>Derivação prefixal acrescenta prefixo; sufixal acrescenta sufixo; prefixal e sufixal reúne ambos. Derivação parassintética exige acréscimo simultâneo de prefixo e sufixo para formar a palavra.</p><p>Derivação regressiva costuma formar substantivo a partir de verbo, e derivação imprópria ocorre quando uma palavra muda de classe sem alteração formal.</p><h3>Composição</h3><p>Na composição por justaposição, os elementos mantêm sua forma de maneira reconhecível. Na aglutinação, ocorre alteração fonética ou gráfica na junção.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar radical, prefixo e sufixo</li><li>distinguir derivação de composição</li><li>reconhecer derivação imprópria</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA PMMG</span><h3>Morfologia — PMMG 2025</h3><p>Aula específica para o concurso da PMMG.</p><iframe src=\"https://www.youtube.com/embed/7csC8xrdGks\" title=\"Morfologia PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de formação de palavras</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>derivação, composição, prefixação, sufixação, parassíntese, regressão e conversão</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Derivação, composição, prefixação, sufixação, parassíntese, regressão e conversão. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar estrutura e formação de palavras.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar estrutura e formação de palavras.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • 1.9 ESTRUTURA E FORMAÇÃO DE PALAVRAS</div>\n<h3>Elementos mórficos</h3><p><b>Radical</b> concentra o núcleo de sentido; afixos podem ser prefixos ou sufixos. Desinências marcam flexões; vogal temática participa da estrutura de certas palavras.</p>\n<h3>Derivação</h3><p>Há derivação prefixal, sufixal, prefixal e sufixal, parassintética, regressiva e imprópria. A prova costuma exigir reconhecimento do processo.</p>\n<h3>Composição</h3><p>Na composição por <b>justaposição</b>, os elementos mantêm sua forma perceptível; na <b>aglutinação</b>, ocorre alteração fonética/gráfica na união.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: compare a palavra formada com sua base e observe o que foi acrescentado ou alterado.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estrutura e formação de palavras</h3></div><h3>Morfemas e estrutura</h3><p>As palavras podem ser analisadas em unidades menores de sentido ou função. Radical concentra o núcleo lexical; prefixos aparecem antes do radical; sufixos aparecem depois; desinências podem indicar flexões.</p><p>Em 'infelizmente', há prefixo in-, base feliz e sufixo -mente. Identificar esses elementos ajuda a entender sentido e formação.</p><h3>Derivação</h3><p>Derivação prefixal acrescenta prefixo; sufixal acrescenta sufixo; prefixal e sufixal reúne ambos. Derivação parassintética exige acréscimo simultâneo de prefixo e sufixo para formar a palavra.</p><p>Derivação regressiva costuma formar substantivo a partir de verbo, e derivação imprópria ocorre quando uma palavra muda de classe sem alteração formal.</p><h3>Composição</h3><p>Na composição por justaposição, os elementos mantêm sua forma de maneira reconhecível. Na aglutinação, ocorre alteração fonética ou gráfica na junção.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar radical, prefixo e sufixo</li><li>distinguir derivação de composição</li><li>reconhecer derivação imprópria</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA PMMG</span><h3>Morfologia — PMMG 2025</h3><p>Aula específica para o concurso da PMMG.</p><iframe src=\"https://www.youtube.com/embed/7csC8xrdGks\" title=\"Morfologia PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Formação de palavras</h3><p>Foco desta etapa: <b>radical, prefixos, sufixos, composição e derivação</b>.</p></div><h3>Como resolver este assunto</h3><p>Separe os morfemas e teste formas intermediárias.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Composição e derivação seguem critérios distintos.</div></section><div class=\"video-lesson\"><span>🎥 REFORÇO ESPECÍFICO</span><h3>Formação de palavras — derivação e composição</h3><p>Reforço específico de derivação e composição para concursos.</p><iframe src=\"https://www.youtube.com/embed/Xw74aXTBaoY\" title=\"Formação de palavras — derivação e composição\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "O elemento que concentra o núcleo de sentido da palavra é o:",
+        "question": "Na palavra “deslealdade”, identificam-se:",
         "options": [
-          "Prefixo.",
-          "Acento.",
-          "Radical.",
-          "Artigo."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Radical.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “infeliz”, “in-” funciona como:",
-        "options": [
-          "Prefixo.",
-          "Artigo.",
-          "Radical.",
-          "Desinência verbal."
+          "prefixo “des-”, base “leal” e sufixo “-dade”.",
+          "dois radicais sem afixos.",
+          "composição por justaposição.",
+          "derivação regressiva."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Prefixo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Há prefixo e sufixo ligados à base “leal”.",
+        "tip": "Separe os morfemas."
       },
       {
-        "question": "A união de dois radicais para formar uma palavra caracteriza:",
+        "question": "Em “infelizmente”, a formação envolve:",
         "options": [
-          "Composição.",
-          "Pontuação.",
-          "Concordância.",
-          "Acentuação."
+          "prefixação e sufixação em etapas possíveis.",
+          "composição por aglutinação.",
+          "abreviação.",
+          "derivação regressiva."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Composição.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "A base “feliz” recebe “in-” e “-mente”.",
+        "tip": "Parassíntese exige simultaneidade indispensável."
       },
       {
-        "question": "Em “felizmente”, “-mente” é:",
+        "question": "A palavra “passatempo” é formada por:",
         "options": [
-          "Radical.",
-          "Sufixo.",
-          "Acento.",
-          "Prefixo."
+          "derivação prefixal.",
+          "composição por justaposição.",
+          "derivação regressiva.",
+          "parassíntese."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Sufixo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "As bases se unem sem perda fonológica relevante.",
+        "tip": "Composição reúne duas bases."
       },
       {
-        "question": "Derivação sufixal ocorre quando:",
-        "options": [
-          "Acrescenta-se elemento depois da base.",
-          "Radical.",
-          "Acrescenta-se artigo antes do substantivo.",
-          "Une-se apenas pontuação."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Acrescenta-se elemento depois da base.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Na justaposição:",
-        "options": [
-          "Acento.",
-          "Radical.",
-          "Sempre desaparecem os dois radicais.",
-          "Os elementos permanecem reconhecíveis."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Os elementos permanecem reconhecíveis.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "“Infeliz” exemplifica:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra restrita a nomes próprios.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "derivação prefixal."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de formação de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "“Felizmente” exemplifica:",
-        "options": [
-          "derivação sufixal.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma relação sem qualquer efeito de sentido.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de formação de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "“Passatempo” exemplifica:",
-        "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra restrita a nomes próprios.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "composição por justaposição."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de formação de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "“Planalto” é exemplo tradicional de:",
+        "question": "A palavra “planalto” exemplifica:",
         "options": [
           "composição por aglutinação.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma construção sempre proibida pela norma-padrão."
+          "justaposição.",
+          "derivação sufixal.",
+          "abreviação."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de formação de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A junção histórica provoca alteração formal.",
+        "tip": "Aglutinação costuma alterar elementos."
       },
       {
-        "question": "Na parassíntese:",
+        "question": "Em “amanhecer”, a formação é tradicionalmente classificada como:",
         "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "prefixo e sufixo são acrescentados simultaneamente à base.",
-          "um caso em que o contexto nunca interfere na análise."
+          "justaposição.",
+          "regressiva.",
+          "sigla.",
+          "derivação parassintética."
         ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de formação de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "Prefixo e sufixo ligam-se simultaneamente à base.",
+        "tip": "Teste a existência de formas intermediárias."
       },
       {
-        "question": "Derivação regressiva ocorre, em casos clássicos, quando:",
+        "question": "Em “pedreiro”, “-eiro” é:",
         "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um substantivo é formado por redução de uma forma verbal.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
+          "sufixo.",
+          "prefixo.",
+          "radical independente.",
+          "desinência verbal."
+        ],
+        "answer": 0,
+        "explanation": "O elemento é acrescentado à base para formar outra palavra.",
+        "tip": "Afixos derivacionais alteram sentido ou classe."
+      },
+      {
+        "question": "Na palavra “reler”, “re-” expressa:",
+        "options": [
+          "negação.",
+          "repetição da ação.",
+          "diminuição.",
+          "profissão."
+        ],
+        "answer": 1,
+        "explanation": "O prefixo acrescenta ideia de repetição.",
+        "tip": "Associe afixos a valores recorrentes."
+      },
+      {
+        "question": "“Foto”, como redução de “fotografia”, exemplifica:",
+        "options": [
+          "composição.",
+          "parassíntese.",
+          "abreviação vocabular.",
+          "derivação imprópria."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de formação de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Há redução formal com preservação de sentido básico.",
+        "tip": "Nem toda forma curta é derivada."
+      },
+      {
+        "question": "Em “o jantar foi servido cedo”, “jantar” exemplifica:",
+        "options": [
+          "prefixação.",
+          "aglutinação.",
+          "derivação imprópria.",
+          "regressiva."
+        ],
+        "answer": 2,
+        "explanation": "A forma verbal é usada como substantivo sem mudança formal.",
+        "tip": "Derivação imprópria muda a classe."
+      },
+      {
+        "question": "“Combate”, relacionado a “combater”, pode exemplificar:",
+        "options": [
+          "justaposição.",
+          "prefixação.",
+          "parassíntese.",
+          "derivação regressiva."
+        ],
+        "answer": 3,
+        "explanation": "O substantivo deverbal apresenta redução formal em análise tradicional.",
+        "tip": "Regressiva é frequente em nomes de ação."
+      },
+      {
+        "question": "Em “cafezinho”, “-zinho” pode acrescentar:",
+        "options": [
+          "negação.",
+          "repetição verbal.",
+          "valor diminutivo ou afetivo.",
+          "oposição."
+        ],
+        "answer": 2,
+        "explanation": "Diminutivos podem expressar tamanho ou valor afetivo.",
+        "tip": "Considere o contexto pragmático."
+      },
+      {
+        "question": "Radical é:",
+        "options": [
+          "o elemento que concentra o núcleo lexical e se repete em palavras da mesma família.",
+          "qualquer marca de plural.",
+          "o artigo que acompanha o nome.",
+          "a sílaba tônica."
+        ],
+        "answer": 0,
+        "explanation": "O radical é a base comum de formas lexicalmente relacionadas.",
+        "tip": "Compare palavras da mesma família."
       }
     ]
   },
@@ -1220,151 +1220,151 @@ window.lessons={
     "title": "Classes de palavras",
     "subtitle": "Português • Aula 09 • Edital 1.10",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CLASSES DE PALAVRAS</div>\n<h3>As 10 classes gramaticais</h3><p>As palavras são agrupadas conforme seu comportamento e função: <b>substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição</b>.</p>\n<h3>Variáveis x invariáveis</h3><p>Substantivos, artigos, adjetivos, numerais, pronomes e verbos podem sofrer flexões. Advérbios, preposições, conjunções e interjeições são, em regra, invariáveis.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> em “Os candidatos atentos estudaram muito”, “candidatos” é substantivo, “atentos” é adjetivo, “estudaram” é verbo e “muito” funciona como advérbio.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: classifique a palavra dentro da frase; a mesma forma pode exercer funções diferentes conforme o contexto.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Classes de palavras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Classes variáveis</h3><p>Substantivo nomeia seres, ações, estados ou conceitos. Adjetivo caracteriza ou relaciona o substantivo. Artigo determina o substantivo. Numeral expressa quantidade ou ordem. Pronome pode acompanhar ou substituir nomes. Verbo expressa ação, estado, fenômeno ou processo.</p><p>Essas classes podem sofrer flexões de gênero, número, pessoa, tempo e modo, conforme o caso.</p><h3>Classes invariáveis</h3><p>Advérbio modifica verbo, adjetivo, outro advérbio ou toda a oração. Preposição relaciona termos. Conjunção conecta termos ou orações. Interjeição expressa reação ou estado emotivo.</p><p>Uma palavra pode mudar de classe conforme o contexto. 'O jantar está pronto' traz 'jantar' como substantivo; 'vamos jantar' usa verbo.</p><h3>Valor contextual</h3><p>A banca pode perguntar não apenas a classe, mas a função ou o sentido. Um advérbio pode marcar intensidade, tempo, lugar, negação ou modalidade.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar palavras pelo contexto</li><li>distinguir pronome de artigo</li><li>identificar mudança de classe</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +120 MIL VISUALIZAÇÕES</span><h3>Classes de palavras — Português para Concursos</h3><p>Mapa das 10 classes gramaticais e distinção entre variáveis e invariáveis.</p><iframe src=\"https://www.youtube.com/embed/MVsC4iP1FvA\" title=\"Classes de palavras para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de classes de palavras</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição e conjunção</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição e conjunção. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar classes de palavras.</p><iframe src=\"https://www.youtube.com/embed/7csC8xrdGks\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar classes de palavras.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CLASSES DE PALAVRAS</div>\n<h3>As 10 classes gramaticais</h3><p>As palavras são agrupadas conforme seu comportamento e função: <b>substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição</b>.</p>\n<h3>Variáveis x invariáveis</h3><p>Substantivos, artigos, adjetivos, numerais, pronomes e verbos podem sofrer flexões. Advérbios, preposições, conjunções e interjeições são, em regra, invariáveis.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> em “Os candidatos atentos estudaram muito”, “candidatos” é substantivo, “atentos” é adjetivo, “estudaram” é verbo e “muito” funciona como advérbio.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: classifique a palavra dentro da frase; a mesma forma pode exercer funções diferentes conforme o contexto.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Classes de palavras</h3></div><h3>Classes variáveis</h3><p>Substantivo nomeia seres, ações, estados ou conceitos. Adjetivo caracteriza ou relaciona o substantivo. Artigo determina o substantivo. Numeral expressa quantidade ou ordem. Pronome pode acompanhar ou substituir nomes. Verbo expressa ação, estado, fenômeno ou processo.</p><p>Essas classes podem sofrer flexões de gênero, número, pessoa, tempo e modo, conforme o caso.</p><h3>Classes invariáveis</h3><p>Advérbio modifica verbo, adjetivo, outro advérbio ou toda a oração. Preposição relaciona termos. Conjunção conecta termos ou orações. Interjeição expressa reação ou estado emotivo.</p><p>Uma palavra pode mudar de classe conforme o contexto. 'O jantar está pronto' traz 'jantar' como substantivo; 'vamos jantar' usa verbo.</p><h3>Valor contextual</h3><p>A banca pode perguntar não apenas a classe, mas a função ou o sentido. Um advérbio pode marcar intensidade, tempo, lugar, negação ou modalidade.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar palavras pelo contexto</li><li>distinguir pronome de artigo</li><li>identificar mudança de classe</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +120 MIL VISUALIZAÇÕES</span><h3>Classes de palavras — Português para Concursos</h3><p>Mapa das 10 classes gramaticais e distinção entre variáveis e invariáveis.</p><iframe src=\"https://www.youtube.com/embed/MVsC4iP1FvA\" title=\"Classes de palavras para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Classes de palavras</h3><p>Foco desta etapa: <b>substantivo, adjetivo, advérbio, pronome, numeral, artigo, verbo, preposição e conjunção</b>.</p></div><h3>Como resolver este assunto</h3><p>Descubra o termo modificado e a função no contexto.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: A mesma forma pode mudar de classe.</div></section>",
     "quiz": [
       {
-        "question": "Qual alternativa apresenta apenas classes invariáveis?",
-        "options": [
-          "Adjetivo.",
-          "Substantivo, artigo e adjetivo.",
-          "Pronome, verbo e numeral.",
-          "Advérbio, preposição e conjunção."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Advérbio, preposição e conjunção.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “candidato dedicado”, a palavra “dedicado” é:",
-        "options": [
-          "Adjetivo.",
-          "Artigo.",
-          "Advérbio, preposição e conjunção.",
-          "Conjunção."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Adjetivo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “estudou muito”, “muito” modifica o verbo e funciona como:",
-        "options": [
-          "Substantivo.",
-          "Pronome.",
-          "Artigo.",
-          "Advérbio."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Advérbio.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A classe que normalmente indica ação, estado ou fenômeno é:",
-        "options": [
-          "Verbo.",
-          "Advérbio, preposição e conjunção.",
-          "Artigo.",
-          "Pronome, verbo e numeral."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Verbo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Conjunções atuam ligando:",
-        "options": [
-          "Advérbio, preposição e conjunção.",
-          "Orações ou termos de mesma função.",
-          "Apenas números.",
-          "Somente verbos no infinitivo."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Orações ou termos de mesma função.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Preposições servem principalmente para:",
-        "options": [
-          "Pronome, verbo e numeral.",
-          "Advérbio, preposição e conjunção.",
-          "Substituir sempre substantivos.",
-          "Relacionar termos."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Relacionar termos.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Palavra que modifica tipicamente um verbo, adjetivo ou advérbio é:",
+        "question": "Em “O candidato dedicado revisou o conteúdo”, “dedicado” é:",
         "options": [
           "advérbio.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma construção sempre proibida pela norma-padrão."
+          "artigo.",
+          "preposição.",
+          "adjetivo."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de classes de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "Caracteriza o substantivo “candidato”.",
+        "tip": "Pergunte qual palavra está sendo caracterizada."
       },
       {
-        "question": "Classe que pode ligar orações ou termos de mesma função é:",
+        "question": "Em “O candidato estudou muito”, “muito” é:",
         "options": [
+          "pronome possessivo.",
+          "advérbio de intensidade.",
+          "substantivo.",
+          "artigo."
+        ],
+        "answer": 1,
+        "explanation": "Modifica o verbo “estudou”.",
+        "tip": "Advérbios podem modificar verbos."
+      },
+      {
+        "question": "Em “Dois candidatos chegaram”, “dois” é:",
+        "options": [
+          "pronome indefinido.",
+          "adjetivo.",
+          "numeral.",
+          "conjunção."
+        ],
+        "answer": 2,
+        "explanation": "Indica quantidade exata.",
+        "tip": "Numeral expressa quantidade ou ordem."
+      },
+      {
+        "question": "Em “Aqueles documentos foram conferidos”, “aqueles” é:",
+        "options": [
+          "artigo indefinido.",
+          "preposição.",
+          "advérbio.",
+          "pronome demonstrativo."
+        ],
+        "answer": 3,
+        "explanation": "Referencia/localiza “documentos”.",
+        "tip": "Demonstrativos também atuam no discurso."
+      },
+      {
+        "question": "Em “Os servidores chegaram cedo”, “os” é:",
+        "options": [
+          "artigo definido.",
+          "pronome pessoal.",
+          "advérbio.",
+          "conjunção."
+        ],
+        "answer": 0,
+        "explanation": "Determina o substantivo “servidores”.",
+        "tip": "Artigos acompanham substantivos."
+      },
+      {
+        "question": "Em “Ele chegou e iniciou a reunião”, “e” é:",
+        "options": [
+          "preposição.",
+          "advérbio.",
+          "interjeição.",
+          "conjunção coordenativa aditiva."
+        ],
+        "answer": 3,
+        "explanation": "Liga duas orações e acrescenta a segunda ação.",
+        "tip": "Conjunções estabelecem relações."
+      },
+      {
+        "question": "Em “Preciso de ajuda”, “de” é:",
+        "options": [
+          "artigo.",
+          "verbo.",
+          "pronome.",
+          "preposição."
+        ],
+        "answer": 3,
+        "explanation": "Relaciona o verbo a seu complemento.",
+        "tip": "Preposições podem ser exigidas pela regência."
+      },
+      {
+        "question": "Em “Ah! Finalmente chegou.”, a palavra “Ah!” é classificada como:",
+        "options": [
+          "preposição.",
+          "artigo definido.",
+          "interjeição.",
+          "conjunção coordenativa."
+        ],
+        "answer": 2,
+        "explanation": "“Ah!” é uma interjeição, classe usada para expressar emoções, reações e estados de espírito.",
+        "tip": "Interjeições costumam aparecer com forte valor expressivo e podem formar enunciados isolados."
+      },
+      {
+        "question": "Em “O estudo diário melhora o desempenho”, “estudo” é:",
+        "options": [
+          "advérbio.",
+          "substantivo.",
           "conjunção.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de classes de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Palavra que substitui ou acompanha um nome, situando participantes do discurso, é:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
           "pronome."
         ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de classes de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "Nomeia uma atividade e é núcleo do sujeito.",
+        "tip": "Substantivos nomeiam ações e conceitos."
       },
       {
-        "question": "Artigo definido:",
+        "question": "Em “Ela estudará amanhã”, “estudará” é:",
         "options": [
-          "determina o substantivo de modo definido no contexto.",
-          "uma relação sem qualquer efeito de sentido.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma relação obrigatoriamente causal, independentemente do contexto."
+          "adjetivo.",
+          "artigo.",
+          "verbo.",
+          "preposição."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de classes de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "Expressa ação e apresenta flexões verbais.",
+        "tip": "Flexão é forte indício de classe."
       },
       {
-        "question": "Adjetivo:",
+        "question": "Em “O candidato estava bastante confiante”, “bastante” é:",
         "options": [
-          "atribui característica ou relação a um substantivo.",
-          "uma regra restrita a nomes próprios.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra que só se aplica à linguagem informal."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de classes de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Preposição:",
-        "options": [
-          "uma regra restrita a nomes próprios.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "estabelece relação de dependência entre termos."
+          "substantivo.",
+          "artigo.",
+          "pronome relativo.",
+          "advérbio de intensidade."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de classes de palavras sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Intensifica o adjetivo “confiante”.",
+        "tip": "Observe o termo modificado."
+      },
+      {
+        "question": "Em “Bastantes candidatos compareceram”, “bastantes” é:",
+        "options": [
+          "advérbio invariável.",
+          "pronome indefinido/adjetivo pronominal com valor quantitativo.",
+          "preposição.",
+          "conjunção."
+        ],
+        "answer": 1,
+        "explanation": "Acompanha o substantivo e varia em número.",
+        "tip": "A mesma forma pode mudar de classe."
       }
     ]
   },
@@ -1372,151 +1372,151 @@ window.lessons={
     "title": "Sintaxe da oração e do período",
     "subtitle": "Português • Aula 10 • Edital • Sintaxe",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • SINTAXE</div>\n<h3>Termos essenciais</h3><p>A oração se organiza em torno do <b>verbo</b>. Sujeito é o termo sobre o qual se declara algo; predicado é aquilo que se declara do sujeito. Há também objetos, complementos, adjuntos, aposto e vocativo.</p>\n<h3>Período simples e composto</h3><p>Período simples possui uma oração; período composto possui duas ou mais. As orações podem se relacionar por coordenação ou subordinação.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos resolveram a prova.” Sujeito: “Os candidatos”; núcleo: “candidatos”; predicado: “resolveram a prova”.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: encontre primeiro o verbo; depois pergunte quem pratica/sofre o processo e quais termos completam seu sentido.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sintaxe da oração e do período</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Oração e período</h3><p>Oração é uma estrutura organizada em torno de verbo ou locução verbal. Período simples tem uma oração; período composto tem duas ou mais.</p><p>Nem toda frase precisa ter verbo, mas toda oração apresenta verbo ou locução verbal.</p><h3>Relações sintáticas</h3><p>A sintaxe analisa como os termos se relacionam. Sujeito liga-se ao predicado; verbos podem exigir complementos; nomes podem pedir complementos; adjuntos acrescentam circunstâncias ou características.</p><p>Para analisar uma frase, localize primeiro o verbo. Depois pergunte quem pratica ou sofre o processo, se o verbo exige complemento e quais termos acrescentam informação.</p><h3>Ordem direta e inversão</h3><p>Em português, a ordem direta sujeito-verbo-complementos é comum, mas a ordem pode ser invertida. A inversão não elimina funções sintáticas. Em 'Chegaram os candidatos', 'os candidatos' continua sendo sujeito.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar quantidade de orações</li><li>localizar sujeito e predicado</li><li>analisar frases com ordem invertida</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • SINTAXE PARA CONCURSOS</span><h3>Sintaxe — oração, sujeito e predicado</h3><p>Use esta aula como reforço para identificar a estrutura da oração antes de resolver as questões.</p><iframe src=\"https://www.youtube.com/embed/Xz7FzmxA4pk\" title=\"Sintaxe para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de sintaxe da oração e do período</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>frase, oração, período, sujeito, predicado, complementos e relações sintáticas</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Frase, oração, período, sujeito, predicado, complementos e relações sintáticas. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar sintaxe da oração e do período.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar sintaxe da oração e do período.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • SINTAXE</div>\n<h3>Termos essenciais</h3><p>A oração se organiza em torno do <b>verbo</b>. Sujeito é o termo sobre o qual se declara algo; predicado é aquilo que se declara do sujeito. Há também objetos, complementos, adjuntos, aposto e vocativo.</p>\n<h3>Período simples e composto</h3><p>Período simples possui uma oração; período composto possui duas ou mais. As orações podem se relacionar por coordenação ou subordinação.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos resolveram a prova.” Sujeito: “Os candidatos”; núcleo: “candidatos”; predicado: “resolveram a prova”.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: encontre primeiro o verbo; depois pergunte quem pratica/sofre o processo e quais termos completam seu sentido.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sintaxe da oração e do período</h3></div><h3>Oração e período</h3><p>Oração é uma estrutura organizada em torno de verbo ou locução verbal. Período simples tem uma oração; período composto tem duas ou mais.</p><p>Nem toda frase precisa ter verbo, mas toda oração apresenta verbo ou locução verbal.</p><h3>Relações sintáticas</h3><p>A sintaxe analisa como os termos se relacionam. Sujeito liga-se ao predicado; verbos podem exigir complementos; nomes podem pedir complementos; adjuntos acrescentam circunstâncias ou características.</p><p>Para analisar uma frase, localize primeiro o verbo. Depois pergunte quem pratica ou sofre o processo, se o verbo exige complemento e quais termos acrescentam informação.</p><h3>Ordem direta e inversão</h3><p>Em português, a ordem direta sujeito-verbo-complementos é comum, mas a ordem pode ser invertida. A inversão não elimina funções sintáticas. Em 'Chegaram os candidatos', 'os candidatos' continua sendo sujeito.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar quantidade de orações</li><li>localizar sujeito e predicado</li><li>analisar frases com ordem invertida</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • SINTAXE PARA CONCURSOS</span><h3>Sintaxe — oração, sujeito e predicado</h3><p>Use esta aula como reforço para identificar a estrutura da oração antes de resolver as questões.</p><iframe src=\"https://www.youtube.com/embed/Xz7FzmxA4pk\" title=\"Sintaxe para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Sintaxe</h3><p>Foco desta etapa: <b>sujeito, predicado, transitividade, voz passiva e predicativos</b>.</p></div><h3>Como resolver este assunto</h3><p>Comece pelo verbo e reconstrua suas relações.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Ordem inversa não elimina sujeito.</div></section>",
     "quiz": [
       {
-        "question": "Em “Os candidatos estudaram”, o sujeito é:",
+        "question": "Em “Chegaram cedo os novos soldados”, o sujeito é:",
         "options": [
-          "Estudaram.",
-          "Um verbo ou locução verbal.",
-          "Os candidatos.",
-          "Inexistente."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Os candidatos.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Uma oração organiza-se em torno de:",
-        "options": [
-          "Uma vírgula.",
-          "Um artigo.",
-          "Um verbo ou locução verbal.",
-          "Os candidatos."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Um verbo ou locução verbal.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "O termo que completa o sentido de um verbo transitivo pode ser:",
-        "options": [
-          "Interjeição.",
-          "Vocativo apenas.",
-          "Objeto.",
-          "Artigo."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Objeto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Período composto possui:",
-        "options": [
-          "Obrigatoriamente três parágrafos.",
-          "Duas ou mais orações.",
-          "Os candidatos.",
-          "Estudaram."
+          "oculto.",
+          "os novos soldados.",
+          "indeterminado.",
+          "cedo."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Duas ou mais orações.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "A ordem inversa não elimina o sujeito.",
+        "tip": "Não identifique sujeito só pela posição."
       },
       {
-        "question": "Em “João, candidato dedicado, foi aprovado”, “candidato dedicado” é:",
+        "question": "Em “Aos candidatos foram entregues os cartões”, “os cartões” é:",
         "options": [
-          "Verbo.",
-          "Objeto direto.",
-          "Aposto.",
-          "Os candidatos."
+          "objeto direto.",
+          "sujeito paciente.",
+          "predicativo do objeto.",
+          "adjunto adverbial."
         ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Aposto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 1,
+        "explanation": "Na passiva, recebe a ação e controla a concordância.",
+        "tip": "Reconstrua a voz ativa."
       },
       {
-        "question": "Vocativo é usado para:",
+        "question": "Em “O comandante considerou o procedimento inadequado”, “inadequado” é:",
         "options": [
-          "Estudaram.",
-          "Os candidatos.",
-          "Chamar ou interpelar alguém.",
-          "Indicar sujeito obrigatoriamente."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Chamar ou interpelar alguém.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Toda oração possui:",
-        "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "verbo ou locução verbal."
+          "objeto indireto.",
+          "adjunto adnominal do comandante.",
+          "sujeito oculto.",
+          "predicativo do objeto."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de sintaxe da oração e do período sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Atribui característica ao objeto “o procedimento”.",
+        "tip": "Verbos de julgamento admitem predicativo."
       },
       {
-        "question": "Em uma questão de aplicação sobre sintaxe da oração e do período, a análise correta completa a afirmação: Período composto possui:",
+        "question": "Em “Os candidatos chegaram cansados”, “cansados” é:",
         "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra que só se aplica à linguagem informal.",
-          "duas ou mais orações.",
-          "uma regra restrita a nomes próprios."
+          "objeto direto.",
+          "adjunto adverbial.",
+          "complemento nominal.",
+          "predicativo do sujeito."
         ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de sintaxe da oração e do período sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "Atribui estado ao sujeito por meio do verbo.",
+        "tip": "Predicativo expressa característica/estado."
       },
       {
-        "question": "Em “Os candidatos chegaram cedo”, o sujeito é:",
+        "question": "Em “Há muitos candidatos na sala”, o sujeito é:",
         "options": [
-          "Os candidatos.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "uma construção sempre proibida pela norma-padrão."
+          "muitos candidatos.",
+          "oculto “ele”.",
+          "a sala.",
+          "inexistente."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de sintaxe da oração e do período sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "“Haver” existencial é impessoal.",
+        "tip": "Não confunda com “existir”."
       },
       {
-        "question": "Predicado é:",
+        "question": "Em “Precisa-se de fiscais”, o sujeito é:",
         "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido.",
-          "aquilo que se declara do sujeito, quando há sujeito.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de sintaxe da oração e do período sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Uma frase pode:",
-        "options": [
-          "não possuir verbo.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "indeterminado.",
+          "fiscais.",
+          "oculto “nós”.",
+          "inexistente."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de sintaxe da oração e do período sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Verbo transitivo indireto + se indetermina o sujeito.",
+        "tip": "Verifique a transitividade."
       },
       {
-        "question": "Em “Choveu muito ontem”, tradicionalmente há:",
+        "question": "Em “Vendem-se apostilas”, “apostilas” é:",
         "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma relação sem qualquer efeito de sentido.",
-          "oração sem sujeito.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
+          "objeto direto.",
+          "sujeito paciente.",
+          "objeto indireto.",
+          "vocativo."
+        ],
+        "answer": 1,
+        "explanation": "Há voz passiva sintética: “apostilas são vendidas”.",
+        "tip": "Teste a passiva analítica."
+      },
+      {
+        "question": "“O candidato estudou e resolveu questões” é período:",
+        "options": [
+          "composto, com duas orações.",
+          "simples.",
+          "nominal.",
+          "sem predicado."
+        ],
+        "answer": 0,
+        "explanation": "Há dois núcleos verbais oracionais.",
+        "tip": "Conte orações, não sujeitos."
+      },
+      {
+        "question": "Em “Quando chegou, o fiscal iniciou a conferência”, há:",
+        "options": [
+          "uma única oração.",
+          "duas coordenadas assindéticas.",
+          "uma oração subordinada e uma principal.",
+          "frase nominal."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de sintaxe da oração e do período sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A primeira depende da principal e exprime tempo.",
+        "tip": "Observe o conectivo subordinativo."
+      },
+      {
+        "question": "Em “O estudo constante é fundamental”, o predicado é:",
+        "options": [
+          "O estudo constante.",
+          "é fundamental.",
+          "constante.",
+          "fundamental o estudo."
+        ],
+        "answer": 1,
+        "explanation": "O sujeito é “O estudo constante”; o restante é predicado.",
+        "tip": "Localize o verbo e o sujeito."
+      },
+      {
+        "question": "Em “Choveu muito ontem”, a oração apresenta:",
+        "options": [
+          "sujeito “ontem”.",
+          "sujeito oculto “ele”.",
+          "sujeito inexistente.",
+          "sujeito composto."
+        ],
+        "answer": 2,
+        "explanation": "Fenômeno da natureza em sentido próprio é impessoal.",
+        "tip": "Fenômenos naturais são caso clássico."
+      },
+      {
+        "question": "Em “Os alunos permaneceram atentos”, “permaneceram” é:",
+        "options": [
+          "transitivo direto.",
+          "transitivo indireto.",
+          "verbo de ligação.",
+          "impessoal."
+        ],
+        "answer": 2,
+        "explanation": "Liga o sujeito ao estado “atentos”.",
+        "tip": "Classifique o verbo pelo contexto."
       }
     ]
   },
@@ -1524,151 +1524,151 @@ window.lessons={
     "title": "Concordância verbal e nominal",
     "subtitle": "Português • Aula 11 • Edital • Concordância",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CONCORDÂNCIA VERBAL E NOMINAL</div>\n<h3>Concordância verbal</h3><p>Como regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito: “Os candidatos <b>estudam</b>”. Casos com sujeito composto, expressões partitivas e verbos impessoais exigem atenção.</p>\n<h3>Concordância nominal</h3><p>Artigos, adjetivos, numerais e pronomes adjetivos ajustam-se ao substantivo a que se referem.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “As duas questões difíceis foram resolvidas.” Os determinantes e adjetivos acompanham o feminino plural de “questões”.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: descubra o núcleo antes de concordar; palavras próximas podem tentar enganar você.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Concordância verbal e nominal</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Concordância verbal</h3><p>Em regra, o verbo concorda com o núcleo do sujeito em número e pessoa. O desafio aparece em sujeitos compostos, expressões partitivas, porcentagens, pronomes relativos e construções com o verbo haver.</p><p>Haver com sentido de existir é impessoal e fica no singular: 'Havia problemas'. Fazer indicando tempo decorrido também é impessoal: 'Faz dois anos'.</p><h3>Concordância nominal</h3><p>Artigos, adjetivos, pronomes adjetivos e numerais concordam com o substantivo a que se referem. Quando um adjetivo se refere a mais de um substantivo, a concordância depende da posição e dos gêneros envolvidos.</p><p>Palavras como 'meio', 'bastante', 'anexo', 'incluso' e 'obrigado' mudam ou não mudam conforme sua classe e emprego.</p><h3>Questões de prova</h3><p>A banca costuma criar frases longas para afastar o verbo do núcleo do sujeito. Ignore termos intercalados e localize o núcleo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar por que 'havia pessoas' fica no singular</li><li>localizar o núcleo do sujeito</li><li>resolver concordância de adjetivos</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +640 MIL VISUALIZAÇÕES</span><h3>Concordância verbal — Português com Letícia</h3><p>Aula completa para concursos, incluindo sujeito composto e verbos impessoais como haver e fazer.</p><iframe src=\"https://www.youtube.com/embed/s2T9Ap2J7u0\" title=\"Concordância verbal para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de concordância</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>núcleo do sujeito, sujeito composto, expressões partitivas, predicativo e concordância nominal</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Núcleo do sujeito, sujeito composto, expressões partitivas, predicativo e concordância nominal. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar concordância verbal e nominal.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar concordância verbal e nominal.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CONCORDÂNCIA VERBAL E NOMINAL</div>\n<h3>Concordância verbal</h3><p>Como regra geral, o verbo concorda em número e pessoa com o núcleo do sujeito: “Os candidatos <b>estudam</b>”. Casos com sujeito composto, expressões partitivas e verbos impessoais exigem atenção.</p>\n<h3>Concordância nominal</h3><p>Artigos, adjetivos, numerais e pronomes adjetivos ajustam-se ao substantivo a que se referem.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “As duas questões difíceis foram resolvidas.” Os determinantes e adjetivos acompanham o feminino plural de “questões”.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: descubra o núcleo antes de concordar; palavras próximas podem tentar enganar você.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Concordância verbal e nominal</h3></div><h3>Concordância verbal</h3><p>Em regra, o verbo concorda com o núcleo do sujeito em número e pessoa. O desafio aparece em sujeitos compostos, expressões partitivas, porcentagens, pronomes relativos e construções com o verbo haver.</p><p>Haver com sentido de existir é impessoal e fica no singular: 'Havia problemas'. Fazer indicando tempo decorrido também é impessoal: 'Faz dois anos'.</p><h3>Concordância nominal</h3><p>Artigos, adjetivos, pronomes adjetivos e numerais concordam com o substantivo a que se referem. Quando um adjetivo se refere a mais de um substantivo, a concordância depende da posição e dos gêneros envolvidos.</p><p>Palavras como 'meio', 'bastante', 'anexo', 'incluso' e 'obrigado' mudam ou não mudam conforme sua classe e emprego.</p><h3>Questões de prova</h3><p>A banca costuma criar frases longas para afastar o verbo do núcleo do sujeito. Ignore termos intercalados e localize o núcleo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar por que 'havia pessoas' fica no singular</li><li>localizar o núcleo do sujeito</li><li>resolver concordância de adjetivos</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +640 MIL VISUALIZAÇÕES</span><h3>Concordância verbal — Português com Letícia</h3><p>Aula completa para concursos, incluindo sujeito composto e verbos impessoais como haver e fazer.</p><iframe src=\"https://www.youtube.com/embed/s2T9Ap2J7u0\" title=\"Concordância verbal para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Concordância</h3><p>Foco desta etapa: <b>núcleo do sujeito, impessoais e concordância nominal</b>.</p></div><h3>Como resolver este assunto</h3><p>Localize o núcleo e verifique se o termo é variável.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Haver existencial e fazer temporal ficam no singular.</div></section>",
     "quiz": [
       {
-        "question": "Assinale a concordância adequada:",
+        "question": "Assinale a alternativa correta quanto à concordância:",
         "options": [
-          "Substantivo a que se refere.",
-          "Os candidatos estudam.",
-          "Os candidatos estudas.",
-          "Os candidatos estuda."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Os candidatos estudam.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Na concordância nominal, o adjetivo relaciona-se principalmente ao:",
-        "options": [
-          "Substantivo a que se refere.",
-          "Título do texto.",
-          "Os candidatos estudam.",
-          "Ponto final."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Substantivo a que se refere.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "O verbo “haver” com sentido de existir é, na norma-padrão:",
-        "options": [
-          "Adjetivo.",
-          "Conjunção.",
-          "Sempre plural.",
-          "Impessoal e fica no singular."
+          "Fazem três anos que o curso começou.",
+          "Houveram mudanças no edital.",
+          "Existe, nos arquivos, documentos pendentes.",
+          "Devem existir alternativas melhores."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Impessoal e fica no singular.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Existir” é pessoal e concorda com “alternativas”; “fazer” temporal e “haver” existencial são impessoais.",
+        "tip": "Diferencie “haver” existencial de “existir”."
       },
       {
-        "question": "Em “As questões difíceis”, “difíceis” está no plural porque concorda com:",
+        "question": "Em “Mais de um candidato apresentou recurso”, o singular do verbo decorre, em regra, da:",
         "options": [
-          "Os candidatos estudam.",
-          "Nenhum termo.",
-          "Os candidatos estuda.",
-          "Questões."
+          "concordância com a expressão “mais de um”.",
+          "impessoalidade do verbo.",
+          "presença de objeto singular.",
+          "indeterminação do sujeito."
+        ],
+        "answer": 0,
+        "explanation": "A construção “mais de um” normalmente leva o verbo ao singular.",
+        "tip": "Expressões quantitativas têm regras próprias."
+      },
+      {
+        "question": "Assinale a forma correta:",
+        "options": [
+          "Haviam muitas pessoas no local.",
+          "Houveram muitos problemas ontem.",
+          "Devem haver soluções melhores.",
+          "Havia muitas pessoas no local."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Questões.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Haver” no sentido de existir é impessoal e fica no singular, inclusive em locuções.",
+        "tip": "Haver existencial não concorda com o termo posterior."
       },
       {
-        "question": "A concordância verbal depende, em regra, do:",
+        "question": "Em “Faltam dois dias para a prova”, o verbo está no plural porque:",
         "options": [
-          "Núcleo do sujeito.",
-          "Os candidatos estudam.",
-          "Número de vírgulas.",
-          "Primeiro substantivo encontrado."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Núcleo do sujeito.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Assinale a forma padrão:",
-        "options": [
-          "Os candidatos estuda.",
-          "Havia muitas pessoas.",
-          "Houveram problemas ontem.",
-          "Os candidatos estudam."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Havia muitas pessoas.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “Faltam dois dias”, o verbo concorda com:",
-        "options": [
-          "dois dias.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de concordância sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Com verbo haver no sentido de existir, a norma-padrão exige:",
-        "options": [
-          "uma regra restrita a nomes próprios.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "verbo na terceira pessoa do singular.",
-          "um caso em que o contexto nunca interfere na análise."
+          "é impessoal.",
+          "todo verbo de tempo vai ao plural.",
+          "concorda com o sujeito “dois dias”.",
+          "concorda com “prova”."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de concordância sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Faltar” é pessoal; “dois dias” é sujeito.",
+        "tip": "Nem toda expressão temporal é impessoal."
       },
       {
-        "question": "Em “É proibida a entrada”, a flexão ocorre porque:",
+        "question": "Quanto ao emprego de “meio” como advérbio, assinale a alternativa correta:",
         "options": [
-          "o substantivo está determinado pelo artigo.",
-          "uma regra restrita a nomes próprios.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma relação sem qualquer efeito de sentido."
+          "As candidatas estavam meias cansadas.",
+          "As candidatas estavam meio cansadas.",
+          "As candidata estavam meio cansada.",
+          "As candidatas estava meio cansadas."
+        ],
+        "answer": 1,
+        "explanation": "“Meio”, com sentido de “um pouco”, é advérbio invariável.",
+        "tip": "Diferencie meio numeral de meio advérbio."
+      },
+      {
+        "question": "Em “Seguem anexos os documentos solicitados”, “anexos”:",
+        "options": [
+          "concorda com “documentos”.",
+          "deve ficar invariável.",
+          "concorda com “seguem”.",
+          "é advérbio."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de concordância sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Anexo” é adjetivo e varia com o substantivo.",
+        "tip": "Veja se a palavra caracteriza um nome."
       },
       {
-        "question": "Adjetivo referente a dois substantivos de gêneros diferentes pode ir, em regra, para:",
+        "question": "Quanto à concordância em “é proibido/é proibida”, assinale a alternativa correta:",
         "options": [
-          "masculino plural.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra restrita a nomes próprios.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
+          "É proibida a entrada de pessoas não autorizadas.",
+          "É proibido a entrada de pessoas não autorizadas.",
+          "É proibidas a entrada de pessoas não autorizadas.",
+          "São proibido a entrada de pessoas não autorizadas."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de concordância sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Com artigo determinando “entrada”, o predicativo concorda com o substantivo.",
+        "tip": "A presença de determinante influencia a concordância."
       },
       {
-        "question": "Em “Mais de um candidato faltou”, a regra geral pede:",
+        "question": "Em “Os Estados Unidos anunciaram novas medidas”, o plural decorre de:",
         "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma relação sem qualquer efeito de sentido.",
-          "verbo no singular."
+          "todo nome de país exigir plural.",
+          "o verbo concordar com “medidas”.",
+          "o sujeito ser indeterminado.",
+          "o nome próprio plural vir acompanhado de artigo plural e funcionar como sujeito plural."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de concordância sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Com artigo plural, o nome próprio é tratado como sujeito plural.",
+        "tip": "Observe o artigo de nomes próprios pluralizados."
       },
       {
-        "question": "Concordância verbal toma como referência central:",
+        "question": "Quanto à concordância com o pronome relativo “que”, assinale a alternativa correta:",
         "options": [
-          "o núcleo do sujeito, ressalvados casos especiais.",
-          "uma relação sem qualquer efeito de sentido.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma regra restrita a nomes próprios."
+          "Fui eu que preparou o relatório.",
+          "Foi eu que preparei o relatório.",
+          "Fui eu que preparei o relatório.",
+          "Fomos eu que preparei o relatório."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de concordância sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "Com “que”, o verbo da relativa concorda com o antecedente “eu”.",
+        "tip": "Identifique o antecedente do relativo."
+      },
+      {
+        "question": "Em “Nem o diretor nem os servidores aceitaram a proposta”, o plural é adequado porque:",
+        "options": [
+          "“nem” torna o verbo impessoal.",
+          "o verbo sempre concorda só com o mais próximo.",
+          "o sujeito composto reúne núcleos coordenados.",
+          "“proposta” está no singular."
+        ],
+        "answer": 2,
+        "explanation": "Os dois núcleos formam sujeito composto.",
+        "tip": "Localize todos os núcleos do sujeito."
+      },
+      {
+        "question": "Quanto à concordância verbal com pronome de tratamento, assinale a alternativa adequada:",
+        "options": [
+          "Vossa Excelência recebereis o resultado amanhã.",
+          "Vossa Excelência receberás o resultado amanhã.",
+          "Vossa Excelência receberá o resultado amanhã.",
+          "Vossa Excelência receberei o resultado amanhã."
+        ],
+        "answer": 2,
+        "explanation": "Pronomes de tratamento exigem concordância verbal na terceira pessoa; por isso, emprega-se “receberá”.",
+        "tip": "A pessoa a quem se fala pode ser o interlocutor, mas a concordância gramatical é feita na terceira pessoa."
+      },
+      {
+        "question": "Em “Os relatórios seguem bastante completos”, “bastante” é:",
+        "options": [
+          "adjetivo que deve ir ao plural.",
+          "advérbio invariável que intensifica “completos”.",
+          "substantivo coletivo.",
+          "pronome relativo."
+        ],
+        "answer": 1,
+        "explanation": "Como modifica adjetivo, funciona como advérbio.",
+        "tip": "A função determina se “bastante” varia."
       }
     ]
   },
@@ -1676,151 +1676,151 @@ window.lessons={
     "title": "Regência verbal e nominal",
     "subtitle": "Português • Aula 12 • Edital • Regência",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • REGÊNCIA VERBAL E NOMINAL</div>\n<h3>O que é regência</h3><p>Regência estuda a relação entre um termo regente e seu complemento, especialmente a necessidade ou não de <b>preposição</b>. Verbos como assistir, obedecer, preferir e visar aparecem muito em exercícios de concurso.</p>\n<h3>Regência nominal</h3><p>Nomes também podem exigir preposição: “favorável <b>a</b>”, “necessidade <b>de</b>”, “respeito <b>a</b>”.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> na norma-padrão, “obedecer <b>às</b> regras” apresenta preposição exigida pelo verbo.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: não decore só a preposição; aprenda o sentido do verbo, porque a regência pode mudar com o significado.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regência verbal e nominal</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>O que é regência</h3><p>Regência é a relação de dependência entre um termo regente e seu complemento, especialmente quanto ao uso de preposição. Alguns verbos mudam de sentido quando mudam de regência.</p><p>'Assistir ao filme' significa ver; 'assistir o paciente' pode significar prestar assistência. 'Visar ao cargo' indica ter como objetivo; 'visar o documento' pode significar rubricar.</p><h3>Verbos frequentes em prova</h3><p>Obedecer e desobedecer pedem preposição a. Preferir segue a construção 'preferir X a Y', sem 'mais'. Aspirar pode ser transitivo direto no sentido de sorver e indireto com a no sentido de desejar.</p><p>Chegar e ir, na norma-padrão, costumam combinar com a para destino em construções cobradas por bancas.</p><h3>Regência nominal</h3><p>Nomes também podem exigir preposição: necessidade de, respeito a/por, apto a/para, compatível com. A regência pode influenciar diretamente o emprego da crase.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer verbos que mudam de sentido</li><li>identificar preposição exigida</li><li>ligar regência ao uso da crase</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA PARA CONCURSOS • +50 MIL VISUALIZAÇÕES</span><h3>Regência nominal e verbal — exercícios</h3><p>Treino prático com verbos frequentemente cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/oOosGRe5gKo\" title=\"Regência verbal e nominal para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de regência</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>transitividade, preposições exigidas, mudança de sentido e regência nominal</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Transitividade, preposições exigidas, mudança de sentido e regência nominal. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar regência verbal e nominal.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar regência verbal e nominal.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • REGÊNCIA VERBAL E NOMINAL</div>\n<h3>O que é regência</h3><p>Regência estuda a relação entre um termo regente e seu complemento, especialmente a necessidade ou não de <b>preposição</b>. Verbos como assistir, obedecer, preferir e visar aparecem muito em exercícios de concurso.</p>\n<h3>Regência nominal</h3><p>Nomes também podem exigir preposição: “favorável <b>a</b>”, “necessidade <b>de</b>”, “respeito <b>a</b>”.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> na norma-padrão, “obedecer <b>às</b> regras” apresenta preposição exigida pelo verbo.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: não decore só a preposição; aprenda o sentido do verbo, porque a regência pode mudar com o significado.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regência verbal e nominal</h3></div><h3>O que é regência</h3><p>Regência é a relação de dependência entre um termo regente e seu complemento, especialmente quanto ao uso de preposição. Alguns verbos mudam de sentido quando mudam de regência.</p><p>'Assistir ao filme' significa ver; 'assistir o paciente' pode significar prestar assistência. 'Visar ao cargo' indica ter como objetivo; 'visar o documento' pode significar rubricar.</p><h3>Verbos frequentes em prova</h3><p>Obedecer e desobedecer pedem preposição a. Preferir segue a construção 'preferir X a Y', sem 'mais'. Aspirar pode ser transitivo direto no sentido de sorver e indireto com a no sentido de desejar.</p><p>Chegar e ir, na norma-padrão, costumam combinar com a para destino em construções cobradas por bancas.</p><h3>Regência nominal</h3><p>Nomes também podem exigir preposição: necessidade de, respeito a/por, apto a/para, compatível com. A regência pode influenciar diretamente o emprego da crase.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer verbos que mudam de sentido</li><li>identificar preposição exigida</li><li>ligar regência ao uso da crase</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA PARA CONCURSOS • +50 MIL VISUALIZAÇÕES</span><h3>Regência nominal e verbal — exercícios</h3><p>Treino prático com verbos frequentemente cobrados em concursos.</p><iframe src=\"https://www.youtube.com/embed/oOosGRe5gKo\" title=\"Regência verbal e nominal para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Regência</h3><p>Foco desta etapa: <b>preposições exigidas por verbos, nomes e relativos</b>.</p></div><h3>Como resolver este assunto</h3><p>Descubra o termo regente e seu sentido.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Regência pode mudar com o sentido.</div></section>",
     "quiz": [
       {
-        "question": "Regência estuda principalmente:",
+        "question": "Assinale a frase correta quanto à regência:",
         "options": [
-          "A relação entre termos e seus complementos/preposições.",
-          "Preposição a.",
-          "Somente ortografia.",
-          "A divisão em parágrafos."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “A relação entre termos e seus complementos/preposições.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Na norma-padrão, o verbo “obedecer” rege:",
-        "options": [
-          "Preposição com apenas.",
-          "Preposição a.",
-          "A relação entre termos e seus complementos/preposições.",
-          "Preposição por apenas."
+          "O candidato aspirava o cargo público.",
+          "Todos assistiram ao treinamento.",
+          "O servidor obedeceu o regulamento.",
+          "O aluno preferia mais Português do que Matemática."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Preposição a.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "No sentido de presenciar, “assistir” rege “a”.",
+        "tip": "Regência pode mudar conforme o sentido."
       },
       {
-        "question": "A regência de um verbo pode variar conforme:",
+        "question": "Em “Ele informou o resultado aos candidatos”, o verbo “informar” apresenta:",
         "options": [
-          "A quantidade de parágrafos.",
-          "A cor da página.",
-          "Seu sentido no contexto.",
-          "O tamanho da palavra seguinte."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Seu sentido no contexto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “necessidade de estudo”, “de” é exigido por:",
-        "options": [
-          "A divisão em parágrafos.",
-          "Um verbo oculto obrigatoriamente.",
-          "Necessidade.",
-          "A relação entre termos e seus complementos/preposições."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Necessidade.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Para resolver questão de regência, é importante identificar:",
-        "options": [
-          "A quantidade de vírgulas.",
-          "A relação entre termos e seus complementos/preposições.",
-          "A fonte do texto apenas.",
-          "O termo regente e o sentido empregado."
+          "apenas complemento sem preposição.",
+          "somente objeto indireto.",
+          "predicativo obrigatório.",
+          "objeto direto para a coisa informada e indireto para o destinatário."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “O termo regente e o sentido empregado.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“O resultado” é OD; “aos candidatos”, OI.",
+        "tip": "Verbos bitransitivos admitem dois complementos."
       },
       {
-        "question": "“Favorável a mudanças” exemplifica:",
+        "question": "No sentido de desejar um cargo, qual construção respeita a regência de “aspirar”?",
         "options": [
-          "A relação entre termos e seus complementos/preposições.",
-          "A divisão em parágrafos.",
-          "Acentuação.",
-          "Regência nominal."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Regência nominal.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Quem obedece, na norma-padrão, obedece:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "a algo ou a alguém.",
-          "uma regra restrita a nomes próprios."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de regência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "O verbo assistir, no sentido de ver/presenciar, tradicionalmente rege:",
-        "options": [
-          "preposição a.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma regra restrita a nomes próprios.",
-          "uma construção sempre proibida pela norma-padrão."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de regência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Preferir, na norma-padrão, constrói-se adequadamente como:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "preferir uma coisa a outra.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
+          "O candidato aspirava o cargo de oficial.",
+          "O candidato aspirava ao cargo de oficial.",
+          "O candidato aspirava no cargo de oficial.",
+          "O candidato aspirava pelo cargo de oficial."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de regência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "No sentido de desejar, “aspirar” rege “a”.",
+        "tip": "Não confunda desejar com sorver."
       },
       {
-        "question": "Regência nominal estuda:",
+        "question": "Em “O servidor obedeceu às normas”, a preposição “a” é exigida por:",
         "options": [
-          "a relação entre nomes e seus complementos, inclusive preposições exigidas.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "gênero feminino.",
+          "plural de “normas”.",
+          "regência do verbo “obedecer”.",
+          "presença do artigo."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de regência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "“Obedecer” é transitivo indireto e rege “a”.",
+        "tip": "Regência vem do termo regente."
       },
       {
-        "question": "Mudança de regência pode:",
+        "question": "Quanto à regência do verbo “preferir”, assinale a alternativa correta:",
         "options": [
-          "alterar o sentido de certos verbos.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma construção sempre proibida pela norma-padrão."
+          "Prefiro mais Português do que Matemática.",
+          "Prefiro Português a Matemática.",
+          "Prefiro Português do que Matemática.",
+          "Prefiro antes Português que Matemática."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de regência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "Na norma-padrão, “preferir X a Y”, sem “mais”.",
+        "tip": "Evite redundância com “preferir mais”."
       },
       {
-        "question": "O verbo visar, no sentido de ter como objetivo, na tradição normativa:",
+        "question": "Em “Tenho aversão a injustiças”, a preposição é determinada pela:",
         "options": [
-          "rege preposição a.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra que só se aplica à linguagem informal."
+          "concordância verbal.",
+          "pontuação.",
+          "regência nominal de “aversão”.",
+          "classe do artigo."
+        ],
+        "answer": 2,
+        "explanation": "O nome “aversão” seleciona complemento com “a”.",
+        "tip": "Regência nominal envolve nomes e adjetivos."
+      },
+      {
+        "question": "Quanto à regência do verbo “simpatizar”, assinale a frase correta:",
+        "options": [
+          "Ele simpatizou a nova proposta.",
+          "Ele simpatizou da nova proposta.",
+          "Ele simpatizou com a nova proposta.",
+          "Ele simpatizou pela nova proposta."
+        ],
+        "answer": 2,
+        "explanation": "“Simpatizar” rege “com”.",
+        "tip": "Memorize regências em contexto."
+      },
+      {
+        "question": "Em “O resultado agradou aos candidatos”, “agradar”, no sentido de satisfazer, é:",
+        "options": [
+          "transitivo indireto e rege “a”.",
+          "transitivo direto.",
+          "impessoal.",
+          "verbo de ligação."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de regência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Na norma formal, “agradar a alguém” = satisfazer.",
+        "tip": "O sentido define a transitividade."
+      },
+      {
+        "question": "Considerando a regência formal do verbo “chegar” com ideia de destino, qual construção está adequada?",
+        "options": [
+          "Cheguei ao local antes do horário.",
+          "Cheguei no local, única forma padrão.",
+          "Cheguei do local.",
+          "Cheguei pelo local."
+        ],
+        "answer": 0,
+        "explanation": "Na norma formal, “chegar” rege “a” para destino.",
+        "tip": "Em prova normativa, observe a regência formal."
+      },
+      {
+        "question": "Em “A decisão foi favorável aos candidatos”, “aos candidatos” completa:",
+        "options": [
+          "o verbo “foi”.",
+          "o adjetivo “favorável”.",
+          "o substantivo “decisão”.",
+          "um advérbio oculto."
+        ],
+        "answer": 1,
+        "explanation": "“Favorável” rege complemento com “a”.",
+        "tip": "Pergunte qual palavra precisa do complemento."
+      },
+      {
+        "question": "Assinale a construção correta:",
+        "options": [
+          "O assunto que precisamos será discutido.",
+          "O assunto do qual precisamos dele será discutido.",
+          "O assunto de que precisamos será discutido.",
+          "O assunto a que precisamos será discutido."
+        ],
+        "answer": 2,
+        "explanation": "“Precisar de” exige “de” antes do relativo.",
+        "tip": "Leve a regência para o relativo."
+      },
+      {
+        "question": "Em “Ele se esqueceu do compromisso”, a construção está adequada porque:",
+        "options": [
+          "todo verbo pronominal rege “de”.",
+          "“compromisso” exige preposição por ser masculino.",
+          "a preposição é sempre facultativa.",
+          "a forma pronominal “esquecer-se” rege “de”."
+        ],
+        "answer": 3,
+        "explanation": "“Esquecer-se de” difere de “esquecer algo”.",
+        "tip": "Observe se o verbo é pronominal."
       }
     ]
   },
@@ -1828,151 +1828,151 @@ window.lessons={
     "title": "Crase",
     "subtitle": "Português • Aula 13 • Edital • Crase",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CRASE</div>\n<h3>O encontro de dois “a”</h3><p>A crase ocorre, em geral, quando a preposição <b>a</b> encontra o artigo feminino <b>a/as</b>. O acento grave <b>à</b> sinaliza essa fusão.</p>\n<h3>Teste prático</h3><p>Verifique se o termo anterior exige preposição “a” e se o termo seguinte admite artigo feminino. A troca por palavra masculina pode ajudar: se surgir “ao”, há forte indicação de crase no feminino.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Dirigi-me <b>à escola</b>” → “Dirigi-me <b>ao colégio</b>”.</div>\n<h3>Casos sem crase</h3><p>Em regra, não há crase antes de verbo, palavra masculina e vários pronomes que não admitem artigo.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: crase não é “acento de palavra feminina”; confirme preposição + artigo.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Crase</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Crase é fusão, não acento decorativo</h3><p>O acento grave indica normalmente a fusão da preposição a com o artigo feminino a/as. Portanto, antes de usar crase, verifique duas condições: o termo anterior exige preposição a? O termo seguinte admite artigo feminino a/as?</p><p>Se uma das condições faltar, não há crase.</p><h3>Testes úteis</h3><p>Troque o termo feminino por um masculino semelhante. Se surgir 'ao', há forte indicação de 'à': 'fui à escola' → 'fui ao colégio'.</p><p>Em locuções adverbiais, prepositivas e conjuntivas femininas, a crase é frequente: à noite, à medida que, à frente de.</p><h3>Quando não usar</h3><p>Em regra, não há crase antes de palavra masculina, verbo, muitos pronomes ou quando há apenas preposição sem artigo. Antes de nomes de lugar, o uso depende de aceitarem artigo: 'vou à Bahia', mas 'vou a Brasília' em uso padrão sem artigo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>aplicar o teste do masculino</li><li>identificar preposição + artigo</li><li>reconhecer casos em que a crase é proibida</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA COM QUESTÕES PMMG</span><h3>Acentuação e crase em provas anteriores da PMMG</h3><p>Resolução direcionada ao concurso de Soldado da PMMG.</p><iframe src=\"https://www.youtube.com/embed/7HiCTNKmio8\" title=\"Crase e acentuação PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de crase</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>fusão de preposição e artigo, locuções femininas, pronomes, topônimos e casos proibidos</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Fusão de preposição e artigo, locuções femininas, pronomes, topônimos e casos proibidos. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar crase.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar crase.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • CRASE</div>\n<h3>O encontro de dois “a”</h3><p>A crase ocorre, em geral, quando a preposição <b>a</b> encontra o artigo feminino <b>a/as</b>. O acento grave <b>à</b> sinaliza essa fusão.</p>\n<h3>Teste prático</h3><p>Verifique se o termo anterior exige preposição “a” e se o termo seguinte admite artigo feminino. A troca por palavra masculina pode ajudar: se surgir “ao”, há forte indicação de crase no feminino.</p>\n<div class=\"lesson-example\"><b>Exemplo:</b> “Dirigi-me <b>à escola</b>” → “Dirigi-me <b>ao colégio</b>”.</div>\n<h3>Casos sem crase</h3><p>Em regra, não há crase antes de verbo, palavra masculina e vários pronomes que não admitem artigo.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: crase não é “acento de palavra feminina”; confirme preposição + artigo.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Crase</h3></div><h3>Crase é fusão, não acento decorativo</h3><p>O acento grave indica normalmente a fusão da preposição a com o artigo feminino a/as. Portanto, antes de usar crase, verifique duas condições: o termo anterior exige preposição a? O termo seguinte admite artigo feminino a/as?</p><p>Se uma das condições faltar, não há crase.</p><h3>Testes úteis</h3><p>Troque o termo feminino por um masculino semelhante. Se surgir 'ao', há forte indicação de 'à': 'fui à escola' → 'fui ao colégio'.</p><p>Em locuções adverbiais, prepositivas e conjuntivas femininas, a crase é frequente: à noite, à medida que, à frente de.</p><h3>Quando não usar</h3><p>Em regra, não há crase antes de palavra masculina, verbo, muitos pronomes ou quando há apenas preposição sem artigo. Antes de nomes de lugar, o uso depende de aceitarem artigo: 'vou à Bahia', mas 'vou a Brasília' em uso padrão sem artigo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>aplicar o teste do masculino</li><li>identificar preposição + artigo</li><li>reconhecer casos em que a crase é proibida</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA COM QUESTÕES PMMG</span><h3>Acentuação e crase em provas anteriores da PMMG</h3><p>Resolução direcionada ao concurso de Soldado da PMMG.</p><iframe src=\"https://www.youtube.com/embed/7HiCTNKmio8\" title=\"Crase e acentuação PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Crase</h3><p>Foco desta etapa: <b>preposição + artigo, locuções, demonstrativos e casos facultativos</b>.</p></div><h3>Como resolver este assunto</h3><p>Teste regência e artigo; use o masculino como apoio.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Palavra feminina sozinha não causa crase.</div></section>",
     "quiz": [
       {
-        "question": "A crase normalmente representa a fusão de:",
+        "question": "Assinale a alternativa em que a crase é obrigatória:",
         "options": [
-          "Artigo o + preposição de.",
-          "Dois verbos.",
-          "Preposição a + artigo a/as.",
-          "Dirigi-me ao colégio."
+          "Refiro-me à candidata aprovada.",
+          "Cheguei a Belo Horizonte cedo.",
+          "Entreguei o documento a ela.",
+          "Começou a estudar ontem."
+        ],
+        "answer": 0,
+        "explanation": "“Referir-se” exige “a” e “candidata” admite artigo “a”.",
+        "tip": "Teste regência e artigo separadamente."
+      },
+      {
+        "question": "Em “A reunião ocorrerá às 14 horas”, há crase porque:",
+        "options": [
+          "toda indicação numérica exige crase.",
+          "“ocorrer” rege objeto indireto.",
+          "a indicação de hora determinada combina preposição “a” e artigo plural “as”.",
+          "qualquer palavra feminina exige crase."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Preposição a + artigo a/as.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Em horas determinadas, ocorre a fusão “a + as”.",
+        "tip": "Ser feminino não basta."
       },
       {
-        "question": "Em “Dirigi-me à escola”, a troca por masculino pode resultar em:",
+        "question": "Assinale a frase sem crase:",
         "options": [
-          "Dirigi-me pelo colégio sempre.",
-          "Dirigi-me no colégio obrigatoriamente.",
-          "Dirigi-me ao colégio.",
-          "Preposição a + artigo a/as."
+          "Começou a estudar cedo.",
+          "Voltou à escola.",
+          "Chegou às oito horas.",
+          "Referiu-se à proposta."
+        ],
+        "answer": 0,
+        "explanation": "Antes de verbo no infinitivo não há artigo feminino.",
+        "tip": "Antes de verbo, em regra, não há crase."
+      },
+      {
+        "question": "Em “Fui à escola”, o acento grave indica:",
+        "options": [
+          "apenas tonicidade.",
+          "plural do substantivo.",
+          "fusão da preposição “a” com o artigo “a”.",
+          "contração de “de” + “a”."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Dirigi-me ao colégio.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Ir” exige “a” e “escola” admite artigo.",
+        "tip": "Teste com “ao colégio”."
       },
       {
-        "question": "Crase deve ser analisada considerando:",
+        "question": "Quanto à crase antes de pronome pessoal, assinale a alternativa correta:",
         "options": [
-          "Pontuação final.",
-          "Regência e presença de artigo.",
-          "Somente número de sílabas.",
-          "Somente gênero feminino."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Regência e presença de artigo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em regra, antes de verbo:",
-        "options": [
-          "Artigo o + preposição de.",
-          "Não ocorre crase.",
-          "A crase é sempre obrigatória.",
-          "Preposição a + artigo a/as."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Não ocorre crase.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "O acento usado para indicar crase é o:",
-        "options": [
-          "Preposição a + artigo a/as.",
-          "Grave.",
-          "Til.",
-          "Circunflexo."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Grave.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Assinale a construção com crase adequada:",
-        "options": [
-          "Fui à escola.",
-          "Andei à pé.",
-          "Artigo o + preposição de.",
-          "Preposição a + artigo a/as."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Fui à escola.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Há crase em “refiro-me à candidata” porque:",
-        "options": [
-          "ocorre preposição a + artigo a.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra restrita a nomes próprios."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de crase sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em “a pé”, a crase é:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "proibida.",
-          "uma relação obrigatoriamente causal, independentemente do contexto."
+          "Entreguei o documento à ela.",
+          "Entreguei à documento a ela.",
+          "Entreguei o documento a ela.",
+          "Entreguei o documento á ela."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de crase sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Pronome pessoal não admite artigo nesse uso.",
+        "tip": "Não use crase só por referência feminina."
       },
       {
-        "question": "Antes de verbo, em regra, a crase é:",
+        "question": "Em “Voltei àquela cidade”, ocorre crase porque:",
         "options": [
-          "proibida.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido."
+          "todo demonstrativo exige crase.",
+          "“cidade” é feminina.",
+          "“voltar” é impessoal.",
+          "a preposição “a” se funde com o “a” inicial de “aquela”."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de crase sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 3,
+        "explanation": "A combinação “a + aquela” produz “àquela”.",
+        "tip": "Crase também ocorre com aquele/aquela/aquilo."
       },
       {
-        "question": "Em locuções adverbiais femininas como “à noite”, a crase é:",
+        "question": "Em qual caso a crase pode variar conforme a presença facultativa de artigo antes de nome próprio feminino?",
         "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "normalmente empregada.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
+          "Comecei a estudar.",
+          "Cheguei às 10 horas.",
+          "Refiro-me àquela norma.",
+          "Entreguei o convite a/à Maria."
+        ],
+        "answer": 3,
+        "explanation": "Com certos nomes próprios, o artigo pode ser facultativo.",
+        "tip": "Teste se você diz “da Maria” ou “de Maria”."
+      },
+      {
+        "question": "Em “à medida que o prazo avançava”, a crase ocorre em:",
+        "options": [
+          "objeto direto.",
+          "pronome pessoal.",
+          "locução conjuntiva feminina.",
+          "verbo no infinitivo."
+        ],
+        "answer": 2,
+        "explanation": "“À medida que” é locução conjuntiva consagrada.",
+        "tip": "Locuções femininas são ponto importante."
+      },
+      {
+        "question": "Quanto à expressão “frente a frente”, assinale a frase correta:",
+        "options": [
+          "O candidato ficou frente à frente.",
+          "O candidato ficou frente a frente com o avaliador.",
+          "O candidato ficou à frente à frente.",
+          "O candidato ficou frente á frente."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de crase sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Em expressão com palavra repetida, não ocorre crase.",
+        "tip": "Memorize “frente a frente”."
       },
       {
-        "question": "O teste “vou a/volto da” ajuda a verificar:",
+        "question": "Em “A equipe saiu às pressas”, o acento grave decorre de:",
         "options": [
-          "crase diante de nomes de lugar.",
-          "uma regra restrita a nomes próprios.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de crase sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em “entreguei o documento àquela servidora”, ocorre crase porque:",
-        "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "a preposição a se funde ao a inicial do demonstrativo.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "regência obrigatória de “sair”.",
+          "locução adverbial feminina.",
+          "sujeito feminino.",
+          "plural feminino por si só."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de crase sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Às pressas” é locução adverbial feminina.",
+        "tip": "Identifique a locução inteira."
+      },
+      {
+        "question": "Quanto a possessivo feminino singular, é correto afirmar que:",
+        "options": [
+          "é sempre proibida.",
+          "é sempre obrigatória.",
+          "depende apenas do número do possessivo.",
+          "a crase pode ser facultativa em contextos em que o artigo também é facultativo."
+        ],
+        "answer": 3,
+        "explanation": "Facultatividade do artigo pode gerar facultatividade da crase.",
+        "tip": "Crase depende da presença do artigo."
+      },
+      {
+        "question": "Se a forma masculina correspondente é “dirigi-me ao setor”, então a forma feminina equivalente tende a ser:",
+        "options": [
+          "dirigi-me a secretaria, obrigatoriamente.",
+          "dirigi-me à secretaria.",
+          "dirigi-me á secretaria.",
+          "dirigi-me da secretaria."
+        ],
+        "answer": 1,
+        "explanation": "“Ao” evidencia preposição + artigo; no feminino, “à”.",
+        "tip": "Use o teste do masculino."
       }
     ]
   },
@@ -1980,151 +1980,151 @@ window.lessons={
     "title": "Coesão e coerência",
     "subtitle": "Português • Aula 14 • Edital • Coesão e coerência",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • COESÃO E COERÊNCIA</div>\n<h3>Coesão</h3><p>Coesão é a ligação linguística entre partes do texto. Pronomes, conjunções, substituições lexicais e elipses ajudam a conectar frases e parágrafos.</p>\n<h3>Coerência</h3><p>Coerência é a construção de sentido global sem contradições indevidas. Um texto pode ter conectivos e ainda ser incoerente se suas ideias entrarem em conflito.</p>\n<h3>Conectivos e relações</h3><p>“porque” pode indicar causa; “portanto”, conclusão; “embora”, concessão; “mas”, oposição. A banca frequentemente pergunta que relação um conector estabelece.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: ao trocar um conectivo, confira se a relação lógica original foi preservada.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Coesão e coerência</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Coesão: conexões visíveis</h3><p>Coesão é o conjunto de mecanismos que conectam partes do texto: pronomes, repetição controlada, sinônimos, elipses, conectivos e relações lexicais. Ela ajuda o leitor a acompanhar quem ou o que está sendo retomado.</p><p>Pronomes podem retomar informação anterior (anáfora) ou antecipar informação posterior (catáfora).</p><h3>Coerência: lógica global</h3><p>Coerência diz respeito à compatibilidade entre informações e à construção de um sentido possível. Um texto pode ter conectivos corretos e ainda ser incoerente se suas ideias se contradizem sem explicação.</p><p>O conhecimento de mundo participa da coerência, mas em prova a análise deve respeitar o universo criado pelo texto.</p><h3>Conectivos e relações</h3><p>Porque indica causa ou explicação em muitos contextos; portanto indica conclusão; contudo marca contraste; além disso adiciona informação; embora marca concessão. Trocar conectivo pode alterar a relação lógica mesmo que a frase continue gramatical.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar referente de um pronome</li><li>diferenciar coesão de coerência</li><li>explicar a relação criada por um conectivo</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • FOCO EM CONCURSOS</span><h3>Coesão e coerência — TecConcursos</h3><p>Aula completa sobre texto coeso e coerente, compreensão, interpretação e análise textual.</p><iframe src=\"https://www.youtube.com/embed/lsVWqWtuusI\" title=\"Coesão e coerência para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de coesão e coerência</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>referenciação, conectores, anáfora, catáfora, progressão temática e contradição</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Referenciação, conectores, anáfora, catáfora, progressão temática e contradição. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar coesão e coerência.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar coesão e coerência.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • COESÃO E COERÊNCIA</div>\n<h3>Coesão</h3><p>Coesão é a ligação linguística entre partes do texto. Pronomes, conjunções, substituições lexicais e elipses ajudam a conectar frases e parágrafos.</p>\n<h3>Coerência</h3><p>Coerência é a construção de sentido global sem contradições indevidas. Um texto pode ter conectivos e ainda ser incoerente se suas ideias entrarem em conflito.</p>\n<h3>Conectivos e relações</h3><p>“porque” pode indicar causa; “portanto”, conclusão; “embora”, concessão; “mas”, oposição. A banca frequentemente pergunta que relação um conector estabelece.</p>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: ao trocar um conectivo, confira se a relação lógica original foi preservada.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Coesão e coerência</h3></div><h3>Coesão: conexões visíveis</h3><p>Coesão é o conjunto de mecanismos que conectam partes do texto: pronomes, repetição controlada, sinônimos, elipses, conectivos e relações lexicais. Ela ajuda o leitor a acompanhar quem ou o que está sendo retomado.</p><p>Pronomes podem retomar informação anterior (anáfora) ou antecipar informação posterior (catáfora).</p><h3>Coerência: lógica global</h3><p>Coerência diz respeito à compatibilidade entre informações e à construção de um sentido possível. Um texto pode ter conectivos corretos e ainda ser incoerente se suas ideias se contradizem sem explicação.</p><p>O conhecimento de mundo participa da coerência, mas em prova a análise deve respeitar o universo criado pelo texto.</p><h3>Conectivos e relações</h3><p>Porque indica causa ou explicação em muitos contextos; portanto indica conclusão; contudo marca contraste; além disso adiciona informação; embora marca concessão. Trocar conectivo pode alterar a relação lógica mesmo que a frase continue gramatical.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar referente de um pronome</li><li>diferenciar coesão de coerência</li><li>explicar a relação criada por um conectivo</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • FOCO EM CONCURSOS</span><h3>Coesão e coerência — TecConcursos</h3><p>Aula completa sobre texto coeso e coerente, compreensão, interpretação e análise textual.</p><iframe src=\"https://www.youtube.com/embed/lsVWqWtuusI\" title=\"Coesão e coerência para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Coesão e coerência</h3><p>Foco desta etapa: <b>anáfora, catáfora, conectivos, elipse e lógica global</b>.</p></div><h3>Como resolver este assunto</h3><p>Mapeie referentes e relações lógicas.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Coesão formal não garante coerência.</div></section>",
     "quiz": [
       {
-        "question": "Coesão textual está ligada principalmente:",
+        "question": "“A equipe revisou o protocolo. Essa medida reduziu falhas.” “Essa medida” funciona como:",
         "options": [
-          "À conexão linguística entre partes do texto.",
-          "Somente ao título.",
-          "À quantidade de páginas.",
-          "Ao sentido global e à compatibilidade das ideias."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “À conexão linguística entre partes do texto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Coerência diz respeito:",
-        "options": [
-          "Apenas ao uso de vírgulas.",
-          "À conexão linguística entre partes do texto.",
-          "Somente à ortografia.",
-          "Ao sentido global e à compatibilidade das ideias."
+          "antecipação de informação futura.",
+          "conector de oposição.",
+          "vocativo.",
+          "retomada anafórica da revisão do protocolo."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Ao sentido global e à compatibilidade das ideias.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O demonstrativo retoma ideia já mencionada.",
+        "tip": "Anafórico aponta para trás."
       },
       {
-        "question": "“Embora” normalmente expressa:",
+        "question": "Em “Marina entregou o relatório a Paula depois que ela revisou os anexos”, há possível:",
         "options": [
-          "Adição apenas.",
-          "Explicação nominal.",
-          "Concessão.",
-          "Conclusão."
+          "ausência total de coesão.",
+          "erro obrigatório de concordância.",
+          "ambiguidade referencial do pronome “ela”.",
+          "incoerência temporal inevitável."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Concessão.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Ela” pode retomar Marina ou Paula.",
+        "tip": "Pronome precisa de referente identificável."
       },
       {
-        "question": "O conectivo “portanto” costuma introduzir:",
+        "question": "“O prazo terminou. Por isso, o sistema bloqueou novas inscrições.” “Por isso” marca:",
         "options": [
-          "Conclusão.",
-          "À conexão linguística entre partes do texto.",
-          "À quantidade de páginas.",
-          "Vocativo."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Conclusão.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Trocar um conectivo sem analisar seu sentido pode:",
-        "options": [
-          "Corrigir automaticamente a gramática.",
-          "Nunca mudar nada.",
-          "Alterar a relação lógica do texto.",
-          "À conexão linguística entre partes do texto."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Alterar a relação lógica do texto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Um pronome que retoma termo anterior contribui para:",
-        "options": [
-          "Coesão referencial.",
-          "À conexão linguística entre partes do texto.",
-          "À quantidade de páginas.",
-          "Formação de palavras."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Coesão referencial.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Anáfora é:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "retomada de elemento já mencionado.",
-          "uma construção sempre proibida pela norma-padrão."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de coesão e coerência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Catáfora é:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra que só se aplica à linguagem informal.",
-          "antecipação de elemento que será apresentado adiante."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de coesão e coerência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Conectores adversativos estabelecem:",
-        "options": [
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "oposição ou contraste.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra que só se aplica à linguagem informal."
+          "oposição.",
+          "consequência/conclusão.",
+          "exemplificação.",
+          "comparação."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de coesão e coerência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O bloqueio é apresentado como consequência do término.",
+        "tip": "Conectivos criam coesão sequencial."
       },
       {
-        "question": "Em uma questão de aplicação sobre coesão e coerência, a análise correta completa a afirmação: Coerência diz respeito:",
+        "question": "Um texto é coerente quando:",
         "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "à construção global de sentido e compatibilidade entre ideias."
+          "repete sempre as mesmas palavras.",
+          "evita qualquer pronome.",
+          "tem apenas períodos curtos.",
+          "suas informações se articulam de forma compatível com tema, lógica e contexto."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de coesão e coerência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Coerência envolve sentido global.",
+        "tip": "Coesão e coerência não são sinônimos."
       },
       {
-        "question": "Coesão referencial pode ser realizada por:",
+        "question": "“João comprou um carro novo. O veículo será usado no trabalho.” “O veículo” é:",
         "options": [
-          "uma regra restrita a nomes próprios.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "pronomes e outras expressões de retomada.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
+          "catáfora.",
+          "contradição.",
+          "substituição lexical que retoma o mesmo referente.",
+          "elipse verbal."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de coesão e coerência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O termo mais geral retoma “carro novo”.",
+        "tip": "Coesão lexical evita repetição mecânica."
       },
       {
-        "question": "Trocar “portanto” por “porém” pode:",
+        "question": "“Antes de explicar sua decisão, o diretor anunciou isto: o prazo seria ampliado.” “Isto” é:",
         "options": [
-          "alterar a relação lógica de conclusão para oposição.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "anafórico.",
+          "adversativo.",
+          "elíptico.",
+          "catafórico."
+        ],
+        "answer": 3,
+        "explanation": "O pronome antecipa a informação posterior.",
+        "tip": "Catáfora aponta para frente."
+      },
+      {
+        "question": "Assinale a sequência mais coerente:",
+        "options": [
+          "O sistema falhou; portanto, nunca houve problema.",
+          "A equipe corrigiu a falha antes de ela existir.",
+          "O sistema apresentou falha. A equipe identificou a causa e aplicou a correção. Depois, os serviços foram restabelecidos.",
+          "O serviço foi restabelecido embora nunca tivesse existido."
+        ],
+        "answer": 2,
+        "explanation": "A sequência mantém relações temporais e causais plausíveis.",
+        "tip": "Verifique a compatibilidade lógica."
+      },
+      {
+        "question": "Em “O candidato estudou bastante; contudo, não revisou os pontos fracos”, “contudo” marca:",
+        "options": [
+          "contraste.",
+          "causa.",
+          "finalidade.",
+          "condição."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de coesão e coerência sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O conectivo adversativo opõe duas informações.",
+        "tip": "Conectivos são mecanismos coesivos."
+      },
+      {
+        "question": "Em “João revisou Português; Maria, Matemática”, há elipse porque:",
+        "options": [
+          "não existe verbo em nenhuma parte.",
+          "o verbo “revisou” é recuperado na segunda parte.",
+          "“Maria” retoma “João”.",
+          "a vírgula transforma “Matemática” em verbo."
+        ],
+        "answer": 1,
+        "explanation": "O verbo omitido é recuperável pelo contexto.",
+        "tip": "Elipse omite elemento recuperável."
+      },
+      {
+        "question": "Repetir uma palavra ao longo de um texto:",
+        "options": [
+          "é sempre erro.",
+          "sempre causa incoerência.",
+          "pode ser recurso coesivo se a repetição for funcional.",
+          "impede progressão."
+        ],
+        "answer": 2,
+        "explanation": "Repetição controlada pode manter o tópico.",
+        "tip": "Nem toda repetição é vício."
+      },
+      {
+        "question": "“O treinamento foi adiado porque o instrutor adoeceu.” A coerência causal depende de:",
+        "options": [
+          "a doença poder funcionar como razão plausível para o adiamento.",
+          "duas vírgulas obrigatórias.",
+          "repetição da palavra treinamento.",
+          "oposição."
+        ],
+        "answer": 0,
+        "explanation": "A relação causal precisa ser semanticamente plausível.",
+        "tip": "Coerência não é só gramática."
+      },
+      {
+        "question": "Trocar “porém” por “portanto” sem ajustar o restante pode:",
+        "options": [
+          "mudar a relação lógica e comprometer a coerência.",
+          "preservar sempre o sentido.",
+          "alterar só a ortografia.",
+          "não produzir efeito."
+        ],
+        "answer": 0,
+        "explanation": "“Porém” marca oposição; “portanto”, conclusão.",
+        "tip": "Conectivos têm valores distintos."
       }
     ]
   },
@@ -2132,151 +2132,151 @@ window.lessons={
     "title": "Termos da oração",
     "subtitle": "Português • Aula 15 • Edital • Termos da oração",
     "time": "60 min",
-    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • TERMOS DA ORAÇÃO</div><h3>Essenciais, integrantes e acessórios</h3><p>Depois de localizar o verbo, identifique sujeito e predicado. Em seguida, observe complementos verbais e nominais, agente da passiva, adjuntos, aposto e vocativo.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos entregaram os documentos ao fiscal.” Sujeito: “Os candidatos”; objeto direto: “os documentos”; objeto indireto: “ao fiscal”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: classifique o termo pela função que exerce na oração, não apenas pela posição.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Termos da oração</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Termos essenciais</h3><p>Sujeito e predicado organizam a oração. O sujeito pode ser simples, composto, oculto/desinencial, indeterminado ou inexistente em orações sem sujeito.</p><p>O predicado pode ser verbal, nominal ou verbo-nominal, conforme o núcleo e a estrutura.</p><h3>Termos integrantes</h3><p>Objeto direto completa verbo sem preposição obrigatória; objeto indireto completa verbo com preposição exigida. Complemento nominal completa o sentido de nome, adjetivo ou advérbio. Agente da passiva indica quem pratica a ação em certas construções passivas.</p><h3>Termos acessórios</h3><p>Adjunto adnominal caracteriza ou determina substantivo. Adjunto adverbial expressa circunstância. Aposto explica, resume ou especifica. Vocativo chama o interlocutor e não integra sujeito nem predicado.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir objeto indireto de complemento nominal</li><li>identificar vocativo</li><li>classificar predicado</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • SINTAXE</span><h3>Sujeito, predicado e termos da oração</h3><p>Reforço para análise sintática voltada a provas.</p><iframe src=\"https://www.youtube.com/embed/hHnPoZdYDDY\" title=\"Função sintática\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de termos da oração</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>sujeito, objetos, complemento nominal, agente da passiva, adjuntos, aposto e vocativo</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Sujeito, objetos, complemento nominal, agente da passiva, adjuntos, aposto e vocativo. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar termos da oração.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar termos da oração.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "\n<div class=\"edital-badge\">📋 EDITAL PMMG • TERMOS DA ORAÇÃO</div><h3>Essenciais, integrantes e acessórios</h3><p>Depois de localizar o verbo, identifique sujeito e predicado. Em seguida, observe complementos verbais e nominais, agente da passiva, adjuntos, aposto e vocativo.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Os candidatos entregaram os documentos ao fiscal.” Sujeito: “Os candidatos”; objeto direto: “os documentos”; objeto indireto: “ao fiscal”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: classifique o termo pela função que exerce na oração, não apenas pela posição.</div>\n<section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Termos da oração</h3></div><h3>Termos essenciais</h3><p>Sujeito e predicado organizam a oração. O sujeito pode ser simples, composto, oculto/desinencial, indeterminado ou inexistente em orações sem sujeito.</p><p>O predicado pode ser verbal, nominal ou verbo-nominal, conforme o núcleo e a estrutura.</p><h3>Termos integrantes</h3><p>Objeto direto completa verbo sem preposição obrigatória; objeto indireto completa verbo com preposição exigida. Complemento nominal completa o sentido de nome, adjetivo ou advérbio. Agente da passiva indica quem pratica a ação em certas construções passivas.</p><h3>Termos acessórios</h3><p>Adjunto adnominal caracteriza ou determina substantivo. Adjunto adverbial expressa circunstância. Aposto explica, resume ou especifica. Vocativo chama o interlocutor e não integra sujeito nem predicado.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir objeto indireto de complemento nominal</li><li>identificar vocativo</li><li>classificar predicado</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • SINTAXE</span><h3>Sujeito, predicado e termos da oração</h3><p>Reforço para análise sintática voltada a provas.</p><iframe src=\"https://www.youtube.com/embed/hHnPoZdYDDY\" title=\"Função sintática\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Termos da oração</h3><p>Foco desta etapa: <b>objetos, complementos, adjuntos, aposto, vocativo e predicativos</b>.</p></div><h3>Como resolver este assunto</h3><p>Descubra qual núcleo o termo completa ou caracteriza.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Nem todo termo preposicionado é OI.</div></section>",
     "quiz": [
       {
-        "question": "Em “Os candidatos entregaram os documentos”, o sujeito é:",
+        "question": "Em “A população necessita de segurança”, “de segurança” é:",
         "options": [
-          "Os documentos.",
-          "Os candidatos.",
-          "Sem preposição obrigatória, em regra.",
-          "Oculto."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Os candidatos.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Objeto direto completa verbo:",
-        "options": [
-          "Sem preposição obrigatória, em regra.",
-          "Sempre com preposição a.",
-          "Sem sentido.",
-          "Os candidatos."
+          "objeto indireto.",
+          "objeto direto.",
+          "complemento nominal de “população”.",
+          "adjunto adnominal."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Sem preposição obrigatória, em regra.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Necessitar” rege “de”.",
+        "tip": "Verifique a regência do verbo."
       },
       {
-        "question": "Aposto normalmente:",
+        "question": "Em “A aprovação do candidato surpreendeu a comissão”, “do candidato” é:",
         "options": [
-          "Explica ou especifica outro termo.",
-          "Substitui pontuação.",
-          "É conjunção.",
-          "É sempre verbo."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Explica ou especifica outro termo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Vocativo serve para:",
-        "options": [
-          "Os documentos.",
-          "Formar sujeito.",
-          "Os candidatos.",
-          "Chamar ou interpelar."
+          "adjunto adnominal agente.",
+          "objeto indireto.",
+          "vocativo.",
+          "complemento nominal."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Chamar ou interpelar.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O candidato é paciente da ideia expressa por “aprovação”.",
+        "tip": "Em nome deverbal, pergunte agente ou paciente."
       },
       {
-        "question": "Para iniciar análise sintática, é útil localizar primeiro:",
+        "question": "Em “Os moradores fizeram críticas ao projeto”, “ao projeto” é:",
         "options": [
-          "A última vírgula.",
-          "O título.",
-          "O verbo.",
-          "Os candidatos."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “O verbo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Adjunto adverbial expressa frequentemente:",
-        "options": [
-          "Artigo.",
-          "Os documentos.",
-          "Circunstância.",
-          "Os candidatos."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Circunstância.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Objeto direto completa, em regra,:",
-        "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "verbo transitivo direto sem preposição obrigatória.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de termos da oração sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Objeto indireto completa:",
-        "options": [
-          "verbo que exige preposição.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra restrita a nomes próprios.",
-          "um caso em que o contexto nunca interfere na análise."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de termos da oração sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Complemento nominal completa o sentido de:",
-        "options": [
-          "uma regra restrita a nomes próprios.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "nome, adjetivo ou advérbio, conforme o caso.",
-          "uma característica que depende apenas do número de palavras da frase."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de termos da oração sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Agente da passiva indica:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "quem pratica a ação em construção passiva.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "um caso em que o contexto nunca interfere na análise."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de termos da oração sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Vocativo:",
-        "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "não integra sintaticamente sujeito nem predicado."
+          "objeto indireto de “fizeram”.",
+          "adjunto adverbial.",
+          "predicativo.",
+          "complemento nominal de “críticas”."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de termos da oração sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Completa o sentido do substantivo abstrato “críticas”.",
+        "tip": "Nem todo termo preposicionado completa verbo."
       },
       {
-        "question": "Aposto pode:",
+        "question": "Em “João, o coordenador da equipe, apresentou o relatório”, o trecho entre vírgulas é:",
         "options": [
-          "uma regra restrita a nomes próprios.",
-          "explicar, especificar, resumir ou enumerar outro termo.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra que só se aplica à linguagem informal."
+          "vocativo.",
+          "objeto direto.",
+          "adjunto adverbial.",
+          "aposto explicativo."
+        ],
+        "answer": 3,
+        "explanation": "Explica quem é João.",
+        "tip": "Aposto retoma e explica outro termo."
+      },
+      {
+        "question": "Em “Candidatos, confiram seus documentos”, “Candidatos” é:",
+        "options": [
+          "sujeito de “confiram”.",
+          "objeto direto.",
+          "aposto.",
+          "vocativo."
+        ],
+        "answer": 3,
+        "explanation": "É chamamento ao destinatário.",
+        "tip": "Vocativo não é sujeito."
+      },
+      {
+        "question": "Em “Os dois relatórios antigos foram arquivados”, “antigos” é:",
+        "options": [
+          "predicativo do sujeito.",
+          "adjunto adnominal.",
+          "objeto direto.",
+          "complemento nominal."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de termos da oração sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Caracteriza diretamente “relatórios”.",
+        "tip": "Adjunto adnominal acompanha nome."
+      },
+      {
+        "question": "Em “O servidor respondeu rapidamente”, “rapidamente” é:",
+        "options": [
+          "objeto direto.",
+          "predicativo.",
+          "adjunto adverbial de modo.",
+          "aposto."
+        ],
+        "answer": 2,
+        "explanation": "Modifica o verbo, indicando modo.",
+        "tip": "Adjuntos adverbiais expressam circunstâncias."
+      },
+      {
+        "question": "Em “A necessidade de apoio ficou evidente”, “de apoio” é:",
+        "options": [
+          "complemento nominal.",
+          "adjunto adnominal agente.",
+          "objeto indireto.",
+          "vocativo."
+        ],
+        "answer": 0,
+        "explanation": "Completa o sentido de “necessidade”.",
+        "tip": "Complemento nominal completa nome abstrato."
+      },
+      {
+        "question": "Em “O diretor entregou os documentos aos fiscais”, “os documentos” é:",
+        "options": [
+          "objeto direto.",
+          "sujeito.",
+          "objeto indireto.",
+          "predicativo."
+        ],
+        "answer": 0,
+        "explanation": "Completa “entregou” sem preposição.",
+        "tip": "Pergunte “entregou o quê?”."
+      },
+      {
+        "question": "Na mesma frase, “aos fiscais” é:",
+        "options": [
+          "objeto direto.",
+          "adjunto adnominal.",
+          "sujeito paciente.",
+          "objeto indireto."
+        ],
+        "answer": 3,
+        "explanation": "Indica destinatário com preposição.",
+        "tip": "Verbos bitransitivos podem ter OD e OI."
+      },
+      {
+        "question": "Em “Os candidatos consideraram a prova difícil”, “difícil” é:",
+        "options": [
+          "adjunto adnominal.",
+          "predicativo do objeto.",
+          "objeto indireto.",
+          "aposto."
+        ],
+        "answer": 1,
+        "explanation": "Atribui característica ao objeto “a prova”.",
+        "tip": "Teste “consideraram a prova [como] difícil”."
+      },
+      {
+        "question": "Em “A chegada dos fiscais ocorreu cedo”, “dos fiscais” é:",
+        "options": [
+          "complemento nominal paciente.",
+          "adjunto adnominal com valor de agente.",
+          "objeto indireto.",
+          "predicativo."
+        ],
+        "answer": 1,
+        "explanation": "Os fiscais praticam a ação de chegar expressa pelo nome deverbal.",
+        "tip": "Agente tende a adjunto; paciente, complemento."
       }
     ]
   },
@@ -2284,151 +2284,151 @@ window.lessons={
     "title": "Período composto: coordenação e subordinação",
     "subtitle": "Português • Aula 16 • Edital • Período composto",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • PERÍODO COMPOSTO</div><h3>Coordenação</h3><p>Orações coordenadas têm independência sintática e podem estabelecer adição, oposição, alternância, conclusão ou explicação.</p><h3>Subordinação</h3><p>Orações subordinadas exercem função em relação a outra oração e podem ser substantivas, adjetivas ou adverbiais.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Estudou, mas não descansou.” A conjunção “mas” introduz relação adversativa.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: identifique a relação de sentido criada pelo conectivo.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Período composto: coordenação e subordinação</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Coordenação</h3><p>Orações coordenadas são sintaticamente independentes entre si. Podem ser assindéticas ou ligadas por conjunções aditivas, adversativas, alternativas, conclusivas ou explicativas.</p><p>'Estudou muito, portanto foi aprovado' apresenta relação conclusiva.</p><h3>Subordinação</h3><p>Uma oração subordinada exerce função sintática em relação a outra. Pode ser substantiva, adjetiva ou adverbial.</p><p>Substantivas podem exercer funções de sujeito, objeto, complemento ou predicativo. Adjetivas caracterizam um nome. Adverbiais expressam circunstâncias como causa, condição, concessão, finalidade e tempo.</p><h3>Sentido e pontuação</h3><p>O tipo de oração influencia pontuação e significado. Orações adjetivas explicativas, isoladas por vírgulas, apresentam comentário sobre todo o referente; restritivas delimitam o grupo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar relações coordenativas</li><li>distinguir adjetiva restritiva de explicativa</li><li>reconhecer valor de oração adverbial</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PERÍODO COMPOSTO</span><h3>Período composto por subordinação</h3><p>Visão clara das principais relações entre orações.</p><iframe src=\"https://www.youtube.com/embed/u0HDf2FFu0g\" title=\"Período composto\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de coordenação e subordinação</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>orações coordenadas, substantivas, adjetivas, adverbiais e valores das conjunções</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Orações coordenadas, substantivas, adjetivas, adverbiais e valores das conjunções. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar período composto: coordenação e subordinação.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar período composto: coordenação e subordinação.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • PERÍODO COMPOSTO</div><h3>Coordenação</h3><p>Orações coordenadas têm independência sintática e podem estabelecer adição, oposição, alternância, conclusão ou explicação.</p><h3>Subordinação</h3><p>Orações subordinadas exercem função em relação a outra oração e podem ser substantivas, adjetivas ou adverbiais.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Estudou, mas não descansou.” A conjunção “mas” introduz relação adversativa.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: identifique a relação de sentido criada pelo conectivo.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Período composto: coordenação e subordinação</h3></div><h3>Coordenação</h3><p>Orações coordenadas são sintaticamente independentes entre si. Podem ser assindéticas ou ligadas por conjunções aditivas, adversativas, alternativas, conclusivas ou explicativas.</p><p>'Estudou muito, portanto foi aprovado' apresenta relação conclusiva.</p><h3>Subordinação</h3><p>Uma oração subordinada exerce função sintática em relação a outra. Pode ser substantiva, adjetiva ou adverbial.</p><p>Substantivas podem exercer funções de sujeito, objeto, complemento ou predicativo. Adjetivas caracterizam um nome. Adverbiais expressam circunstâncias como causa, condição, concessão, finalidade e tempo.</p><h3>Sentido e pontuação</h3><p>O tipo de oração influencia pontuação e significado. Orações adjetivas explicativas, isoladas por vírgulas, apresentam comentário sobre todo o referente; restritivas delimitam o grupo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar relações coordenativas</li><li>distinguir adjetiva restritiva de explicativa</li><li>reconhecer valor de oração adverbial</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PERÍODO COMPOSTO</span><h3>Período composto por subordinação</h3><p>Visão clara das principais relações entre orações.</p><iframe src=\"https://www.youtube.com/embed/u0HDf2FFu0g\" title=\"Período composto\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Período composto</h3><p>Foco desta etapa: <b>coordenação, subordinação e valores semânticos</b>.</p></div><h3>Como resolver este assunto</h3><p>Classifique pela função e pela relação de sentido.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: O conectivo depende do contexto.</div></section>",
     "quiz": [
       {
-        "question": "Orações coordenadas são, em regra:",
+        "question": "No período “Estude com regularidade, pois a prova exige domínio acumulativo”, a segunda oração é coordenada:",
         "options": [
-          "Idênticas.",
-          "Sempre adjetivas.",
-          "Sintaticamente independentes entre si.",
-          "Adversativa."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Sintaticamente independentes entre si.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "“Mas” costuma introduzir oração coordenada:",
-        "options": [
-          "Adversativa.",
-          "Conclusiva.",
-          "Sintaticamente independentes entre si.",
-          "Alternativa."
+          "sindética explicativa.",
+          "adversativa.",
+          "conclusiva.",
+          "alternativa."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Adversativa.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Nesse contexto, “pois” justifica a orientação anterior.",
+        "tip": "O valor do conectivo depende da posição e do sentido."
       },
       {
-        "question": "“Portanto” costuma indicar:",
+        "question": "Em “Quando o edital for publicado, revisaremos o planejamento”, a oração inicial é subordinada adverbial:",
         "options": [
-          "Conclusão.",
-          "Alternância.",
-          "Concessão.",
-          "Oposição."
+          "temporal.",
+          "condicional.",
+          "concessiva.",
+          "consecutiva."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Conclusão.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Quando” situa temporalmente o fato principal.",
+        "tip": "Pergunte qual circunstância a oração acrescenta."
       },
       {
-        "question": "Orações subordinadas adjetivas normalmente se relacionam a:",
+        "question": "Em “É necessário que todos conheçam o regulamento”, a oração destacada é:",
         "options": [
-          "Idênticas.",
-          "Sintaticamente independentes entre si.",
-          "Um nome antecedente.",
-          "Pontuação apenas."
+          "adjetiva restritiva.",
+          "subordinada substantiva subjetiva.",
+          "adverbial causal.",
+          "coordenada conclusiva."
         ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Um nome antecedente.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 1,
+        "explanation": "A oração funciona como sujeito de “é necessário”.",
+        "tip": "Substitua por “isso”."
       },
       {
-        "question": "Para classificar orações, observe principalmente:",
+        "question": "Em “O livro que comprei chegou”, “que comprei” é oração subordinada:",
         "options": [
-          "Fonte usada.",
-          "Tamanho do parágrafo.",
-          "Função e relação de sentido.",
-          "Sintaticamente independentes entre si."
+          "substantiva objetiva direta.",
+          "adjetiva restritiva.",
+          "adverbial temporal.",
+          "coordenada adversativa."
         ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Função e relação de sentido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 1,
+        "explanation": "A oração restringe o antecedente “livro”.",
+        "tip": "Orações adjetivas são ligadas a um nome antecedente."
       },
       {
-        "question": "Uma oração subordinada substantiva exerce função típica de:",
+        "question": "Em “Embora estivesse cansado, continuou estudando”, a oração inicial é:",
         "options": [
-          "Idênticas.",
-          "Advérbio apenas.",
-          "Substantivo.",
-          "Sintaticamente independentes entre si."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Substantivo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Orações coordenadas são:",
-        "options": [
-          "sintaticamente independentes entre si, embora relacionadas semanticamente.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "adverbial concessiva.",
+          "causal.",
+          "final.",
+          "consecutiva."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de coordenação e subordinação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O cansaço não impede a ação principal.",
+        "tip": "“Embora” normalmente marca concessão."
       },
       {
-        "question": "“Mas” introduz tipicamente coordenação:",
+        "question": "Em “Estudou tanto que ficou exausto”, a oração introduzida por “que” é:",
+        "options": [
+          "adverbial consecutiva.",
+          "causal.",
+          "condicional.",
+          "comparativa."
+        ],
+        "answer": 0,
+        "explanation": "A exaustão é consequência da intensidade indicada por “tanto”.",
+        "tip": "Estruturas tão/tanto... que indicam consequência."
+      },
+      {
+        "question": "Em “Se houver tempo, revisaremos a matéria”, a oração inicial é:",
+        "options": [
+          "temporal.",
+          "conformativa.",
+          "proporcional.",
+          "adverbial condicional."
+        ],
+        "answer": 3,
+        "explanation": "A revisão depende da condição de haver tempo.",
+        "tip": "“Se” é forte marcador de condição."
+      },
+      {
+        "question": "Em “O candidato estudou, mas não revisou”, as orações são coordenadas:",
+        "options": [
+          "aditivas.",
+          "sindéticas adversativas.",
+          "alternativas.",
+          "explicativas."
+        ],
+        "answer": 1,
+        "explanation": "“Mas” marca oposição.",
+        "tip": "Coordenação adversativa expressa contraste."
+      },
+      {
+        "question": "Em “Ora estuda, ora descansa”, há coordenação:",
+        "options": [
+          "conclusiva.",
+          "explicativa.",
+          "causal.",
+          "alternativa."
+        ],
+        "answer": 3,
+        "explanation": "“Ora... ora...” apresenta alternância.",
+        "tip": "Conjunções correlativas também classificam relações."
+      },
+      {
+        "question": "Em “O candidato estudou e resolveu questões”, a segunda oração é coordenada:",
         "options": [
           "adversativa.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra restrita a nomes próprios."
+          "sindética aditiva.",
+          "conclusiva.",
+          "explicativa."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de coordenação e subordinação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "“E” acrescenta uma ação à anterior.",
+        "tip": "Verifique o valor contextual de “e”."
       },
       {
-        "question": "Oração subordinada substantiva pode exercer:",
+        "question": "Em “Como estava chovendo, a prova externa foi adiada”, a primeira oração expressa:",
         "options": [
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "função própria de substantivo."
+          "comparação.",
+          "causa.",
+          "conformidade.",
+          "finalidade."
         ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de coordenação e subordinação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "A chuva é apresentada como motivo do adiamento.",
+        "tip": "“Como” pode assumir valores diferentes."
       },
       {
-        "question": "Oração adjetiva é normalmente introduzida por:",
+        "question": "Em “Falou baixo para que ninguém acordasse”, a oração final expressa:",
         "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra restrita a nomes próprios.",
-          "pronome relativo."
+          "causa.",
+          "finalidade.",
+          "concessão.",
+          "proporção."
         ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de coordenação e subordinação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "“Embora” introduz oração subordinada adverbial:",
-        "options": [
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "concessiva.",
-          "uma regra restrita a nomes próprios."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de coordenação e subordinação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "“Porque”, conforme o contexto, pode introduzir oração:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "causal ou explicativa.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
-        ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de coordenação e subordinação sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "Falar baixo tem o objetivo de não acordar ninguém.",
+        "tip": "“Para que” costuma indicar finalidade."
       }
     ]
   },
@@ -2436,151 +2436,151 @@ window.lessons={
     "title": "Pronomes relativos e funções sintáticas",
     "subtitle": "Português • Aula 17 • Edital • Pronomes relativos",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • PRONOMES RELATIVOS</div><h3>Retomada e ligação</h3><p>Que, quem, o qual, cujo e onde podem retomar antecedente e introduzir oração subordinada adjetiva. O pronome relativo exerce função sintática dentro da oração que inicia.</p><div class=\"lesson-example\"><b>Exemplo:</b> “A prova que fiz estava difícil.” “que” retoma “prova” e funciona como objeto direto de “fiz”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: substitua o pronome pelo antecedente dentro da oração para descobrir sua função.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pronomes relativos e funções sintáticas</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Pronomes relativos</h3><p>Que, quem, o qual, cujo, onde e outros relativos retomam um antecedente e introduzem oração adjetiva. Para descobrir sua função sintática, substitua mentalmente o relativo pelo antecedente dentro da oração.</p><p>Em 'o livro que comprei', pense 'comprei o livro': 'que' funciona como objeto direto.</p><h3>Cujo</h3><p>Cujo expressa relação de posse e concorda com o termo posterior: 'a candidata cuja prova foi corrigida'. Não se usa artigo depois de cujo na norma-padrão.</p><h3>Onde e aonde</h3><p>Onde relaciona-se a permanência/lugar em que; aonde combina com ideia de movimento quando a regência exige a preposição a.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>determinar a função sintática de 'que'</li><li>usar cujo corretamente</li><li>distinguir onde de aonde</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +1 MILHÃO</span><h3>Pronomes — Português com Letícia</h3><p>Inclui pronomes relativos e seus usos.</p><iframe src=\"https://www.youtube.com/embed/4LVbsP4v13c\" title=\"Pronomes\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de pronomes relativos</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>antecedente, que, quem, cujo, onde, o qual, regência e função sintática</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Antecedente, que, quem, cujo, onde, o qual, regência e função sintática. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar pronomes relativos e funções sintáticas.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar pronomes relativos e funções sintáticas.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • PRONOMES RELATIVOS</div><h3>Retomada e ligação</h3><p>Que, quem, o qual, cujo e onde podem retomar antecedente e introduzir oração subordinada adjetiva. O pronome relativo exerce função sintática dentro da oração que inicia.</p><div class=\"lesson-example\"><b>Exemplo:</b> “A prova que fiz estava difícil.” “que” retoma “prova” e funciona como objeto direto de “fiz”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: substitua o pronome pelo antecedente dentro da oração para descobrir sua função.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pronomes relativos e funções sintáticas</h3></div><h3>Pronomes relativos</h3><p>Que, quem, o qual, cujo, onde e outros relativos retomam um antecedente e introduzem oração adjetiva. Para descobrir sua função sintática, substitua mentalmente o relativo pelo antecedente dentro da oração.</p><p>Em 'o livro que comprei', pense 'comprei o livro': 'que' funciona como objeto direto.</p><h3>Cujo</h3><p>Cujo expressa relação de posse e concorda com o termo posterior: 'a candidata cuja prova foi corrigida'. Não se usa artigo depois de cujo na norma-padrão.</p><h3>Onde e aonde</h3><p>Onde relaciona-se a permanência/lugar em que; aonde combina com ideia de movimento quando a regência exige a preposição a.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>determinar a função sintática de 'que'</li><li>usar cujo corretamente</li><li>distinguir onde de aonde</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +1 MILHÃO</span><h3>Pronomes — Português com Letícia</h3><p>Inclui pronomes relativos e seus usos.</p><iframe src=\"https://www.youtube.com/embed/4LVbsP4v13c\" title=\"Pronomes\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Pronomes relativos</h3><p>Foco desta etapa: <b>antecedente, função, regência, onde/aonde, que, quem e cujo</b>.</p></div><h3>Como resolver este assunto</h3><p>Reescreva a relativa com o antecedente.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: A preposição exigida acompanha o relativo.</div></section>",
     "quiz": [
       {
-        "question": "Pronome relativo normalmente:",
+        "question": "Em “O regulamento a que o candidato se referiu foi atualizado”, a preposição antes de “que” decorre:",
         "options": [
-          "Retoma um antecedente.",
-          "Nunca liga orações.",
-          "O livro.",
-          "É sempre verbo."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Retoma um antecedente.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “o livro que li”, “que” retoma:",
-        "options": [
-          "O livro.",
-          "Nenhum termo.",
-          "Uma palavra oculta.",
-          "Retoma um antecedente."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “O livro.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "“Onde” como relativo deve relacionar-se preferencialmente a:",
-        "options": [
-          "Tempo verbal.",
-          "Pessoa.",
-          "Adjetivo.",
-          "Lugar."
+          "do gênero de “regulamento”.",
+          "de regra que preposiciona todo relativo.",
+          "da concordância com “candidato”.",
+          "da regência de “referir-se a”."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Lugar.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O verbo “referir-se” exige “a”.",
+        "tip": "Leve a preposição exigida pelo verbo para o relativo."
       },
       {
-        "question": "“Cujo” normalmente estabelece ideia de:",
+        "question": "Quanto à regência com pronome relativo, assinale a frase correta:",
         "options": [
-          "Posse.",
-          "Tempo.",
-          "É sempre verbo.",
-          "Retoma um antecedente."
+          "A cidade aonde moro é tranquila.",
+          "O tema de que discordamos será debatido.",
+          "Este é o autor cujo o livro venceu.",
+          "A candidata onde conversei foi aprovada."
         ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Posse.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 1,
+        "explanation": "“Discordar de” exige a preposição “de”.",
+        "tip": "Analise antecedente, regência e função."
       },
       {
-        "question": "Orações introduzidas por pronome relativo são tipicamente:",
-        "options": [
-          "Sem predicado.",
-          "Retoma um antecedente.",
-          "Interjeitivas.",
-          "Adjetivas."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Adjetivas.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "O pronome relativo exerce:",
-        "options": [
-          "Função sintática na oração que introduz.",
-          "Sempre sujeito.",
-          "Retoma um antecedente.",
-          "É sempre verbo."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Função sintática na oração que introduz.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em uma questão de aplicação sobre pronomes relativos e funções sintáticas, a análise correta completa a afirmação: Em “o livro que li”, “que” retoma:",
+        "question": "Em “O livro que li foi premiado”, “que” retoma:",
         "options": [
           "o livro.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra restrita a nomes próprios."
+          "“li”.",
+          "um termo posterior.",
+          "nenhum antecedente."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de pronomes relativos sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O relativo recupera o antecedente “o livro”.",
+        "tip": "Relativos retomam antecedentes."
       },
       {
-        "question": "“Cujo” estabelece normalmente relação de:",
+        "question": "Na mesma frase, “que” exerce função de:",
         "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra restrita a nomes próprios.",
-          "posse.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "objeto direto de “li”.",
+          "sujeito de “foi premiado”.",
+          "adjunto adverbial.",
+          "vocativo."
+        ],
+        "answer": 0,
+        "explanation": "Quem lê, lê algo; o relativo substitui “o livro”.",
+        "tip": "Reconstitua a oração com o antecedente."
+      },
+      {
+        "question": "Em “A candidata que chegou cedo foi atendida”, “que” exerce função de:",
+        "options": [
+          "objeto direto.",
+          "complemento nominal.",
+          "sujeito de “chegou”.",
+          "adjunto adverbial."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de pronomes relativos sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“A candidata chegou cedo”; portanto, o relativo é sujeito.",
+        "tip": "Substitua o relativo pelo antecedente."
       },
       {
-        "question": "Complete segundo a norma-padrão: o relativo “onde” é adequado quando seu antecedente indica:",
+        "question": "O pronome “cujo” estabelece relação de:",
         "options": [
-          "uma relação sem qualquer efeito de sentido.",
+          "tempo.",
           "lugar.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "posse entre dois substantivos.",
+          "causa."
         ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de pronomes relativos sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "“Cujo” liga possuidor e coisa possuída.",
+        "tip": "Depois de “cujo”, não se usa artigo."
       },
       {
-        "question": "Dentro da oração subordinada que introduz, um pronome relativo desempenha:",
+        "question": "Assinale a construção correta com “cujo”:",
         "options": [
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "função sintática na oração que introduz.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma relação sem qualquer efeito de sentido."
+          "Conheci o autor cujo a obra foi premiada.",
+          "Conheci o autor cuja a obra foi premiada.",
+          "Conheci o autor cuja obra foi premiada.",
+          "Conheci o autor que cuja obra foi premiada."
         ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de pronomes relativos sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "“Cuja” concorda com “obra” e não admite artigo.",
+        "tip": "“Cujo” concorda com a coisa possuída."
       },
       {
-        "question": "A preposição antes do relativo pode ser exigida pela:",
+        "question": "O relativo “onde” deve ser empregado preferencialmente com antecedente que indique:",
         "options": [
-          "uma regra restrita a nomes próprios.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "regência do termo da oração subordinada."
+          "pessoa sem valor locativo.",
+          "tempo verbal.",
+          "posse.",
+          "lugar."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de pronomes relativos sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Onde” possui valor locativo.",
+        "tip": "Use outros relativos quando não houver ideia de lugar."
       },
       {
-        "question": "Em “a pessoa a quem me referi”, a preposição a decorre:",
+        "question": "Em “A cidade onde moro é tranquila”, “onde” equivale a:",
         "options": [
-          "da regência de referir-se.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra restrita a nomes próprios.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "a que.",
+          "em que.",
+          "de que.",
+          "cujo."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de pronomes relativos sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "Quem mora, mora em algum lugar.",
+        "tip": "Teste a regência do verbo."
+      },
+      {
+        "question": "Em “A cidade aonde iremos fica distante”, “aonde” é adequado porque:",
+        "options": [
+          "todo lugar exige “aonde”.",
+          "“cidade” é feminina.",
+          "o verbo está no futuro.",
+          "o verbo “ir” exige preposição “a” e há ideia de destino."
+        ],
+        "answer": 3,
+        "explanation": "“Aonde” corresponde a “a + onde”.",
+        "tip": "Use com movimento regido por “a”."
+      },
+      {
+        "question": "Em “A pessoa com quem falei confirmou o horário”, “com” aparece porque:",
+        "options": [
+          "“quem” exige sempre “com”.",
+          "“falar” foi empregado em construção que rege “com”.",
+          "pessoa é antecedente humano.",
+          "todo relativo deve ser preposicionado."
+        ],
+        "answer": 1,
+        "explanation": "A preposição decorre da regência do verbo.",
+        "tip": "Regência vem antes do relativo."
+      },
+      {
+        "question": "Qual alternativa traz pronome relativo como objeto indireto?",
+        "options": [
+          "O candidato que chegou foi atendido.",
+          "O assunto de que precisamos é urgente.",
+          "O livro que comprei é novo.",
+          "A cidade onde moro é calma."
+        ],
+        "answer": 1,
+        "explanation": "“Precisar de” exige complemento preposicionado.",
+        "tip": "Descubra a função do relativo dentro da oração."
       }
     ]
   },
@@ -2588,151 +2588,151 @@ window.lessons={
     "title": "Emprego de nomes e pronomes",
     "subtitle": "Português • Aula 18 • Edital • Nomes e pronomes",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • NOMES E PRONOMES</div><h3>Referência e concordância</h3><p>Pronomes substituem ou acompanham nomes e precisam manter referência clara. Atenção a pronomes pessoais, demonstrativos, possessivos, indefinidos e de tratamento.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Entre mim e você” é a construção padrão após preposição; “para eu estudar” usa “eu” porque é sujeito do infinitivo.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: descubra a função do pronome antes de escolher a forma.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Emprego de nomes e pronomes</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Pronomes pessoais</h3><p>Pronomes retos costumam exercer função de sujeito; oblíquos exercem funções de complemento. Na norma-padrão, 'para eu fazer' usa eu como sujeito do infinitivo; 'para mim' é adequado quando não exerce essa função.</p><p>Pronomes de tratamento exigem concordância verbal na terceira pessoa, mesmo quando se dirigem ao interlocutor.</p><h3>Demonstrativos e possessivos</h3><p>Demonstrativos podem organizar espaço, tempo e discurso. Este pode indicar proximidade do falante ou elemento que ainda será mencionado; esse costuma retomar algo já citado; aquele marca maior distância.</p><p>Possessivos podem gerar ambiguidade. 'João falou com Pedro sobre seu resultado' pode exigir reescrita para deixar claro de quem é o resultado.</p><h3>Emprego nominal</h3><p>A escolha de substantivos e adjetivos produz precisão ou avaliação. Em prova, observe se a troca de um nome preserva referente, intensidade e valor semântico.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>usar eu/mim em construções com infinitivo</li><li>interpretar demonstrativos</li><li>identificar ambiguidade possessiva</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR</span><h3>Pronomes para concursos</h3><p>Revisão das principais classes pronominais.</p><iframe src=\"https://www.youtube.com/embed/4LVbsP4v13c\" title=\"Pronomes para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de nomes e pronomes</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>pronomes pessoais, demonstrativos, possessivos, indefinidos e adequação à norma-padrão</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Pronomes pessoais, demonstrativos, possessivos, indefinidos e adequação à norma-padrão. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar emprego de nomes e pronomes.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar emprego de nomes e pronomes.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • NOMES E PRONOMES</div><h3>Referência e concordância</h3><p>Pronomes substituem ou acompanham nomes e precisam manter referência clara. Atenção a pronomes pessoais, demonstrativos, possessivos, indefinidos e de tratamento.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Entre mim e você” é a construção padrão após preposição; “para eu estudar” usa “eu” porque é sujeito do infinitivo.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: descubra a função do pronome antes de escolher a forma.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Emprego de nomes e pronomes</h3></div><h3>Pronomes pessoais</h3><p>Pronomes retos costumam exercer função de sujeito; oblíquos exercem funções de complemento. Na norma-padrão, 'para eu fazer' usa eu como sujeito do infinitivo; 'para mim' é adequado quando não exerce essa função.</p><p>Pronomes de tratamento exigem concordância verbal na terceira pessoa, mesmo quando se dirigem ao interlocutor.</p><h3>Demonstrativos e possessivos</h3><p>Demonstrativos podem organizar espaço, tempo e discurso. Este pode indicar proximidade do falante ou elemento que ainda será mencionado; esse costuma retomar algo já citado; aquele marca maior distância.</p><p>Possessivos podem gerar ambiguidade. 'João falou com Pedro sobre seu resultado' pode exigir reescrita para deixar claro de quem é o resultado.</p><h3>Emprego nominal</h3><p>A escolha de substantivos e adjetivos produz precisão ou avaliação. Em prova, observe se a troca de um nome preserva referente, intensidade e valor semântico.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>usar eu/mim em construções com infinitivo</li><li>interpretar demonstrativos</li><li>identificar ambiguidade possessiva</li></ul></div></section>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Nomes e pronomes</h3><p>Foco desta etapa: <b>formas retas/oblíquas, tratamento, demonstrativos e possessivos</b>.</p></div><h3>Como resolver este assunto</h3><p>Determine a função sintática antes de escolher a forma.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Após preposição, “eu” pode ser sujeito de infinitivo.</div></section><div class=\"video-lesson\"><span>🎥 REFORÇO ESPECÍFICO</span><h3>Pronomes para concursos públicos — aula completa</h3><p>Aula completa de pronomes pessoais, possessivos, demonstrativos, indefinidos e relativos, com foco em concursos.</p><iframe src=\"https://www.youtube.com/embed/KkQXbxBOGFM\" title=\"Pronomes para concursos públicos — aula completa\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Após preposição, em “entre ___ e você”, a forma padrão é:",
+        "question": "Quanto ao pronome que funciona como sujeito de infinitivo, assinale a alternativa correta:",
         "options": [
-          "Sujeito de estudar.",
-          "meu.",
-          "eu.",
-          "mim."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “mim.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “para eu estudar”, usa-se “eu” porque funciona como:",
-        "options": [
-          "Objeto direto.",
-          "mim.",
-          "Preposição.",
-          "Sujeito de estudar."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Sujeito de estudar.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Pronomes possessivos indicam:",
-        "options": [
-          "Tempo verbal.",
-          "Oposição.",
-          "Relação de posse.",
-          "Conclusão."
+          "Entre eu e você não existe dúvida.",
+          "O comandante pediu para mim preencher o relatório.",
+          "O comandante entregou o documento para eu conferir.",
+          "Ela encontrou eu na saída."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Relação de posse.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Eu” é sujeito do infinitivo “conferir”.",
+        "tip": "Se o pronome pratica a ação do infinitivo, use forma reta."
       },
       {
-        "question": "Pronome demonstrativo pode indicar:",
+        "question": "Em “Vossa Excelência deverá encaminhar seu parecer”, o verbo está na:",
         "options": [
-          "Pontuação.",
-          "Posição/referência no discurso.",
-          "mim.",
-          "eu."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Posição/referência no discurso.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Pronome pode:",
-        "options": [
-          "Substituir ou acompanhar um nome.",
-          "Eliminar sujeito sempre.",
-          "Ser apenas verbo.",
-          "mim."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Substituir ou acompanhar um nome.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A escolha pronominal deve considerar:",
-        "options": [
-          "mim.",
-          "eu.",
-          "Função sintática e referência.",
-          "Cor do texto."
+          "primeira pessoa.",
+          "segunda pessoa.",
+          "terceira pessoa.",
+          "forma impessoal."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Função sintática e referência.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Pronomes de tratamento exigem terceira pessoa.",
+        "tip": "Tratamento não muda a pessoa gramatical."
       },
       {
-        "question": "Após preposição, em “entre mim e você”, emprega-se:",
+        "question": "Em “entre mim e você”, usa-se “mim” porque:",
         "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra restrita a nomes próprios.",
-          "mim."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de nomes e pronomes sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Antes de infinitivo quando o pronome funciona como sujeito dele, pode ocorrer:",
-        "options": [
-          "eu, como em 'para eu fazer'.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra que só se aplica à linguagem informal."
+          "o pronome está regido por preposição e não é sujeito de infinitivo.",
+          "“mim” pode ser sujeito de qualquer verbo.",
+          "todo pronome após preposição deve ser “eu”.",
+          "“entre” é conjunção."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de nomes e pronomes sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Forma oblíqua tônica aparece após preposição quando não funciona como sujeito.",
+        "tip": "Compare “para mim” e “para eu fazer”."
       },
       {
-        "question": "Pronomes demonstrativos ajudam a:",
+        "question": "Quanto ao uso de “eu/mim” diante de infinitivo, assinale a frase correta:",
         "options": [
-          "situar referentes no espaço, tempo ou discurso.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma construção sempre proibida pela norma-padrão."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de nomes e pronomes sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Pronomes possessivos podem gerar:",
-        "options": [
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "ambiguidade de referente em certos contextos.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de nomes e pronomes sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Na norma-padrão, “vi ela” pode ser substituído por:",
-        "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "vi-a.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de nomes e pronomes sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Pronomes de tratamento exigem verbo, em regra, na:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra restrita a nomes próprios.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "terceira pessoa."
+          "Sem mim perceber, a porta foi fechada.",
+          "Sem eu percebe, a porta foi fechada.",
+          "Sem mim percebo, a porta foi fechada.",
+          "Sem eu perceber, a porta foi fechada."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de nomes e pronomes sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Eu” é sujeito do infinitivo “perceber”.",
+        "tip": "Preposição não impede “eu” como sujeito."
+      },
+      {
+        "question": "Na frase “Ela me entregou o relatório”, qual é a classificação de “me”?",
+        "options": [
+          "pronome demonstrativo.",
+          "artigo definido.",
+          "pronome relativo.",
+          "pronome pessoal oblíquo átono."
+        ],
+        "answer": 3,
+        "explanation": "“Me” é forma oblíqua átona de primeira pessoa.",
+        "tip": "Formas oblíquas exercem funções complementares."
+      },
+      {
+        "question": "Em “Aquela decisão foi importante”, “aquela” é:",
+        "options": [
+          "possessivo.",
+          "pronome demonstrativo.",
+          "relativo.",
+          "indefinido."
+        ],
+        "answer": 1,
+        "explanation": "O termo referencia/localiza “decisão”.",
+        "tip": "Demonstrativos também atuam na coesão."
+      },
+      {
+        "question": "Em “Nosso objetivo é a aprovação”, “nosso” indica:",
+        "options": [
+          "interrogação.",
+          "posse/relação de pertencimento.",
+          "indefinição.",
+          "conclusão."
+        ],
+        "answer": 1,
+        "explanation": "“Nosso” é pronome possessivo.",
+        "tip": "Possessivos relacionam algo a pessoas do discurso."
+      },
+      {
+        "question": "Assinale a frase adequada à norma-padrão formal:",
+        "options": [
+          "Eu encontrei ele na saída, única forma padrão.",
+          "Eu o encontrei na saída.",
+          "Eu encontrei-lhe na saída.",
+          "Mim o encontrei na saída."
+        ],
+        "answer": 1,
+        "explanation": "“O” funciona como objeto direto masculino singular.",
+        "tip": "Concursos cobram o padrão formal."
+      },
+      {
+        "question": "Em “Alguns candidatos faltaram”, “alguns” é:",
+        "options": [
+          "relativo.",
+          "possessivo.",
+          "pronome indefinido.",
+          "artigo definido."
+        ],
+        "answer": 2,
+        "explanation": "Indica referência/quantidade não precisa.",
+        "tip": "Indefinidos apresentam referência vaga."
+      },
+      {
+        "question": "Na pergunta “Quem entregou o relatório?”, qual valor pronominal assume “quem”?",
+        "options": [
+          "pronome interrogativo.",
+          "possessivo.",
+          "demonstrativo.",
+          "artigo."
+        ],
+        "answer": 0,
+        "explanation": "Introduz pergunta sobre identidade.",
+        "tip": "“Quem” pode ser interrogativo ou relativo conforme o contexto."
+      },
+      {
+        "question": "Assinale a retomada pronominal adequada:",
+        "options": [
+          "Recebi os documentos e eles encaminhei ao setor.",
+          "Recebi os documentos e lhes encaminhei, usando “lhes” como OD.",
+          "Recebi os documentos e os encaminhei ao setor.",
+          "Recebi os documentos e mim encaminhei ao setor."
+        ],
+        "answer": 2,
+        "explanation": "“Os” retoma “documentos” como objeto direto.",
+        "tip": "Verifique a função do termo retomado."
+      },
+      {
+        "question": "Em “Isto é o que precisamos discutir: o novo cronograma”, “isto” funciona como:",
+        "options": [
+          "pronome possessivo.",
+          "artigo.",
+          "pronome relativo locativo.",
+          "pronome demonstrativo com valor catafórico."
+        ],
+        "answer": 3,
+        "explanation": "Antecipa a informação após os dois-pontos.",
+        "tip": "Demonstrativos podem apontar para partes do texto."
       }
     ]
   },
@@ -2740,151 +2740,151 @@ window.lessons={
     "title": "Tempos e modos verbais",
     "subtitle": "Português • Aula 19 • Edital • Verbos",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • TEMPOS E MODOS VERBAIS</div><h3>Indicativo, subjuntivo e imperativo</h3><p>O indicativo tende a apresentar fatos; o subjuntivo, hipóteses, desejos ou possibilidades; o imperativo, ordens, pedidos e orientações. Os tempos verbais também organizam relações temporais no texto.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Se eu estudasse, teria mais segurança.” O pretérito imperfeito do subjuntivo marca hipótese.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em reescrita, preserve tempo, modo e relação de sentido.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Tempos e modos verbais</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Modo verbal</h3><p>Indicativo tende a apresentar fatos como certos ou assumidos. Subjuntivo aparece em hipóteses, desejos, possibilidades e condições. Imperativo orienta, ordena ou aconselha.</p><p>O modo deve ser interpretado em conjunto com o contexto, não isoladamente.</p><h3>Tempos e correlação</h3><p>Presente pode indicar hábito, fato atual ou verdade geral. Pretérito perfeito apresenta fato concluído; imperfeito pode indicar continuidade, habitualidade ou pano de fundo; mais-que-perfeito situa fato anterior a outro passado.</p><p>Futuro do presente projeta fato posterior; futuro do pretérito pode indicar hipótese, condição ou cortesia.</p><h3>Valor discursivo</h3><p>Autores podem usar presente histórico para aproximar acontecimentos passados. Também podem usar futuro com valor de suposição. A banca cobra valores, não apenas nomes.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir indicativo de subjuntivo</li><li>reconhecer valor do pretérito imperfeito</li><li>interpretar futuro do pretérito</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +600 MIL</span><h3>Tempos e modos verbais — Português com Letícia</h3><p>Visão geral objetiva dos modos e tempos.</p><iframe src=\"https://www.youtube.com/embed/WK6WqY3iRU8\" title=\"Tempos e modos verbais\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de tempos e modos verbais</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>indicativo, subjuntivo, imperativo, correlação temporal e valores semânticos</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Indicativo, subjuntivo, imperativo, correlação temporal e valores semânticos. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar tempos e modos verbais.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar tempos e modos verbais.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • TEMPOS E MODOS VERBAIS</div><h3>Indicativo, subjuntivo e imperativo</h3><p>O indicativo tende a apresentar fatos; o subjuntivo, hipóteses, desejos ou possibilidades; o imperativo, ordens, pedidos e orientações. Os tempos verbais também organizam relações temporais no texto.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Se eu estudasse, teria mais segurança.” O pretérito imperfeito do subjuntivo marca hipótese.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em reescrita, preserve tempo, modo e relação de sentido.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Tempos e modos verbais</h3></div><h3>Modo verbal</h3><p>Indicativo tende a apresentar fatos como certos ou assumidos. Subjuntivo aparece em hipóteses, desejos, possibilidades e condições. Imperativo orienta, ordena ou aconselha.</p><p>O modo deve ser interpretado em conjunto com o contexto, não isoladamente.</p><h3>Tempos e correlação</h3><p>Presente pode indicar hábito, fato atual ou verdade geral. Pretérito perfeito apresenta fato concluído; imperfeito pode indicar continuidade, habitualidade ou pano de fundo; mais-que-perfeito situa fato anterior a outro passado.</p><p>Futuro do presente projeta fato posterior; futuro do pretérito pode indicar hipótese, condição ou cortesia.</p><h3>Valor discursivo</h3><p>Autores podem usar presente histórico para aproximar acontecimentos passados. Também podem usar futuro com valor de suposição. A banca cobra valores, não apenas nomes.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir indicativo de subjuntivo</li><li>reconhecer valor do pretérito imperfeito</li><li>interpretar futuro do pretérito</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +600 MIL</span><h3>Tempos e modos verbais — Português com Letícia</h3><p>Visão geral objetiva dos modos e tempos.</p><iframe src=\"https://www.youtube.com/embed/WK6WqY3iRU8\" title=\"Tempos e modos verbais\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Tempos e modos</h3><p>Foco desta etapa: <b>indicativo, subjuntivo, imperativo e correlação temporal</b>.</p></div><h3>Como resolver este assunto</h3><p>Monte uma linha do tempo e observe certeza/hipótese.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Mudar modo ou tempo muda o sentido.</div></section><div class=\"video-lesson\"><span>🎥 REFORÇO ESPECÍFICO</span><h3>Tempos e modos verbais para concursos</h3><p>Revisão específica de tempos e modos verbais.</p><iframe src=\"https://www.youtube.com/embed/n8OKqnAT-fM\" title=\"Tempos e modos verbais para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "O modo subjuntivo costuma expressar:",
+        "question": "Em “Se o candidato mantiver a disciplina, alcançará melhor rendimento”, “mantiver” está no:",
         "options": [
-          "Somente certeza absoluta.",
-          "Nome de seres.",
-          "Ordens, pedidos e orientações.",
-          "Hipótese, desejo ou possibilidade."
+          "pretérito imperfeito do subjuntivo.",
+          "presente do indicativo.",
+          "imperativo.",
+          "futuro do subjuntivo."
         ],
         "answer": 3,
-        "explanation": "A resposta correta é “Hipótese, desejo ou possibilidade.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "A forma expressa condição futura.",
+        "tip": "Com “se” + evento futuro, observe o futuro do subjuntivo."
       },
       {
-        "question": "O modo imperativo é usado frequentemente para:",
+        "question": "Em “Quando você vir o resultado, avise-me”, “vir” é:",
         "options": [
-          "Hipótese, desejo ou possibilidade.",
-          "Ordens, pedidos e orientações.",
-          "Narrar passado apenas.",
-          "Indicar posse."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Ordens, pedidos e orientações.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Tempo verbal ajuda a localizar:",
-        "options": [
-          "Somente o sujeito.",
-          "A pontuação.",
-          "A ação no tempo.",
-          "O gênero textual."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “A ação no tempo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em “Se eu estudasse”, “estudasse” está no:",
-        "options": [
-          "Somente certeza absoluta.",
-          "Pretérito imperfeito do subjuntivo.",
-          "Infinitivo.",
-          "Hipótese, desejo ou possibilidade."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Pretérito imperfeito do subjuntivo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Indicativo tende a apresentar:",
-        "options": [
-          "Fatos como reais/certos.",
-          "Somente desejos.",
-          "Interjeições.",
-          "Hipótese, desejo ou possibilidade."
+          "futuro do subjuntivo do verbo “ver”.",
+          "infinitivo do verbo “vir”.",
+          "presente do indicativo de “vir”.",
+          "pretérito perfeito de “ver”."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Fatos como reais/certos.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "O futuro do subjuntivo de “ver” é “vir”.",
+        "tip": "Cuidado com formas homônimas."
       },
       {
-        "question": "Em reescritas, alterar o modo verbal pode:",
+        "question": "Em “Se ele tivesse estudado, teria obtido melhor resultado”, a correlação expressa:",
         "options": [
-          "Hipótese, desejo ou possibilidade.",
-          "Somente certeza absoluta.",
-          "Alterar o sentido.",
-          "Corrigir ortografia automaticamente."
+          "hipótese passada não realizada.",
+          "certeza presente.",
+          "ordem direta.",
+          "fato futuro inevitável."
+        ],
+        "answer": 0,
+        "explanation": "A construção é contrafactual no passado.",
+        "tip": "Observe condição e consequência."
+      },
+      {
+        "question": "Em “Talvez ele chegue cedo”, o subjuntivo indica:",
+        "options": [
+          "certeza absoluta.",
+          "ordem direta.",
+          "possibilidade/incerteza.",
+          "fato passado concluído."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Alterar o sentido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Talvez” marca caráter não factual.",
+        "tip": "Modo verbal expressa atitude do falante."
       },
       {
-        "question": "O modo indicativo tende a expressar:",
+        "question": "Em “Ele estuda todos os dias”, o presente do indicativo pode expressar:",
         "options": [
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra restrita a nomes próprios.",
-          "fato apresentado como real ou certo pelo enunciador."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de tempos e modos verbais sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "O subjuntivo associa-se frequentemente a:",
-        "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "hipótese, desejo, dúvida ou possibilidade."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de tempos e modos verbais sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "O imperativo é usado principalmente para:",
-        "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "ordem, pedido, conselho ou instrução.",
-          "uma regra restrita a nomes próprios.",
-          "um caso em que o contexto nunca interfere na análise."
+          "apenas ação instantânea.",
+          "hábito.",
+          "hipótese irreal.",
+          "ordem."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de tempos e modos verbais sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O presente também indica ação habitual.",
+        "tip": "Tempos verbais têm valores contextuais."
       },
       {
-        "question": "Em “Se eu soubesse, responderia”, “soubesse” está no:",
+        "question": "Em “Amanhã viajaremos cedo”, o futuro do presente indica:",
         "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "pretérito imperfeito do subjuntivo.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma relação sem qualquer efeito de sentido."
+          "ação passada.",
+          "hipótese contrafactual.",
+          "fato posterior ao momento da fala.",
+          "ordem imperativa."
+        ],
+        "answer": 2,
+        "explanation": "“Viajaremos” situa a ação no futuro.",
+        "tip": "Associe forma e referência temporal."
+      },
+      {
+        "question": "Em “Eu estudava quando o telefone tocou”, “estudava” expressa:",
+        "options": [
+          "ação futura.",
+          "ação passada em desenvolvimento.",
+          "ordem.",
+          "evento pontual posterior."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de tempos e modos verbais sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O imperfeito apresenta ação em curso no passado.",
+        "tip": "Compare imperfeito e perfeito."
       },
       {
-        "question": "Futuro do subjuntivo aparece em construções como:",
+        "question": "Em “Quando cheguei, ele já saíra”, “saíra” indica:",
         "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "quando eu fizer."
+          "ação simultânea ao presente.",
+          "futuro condicionado.",
+          "ação anterior a outra ação passada.",
+          "ordem."
         ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de tempos e modos verbais sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "O mais-que-perfeito marca anterioridade no passado.",
+        "tip": "Monte uma linha do tempo."
       },
       {
-        "question": "Correlação verbal adequada depende:",
+        "question": "Em “Estude!”, a forma verbal está no:",
         "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "da relação temporal e modal pretendida entre as ações.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra que só se aplica à linguagem informal."
+          "imperativo.",
+          "indicativo.",
+          "futuro do subjuntivo.",
+          "infinitivo pessoal."
+        ],
+        "answer": 0,
+        "explanation": "A forma expressa ordem/conselho.",
+        "tip": "Imperativo aparece em textos injuntivos."
+      },
+      {
+        "question": "Assinale a correlação adequada:",
+        "options": [
+          "Se eu estudasse mais, teria melhor desempenho.",
+          "Se eu estudaria mais, teria melhor desempenho.",
+          "Se eu estudei mais, teria melhor desempenho necessariamente.",
+          "Se eu estudasse mais, terei tido melhor desempenho ontem."
+        ],
+        "answer": 0,
+        "explanation": "A hipótese combina imperfeito do subjuntivo e futuro do pretérito.",
+        "tip": "Mantenha coerência temporal e modal."
+      },
+      {
+        "question": "Em “É possível que ele participe”, “participe” está no subjuntivo porque:",
+        "options": [
+          "todo verbo após “que” exige subjuntivo.",
+          "o sujeito está oculto.",
+          "o enunciado apresenta possibilidade, não fato certo.",
+          "o verbo está no passado."
+        ],
+        "answer": 2,
+        "explanation": "“É possível” introduz modalização de possibilidade.",
+        "tip": "Observe a atitude expressa."
+      },
+      {
+        "question": "Trocar “Se ele viesse, conversaríamos” por “Quando ele vier, conversaremos” altera:",
+        "options": [
+          "apenas a ortografia.",
+          "o grau de hipótese e a referência temporal.",
+          "só a pessoa gramatical.",
+          "nada no sentido."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de tempos e modos verbais sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A primeira é mais hipotética; a segunda projeta evento futuro esperado.",
+        "tip": "Modo e tempo alteram o compromisso com o fato."
       }
     ]
   },
@@ -2892,151 +2892,151 @@ window.lessons={
     "title": "Orações reduzidas",
     "subtitle": "Português • Aula 20 • Edital • Orações reduzidas",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • ORAÇÕES REDUZIDAS</div><h3>Infinitivo, gerúndio e particípio</h3><p>Orações reduzidas não apresentam conectivo típico e têm verbo em forma nominal. Podem ser desenvolvidas preservando a relação de sentido.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Ao terminar a prova, revise.” pode equivaler a “Quando terminar a prova, revise”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: desenvolva mentalmente a oração e descubra a relação semântica.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Orações reduzidas</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>O que caracteriza uma oração reduzida</h3><p>Oração reduzida não apresenta conjunção integrante ou pronome relativo explícito e tem o verbo em forma nominal: infinitivo, gerúndio ou particípio.</p><p>'Ao chegar, avisou' contém oração reduzida de infinitivo; 'Terminada a prova, saiu' traz reduzida de particípio.</p><h3>Desenvolver a oração</h3><p>Desenvolver significa transformá-la em oração com conectivo e verbo flexionado, preservando a relação de sentido. 'Ao chegar, ligou' pode equivaler, conforme contexto, a 'quando chegou, ligou'.</p><p>A relação semântica pode ser temporal, causal, condicional, concessiva ou outra, dependendo do contexto.</p><h3>Cuidado com equivalência</h3><p>Duas formas podem ser gramaticalmente possíveis e ainda não ser equivalentes. Sempre verifique se a transformação mantém tempo, sujeito e relação lógica.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer infinitivo/gerúndio/particípio</li><li>desenvolver oração reduzida</li><li>preservar a relação de sentido</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • ORAÇÕES REDUZIDAS</span><h3>Orações reduzidas para concursos</h3><p>Reforço sobre infinitivo, gerúndio e particípio.</p><iframe src=\"https://www.youtube.com/embed/u0HDf2FFu0g\" title=\"Orações reduzidas e subordinação\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de orações reduzidas</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>infinitivo, gerúndio, particípio, desenvolvimento e valor sintático-semântico</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Infinitivo, gerúndio, particípio, desenvolvimento e valor sintático-semântico. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar orações reduzidas.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar orações reduzidas.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • ORAÇÕES REDUZIDAS</div><h3>Infinitivo, gerúndio e particípio</h3><p>Orações reduzidas não apresentam conectivo típico e têm verbo em forma nominal. Podem ser desenvolvidas preservando a relação de sentido.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Ao terminar a prova, revise.” pode equivaler a “Quando terminar a prova, revise”.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: desenvolva mentalmente a oração e descubra a relação semântica.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Orações reduzidas</h3></div><h3>O que caracteriza uma oração reduzida</h3><p>Oração reduzida não apresenta conjunção integrante ou pronome relativo explícito e tem o verbo em forma nominal: infinitivo, gerúndio ou particípio.</p><p>'Ao chegar, avisou' contém oração reduzida de infinitivo; 'Terminada a prova, saiu' traz reduzida de particípio.</p><h3>Desenvolver a oração</h3><p>Desenvolver significa transformá-la em oração com conectivo e verbo flexionado, preservando a relação de sentido. 'Ao chegar, ligou' pode equivaler, conforme contexto, a 'quando chegou, ligou'.</p><p>A relação semântica pode ser temporal, causal, condicional, concessiva ou outra, dependendo do contexto.</p><h3>Cuidado com equivalência</h3><p>Duas formas podem ser gramaticalmente possíveis e ainda não ser equivalentes. Sempre verifique se a transformação mantém tempo, sujeito e relação lógica.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer infinitivo/gerúndio/particípio</li><li>desenvolver oração reduzida</li><li>preservar a relação de sentido</li></ul></div></section>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Orações reduzidas</h3><p>Foco desta etapa: <b>infinitivo, gerúndio, particípio e valores semânticos</b>.</p></div><h3>Como resolver este assunto</h3><p>Desenvolva a oração preservando a relação lógica.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Forma nominal não determina sozinha o valor.</div></section><div class=\"video-lesson\"><span>🎥 REFORÇO ESPECÍFICO</span><h3>Verbos: infinitivo, gerúndio e particípio</h3><p>Aula completa que reforça as formas nominais usadas nas orações reduzidas.</p><iframe src=\"https://www.youtube.com/embed/i3prewIwQiY\" title=\"Verbos: infinitivo, gerúndio e particípio\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Oração reduzida apresenta verbo em:",
+        "question": "Em “Ao terminar a prova, confira o cartão”, “Ao terminar a prova” é oração reduzida de:",
         "options": [
-          "Forma nominal.",
-          "Infinitivo, gerúndio e particípio.",
-          "Nenhuma forma verbal.",
-          "Somente imperativo."
+          "infinitivo com valor temporal.",
+          "gerúndio causal.",
+          "particípio concessivo.",
+          "infinitivo substantivo."
         ],
         "answer": 0,
-        "explanation": "A resposta correta é “Forma nominal.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Terminar” está no infinitivo e indica tempo.",
+        "tip": "Identifique forma nominal e valor semântico."
       },
       {
-        "question": "São formas nominais do verbo:",
+        "question": "Em “Concluído o treinamento, os candidatos foram liberados”, a oração reduzida é de:",
         "options": [
-          "Infinitivo, gerúndio e particípio.",
-          "Sujeito, objeto e predicado.",
-          "Forma nominal.",
-          "Nome, artigo e pronome."
+          "infinitivo final.",
+          "particípio com valor temporal.",
+          "gerúndio condicional.",
+          "particípio substantivo."
         ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Infinitivo, gerúndio e particípio.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 1,
+        "explanation": "Equivale a “depois que o treinamento foi concluído”.",
+        "tip": "Desenvolva a oração."
       },
       {
-        "question": "“Ao estudar, aprendo” pode expressar relação de:",
+        "question": "Em “Estudando com método, o candidato aproveita melhor o tempo”, a oração reduzida é de:",
         "options": [
-          "Aposto.",
-          "Posse.",
-          "Vocativo.",
-          "Tempo."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Tempo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Desenvolver uma oração reduzida exige preservar:",
-        "options": [
-          "Forma nominal.",
-          "A mesma pontuação sempre.",
-          "Nenhuma forma verbal.",
-          "Seu sentido."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Seu sentido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Para classificar oração reduzida, observe:",
-        "options": [
-          "Forma nominal.",
-          "Título.",
-          "Fonte.",
-          "Forma nominal e função/sentido."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Forma nominal e função/sentido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Orações reduzidas geralmente não trazem:",
-        "options": [
-          "Verbo.",
-          "Nenhuma forma verbal.",
-          "Forma nominal.",
-          "Conectivo introdutor típico."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Conectivo introdutor típico.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Oração reduzida de infinitivo apresenta verbo em:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma regra que só se aplica à linguagem informal.",
-          "infinitivo."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de orações reduzidas sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Oração reduzida de gerúndio apresenta verbo em:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra restrita a nomes próprios.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "gerúndio."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de orações reduzidas sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Oração reduzida de particípio apresenta verbo em:",
-        "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "particípio."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de orações reduzidas sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Ao desenvolver uma oração reduzida, é necessário:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra restrita a nomes próprios.",
-          "preservar sua relação sintática e semântica com a principal."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de orações reduzidas sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em “Terminada a prova, os candidatos saíram”, há oração reduzida de:",
-        "options": [
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra que só se aplica à linguagem informal.",
           "particípio.",
-          "uma relação obrigatoriamente causal, independentemente do contexto."
+          "gerúndio, com valor de modo/condição.",
+          "infinitivo.",
+          "coordenação."
         ],
-        "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de orações reduzidas sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "“Estudando” é gerúndio e apresenta circunstância.",
+        "tip": "Gerúndio não tem um único valor."
       },
       {
-        "question": "Em “Ao chegar, avise”, a expressão reduzida pode equivaler a uma oração:",
+        "question": "Em “Mesmo advertido, o condutor insistiu”, a oração reduzida apresenta valor:",
         "options": [
-          "um caso em que o contexto nunca interfere na análise.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "adverbial temporal, conforme o contexto.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "causal.",
+          "final.",
+          "concessivo.",
+          "consecutivo."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de orações reduzidas sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Equivale a “embora tivesse sido advertido”.",
+        "tip": "Procure o conectivo da forma desenvolvida."
+      },
+      {
+        "question": "Em “Para obter bom resultado, é necessário revisar”, a oração reduzida expressa:",
+        "options": [
+          "causa.",
+          "finalidade.",
+          "concessão.",
+          "tempo."
+        ],
+        "answer": 1,
+        "explanation": "“Para + infinitivo” indica objetivo.",
+        "tip": "Identifique a relação semântica."
+      },
+      {
+        "question": "A forma desenvolvida de “Terminada a reunião, todos saíram” é:",
+        "options": [
+          "Depois que a reunião terminou, todos saíram.",
+          "Embora a reunião terminasse, todos saíram.",
+          "Para que a reunião terminasse, todos saíram.",
+          "Se a reunião terminasse, todos sairiam."
+        ],
+        "answer": 0,
+        "explanation": "O particípio reduzido marca anterioridade temporal.",
+        "tip": "Preserve a relação lógica ao desenvolver."
+      },
+      {
+        "question": "Em “Por desconhecer a regra, o candidato errou”, a oração reduzida expressa:",
+        "options": [
+          "causa.",
+          "finalidade.",
+          "concessão.",
+          "comparação."
+        ],
+        "answer": 0,
+        "explanation": "O desconhecimento é motivo do erro.",
+        "tip": "A preposição ajuda a identificar o valor."
+      },
+      {
+        "question": "Em “Apesar de ter estudado, ficou inseguro”, a oração reduzida expressa:",
+        "options": [
+          "causa.",
+          "condição.",
+          "concessão.",
+          "consequência."
+        ],
+        "answer": 2,
+        "explanation": "“Apesar de” marca fato que não impede o resultado.",
+        "tip": "Desenvolva como “embora tenha estudado”."
+      },
+      {
+        "question": "Em “Sem revisar o conteúdo, o candidato corre mais risco de erro”, a oração reduzida indica:",
+        "options": [
+          "finalidade.",
+          "conclusão.",
+          "oração substantiva.",
+          "condição/circunstância negativa."
+        ],
+        "answer": 3,
+        "explanation": "A ausência de revisão funciona como condição associada ao risco.",
+        "tip": "O valor depende do contexto."
+      },
+      {
+        "question": "Em “O candidato, demonstrando tranquilidade, iniciou a prova”, o gerúndio indica:",
+        "options": [
+          "ação necessariamente posterior.",
+          "causa obrigatória.",
+          "circunstância concomitante.",
+          "sujeito inexistente."
+        ],
+        "answer": 2,
+        "explanation": "A demonstração ocorre simultaneamente à ação principal.",
+        "tip": "Gerúndio pode expressar simultaneidade."
+      },
+      {
+        "question": "Uma oração reduzida distingue-se da desenvolvida porque:",
+        "options": [
+          "não possui sentido.",
+          "não pode ser adverbial.",
+          "não contém verbo.",
+          "normalmente traz verbo em forma nominal e omite a conjunção típica da forma desenvolvida."
+        ],
+        "answer": 3,
+        "explanation": "Infinitivo, gerúndio e particípio formam orações reduzidas.",
+        "tip": "Reduzida não significa sem verbo."
+      },
+      {
+        "question": "Em “Feitas as correções, o relatório foi reenviado”, “Feitas” concorda com “as correções” porque:",
+        "options": [
+          "o particípio integra oração reduzida cujo termo está no feminino plural.",
+          "é verbo impessoal.",
+          "todo particípio fica no masculino singular.",
+          "concorda com “relatório”."
+        ],
+        "answer": 0,
+        "explanation": "O particípio varia nessa construção.",
+        "tip": "Observe o termo interno da oração reduzida."
       }
     ]
   },
@@ -3044,151 +3044,151 @@ window.lessons={
     "title": "Colocação pronominal",
     "subtitle": "Português • Aula 21 • Edital • Colocação pronominal",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • COLOCAÇÃO PRONOMINAL</div><h3>Próclise, ênclise e mesóclise</h3><p>Próclise: pronome antes do verbo; ênclise: depois; mesóclise: no meio. Palavras negativas, pronomes relativos e certos advérbios podem atrair o pronome.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Não me diga isso.” A palavra negativa “não” favorece próclise.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: procure primeiro uma palavra atrativa.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Colocação pronominal</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Próclise, ênclise e mesóclise</h3><p>Próclise ocorre quando o pronome aparece antes do verbo; ênclise, depois; mesóclise, no interior de formas verbais do futuro em contextos formais específicos.</p><p>Na norma-padrão, palavras negativas, certos pronomes, advérbios sem pausa e conjunções subordinativas podem atrair o pronome.</p><h3>Início de oração</h3><p>Em registros formais cobrados em provas, evita-se iniciar oração com pronome oblíquo átono: prefere-se 'Disseram-me' a 'Me disseram' quando a questão exige norma-padrão estrita.</p><p>Na língua falada brasileira, usos diferentes são comuns, mas a banca pode cobrar a convenção formal.</p><h3>Locuções verbais</h3><p>Em locuções, há diferentes posições possíveis conforme presença de palavra atrativa e forma do verbo principal. Analise a estrutura inteira.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar palavra atrativa</li><li>distinguir próclise e ênclise</li><li>aplicar norma-padrão em início de oração</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • QUESTÃO DE CONCURSO</span><h3>Colocação pronominal — Português com Letícia</h3><p>Aplicação em questão de concurso.</p><iframe src=\"https://www.youtube.com/embed/_aKblqr6xPs\" title=\"Colocação pronominal\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de colocação pronominal</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>próclise, ênclise, mesóclise, fatores de atração e início de oração</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Próclise, ênclise, mesóclise, fatores de atração e início de oração. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar colocação pronominal.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar colocação pronominal.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • COLOCAÇÃO PRONOMINAL</div><h3>Próclise, ênclise e mesóclise</h3><p>Próclise: pronome antes do verbo; ênclise: depois; mesóclise: no meio. Palavras negativas, pronomes relativos e certos advérbios podem atrair o pronome.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Não me diga isso.” A palavra negativa “não” favorece próclise.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: procure primeiro uma palavra atrativa.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Colocação pronominal</h3></div><h3>Próclise, ênclise e mesóclise</h3><p>Próclise ocorre quando o pronome aparece antes do verbo; ênclise, depois; mesóclise, no interior de formas verbais do futuro em contextos formais específicos.</p><p>Na norma-padrão, palavras negativas, certos pronomes, advérbios sem pausa e conjunções subordinativas podem atrair o pronome.</p><h3>Início de oração</h3><p>Em registros formais cobrados em provas, evita-se iniciar oração com pronome oblíquo átono: prefere-se 'Disseram-me' a 'Me disseram' quando a questão exige norma-padrão estrita.</p><p>Na língua falada brasileira, usos diferentes são comuns, mas a banca pode cobrar a convenção formal.</p><h3>Locuções verbais</h3><p>Em locuções, há diferentes posições possíveis conforme presença de palavra atrativa e forma do verbo principal. Analise a estrutura inteira.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar palavra atrativa</li><li>distinguir próclise e ênclise</li><li>aplicar norma-padrão em início de oração</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • QUESTÃO DE CONCURSO</span><h3>Colocação pronominal — Português com Letícia</h3><p>Aplicação em questão de concurso.</p><iframe src=\"https://www.youtube.com/embed/_aKblqr6xPs\" title=\"Colocação pronominal\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Colocação pronominal</h3><p>Foco desta etapa: <b>próclise, ênclise, mesóclise e atração</b>.</p></div><h3>Como resolver este assunto</h3><p>Procure fator de atração e depois a forma verbal.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Norma formal evita pronome átono inicial.</div></section>",
     "quiz": [
       {
-        "question": "Próclise é a colocação do pronome:",
+        "question": "Assinale a alternativa adequada à norma-padrão tradicional:",
         "options": [
-          "Próclise.",
-          "No meio do verbo.",
-          "Antes do verbo.",
-          "Depois do verbo."
+          "Nunca disseram-me o motivo.",
+          "Quem avisou-lhe sobre a mudança?",
+          "Me entregaram o documento ontem.",
+          "Não me informaram o novo horário."
+        ],
+        "answer": 3,
+        "explanation": "A palavra negativa “não” atrai o pronome para antes do verbo.",
+        "tip": "Palavras negativas são fatores clássicos de próclise."
+      },
+      {
+        "question": "Em “Talvez me enviem o resultado hoje”, a próclise é favorecida por:",
+        "options": [
+          "verbo no infinitivo.",
+          "substantivo feminino.",
+          "advérbio sem pausa que antecede o verbo.",
+          "artigo definido."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Antes do verbo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "“Talvez” funciona como palavra atrativa.",
+        "tip": "Advérbios podem favorecer próclise."
       },
       {
-        "question": "Ênclise coloca o pronome:",
+        "question": "Em “O candidato que se apresentou primeiro foi atendido”, a próclise ocorre por influência de:",
         "options": [
-          "No meio do verbo.",
-          "Antes do verbo.",
-          "Depois do verbo.",
-          "Antes do sujeito sempre."
+          "substantivo “candidato”.",
+          "verbo no passado.",
+          "artigo “o”.",
+          "pronome relativo “que”."
         ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Depois do verbo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "answer": 3,
+        "explanation": "Pronomes relativos atraem o pronome átono.",
+        "tip": "Relativos são fator forte de próclise."
       },
       {
-        "question": "Palavra negativa costuma favorecer:",
+        "question": "No início formal de oração, sem fator de atração, a tradição normativa prefere:",
         "options": [
-          "Mesóclise sempre.",
-          "Próclise.",
-          "Ênclise obrigatória.",
-          "Ausência de pronome."
+          "próclise obrigatória.",
+          "ênclise, como em “Entregaram-me o documento”.",
+          "mesóclise com qualquer tempo.",
+          "omissão do pronome."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Próclise.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "A norma tradicional evita iniciar oração com pronome átono.",
+        "tip": "Diferencie coloquial e formal."
       },
       {
-        "question": "Quando o pronome átono é inserido no interior de uma forma verbal, temos:",
+        "question": "Em “Dar-lhe-ei a resposta amanhã”, ocorre:",
         "options": [
-          "Antes do substantivo.",
-          "Antes do verbo.",
-          "No meio do verbo.",
-          "No interior da forma verbal."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “No interior da forma verbal.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Ao resolver colocação pronominal, procure:",
-        "options": [
-          "Antes do verbo.",
-          "O título.",
-          "A primeira vírgula.",
-          "Palavra atrativa e contexto verbal."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Palavra atrativa e contexto verbal.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Pronome relativo pode funcionar como:",
-        "options": [
-          "Artigo definido.",
-          "No meio do verbo.",
-          "Antes do verbo.",
-          "Fator de próclise."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Fator de próclise.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Palavra negativa antes do verbo favorece:",
-        "options": [
-          "um caso em que o contexto nunca interfere na análise.",
           "próclise.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma relação sem qualquer efeito de sentido."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de colocação pronominal sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "No início de oração, a norma tradicional evita:",
-        "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "pronome oblíquo átono em próclise sem elemento atrativo.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma regra que só se aplica à linguagem informal."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de colocação pronominal sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Com futuro do presente, sem fator de próclise, a tradição normativa admite:",
-        "options": [
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra restrita a nomes próprios.",
-          "mesóclise."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de colocação pronominal sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em “Não me diga isso”, ocorre:",
-        "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "próclise.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma regra restrita a nomes próprios."
-        ],
-        "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de colocação pronominal sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em “Entregue-me o documento”, ocorre:",
-        "options": [
+          "mesóclise.",
           "ênclise.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "uma relação obrigatoriamente causal, independentemente do contexto."
+          "pronome tônico."
+        ],
+        "answer": 1,
+        "explanation": "O pronome aparece no interior da forma de futuro.",
+        "tip": "Mesóclise aparece com futuros sem fator atrativo."
+      },
+      {
+        "question": "Qual construção viola a regra de próclise provocada por palavra negativa?",
+        "options": [
+          "Não disseram-me a verdade.",
+          "Não me disseram a verdade.",
+          "Jamais me informaram o motivo.",
+          "Quem me enviou o documento?"
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de colocação pronominal sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "“Não” exige próclise nesse contexto.",
+        "tip": "Se houver fator atrativo, confira a posição."
       },
       {
-        "question": "Pronome relativo antes do verbo é fator de:",
+        "question": "Em “Quero dizer-lhe a verdade”, a ênclise ao infinitivo:",
         "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "próclise.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma construção sempre proibida pela norma-padrão."
+          "é sempre proibida.",
+          "é admitida pela norma-padrão.",
+          "exige mesóclise.",
+          "só ocorre com palavra negativa."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de colocação pronominal sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Infinitivos admitem ênclise em diversos contextos.",
+        "tip": "A colocação com infinitivo tem alguma flexibilidade."
+      },
+      {
+        "question": "Em “Quando me chamarem, entrarei”, a próclise é motivada por:",
+        "options": [
+          "conjunção subordinativa “quando”.",
+          "verbo no futuro.",
+          "vírgula posterior.",
+          "substantivo oculto."
+        ],
+        "answer": 0,
+        "explanation": "Conjunções subordinativas atraem o pronome.",
+        "tip": "Procure palavras introdutoras de subordinadas."
+      },
+      {
+        "question": "Em “Tudo se resolveu rapidamente”, a próclise é favorecida por:",
+        "options": [
+          "verbo no pretérito.",
+          "advérbio posterior.",
+          "sujeito simples por si só.",
+          "pronome indefinido “tudo”."
+        ],
+        "answer": 3,
+        "explanation": "Pronomes indefinidos podem atrair o pronome átono.",
+        "tip": "Indefinidos, negativos e relativos merecem atenção."
+      },
+      {
+        "question": "Quanto à colocação pronominal com futuro do presente, assinale a alternativa correta:",
+        "options": [
+          "Far-se-á nova avaliação amanhã.",
+          "Se fará nova avaliação amanhã, como única forma culta.",
+          "Fará-se nova avaliação amanhã.",
+          "Nova avaliação fará-se-á amanhã."
+        ],
+        "answer": 0,
+        "explanation": "Sem fator atrativo, o futuro do presente admite mesóclise.",
+        "tip": "Evite ênclise direta ao futuro no padrão tradicional."
+      },
+      {
+        "question": "Em “Aqui se trabalha muito”, a posição do pronome é explicada pela presença de:",
+        "options": [
+          "advérbio “aqui” antes do verbo.",
+          "artigo oculto.",
+          "sujeito composto.",
+          "verbo no infinitivo."
+        ],
+        "answer": 0,
+        "explanation": "O advérbio anteposto favorece próclise.",
+        "tip": "Observe o advérbio ligado ao verbo."
+      },
+      {
+        "question": "Ao revisar colocação pronominal, a estratégia mais segura é:",
+        "options": [
+          "decidir pela sonoridade.",
+          "colocar sempre depois do verbo.",
+          "usar mesóclise em qualquer tempo.",
+          "identificar fatores de atração e depois o tempo/forma verbal."
+        ],
+        "answer": 3,
+        "explanation": "A colocação depende de fatores sintáticos e da forma verbal.",
+        "tip": "Faça a análise em duas etapas."
       }
     ]
   },
@@ -3196,151 +3196,151 @@ window.lessons={
     "title": "Estilística e efeitos de sentido",
     "subtitle": "Português • Aula 22 • Edital • Estilística",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • ESTILÍSTICA</div><h3>Escolhas expressivas</h3><p>Estilística observa como escolhas de palavras, estruturas, repetições, sonoridade e ordem dos termos produzem efeitos de sentido.</p><div class=\"lesson-example\"><b>Exemplo:</b> repetir uma expressão pode enfatizar uma ideia; inverter a ordem comum pode destacar um termo.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: pergunte qual efeito a escolha linguística produz naquele contexto.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estilística e efeitos de sentido</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Escolha linguística produz efeito</h3><p>Estilística estuda como escolhas de palavras, construções, repetições, sons e organização sintática produzem expressividade. Uma mesma informação pode soar formal, irônica, afetiva, agressiva ou neutra dependendo da forma.</p><p>Repetição pode reforçar uma ideia; frases curtas podem acelerar ritmo; inversão pode destacar um termo.</p><h3>Registro e adequação</h3><p>A linguagem varia conforme situação, interlocutor e finalidade. Um texto oficial tende a exigir maior formalidade; uma conversa informal aceita outras construções.</p><p>Questões podem perguntar o efeito da mudança de uma palavra por outra mais técnica, coloquial ou intensa.</p><h3>Som e ritmo</h3><p>Aliteração repete sons consonantais; assonância repete sons vocálicos. Esses recursos podem criar ritmo, musicalidade ou reforçar atmosferas.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar efeito de repetição</li><li>relacionar registro à situação</li><li>reconhecer aliteração e assonância</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • EFEITOS DE SENTIDO</span><h3>Figuras e recursos expressivos</h3><p>Base prática para reconhecer efeitos estilísticos em provas.</p><iframe src=\"https://www.youtube.com/embed/DZq92F2xg6c\" title=\"Estilística e figuras\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de estilística</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>registro, escolha lexical, paralelismo, repetição, efeitos sonoros e expressividade</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Registro, escolha lexical, paralelismo, repetição, efeitos sonoros e expressividade. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar estilística e efeitos de sentido.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar estilística e efeitos de sentido.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • ESTILÍSTICA</div><h3>Escolhas expressivas</h3><p>Estilística observa como escolhas de palavras, estruturas, repetições, sonoridade e ordem dos termos produzem efeitos de sentido.</p><div class=\"lesson-example\"><b>Exemplo:</b> repetir uma expressão pode enfatizar uma ideia; inverter a ordem comum pode destacar um termo.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: pergunte qual efeito a escolha linguística produz naquele contexto.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estilística e efeitos de sentido</h3></div><h3>Escolha linguística produz efeito</h3><p>Estilística estuda como escolhas de palavras, construções, repetições, sons e organização sintática produzem expressividade. Uma mesma informação pode soar formal, irônica, afetiva, agressiva ou neutra dependendo da forma.</p><p>Repetição pode reforçar uma ideia; frases curtas podem acelerar ritmo; inversão pode destacar um termo.</p><h3>Registro e adequação</h3><p>A linguagem varia conforme situação, interlocutor e finalidade. Um texto oficial tende a exigir maior formalidade; uma conversa informal aceita outras construções.</p><p>Questões podem perguntar o efeito da mudança de uma palavra por outra mais técnica, coloquial ou intensa.</p><h3>Som e ritmo</h3><p>Aliteração repete sons consonantais; assonância repete sons vocálicos. Esses recursos podem criar ritmo, musicalidade ou reforçar atmosferas.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar efeito de repetição</li><li>relacionar registro à situação</li><li>reconhecer aliteração e assonância</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • EFEITOS DE SENTIDO</span><h3>Figuras e recursos expressivos</h3><p>Base prática para reconhecer efeitos estilísticos em provas.</p><iframe src=\"https://www.youtube.com/embed/DZq92F2xg6c\" title=\"Estilística e figuras\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Estilística</h3><p>Foco desta etapa: <b>registro, ritmo, paralelismo, repetição e modalização</b>.</p></div><h3>Como resolver este assunto</h3><p>Pergunte que efeito a escolha produz.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Repetição pode ser recurso expressivo.</div></section>",
     "quiz": [
       {
-        "question": "Estilística estuda principalmente:",
+        "question": "Em “A cidade acordou assustada com a notícia”, o efeito decorre de:",
         "options": [
-          "Criar ênfase.",
-          "Somente classes gramaticais.",
-          "Somente ortografia.",
-          "Efeitos expressivos das escolhas linguísticas."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Efeitos expressivos das escolhas linguísticas.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Repetição pode ser usada para:",
-        "options": [
-          "Formar artigo.",
-          "Eliminar sentido sempre.",
-          "Efeitos expressivos das escolhas linguísticas.",
-          "Criar ênfase."
-        ],
-        "answer": 3,
-        "explanation": "A resposta correta é “Criar ênfase.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Uma análise estilística deve considerar:",
-        "options": [
-          "Somente dicionário.",
-          "O contexto.",
-          "A fonte.",
-          "A quantidade de linhas."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “O contexto.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "A ordem dos termos pode:",
-        "options": [
-          "Produzir destaque e efeito de sentido.",
-          "Somente ortografia.",
-          "Efeitos expressivos das escolhas linguísticas.",
-          "Criar acento gráfico."
-        ],
-        "answer": 0,
-        "explanation": "A resposta correta é “Produzir destaque e efeito de sentido.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Em prova, a pergunta central da estilística é:",
-        "options": [
-          "Quantas letras há?",
-          "Efeitos expressivos das escolhas linguísticas.",
-          "Que efeito essa escolha produz?",
-          "Qual a cor do texto?"
+          "eufemismo.",
+          "aliteração.",
+          "personificação.",
+          "metonímia obrigatória."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Que efeito essa escolha produz?”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Atribui-se à cidade uma reação humana.",
+        "tip": "Procure traços humanos transferidos."
       },
       {
-        "question": "Recursos sonoros podem contribuir para:",
+        "question": "A repetição deliberada da mesma estrutura sintática em frases sucessivas pode criar:",
         "options": [
-          "Crase apenas.",
-          "Efeitos expressivos das escolhas linguísticas.",
-          "Expressividade.",
-          "Somente ortografia."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Expressividade.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Estilística estuda:",
-        "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "efeitos expressivos produzidos pelas escolhas linguísticas.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma construção sempre proibida pela norma-padrão."
+          "erro obrigatório de coesão.",
+          "paralelismo e reforço rítmico/argumentativo.",
+          "neutralização do estilo.",
+          "apenas cacofonia."
         ],
         "answer": 1,
-        "explanation": "A alternativa correta aplica o conceito de estilística sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Paralelismo pode dar ritmo, equilíbrio e ênfase.",
+        "tip": "Nem toda repetição é vício."
       },
       {
-        "question": "Repetição pode funcionar como:",
+        "question": "Em “Ele falou, falou, falou e ninguém o ouviu”, a repetição produz:",
         "options": [
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "uma relação sem qualquer efeito de sentido.",
-          "recurso expressivo intencional."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de estilística sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Escolha entre registro formal e informal depende:",
-        "options": [
-          "da situação comunicativa e do efeito pretendido.",
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "ênfase na insistência ou duração da ação.",
+          "eliminação do sentido verbal.",
+          "erro inevitável de concordância.",
+          "mudança de pessoa gramatical."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de estilística sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "A repetição intensifica a percepção de continuidade.",
+        "tip": "Recursos estilísticos mudam a percepção do conteúdo."
       },
       {
-        "question": "Paralelismo contribui para:",
+        "question": "Optar por “falecer” em vez de “bater as botas” altera sobretudo:",
         "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido.",
-          "equilíbrio e organização estrutural de segmentos."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de estilística sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Aliteração produz efeito pela repetição de:",
-        "options": [
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "sons consonantais."
-        ],
-        "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de estilística sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Uma escolha lexical pode:",
-        "options": [
-          "alterar tom, intensidade e avaliação expressa no texto.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra que só se aplica à linguagem informal.",
-          "uma relação sem qualquer efeito de sentido."
+          "o nível de formalidade e o registro.",
+          "a concordância verbal.",
+          "a pessoa do discurso.",
+          "apenas a estrutura silábica."
         ],
         "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de estilística sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "As expressões pertencem a registros distintos.",
+        "tip": "Adequação vocabular inclui situação e interlocutor."
+      },
+      {
+        "question": "A escolha entre frase curta e frase longa pode produzir:",
+        "options": [
+          "apenas diferença ortográfica.",
+          "mudança obrigatória de gênero.",
+          "efeitos de ritmo, velocidade e ênfase.",
+          "eliminação de subjetividade."
+        ],
+        "answer": 2,
+        "explanation": "A organização sintática participa da construção do estilo.",
+        "tip": "Estilo não se resume a figuras."
+      },
+      {
+        "question": "Em “Silêncio. Passos. Uma porta se abre.”, as frases curtas podem:",
+        "options": [
+          "tornar o texto necessariamente incoerente.",
+          "impedir qualquer narrativa.",
+          "criar ritmo fragmentado e sensação de tensão.",
+          "eliminar o efeito expressivo."
+        ],
+        "answer": 2,
+        "explanation": "A fragmentação pode acelerar a leitura e reforçar suspense.",
+        "tip": "Observe forma e efeito."
+      },
+      {
+        "question": "Em “Certamente, o resultado merece atenção”, “certamente” expressa:",
+        "options": [
+          "modalização de alto grau de certeza.",
+          "dúvida intensa.",
+          "negação.",
+          "comparação."
+        ],
+        "answer": 0,
+        "explanation": "O advérbio revela a atitude do enunciador.",
+        "tip": "Modalizadores mostram grau de certeza."
+      },
+      {
+        "question": "Trocar “talvez seja necessário” por “é certamente necessário” altera:",
+        "options": [
+          "somente a quantidade de palavras.",
+          "apenas a pontuação.",
+          "nada no sentido.",
+          "o grau de compromisso do enunciador com a afirmação."
+        ],
+        "answer": 3,
+        "explanation": "“Talvez” marca possibilidade; “certamente”, maior certeza.",
+        "tip": "Modalizadores alteram o tom."
+      },
+      {
+        "question": "Em publicidade, o uso de “você” pode produzir:",
+        "options": [
+          "impessoalidade absoluta.",
+          "eliminação do interlocutor.",
+          "aproximação direta com o destinatário.",
+          "valor só narrativo."
+        ],
+        "answer": 2,
+        "explanation": "A segunda pessoa discursiva cria relação direta.",
+        "tip": "Pessoa verbal também é escolha estilística."
+      },
+      {
+        "question": "A aliteração em um slogan pode ser usada para:",
+        "options": [
+          "marcar crase.",
+          "indicar tempo verbal.",
+          "eliminar ritmo.",
+          "criar efeito sonoro e facilitar memorização."
+        ],
+        "answer": 3,
+        "explanation": "Repetição consonantal pode gerar musicalidade.",
+        "tip": "Observe recursos fonéticos."
+      },
+      {
+        "question": "Em “Ele respondeu apenas: ‘Não.’”, o isolamento da palavra pode:",
+        "options": [
+          "acentuar a força e a definitividade da resposta.",
+          "transformá-la obrigatoriamente em substantivo.",
+          "apagar o valor negativo.",
+          "produzir erro sintático inevitável."
+        ],
+        "answer": 0,
+        "explanation": "A disposição gráfica pode intensificar um elemento.",
+        "tip": "Pontuação e disposição constroem estilo."
+      },
+      {
+        "question": "O uso excessivo de termos técnicos diante de público leigo pode comprometer:",
+        "options": [
+          "a existência de sujeito.",
+          "a ortografia automaticamente.",
+          "a adequação comunicativa.",
+          "a concordância de todo o texto."
+        ],
+        "answer": 2,
+        "explanation": "Estilo adequado considera destinatário, situação e finalidade.",
+        "tip": "A melhor escolha depende do contexto."
       }
     ]
   },
@@ -3348,151 +3348,151 @@ window.lessons={
     "title": "Figuras de linguagem",
     "subtitle": "Português • Aula 23 • Edital • Figuras de linguagem",
     "time": "60 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • FIGURAS DE LINGUAGEM</div><h3>Figuras mais cobradas</h3><p>Metáfora, metonímia, ironia, eufemismo, hipérbole, antítese, personificação, pleonasmo, aliteração e outras figuras alteram ou intensificam a expressão.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Ele é uma fera nos estudos.” Há metáfora: uma característica é transferida sem conectivo comparativo explícito.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: não decore só o nome; identifique o mecanismo e o efeito no trecho.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Figuras de linguagem</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Figuras de sentido</h3><p>Metáfora aproxima sentidos sem conectivo comparativo explícito. Comparação usa elemento comparativo. Metonímia substitui um termo por outro com relação de proximidade, como autor pela obra.</p><p>Catacrese usa expressão figurada cristalizada, como 'pé da mesa'.</p><h3>Figuras de pensamento</h3><p>Antítese aproxima ideias opostas. Paradoxo combina ideias aparentemente incompatíveis. Hipérbole exagera. Eufemismo suaviza. Ironia comunica sentido diferente ou oposto ao literal em determinado contexto.</p><p>Personificação atribui características humanas a seres não humanos.</p><h3>Figuras de construção e som</h3><p>Elipse omite termo recuperável. Pleonasmo pode ser expressivo ou vicioso. Polissíndeto repete conjunções. Assíndeto omite conectivos. Aliteração e onomatopeia exploram sons.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir metáfora de comparação</li><li>reconhecer hipérbole, eufemismo e ironia</li><li>identificar personificação</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • +380 MIL</span><h3>Figuras de linguagem — Português com Letícia</h3><p>Figuras sonoras e sintáticas com exemplos.</p><iframe src=\"https://www.youtube.com/embed/DZq92F2xg6c\" title=\"Figuras de linguagem\" allowfullscreen loading=\"lazy\"></iframe></div>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\">\n<div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Domínio de figuras de linguagem</h3>\n<p>Esta revisão foi acrescentada para transformar a aula em material de estudo completo antes do quiz.</p></div>\n<h3>O que você precisa dominar</h3><p>Na prova, não basta reconhecer definições. Você precisa aplicar <b>metáfora, metonímia, antítese, paradoxo, hipérbole, eufemismo, ironia e personificação</b> em frases e textos, comparar alternativas próximas e justificar por que as demais estão erradas.</p>\n<h3>Método de resolução</h3><ol><li>Leia primeiro o comando e identifique exatamente o que está sendo pedido.</li><li>Localize a palavra, estrutura ou relação central.</li><li>Aplique a regra ao contexto, não a uma frase imaginada.</li><li>Elimine alternativas que generalizam, trocam a relação lógica ou misturam conceitos.</li><li>Antes de marcar, explique mentalmente por que sua opção é correta.</li></ol>\n<div class=\"lesson-example\"><b>Exemplo de raciocínio:</b> se duas alternativas parecem possíveis, volte ao elemento linguístico decisivo — preposição, conector, núcleo, tempo verbal, referente ou efeito de sentido — e teste cada alternativa contra ele.</div>\n<div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: a CRS/PMMG costuma aproximar conceitos corretos de uma aplicação incorreta. Leia a alternativa inteira.</div>\n<h3>🎯 O que decorar/dominar</h3><p>Metáfora, metonímia, antítese, paradoxo, hipérbole, eufemismo, ironia e personificação. Priorize a compreensão da regra e depois treine a aplicação.</p>\n<div class=\"written-check-v647\"><b>Revisão rápida:</b> consigo definir o conceito, reconhecer um exemplo, explicar uma exceção relevante e eliminar uma alternativa errada? Se não, releia esta aula antes do quiz.</div>\n</section><div class=\"video-lesson\"><span>🎥 REFORÇO PMMG</span><h3>Português PMMG — revisão direcionada ao concurso</h3><p>Use esta aula depois da teoria escrita para consolidar figuras de linguagem.</p><iframe src=\"https://www.youtube.com/embed/wO8eyBE9lIo\" title=\"Português PMMG — revisão direcionada ao concurso\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎯 QUESTÕES CRS/PMMG</span><h3>Resolução comentada de questões CRS/PMMG</h3><p>Use esta aula depois da teoria escrita para consolidar figuras de linguagem.</p><iframe src=\"https://www.youtube.com/embed/kvsiV9A4dvU\" title=\"Resolução comentada de questões CRS/PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • FIGURAS DE LINGUAGEM</div><h3>Figuras mais cobradas</h3><p>Metáfora, metonímia, ironia, eufemismo, hipérbole, antítese, personificação, pleonasmo, aliteração e outras figuras alteram ou intensificam a expressão.</p><div class=\"lesson-example\"><b>Exemplo:</b> “Ele é uma fera nos estudos.” Há metáfora: uma característica é transferida sem conectivo comparativo explícito.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: não decore só o nome; identifique o mecanismo e o efeito no trecho.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Figuras de linguagem</h3></div><h3>Figuras de sentido</h3><p>Metáfora aproxima sentidos sem conectivo comparativo explícito. Comparação usa elemento comparativo. Metonímia substitui um termo por outro com relação de proximidade, como autor pela obra.</p><p>Catacrese usa expressão figurada cristalizada, como 'pé da mesa'.</p><h3>Figuras de pensamento</h3><p>Antítese aproxima ideias opostas. Paradoxo combina ideias aparentemente incompatíveis. Hipérbole exagera. Eufemismo suaviza. Ironia comunica sentido diferente ou oposto ao literal em determinado contexto.</p><p>Personificação atribui características humanas a seres não humanos.</p><h3>Figuras de construção e som</h3><p>Elipse omite termo recuperável. Pleonasmo pode ser expressivo ou vicioso. Polissíndeto repete conjunções. Assíndeto omite conectivos. Aliteração e onomatopeia exploram sons.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir metáfora de comparação</li><li>reconhecer hipérbole, eufemismo e ironia</li><li>identificar personificação</li></ul></div></section>\n<section class=\"written-lesson-v647 pmmg-upgrade-2026\"><div class=\"written-lesson-v647-head\"><span>📚 REFORÇO CRS/PMMG</span><h3>Figuras de linguagem</h3><p>Foco desta etapa: <b>metáfora, metonímia, hipérbole, eufemismo, antítese, paradoxo e figuras sonoras</b>.</p></div><h3>Como resolver este assunto</h3><p>Identifique primeiro a relação de sentido.</p><div class=\"gold-rule\">⚠️ CUIDADO NA PROVA: Metáfora = semelhança; metonímia = contiguidade.</div></section><div class=\"video-lesson\"><span>🎥 REFORÇO ESPECÍFICO</span><h3>Figuras de linguagem para concurso público</h3><p>Aula específica sobre figuras de linguagem e cobrança em concursos.</p><iframe src=\"https://www.youtube.com/embed/QF7MbRFf6xk\" title=\"Figuras de linguagem para concurso público\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Metáfora é uma comparação:",
+        "question": "Em “Li Machado de Assis durante as férias”, ocorre:",
         "options": [
-          "Exagero expressivo.",
-          "Implícita, por aproximação de sentidos.",
-          "Sem efeito de sentido.",
-          "Sempre com “como”."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Implícita, por aproximação de sentidos.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Hipérbole caracteriza:",
-        "options": [
-          "Suavização.",
-          "Exagero expressivo.",
-          "Implícita, por aproximação de sentidos.",
-          "Imitação sonora."
-        ],
-        "answer": 1,
-        "explanation": "A resposta correta é “Exagero expressivo.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Antítese aproxima:",
-        "options": [
-          "Pronomes relativos.",
-          "Verbos impessoais.",
-          "Ideias opostas.",
-          "Sons idênticos apenas."
+          "metáfora.",
+          "hipérbole.",
+          "metonímia, pois o autor é empregado pela obra.",
+          "personificação."
         ],
         "answer": 2,
-        "explanation": "A resposta correta é “Ideias opostas.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Há substituição por relação de contiguidade entre autor e obra.",
+        "tip": "Metonímia se baseia em associação."
       },
       {
-        "question": "Eufemismo busca:",
+        "question": "Em “Esperei uma eternidade pelo resultado”, há:",
         "options": [
-          "Implícita, por aproximação de sentidos.",
-          "Suavizar uma ideia.",
-          "Repetir conjunções.",
-          "Sempre com “como”."
+          "eufemismo.",
+          "hipérbole.",
+          "antítese.",
+          "onomatopeia."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Suavizar uma ideia.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "A expressão exagera o tempo de espera.",
+        "tip": "Hipérbole intensifica por exagero."
       },
       {
-        "question": "Aliteração envolve repetição de:",
+        "question": "Em “A vida é um sopro”, identifica-se:",
         "options": [
-          "Ideias opostas.",
-          "Tempos verbais.",
-          "Sons consonantais.",
-          "Implícita, por aproximação de sentidos."
-        ],
-        "answer": 2,
-        "explanation": "A resposta correta é “Sons consonantais.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
-      },
-      {
-        "question": "Personificação atribui:",
-        "options": [
-          "Acentos a verbos.",
-          "Características humanas a seres não humanos.",
-          "Sempre com “como”.",
-          "Implícita, por aproximação de sentidos."
+          "metonímia.",
+          "metáfora.",
+          "eufemismo.",
+          "aliteração."
         ],
         "answer": 1,
-        "explanation": "A resposta correta é “Características humanas a seres não humanos.”. A análise deve considerar o conceito cobrado e sua aplicação no contexto, sem misturar regras de outros tópicos.",
-        "tip": "Nível PMMG • identifique primeiro o conceito central do enunciado e só depois compare as alternativas."
+        "explanation": "Há aproximação implícita entre vida e sopro.",
+        "tip": "Metáfora transfere sentidos por semelhança."
       },
       {
-        "question": "Metáfora estabelece:",
+        "question": "Em “Ele é forte como um touro”, ocorre:",
         "options": [
-          "uma regra que só se aplica à linguagem informal.",
-          "um caso em que o contexto nunca interfere na análise.",
-          "aproximação implícita entre sentidos.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "metáfora pura.",
+          "metonímia.",
+          "comparação.",
+          "ironia."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de figuras de linguagem sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O conectivo “como” torna explícita a comparação.",
+        "tip": "Comparação explícita costuma usar conectivo."
       },
       {
-        "question": "Metonímia ocorre quando:",
+        "question": "Em “O vento sussurrava entre as árvores”, ocorre:",
         "options": [
-          "uma relação obrigatoriamente causal, independentemente do contexto.",
-          "uma regra que só se aplica à linguagem informal.",
-          "um recurso que elimina a necessidade de analisar a estrutura da oração.",
-          "um termo substitui outro por relação de contiguidade."
+          "hipérbole.",
+          "eufemismo.",
+          "antítese.",
+          "personificação."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de figuras de linguagem sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "O vento recebe ação humana.",
+        "tip": "Personificação atribui traços humanos."
       },
       {
-        "question": "Hipérbole consiste em:",
+        "question": "Em “Ele partiu desta para melhor”, a expressão pode funcionar como:",
         "options": [
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma característica que depende apenas do número de palavras da frase.",
-          "uma regra restrita a nomes próprios.",
-          "exagero expressivo."
+          "eufemismo.",
+          "hipérbole.",
+          "metáfora de intensidade.",
+          "onomatopeia."
+        ],
+        "answer": 0,
+        "explanation": "A formulação suaviza a referência à morte.",
+        "tip": "Eufemismo atenua ideia dura."
+      },
+      {
+        "question": "Em “Ricos e pobres enfrentaram o mesmo problema”, a aproximação dos termos opostos exemplifica:",
+        "options": [
+          "pleonasmo.",
+          "metonímia.",
+          "aliteração.",
+          "antítese."
         ],
         "answer": 3,
-        "explanation": "A alternativa correta aplica o conceito de figuras de linguagem sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Há contraste entre ideias opostas.",
+        "tip": "Antítese trabalha com oposição."
       },
       {
-        "question": "Ao substituir uma expressão dura por outra mais suave, o recurso estilístico empregado procura:",
+        "question": "Em “É proibido proibir”, a formulação pode produzir:",
         "options": [
-          "suavizar uma ideia potencialmente desagradável.",
-          "um fenômeno exclusivamente ortográfico, sem efeito sintático ou semântico.",
-          "uma relação sem qualquer efeito de sentido.",
-          "uma regra que só se aplica à linguagem informal."
+          "onomatopeia.",
+          "paradoxo.",
+          "metonímia.",
+          "eufemismo."
         ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de figuras de linguagem sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "answer": 1,
+        "explanation": "A frase articula ideias aparentemente contraditórias.",
+        "tip": "Paradoxo tem tensão lógica mais forte."
       },
       {
-        "question": "Quando o enunciado coloca lado a lado ideias semanticamente opostas, ocorre aproximação de:",
+        "question": "Em “O rato roeu a roupa do rei”, a repetição do som /r/ exemplifica:",
         "options": [
-          "ideias opostas.",
-          "uma regra restrita a nomes próprios.",
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma relação sem qualquer efeito de sentido."
-        ],
-        "answer": 0,
-        "explanation": "A alternativa correta aplica o conceito de figuras de linguagem sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Ao dizer que “a cidade acordou assustada”, atribuem-se ao elemento não humano:",
-        "options": [
-          "uma construção sempre proibida pela norma-padrão.",
-          "uma regra que só se aplica à linguagem informal.",
-          "características humanas a seres não humanos.",
-          "uma característica que depende apenas do número de palavras da frase."
+          "assonância.",
+          "eufemismo.",
+          "aliteração.",
+          "metonímia."
         ],
         "answer": 2,
-        "explanation": "A alternativa correta aplica o conceito de figuras de linguagem sem ignorar a estrutura e o contexto.",
-        "tip": "Nível PMMG • identifique a regra, aplique-a ao contexto e elimine as alternativas incompatíveis."
+        "explanation": "Há repetição recorrente de som consonantal.",
+        "tip": "Aliteração = repetição consonantal."
+      },
+      {
+        "question": "Em “Tic-tac, tic-tac”, a imitação de som exemplifica:",
+        "options": [
+          "antítese.",
+          "hipérbole.",
+          "sinestesia.",
+          "onomatopeia."
+        ],
+        "answer": 3,
+        "explanation": "A forma imita o som do relógio.",
+        "tip": "Onomatopeia procura reproduzir sons."
+      },
+      {
+        "question": "Em “Uma doce voz azul”, a combinação de sensações de campos diferentes exemplifica:",
+        "options": [
+          "metonímia.",
+          "pleonasmo.",
+          "sinestesia.",
+          "eufemismo."
+        ],
+        "answer": 2,
+        "explanation": "Misturam-se impressões sensoriais distintas.",
+        "tip": "Sinestesia cruza sentidos."
+      },
+      {
+        "question": "Em “Vi com meus próprios olhos”, o reforço pode ser classificado como:",
+        "options": [
+          "metonímia.",
+          "antítese.",
+          "ironia obrigatória.",
+          "pleonasmo expressivo."
+        ],
+        "answer": 3,
+        "explanation": "A expressão reforça deliberadamente o ato de ver.",
+        "tip": "Pleonasmo pode ser recurso expressivo."
       }
     ]
   },
@@ -3512,7 +3512,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Analise as proposições abaixo sobre o texto “Meu melhor conto” e, ao final, responda o que se pede: I. O autor, quando ainda jovem, se inspirava na injustiça social, aliada à imaginação, para escrever os seus textos. II. Segundo o autor, quando ele era jovem, além de ser escritor era militante político. III. Infere-se que um dos motivos da prisão do autor foi sua participação em manifestações políticas. IV. Para garantir sua liberdade e sair da prisão, o escritor propôs ao Tenente Jaguar a produção de um conto. V. O Tenente Jaguar escrevia contos e se julgava tão bom quanto o escritor preso. Estão CORRETAS as proposições:",
@@ -3524,7 +3524,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Após leitura do último parágrafo do texto, infere-se possíveis sentimentos por parte do Tenente Jaguar, EXCETO.",
@@ -3536,7 +3536,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Marque a alternativa CORRETA que aponta a figura de linguagem utilizada pelo autor no trecho sublinhado. “O chefe da Usina Pequena era o Tenente Jaguar. Esse não era o seu verdadeiro nome, mas o apelido era mais que o apropriado: ele tinha mesmo cara de felino, e de felino muito feroz. Ao sorrir, mostrava os caninos enormes - e isso era suficiente para dar calafrios nos prisioneiros.”",
@@ -3548,7 +3548,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Descubra o efeito de sentido antes de nomear a figura."
       },
       {
         "question": "Marque a alternativa CORRETA. No excerto “Fizeram o possível para me soltar, falaram com Deus e todo o mundo, com políticos, jornalistas e até generais.”, a figura de linguagem utilizada no trecho em destaque foi a:",
@@ -3560,7 +3560,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Descubra o efeito de sentido antes de nomear a figura."
       },
       {
         "question": "No fragmento “Pertence ao Tenente, que esses dias, aliás, vi na rua: um ancião alquebrado, que anda apoiado numa bengala.”, a palavra em destaque pode ser substituída por qual vocábulo abaixo, sem que o sentido do texto seja alterado?",
@@ -3572,7 +3572,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Marque a alternativa CORRETA. Na frase “Contava a história de um pai e um filho moribundo.”, o vocábulo destacado exerce a função de:",
@@ -3584,7 +3584,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 7: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Analise o fragmento a seguir e responda o que se pede: “Mas eu não sabia e foi o que respondi, numa voz trêmula, que não sabia.” Marque a alternativa CORRETA. A palavra sublinhada INTRODUZ:",
@@ -3596,7 +3596,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 8: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "No trecho “Estava concluindo o curso de Letras e acabara de publicar meu primeiro livro [...]”, o verbo sublinhado está conjugado em qual tempo verbal?",
@@ -3608,7 +3608,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Observe tempo, modo, pessoa, regência e relação com o sujeito."
       },
       {
         "question": "Observe os trechos abaixo, extraídos do texto de referência, e, após análise da estrutura sintática, marque a alternativa CORRETA em que há uma oração.",
@@ -3620,7 +3620,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Identifique os verbos e a relação sintática entre as orações."
       },
       {
         "question": "Para a formação do período composto, podemos utilizar dois processos sintáticos: a coordenação e/ou a subordinação. Nesse sentido, marque a alternativa CORRETA que apresenta na frase um período composto por subordinação:",
@@ -3632,7 +3632,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Identifique os verbos e a relação sintática entre as orações."
       },
       {
         "question": "Assinale a alternativa CORRETA em que todas as palavras foram formadas a partir do mesmo processo de derivação, observado na palavra aterrorizado.",
@@ -3644,7 +3644,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 12: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Considerando que a maioria dos advérbios modifica o verbo, com o intuito de lhe acrescentá- los uma circunstância, marque a alternativa cujo termo destacado NÃO é um advérbio:",
@@ -3656,7 +3656,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Observe tempo, modo, pessoa, regência e relação com o sujeito."
       },
       {
         "question": "Considerando a importância dos sinais de pontuação, para a devida organização do texto, analise o uso dos dois-pontos na frase a seguir e marque a alternativa que melhor completa a afirmativa abaixo: “É uma revelação, diziam todos, e eu, que à época nada tinha de modesto, concordava inteiramente: considerava-me um gênio.” Os dois-pontos foram utilizados para ______________________________.",
@@ -3668,7 +3668,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Leia o trecho abaixo e, ao final, responda o que se pede. “Nunca fiquei sabendo o que aconteceu depois, o resultado do concurso, nada disso. Não estava interessado; ao contrário, queria esquecer a história toda, e inclusive o conto que eu tinha escrito. O que foi inútil. A narrativa continuava dentro de mim, como continua até hoje. Se eu quisesse, poderia escrevê-la de uma sentada. Mas não o farei. Esse conto não me pertence. É, acho, a melhor coisa que escrevi, mas não me pertence. Pertence ao Tenente, que esses dias, aliás, vi na rua: um ancião alquebrado, que anda apoiado numa bengala.” No excerto “Mas não o farei.”, o termo “o” faz referência a qual trecho do texto?",
@@ -3680,7 +3680,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Analise os fragmentos abaixo e assinale a alternativa CORRETA que contém um pronome relativo:",
@@ -3692,7 +3692,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Determine a função sintática e o referente do pronome."
       },
       {
         "question": "Observe a concordância dos particípios abaixo e marque a alternativa CORRETA:",
@@ -3704,7 +3704,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Localize o núcleo que controla a concordância."
       },
       {
         "question": "Analise a concordância verbal das assertivas abaixo e responda o que se pede: I. Raros são os dias em que não acontecem fatos desagradáveis. II. Sobra-lhe motivos para considerar-se uma pessoa capaz de vencer esse desafio. III. Um bloco de foliões animava o centro da cidade. IV. A maioria dos trabalhadores recebeu a notícia com grande tristeza. V. Não haviam vizinhos ali que concordassem com a obra. Estão CORRETAS as assertivas:",
@@ -3716,7 +3716,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Observe tempo, modo, pessoa, regência e relação com o sujeito."
       },
       {
         "question": "O texto I é um excerto do romance \"O homem que enganava a morte\", obra ficcional que conta a trajetória do personagem Pedro em vários momentos de sua vida. Com base nas afirmações abaixo e conhecendo as principais características deste gênero textual, responda: I. Forma literária narrativa escrita em prosa. II. Exposição de tema com um ponto de vista prescritivo e injuntivo. III. Pontos de vista com perspectiva em primeira e em terceira pessoa. IV. História que pode variar entre diferentes períodos temporais. V. Texto predominantemente argumentativo e dissertativo. Está CORRETA a seguinte assertiva:",
@@ -3728,7 +3728,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Identifique os verbos e a relação sintática entre as orações."
       },
       {
         "question": "Como a percepção do protagonista em relação ao sargento Robson Aloísio evolui durante o texto? Marque a alternativa CORRETA:",
@@ -3740,7 +3740,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Volte ao contexto e procure a evidência que sustenta a leitura."
       },
       {
         "question": "Qual é a função simbólica atribuída ao café na caracterização do sargento Robson Aloisio ao longo da narrativa?",
@@ -3752,7 +3752,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 21: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Considerando a citação do padre Juca: \"Tudo que lhe é dado lhe será cobrado!\", e as ações do sargento Robson Aloísio na história, analise as assertivas abaixo e marque \"V\" se a afirmativa for verdadeira e \"F\" se for falsa. Em seguida, escolha e marque a opção CORRETA. ( ) A citação influencia o sargento a agir de forma dogmática, demonstrando uma visão cética sobre a natureza humana e seu papel como autoridade policial. ( ) O entendimento do sargento sobre a citação o motiva a assumir uma postura responsável e benevolente, buscando manter a paz na comunidade através do diálogo. ( ) A citação do padre Juca não tem qualquer impacto nas ações do sargento, que age de acordo com sua própria interpretação dos deveres policiais. ( ) O sargento utiliza a citação como uma forma de estabelecer sua autoridade, primando pela negligência com suas responsabilidades para com a comunidade.",
@@ -3764,7 +3764,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 22: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Assinale a alternativa em que o termo destacado NÃO apresenta a mesma função sintática de \"mas entendia o caráter divino da autoridade\". (linha 24).",
@@ -3776,7 +3776,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 23: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "O termo em destaque \"E que, enfim, queria entrar para a polícia.\" (linha 29) justifica-se para indicar uma ideia de:",
@@ -3788,7 +3788,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 24: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Considerando as afirmações a seguir, marque V de verdadeiro e F de Falso: ( ) A palavra \"Republicana\" é formada por um processo de derivação parassintética. Ela deriva do substantivo \"público\" pela adição do prefixo \"Re-\" e do sufixo \"-ana\". ( ) O acento gráfico na palavra \"Polícia\" se justifica por ser uma paroxítona com ditongo crescente. ( ) Em \"Corpo de Guardas Municipais Permanentes\", a palavra \"permanentes\" exerce função de um adjetivo. ( ) Na palavra \"Dragões\" em Dragões Del Rei nas Minas predomina a figura de linguagem denominada \"Prosopopeia\". Marque a alternativa que contém a sequência de respostas CORRETAS, na ordem de cima para baixo:",
@@ -3800,7 +3800,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Descubra o efeito de sentido antes de nomear a figura."
       },
       {
         "question": "\"A cor do fardamento somente foi modificada para o brim prussiano caqui, em virtude das reformas do Coronel Dexter, a partir de 1912\". As palavras em destaque são exemplos de:",
@@ -3812,7 +3812,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 26: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Na oração \"Mesmo com as mudanças de nome, nos 193 primeiros anos, seus integrantes utilizaram fardas predominantemente na cor azul\", as palavras em destaque possuem diferenças quanto ao número e tipos de fonemas. Assinale a alternativa ERRADA:",
@@ -3824,7 +3824,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Identifique os verbos e a relação sintática entre as orações."
       },
       {
         "question": "Considerando os aspectos ortográficos, analise as proposições abaixo e, em seguida, assinale a alternativa CORRETA. I. É obrigatório o uso do hífen em palavras como sobre-humano, ultra-humano, supra-humano e super-humano. II. Do mesmo modo, as palavras anti-sequestro, anti-reflexo e anti-horário devem ser grafadas com o hífen. III. O uso do hífen também é obrigatório em palavras com os prefixos tônicos pós-, pré- e pró-, como pós-venda, pré-científico e pró-reitor, por exemplo. IV. O hífen está corretamente empregado quando o prefixo \"bem\" exercer a função de advérbio, a exemplo de bem-aplicado, bem-aceito e bem-elaborado.",
@@ -3836,7 +3836,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Questão final 28: elimine cada opção por regra ou evidência concreta."
       },
       {
         "question": "Em qual das opções abaixo o acento indicativo de crase foi corretamente empregado?",
@@ -3848,7 +3848,7 @@ window.lessons={
         ],
         "answer": 2,
         "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Confirme regência e artigo antes de decidir sobre o acento grave."
       },
       {
         "question": "Assinale a alternativa CORRETA quanto ao uso obrigatório da vírgula:",
@@ -3860,7 +3860,7 @@ window.lessons={
         ],
         "answer": 0,
         "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "tip": "Analise a estrutura sintática e o efeito da pontuação."
       }
     ]
   }
