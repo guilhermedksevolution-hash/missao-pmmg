@@ -1,5 +1,5 @@
 /* MISSÃO PMMG — LITERATURA • VERSÃO FINAL RECONSTRUÍDA E AUDITADA • 2026 */
-window.literaturaLessons={
+window.literaturaLessons = {
   "1": {
     "title": "Campo Geral — obra, contexto e narrador",
     "subtitle": "Literatura • Aula 01 • Campo Geral",
@@ -10,43 +10,43 @@ window.literaturaLessons={
         "question": "Em Campo Geral, a narração em terceira pessoa não produz distanciamento absoluto porque:",
         "options": [
           "o narrador cede integralmente a palavra a Miguilim em forma autobiográfica.",
-          "a focalização acompanha de perto percepções, dúvidas e afetos de Miguilim.",
           "todos os acontecimentos são explicados por um narrador documental e neutro.",
+          "a focalização acompanha de perto percepções, dúvidas e afetos de Miguilim.",
           "a obra alterna obrigatoriamente primeira e segunda pessoas."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "A terceira pessoa convive com focalização muito próxima de Miguilim, fazendo o leitor perceber o mundo adulto através de sua sensibilidade.",
         "tip": "Separe pessoa gramatical do narrador e focalização."
       },
       {
         "question": "O Mutúm exerce função estrutural na formação de Miguilim porque:",
         "options": [
-          "é apenas referência geográfica sem interferência temática.",
           "representa exclusivamente um espaço urbano em transformação.",
           "natureza, isolamento e relações locais participam da experiência e do amadurecimento do menino.",
+          "é apenas referência geográfica sem interferência temática.",
           "funciona como cenário fantástico desligado da vida familiar."
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "O espaço participa da experiência subjetiva do protagonista e não atua como simples pano de fundo.",
         "tip": "Em literatura, pergunte o que o espaço faz na narrativa."
       },
       {
         "question": "Uma leitura adequada da infância em Campo Geral deve reconhecer que ela é apresentada como:",
         "options": [
-          "experiência complexa, atravessada por afeto, medo, violência, descoberta e incompreensão.",
-          "fase idealizada, protegida de conflitos familiares.",
           "período irrelevante diante da descrição regional.",
-          "recurso usado apenas para produzir humor."
+          "experiência complexa, atravessada por afeto, medo, violência, descoberta e incompreensão.",
+          "recurso usado apenas para produzir humor.",
+          "fase idealizada, protegida de conflitos familiares."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A infância de Miguilim concentra experiências contraditórias e constitui o núcleo de sua formação.",
         "tip": "Evite reduzir a infância rosiana à inocência."
       },
       {
         "question": "Quando Miguilim não compreende plenamente determinadas tensões entre adultos, o efeito narrativo principal é:",
         "options": [
-          "eliminar qualquer possibilidade de interpretação pelo leitor.",
           "provar que o narrador desconhece os fatos.",
+          "eliminar qualquer possibilidade de interpretação pelo leitor.",
           "transformar a obra em relato policial.",
           "permitir que o leitor perceba sentidos que ultrapassam a compreensão imediata da criança."
         ],
@@ -57,96 +57,96 @@ window.literaturaLessons={
       {
         "question": "A relação entre perspectiva infantil e linguagem em Campo Geral favorece:",
         "options": [
-          "uma percepção singular do mundo, em que sensações e interpretações da criança influenciam a narrativa.",
           "uma exposição científica e objetiva do sertão.",
+          "uma percepção singular do mundo, em que sensações e interpretações da criança influenciam a narrativa.",
           "o desaparecimento da subjetividade.",
           "uma descrição exclusivamente histórica de Minas Gerais."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A linguagem e a focalização aproximam o leitor da maneira particular como Miguilim percebe pessoas, espaços e acontecimentos.",
         "tip": "Perspectiva não é apenas 'quem vê', mas como o mundo é percebido."
       },
       {
         "question": "Assinale a interpretação que melhor evita uma leitura reducionista de Campo Geral:",
         "options": [
+          "A narrativa tem como objetivo principal documentar técnicas agrícolas.",
           "A obra é somente uma descrição regional do sertão mineiro.",
           "A obra é apenas uma história infantil sobre uma família feliz.",
-          "O sertão, a família e a percepção infantil articulam-se no processo de formação de Miguilim.",
-          "A narrativa tem como objetivo principal documentar técnicas agrícolas."
+          "O sertão, a família e a percepção infantil articulam-se no processo de formação de Miguilim."
         ],
-        "answer": 2,
+        "answer": 3,
         "explanation": "Os elementos centrais da obra se articulam; nenhum deles explica sozinho sua complexidade.",
         "tip": "Desconfie de alternativas com 'somente' e 'apenas'."
       },
       {
         "question": "A proximidade entre narrador e Miguilim produz, entre outros efeitos:",
         "options": [
-          "acesso privilegiado às hesitações e interpretações do menino.",
           "certeza absoluta sobre todas as intenções dos adultos.",
-          "eliminação de ambiguidades na vida familiar.",
-          "substituição do narrador por Dito."
+          "acesso privilegiado às hesitações e interpretações do menino.",
+          "substituição do narrador por Dito.",
+          "eliminação de ambiguidades na vida familiar."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A focalização próxima permite acompanhar a interioridade infantil sem transformar Miguilim em narrador de primeira pessoa.",
         "tip": "Terceira pessoa pode focalizar intensamente uma personagem."
       },
       {
         "question": "Em relação ao amadurecimento de Miguilim, o deslocamento final pode ser lido como:",
         "options": [
-          "retorno definitivo a uma infância sem conflitos.",
           "negação de qualquer transformação vivida.",
-          "abertura para outra etapa e ampliação de horizonte.",
-          "prova de que o Mutúm era irrelevante."
+          "prova de que o Mutúm era irrelevante.",
+          "retorno definitivo a uma infância sem conflitos.",
+          "abertura para outra etapa e ampliação de horizonte."
         ],
-        "answer": 2,
+        "answer": 3,
         "explanation": "A saída se associa a uma passagem de etapa, sem apagar a importância das experiências anteriores.",
         "tip": "Mudança espacial pode ter função formativa."
       },
       {
         "question": "A natureza em Campo Geral deve ser compreendida principalmente como:",
         "options": [
-          "catálogo científico de espécies.",
           "elemento integrado às emoções, percepções e experiências das personagens.",
-          "obstáculo sem qualquer valor simbólico.",
-          "substituta do conflito familiar."
+          "catálogo científico de espécies.",
+          "substituta do conflito familiar.",
+          "obstáculo sem qualquer valor simbólico."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A natureza participa da atmosfera e da percepção das personagens, especialmente de Miguilim.",
         "tip": "Cenário ativo é diferente de pano de fundo."
       },
       {
         "question": "Qual afirmação sobre o narrador de Campo Geral é mais precisa?",
         "options": [
-          "É Miguilim adulto narrando sua infância em primeira pessoa.",
-          "É narrador-personagem identificado como Dito.",
           "É terceira pessoa com focalização frequentemente aderida a Miguilim.",
-          "É narrador totalmente externo, sem acesso à interioridade."
+          "É Miguilim adulto narrando sua infância em primeira pessoa.",
+          "É narrador totalmente externo, sem acesso à interioridade.",
+          "É narrador-personagem identificado como Dito."
         ],
-        "answer": 2,
+        "answer": 0,
         "explanation": "A formulação distingue corretamente voz narrativa e focalização.",
         "tip": "Questões difíceis costumam misturar narrador e foco."
       },
       {
         "question": "A presença de lacunas na compreensão de Miguilim contribui para:",
         "options": [
-          "a construção de uma experiência infantil verossímil e interpretativamente rica.",
+          "a transformação da novela em texto jornalístico.",
           "um defeito técnico que impede o desenvolvimento da obra.",
           "a inexistência de conflitos adultos.",
-          "a transformação da novela em texto jornalístico."
+          "a construção de uma experiência infantil verossímil e interpretativamente rica."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "O não saber da criança é parte do modo como a obra representa sua experiência diante de um mundo adulto complexo.",
         "tip": "Limitação da personagem pode ser recurso estético."
       },
       {
         "question": "Ao relacionar espaço e subjetividade em Campo Geral, a melhor síntese é:",
         "options": [
-          "o Mutúm determina mecanicamente todas as ações.",
-          "o espaço é indiferente à formação de Miguilim.",
+          "o espaço concreto e a percepção de Miguilim se influenciam na construção da experiência narrativa.",
           "a subjetividade infantil elimina a dimensão concreta do sertão.",
-          "o espaço concreto e a percepção de Miguilim se influenciam na construção da experiência narrativa."
+          "o espaço é indiferente à formação de Miguilim.",
+          "o Mutúm determina mecanicamente todas as ações."
         ],
-        "answer": 3,
+        "answer": 0,
         "explanation": "A obra articula realidade espacial e percepção subjetiva sem reduzir uma à outra.",
         "tip": "Prefira relações complexas a explicações absolutas."
       }
@@ -163,8 +163,8 @@ window.literaturaLessons={
         "options": [
           "ele funciona como figura afetiva e interlocutor decisivo na formação emocional do protagonista.",
           "ele substitui o narrador e conta toda a obra.",
-          "ele representa exclusivamente a autoridade paterna.",
-          "sua presença elimina os conflitos familiares."
+          "sua presença elimina os conflitos familiares.",
+          "ele representa exclusivamente a autoridade paterna."
         ],
         "answer": 0,
         "explanation": "Dito participa intensamente do universo afetivo e da aprendizagem emocional de Miguilim.",
@@ -173,36 +173,36 @@ window.literaturaLessons={
       {
         "question": "A morte de Dito é decisiva na trajetória de Miguilim sobretudo por:",
         "options": [
+          "transformar o Mutúm em espaço urbano.",
           "encerrar todos os conflitos da família.",
-          "introduzir uma experiência profunda de perda no processo de amadurecimento.",
           "provar que a narrativa abandona a perspectiva infantil.",
-          "transformar o Mutúm em espaço urbano."
+          "introduzir uma experiência profunda de perda no processo de amadurecimento."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "A perda de Dito altera a experiência emocional de Miguilim e integra seu processo formativo.",
         "tip": "Relacione episódio e transformação da personagem."
       },
       {
         "question": "A figura paterna em Campo Geral contribui para a tensão narrativa porque é associada:",
         "options": [
+          "à severidade e a conflitos que Miguilim tenta compreender.",
           "apenas à comicidade.",
           "à ausência completa de autoridade.",
-          "à severidade e a conflitos que Miguilim tenta compreender.",
           "à função de narrador onisciente."
         ],
-        "answer": 2,
+        "answer": 0,
         "explanation": "A severidade do pai participa da instabilidade doméstica percebida pela criança.",
         "tip": "Não confunda função familiar com função narrativa."
       },
       {
         "question": "A família de Miguilim é melhor caracterizada como:",
         "options": [
-          "núcleo idealizado em que não existem tensões.",
-          "espaço complexo de afeto, medo, ciúme, violência e incompreensão.",
           "grupo secundário sem impacto na formação do protagonista.",
-          "representação exclusiva da prosperidade rural."
+          "representação exclusiva da prosperidade rural.",
+          "núcleo idealizado em que não existem tensões.",
+          "espaço complexo de afeto, medo, ciúme, violência e incompreensão."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "As relações familiares são contraditórias e centrais para a formação de Miguilim.",
         "tip": "Alternativas absolutas empobrecem relações complexas."
       },
@@ -221,60 +221,60 @@ window.literaturaLessons={
       {
         "question": "Interpretar os óculos apenas como 'cura médica' seria insuficiente porque:",
         "options": [
-          "a obra não menciona qualquer dificuldade visual.",
-          "o episódio também se articula ao tema do olhar e ao amadurecimento.",
           "os óculos pertencem a Dito.",
-          "a narrativa proíbe qualquer leitura simbólica."
+          "a narrativa proíbe qualquer leitura simbólica.",
+          "a obra não menciona qualquer dificuldade visual.",
+          "o episódio também se articula ao tema do olhar e ao amadurecimento."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "O episódio admite simultaneamente dimensão concreta e simbólica.",
         "tip": "Não escolha entre literal e simbólico quando a obra articula ambos."
       },
       {
         "question": "Nos conflitos familiares, a focalização de Miguilim faz com que:",
         "options": [
-          "o leitor receba uma interpretação infantil, por vezes incompleta, das tensões adultas.",
-          "todas as intenções dos adultos sejam explicitadas objetivamente.",
           "a família desapareça como tema.",
-          "o pai seja apresentado apenas por documentos."
+          "o leitor receba uma interpretação infantil, por vezes incompleta, das tensões adultas.",
+          "o pai seja apresentado apenas por documentos.",
+          "todas as intenções dos adultos sejam explicitadas objetivamente."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A criança percebe sinais e consequências sem dominar necessariamente todas as causas adultas.",
         "tip": "A focalização controla a quantidade e o tipo de informação."
       },
       {
         "question": "O amadurecimento de Miguilim pode ser entendido como resultado:",
         "options": [
-          "de uma única lição moral ensinada pelo pai.",
-          "exclusivamente da escolarização formal.",
           "do acúmulo de experiências, perdas, afetos, medos e descobertas.",
-          "da rejeição completa de sua infância."
+          "de uma única lição moral ensinada pelo pai.",
+          "da rejeição completa de sua infância.",
+          "exclusivamente da escolarização formal."
         ],
-        "answer": 2,
+        "answer": 0,
         "explanation": "A formação do protagonista é processual e resulta de experiências diversas.",
         "tip": "Romance/novela de formação raramente depende de um único evento."
       },
       {
         "question": "A relação entre Dito e Miguilim evidencia:",
         "options": [
-          "competição econômica entre irmãos.",
           "uma dimensão de companheirismo e aprendizagem afetiva.",
-          "indiferença emocional.",
-          "oposição entre campo e cidade."
+          "competição econômica entre irmãos.",
+          "oposição entre campo e cidade.",
+          "indiferença emocional."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "O vínculo fraterno é um dos eixos afetivos da obra.",
         "tip": "Associe relações pessoais ao desenvolvimento do protagonista."
       },
       {
         "question": "A saída de Miguilim ao final não deve ser interpretada como:",
         "options": [
-          "passagem para uma nova etapa.",
-          "ampliação de horizonte.",
+          "momento ligado ao processo de transformação.",
           "apagamento completo do que viveu no Mutúm.",
-          "momento ligado ao processo de transformação."
+          "passagem para uma nova etapa.",
+          "ampliação de horizonte."
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "A mudança não elimina as experiências formadoras acumuladas no Mutúm.",
         "tip": "Cuidado com alternativas que confundem mudança com apagamento."
       },
@@ -282,9 +282,9 @@ window.literaturaLessons={
         "question": "Qual relação entre perda e formação é mais adequada à obra?",
         "options": [
           "As perdas interrompem qualquer amadurecimento possível.",
-          "As perdas são irrelevantes porque Miguilim é criança.",
+          "Apenas acontecimentos felizes possuem função formativa.",
           "As experiências dolorosas participam da transformação da percepção de Miguilim.",
-          "Apenas acontecimentos felizes possuem função formativa."
+          "As perdas são irrelevantes porque Miguilim é criança."
         ],
         "answer": 2,
         "explanation": "A dor e a perda são componentes importantes da formação emocional do protagonista.",
@@ -293,12 +293,12 @@ window.literaturaLessons={
       {
         "question": "Considerando família, Dito e miopia, a melhor síntese do percurso de Miguilim é:",
         "options": [
-          "uma trajetória estática, sem alteração de percepção.",
-          "um percurso de formação em que vínculos, conflitos, perdas e nova nitidez visual se articulam.",
+          "uma narrativa cuja única transformação é geográfica.",
           "uma aventura policial centrada na descoberta de um crime.",
-          "uma narrativa cuja única transformação é geográfica."
+          "uma trajetória estática, sem alteração de percepção.",
+          "um percurso de formação em que vínculos, conflitos, perdas e nova nitidez visual se articulam."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "A trajetória reúne dimensões afetivas, familiares e perceptivas.",
         "tip": "Sínteses corretas integram os principais eixos sem reduzir a obra."
       }
@@ -313,34 +313,34 @@ window.literaturaLessons={
       {
         "question": "A invenção vocabular de Guimarães Rosa em Campo Geral deve ser entendida como:",
         "options": [
-          "erro deliberado sem função estética.",
           "recurso que recria modos de perceber, falar e experimentar o sertão.",
+          "erro deliberado sem função estética.",
           "tentativa de eliminar qualquer marca de oralidade.",
           "imitação burocrática da norma administrativa."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A inovação linguística participa da construção estética e perceptiva da obra.",
         "tip": "Forma e conteúdo podem atuar juntos."
       },
       {
         "question": "Regionalismo, em Campo Geral, não significa simples reprodução documental da fala porque:",
         "options": [
-          "a linguagem rosiana reelabora oralidade, ritmo e léxico de maneira artística.",
-          "a obra não apresenta qualquer marca regional.",
           "o autor substitui todas as falas por linguagem técnica.",
-          "o sertão aparece somente no título."
+          "a linguagem rosiana reelabora oralidade, ritmo e léxico de maneira artística.",
+          "o sertão aparece somente no título.",
+          "a obra não apresenta qualquer marca regional."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Rosa transforma materiais linguísticos regionais por meio de elaboração estética.",
         "tip": "Regionalismo literário não é transcrição mecânica."
       },
       {
         "question": "A força poética da linguagem rosiana contribui para:",
         "options": [
-          "tornar irrelevante a perspectiva infantil.",
-          "ampliar a dimensão sensorial e subjetiva da experiência narrada.",
           "eliminar ambiguidades e metáforas.",
-          "reduzir a obra a relatório sociológico."
+          "ampliar a dimensão sensorial e subjetiva da experiência narrada.",
+          "reduzir a obra a relatório sociológico.",
+          "tornar irrelevante a perspectiva infantil."
         ],
         "answer": 1,
         "explanation": "Ritmo, imagens e escolhas lexicais intensificam a experiência perceptiva do texto.",
@@ -349,24 +349,24 @@ window.literaturaLessons={
       {
         "question": "A relação entre natureza e estado emocional em Campo Geral permite afirmar que:",
         "options": [
-          "a natureza funciona sempre de modo independente das personagens.",
-          "o espaço natural pode ganhar valor afetivo conforme a percepção de Miguilim.",
+          "a natureza substitui integralmente a ação narrativa.",
           "todo elemento natural possui significado fixo e único.",
-          "a natureza substitui integralmente a ação narrativa."
+          "o espaço natural pode ganhar valor afetivo conforme a percepção de Miguilim.",
+          "a natureza funciona sempre de modo independente das personagens."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "A focalização faz o ambiente ser percebido de maneira afetivamente carregada.",
         "tip": "Símbolos literários dependem do contexto."
       },
       {
         "question": "A miopia de Miguilim é especialmente produtiva para uma leitura simbólica porque:",
         "options": [
-          "articula dificuldade concreta de visão e processo mais amplo de descoberta.",
-          "prova que toda a narrativa é sonho.",
+          "representa apenas deficiência física, sem diálogo temático.",
           "elimina a importância das relações familiares.",
-          "representa apenas deficiência física, sem diálogo temático."
+          "prova que toda a narrativa é sonho.",
+          "articula dificuldade concreta de visão e processo mais amplo de descoberta."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "A condição visual dialoga com o tema do olhar e com a transformação do protagonista.",
         "tip": "Uma boa leitura simbólica não apaga o sentido literal."
       },
@@ -385,12 +385,12 @@ window.literaturaLessons={
       {
         "question": "O tema da morte em Campo Geral relaciona-se ao amadurecimento porque:",
         "options": [
-          "as perdas obrigam Miguilim a confrontar dimensões dolorosas da existência.",
           "a morte aparece apenas como dado estatístico.",
+          "a obra trata a morte exclusivamente de forma cômica.",
           "o tema não afeta o protagonista.",
-          "a obra trata a morte exclusivamente de forma cômica."
+          "as perdas obrigam Miguilim a confrontar dimensões dolorosas da existência."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "As perdas têm impacto afetivo e formativo na trajetória de Miguilim.",
         "tip": "Tema é relevante quando altera relações e percepção."
       },
@@ -398,21 +398,21 @@ window.literaturaLessons={
         "question": "Qual leitura melhor articula oralidade e perspectiva?",
         "options": [
           "A oralidade serve apenas para localizar geograficamente a história.",
-          "Marcas de oralidade também ajudam a construir vozes, ritmos e modos de perceber o mundo.",
           "A oralidade impede qualquer elaboração poética.",
-          "A perspectiva infantil exige ausência de regionalismos."
+          "A perspectiva infantil exige ausência de regionalismos.",
+          "Marcas de oralidade também ajudam a construir vozes, ritmos e modos de perceber o mundo."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "A oralidade cumpre funções estilísticas e de caracterização que vão além da localização espacial.",
         "tip": "Pergunte que efeito a escolha linguística produz."
       },
       {
         "question": "Em uma questão interpretativa sobre Campo Geral, qual procedimento é mais rigoroso?",
         "options": [
-          "Escolher a alternativa mais emotiva.",
+          "Ignorar a focalização e considerar apenas a biografia do autor.",
           "Preferir sempre afirmações absolutas.",
           "Relacionar a interpretação a episódios, relações e procedimentos narrativos efetivos.",
-          "Ignorar a focalização e considerar apenas a biografia do autor."
+          "Escolher a alternativa mais emotiva."
         ],
         "answer": 2,
         "explanation": "Interpretação literária precisa ser sustentada por elementos da obra.",
@@ -421,36 +421,36 @@ window.literaturaLessons={
       {
         "question": "A linguagem rosiana e a visão infantil de Miguilim aproximam-se porque ambas:",
         "options": [
-          "favorecem uma percepção não automática do cotidiano e do sertão.",
-          "eliminam a subjetividade.",
           "transformam a novela em documento jurídico.",
-          "produzem um narrador totalmente neutro."
+          "produzem um narrador totalmente neutro.",
+          "favorecem uma percepção não automática do cotidiano e do sertão.",
+          "eliminam a subjetividade."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A elaboração linguística e a focalização infantil renovam a percepção do mundo narrado.",
         "tip": "Procure relações entre técnica e tema."
       },
       {
         "question": "Afirmar que Campo Geral é 'somente denúncia social' é redutor porque:",
         "options": [
-          "não existem conflitos sociais na obra.",
           "a narrativa articula também infância, afetos, linguagem, natureza, violência e formação.",
+          "não existem conflitos sociais na obra.",
           "a obra é exclusivamente fantástica.",
           "Miguilim não participa da narrativa."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A obra comporta dimensões sociais, mas não se esgota nelas.",
         "tip": "Uma dimensão importante não precisa ser a única."
       },
       {
         "question": "A melhor síntese da estética de Campo Geral é:",
         "options": [
-          "linguagem funcional, sem imagens, centrada em informação objetiva.",
-          "regionalismo puramente documental.",
           "elaboração poética da linguagem articulada à experiência sensível e formativa de Miguilim.",
-          "narração policial com vocabulário técnico."
+          "linguagem funcional, sem imagens, centrada em informação objetiva.",
+          "narração policial com vocabulário técnico.",
+          "regionalismo puramente documental."
         ],
-        "answer": 2,
+        "answer": 0,
         "explanation": "A linguagem inventiva participa diretamente da construção da experiência do protagonista.",
         "tip": "Síntese boa integra forma, perspectiva e tema."
       }
@@ -466,21 +466,21 @@ window.literaturaLessons={
         "question": "A estrutura relativamente autônoma dos capítulos de Vidas Secas contribui para:",
         "options": [
           "apagar qualquer unidade temática.",
-          "permitir focos distintos e, ao mesmo tempo, reforçar a condição cíclica da família.",
           "transformar o romance em coletânea sem personagens recorrentes.",
+          "permitir focos distintos e, ao mesmo tempo, reforçar a condição cíclica da família.",
           "estabelecer uma cronologia urbana rígida."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Os capítulos podem focalizar personagens diferentes, mas permanecem unidos pelo universo familiar e pelo ciclo de sobrevivência.",
         "tip": "Autonomia de capítulos não significa ausência de unidade."
       },
       {
         "question": "O caráter cíclico de Vidas Secas aparece sobretudo na relação entre:",
         "options": [
-          "prosperidade permanente e ascensão social.",
-          "chegada, tentativa de permanência e nova retirada diante da ameaça da seca.",
           "infância escolar e universidade.",
-          "cidade, indústria e retorno ao litoral."
+          "chegada, tentativa de permanência e nova retirada diante da ameaça da seca.",
+          "cidade, indústria e retorno ao litoral.",
+          "prosperidade permanente e ascensão social."
         ],
         "answer": 1,
         "explanation": "O movimento da família sugere repetição das condições de precariedade e deslocamento.",
@@ -489,10 +489,10 @@ window.literaturaLessons={
       {
         "question": "Reduzir o sofrimento da família exclusivamente à seca é inadequado porque:",
         "options": [
-          "a seca não aparece na obra.",
-          "a narrativa também evidencia exploração econômica, abuso de autoridade e exclusão.",
           "a família vive em uma capital.",
-          "Fabiano é proprietário rico."
+          "a narrativa também evidencia exploração econômica, abuso de autoridade e exclusão.",
+          "Fabiano é proprietário rico.",
+          "a seca não aparece na obra."
         ],
         "answer": 1,
         "explanation": "A natureza hostil se articula a estruturas sociais de opressão.",
@@ -501,24 +501,24 @@ window.literaturaLessons={
       {
         "question": "O narrador em terceira pessoa de Vidas Secas pode aproximar-se da interioridade das personagens, o que permite:",
         "options": [
-          "mostrar pensamentos e sensações que elas nem sempre conseguem verbalizar plenamente.",
+          "substituir a ação por documentos oficiais.",
           "transformar todas as personagens em narradores autobiográficos.",
           "eliminar a importância da linguagem.",
-          "substituir a ação por documentos oficiais."
+          "mostrar pensamentos e sensações que elas nem sempre conseguem verbalizar plenamente."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "A focalização interna aproxima o leitor de personagens marcadas por dificuldade de expressão.",
         "tip": "Narrador e capacidade verbal da personagem são coisas diferentes."
       },
       {
         "question": "A economia estilística de Graciliano Ramos dialoga com o universo do romance porque:",
         "options": [
+          "o estilo imita exclusivamente discursos jurídicos.",
           "a concisão pode reforçar a dureza, a escassez e a contenção que marcam a vida narrada.",
-          "o autor pretende esconder a existência da seca.",
           "a linguagem enxuta elimina qualquer interioridade.",
-          "o estilo imita exclusivamente discursos jurídicos."
+          "o autor pretende esconder a existência da seca."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A contenção verbal pode produzir correspondência estética com um mundo de carências.",
         "tip": "Forma literária pode reforçar tema."
       },
@@ -526,69 +526,69 @@ window.literaturaLessons={
         "question": "A família de retirantes é apresentada como:",
         "options": [
           "grupo sem vínculos afetivos.",
-          "núcleo que enfrenta simultaneamente adversidades naturais e sociais.",
           "família urbana em busca de lazer.",
+          "núcleo que enfrenta simultaneamente adversidades naturais e sociais.",
           "conjunto de personagens independentes que nunca se encontram."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "A sobrevivência familiar articula seca, pobreza, trabalho, autoridade e desejo.",
         "tip": "Evite separar artificialmente natureza e sociedade."
       },
       {
         "question": "A relativa autonomia dos capítulos favorece a focalização de Baleia porque:",
         "options": [
-          "permite que até a cachorra receba atenção narrativa e interioridade própria.",
-          "proíbe qualquer mudança de foco.",
           "faz Baleia narrar o romance inteiro em primeira pessoa.",
-          "elimina Fabiano da obra."
+          "elimina Fabiano da obra.",
+          "permite que até a cachorra receba atenção narrativa e interioridade própria.",
+          "proíbe qualquer mudança de foco."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A estrutura abre espaço para diferentes centros de consciência, inclusive Baleia.",
         "tip": "Estrutura e focalização estão relacionadas."
       },
       {
         "question": "O sertão em Vidas Secas deve ser lido como:",
         "options": [
-          "cenário neutro e decorativo.",
           "espaço material de sobrevivência articulado a relações sociais de desigualdade.",
-          "metrópole industrial disfarçada.",
-          "símbolo que elimina qualquer realidade concreta."
+          "símbolo que elimina qualquer realidade concreta.",
+          "cenário neutro e decorativo.",
+          "metrópole industrial disfarçada."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "O espaço tem dimensão concreta e se articula a condições econômicas e sociais.",
         "tip": "Não transforme símbolo em negação do real."
       },
       {
         "question": "A dificuldade de comunicação das personagens participa do tema da opressão porque:",
         "options": [
-          "limita possibilidades de compreensão, defesa e participação diante de relações de poder.",
-          "prova que não possuem pensamentos.",
           "é apresentada apenas como defeito cômico.",
+          "prova que não possuem pensamentos.",
+          "limita possibilidades de compreensão, defesa e participação diante de relações de poder.",
           "não possui consequência social."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A linguagem insuficiente é também uma forma de vulnerabilidade social.",
         "tip": "Em Vidas Secas, palavra e poder se relacionam."
       },
       {
         "question": "O movimento de retirada pode ser interpretado como:",
         "options": [
-          "escolha turística da família.",
-          "sinal de mobilidade social ascendente.",
           "resposta forçada a condições precárias que tendem a se repetir.",
-          "evento isolado sem relação com a estrutura."
+          "evento isolado sem relação com a estrutura.",
+          "sinal de mobilidade social ascendente.",
+          "escolha turística da família."
         ],
-        "answer": 2,
+        "answer": 0,
         "explanation": "A retirada decorre da luta pela sobrevivência e reforça o ciclo de precariedade.",
         "tip": "A estrutura cíclica tem dimensão social."
       },
       {
         "question": "Qual alternativa melhor caracteriza o realismo crítico de Vidas Secas?",
         "options": [
-          "A obra atribui todo sofrimento ao destino individual de Fabiano.",
-          "A narrativa articula experiência concreta da seca a mecanismos sociais de exploração e autoridade.",
           "O romance evita qualquer questão econômica.",
-          "A pobreza é tratada como escolha voluntária."
+          "A narrativa articula experiência concreta da seca a mecanismos sociais de exploração e autoridade.",
+          "A pobreza é tratada como escolha voluntária.",
+          "A obra atribui todo sofrimento ao destino individual de Fabiano."
         ],
         "answer": 1,
         "explanation": "A obra mostra adversidades naturais e sociais interdependentes.",
@@ -597,12 +597,12 @@ window.literaturaLessons={
       {
         "question": "A unidade de Vidas Secas, apesar dos capítulos relativamente autônomos, decorre principalmente:",
         "options": [
-          "da repetição literal do mesmo capítulo.",
-          "da continuidade das personagens, dos conflitos e do ciclo de sobrevivência.",
+          "de um narrador-personagem chamado Baleia.",
           "da presença de um único cenário urbano.",
-          "de um narrador-personagem chamado Baleia."
+          "da repetição literal do mesmo capítulo.",
+          "da continuidade das personagens, dos conflitos e do ciclo de sobrevivência."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "A coesão do romance nasce do universo comum e da trajetória cíclica da família.",
         "tip": "Autonomia estrutural pode coexistir com forte unidade temática."
       }
@@ -617,12 +617,12 @@ window.literaturaLessons={
       {
         "question": "A dificuldade verbal de Fabiano adquire dimensão social porque:",
         "options": [
-          "é apenas característica psicológica sem consequência.",
           "dificulta sua compreensão e defesa diante de pessoas e instituições que dominam a linguagem.",
-          "faz dele um escritor frustrado.",
-          "garante vantagem nas relações de poder."
+          "é apenas característica psicológica sem consequência.",
+          "garante vantagem nas relações de poder.",
+          "faz dele um escritor frustrado."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A limitação de expressão aumenta a vulnerabilidade de Fabiano em relações sociais assimétricas.",
         "tip": "Em Vidas Secas, linguagem também é poder."
       },
@@ -630,9 +630,9 @@ window.literaturaLessons={
         "question": "O episódio do Soldado Amarelo evidencia principalmente:",
         "options": [
           "abuso de autoridade e vulnerabilidade de Fabiano.",
-          "ascensão profissional de Fabiano.",
+          "superioridade econômica da família.",
           "harmonia entre indivíduo e Estado.",
-          "superioridade econômica da família."
+          "ascensão profissional de Fabiano."
         ],
         "answer": 0,
         "explanation": "O episódio explicita uma relação desigual de poder em que Fabiano encontra dificuldade de reação.",
@@ -642,11 +642,11 @@ window.literaturaLessons={
         "question": "A cama de couro desejada por Sinhá Vitória funciona como símbolo de:",
         "options": [
           "luxo aristocrático ilimitado.",
+          "desejo de abandonar qualquer vida doméstica.",
           "conforto, estabilidade e dignidade dentro de uma vida marcada pela precariedade.",
-          "rejeição da família.",
-          "desejo de abandonar qualquer vida doméstica."
+          "rejeição da família."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "O objeto simples concentra um projeto de vida mais estável e digna.",
         "tip": "Símbolos podem nascer de desejos materiais modestos."
       },
@@ -654,9 +654,9 @@ window.literaturaLessons={
         "question": "A humanização de Baleia é construída porque o narrador:",
         "options": [
           "atribui ao animal sensações, desejos e uma interioridade elaborada.",
-          "a transforma literalmente em pessoa.",
           "retira dela qualquer percepção.",
-          "a utiliza apenas como elemento decorativo."
+          "a utiliza apenas como elemento decorativo.",
+          "a transforma literalmente em pessoa."
         ],
         "answer": 0,
         "explanation": "A focalização de Baleia lhe concede densidade afetiva e perceptiva.",
@@ -666,9 +666,9 @@ window.literaturaLessons={
         "question": "O contraste entre Baleia e os retirantes é especialmente expressivo porque:",
         "options": [
           "o animal recebe interioridade enquanto seres humanos são frequentemente submetidos a processos sociais de desumanização.",
-          "Baleia possui riqueza e os humanos não.",
+          "o romance considera animais superiores por natureza.",
           "a família não demonstra afeto pelo animal.",
-          "o romance considera animais superiores por natureza."
+          "Baleia possui riqueza e os humanos não."
         ],
         "answer": 0,
         "explanation": "O tratamento narrativo de Baleia intensifica a crítica à desumanização produzida pela miséria e pela opressão.",
@@ -677,24 +677,24 @@ window.literaturaLessons={
       {
         "question": "Sinhá Vitória se diferencia de uma figura passiva porque:",
         "options": [
-          "formula desejos concretos e demonstra capacidade prática diante das dificuldades.",
           "abandona imediatamente a família.",
-          "recusa qualquer projeto de mudança.",
-          "não participa das decisões domésticas."
+          "formula desejos concretos e demonstra capacidade prática diante das dificuldades.",
+          "não participa das decisões domésticas.",
+          "recusa qualquer projeto de mudança."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "Sua resistência e seus projetos, como o sonho da cama, expressam desejo de melhoria.",
         "tip": "Desejo material pode revelar projeto existencial."
       },
       {
         "question": "Quando Fabiano se percebe inferior diante de quem domina as palavras, a obra sugere:",
         "options": [
-          "que vocabulário difícil é sinal automático de moralidade.",
           "uma relação entre domínio da linguagem e capacidade de agir socialmente.",
-          "que Fabiano não possui vida interior.",
-          "que a linguagem é irrelevante para a desigualdade."
+          "que vocabulário difícil é sinal automático de moralidade.",
+          "que a linguagem é irrelevante para a desigualdade.",
+          "que Fabiano não possui vida interior."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A dificuldade verbal se associa à exclusão e à incapacidade de defender direitos.",
         "tip": "Leia linguagem como recurso social."
       },
@@ -702,11 +702,11 @@ window.literaturaLessons={
         "question": "A interioridade atribuída a Baleia produz qual efeito?",
         "options": [
           "Reduz o animal a função utilitária.",
-          "Amplia a empatia do leitor e complexifica a fronteira entre humanização e desumanização.",
+          "Transforma o romance em fábula moral simples.",
           "Elimina a crítica social.",
-          "Transforma o romance em fábula moral simples."
+          "Amplia a empatia do leitor e complexifica a fronteira entre humanização e desumanização."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "O foco em Baleia intensifica a dimensão afetiva e crítica da narrativa.",
         "tip": "Observe o efeito, não apenas o recurso."
       },
@@ -714,9 +714,9 @@ window.literaturaLessons={
         "question": "O sonho de Sinhá Vitória é significativo justamente porque:",
         "options": [
           "sua modéstia revela o quanto condições básicas de conforto permanecem distantes.",
+          "demonstra desprezo pelos filhos.",
           "representa desejo de poder político.",
-          "é completamente desvinculado da pobreza.",
-          "demonstra desprezo pelos filhos."
+          "é completamente desvinculado da pobreza."
         ],
         "answer": 0,
         "explanation": "A cama de couro evidencia que uma melhoria aparentemente simples assume enorme valor em contexto de privação.",
@@ -725,36 +725,36 @@ window.literaturaLessons={
       {
         "question": "Fabiano oscila entre submissão e revolta. Essa tensão revela:",
         "options": [
-          "uma personagem plana e sem conflitos.",
-          "o conflito entre percepção da injustiça e limites concretos para enfrentá-la.",
           "a ausência de relações de poder.",
-          "uma decisão constante de abandonar a família."
+          "uma decisão constante de abandonar a família.",
+          "uma personagem plana e sem conflitos.",
+          "o conflito entre percepção da injustiça e limites concretos para enfrentá-la."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "Fabiano percebe injustiças, mas sua posição social e verbal limita sua capacidade de reação.",
         "tip": "Contradição interna pode aprofundar personagem."
       },
       {
         "question": "A linguagem econômica do romance e a dificuldade verbal de Fabiano:",
         "options": [
-          "são exatamente a mesma coisa e devem ser confundidas.",
           "podem dialogar tematicamente, mas uma é procedimento estilístico do autor e a outra é característica da personagem.",
           "não possuem qualquer relação possível.",
+          "são exatamente a mesma coisa e devem ser confundidas.",
           "provam que o narrador também é analfabeto."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "É importante distinguir estilo narrativo de capacidade de expressão da personagem, ainda que haja ressonância temática.",
         "tip": "Não confunda autor/narrador/personagem."
       },
       {
         "question": "A melhor síntese da opressão em Vidas Secas é:",
         "options": [
+          "conflito resolvido pela força física de Fabiano.",
           "resultado exclusivo da falta de chuva.",
-          "fenômeno que reúne precariedade natural, exploração econômica, autoridade, pobreza e limitação de acesso à linguagem.",
           "problema exclusivamente doméstico.",
-          "conflito resolvido pela força física de Fabiano."
+          "fenômeno que reúne precariedade natural, exploração econômica, autoridade, pobreza e limitação de acesso à linguagem."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "A opressão é multidimensional e não pode ser atribuída a uma única causa.",
         "tip": "Prefira sínteses que articulem os mecanismos efetivamente presentes."
       }
@@ -769,60 +769,60 @@ window.literaturaLessons={
       {
         "question": "Ao comparar Campo Geral e Vidas Secas, é correto afirmar que:",
         "options": [
-          "ambas trabalham espaços sertanejos, mas constroem perspectivas, estilos e conflitos de maneira distinta.",
-          "possuem o mesmo protagonista e a mesma família.",
           "utilizam exatamente o mesmo projeto linguístico.",
-          "tratam o sertão apenas como paisagem decorativa."
+          "tratam o sertão apenas como paisagem decorativa.",
+          "possuem o mesmo protagonista e a mesma família.",
+          "ambas trabalham espaços sertanejos, mas constroem perspectivas, estilos e conflitos de maneira distinta."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "As obras compartilham certos campos temáticos, mas diferem em focalização, estilo e projeto estético.",
         "tip": "Comparar não é igualar."
       },
       {
         "question": "A linguagem de Guimarães Rosa e a de Graciliano Ramos podem ser contrastadas, de modo geral, como:",
         "options": [
+          "ausência de marcas estilísticas nas duas obras.",
           "duas formas idênticas de experimentalismo lexical.",
           "elaboração inventiva e poética em Rosa versus maior concisão e secura estilística em Graciliano.",
-          "linguagem burocrática em ambos.",
-          "ausência de marcas estilísticas nas duas obras."
+          "linguagem burocrática em ambos."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "O contraste estilístico ajuda a distinguir os projetos literários das obras.",
         "tip": "Evite transformar diferenças de estilo em juízo de valor."
       },
       {
         "question": "Miopia/óculos em Campo Geral e cama de couro em Vidas Secas aproximam-se porque:",
         "options": [
+          "pertencem à mesma personagem.",
           "são objetos sem função temática.",
           "podem condensar desejos de transformação: nova nitidez/horizonte e maior estabilidade/dignidade.",
-          "pertencem à mesma personagem.",
           "provam que as obras têm o mesmo enredo."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Elementos concretos assumem valor simbólico ligado à transformação das condições vividas.",
         "tip": "Compare funções, não apenas objetos."
       },
       {
         "question": "Miguilim e Fabiano diferem fortemente quanto à posição narrativa porque:",
         "options": [
-          "Miguilim é foco privilegiado de uma experiência infantil, enquanto Fabiano integra uma focalização móvel entre membros da família.",
-          "Fabiano narra Vidas Secas em primeira pessoa.",
+          "ambos narram autobiograficamente.",
           "Miguilim é narrador onisciente.",
-          "ambos narram autobiograficamente."
+          "Fabiano narra Vidas Secas em primeira pessoa.",
+          "Miguilim é foco privilegiado de uma experiência infantil, enquanto Fabiano integra uma focalização móvel entre membros da família."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Campo Geral adere intensamente à percepção de Miguilim; Vidas Secas distribui a focalização por diferentes personagens.",
         "tip": "Compare focalização, não só pessoa do narrador."
       },
       {
         "question": "A família é central nas duas obras, mas:",
         "options": [
+          "somente Vidas Secas possui vínculos afetivos.",
           "em Campo Geral participa especialmente da formação afetiva de Miguilim; em Vidas Secas também organiza a luta coletiva pela sobrevivência.",
           "em nenhuma delas há conflitos familiares.",
-          "somente Vidas Secas possui vínculos afetivos.",
           "somente Campo Geral apresenta pobreza."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A família cumpre funções diferentes dentro dos projetos de cada narrativa.",
         "tip": "Mesma categoria temática pode ter funções distintas."
       },
@@ -830,43 +830,43 @@ window.literaturaLessons={
         "question": "Natureza e sertão nas duas obras:",
         "options": [
           "funcionam exclusivamente como descrição geográfica.",
-          "interagem com a experiência humana, embora de modos estéticos e sociais diferentes.",
+          "são espaços urbanos simbolicamente disfarçados.",
           "não influenciam personagens.",
-          "são espaços urbanos simbolicamente disfarçados."
+          "interagem com a experiência humana, embora de modos estéticos e sociais diferentes."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "O espaço participa ativamente da experiência das personagens em ambas as obras.",
         "tip": "Compare sem apagar diferenças."
       },
       {
         "question": "Dito e Baleia podem ser aproximados, com cautela, porque:",
         "options": [
-          "são narradores das respectivas obras.",
           "ocupam lugares afetivos importantes e suas trajetórias intensificam experiências de perda.",
+          "são irmãos dos protagonistas.",
           "representam a mesma função social.",
-          "são irmãos dos protagonistas."
+          "são narradores das respectivas obras."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "Embora muito diferentes, ambos possuem forte peso afetivo e se ligam a experiências dolorosas de perda.",
         "tip": "Comparação válida exige ponto comum específico."
       },
       {
         "question": "A diferença entre a miopia de Miguilim e a limitação verbal de Fabiano é que:",
         "options": [
+          "a primeira pertence a Sinhá Vitória.",
           "ambas são apenas doenças físicas.",
           "a primeira envolve visão concreta e leitura simbólica do olhar; a segunda se relaciona fortemente à exclusão e ao poder da linguagem.",
-          "a segunda não produz consequência narrativa.",
-          "a primeira pertence a Sinhá Vitória."
+          "a segunda não produz consequência narrativa."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Os dois elementos podem ter valor simbólico, mas atuam em campos diferentes.",
         "tip": "Não force equivalências entre símbolos."
       },
       {
         "question": "Qual comparação é inadequada?",
         "options": [
-          "Campo Geral enfatiza formação e percepção infantil.",
           "Vidas Secas enfatiza sobrevivência, desigualdade e opressão.",
+          "Campo Geral enfatiza formação e percepção infantil.",
           "As duas obras apresentam exatamente a mesma estrutura cíclica de retirada.",
           "Ambas articulam relações familiares e espaço sertanejo."
         ],
@@ -877,22 +877,22 @@ window.literaturaLessons={
       {
         "question": "Em ambas as obras, reduzir o sertão a 'atraso' seria problemático porque:",
         "options": [
-          "o espaço participa de experiências humanas complexas e não se esgota em rótulo simplificador.",
-          "nenhuma delas se passa em região sertaneja.",
           "os autores idealizam completamente a vida rural.",
-          "o espaço não possui dimensão social."
+          "o espaço não possui dimensão social.",
+          "nenhuma delas se passa em região sertaneja.",
+          "o espaço participa de experiências humanas complexas e não se esgota em rótulo simplificador."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Os sertões são construídos literariamente como espaços complexos, com relações afetivas, sociais e perceptivas.",
         "tip": "Evite estereótipos externos à obra."
       },
       {
         "question": "Ao comparar os estilos, qual formulação é mais rigorosa?",
         "options": [
+          "As diferenças de estilo não interferem na leitura.",
           "Rosa é 'melhor' porque inventa palavras.",
-          "Graciliano é 'mais simples' porque não possui elaboração estética.",
           "Os autores usam estratégias diferentes: invenção e plasticidade verbal em Rosa; contenção e precisão em Graciliano.",
-          "As diferenças de estilo não interferem na leitura."
+          "Graciliano é 'mais simples' porque não possui elaboração estética."
         ],
         "answer": 2,
         "explanation": "A comparação deve descrever procedimentos e efeitos, não hierarquizar autores de modo simplista.",
@@ -901,12 +901,12 @@ window.literaturaLessons={
       {
         "question": "Uma leitura conjunta das obras permite perceber que:",
         "options": [
-          "a experiência humana no sertão é construída por relações entre espaço, família, linguagem e formas de poder/percepção.",
-          "o sertão determina todas as personagens de maneira idêntica.",
+          "personagens infantis são o centro de ambas.",
           "as duas narrativas defendem a mesma tese explícita.",
-          "personagens infantis são o centro de ambas."
+          "o sertão determina todas as personagens de maneira idêntica.",
+          "a experiência humana no sertão é construída por relações entre espaço, família, linguagem e formas de poder/percepção."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "A comparação mais produtiva articula elementos comuns sem apagar as diferenças de cada projeto literário.",
         "tip": "Síntese comparativa deve preservar semelhanças e diferenças."
       }
@@ -922,23 +922,23 @@ window.literaturaLessons={
         "question": "Em Campo Geral, o fato de o narrador estar em terceira pessoa e acompanhar intensamente Miguilim demonstra que:",
         "options": [
           "terceira pessoa e focalização interna são incompatíveis.",
-          "voz narrativa e foco podem ser distintos: o narrador não é Miguilim, mas a percepção dele organiza grande parte da experiência.",
           "Miguilim narra retrospectivamente sua vida.",
+          "voz narrativa e foco podem ser distintos: o narrador não é Miguilim, mas a percepção dele organiza grande parte da experiência.",
           "o narrador conhece apenas fatos exteriores."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "A questão exige distinguir quem narra de quem percebe predominantemente.",
         "tip": "Narrador ≠ focalizador."
       },
       {
         "question": "Em Vidas Secas, a autonomia relativa dos capítulos não fragmenta completamente o romance porque:",
         "options": [
-          "há continuidade de personagens, condições de vida e movimento cíclico.",
           "cada capítulo pertence a uma obra diferente.",
-          "o narrador repete literalmente os acontecimentos.",
-          "todos os capítulos focalizam apenas Fabiano."
+          "todos os capítulos focalizam apenas Fabiano.",
+          "há continuidade de personagens, condições de vida e movimento cíclico.",
+          "o narrador repete literalmente os acontecimentos."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A unidade é temática, familiar e estrutural, apesar da autonomia relativa.",
         "tip": "Unidade narrativa não exige linearidade rígida."
       },
@@ -957,69 +957,69 @@ window.literaturaLessons={
       {
         "question": "A morte de Dito e o capítulo dedicado a Baleia aproximam-se principalmente por:",
         "options": [
-          "serem episódios cômicos.",
           "intensificarem a dimensão afetiva e a experiência da perda nas respectivas obras.",
-          "terem o mesmo narrador-personagem.",
-          "ocorrerem no mesmo espaço geográfico."
+          "serem episódios cômicos.",
+          "ocorrerem no mesmo espaço geográfico.",
+          "terem o mesmo narrador-personagem."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "As situações são diferentes, mas ambas mobilizam forte carga afetiva e perda.",
         "tip": "Comparação literária precisa de critério explícito."
       },
       {
         "question": "Assinale a afirmação mais adequada sobre os espaços das duas obras:",
         "options": [
+          "apenas Campo Geral relaciona natureza e vida humana.",
           "Mutúm e sertão nordestino são cenários neutros.",
           "os espaços participam da experiência das personagens, mas são construídos segundo projetos narrativos diferentes.",
-          "os dois espaços são intercambiáveis.",
-          "apenas Campo Geral relaciona natureza e vida humana."
+          "os dois espaços são intercambiáveis."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "Em ambas, espaço e experiência humana se articulam, sem que os espaços sejam equivalentes.",
         "tip": "Semelhança não apaga especificidade."
       },
       {
         "question": "Em Vidas Secas, a humanização de Baleia ganha força crítica quando contrastada com:",
         "options": [
-          "a prosperidade econômica da família.",
-          "a desumanização social sofrida pelos retirantes.",
           "a ausência de qualquer interioridade humana.",
-          "o ambiente urbano."
+          "o ambiente urbano.",
+          "a prosperidade econômica da família.",
+          "a desumanização social sofrida pelos retirantes."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "O contraste entre interioridade animal e degradação social humana intensifica a crítica.",
         "tip": "Procure contrastes estruturais."
       },
       {
         "question": "A linguagem rosiana em Campo Geral deve ser avaliada literariamente como:",
         "options": [
-          "conjunto de erros contra a norma.",
           "elaboração expressiva que mobiliza oralidade, regionalismos e invenção lexical.",
           "registro exclusivamente jornalístico.",
+          "conjunto de erros contra a norma.",
           "reprodução mecânica de dicionário regional."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A inovação verbal integra o projeto estético da obra.",
         "tip": "Não confunda criação literária com inadequação normativa."
       },
       {
         "question": "A concisão de Graciliano Ramos em Vidas Secas:",
         "options": [
+          "é consequência de ausência de domínio linguístico.",
           "impede a construção de interioridade.",
-          "pode reforçar esteticamente a dureza e a escassez do universo narrado.",
           "elimina a crítica social.",
-          "é consequência de ausência de domínio linguístico."
+          "pode reforçar esteticamente a dureza e a escassez do universo narrado."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "A economia verbal é uma escolha estética produtiva.",
         "tip": "Estilo é procedimento, não deficiência."
       },
       {
         "question": "Quando Sinhá Vitória deseja uma cama de couro, o valor simbólico do objeto deriva sobretudo:",
         "options": [
-          "da ostentação aristocrática.",
-          "da distância entre um conforto modesto e a precariedade concreta da família.",
           "do desejo de abandonar Fabiano.",
+          "da distância entre um conforto modesto e a precariedade concreta da família.",
+          "da ostentação aristocrática.",
           "de uma competição com Miguilim."
         ],
         "answer": 1,
@@ -1041,33 +1041,33 @@ window.literaturaLessons={
       {
         "question": "Em Vidas Secas, o Soldado Amarelo é importante para evidenciar:",
         "options": [
+          "a inexistência de violência social.",
           "a neutralidade das instituições.",
           "uma relação assimétrica de autoridade que expõe a vulnerabilidade de Fabiano.",
-          "o domínio verbal de Fabiano.",
-          "a inexistência de violência social."
+          "o domínio verbal de Fabiano."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "O episódio materializa abuso de poder e submissão.",
         "tip": "Relacione personagem episódica à função crítica."
       },
       {
         "question": "Qual alternativa distingue corretamente as duas obras?",
         "options": [
-          "Campo Geral: focalização fortemente ligada a Miguilim; Vidas Secas: focalização móvel entre diferentes personagens.",
-          "Campo Geral: narrador Fabiano; Vidas Secas: narrador Miguilim.",
           "Ambas: primeira pessoa autobiográfica.",
-          "Ambas: focalização exclusiva em uma única personagem."
+          "Ambas: focalização exclusiva em uma única personagem.",
+          "Campo Geral: focalização fortemente ligada a Miguilim; Vidas Secas: focalização móvel entre diferentes personagens.",
+          "Campo Geral: narrador Fabiano; Vidas Secas: narrador Miguilim."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A diferença de focalização é central para a estrutura de leitura das obras.",
         "tip": "Compare técnicas narrativas."
       },
       {
         "question": "A afirmação 'a seca é a única responsável pela miséria em Vidas Secas' é insuficiente porque:",
         "options": [
-          "o romance se passa sem seca.",
-          "a narrativa articula fatores naturais a exploração econômica, autoridade e exclusão.",
           "Fabiano é rico.",
+          "a narrativa articula fatores naturais a exploração econômica, autoridade e exclusão.",
+          "o romance se passa sem seca.",
           "a seca aparece apenas como sonho."
         ],
         "answer": 1,
@@ -1077,10 +1077,10 @@ window.literaturaLessons={
       {
         "question": "Em Campo Geral, a incompreensão infantil diante do mundo adulto:",
         "options": [
-          "é falha narrativa.",
+          "torna Miguilim onisciente.",
           "é recurso coerente com a focalização e cria espaço para inferências do leitor.",
-          "elimina conflitos.",
-          "torna Miguilim onisciente."
+          "é falha narrativa.",
+          "elimina conflitos."
         ],
         "answer": 1,
         "explanation": "O limite cognitivo da criança participa da construção narrativa.",
@@ -1090,9 +1090,9 @@ window.literaturaLessons={
         "question": "A relação entre forma e tema está corretamente descrita em:",
         "options": [
           "Rosa usa elaboração verbal inventiva ligada à percepção; Graciliano emprega contenção que dialoga com escassez e dureza.",
+          "somente o enredo importa nas duas obras.",
           "ambos usam exatamente o mesmo estilo.",
-          "a forma não interfere nos efeitos temáticos.",
-          "somente o enredo importa nas duas obras."
+          "a forma não interfere nos efeitos temáticos."
         ],
         "answer": 0,
         "explanation": "Os estilos diferentes produzem efeitos coerentes com os universos narrados.",
@@ -1113,34 +1113,34 @@ window.literaturaLessons={
       {
         "question": "A interioridade de Baleia desafia uma leitura puramente utilitária do animal porque:",
         "options": [
+          "ela se torna proprietária da fazenda.",
           "o narrador lhe atribui sensações e desejos.",
           "ela fala como narradora humana.",
-          "ela se torna proprietária da fazenda.",
           "o romance nega que seja uma cachorra."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A focalização concede densidade subjetiva a Baleia sem negar sua condição animal.",
         "tip": "Humanização é procedimento narrativo."
       },
       {
         "question": "Uma interpretação rigorosa da miopia de Miguilim deve:",
         "options": [
-          "considerá-la apenas metáfora e negar sua dimensão física.",
           "considerar simultaneamente a condição concreta e seu potencial simbólico ligado ao olhar.",
+          "ligá-la à seca nordestina.",
           "afirmar que Miguilim era cego.",
-          "ligá-la à seca nordestina."
+          "considerá-la apenas metáfora e negar sua dimensão física."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A força do símbolo depende justamente da coexistência do literal e do figurado.",
         "tip": "Não apague o acontecimento concreto."
       },
       {
         "question": "Em ambas as obras, a família:",
         "options": [
-          "é irrelevante.",
+          "possui os mesmos membros.",
           "organiza experiências centrais, embora cumpra funções e enfrente conflitos distintos.",
-          "é sempre harmoniosa.",
-          "possui os mesmos membros."
+          "é irrelevante.",
+          "é sempre harmoniosa."
         ],
         "answer": 1,
         "explanation": "A família é núcleo importante tanto na formação de Miguilim quanto na sobrevivência dos retirantes.",
@@ -1149,10 +1149,10 @@ window.literaturaLessons={
       {
         "question": "Qual leitura da natureza é mais consistente nas duas obras?",
         "options": [
-          "É mero fundo paisagístico.",
+          "Substitui totalmente os conflitos sociais.",
           "Interage com a experiência humana, assumindo pesos distintos em cada projeto literário.",
           "É sempre símbolo positivo.",
-          "Substitui totalmente os conflitos sociais."
+          "É mero fundo paisagístico."
         ],
         "answer": 1,
         "explanation": "Natureza e espaço participam ativamente das experiências narradas.",
@@ -1161,24 +1161,24 @@ window.literaturaLessons={
       {
         "question": "A limitação verbal de Fabiano não significa ausência de pensamento porque:",
         "options": [
-          "o narrador pode aproximar-se de sua interioridade e revelar conflitos que ele não formula plenamente em palavras.",
-          "Fabiano escreve longos ensaios.",
           "Baleia traduz seus pensamentos.",
-          "a obra é narrada por um dicionário."
+          "a obra é narrada por um dicionário.",
+          "o narrador pode aproximar-se de sua interioridade e revelar conflitos que ele não formula plenamente em palavras.",
+          "Fabiano escreve longos ensaios."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A técnica narrativa separa capacidade de expressão verbal e riqueza de experiência interior.",
         "tip": "Falar pouco não é pensar pouco."
       },
       {
         "question": "A alternativa que melhor descreve o amadurecimento de Miguilim é:",
         "options": [
+          "resultado exclusivo da autoridade paterna.",
           "processo cumulativo marcado por afetos, conflitos, perdas e descobertas.",
           "mudança instantânea causada apenas pelos óculos.",
-          "resultado exclusivo da autoridade paterna.",
           "trajetória sem transformação."
         ],
-        "answer": 0,
+        "answer": 1,
         "explanation": "A formação do menino é gradual e multidimensional.",
         "tip": "Evite explicar formação por um único episódio."
       },
@@ -1187,8 +1187,8 @@ window.literaturaLessons={
         "options": [
           "a estabilidade conquistada.",
           "a persistência estrutural da precariedade.",
-          "uma viagem recreativa.",
-          "o abandono do sertão como tema."
+          "o abandono do sertão como tema.",
+          "uma viagem recreativa."
         ],
         "answer": 1,
         "explanation": "O ciclo sugere dificuldade de romper condições que se repetem.",
@@ -1197,22 +1197,22 @@ window.literaturaLessons={
       {
         "question": "Ao comparar a cama de couro e os óculos, é correto afirmar que:",
         "options": [
-          "ambos são símbolos idênticos.",
-          "cada elemento nasce de uma situação concreta e pode apontar para transformação, estabilidade ou ampliação de horizonte em contextos diferentes.",
+          "ambos pertencem a Vidas Secas.",
           "nenhum possui dimensão material.",
-          "ambos pertencem a Vidas Secas."
+          "cada elemento nasce de uma situação concreta e pode apontar para transformação, estabilidade ou ampliação de horizonte em contextos diferentes.",
+          "ambos são símbolos idênticos."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "A aproximação é funcional, não uma identidade de significado.",
         "tip": "Boa comparação preserva diferenças."
       },
       {
         "question": "Qual afirmação sobre regionalismo é mais adequada?",
         "options": [
-          "Nas duas obras, regionalismo significa cópia literal da fala local.",
-          "Os espaços regionais são artisticamente construídos e articulados a questões humanas mais amplas.",
           "Regionalismo impede universalidade temática.",
-          "Somente nomes de lugares definem regionalismo."
+          "Os espaços regionais são artisticamente construídos e articulados a questões humanas mais amplas.",
+          "Somente nomes de lugares definem regionalismo.",
+          "Nas duas obras, regionalismo significa cópia literal da fala local."
         ],
         "answer": 1,
         "explanation": "A dimensão regional integra projetos literários complexos e não se reduz a reprodução documental.",
@@ -1221,60 +1221,60 @@ window.literaturaLessons={
       {
         "question": "A tensão entre submissão e revolta em Fabiano evidencia:",
         "options": [
-          "ausência de consciência da injustiça.",
-          "percepção da opressão combinada a limites concretos de enfrentamento.",
+          "indiferença diante do Soldado Amarelo.",
           "poder institucional do vaqueiro.",
-          "indiferença diante do Soldado Amarelo."
+          "ausência de consciência da injustiça.",
+          "percepção da opressão combinada a limites concretos de enfrentamento."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "Fabiano percebe injustiças, mas sua posição social restringe sua reação.",
         "tip": "Contradição pode revelar estrutura de poder."
       },
       {
         "question": "Em Campo Geral, dizer que o narrador é 'neutro' apenas porque está em terceira pessoa seria erro porque:",
         "options": [
-          "a focalização aproxima intensamente o relato da sensibilidade de Miguilim.",
           "todo narrador em terceira pessoa é personagem.",
           "a obra não possui narrador.",
-          "Miguilim escreve o livro."
+          "Miguilim escreve o livro.",
+          "a focalização aproxima intensamente o relato da sensibilidade de Miguilim."
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "Terceira pessoa não implica neutralidade nem distância focal.",
         "tip": "Pessoa narrativa e efeito de proximidade são categorias distintas."
       },
       {
         "question": "A oposição 'humanização de Baleia versus desumanização dos retirantes' deve ser entendida como:",
         "options": [
-          "afirmação de que os humanos viram animais literalmente.",
-          "contraste crítico entre tratamento narrativo do animal e condições sociais degradantes impostas às pessoas.",
           "prova de ausência de afeto familiar.",
-          "recurso sem relação com o tema da opressão."
+          "recurso sem relação com o tema da opressão.",
+          "contraste crítico entre tratamento narrativo do animal e condições sociais degradantes impostas às pessoas.",
+          "afirmação de que os humanos viram animais literalmente."
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "O contraste intensifica a crítica à redução social da dignidade humana.",
         "tip": "Leia contrastes como produtores de sentido."
       },
       {
         "question": "Se uma alternativa afirmar que Campo Geral e Vidas Secas 'apresentam o sertão da mesma maneira', o problema principal é:",
         "options": [
-          "as obras não se passam no Brasil.",
           "a formulação apaga diferenças de perspectiva, linguagem, espaço e projeto estético.",
+          "as obras não se passam no Brasil.",
           "nenhuma possui família.",
           "os dois autores são a mesma pessoa."
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "A comparação exige reconhecer aproximações e diferenças.",
         "tip": "Desconfie de equivalências totais."
       },
       {
         "question": "Considerando conjuntamente as duas obras, a síntese mais consistente é:",
         "options": [
-          "sertão, família, linguagem e experiência humana aparecem articulados, mas cada autor organiza esses elementos por estratégias próprias.",
-          "as narrativas são equivalentes e intercambiáveis.",
           "as duas obras defendem uma tese política explícita idêntica.",
+          "as narrativas são equivalentes e intercambiáveis.",
+          "sertão, família, linguagem e experiência humana aparecem articulados, mas cada autor organiza esses elementos por estratégias próprias.",
           "os conflitos decorrem apenas do clima."
         ],
-        "answer": 0,
+        "answer": 2,
         "explanation": "A síntese reconhece campos comuns sem eliminar a singularidade formal e temática de cada obra.",
         "tip": "A melhor comparação integra sem homogeneizar."
       }
