@@ -1647,3 +1647,37 @@ button{touch-action:manipulation}
   align-self:start!important;
   margin-top:3px!important;
 }
+
+/* =========================================================
+   CORRECAO FINAL - LAYOUT RESPONSIVO + BOTTOM NAV
+   ========================================================= */
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+body{padding-bottom:110px!important}
+.app,.screen,.screen.active,main,.reader,.lesson-list,.subject-list,.quiz-form,.correction-list,.error-list{min-width:0;max-width:100%}
+img,video,iframe,table,pre,code{max-width:100%}
+iframe,video,img{height:auto}
+.reader,.reader *,.lesson-card,.lesson-card *,.subject-list article,.subject-list article *{overflow-wrap:anywhere;word-break:normal}
+.screen.active{padding-bottom:105px}
+.bottom-nav{
+ width:min(calc(100% - 24px),700px)!important;max-width:700px!important;height:66px!important;
+ left:50%!important;right:auto!important;bottom:max(10px,env(safe-area-inset-bottom))!important;
+ transform:translateX(-50%)!important;margin:0!important;z-index:1000!important
+}
+.v53-screen,#favoritesScreen,.search-v56-results,.summary-v57-actions,.achievement-v59-list,
+.sim510-history,.sim510-correction,.v60-list{padding-bottom:110px!important}
+.lesson-card-content,.subject-list article>div,.action-list>button>div,.v53-grid>*,.v53-stats>*,.v60-grid>*{min-width:0}
+@media (min-width:721px){
+ body{padding-bottom:120px!important}
+ .app{width:min(100%,1180px);max-width:1180px;padding-left:20px;padding-right:20px;padding-bottom:120px}
+ .bottom-nav{width:min(calc(100% - 40px),700px)!important}
+}
+@media (max-width:720px){
+ .app{width:100%;max-width:100%;padding-left:11px;padding-right:11px;padding-bottom:110px}
+ .bottom-nav{width:calc(100% - 18px)!important;max-width:700px!important}
+ .reader{width:100%;max-width:100%;overflow:hidden}
+ .reader iframe{display:block;width:100%!important;max-width:100%!important;aspect-ratio:16/9;height:auto!important}
+}
+@supports (padding:max(0px)){
+ body{padding-bottom:max(110px,calc(90px + env(safe-area-inset-bottom)))!important}
+ .screen.active{padding-bottom:max(105px,calc(85px + env(safe-area-inset-bottom)))}
+}
