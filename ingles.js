@@ -1,2182 +1,2194 @@
-/* MISSÃO PMMG — V4 • quizzes por aula reforçados: 12 questões integradas, 4 alternativas, 1 correta. */
-window.inglesLessons={
+/* MISSÃO PMMG — INGLÊS • VERSÃO FINAL RECONSTRUÍDA E AUDITADA • 2026 */
+window.inglesLessons = {
   "1": {
     "title": "Estratégias de leitura — do zero",
-    "subtitle": "Inglês • Aula 01 • Reading",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 EDITAL PMMG • INTERPRETAÇÃO</div><h3>Skimming e scanning</h3><p><b>Skimming</b> busca a ideia geral; <b>scanning</b> localiza informação específica. Use título, palavras-chave e contexto sem tentar traduzir tudo.</p><div class='gold-rule'>🎯 Entenda primeiro; traduza só o necessário.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estratégias de leitura — do zero</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Seu objetivo não é traduzir cada palavra</h3><p>Em uma prova de leitura, você precisa compreender o suficiente para responder às perguntas. Uma palavra desconhecida não impede necessariamente a compreensão. O título, as palavras repetidas, os cognatos e a estrutura das frases ajudam a construir o sentido.</p><p>Antes de usar dicionário mental, leia a pergunta. Ela indica o tipo de informação que deve ser procurada.</p><h3>Skimming</h3><p>Skimming é leitura rápida para descobrir o assunto e a ideia geral. Observe título, primeira frase, palavras repetidas e conclusão. Você não precisa entender todos os detalhes nessa etapa.</p><p>Exemplo: se aparecem repetidamente police, community, safety e officers, já existe forte pista de que o texto trata de segurança/comunidade.</p><h3>Scanning</h3><p>Scanning é busca direcionada. Se a pergunta pede uma data, nome, porcentagem ou causa específica, percorra o texto procurando marcas visuais e palavras relacionadas.</p><p>A combinação funciona assim: faça skimming para entender o mapa geral e scanning para localizar a resposta.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar skimming</li><li>explicar scanning</li><li>ler uma frase sem traduzir tudo</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>SKIMMING e SCANNING — Inglês para Concursos</h3><p>Técnicas de leitura para localizar a ideia geral e informações específicas.</p><iframe src=\"https://www.youtube.com/embed/yNUmPU48Nx4\" title=\"SKIMMING e SCANNING — Inglês para Concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 01",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estratégias de leitura — do zero</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Leitura estratégica</h3><p>Skimming identifica tema, propósito e ideia central; scanning localiza dados específicos. Em questões, leia o comando antes de mergulhar no texto para saber que evidência procurar.</p><h3>Ideia principal x detalhe</h3><p>A ideia principal organiza o parágrafo; exemplos, números e casos particulares a sustentam. Uma alternativa pode ser verdadeira e ainda assim não responder ao que foi perguntado.</p><h3>Inferência controlada</h3><p>Inferir não é imaginar: é concluir algo sustentado por pistas linguísticas. Desconfie de alternativas que usam always, never, only ou completely quando o texto é mais cauteloso.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Skimming e Scanning — Inglês para Concursos</h3><p>Leitura global e busca de informação específica.</p><iframe src=\"https://www.youtube.com/embed/yNUmPU48Nx4\" title=\"Skimming e Scanning — Inglês para Concursos\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Skimming e Scanning — interpretação</h3><p>Aplicação das estratégias em textos de prova.</p><iframe src=\"https://www.youtube.com/embed/YvmH7tTcDY4\" title=\"Skimming e Scanning — interpretação\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Skimming serve para:\n\nII. Scanning serve para:",
+        "question": "No texto “Community policing has expanded in several districts. The program aims to strengthen trust between residents and officers.”, a melhor ideia central é:",
         "options": [
-          "I — Captar a ideia geral. | II — Localizar informação específica.",
-          "I — Conjugar verbos. | II — Localizar informação específica.",
-          "I — Captar a ideia geral. | II — Criar texto.",
-          "I — Conjugar verbos. | II — Criar texto."
+          "O programa busca ampliar a confiança entre comunidade e policiais.",
+          "Todos os distritos abandonaram o policiamento tradicional.",
+          "A confiança já foi plenamente alcançada.",
+          "O texto descreve apenas o número de policiais."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Captar a ideia geral.”. No item II, a resposta correta é “Localizar informação específica.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A segunda frase explicita a finalidade do programa e resume o núcleo do trecho.",
+        "tip": "Procure a informação que organiza as demais, não um detalhe."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Scanning serve para:\n\nII. Skimming serve para:",
+        "question": "Uma questão pede “According to the text, how many officers completed the course?”. A estratégia inicial mais eficiente é:",
         "options": [
-          "I — Criar texto. | II — Captar a ideia geral.",
-          "I — Localizar informação específica. | II — Traduzir tudo.",
-          "I — Criar texto. | II — Traduzir tudo.",
-          "I — Localizar informação específica. | II — Captar a ideia geral."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Localizar informação específica.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Na prova, é melhor:\n\nII. Skimming serve para:",
-        "options": [
-          "I — Usar contexto e palavras-chave. | II — Contar palavras.",
-          "I — Parar em toda palavra. | II — Contar palavras.",
-          "I — Usar contexto e palavras-chave. | II — Captar a ideia geral.",
-          "I — Parar em toda palavra. | II — Captar a ideia geral."
+          "Buscar somente cognatos.",
+          "Ignorar o comando e ler apenas o título.",
+          "Fazer scanning por números e termos ligados a officers/course.",
+          "Traduzir cada parágrafo integralmente."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Usar contexto e palavras-chave.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A pergunta solicita um dado específico; scanning é apropriado.",
+        "tip": "O tipo de pergunta determina a estratégia de leitura."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Skimming serve para:\n\nII. Scanning serve para:",
+        "question": "Após skimming, você conclui que um artigo discute redução de acidentes. Qual evidência mais sustenta essa leitura?",
         "options": [
-          "I — Conjugar verbos. | II — Memorizar regras.",
-          "I — Captar a ideia geral. | II — Localizar informação específica.",
-          "I — Conjugar verbos. | II — Localizar informação específica.",
-          "I — Captar a ideia geral. | II — Memorizar regras."
+          "O tamanho do último parágrafo.",
+          "A presença de verbos no passado.",
+          "Uma palavra desconhecida no terceiro parágrafo.",
+          "Repetição de road safety, crashes, prevention e drivers."
         ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Captar a ideia geral.”. No item II, a resposta correta é “Localizar informação específica.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 3,
+        "explanation": "Campos lexicais recorrentes revelam o tema global.",
+        "tip": "Observe palavras-chave recorrentes e relações semânticas."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Scanning serve para:\n\nII. Skimming serve para:",
+        "question": "O texto afirma “The measure may reduce response time.” Qual alternativa extrapola o texto?",
         "options": [
-          "I — Localizar informação específica. | II — Captar a ideia geral.",
-          "I — Criar texto. | II — Captar a ideia geral.",
-          "I — Localizar informação específica. | II — Contar palavras.",
-          "I — Criar texto. | II — Contar palavras."
+          "A medida pode reduzir o tempo de resposta.",
+          "Existe possibilidade de redução.",
+          "O autor não apresenta a redução como certeza.",
+          "A medida certamente eliminará todo atraso."
+        ],
+        "answer": 3,
+        "explanation": "May expressa possibilidade, não certeza nem eliminação total.",
+        "tip": "Cuidado com intensificadores absolutos não autorizados."
+      },
+      {
+        "question": "Em um parágrafo, a primeira frase apresenta uma tese e as seguintes trazem dois exemplos. Para identificar a ideia principal, deve-se priorizar:",
+        "options": [
+          "A relação entre a frase-tópico e os exemplos.",
+          "Os exemplos isoladamente.",
+          "Somente a última linha.",
+          "A palavra mais longa."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Localizar informação específica.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A ideia principal é sustentada pelos exemplos, mas não se reduz a eles.",
+        "tip": "Diferencie tese de evidência."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Na prova, é melhor:\n\nII. Skimming serve para:",
+        "question": "“Although complaints decreased, public concern remained high.” A leitura correta é:",
         "options": [
-          "I — Parar em toda palavra. | II — Captar a ideia geral.",
-          "I — Usar contexto e palavras-chave. | II — Traduzir tudo.",
-          "I — Parar em toda palavra. | II — Traduzir tudo.",
-          "I — Usar contexto e palavras-chave. | II — Captar a ideia geral."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Usar contexto e palavras-chave.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Skimming serve para:\n\nII. Scanning serve para:",
-        "options": [
-          "I — Captar a ideia geral. | II — Criar texto.",
-          "I — Conjugar verbos. | II — Criar texto.",
-          "I — Captar a ideia geral. | II — Localizar informação específica.",
-          "I — Conjugar verbos. | II — Localizar informação específica."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Captar a ideia geral.”. No item II, a resposta correta é “Localizar informação específica.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Scanning serve para:\n\nII. Skimming serve para:",
-        "options": [
-          "I — Criar texto. | II — Traduzir tudo.",
-          "I — Localizar informação específica. | II — Captar a ideia geral.",
-          "I — Criar texto. | II — Captar a ideia geral.",
-          "I — Localizar informação específica. | II — Traduzir tudo."
+          "As reclamações diminuíram e a preocupação também.",
+          "A preocupação permaneceu alta apesar da queda nas reclamações.",
+          "As reclamações aumentaram por causa da preocupação.",
+          "Não há contraste entre as ideias."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Localizar informação específica.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Although estabelece concessão/contraste.",
+        "tip": "Conectivos ajudam a mapear a lógica do texto."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Na prova, é melhor:\n\nII. Skimming serve para:",
+        "question": "Se o comando pergunta pelo propósito do autor, qual pergunta mental é mais útil?",
         "options": [
-          "I — Usar contexto e palavras-chave. | II — Captar a ideia geral.",
-          "I — Parar em toda palavra. | II — Captar a ideia geral.",
-          "I — Usar contexto e palavras-chave. | II — Contar palavras.",
-          "I — Parar em toda palavra. | II — Contar palavras."
+          "O que o autor pretende informar, defender, alertar ou explicar?",
+          "Qual palavra posso traduzir literalmente?",
+          "Qual alternativa é mais longa?",
+          "Quantas palavras há no texto?"
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Usar contexto e palavras-chave.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Propósito é função comunicativa, não contagem ou tradução.",
+        "tip": "Pergunte “para quê este texto foi escrito?”."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Skimming serve para:\n\nII. Scanning serve para:",
+        "question": "“Only two units reported delays.” A paráfrase fiel é:",
         "options": [
-          "I — Conjugar verbos. | II — Localizar informação específica.",
-          "I — Captar a ideia geral. | II — Memorizar regras.",
-          "I — Conjugar verbos. | II — Memorizar regras.",
-          "I — Captar a ideia geral. | II — Localizar informação específica."
+          "Nenhuma unidade teve atrasos.",
+          "Duas unidades eliminaram atrasos.",
+          "Todas as unidades tiveram atrasos.",
+          "Apenas duas unidades relataram atrasos."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Captar a ideia geral.”. No item II, a resposta correta é “Localizar informação específica.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Only restringe a afirmação a duas unidades.",
+        "tip": "Preserve palavras de restrição como only."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Scanning serve para:\n\nII. Skimming serve para:",
+        "question": "Durante scanning, você encontra a mesma palavra da pergunta em um parágrafo. O procedimento correto é:",
         "options": [
-          "I — Localizar informação específica. | II — Contar palavras.",
-          "I — Criar texto. | II — Contar palavras.",
-          "I — Localizar informação específica. | II — Captar a ideia geral.",
-          "I — Criar texto. | II — Captar a ideia geral."
+          "Escolher a alternativa com a mesma palavra.",
+          "Marcar a resposta imediatamente.",
+          "Ignorar o contexto.",
+          "Ler o entorno para confirmar se a informação responde ao comando."
         ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Localizar informação específica.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 3,
+        "explanation": "Correspondência lexical não garante equivalência de sentido.",
+        "tip": "Leia a frase e, se necessário, as frases vizinhas."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Na prova, é melhor:\n\nII. Skimming serve para:",
+        "question": "Um título diz “Why body cameras do not solve every problem”. Antes da leitura detalhada, é razoável prever que o texto:",
         "options": [
-          "I — Parar em toda palavra. | II — Traduzir tudo.",
-          "I — Usar contexto e palavras-chave. | II — Captar a ideia geral.",
-          "I — Parar em toda palavra. | II — Captar a ideia geral.",
-          "I — Usar contexto e palavras-chave. | II — Traduzir tudo."
+          "Tratará apenas de preços.",
+          "Discutirá limites ou ressalvas ao uso de câmeras.",
+          "Será necessariamente contra qualquer tecnologia.",
+          "Defenderá que câmeras resolvem todos os problemas."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Usar contexto e palavras-chave.”. No item II, a resposta correta é “Captar a ideia geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O título sinaliza uma discussão de limitações, sem autorizar posições extremas.",
+        "tip": "Use o título como hipótese, não como resposta definitiva."
+      },
+      {
+        "question": "Qual alternativa descreve uma inferência válida?",
+        "options": [
+          "Opinião pessoal sem evidência.",
+          "Informação contrária ao texto.",
+          "Conclusão apoiada por pistas do texto.",
+          "Tradução automática de uma palavra."
+        ],
+        "answer": 2,
+        "explanation": "Inferência exige suporte textual.",
+        "tip": "Pergunte qual trecho permite concluir aquilo."
+      },
+      {
+        "question": "O texto diz “Most participants supported the proposal.” O que NÃO se pode concluir?",
+        "options": [
+          "Pode ter havido participantes contrários.",
+          "O apoio foi superior à metade.",
+          "A maioria apoiou.",
+          "Todos os participantes apoiaram."
+        ],
+        "answer": 3,
+        "explanation": "Most não equivale a all.",
+        "tip": "Quantificadores limitam o alcance da conclusão."
       }
     ]
   },
   "2": {
     "title": "Cognatos e falsos cognatos",
-    "subtitle": "Inglês • Aula 02 • Vocabulário",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 EDITAL • SEMÂNTICA</div><p>Cognatos ajudam: <i>important, hospital, information</i>. Cuidado: <b>actually</b>=na verdade, <b>parents</b>=pais, <b>pretend</b>=fingir.</p><div class='gold-rule'>🎯 Confirme sempre pelo contexto.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Cognatos e falsos cognatos</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Cognatos como apoio</h3><p>Cognatos são palavras com forma e significado semelhantes ao português, como information, police, important, hospital e different. Eles aceleram a leitura, mas o sentido sempre deve ser confirmado no contexto.</p><p>Não dependa apenas deles: conectivos e verbos também são essenciais para saber o que o texto afirma.</p><h3>Falsos cognatos</h3><p>Actually significa 'na verdade', não 'atualmente'. Parents significa 'pais', não 'parentes'. Pretend significa 'fingir'. Push significa 'empurrar'.</p><p>Quando a tradução aparentemente óbvia deixa a frase estranha, considere a possibilidade de falso cognato.</p><h3>Inferindo vocabulário</h3><p>Use palavras vizinhas, exemplos, oposição e causa/consequência. Em 'The road was dangerous, so drivers slowed down', mesmo sem conhecer slowed down, o contraste semântico sugere uma reação ao perigo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer cognatos úteis</li><li>memorizar falsos cognatos principais</li><li>inferir palavra pelo contexto</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Cognatos e falsos cognatos em Inglês</h3><p>Aula voltada para leitura e interpretação em provas.</p><iframe src=\"https://www.youtube.com/embed/32YhvYh9AZk\" title=\"Cognatos e falsos cognatos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 02",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Cognatos e falsos cognatos</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Cognatos com cautela</h3><p>Cognatos aceleram a leitura, mas o contexto decide o sentido. Palavras parecidas podem ter usos diferentes em determinados contextos.</p><h3>False friends</h3><p>Actually = na verdade; eventually = finalmente/com o tempo; parents = pais; pretend = fingir; sensible = sensato; library = biblioteca; fabric = tecido.</p><h3>Vocabulário contextual</h3><p>Definições, exemplos, oposição, causa e consequência ajudam a inferir palavras desconhecidas sem tradução integral.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Cognatos e falsos cognatos em Inglês</h3><p>Vocabulário e armadilhas de tradução.</p><iframe src=\"https://www.youtube.com/embed/32YhvYh9AZk\" title=\"Cognatos e falsos cognatos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Falsos cognatos — English in Brazil</h3><p>Falsos amigos frequentes em interpretação.</p><iframe src=\"https://www.youtube.com/embed/8O_9NK3iUJ0\" title=\"Falsos cognatos — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Actually significa:\n\nII. Parents significa:",
+        "question": "Em 'Actually, the new policy reduced costs', actually significa:",
         "options": [
-          "I — Na verdade. | II — Pais.",
-          "I — Atualmente. | II — Pais.",
-          "I — Na verdade. | II — Parentes.",
-          "I — Atualmente. | II — Parentes."
+          "Na verdade.",
+          "De modo atual.",
+          "Atualmente.",
+          "Eventualmente."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Na verdade.”. No item II, a resposta correta é “Pais.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Actually introduz correção/ênfase equivalente a “na verdade”.",
+        "tip": "Não confunda semelhança gráfica com sentido."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Parents significa:\n\nII. Actually significa:",
+        "question": "Em 'Parents were invited to the meeting', parents refere-se a:",
         "options": [
-          "I — Parentes. | II — Na verdade.",
-          "I — Pais. | II — Atuação.",
-          "I — Parentes. | II — Atuação.",
-          "I — Pais. | II — Na verdade."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Pais.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Pretend significa:\n\nII. Actually significa:",
-        "options": [
-          "I — Fingir. | II — Atualizar.",
-          "I — Entender. | II — Atualizar.",
-          "I — Fingir. | II — Na verdade.",
-          "I — Entender. | II — Na verdade."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Fingir.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Actually significa:\n\nII. Parents significa:",
-        "options": [
-          "I — Atualmente. | II — Filhos.",
-          "I — Na verdade. | II — Pais.",
-          "I — Atualmente. | II — Pais.",
-          "I — Na verdade. | II — Filhos."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Na verdade.”. No item II, a resposta correta é “Pais.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Parents significa:\n\nII. Actually significa:",
-        "options": [
-          "I — Pais. | II — Na verdade.",
-          "I — Parentes. | II — Na verdade.",
-          "I — Pais. | II — Atualizar.",
-          "I — Parentes. | II — Atualizar."
+          "Pais.",
+          "Padrinhos.",
+          "Parentes em geral.",
+          "Participantes."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Pais.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Parents = pais. Relatives = parentes.",
+        "tip": "Memorize false friends frequentes."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Pretend significa:\n\nII. Actually significa:",
+        "question": "Em 'The officer pretended not to notice', pretended significa:",
         "options": [
-          "I — Entender. | II — Na verdade.",
-          "I — Fingir. | II — Atuação.",
-          "I — Entender. | II — Atuação.",
-          "I — Fingir. | II — Na verdade."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Fingir.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Actually significa:\n\nII. Parents significa:",
-        "options": [
-          "I — Na verdade. | II — Parentes.",
-          "I — Atualmente. | II — Parentes.",
-          "I — Na verdade. | II — Pais.",
-          "I — Atualmente. | II — Pais."
+          "Tentou.",
+          "Previu.",
+          "Fingiu.",
+          "Pretendeu."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Na verdade.”. No item II, a resposta correta é “Pais.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Pretend = fingir.",
+        "tip": "Teste a tradução no contexto."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Parents significa:\n\nII. Actually significa:",
+        "question": "Em 'Eventually, the suspect surrendered', eventually indica que o suspeito:",
         "options": [
-          "I — Parentes. | II — Atuação.",
-          "I — Pais. | II — Na verdade.",
-          "I — Parentes. | II — Na verdade.",
-          "I — Pais. | II — Atuação."
+          "Atualmente se rende.",
+          "Finalmente/com o tempo se rendeu.",
+          "Eventualmente no sentido português de ocasionalmente se rendeu.",
+          "Possivelmente se rendeu."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Pais.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Eventually indica resultado final após algum tempo.",
+        "tip": "Eventually ≠ eventualmente em português."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Pretend significa:\n\nII. Actually significa:",
+        "question": "'The officer was sensible during the negotiation.' Sensible significa:",
         "options": [
-          "I — Fingir. | II — Na verdade.",
-          "I — Entender. | II — Na verdade.",
-          "I — Fingir. | II — Atualizar.",
-          "I — Entender. | II — Atualizar."
+          "Sensato/prudente.",
+          "Suscetível.",
+          "Visível.",
+          "Sensível emocionalmente."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Fingir.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Sensible em inglês é “sensato”. Sensitive é “sensível”.",
+        "tip": "Compare sensible x sensitive."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Actually significa:\n\nII. Parents significa:",
+        "question": "'The evidence was stored in a secure facility.' Pelo contexto, facility é melhor entendido como:",
         "options": [
-          "I — Atualmente. | II — Pais.",
-          "I — Na verdade. | II — Filhos.",
-          "I — Atualmente. | II — Filhos.",
-          "I — Na verdade. | II — Pais."
+          "Facilidade.",
+          "Faculdade.",
+          "Fragilidade.",
+          "Instalação/local."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Na verdade.”. No item II, a resposta correta é “Pais.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Facility pode significar instalação ou estabelecimento.",
+        "tip": "O contexto físico de armazenamento elimina a tradução literal enganosa."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Parents significa:\n\nII. Actually significa:",
+        "question": "'The fabric was found inside the vehicle.' Fabric significa:",
         "options": [
-          "I — Pais. | II — Atualizar.",
-          "I — Parentes. | II — Atualizar.",
-          "I — Pais. | II — Na verdade.",
-          "I — Parentes. | II — Na verdade."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Pais.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Pretend significa:\n\nII. Actually significa:",
-        "options": [
-          "I — Entender. | II — Atuação.",
-          "I — Fingir. | II — Na verdade.",
-          "I — Entender. | II — Na verdade.",
-          "I — Fingir. | II — Atuação."
+          "Documento.",
+          "Tecido.",
+          "Fabricação.",
+          "Fábrica."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Fingir.”. No item II, a resposta correta é “Na verdade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Fabric = tecido; factory = fábrica.",
+        "tip": "Use o substantivo exigido pelo contexto."
+      },
+      {
+        "question": "Em 'The policy is comprehensive: it covers training, equipment and supervision', comprehensive significa:",
+        "options": [
+          "Abrangente.",
+          "Compreensiva no sentido emocional.",
+          "Temporária.",
+          "Confusa."
+        ],
+        "answer": 0,
+        "explanation": "A enumeração mostra que a política cobre vários aspectos.",
+        "tip": "Exemplos após dois-pontos podem definir a palavra."
+      },
+      {
+        "question": "'The road was slippery, so drivers reduced speed.' Mesmo sem conhecer slippery, é possível inferir que a estrada:",
+        "options": [
+          "Apresentava condição que exigia cautela.",
+          "Era obrigatoriamente nova.",
+          "Tinha limite de velocidade maior.",
+          "Estava vazia e segura."
+        ],
+        "answer": 0,
+        "explanation": "A consequência “reduced speed” sugere risco/baixa aderência.",
+        "tip": "Use causa e consequência para inferir vocabulário."
+      },
+      {
+        "question": "Qual par contém apenas cognatos úteis e semanticamente próximos do português?",
+        "options": [
+          "Library / sensible.",
+          "Police / information.",
+          "Pretend / fabric.",
+          "Actually / parents."
+        ],
+        "answer": 1,
+        "explanation": "Police e information têm forma e sentido próximos.",
+        "tip": "Cognato verdadeiro precisa preservar também o significado."
+      },
+      {
+        "question": "'The library will remain closed during the investigation.' Library é:",
+        "options": [
+          "Livraria.",
+          "Arquivo policial.",
+          "Biblioteca.",
+          "Laboratório."
+        ],
+        "answer": 2,
+        "explanation": "Library = biblioteca; bookstore = livraria.",
+        "tip": "False friend clássico."
+      },
+      {
+        "question": "Em 'The results were consistent with previous studies', consistent é melhor traduzido como:",
+        "options": [
+          "Conservados.",
+          "Consecutivos.",
+          "Consertados.",
+          "Consistentes/coerentes."
+        ],
+        "answer": 3,
+        "explanation": "O contexto de comparação com estudos anteriores indica coerência/compatibilidade.",
+        "tip": "Confirme o cognato pelo uso na frase."
       }
     ]
   },
   "3": {
     "title": "Pronomes e referências",
-    "subtitle": "Inglês • Aula 03 • Grammar",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 GRAMÁTICA PARA LEITURA</div><p><i>I,you,he,she,it,we,they</i> e <i>this,that,these,those</i> retomam ou apontam elementos. Ex.: The car stopped. <b>It</b> was damaged → It = car.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pronomes e referências</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Referência é parte da interpretação</h3><p>Pronomes evitam repetições e conectam frases. I, you, he, she, it, we e they indicam participantes; this, that, these e those apontam elementos. Ao encontrar pronome, procure qual termo anterior combina em número e sentido.</p><p>Exemplo: 'The officers found a vehicle. It was stolen.' It retoma vehicle.</p><h3>Subject e object pronouns</h3><p>I/he/she/we/they costumam funcionar como sujeito. Me/him/her/us/them aparecem como objetos. Essa distinção ajuda a entender quem pratica e quem recebe a ação.</p><p>Em 'The officer helped them', officer pratica a ação e them representa quem recebeu ajuda.</p><h3>Demonstrativos</h3><p>This/these indicam proximidade ou elemento apresentado; that/those indicam maior distância ou outro elemento. Em textos, também podem retomar ideias inteiras.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>localizar antecedente de it/they</li><li>distinguir sujeito de objeto</li><li>interpretar this/that no contexto</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Subject Pronouns — explicação + exercícios</h3><p>Revisão de pronomes para identificar referências no texto.</p><iframe src=\"https://www.youtube.com/embed/rNFeHNOCnMQ\" title=\"Subject Pronouns — explicação + exercícios\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 03",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pronomes e referências</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Referência pronominal</h3><p>It, they, this, that, these, those e pronomes pessoais retomam termos ou ideias. Concordância de número e coerência semântica ajudam a identificar o antecedente.</p><h3>Subject x object</h3><p>I/he/she/we/they tendem a ocupar posição de sujeito; me/him/her/us/them, de objeto. Possessivos como his, her, their indicam vínculo de posse.</p><h3>Referência de ideias</h3><p>This e that podem retomar uma oração inteira, não apenas um substantivo. Em interpretação, pergunte qual informação anterior torna a frase coerente.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Subject Pronouns — revisão</h3><p>Pronomes pessoais e referência textual.</p><iframe src=\"https://www.youtube.com/embed/rNFeHNOCnMQ\" title=\"Subject Pronouns — revisão\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Prepositions — curso para concursos</h3><p>Gramática funcional e leitura de relações.</p><iframe src=\"https://www.youtube.com/embed/AudiyLoYhDM\" title=\"Prepositions — curso para concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'The car stopped. It was damaged', It retoma:\n\nII. They significa normalmente:",
+        "question": "'The officers inspected the cars. They found two irregularities.' They retoma:",
         "options": [
-          "I — The car. | II — Eles/elas.",
-          "I — Stopped. | II — Eles/elas.",
-          "I — The car. | II — Isto.",
-          "I — Stopped. | II — Isto."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “The car.”. No item II, a resposta correta é “Eles/elas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. They significa normalmente:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
-        "options": [
-          "I — Isto. | II — The car.",
-          "I — Eles/elas. | II — Nada.",
-          "I — Isto. | II — Nada.",
-          "I — Eles/elas. | II — The car."
+          "The cars.",
+          "The inspection.",
+          "Two irregularities.",
+          "The officers."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Eles/elas.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "They é sujeito de found e retoma officers.",
+        "tip": "Combine função sintática e sentido."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. These é:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
+        "question": "'The device failed during the test. It was replaced.' It retoma:",
         "options": [
-          "I — Plural de this. | II — Uma pessoa.",
-          "I — Passado. | II — Uma pessoa.",
-          "I — Plural de this. | II — The car.",
-          "I — Passado. | II — The car."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Plural de this.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'The car stopped. It was damaged', It retoma:\n\nII. They significa normalmente:",
-        "options": [
-          "I — Stopped. | II — Ele.",
-          "I — The car. | II — Eles/elas.",
-          "I — Stopped. | II — Eles/elas.",
-          "I — The car. | II — Ele."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “The car.”. No item II, a resposta correta é “Eles/elas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. They significa normalmente:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
-        "options": [
-          "I — Eles/elas. | II — The car.",
-          "I — Isto. | II — The car.",
-          "I — Eles/elas. | II — Uma pessoa.",
-          "I — Isto. | II — Uma pessoa."
+          "The device.",
+          "During.",
+          "The test.",
+          "The failure."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Eles/elas.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "It retoma o substantivo singular neutro device.",
+        "tip": "Procure antecedente compatível em número e sentido."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. These é:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
+        "question": "'Maria called the officers and gave them the address.' Them refere-se a:",
         "options": [
-          "I — Passado. | II — The car.",
-          "I — Plural de this. | II — Nada.",
-          "I — Passado. | II — Nada.",
-          "I — Plural de this. | II — The car."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Plural de this.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'The car stopped. It was damaged', It retoma:\n\nII. They significa normalmente:",
-        "options": [
-          "I — The car. | II — Isto.",
-          "I — Stopped. | II — Isto.",
-          "I — The car. | II — Eles/elas.",
-          "I — Stopped. | II — Eles/elas."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “The car.”. No item II, a resposta correta é “Eles/elas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. They significa normalmente:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
-        "options": [
-          "I — Isto. | II — Nada.",
-          "I — Eles/elas. | II — The car.",
-          "I — Isto. | II — The car.",
-          "I — Eles/elas. | II — Nada."
+          "The address.",
+          "The officers.",
+          "The call.",
+          "Maria."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Eles/elas.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Them é pronome objeto plural que retoma officers.",
+        "tip": "Observe quem recebe a ação de gave."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. These é:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
+        "question": "'The report was incomplete. This delayed the investigation.' This retoma principalmente:",
         "options": [
-          "I — Plural de this. | II — The car.",
-          "I — Passado. | II — The car.",
-          "I — Plural de this. | II — Uma pessoa.",
-          "I — Passado. | II — Uma pessoa."
+          "Um objeto não mencionado.",
+          "A investigação inteira.",
+          "O fato de o relatório estar incompleto.",
+          "Somente a palavra report."
+        ],
+        "answer": 2,
+        "explanation": "This pode retomar a proposição anterior inteira.",
+        "tip": "Demonstrativos podem ter antecedente oracional."
+      },
+      {
+        "question": "'Two cameras were installed, but one of them stopped working.' Them retoma:",
+        "options": [
+          "Two.",
+          "Officers.",
+          "Working.",
+          "Cameras."
+        ],
+        "answer": 3,
+        "explanation": "Them retoma cameras.",
+        "tip": "Pronome objeto plural pede antecedente plural."
+      },
+      {
+        "question": "Em 'The witness gave her statement', her funciona como:",
+        "options": [
+          "Determinante possessivo.",
+          "Pronome relativo.",
+          "Conjunção.",
+          "Pronome sujeito."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Plural de this.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Her antes de statement indica posse.",
+        "tip": "Veja a posição antes do substantivo."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'The car stopped. It was damaged', It retoma:\n\nII. They significa normalmente:",
+        "question": "'The officers spoke to him after the incident.' Him é:",
         "options": [
-          "I — Stopped. | II — Eles/elas.",
-          "I — The car. | II — Ele.",
-          "I — Stopped. | II — Ele.",
-          "I — The car. | II — Eles/elas."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “The car.”. No item II, a resposta correta é “Eles/elas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. They significa normalmente:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
-        "options": [
-          "I — Eles/elas. | II — Uma pessoa.",
-          "I — Isto. | II — Uma pessoa.",
-          "I — Eles/elas. | II — The car.",
-          "I — Isto. | II — The car."
+          "Demonstrativo.",
+          "Sujeito do verbo spoke.",
+          "Objeto da preposição to.",
+          "Possessivo."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Eles/elas.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Him é object pronoun após a preposição.",
+        "tip": "Após preposição, espere forma objetiva."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. These é:\n\nII. Em 'The car stopped. It was damaged', It retoma:",
+        "question": "'These measures are temporary; those adopted last year were permanent.' Those retoma:",
         "options": [
-          "I — Passado. | II — Nada.",
-          "I — Plural de this. | II — The car.",
-          "I — Passado. | II — The car.",
-          "I — Plural de this. | II — Nada."
+          "Temporary.",
+          "Measures.",
+          "Years.",
+          "Permanent."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Plural de this.”. No item II, a resposta correta é “The car.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Those substitui measures no plural.",
+        "tip": "Demonstrativos também podem substituir substantivos."
+      },
+      {
+        "question": "'The station changed its procedures.' Its indica:",
+        "options": [
+          "Posse associada a station.",
+          "Ação passada.",
+          "Pessoa feminina.",
+          "Pluralidade."
+        ],
+        "answer": 0,
+        "explanation": "Its é possessivo neutro singular.",
+        "tip": "Não confunda its com it’s (= it is/has)."
+      },
+      {
+        "question": "'John and Ana submitted their reports.' Their refere-se a:",
+        "options": [
+          "John and Ana.",
+          "Somente Ana.",
+          "Somente John.",
+          "Reports."
+        ],
+        "answer": 0,
+        "explanation": "Their é possessivo plural referente aos dois sujeitos.",
+        "tip": "Concordância de número ajuda a localizar o referente."
+      },
+      {
+        "question": "'The policy was revised. That surprised many officers.' That retoma:",
+        "options": [
+          "Many officers.",
+          "O fato de a política ter sido revisada.",
+          "Somente revised como palavra.",
+          "Uma política distante fisicamente."
+        ],
+        "answer": 1,
+        "explanation": "That pode encapsular o evento da oração anterior.",
+        "tip": "Procure o antecedente conceitual."
+      },
+      {
+        "question": "Em 'The officer helped us', a relação correta é:",
+        "options": [
+          "Ambos são sujeitos.",
+          "Us é sujeito e officer é objeto.",
+          "Officer recebe a ação; us pratica.",
+          "Officer pratica a ação; us recebe."
+        ],
+        "answer": 3,
+        "explanation": "Officer é sujeito; us é object pronoun.",
+        "tip": "Use posição e forma pronominal para mapear papéis."
       }
     ]
   },
   "4": {
     "title": "Verbos e tempos essenciais",
-    "subtitle": "Inglês • Aula 04 • Verbs",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 GRAMÁTICA RELEVANTE</div><p>Simple Present: hábitos/fatos. Simple Past: passado concluído. Present Continuous: ação em andamento. <i>Will</i>: futuro. Marcadores como <i>yesterday, now, every day</i> ajudam.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Verbos e tempos essenciais</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Simple Present</h3><p>Simple Present descreve hábitos, rotinas, fatos e estados. Com he/she/it, muitos verbos recebem -s: 'She works'. Marcadores como usually, often e every day reforçam a ideia de rotina.</p><p>O verbo to be tem formas am/is/are e aparece com muita frequência.</p><h3>Simple Past</h3><p>Simple Past apresenta ação concluída em momento passado. Verbos regulares recebem -ed; verbos irregulares mudam de forma, como go → went e see → saw. Yesterday e last year são marcadores frequentes.</p><p>Para interpretação, muitas vezes basta reconhecer que o evento já terminou.</p><h3>Present Continuous e futuro</h3><p>Present Continuous usa am/is/are + verbo-ing e frequentemente indica ação em andamento: 'They are studying now'. Will + verbo aponta futuro em muitos contextos.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer presente, passado e contínuo</li><li>usar marcadores de tempo</li><li>identificar will</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Tempos verbais em Inglês — questões de concursos</h3><p>Aula de tempos verbais com foco em resolução de questões.</p><iframe src=\"https://www.youtube.com/embed/MTfiCjXtm3A\" title=\"Tempos verbais em Inglês — questões de concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 04",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Verbos e tempos essenciais</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Tempo e aspecto</h3><p>Simple Present expressa hábitos, fatos e estados; Simple Past, eventos concluídos; Continuous destaca processo; Perfect relaciona momentos no tempo.</p><h3>Marcadores temporais</h3><p>Yesterday, last, ago favorecem passado; now/at the moment favorecem contínuo; since/for/already/yet frequentemente aparecem com perfect.</p><h3>Valor discursivo</h3><p>O tempo verbal altera a cronologia do texto. Uma alternativa que muda has increased para increased pode apagar a ligação com o presente.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Tempos verbais em Inglês — questões</h3><p>Reconhecimento de tempos verbais em contexto.</p><iframe src=\"https://www.youtube.com/embed/MTfiCjXtm3A\" title=\"Tempos verbais em Inglês — questões\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Resumão dos tempos verbais</h3><p>Visão integrada dos tempos e aspectos.</p><iframe src=\"https://www.youtube.com/embed/8ts9u6sxwrU\" title=\"Resumão dos tempos verbais\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Yesterday indica:\n\nII. 'She works every day' indica:",
+        "question": "'The unit patrols the area every night.' O verbo indica:",
         "options": [
-          "I — Passado. | II — Hábito.",
-          "I — Comparação. | II — Hábito.",
-          "I — Passado. | II — Futuro.",
-          "I — Comparação. | II — Futuro."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Passado.”. No item II, a resposta correta é “Hábito.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'She works every day' indica:\n\nII. Yesterday indica:",
-        "options": [
-          "I — Futuro. | II — Passado.",
-          "I — Hábito. | II — Plural.",
-          "I — Futuro. | II — Plural.",
-          "I — Hábito. | II — Passado."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Hábito.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'They are studying now' indica:\n\nII. Yesterday indica:",
-        "options": [
-          "I — Ação em andamento. | II — Futuro.",
-          "I — Hábito passado. | II — Futuro.",
-          "I — Ação em andamento. | II — Passado.",
-          "I — Hábito passado. | II — Passado."
+          "Ação em progresso necessariamente agora.",
+          "Ação concluída ontem.",
+          "Ação habitual.",
+          "Ação futura certa."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Ação em andamento.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Simple Present + every night indica rotina.",
+        "tip": "Marcadores de frequência ajudam a identificar o valor temporal."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Yesterday indica:\n\nII. 'She works every day' indica:",
+        "question": "'The officers arrested the suspect yesterday.' A ação é apresentada como:",
         "options": [
-          "I — Comparação. | II — Negação.",
-          "I — Passado. | II — Hábito.",
-          "I — Comparação. | II — Hábito.",
-          "I — Passado. | II — Negação."
+          "Em andamento.",
+          "Concluída no passado.",
+          "Habitual.",
+          "Hipotética."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Passado.”. No item II, a resposta correta é “Hábito.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Simple Past + yesterday situa evento concluído.",
+        "tip": "Yesterday é marcador forte de passado."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'She works every day' indica:\n\nII. Yesterday indica:",
+        "question": "'Investigators are examining the footage now.' O foco está em:",
         "options": [
-          "I — Hábito. | II — Passado.",
-          "I — Futuro. | II — Passado.",
-          "I — Hábito. | II — Futuro.",
-          "I — Futuro. | II — Futuro."
+          "Processo em andamento.",
+          "Evento encerrado.",
+          "Obrigação.",
+          "Hábito permanente."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Hábito.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Are examining é Present Continuous.",
+        "tip": "Be + -ing destaca processo."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'They are studying now' indica:\n\nII. Yesterday indica:",
+        "question": "'Crime rates have fallen since 2024.' A estrutura sugere:",
         "options": [
-          "I — Hábito passado. | II — Passado.",
-          "I — Ação em andamento. | II — Plural.",
-          "I — Hábito passado. | II — Plural.",
-          "I — Ação em andamento. | II — Passado."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Ação em andamento.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Yesterday indica:\n\nII. 'She works every day' indica:",
-        "options": [
-          "I — Passado. | II — Futuro.",
-          "I — Comparação. | II — Futuro.",
-          "I — Passado. | II — Hábito.",
-          "I — Comparação. | II — Hábito."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Passado.”. No item II, a resposta correta é “Hábito.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'She works every day' indica:\n\nII. Yesterday indica:",
-        "options": [
-          "I — Futuro. | II — Plural.",
-          "I — Hábito. | II — Passado.",
-          "I — Futuro. | II — Passado.",
-          "I — Hábito. | II — Plural."
+          "Hábito diário.",
+          "Mudança iniciada no passado com relevância até o presente.",
+          "Queda sem relação com o presente.",
+          "Apenas futuro."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Hábito.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Present Perfect + since conecta passado e presente.",
+        "tip": "Since marca ponto inicial."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'They are studying now' indica:\n\nII. Yesterday indica:",
+        "question": "'By the time the team arrived, the suspect had left.' O had left indica que:",
         "options": [
-          "I — Ação em andamento. | II — Passado.",
-          "I — Hábito passado. | II — Passado.",
-          "I — Ação em andamento. | II — Futuro.",
-          "I — Hábito passado. | II — Futuro."
+          "A saída é futura.",
+          "A saída ocorreu antes da chegada.",
+          "As ações foram simultâneas.",
+          "A saída ocorreu depois da chegada."
+        ],
+        "answer": 1,
+        "explanation": "Past Perfect marca anterioridade em relação a outro evento passado.",
+        "tip": "Em dois eventos passados, observe qual aconteceu primeiro."
+      },
+      {
+        "question": "'The results will be announced tomorrow.' Will be announced indica:",
+        "options": [
+          "Passado contínuo.",
+          "Presente habitual.",
+          "Futuro na voz passiva.",
+          "Conselho."
+        ],
+        "answer": 2,
+        "explanation": "Will marca futuro e be + particípio marca passiva.",
+        "tip": "Analise tempo e voz separadamente."
+      },
+      {
+        "question": "'She has worked here for five years.' A leitura mais natural é:",
+        "options": [
+          "Ela trabalha ali há cinco anos, com continuidade até o presente.",
+          "Ela trabalhou cinco anos e necessariamente saiu.",
+          "Ela trabalha apenas hoje.",
+          "Ela trabalhará por cinco anos."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Ação em andamento.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Present Perfect com for pode indicar duração até o presente.",
+        "tip": "For introduz duração."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Yesterday indica:\n\nII. 'She works every day' indica:",
+        "question": "'When I called, they were interviewing a witness.' Were interviewing expressa:",
         "options": [
-          "I — Comparação. | II — Hábito.",
-          "I — Passado. | II — Negação.",
-          "I — Comparação. | II — Negação.",
-          "I — Passado. | II — Hábito."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Passado.”. No item II, a resposta correta é “Hábito.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'She works every day' indica:\n\nII. Yesterday indica:",
-        "options": [
-          "I — Hábito. | II — Futuro.",
-          "I — Futuro. | II — Futuro.",
-          "I — Hábito. | II — Passado.",
-          "I — Futuro. | II — Passado."
+          "Ação futura.",
+          "Hábito presente.",
+          "Ação em progresso naquele momento passado.",
+          "Evento anterior a qualquer outro passado."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Hábito.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Past Continuous enquadra ação em andamento no passado.",
+        "tip": "When + Simple Past frequentemente interrompe/enquadra processo contínuo."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'They are studying now' indica:\n\nII. Yesterday indica:",
+        "question": "Qual frase apresenta Simple Present com valor de fato geral?",
         "options": [
-          "I — Hábito passado. | II — Plural.",
-          "I — Ação em andamento. | II — Passado.",
-          "I — Hábito passado. | II — Passado.",
-          "I — Ação em andamento. | II — Plural."
+          "The officer arrived yesterday.",
+          "The report will arrive tomorrow.",
+          "They are leaving now.",
+          "Water freezes at 0°C."
         ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Ação em andamento.”. No item II, a resposta correta é “Passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 3,
+        "explanation": "Freezes expressa fato geral.",
+        "tip": "Simple Present não é apenas rotina pessoal."
+      },
+      {
+        "question": "'The department is going to launch a new program next month.' A expressão indica:",
+        "options": [
+          "Proibição.",
+          "Passado concluído.",
+          "Conselho.",
+          "Plano/intenção futura."
+        ],
+        "answer": 3,
+        "explanation": "Be going to frequentemente sinaliza plano ou previsão.",
+        "tip": "Não confunda forma de be com presente sem considerar going to."
+      },
+      {
+        "question": "'The team had been waiting for two hours before help arrived.' O foco é:",
+        "options": [
+          "Futuro provável.",
+          "Obrigação passada.",
+          "Duração de uma ação anterior a outro ponto passado.",
+          "Fato geral."
+        ],
+        "answer": 2,
+        "explanation": "Past Perfect Continuous enfatiza duração anterior.",
+        "tip": "Had been + -ing combina anterioridade e duração."
+      },
+      {
+        "question": "Se um texto troca 'may increase' por 'increased', a mudança principal é de:",
+        "options": [
+          "Plural para singular.",
+          "Passado para obrigação.",
+          "Comparação para negação.",
+          "Possibilidade para evento apresentado como ocorrido."
+        ],
+        "answer": 3,
+        "explanation": "May + base verb indica possibilidade; increased pode marcar passado concluído.",
+        "tip": "Tempos e modais alteram o grau e a cronologia da afirmação."
       }
     ]
   },
   "5": {
     "title": "Modal verbs",
-    "subtitle": "Inglês • Aula 05 • Can, must, should, may",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 MODAIS</div><p><b>can</b>=capacidade/possibilidade; <b>must</b>=obrigação; <b>should</b>=conselho; <b>may/might</b>=possibilidade.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Modal verbs</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Modais alteram a força da mensagem</h3><p>Can pode expressar capacidade ou possibilidade. Must costuma indicar obrigação forte. Should apresenta conselho ou recomendação. May e might indicam possibilidade.</p><p>Em leitura, trocar um modal pode mudar completamente a alternativa: 'must' não é o mesmo que 'may'.</p><h3>Forma dos modais</h3><p>Depois de modal, usa-se normalmente o verbo em sua forma base: can work, must obey, should study. Não se adiciona -s ao modal para he/she/it.</p><p>A negativa é formada com not: must not costuma indicar proibição; cannot/can't indica impossibilidade ou falta de capacidade.</p><h3>Interpretação</h3><p>Pergunte qual atitude está sendo expressa: certeza, obrigação, conselho, permissão, capacidade ou possibilidade.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir must de should</li><li>interpretar may/might</li><li>reconhecer must not</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Modal Verbs — English in Brazil</h3><p>Can, could, should, may, might e must explicados de forma completa.</p><iframe src=\"https://www.youtube.com/embed/IJ5nqhFaqoY\" title=\"Modal Verbs — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 05",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Modal verbs</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Modalidade</h3><p>Modais graduam obrigação, conselho, possibilidade, capacidade e permissão. Must é mais forte que should; may/might não equivalem a certeza.</p><h3>Negação</h3><p>Must not indica proibição; do not have to indica ausência de necessidade. Essa oposição é uma armadilha clássica.</p><h3>Leitura fina</h3><p>Trocar may por will, should por must ou could por did muda a força da afirmação e pode tornar uma paráfrase incorreta.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Modal Verbs — English in Brazil</h3><p>Can, could, should, may, might e must.</p><iframe src=\"https://www.youtube.com/embed/IJ5nqhFaqoY\" title=\"Modal Verbs — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Modal Verbs — revisão para prova</h3><p>Valor semântico dos principais modais.</p><iframe src=\"https://www.youtube.com/embed/W0PSvGUDqDI\" title=\"Modal Verbs — revisão para prova\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Must expressa:\n\nII. Should expressa:",
+        "question": "'Officers must wear identification.' Must expressa:",
         "options": [
-          "I — Obrigação. | II — Conselho.",
-          "I — Comparação. | II — Conselho.",
-          "I — Obrigação. | II — Causa.",
-          "I — Comparação. | II — Causa."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Obrigação.”. No item II, a resposta correta é “Conselho.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Should expressa:\n\nII. Must expressa:",
-        "options": [
-          "I — Causa. | II — Obrigação.",
-          "I — Conselho. | II — Passado.",
-          "I — Causa. | II — Passado.",
-          "I — Conselho. | II — Obrigação."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Conselho.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. May pode indicar:\n\nII. Must expressa:",
-        "options": [
-          "I — Possibilidade. | II — Artigo.",
-          "I — Obrigação absoluta. | II — Artigo.",
-          "I — Possibilidade. | II — Obrigação.",
-          "I — Obrigação absoluta. | II — Obrigação."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Possibilidade.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Must expressa:\n\nII. Should expressa:",
-        "options": [
-          "I — Comparação. | II — Passado.",
-          "I — Obrigação. | II — Conselho.",
-          "I — Comparação. | II — Conselho.",
-          "I — Obrigação. | II — Passado."
+          "Habilidade.",
+          "Obrigação.",
+          "Conselho leve.",
+          "Possibilidade remota."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Obrigação.”. No item II, a resposta correta é “Conselho.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Must marca obrigação forte.",
+        "tip": "Compare a força de must e should."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Should expressa:\n\nII. Must expressa:",
+        "question": "'Drivers should reduce speed in heavy rain.' Should indica:",
         "options": [
-          "I — Conselho. | II — Obrigação.",
-          "I — Causa. | II — Obrigação.",
-          "I — Conselho. | II — Artigo.",
-          "I — Causa. | II — Artigo."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Conselho.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. May pode indicar:\n\nII. Must expressa:",
-        "options": [
-          "I — Obrigação absoluta. | II — Obrigação.",
-          "I — Possibilidade. | II — Passado.",
-          "I — Obrigação absoluta. | II — Passado.",
-          "I — Possibilidade. | II — Obrigação."
+          "Certeza futura.",
+          "Proibição absoluta.",
+          "Capacidade física.",
+          "Recomendação."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Possibilidade.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Should apresenta conselho/recomendação.",
+        "tip": "Should não equivale a must."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Must expressa:\n\nII. Should expressa:",
+        "question": "'The new system may reduce errors.' May expressa:",
         "options": [
-          "I — Obrigação. | II — Causa.",
-          "I — Comparação. | II — Causa.",
-          "I — Obrigação. | II — Conselho.",
-          "I — Comparação. | II — Conselho."
+          "Certeza.",
+          "Obrigação.",
+          "Possibilidade.",
+          "Passado."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Obrigação.”. No item II, a resposta correta é “Conselho.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "May modaliza a afirmação como possível.",
+        "tip": "Não transforme possibilidade em certeza."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Should expressa:\n\nII. Must expressa:",
+        "question": "'She can speak English fluently.' Can indica principalmente:",
         "options": [
-          "I — Causa. | II — Passado.",
-          "I — Conselho. | II — Obrigação.",
-          "I — Causa. | II — Obrigação.",
-          "I — Conselho. | II — Passado."
+          "Concessão.",
+          "Proibição.",
+          "Capacidade.",
+          "Necessidade."
         ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Conselho.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 2,
+        "explanation": "Can expressa habilidade/capacidade.",
+        "tip": "Leia o verbo principal para decidir o valor do modal."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. May pode indicar:\n\nII. Must expressa:",
+        "question": "'Visitors must not enter this area.' A frase significa:",
         "options": [
-          "I — Possibilidade. | II — Obrigação.",
-          "I — Obrigação absoluta. | II — Obrigação.",
-          "I — Possibilidade. | II — Artigo.",
-          "I — Obrigação absoluta. | II — Artigo."
+          "É proibido aos visitantes entrar.",
+          "Talvez visitantes entrem.",
+          "Visitantes deveriam entrar.",
+          "Visitantes não precisam entrar."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Possibilidade.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Must not = proibição.",
+        "tip": "Must not ≠ do not have to."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Must expressa:\n\nII. Should expressa:",
+        "question": "'You do not have to bring a printed copy.' Significa:",
         "options": [
-          "I — Comparação. | II — Conselho.",
-          "I — Obrigação. | II — Passado.",
-          "I — Comparação. | II — Passado.",
-          "I — Obrigação. | II — Conselho."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Obrigação.”. No item II, a resposta correta é “Conselho.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Should expressa:\n\nII. Must expressa:",
-        "options": [
-          "I — Conselho. | II — Artigo.",
-          "I — Causa. | II — Artigo.",
-          "I — Conselho. | II — Obrigação.",
-          "I — Causa. | II — Obrigação."
+          "É obrigatório levar cópia.",
+          "É proibido levar cópia.",
+          "Não é necessário levar cópia.",
+          "Talvez seja impossível levar cópia."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Conselho.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Do not have to indica ausência de necessidade.",
+        "tip": "Diferencie falta de obrigação de proibição."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. May pode indicar:\n\nII. Must expressa:",
+        "question": "'The suspect might be abroad.' Might indica:",
         "options": [
-          "I — Obrigação absoluta. | II — Passado.",
-          "I — Possibilidade. | II — Obrigação.",
-          "I — Obrigação absoluta. | II — Obrigação.",
-          "I — Possibilidade. | II — Passado."
+          "Conselho.",
+          "Obrigação legal.",
+          "Ação passada confirmada.",
+          "Possibilidade incerta."
+        ],
+        "answer": 3,
+        "explanation": "Might expressa possibilidade, geralmente cautelosa.",
+        "tip": "Modais graduam certeza."
+      },
+      {
+        "question": "'Could you open the door?' Nesse contexto, could funciona como:",
+        "options": [
+          "Dedução certa.",
+          "Capacidade passada apenas.",
+          "Pedido polido.",
+          "Proibição."
+        ],
+        "answer": 2,
+        "explanation": "Could pode suavizar pedidos.",
+        "tip": "O valor modal depende do contexto comunicativo."
+      },
+      {
+        "question": "'Officers should have checked the equipment.' A estrutura sugere:",
+        "options": [
+          "Obrigação futura.",
+          "Capacidade presente.",
+          "Permissão formal.",
+          "Recomendação sobre uma ação passada que provavelmente não ocorreu como esperado."
+        ],
+        "answer": 3,
+        "explanation": "Should have + particípio avalia retrospectivamente uma ação.",
+        "tip": "Observe o perfect infinitive após modal."
+      },
+      {
+        "question": "'The lights are off; they must have left.' Must have left expressa:",
+        "options": [
+          "Dedução forte sobre o passado.",
+          "Conselho futuro.",
+          "Proibição passada.",
+          "Possibilidade fraca apenas."
+        ],
+        "answer": 0,
+        "explanation": "Must pode marcar dedução lógica forte.",
+        "tip": "Must nem sempre é obrigação."
+      },
+      {
+        "question": "Qual paráfrase preserva 'The policy may be revised'?",
+        "options": [
+          "É possível que a política seja revisada.",
+          "A política já foi revisada.",
+          "A política deve obrigatoriamente ser revisada.",
+          "A política será certamente revisada."
+        ],
+        "answer": 0,
+        "explanation": "May preserva possibilidade.",
+        "tip": "Paráfrase correta mantém o grau de certeza."
+      },
+      {
+        "question": "'Applicants can submit the form online.' Can, nesse contexto, indica melhor:",
+        "options": [
+          "Concessão adversativa.",
+          "Possibilidade/permissão operacional.",
+          "Obrigação.",
+          "Passado."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Possibilidade.”. No item II, a resposta correta é “Obrigação.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A frase informa uma opção disponível.",
+        "tip": "Can pode expressar capacidade, possibilidade ou permissão conforme o contexto."
       }
     ]
   },
   "6": {
     "title": "Conectivos e relações de sentido",
-    "subtitle": "Inglês • Aula 06 • Connectors",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 COESÃO</div><p><b>and</b>=adição; <b>however/but</b>=contraste; <b>because</b>=causa; <b>therefore/so</b>=consequência; <b>although</b>=concessão.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Conectivos e relações de sentido</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Conectivos são mapas lógicos</h3><p>And adiciona informação. But e however criam contraste. Because introduz causa ou justificativa. So e therefore apontam consequência. Although apresenta concessão.</p><p>Mesmo que parte do vocabulário seja desconhecida, o conectivo ajuda a prever a relação entre as frases.</p><h3>Exemplo completo</h3><p>'The area was dangerous, so officers increased patrols.' A primeira informação funciona como causa/situação e a segunda como consequência. Se a questão trocar so por however, a relação muda.</p><p>'Although it was raining, the event continued.' A chuva cria uma expectativa, mas o resultado contrasta com ela.</p><h3>Sinais equivalentes</h3><p>However e nevertheless podem ter valor de contraste; therefore e consequently podem introduzir consequência. Não é necessário decorar dezenas de palavras de uma vez, mas reconhecer famílias de relação.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar causa/contraste/consequência</li><li>interpretar although</li><li>usar conectivos para inferir sentido</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Linking Words — conectivos em Inglês</h3><p>Conectivos para entender contraste, causa, consequência e adição.</p><iframe src=\"https://www.youtube.com/embed/vvj5SxN-Rc4\" title=\"Linking Words — conectivos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 06",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Conectivos e relações de sentido</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Relações lógicas</h3><p>Because/since introduzem causa; therefore/so, consequência; although/even though/however, contraste; moreover/furthermore, adição.</p><h3>Concessão</h3><p>Although reconhece um fato que não impede o resultado principal. Despite/in spite of são seguidos por nome, pronome ou -ing, não por uma oração finita simples.</p><h3>Coesão</h3><p>Conectivos funcionam como sinais de trânsito argumentativos. Identificá-los ajuda a prever a direção do raciocínio antes de traduzir tudo.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Conectivos em Inglês</h3><p>Relações de adição, contraste, causa e consequência.</p><iframe src=\"https://www.youtube.com/embed/vvj5SxN-Rc4\" title=\"Conectivos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Linking Words — English in Brazil</h3><p>Despite, although, however, meanwhile e outros.</p><iframe src=\"https://www.youtube.com/embed/vUW8M--0YnE\" title=\"Linking Words — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However indica:\n\nII. Because indica:",
+        "question": "'The road was closed because there was an accident.' Because introduz:",
         "options": [
-          "I — Contraste. | II — Causa.",
-          "I — Causa. | II — Causa.",
-          "I — Contraste. | II — Consequência.",
-          "I — Causa. | II — Consequência."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “Causa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Because indica:\n\nII. However indica:",
-        "options": [
-          "I — Consequência. | II — Contraste.",
-          "I — Causa. | II — Tempo.",
-          "I — Consequência. | II — Tempo.",
-          "I — Causa. | II — Contraste."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Causa.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Therefore indica:\n\nII. However indica:",
-        "options": [
-          "I — Consequência/conclusão. | II — Adição.",
-          "I — Posse. | II — Adição.",
-          "I — Consequência/conclusão. | II — Contraste.",
-          "I — Posse. | II — Contraste."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Consequência/conclusão.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However indica:\n\nII. Because indica:",
-        "options": [
-          "I — Causa. | II — Plural.",
-          "I — Contraste. | II — Causa.",
-          "I — Causa. | II — Causa.",
-          "I — Contraste. | II — Plural."
+          "Adição.",
+          "Causa.",
+          "Contraste.",
+          "Consequência."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “Causa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Because apresenta a razão do fechamento.",
+        "tip": "Pergunte “por quê?”."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Because indica:\n\nII. However indica:",
+        "question": "'There was an accident; therefore, the road was closed.' Therefore introduz:",
         "options": [
-          "I — Causa. | II — Contraste.",
-          "I — Consequência. | II — Contraste.",
-          "I — Causa. | II — Adição.",
-          "I — Consequência. | II — Adição."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Causa.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Therefore indica:\n\nII. However indica:",
-        "options": [
-          "I — Posse. | II — Contraste.",
-          "I — Consequência/conclusão. | II — Tempo.",
-          "I — Posse. | II — Tempo.",
-          "I — Consequência/conclusão. | II — Contraste."
+          "Exemplo.",
+          "Concessão.",
+          "Causa anterior.",
+          "Consequência."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Consequência/conclusão.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Therefore sinaliza resultado/conclusão.",
+        "tip": "Causa e consequência podem aparecer em ordens diferentes."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However indica:\n\nII. Because indica:",
+        "question": "'Although the test was difficult, most candidates finished it.' Although marca:",
         "options": [
-          "I — Contraste. | II — Consequência.",
-          "I — Causa. | II — Consequência.",
-          "I — Contraste. | II — Causa.",
-          "I — Causa. | II — Causa."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “Causa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Because indica:\n\nII. However indica:",
-        "options": [
-          "I — Consequência. | II — Tempo.",
-          "I — Causa. | II — Contraste.",
-          "I — Consequência. | II — Contraste.",
-          "I — Causa. | II — Tempo."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Causa.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Therefore indica:\n\nII. However indica:",
-        "options": [
-          "I — Consequência/conclusão. | II — Contraste.",
-          "I — Posse. | II — Contraste.",
-          "I — Consequência/conclusão. | II — Adição.",
-          "I — Posse. | II — Adição."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Consequência/conclusão.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However indica:\n\nII. Because indica:",
-        "options": [
-          "I — Causa. | II — Causa.",
-          "I — Contraste. | II — Plural.",
-          "I — Causa. | II — Plural.",
-          "I — Contraste. | II — Causa."
+          "Causa.",
+          "Adição.",
+          "Finalidade.",
+          "Concessão/contraste."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “Causa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O resultado ocorre apesar da dificuldade.",
+        "tip": "Although = embora/apesar de que."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Because indica:\n\nII. However indica:",
+        "question": "'The system is faster; however, it is more expensive.' However indica:",
         "options": [
-          "I — Causa. | II — Adição.",
-          "I — Consequência. | II — Adição.",
-          "I — Causa. | II — Contraste.",
-          "I — Consequência. | II — Contraste."
+          "Explicação causal.",
+          "Exemplificação.",
+          "Contraste.",
+          "Sequência temporal."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Causa.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "However opõe vantagem e desvantagem.",
+        "tip": "Observe a mudança de direção argumentativa."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Therefore indica:\n\nII. However indica:",
+        "question": "'Officers received new equipment. Moreover, they completed additional training.' Moreover expressa:",
         "options": [
-          "I — Posse. | II — Tempo.",
-          "I — Consequência/conclusão. | II — Contraste.",
-          "I — Posse. | II — Contraste.",
-          "I — Consequência/conclusão. | II — Tempo."
+          "Exclusão.",
+          "Adição.",
+          "Causa.",
+          "Condição."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Consequência/conclusão.”. No item II, a resposta correta é “Contraste.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Moreover adiciona argumento/informação.",
+        "tip": "Linkers aditivos reforçam a mesma direção."
+      },
+      {
+        "question": "'Since visibility was poor, the operation was postponed.' Since significa:",
+        "options": [
+          "Apesar de.",
+          "Como/porque, indicando causa.",
+          "Portanto.",
+          "Desde, obrigatoriamente temporal."
+        ],
+        "answer": 1,
+        "explanation": "Neste contexto, since introduz causa.",
+        "tip": "Uma mesma palavra pode ter função temporal ou causal."
+      },
+      {
+        "question": "'Despite the rain, the event continued.' A estrutura correta equivalente é:",
+        "options": [
+          "The event continued so it did not rain.",
+          "Therefore the event continued raining.",
+          "Because it rained, the event stopped.",
+          "Although it was raining, the event continued."
+        ],
+        "answer": 3,
+        "explanation": "Despite + noun corresponde a although + clause em sentido concessivo.",
+        "tip": "Compare estrutura e relação lógica."
+      },
+      {
+        "question": "'The team trained hard so that it could respond faster.' So that introduz:",
+        "options": [
+          "Contraste.",
+          "Finalidade.",
+          "Causa passada.",
+          "Comparação."
+        ],
+        "answer": 1,
+        "explanation": "So that expressa propósito.",
+        "tip": "Pergunte “com que finalidade?”."
+      },
+      {
+        "question": "'Unless conditions improve, the operation will be canceled.' Unless equivale a:",
+        "options": [
+          "Although conditions improve.",
+          "After conditions improve.",
+          "Because conditions improve.",
+          "If conditions do not improve."
+        ],
+        "answer": 3,
+        "explanation": "Unless = if not.",
+        "tip": "Transforme unless em condição negativa para testar o sentido."
+      },
+      {
+        "question": "'While the first report emphasizes cost, the second focuses on safety.' While marca:",
+        "options": [
+          "Causa obrigatória.",
+          "Resultado.",
+          "Contraste entre enfoques.",
+          "Finalidade."
+        ],
+        "answer": 2,
+        "explanation": "While pode marcar contraste, além de simultaneidade temporal.",
+        "tip": "Use o contexto, não uma tradução única."
+      },
+      {
+        "question": "Qual alternativa preserva 'The plan was expensive, yet effective'?",
+        "options": [
+          "O plano era barato e ineficaz.",
+          "O plano era caro e, ainda assim, eficaz.",
+          "O plano era eficaz porque era caro.",
+          "O plano era caro, portanto ineficaz."
+        ],
+        "answer": 1,
+        "explanation": "Yet introduz contraste inesperado.",
+        "tip": "Preserve a relação lógica, não só as palavras."
+      },
+      {
+        "question": "'In addition to reducing costs, the measure improved response time.' In addition to indica:",
+        "options": [
+          "Adição de benefício.",
+          "Causa exclusiva.",
+          "Condição.",
+          "Negação."
+        ],
+        "answer": 0,
+        "explanation": "A expressão acrescenta um segundo efeito positivo.",
+        "tip": "Identifique se o conector soma, opõe ou explica."
       }
     ]
   },
   "7": {
     "title": "Negação, comparação e quantificadores",
-    "subtitle": "Inglês • Aula 07 • Grammar in Context",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>📋 SENTIDO</div><p><b>not/never/no</b> mudam o sentido. <i>safer than</i>=mais seguro que; <i>more important</i>=mais importante. Many/much/few/little indicam quantidade.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Negação, comparação e quantificadores</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Negação</h3><p>Not, never, no, nobody, nothing e hardly podem alterar totalmente uma afirmação. Questões frequentemente tentam enganar retirando a negativa.</p><p>'The officer did not agree' significa o oposto de 'The officer agreed'. Leia negativas com atenção especial.</p><h3>Comparação</h3><p>Adjetivos curtos frequentemente usam -er + than: safer than, faster than. Adjetivos maiores usam more: more important, more difficult. Less expressa menor grau.</p><p>Superlativos com -est ou most indicam extremo dentro de um grupo: the safest, the most important.</p><h3>Quantificadores</h3><p>Many é usado com contáveis plurais; much com incontáveis; a lot of pode ocorrer com ambos em muitos contextos. Few/little indicam pouca quantidade, com diferenças conforme o tipo de substantivo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar negativas</li><li>reconhecer comparativo e superlativo</li><li>distinguir many/much</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Quantificadores — many, much, a lot of, lots of</h3><p>Aula de quantificadores do canal Inglês para Concursos.</p><iframe src=\"https://www.youtube.com/embed/yTjNiMKLWXM\" title=\"Quantificadores — many, much, a lot of, lots of\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 07",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Negação, comparação e quantificadores</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Comparação</h3><p>Comparatives comparam dois referentes; superlatives destacam um elemento dentro de um grupo. Better/worse são formas irregulares importantes.</p><h3>Quantificadores</h3><p>Many/few combinam com contáveis; much/little com incontáveis. A few/a little têm sentido mais positivo que few/little.</p><h3>Escopo e intensidade</h3><p>More, less, fewer, most, least, enough e too alteram quantidade ou grau; atenção para não transformar “fewer accidents” em “no accidents”.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Comparativos e quantificadores</h3><p>Comparação e quantidade em contexto.</p><iframe src=\"https://www.youtube.com/embed/yTjNiMKLWXM\" title=\"Comparativos e quantificadores\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Comparative e Superlative</h3><p>Regras e interpretação das comparações.</p><iframe src=\"https://www.youtube.com/embed/gZqvFsR2iFc\" title=\"Comparative e Superlative\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Never significa:\n\nII. Safer than significa:",
+        "question": "'This route is safer than the old one.' Significa:",
         "options": [
-          "I — Nunca. | II — Mais seguro que.",
-          "I — Sempre. | II — Mais seguro que.",
-          "I — Nunca. | II — Nunca seguro.",
-          "I — Sempre. | II — Nunca seguro."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Nunca.”. No item II, a resposta correta é “Mais seguro que.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Safer than significa:\n\nII. Never significa:",
-        "options": [
-          "I — Nunca seguro. | II — Nunca.",
-          "I — Mais seguro que. | II — Mais.",
-          "I — Nunca seguro. | II — Mais.",
-          "I — Mais seguro que. | II — Nunca."
+          "Esta é a rota mais segura de todas.",
+          "Esta rota é menos segura.",
+          "As rotas são igualmente seguras.",
+          "Esta rota é mais segura que a antiga."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Mais seguro que.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Safer than é comparativo de superioridade.",
+        "tip": "Than costuma acompanhar comparação entre dois referentes."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. More important significa:\n\nII. Never significa:",
+        "question": "'This is the most efficient method.' A estrutura é:",
         "options": [
-          "I — Mais importante. | II — Talvez.",
-          "I — Não importante. | II — Talvez.",
-          "I — Mais importante. | II — Nunca.",
-          "I — Não importante. | II — Nunca."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Mais importante.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Never significa:\n\nII. Safer than significa:",
-        "options": [
-          "I — Sempre. | II — Menos seguro.",
-          "I — Nunca. | II — Mais seguro que.",
-          "I — Sempre. | II — Mais seguro que.",
-          "I — Nunca. | II — Menos seguro."
+          "Negação.",
+          "Superlativo.",
+          "Comparativo.",
+          "Modalidade."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Nunca.”. No item II, a resposta correta é “Mais seguro que.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "The most efficient destaca grau máximo em um grupo.",
+        "tip": "Superlativo normalmente envolve the most/-est."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Safer than significa:\n\nII. Never significa:",
+        "question": "'Fewer accidents were reported this year.' Fewer indica:",
         "options": [
-          "I — Mais seguro que. | II — Nunca.",
-          "I — Nunca seguro. | II — Nunca.",
-          "I — Mais seguro que. | II — Talvez.",
-          "I — Nunca seguro. | II — Talvez."
+          "Menor número de itens contáveis.",
+          "Menor quantidade incontável.",
+          "Maior número.",
+          "Ausência total."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Mais seguro que.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Accidents é contável; fewer = menos em número.",
+        "tip": "Fewer + countable; less + uncountable em regra geral."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. More important significa:\n\nII. Never significa:",
+        "question": "'There is little evidence to support the claim.' Little sugere:",
         "options": [
-          "I — Não importante. | II — Nunca.",
-          "I — Mais importante. | II — Mais.",
-          "I — Não importante. | II — Mais.",
-          "I — Mais importante. | II — Nunca."
+          "Muitas evidências.",
+          "Número exato de evidências.",
+          "Algumas evidências em tom positivo.",
+          "Quantidade pequena/insuficiente de evidence."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Mais importante.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Little com incontável frequentemente tem sentido negativo de escassez.",
+        "tip": "Compare little x a little."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Never significa:\n\nII. Safer than significa:",
+        "question": "'A few officers volunteered.' A few sugere:",
         "options": [
-          "I — Nunca. | II — Nunca seguro.",
-          "I — Sempre. | II — Nunca seguro.",
-          "I — Nunca. | II — Mais seguro que.",
-          "I — Sempre. | II — Mais seguro que."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Nunca.”. No item II, a resposta correta é “Mais seguro que.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Safer than significa:\n\nII. Never significa:",
-        "options": [
-          "I — Nunca seguro. | II — Mais.",
-          "I — Mais seguro que. | II — Nunca.",
-          "I — Nunca seguro. | II — Nunca.",
-          "I — Mais seguro que. | II — Mais."
+          "Nenhum policial.",
+          "Alguns policiais, quantidade pequena mas existente.",
+          "Todos os policiais.",
+          "Quantidade incontável."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Mais seguro que.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A few é usado com contáveis e indica alguns.",
+        "tip": "O artigo a muda a nuance de few."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. More important significa:\n\nII. Never significa:",
+        "question": "'Much information was collected.' Much combina com:",
         "options": [
-          "I — Mais importante. | II — Nunca.",
-          "I — Não importante. | II — Nunca.",
-          "I — Mais importante. | II — Talvez.",
-          "I — Não importante. | II — Talvez."
+          "Substantivo incontável.",
+          "Plural contável obrigatório.",
+          "Pronome relativo.",
+          "Comparativo."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Mais importante.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Information é incontável em inglês.",
+        "tip": "Não pluralize information como regra do português."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Never significa:\n\nII. Safer than significa:",
+        "question": "'The new process is less expensive than the previous one.' Less expensive significa:",
         "options": [
-          "I — Sempre. | II — Mais seguro que.",
-          "I — Nunca. | II — Menos seguro.",
-          "I — Sempre. | II — Menos seguro.",
-          "I — Nunca. | II — Mais seguro que."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Nunca.”. No item II, a resposta correta é “Mais seguro que.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Safer than significa:\n\nII. Never significa:",
-        "options": [
-          "I — Mais seguro que. | II — Talvez.",
-          "I — Nunca seguro. | II — Talvez.",
-          "I — Mais seguro que. | II — Nunca.",
-          "I — Nunca seguro. | II — Nunca."
+          "Igualmente caro.",
+          "Mais caro.",
+          "Menos caro.",
+          "O mais barato de todos necessariamente."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Mais seguro que.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Less + adjective forma comparação de inferioridade.",
+        "tip": "Preserve o eixo comparado."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. More important significa:\n\nII. Never significa:",
+        "question": "'Both units passed the inspection.' Both indica:",
         "options": [
-          "I — Não importante. | II — Mais.",
-          "I — Mais importante. | II — Nunca.",
-          "I — Não importante. | II — Nunca.",
-          "I — Mais importante. | II — Mais."
+          "Mais de três.",
+          "As duas.",
+          "Nenhuma das duas.",
+          "Apenas uma."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Mais importante.”. No item II, a resposta correta é “Nunca.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Both = ambos/as.",
+        "tip": "Quantificadores determinam o alcance da afirmação."
+      },
+      {
+        "question": "'Neither proposal was accepted.' Significa:",
+        "options": [
+          "As duas propostas foram aceitas.",
+          "Nenhuma das duas propostas foi aceita.",
+          "Uma das duas foi aceita.",
+          "Todas as propostas possíveis foram rejeitadas."
+        ],
+        "answer": 1,
+        "explanation": "Neither refere-se a nenhum de dois elementos.",
+        "tip": "Não generalize além do conjunto mencionado."
+      },
+      {
+        "question": "'The response was better than expected.' Better é:",
+        "options": [
+          "Comparativo irregular de good.",
+          "Advérbio de negação.",
+          "Forma de much.",
+          "Superlativo de bad."
+        ],
+        "answer": 0,
+        "explanation": "Good → better → best.",
+        "tip": "Memorize comparativos irregulares frequentes."
+      },
+      {
+        "question": "'Too many vehicles entered the area.' Too many expressa:",
+        "options": [
+          "Quantidade suficiente.",
+          "Pouca quantidade incontável.",
+          "Comparação neutra.",
+          "Quantidade excessiva de contáveis."
+        ],
+        "answer": 3,
+        "explanation": "Vehicles é contável e too many indica excesso.",
+        "tip": "Too acrescenta ideia de excesso/problema."
+      },
+      {
+        "question": "'There were enough officers to secure the site.' Enough indica:",
+        "options": [
+          "Quantidade suficiente.",
+          "Nenhuma quantidade.",
+          "Comparativo de superioridade.",
+          "Quantidade excessiva."
+        ],
+        "answer": 0,
+        "explanation": "Enough = suficiente para a finalidade indicada.",
+        "tip": "Leia a relação enough + to."
       }
     ]
   },
   "8": {
     "title": "Interpretação PMMG — treino integrado",
-    "subtitle": "Inglês • Aula 08 • Revisão",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>🎯 TREINO INTEGRADO</div><p>Una contexto, cognatos, referências, tempos, modais e conectivos. Responda pelo que o texto permite concluir, não por opinião externa.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Interpretação PMMG — treino integrado</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Passo a passo</h3><p>Primeiro leia título e pergunta. Depois faça skimming para identificar tema. Em seguida use scanning para localizar o trecho relevante. Marque cognatos, conectivos, pronomes e verbos que ajudam a reconstruir o sentido.</p><p>Não transforme uma palavra desconhecida em obstáculo central se ela não for necessária para responder.</p><h3>Testando alternativas</h3><p>Volte ao texto para cada alternativa. Elimine as que contradizem o trecho, ampliam uma afirmação moderada ou acrescentam informação não mencionada.</p><p>Palavras como always, never, only e all podem tornar uma alternativa forte demais.</p><h3>Gramática a serviço da leitura</h3><p>Tempo verbal mostra quando ocorre o fato; modal mostra grau de obrigação ou possibilidade; pronome mostra quem é retomado; conectivo mostra relação lógica. A gramática é ferramenta de interpretação.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>seguir um roteiro de leitura</li><li>eliminar alternativa exagerada</li><li>usar gramática para reconstruir sentido</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Interpretação de Textos em Inglês</h3><p>Revisão integrada de leitura e interpretação para concursos.</p><iframe src=\"https://www.youtube.com/embed/yL1zrEKBLp0\" title=\"Interpretação de Textos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "subtitle": "Inglês • Aula 08",
+    "time": "55 min",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Interpretação PMMG — treino integrado</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Leitura integrada</h3><p>Questões reais misturam referência, conectivos, modalidade, vocabulário e inferência. O melhor método é localizar a evidência e testar cada alternativa contra ela.</p><h3>Paráfrase</h3><p>A resposta correta frequentemente reescreve o texto com sinônimos. O candidato deve preservar sujeito, polaridade, intensidade, tempo e relação lógica.</p><h3>Armadilhas</h3><p>Generalização indevida, inversão de causa e consequência, troca de possibilidade por certeza e inclusão de informação externa são distratores recorrentes.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Interpretação de textos em Inglês</h3><p>Estratégias integradas de leitura.</p><iframe src=\"https://www.youtube.com/embed/yL1zrEKBLp0\" title=\"Interpretação de textos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Tempos verbais — visão geral</h3><p>Revisão gramatical aplicada à compreensão.</p><iframe src=\"https://www.youtube.com/embed/HVYOjvibZPg\" title=\"Tempos verbais — visão geral\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A resposta de interpretação deve se apoiar:\n\nII. Can pode indicar:",
+        "question": "Texto: 'The city installed cameras in 2025. Since then, reports of vandalism have decreased, although officials say other factors may also have contributed.' Qual conclusão é mais fiel?",
         "options": [
-          "I — No texto e em suas pistas. | II — Possibilidade/capacidade.",
-          "I — Em tradução total. | II — Possibilidade/capacidade.",
-          "I — No texto e em suas pistas. | II — Artigo.",
-          "I — Em tradução total. | II — Artigo."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “No texto e em suas pistas.”. No item II, a resposta correta é “Possibilidade/capacidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Can pode indicar:\n\nII. A resposta de interpretação deve se apoiar:",
-        "options": [
-          "I — Artigo. | II — No texto e em suas pistas.",
-          "I — Possibilidade/capacidade. | II — Na alternativa maior.",
-          "I — Artigo. | II — Na alternativa maior.",
-          "I — Possibilidade/capacidade. | II — No texto e em suas pistas."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Possibilidade/capacidade.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However é pista de:\n\nII. A resposta de interpretação deve se apoiar:",
-        "options": [
-          "I — Contraste. | II — Na opinião pessoal.",
-          "I — Posse. | II — Na opinião pessoal.",
-          "I — Contraste. | II — No texto e em suas pistas.",
-          "I — Posse. | II — No texto e em suas pistas."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A resposta de interpretação deve se apoiar:\n\nII. Can pode indicar:",
-        "options": [
-          "I — Em tradução total. | II — Negação.",
-          "I — No texto e em suas pistas. | II — Possibilidade/capacidade.",
-          "I — Em tradução total. | II — Possibilidade/capacidade.",
-          "I — No texto e em suas pistas. | II — Negação."
+          "O vandalismo aumentou.",
+          "Houve redução após a instalação, mas o texto não atribui causalidade exclusiva às câmeras.",
+          "As câmeras foram a única causa da redução.",
+          "Autoridades negam qualquer relação temporal."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “No texto e em suas pistas.”. No item II, a resposta correta é “Possibilidade/capacidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Although e may impedem uma conclusão causal absoluta.",
+        "tip": "Separe sequência temporal de causalidade comprovada."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Can pode indicar:\n\nII. A resposta de interpretação deve se apoiar:",
+        "question": "Texto: 'Only applicants who submitted all documents were invited.' Quem foi convidado?",
         "options": [
-          "I — Possibilidade/capacidade. | II — No texto e em suas pistas.",
-          "I — Artigo. | II — No texto e em suas pistas.",
-          "I — Possibilidade/capacidade. | II — Na opinião pessoal.",
-          "I — Artigo. | II — Na opinião pessoal."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Possibilidade/capacidade.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However é pista de:\n\nII. A resposta de interpretação deve se apoiar:",
-        "options": [
-          "I — Posse. | II — No texto e em suas pistas.",
-          "I — Contraste. | II — Na alternativa maior.",
-          "I — Posse. | II — Na alternativa maior.",
-          "I — Contraste. | II — No texto e em suas pistas."
+          "Ninguém.",
+          "Todos os candidatos.",
+          "Somente quem entregou parte dos documentos.",
+          "Apenas os que entregaram todos os documentos."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Only restringe o grupo; who submitted... define quais candidatos.",
+        "tip": "Observe restritores e relative clauses."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A resposta de interpretação deve se apoiar:\n\nII. Can pode indicar:",
+        "question": "Texto: 'The policy was revised because complaints had increased.' Qual evento ocorreu primeiro?",
         "options": [
-          "I — No texto e em suas pistas. | II — Artigo.",
-          "I — Em tradução total. | II — Artigo.",
-          "I — No texto e em suas pistas. | II — Possibilidade/capacidade.",
-          "I — Em tradução total. | II — Possibilidade/capacidade."
+          "Não há relação temporal.",
+          "Os dois necessariamente simultâneos.",
+          "O aumento das reclamações.",
+          "A revisão."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “No texto e em suas pistas.”. No item II, a resposta correta é “Possibilidade/capacidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Had increased indica anterioridade e because apresenta causa.",
+        "tip": "Combine tempo verbal e conectivo."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Can pode indicar:\n\nII. A resposta de interpretação deve se apoiar:",
+        "question": "Texto: 'Officers should verify the information before sharing it.' A mensagem principal é:",
         "options": [
-          "I — Artigo. | II — Na alternativa maior.",
-          "I — Possibilidade/capacidade. | II — No texto e em suas pistas.",
-          "I — Artigo. | II — No texto e em suas pistas.",
-          "I — Possibilidade/capacidade. | II — Na alternativa maior."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Possibilidade/capacidade.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However é pista de:\n\nII. A resposta de interpretação deve se apoiar:",
-        "options": [
-          "I — Contraste. | II — No texto e em suas pistas.",
-          "I — Posse. | II — No texto e em suas pistas.",
-          "I — Contraste. | II — Na opinião pessoal.",
-          "I — Posse. | II — Na opinião pessoal."
+          "Recomendação de verificar antes do compartilhamento.",
+          "Descrição de hábito passado.",
+          "Proibição absoluta de compartilhar.",
+          "Certeza de que a informação é falsa."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Should marca recomendação.",
+        "tip": "Não aumente a força modal."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A resposta de interpretação deve se apoiar:\n\nII. Can pode indicar:",
+        "question": "Texto: 'The equipment, which was purchased last year, is already obsolete.' A oração entre vírgulas:",
         "options": [
-          "I — Em tradução total. | II — Possibilidade/capacidade.",
-          "I — No texto e em suas pistas. | II — Negação.",
-          "I — Em tradução total. | II — Negação.",
-          "I — No texto e em suas pistas. | II — Possibilidade/capacidade."
+          "Restringe quais equipamentos existem.",
+          "Transforma equipment em plural.",
+          "Indica causa obrigatória.",
+          "Acrescenta informação sobre o equipamento já identificado."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “No texto e em suas pistas.”. No item II, a resposta correta é “Possibilidade/capacidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Non-defining relative clause adiciona informação acessória.",
+        "tip": "Vírgulas são pista importante."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Can pode indicar:\n\nII. A resposta de interpretação deve se apoiar:",
+        "question": "Texto: 'Few residents opposed the measure.' A leitura adequada é:",
         "options": [
-          "I — Possibilidade/capacidade. | II — Na opinião pessoal.",
-          "I — Artigo. | II — Na opinião pessoal.",
-          "I — Possibilidade/capacidade. | II — No texto e em suas pistas.",
-          "I — Artigo. | II — No texto e em suas pistas."
+          "Nenhum se opôs necessariamente.",
+          "Muitos se opuseram.",
+          "Poucos se opuseram.",
+          "Todos se opuseram."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Possibilidade/capacidade.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Few = poucos, não zero.",
+        "tip": "Evite converter quantidade pequena em ausência total."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. However é pista de:\n\nII. A resposta de interpretação deve se apoiar:",
+        "question": "Texto: 'The suspect was seen near the station.' O foco gramatical recai sobre:",
         "options": [
-          "I — Posse. | II — Na alternativa maior.",
-          "I — Contraste. | II — No texto e em suas pistas.",
-          "I — Posse. | II — No texto e em suas pistas.",
-          "I — Contraste. | II — Na alternativa maior."
+          "Quem viu, necessariamente identificado.",
+          "Uma comparação.",
+          "O suspeito, paciente da ação.",
+          "Uma obrigação futura."
+        ],
+        "answer": 2,
+        "explanation": "A passiva destaca suspect; o agente foi omitido.",
+        "tip": "Na passiva, o agente pode não aparecer."
+      },
+      {
+        "question": "Texto: 'The road was wet; therefore, drivers were advised to slow down.' Therefore sinaliza:",
+        "options": [
+          "Contraste.",
+          "Consequência lógica.",
+          "Condição.",
+          "Exemplo."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Contraste.”. No item II, a resposta correta é “No texto e em suas pistas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A recomendação decorre da condição da via.",
+        "tip": "Mapeie causa → consequência."
+      },
+      {
+        "question": "Texto: 'The proposal is likely to reduce costs.' Likely indica:",
+        "options": [
+          "Evento já concluído.",
+          "Obrigação legal.",
+          "Probabilidade, não certeza absoluta.",
+          "Impossibilidade."
+        ],
+        "answer": 2,
+        "explanation": "Likely = provável.",
+        "tip": "Preserve graus de certeza."
+      },
+      {
+        "question": "Texto: 'This decision surprised the team.' Se a frase anterior descreve o cancelamento da operação, this decision retoma:",
+        "options": [
+          "O cancelamento.",
+          "Uma decisão futura não mencionada.",
+          "Somente a palavra operation.",
+          "A equipe."
+        ],
+        "answer": 0,
+        "explanation": "This decision encapsula a decisão descrita anteriormente.",
+        "tip": "Referência pode resumir uma ideia inteira."
+      },
+      {
+        "question": "Texto: 'The new unit is responsible for monitoring traffic.' Responsible for significa:",
+        "options": [
+          "Respondendo para.",
+          "Possível de.",
+          "Contrário a.",
+          "Responsável por."
+        ],
+        "answer": 3,
+        "explanation": "É combinação lexical fixa.",
+        "tip": "Aprenda preposição junto com a expressão."
+      },
+      {
+        "question": "Qual alternativa é uma paráfrase fiel de 'The measure did not eliminate the problem, but it reduced its impact'?",
+        "options": [
+          "A medida não eliminou o problema, porém diminuiu seu impacto.",
+          "O problema não existia.",
+          "A medida resolveu completamente o problema.",
+          "A medida aumentou o impacto."
+        ],
+        "answer": 0,
+        "explanation": "A paráfrase preserva negação, contraste e redução parcial.",
+        "tip": "Cheque polaridade e intensidade."
       }
     ]
   },
   "9": {
     "title": "Preposições essenciais para leitura",
-    "subtitle": "Inglês • Aula 09 • Prepositions",
+    "subtitle": "Inglês • Aula 09",
     "time": "55 min",
-    "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Preposições essenciais para leitura</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Tempo e lugar</h3><p>At aparece frequentemente com horários e pontos específicos; on com dias e datas; in com meses, anos, períodos e espaços amplos. Essas tendências devem ser confirmadas pelo contexto.</p><h3>Combinações</h3><p>Preposições fazem parte de combinações como interested in, responsible for, afraid of e depend on. Reconhecer a combinação ajuda a compreender a frase.</p><h3>Movimento</h3><p>To costuma marcar direção, from origem, into movimento para dentro e through passagem através de algo.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>IN, ON e AT — preposições de tempo e lugar</h3><p>Aula completa para consolidar o uso das preposições mais cobradas em leitura e gramática.</p><iframe src=\"https://www.youtube.com/embed/vXgKhBF0FD0\" title=\"IN, ON e AT — preposições de tempo e lugar\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Preposições essenciais para leitura</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Tempo e lugar</h3><p>At tende a marcar pontos específicos; on, dias/datas/superfícies; in, períodos amplos, cidades, países e espaços delimitados.</p><h3>Combinações</h3><p>Preposições também aparecem em combinações lexicais: responsible for, interested in, depend on, according to. Nem sempre há tradução palavra por palavra.</p><h3>Leitura</h3><p>Uma preposição pode alterar relação espacial, temporal ou abstrata; interprete o bloco completo, não a palavra isolada.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Preposições IN, ON e AT</h3><p>Uso de preposições de tempo e lugar.</p><iframe src=\"https://www.youtube.com/embed/vXgKhBF0FD0\" title=\"Preposições IN, ON e AT\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>IN, ON, AT — Wizard</h3><p>Revisão prática das preposições essenciais.</p><iframe src=\"https://www.youtube.com/embed/342I1uuugcE\" title=\"IN, ON, AT — Wizard\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em horário específico, é comum usar:\n\nII. From costuma indicar:",
+        "question": "'The meeting starts at 8 a.m.' At é usado porque:",
         "options": [
-          "I — At. | II — Origem.",
-          "I — On. | II — Origem.",
-          "I — At. | II — Plural.",
-          "I — On. | II — Plural."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “At.”. No item II, a resposta correta é “Origem.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. From costuma indicar:\n\nII. Considere: I. at 8 p.m.; II. on Monday; III. in July. Quanto ao uso das preposições de tempo, assinale a opção correta.",
-        "options": [
-          "I — Plural. | II — I, II e III estão corretas.",
-          "I — Origem. | II — I e II estão incorretas.",
-          "I — Plural. | II — I e II estão incorretas.",
-          "I — Origem. | II — I, II e III estão corretas."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Origem.”. No item II, a resposta correta é “I, II e III estão corretas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Into pode indicar:\n\nII. Assinale a alternativa em que a preposição faz parte de uma combinação lexical adequada.",
-        "options": [
-          "I — Movimento para dentro. | II — afraid in dogs.",
-          "I — Passado. | II — afraid in dogs.",
-          "I — Movimento para dentro. | II — responsible for the report.",
-          "I — Passado. | II — responsible for the report."
+          "É um país.",
+          "É um dia da semana.",
+          "8 a.m. é horário específico.",
+          "É uma superfície."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Movimento para dentro.”. No item II, a resposta correta é “responsible for the report.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "At marca ponto específico no tempo.",
+        "tip": "At → ponto específico."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Considere: I. at 8 p.m.; II. on Monday; III. in July. Quanto ao uso das preposições de tempo, assinale a opção correta.\n\nII. From costuma indicar:",
+        "question": "'The operation took place on Monday.' On é adequado por se tratar de:",
         "options": [
-          "I — Apenas I está correta. | II — Comparação.",
-          "I — I, II e III estão corretas. | II — Origem.",
-          "I — Apenas I está correta. | II — Origem.",
-          "I — I, II e III estão corretas. | II — Comparação."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “I, II e III estão corretas.”. No item II, a resposta correta é “Origem.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The officer walked into the building and came from the parking lot”, into e from indicam, respectivamente:\n\nII. Considere: I. at 8 p.m.; II. on Monday; III. in July. Quanto ao uso das preposições de tempo, assinale a opção correta.",
-        "options": [
-          "I — movimento para dentro e origem. | II — I, II e III estão corretas.",
-          "I — causa e consequência. | II — I, II e III estão corretas.",
-          "I — movimento para dentro e origem. | II — Apenas II e III estão corretas.",
-          "I — causa e consequência. | II — Apenas II e III estão corretas."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “movimento para dentro e origem.”. No item II, a resposta correta é “I, II e III estão corretas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Assinale a alternativa em que a preposição faz parte de uma combinação lexical adequada.\n\nII. Em horário específico, é comum usar:",
-        "options": [
-          "I — depend at the result. | II — At.",
-          "I — responsible for the report. | II — In.",
-          "I — depend at the result. | II — In.",
-          "I — responsible for the report. | II — At."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “responsible for the report.”. No item II, a resposta correta é “At.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em horário específico, é comum usar:\n\nII. From costuma indicar:",
-        "options": [
-          "I — At. | II — Plural.",
-          "I — On. | II — Plural.",
-          "I — At. | II — Origem.",
-          "I — On. | II — Origem."
+          "Horário.",
+          "Cidade.",
+          "Dia específico.",
+          "Mês sem data."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “At.”. No item II, a resposta correta é “Origem.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "On é usado com dias e datas.",
+        "tip": "On → dias/datas."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. From costuma indicar:\n\nII. Considere: I. at 8 p.m.; II. on Monday; III. in July. Quanto ao uso das preposições de tempo, assinale a opção correta.",
+        "question": "'The course begins in September.' In é usado com:",
         "options": [
-          "I — Plural. | II — I e II estão incorretas.",
-          "I — Origem. | II — I, II e III estão corretas.",
-          "I — Plural. | II — I, II e III estão corretas.",
-          "I — Origem. | II — I e II estão incorretas."
+          "Superfície.",
+          "Mês.",
+          "Hora exata.",
+          "Dia específico com data completa."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Origem.”. No item II, a resposta correta é “I, II e III estão corretas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "In combina com meses e períodos amplos.",
+        "tip": "In → períodos amplos."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Into pode indicar:\n\nII. Assinale a alternativa em que a preposição faz parte de uma combinação lexical adequada.",
+        "question": "'The documents are on the table.' On expressa:",
         "options": [
-          "I — Movimento para dentro. | II — responsible for the report.",
-          "I — Passado. | II — responsible for the report.",
-          "I — Movimento para dentro. | II — afraid in dogs.",
-          "I — Passado. | II — afraid in dogs."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Movimento para dentro.”. No item II, a resposta correta é “responsible for the report.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Considere: I. at 8 p.m.; II. on Monday; III. in July. Quanto ao uso das preposições de tempo, assinale a opção correta.\n\nII. From costuma indicar:",
-        "options": [
-          "I — Apenas I está correta. | II — Origem.",
-          "I — I, II e III estão corretas. | II — Comparação.",
-          "I — Apenas I está correta. | II — Comparação.",
-          "I — I, II e III estão corretas. | II — Origem."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “I, II e III estão corretas.”. No item II, a resposta correta é “Origem.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The officer walked into the building and came from the parking lot”, into e from indicam, respectivamente:\n\nII. Considere: I. at 8 p.m.; II. on Monday; III. in July. Quanto ao uso das preposições de tempo, assinale a opção correta.",
-        "options": [
-          "I — movimento para dentro e origem. | II — Apenas II e III estão corretas.",
-          "I — causa e consequência. | II — Apenas II e III estão corretas.",
-          "I — movimento para dentro e origem. | II — I, II e III estão corretas.",
-          "I — causa e consequência. | II — I, II e III estão corretas."
+          "Ponto de encontro.",
+          "Interior fechado.",
+          "Contato com superfície.",
+          "Origem."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “movimento para dentro e origem.”. No item II, a resposta correta é “I, II e III estão corretas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "On the table indica superfície.",
+        "tip": "Visualize a relação espacial."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Assinale a alternativa em que a preposição faz parte de uma combinação lexical adequada.\n\nII. Em horário específico, é comum usar:",
+        "question": "'The officers are in the building.' In indica:",
         "options": [
-          "I — depend at the result. | II — In.",
-          "I — responsible for the report. | II — At.",
-          "I — depend at the result. | II — At.",
-          "I — responsible for the report. | II — In."
+          "Interior de espaço delimitado.",
+          "Superfície.",
+          "Horário.",
+          "Movimento para fora."
+        ],
+        "answer": 0,
+        "explanation": "In the building = dentro do edifício.",
+        "tip": "In frequentemente indica interior."
+      },
+      {
+        "question": "'Meet me at the station.' At apresenta station como:",
+        "options": [
+          "Ponto/local de referência.",
+          "País.",
+          "Interior obrigatório de cada sala.",
+          "Superfície."
+        ],
+        "answer": 0,
+        "explanation": "At pode tratar um local como ponto.",
+        "tip": "A preposição depende da perspectiva espacial."
+      },
+      {
+        "question": "'The unit is responsible for public safety.' A combinação correta é:",
+        "options": [
+          "Responsible in.",
+          "Responsible for.",
+          "Responsible of.",
+          "Responsible at."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “responsible for the report.”. No item II, a resposta correta é “At.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Responsible for é collocation padrão.",
+        "tip": "Memorize adjetivo + preposição em bloco."
+      },
+      {
+        "question": "'Success depends on adequate training.' Depends on significa:",
+        "options": [
+          "Entra em.",
+          "Discorda de.",
+          "Responde a.",
+          "Depende de."
+        ],
+        "answer": 3,
+        "explanation": "Depend on é combinação fixa.",
+        "tip": "Evite tradução isolada da preposição."
+      },
+      {
+        "question": "'According to the report, incidents decreased.' According to introduz:",
+        "options": [
+          "Fonte/referência da informação.",
+          "Contraste.",
+          "Proibição.",
+          "Comparação."
+        ],
+        "answer": 0,
+        "explanation": "According to = de acordo com.",
+        "tip": "Expressões preposicionais podem indicar fonte."
+      },
+      {
+        "question": "'The officer is interested in forensic science.' A preposição exigida por interested é:",
+        "options": [
+          "At.",
+          "In.",
+          "For.",
+          "On."
+        ],
+        "answer": 1,
+        "explanation": "Interested in é collocation padrão.",
+        "tip": "Aprenda regência lexical."
+      },
+      {
+        "question": "'The suspect ran into the building.' Into acrescenta ideia de:",
+        "options": [
+          "Movimento para o interior.",
+          "Posição estática no interior.",
+          "Movimento para fora.",
+          "Superfície."
+        ],
+        "answer": 0,
+        "explanation": "Into marca movimento de fora para dentro.",
+        "tip": "Diferencie in (posição) de into (movimento)."
+      },
+      {
+        "question": "'The patrol moved through the tunnel.' Through indica:",
+        "options": [
+          "Ponto específico no tempo.",
+          "Movimento atravessando o interior.",
+          "Causa.",
+          "Posse."
+        ],
+        "answer": 1,
+        "explanation": "Through descreve passagem de um lado a outro por dentro.",
+        "tip": "Associe preposição ao trajeto."
       }
     ]
   },
   "10": {
     "title": "Voz ativa e voz passiva",
-    "subtitle": "Inglês • Aula 10 • Passive Voice",
+    "subtitle": "Inglês • Aula 10",
     "time": "55 min",
-    "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Voz ativa e voz passiva</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Foco</h3><p>Na ativa, o sujeito pratica a ação: The officer arrested the suspect. Na passiva, o foco passa a quem recebe: The suspect was arrested by the officer.</p><h3>Estrutura</h3><p>A voz passiva usa uma forma de to be mais particípio passado. O tempo verbal aparece no to be: is arrested, was arrested, will be arrested.</p><h3>Uso textual</h3><p>A passiva é comum em notícias e textos informativos quando o acontecimento importa mais que o agente.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Passive Voice — voz ativa e voz passiva</h3><p>Revisão da formação e do uso da voz passiva em inglês, com contraste entre foco no agente e na ação.</p><iframe src=\"https://www.youtube.com/embed/7wh3XMynGqk\" title=\"Passive Voice — voz ativa e voz passiva\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Voz ativa e voz passiva</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Estrutura</h3><p>Passive voice usa be + past participle. O objeto da ativa pode tornar-se sujeito gramatical da passiva.</p><h3>Foco informacional</h3><p>A passiva destaca o evento ou paciente e pode omitir o agente quando ele é desconhecido, óbvio ou irrelevante.</p><h3>Tempo verbal</h3><p>O tempo fica no verbo be: is investigated, was arrested, has been reported, will be announced. A passiva não significa automaticamente passado.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Voz ativa e voz passiva</h3><p>Estrutura e leitura da passive voice.</p><iframe src=\"https://www.youtube.com/embed/7wh3XMynGqk\" title=\"Voz ativa e voz passiva\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Passive Voice — English in Brazil</h3><p>Construção e sentido da voz passiva.</p><iframe src=\"https://www.youtube.com/embed/Kr4tQ-xdAAI\" title=\"Passive Voice — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A passiva normalmente usa:\n\nII. 'The suspect was arrested' está na:",
+        "question": "'The officers arrested the suspect.' Na passiva correta:",
         "options": [
-          "I — To be + particípio passado. | II — Voz passiva.",
-          "I — Artigo + nome. | II — Voz passiva.",
-          "I — To be + particípio passado. | II — Voz ativa.",
-          "I — Artigo + nome. | II — Voz ativa."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “To be + particípio passado.”. No item II, a resposta correta é “Voz passiva.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'The suspect was arrested' está na:\n\nII. Assinale a reescrita correta de “The officers arrested the suspect yesterday” na voz passiva.",
-        "options": [
-          "I — Voz ativa. | II — The suspect was arrested by the officers yesterday.",
-          "I — Voz passiva. | II — The officers were arrested by the suspect yesterday.",
-          "I — Voz ativa. | II — The officers were arrested by the suspect yesterday.",
-          "I — Voz passiva. | II — The suspect was arrested by the officers yesterday."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Voz passiva.”. No item II, a resposta correta é “The suspect was arrested by the officers yesterday.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'was arrested', was indica:\n\nII. A voz passiva é especialmente útil quando:",
-        "options": [
-          "I — Passado. | II — o agente precisa obrigatoriamente ser destacado.",
-          "I — Plural. | II — o agente precisa obrigatoriamente ser destacado.",
-          "I — Passado. | II — o acontecimento ou paciente da ação é mais relevante que o agente.",
-          "I — Plural. | II — o acontecimento ou paciente da ação é mais relevante que o agente."
+          "The suspect is arrest yesterday.",
+          "The officers were arresting by the suspect.",
+          "The suspect was arrested by the officers.",
+          "The suspect arrested the officers."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Passado.”. No item II, a resposta correta é “o acontecimento ou paciente da ação é mais relevante que o agente.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Simple Past ativo vira was/were + past participle.",
+        "tip": "Mantenha o tempo verbal no auxiliar be."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Assinale a reescrita correta de “The officers arrested the suspect yesterday” na voz passiva.\n\nII. 'The suspect was arrested' está na:",
+        "question": "'The report was published yesterday.' A frase está:",
         "options": [
-          "I — The suspect arrested the officers yesterday. | II — Comparação.",
-          "I — The suspect was arrested by the officers yesterday. | II — Voz passiva.",
-          "I — The suspect arrested the officers yesterday. | II — Voz passiva.",
-          "I — The suspect was arrested by the officers yesterday. | II — Comparação."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “The suspect was arrested by the officers yesterday.”. No item II, a resposta correta é “Voz passiva.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The evidence will be examined”, a forma verbal indica:\n\nII. Assinale a reescrita correta de “The officers arrested the suspect yesterday” na voz passiva.",
-        "options": [
-          "I — voz passiva no futuro. | II — The suspect was arrested by the officers yesterday.",
-          "I — presente contínuo. | II — The suspect was arrested by the officers yesterday.",
-          "I — voz passiva no futuro. | II — The suspect is arrested by the officers yesterday.",
-          "I — presente contínuo. | II — The suspect is arrested by the officers yesterday."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “voz passiva no futuro.”. No item II, a resposta correta é “The suspect was arrested by the officers yesterday.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A voz passiva é especialmente útil quando:\n\nII. A passiva normalmente usa:",
-        "options": [
-          "I — não existe verbo na oração. | II — To be + particípio passado.",
-          "I — o acontecimento ou paciente da ação é mais relevante que o agente. | II — Advérbio + pronome.",
-          "I — não existe verbo na oração. | II — Advérbio + pronome.",
-          "I — o acontecimento ou paciente da ação é mais relevante que o agente. | II — To be + particípio passado."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “o acontecimento ou paciente da ação é mais relevante que o agente.”. No item II, a resposta correta é “To be + particípio passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A passiva normalmente usa:\n\nII. 'The suspect was arrested' está na:",
-        "options": [
-          "I — To be + particípio passado. | II — Voz ativa.",
-          "I — Artigo + nome. | II — Voz ativa.",
-          "I — To be + particípio passado. | II — Voz passiva.",
-          "I — Artigo + nome. | II — Voz passiva."
+          "Na voz ativa com sujeito agente.",
+          "No imperativo.",
+          "Na voz passiva.",
+          "No futuro."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “To be + particípio passado.”. No item II, a resposta correta é “Voz passiva.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Was + published é estrutura passiva.",
+        "tip": "Procure be + particípio."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. 'The suspect was arrested' está na:\n\nII. Assinale a reescrita correta de “The officers arrested the suspect yesterday” na voz passiva.",
+        "question": "'New cameras are being installed.' A estrutura indica:",
         "options": [
-          "I — Voz ativa. | II — The officers were arrested by the suspect yesterday.",
-          "I — Voz passiva. | II — The suspect was arrested by the officers yesterday.",
-          "I — Voz ativa. | II — The suspect was arrested by the officers yesterday.",
-          "I — Voz passiva. | II — The officers were arrested by the suspect yesterday."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Voz passiva.”. No item II, a resposta correta é “The suspect was arrested by the officers yesterday.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'was arrested', was indica:\n\nII. A voz passiva é especialmente útil quando:",
-        "options": [
-          "I — Passado. | II — o acontecimento ou paciente da ação é mais relevante que o agente.",
-          "I — Plural. | II — o acontecimento ou paciente da ação é mais relevante que o agente.",
-          "I — Passado. | II — o agente precisa obrigatoriamente ser destacado.",
-          "I — Plural. | II — o agente precisa obrigatoriamente ser destacado."
+          "Passiva em processo no presente.",
+          "Futuro passivo.",
+          "Obrigação.",
+          "Passado simples ativo."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Passado.”. No item II, a resposta correta é “o acontecimento ou paciente da ação é mais relevante que o agente.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Are being installed = Present Continuous Passive.",
+        "tip": "Being + particípio marca processo passivo."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Assinale a reescrita correta de “The officers arrested the suspect yesterday” na voz passiva.\n\nII. 'The suspect was arrested' está na:",
+        "question": "'The results will be announced tomorrow.' O agente:",
         "options": [
-          "I — The suspect arrested the officers yesterday. | II — Voz passiva.",
-          "I — The suspect was arrested by the officers yesterday. | II — Comparação.",
-          "I — The suspect arrested the officers yesterday. | II — Comparação.",
-          "I — The suspect was arrested by the officers yesterday. | II — Voz passiva."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “The suspect was arrested by the officers yesterday.”. No item II, a resposta correta é “Voz passiva.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The evidence will be examined”, a forma verbal indica:\n\nII. Assinale a reescrita correta de “The officers arrested the suspect yesterday” na voz passiva.",
-        "options": [
-          "I — voz passiva no futuro. | II — The suspect is arrested by the officers yesterday.",
-          "I — presente contínuo. | II — The suspect is arrested by the officers yesterday.",
-          "I — voz passiva no futuro. | II — The suspect was arrested by the officers yesterday.",
-          "I — presente contínuo. | II — The suspect was arrested by the officers yesterday."
+          "É obrigatoriamente results.",
+          "É tomorrow.",
+          "Foi omitido porque pode ser irrelevante/desconhecido.",
+          "Não pode existir em voz passiva."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “voz passiva no futuro.”. No item II, a resposta correta é “The suspect was arrested by the officers yesterday.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Passivas frequentemente omitem o agente.",
+        "tip": "Pergunte se o texto precisa dizer quem pratica a ação."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A voz passiva é especialmente útil quando:\n\nII. A passiva normalmente usa:",
+        "question": "'The evidence has been analyzed.' O tempo/voz é:",
         "options": [
-          "I — não existe verbo na oração. | II — Advérbio + pronome.",
-          "I — o acontecimento ou paciente da ação é mais relevante que o agente. | II — To be + particípio passado.",
-          "I — não existe verbo na oração. | II — To be + particípio passado.",
-          "I — o acontecimento ou paciente da ação é mais relevante que o agente. | II — Advérbio + pronome."
+          "Present Continuous Active.",
+          "Simple Past Active.",
+          "Present Perfect Passive.",
+          "Future Active."
+        ],
+        "answer": 2,
+        "explanation": "Has been + participle forma Present Perfect Passive.",
+        "tip": "Identifique auxiliares em sequência."
+      },
+      {
+        "question": "Qual ativa corresponde a 'The area is monitored by cameras'?",
+        "options": [
+          "Cameras monitored the area yesterday.",
+          "The area monitors cameras.",
+          "The area will monitor cameras.",
+          "Cameras monitor the area."
+        ],
+        "answer": 3,
+        "explanation": "O agente by cameras torna-se sujeito na ativa.",
+        "tip": "Inverta paciente/agente preservando tempo."
+      },
+      {
+        "question": "'Three vehicles were stolen.' O texto:",
+        "options": [
+          "Informa necessariamente quem roubou.",
+          "Foca os veículos e não identifica o agente.",
+          "Está no presente.",
+          "Expressa conselho."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “o acontecimento ou paciente da ação é mais relevante que o agente.”. No item II, a resposta correta é “To be + particípio passado.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A passiva pode omitir o agente.",
+        "tip": "Não invente agente ausente."
+      },
+      {
+        "question": "'The rule is enforced strictly.' Is enforced indica:",
+        "options": [
+          "Ativa no passado.",
+          "Comparativo.",
+          "Modalidade.",
+          "Passiva no presente."
+        ],
+        "answer": 3,
+        "explanation": "Is + participle = Simple Present Passive.",
+        "tip": "O auxiliar be carrega tempo e concordância."
+      },
+      {
+        "question": "'Someone damaged the camera.' Uma passiva natural é:",
+        "options": [
+          "The camera was damaged.",
+          "The camera has damage.",
+          "Someone was damaged the camera.",
+          "The camera damaged someone."
+        ],
+        "answer": 0,
+        "explanation": "Quando o agente é genérico, pode ser omitido na passiva.",
+        "tip": "A passiva é útil quando o agente não importa."
+      },
+      {
+        "question": "'The suspect is being questioned by investigators.' Quem pratica a ação?",
+        "options": [
+          "Questioned.",
+          "The suspect.",
+          "Ninguém.",
+          "Investigators."
+        ],
+        "answer": 3,
+        "explanation": "By investigators identifica o agente.",
+        "tip": "Sujeito gramatical da passiva não é necessariamente agente semântico."
+      },
+      {
+        "question": "'The building had been evacuated before the fire spread.' Had been evacuated indica:",
+        "options": [
+          "Ação ativa simultânea.",
+          "Hábito presente.",
+          "Futuro passivo.",
+          "Passiva anterior a outro evento passado."
+        ],
+        "answer": 3,
+        "explanation": "Past Perfect Passive marca anterioridade.",
+        "tip": "Had been + particípio."
+      },
+      {
+        "question": "Por que um texto jornalístico pode preferir 'A man was arrested' a 'Police arrested a man'?",
+        "options": [
+          "Para transformar passado em futuro.",
+          "Porque passiva sempre elimina informação verdadeira.",
+          "Para destacar o evento/paciente ou quando o agente é previsível.",
+          "Porque ativa é gramaticalmente incorreta."
+        ],
+        "answer": 2,
+        "explanation": "Escolha de voz altera foco informacional.",
+        "tip": "Gramática também organiza perspectiva discursiva."
       }
     ]
   },
   "11": {
     "title": "Relative clauses — who, which, that, whose",
-    "subtitle": "Inglês • Aula 11 • Relative Pronouns",
+    "subtitle": "Inglês • Aula 11",
     "time": "55 min",
-    "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Relative clauses — who, which, that, whose</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Who, which e that</h3><p>Who costuma retomar pessoas; which, coisas ou animais; that pode retomar pessoas ou coisas em muitas orações restritivas.</p><h3>Antecedente</h3><p>Em The officer who helped the child, who retoma officer. Localizar o antecedente simplifica a interpretação.</p><h3>Where e whose</h3><p>Where pode introduzir referência a lugar. Whose expressa posse, como em the man whose car was stolen.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Relative Pronouns — who, which e that</h3><p>Aula para identificar antecedentes e relações introduzidas por pronomes relativos.</p><iframe src=\"https://www.youtube.com/embed/Vlt6dpwTgp8\" title=\"Relative Pronouns — who, which e that\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Relative clauses — who, which, that, whose</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Relative clauses</h3><p>Who refere-se tipicamente a pessoas; which a coisas/animais; whose indica posse; where pode retomar lugar; that pode substituir who/which em várias defining clauses.</p><h3>Defining x non-defining</h3><p>Defining clauses restringem o referente; non-defining acrescentam informação e aparecem entre vírgulas. A pontuação pode mudar a interpretação.</p><h3>Antecedente</h3><p>Para identificar o antecedente, combine proximidade, número, sentido e função. Não escolha automaticamente o substantivo mais próximo se ele não fizer sentido.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Relative Clauses</h3><p>Who, which, that, whose e referência.</p><iframe src=\"https://www.youtube.com/embed/Vlt6dpwTgp8\" title=\"Relative Clauses\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Relative Pronouns — revisão</h3><p>Pronomes relativos aplicados a textos.</p><iframe src=\"https://www.youtube.com/embed/8JpsFqSiDdM\" title=\"Relative Pronouns — revisão\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Who costuma retomar:\n\nII. Whose expressa:",
+        "question": "'The officer who helped the child called an ambulance.' Who retoma:",
         "options": [
-          "I — Pessoas. | II — Posse.",
-          "I — Datas. | II — Posse.",
-          "I — Pessoas. | II — Consequência.",
-          "I — Datas. | II — Consequência."
+          "The officer.",
+          "An ambulance.",
+          "Helped.",
+          "The child."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Pessoas.”. No item II, a resposta correta é “Posse.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Who inicia oração que caracteriza officer.",
+        "tip": "Localize o antecedente sem perder o sentido."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Whose expressa:\n\nII. Em “The officer who helped the child called the ambulance”, who retoma:",
+        "question": "'The camera which was installed yesterday is working.' Which retoma:",
         "options": [
-          "I — Consequência. | II — the officer.",
-          "I — Posse. | II — the child.",
-          "I — Consequência. | II — the child.",
-          "I — Posse. | II — the officer."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Posse.”. No item II, a resposta correta é “the officer.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'the officer who helped', who retoma:\n\nII. Em “The station where the meeting occurred”, where introduz referência a:",
-        "options": [
-          "I — The officer. | II — tempo verbal.",
-          "I — Nada. | II — tempo verbal.",
-          "I — The officer. | II — lugar.",
-          "I — Nada. | II — lugar."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “The officer.”. No item II, a resposta correta é “lugar.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The officer who helped the child called the ambulance”, who retoma:\n\nII. Whose expressa:",
-        "options": [
-          "I — the ambulance. | II — Negação.",
-          "I — the officer. | II — Posse.",
-          "I — the ambulance. | II — Posse.",
-          "I — the officer. | II — Negação."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “the officer.”. No item II, a resposta correta é “Posse.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Assinale a frase em que whose expressa corretamente posse.\n\nII. Em “The officer who helped the child called the ambulance”, who retoma:",
-        "options": [
-          "I — The man whose car was stolen called the police. | II — the officer.",
-          "I — The man who car was stolen called the police. | II — the officer.",
-          "I — The man whose car was stolen called the police. | II — helped.",
-          "I — The man who car was stolen called the police. | II — helped."
+          "The camera.",
+          "Yesterday.",
+          "Installed.",
+          "Working."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “The man whose car was stolen called the police.”. No item II, a resposta correta é “the officer.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Which refere-se a coisa: camera.",
+        "tip": "Who → pessoas; which → coisas em uso típico."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The station where the meeting occurred”, where introduz referência a:\n\nII. Who costuma retomar:",
+        "question": "'The witness whose phone was stolen called the police.' Whose indica:",
         "options": [
-          "I — pessoa. | II — Pessoas.",
-          "I — lugar. | II — Preposições.",
-          "I — pessoa. | II — Preposições.",
-          "I — lugar. | II — Pessoas."
+          "Lugar.",
+          "Consequência.",
+          "Tempo.",
+          "Posse: o telefone pertence ao witness."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “lugar.”. No item II, a resposta correta é “Pessoas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Whose estabelece relação possessiva.",
+        "tip": "Whose + noun."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Who costuma retomar:\n\nII. Whose expressa:",
+        "question": "'The station where the meeting occurred is closed.' Where retoma:",
         "options": [
-          "I — Pessoas. | II — Consequência.",
-          "I — Datas. | II — Consequência.",
-          "I — Pessoas. | II — Posse.",
-          "I — Datas. | II — Posse."
+          "The meeting.",
+          "Closed.",
+          "The station como lugar.",
+          "Occurred."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Pessoas.”. No item II, a resposta correta é “Posse.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Where introduz relação com lugar.",
+        "tip": "Antecedente locativo favorece where."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Whose expressa:\n\nII. Em “The officer who helped the child called the ambulance”, who retoma:",
+        "question": "'The rule that was revised caused confusion.' That retoma:",
         "options": [
-          "I — Consequência. | II — the child.",
-          "I — Posse. | II — the officer.",
-          "I — Consequência. | II — the officer.",
-          "I — Posse. | II — the child."
+          "Confusion.",
+          "The rule.",
+          "Nada.",
+          "Revised."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Posse.”. No item II, a resposta correta é “the officer.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "That introduz relative clause ligada a rule.",
+        "tip": "That pode substituir which em várias defining clauses."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em 'the officer who helped', who retoma:\n\nII. Em “The station where the meeting occurred”, where introduz referência a:",
+        "question": "'My supervisor, who joined the unit in 2020, approved the plan.' A oração entre vírgulas é:",
         "options": [
-          "I — The officer. | II — lugar.",
-          "I — Nada. | II — lugar.",
-          "I — The officer. | II — tempo verbal.",
-          "I — Nada. | II — tempo verbal."
+          "Defining indispensável para identificar qual supervisor.",
+          "Non-defining, acrescentando informação.",
+          "Uma pergunta indireta.",
+          "Causal obrigatória."
+        ],
+        "answer": 1,
+        "explanation": "Vírgulas sinalizam informação adicional sobre referente já identificado.",
+        "tip": "Pontuação ajuda a classificar relative clauses."
+      },
+      {
+        "question": "'Officers who completed the training received certificates.' A oração relativa:",
+        "options": [
+          "Restringe o grupo de officers aos que concluíram.",
+          "É apenas comentário removível sem alterar o grupo.",
+          "Afirma que todos os officers concluíram.",
+          "Indica posse."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “The officer.”. No item II, a resposta correta é “lugar.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Sem vírgulas, a clause define quais officers.",
+        "tip": "Defining clause seleciona subconjunto."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The officer who helped the child called the ambulance”, who retoma:\n\nII. Whose expressa:",
+        "question": "Qual frase usa whose corretamente?",
         "options": [
-          "I — the ambulance. | II — Posse.",
-          "I — the officer. | II — Negação.",
-          "I — the ambulance. | II — Negação.",
-          "I — the officer. | II — Posse."
+          "The officer whose badge was lost reported the incident.",
+          "The station whose occurred the meeting.",
+          "The badge whose the officer lost it.",
+          "The officer whose helped reported the incident."
         ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “the officer.”. No item II, a resposta correta é “Posse.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 0,
+        "explanation": "Whose liga possuidor a um substantivo possuído.",
+        "tip": "Procure whose + noun."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Assinale a frase em que whose expressa corretamente posse.\n\nII. Em “The officer who helped the child called the ambulance”, who retoma:",
+        "question": "'The vehicle that officers found was stolen.' A função de that é:",
         "options": [
-          "I — The man whose car was stolen called the police. | II — helped.",
-          "I — The man who car was stolen called the police. | II — helped.",
-          "I — The man whose car was stolen called the police. | II — the officer.",
-          "I — The man who car was stolen called the police. | II — the officer."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “The man whose car was stolen called the police.”. No item II, a resposta correta é “the officer.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Em “The station where the meeting occurred”, where introduz referência a:\n\nII. Who costuma retomar:",
-        "options": [
-          "I — pessoa. | II — Preposições.",
-          "I — lugar. | II — Pessoas.",
-          "I — pessoa. | II — Pessoas.",
-          "I — lugar. | II — Preposições."
+          "Ser demonstrativo de distância obrigatoriamente.",
+          "Introduzir oração que modifica vehicle.",
+          "Indicar consequência.",
+          "Marcar passado."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “lugar.”. No item II, a resposta correta é “Pessoas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "That é pronome relativo no contexto.",
+        "tip": "A mesma palavra pode ter classes diferentes."
+      },
+      {
+        "question": "'The report, which contains 50 pages, was released today.' O que se pode inferir da pontuação?",
+        "options": [
+          "Há um único/referente já definido, e a informação de 50 páginas é adicional.",
+          "Which indica pessoa.",
+          "A oração é condição.",
+          "Somente relatórios de 50 páginas foram liberados."
+        ],
+        "answer": 0,
+        "explanation": "Commas marcam non-defining clause.",
+        "tip": "Compare com versão sem vírgulas."
+      },
+      {
+        "question": "Em 'The people to whom the officer spoke...', whom refere-se a:",
+        "options": [
+          "Officer como sujeito.",
+          "Uma posse.",
+          "Lugar.",
+          "People como objeto da preposição to."
+        ],
+        "answer": 3,
+        "explanation": "Whom pode funcionar como objeto, especialmente após preposição formal.",
+        "tip": "Após preposição, whom é forma tradicional para pessoas."
+      },
+      {
+        "question": "Qual alternativa preserva o sentido de 'The unit that responded first received praise'?",
+        "options": [
+          "A primeira unidade foi elogiada antes de responder.",
+          "A unidade que respondeu primeiro recebeu elogios.",
+          "A unidade elogiou quem respondeu.",
+          "Todas as unidades receberam elogios porque responderam."
+        ],
+        "answer": 1,
+        "explanation": "A relative clause identifica a unidade específica.",
+        "tip": "Preserve antecedente e função da oração relativa."
       }
     ]
   },
   "12": {
     "title": "Inferência, tom e vocabulário pelo contexto",
-    "subtitle": "Inglês • Aula 12 • Reading Skills",
+    "subtitle": "Inglês • Aula 12",
     "time": "55 min",
-    "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Inferência, tom e vocabulário pelo contexto</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Vocabulário desconhecido</h3><p>Não pare automaticamente em uma palavra difícil. Procure definição, exemplo, contraste, causa e palavras vizinhas para aproximar o significado.</p><h3>Tom do autor</h3><p>Adjetivos, advérbios e verbos modais podem revelar crítica, apoio, preocupação, cautela ou neutralidade.</p><h3>Inferência segura</h3><p>A conclusão precisa ser sustentada pelo texto. May, can, often e generally tornam afirmações menos absolutas; uma alternativa que troca possibilidade por certeza pode estar errada.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • REVISÃO E INFERÊNCIA</span><h3>Interpretação de Textos em Inglês — revisão integrada</h3><p>Use contexto, conectivos, modalizadores, referências e inferências para responder questões sem traduzir palavra por palavra.</p><iframe src=\"https://www.youtube.com/embed/yL1zrEKBLp0\" title=\"Interpretação de Textos em Inglês — revisão integrada\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class='edital-badge'>📋 NOÇÕES DE LÍNGUA INGLESA • NÍVEL CONCURSO</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Inferência, tom e vocabulário pelo contexto</h3><p>Estude o conteúdo antes dos exercícios. O foco é compreender como a língua produz sentido em textos de prova.</p></div><h3>Inferência</h3><p>Conclusões válidas dependem de evidências. “Likely” não significa “certain”; “some” não significa “all”.</p><h3>Tom e atitude</h3><p>Adjetivos avaliativos, modais, advérbios e escolhas lexicais indicam tom crítico, cauteloso, favorável, alarmado ou neutro.</p><h3>Vocabulário</h3><p>Use definição, sinonímia, antonímia, exemplos e morfologia. Prefixos como un-, dis-, re- e sufixos como -less/-ful podem orientar o sentido.</p><div class=\"gold-rule\">🎯 Em prova, confirme a resposta pelo texto e pela função da estrutura — não apenas pela tradução isolada.</div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Present Perfect — English in Brazil</h3><p>Relação entre passado e presente em textos.</p><iframe src=\"https://www.youtube.com/embed/hpUrLBEuHrg\" title=\"Present Perfect — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Present Continuous — leitura de ações em curso</h3><p>Aspecto verbal como pista de sentido.</p><iframe src=\"https://www.youtube.com/embed/buPB_TktAcE\" title=\"Present Continuous — leitura de ações em curso\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Palavra desconhecida deve ser analisada por:\n\nII. May costuma indicar:",
+        "question": "'The spokesperson described the increase as alarming and called for immediate action.' O tom é predominantemente:",
         "options": [
-          "I — Pistas do contexto. | II — Possibilidade.",
-          "I — Ordem alfabética. | II — Possibilidade.",
-          "I — Pistas do contexto. | II — Passado.",
-          "I — Ordem alfabética. | II — Passado."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Pistas do contexto.”. No item II, a resposta correta é “Possibilidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. May costuma indicar:\n\nII. Um texto afirma que a medida “may reduce accidents”. A alternativa que diz “the measure will certainly eliminate accidents” é inadequada principalmente porque:",
-        "options": [
-          "I — Passado. | II — transforma possibilidade em certeza absoluta.",
-          "I — Possibilidade. | II — não altera o sentido.",
-          "I — Passado. | II — não altera o sentido.",
-          "I — Possibilidade. | II — transforma possibilidade em certeza absoluta."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Possibilidade.”. No item II, a resposta correta é “transforma possibilidade em certeza absoluta.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Inferência correta precisa:\n\nII. Um autor usa expressões como “serious concern”, “dangerous trend” e “urgent action”. O tom predominante tende a ser:",
-        "options": [
-          "I — Ser sustentada pelo texto. | II — humorístico necessariamente.",
-          "I — Ser opinião pessoal. | II — humorístico necessariamente.",
-          "I — Ser sustentada pelo texto. | II — preocupado/crítico.",
-          "I — Ser opinião pessoal. | II — preocupado/crítico."
+          "Indiferente.",
+          "Celebratório.",
+          "Preocupado/urgente.",
+          "Humorístico."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Ser sustentada pelo texto.”. No item II, a resposta correta é “preocupado/crítico.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Alarming e immediate action sinalizam preocupação e urgência.",
+        "tip": "Palavras avaliativas revelam atitude."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Um texto afirma que a medida “may reduce accidents”. A alternativa que diz “the measure will certainly eliminate accidents” é inadequada principalmente porque:\n\nII. May costuma indicar:",
+        "question": "'The measure is unlikely to solve the problem alone.' Unlikely significa:",
         "options": [
-          "I — mantém exatamente o mesmo grau de certeza. | II — Plural.",
-          "I — transforma possibilidade em certeza absoluta. | II — Possibilidade.",
-          "I — mantém exatamente o mesmo grau de certeza. | II — Possibilidade.",
-          "I — transforma possibilidade em certeza absoluta. | II — Plural."
+          "Já resolvido.",
+          "Pouco provável.",
+          "Ilegal.",
+          "Impossível por definição."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “transforma possibilidade em certeza absoluta.”. No item II, a resposta correta é “Possibilidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Unlikely = improvável/pouco provável.",
+        "tip": "Prefixo un- frequentemente nega a base."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Ao encontrar palavra desconhecida em um texto, qual procedimento é mais seguro em prova?\n\nII. Um texto afirma que a medida “may reduce accidents”. A alternativa que diz “the measure will certainly eliminate accidents” é inadequada principalmente porque:",
+        "question": "'Unlike previous models, the new device is wireless.' Pelo contexto, unlike significa:",
         "options": [
-          "I — Examinar definição, contraste, causa, exemplo e palavras vizinhas. | II — transforma possibilidade em certeza absoluta.",
-          "I — Escolher a tradução mais parecida com o português. | II — transforma possibilidade em certeza absoluta.",
-          "I — Examinar definição, contraste, causa, exemplo e palavras vizinhas. | II — apenas troca um substantivo.",
-          "I — Escolher a tradução mais parecida com o português. | II — apenas troca um substantivo."
+          "Sem gostar de.",
+          "Diferentemente de.",
+          "Por causa de.",
+          "Igualmente a."
         ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Examinar definição, contraste, causa, exemplo e palavras vizinhas.”. No item II, a resposta correta é “transforma possibilidade em certeza absoluta.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 1,
+        "explanation": "Unlike estabelece contraste.",
+        "tip": "Use a estrutura comparativa do período."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Um autor usa expressões como “serious concern”, “dangerous trend” e “urgent action”. O tom predominante tende a ser:\n\nII. Palavra desconhecida deve ser analisada por:",
+        "question": "'The plan was praised for being cost-effective.' Cost-effective é melhor entendido como:",
         "options": [
-          "I — puramente narrativo sem avaliação. | II — Pistas do contexto.",
-          "I — preocupado/crítico. | II — Tamanho.",
-          "I — puramente narrativo sem avaliação. | II — Tamanho.",
-          "I — preocupado/crítico. | II — Pistas do contexto."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “preocupado/crítico.”. No item II, a resposta correta é “Pistas do contexto.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Palavra desconhecida deve ser analisada por:\n\nII. May costuma indicar:",
-        "options": [
-          "I — Pistas do contexto. | II — Passado.",
-          "I — Ordem alfabética. | II — Passado.",
-          "I — Pistas do contexto. | II — Possibilidade.",
-          "I — Ordem alfabética. | II — Possibilidade."
+          "Sem qualquer custo.",
+          "Ineficaz.",
+          "Com boa relação entre custo e resultado.",
+          "Muito caro necessariamente."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Pistas do contexto.”. No item II, a resposta correta é “Possibilidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A composição cost + effective sugere eficiência de custo.",
+        "tip": "Quebre palavras compostas em partes conhecidas."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. May costuma indicar:\n\nII. Um texto afirma que a medida “may reduce accidents”. A alternativa que diz “the measure will certainly eliminate accidents” é inadequada principalmente porque:",
+        "question": "'The evidence is insufficient to support the accusation.' Insufficient indica:",
         "options": [
-          "I — Passado. | II — não altera o sentido.",
-          "I — Possibilidade. | II — transforma possibilidade em certeza absoluta.",
-          "I — Passado. | II — transforma possibilidade em certeza absoluta.",
-          "I — Possibilidade. | II — não altera o sentido."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Possibilidade.”. No item II, a resposta correta é “transforma possibilidade em certeza absoluta.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Inferência correta precisa:\n\nII. Um autor usa expressões como “serious concern”, “dangerous trend” e “urgent action”. O tom predominante tende a ser:",
-        "options": [
-          "I — Ser sustentada pelo texto. | II — preocupado/crítico.",
-          "I — Ser opinião pessoal. | II — preocupado/crítico.",
-          "I — Ser sustentada pelo texto. | II — humorístico necessariamente.",
-          "I — Ser opinião pessoal. | II — humorístico necessariamente."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Ser sustentada pelo texto.”. No item II, a resposta correta é “preocupado/crítico.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Um texto afirma que a medida “may reduce accidents”. A alternativa que diz “the measure will certainly eliminate accidents” é inadequada principalmente porque:\n\nII. May costuma indicar:",
-        "options": [
-          "I — mantém exatamente o mesmo grau de certeza. | II — Possibilidade.",
-          "I — transforma possibilidade em certeza absoluta. | II — Plural.",
-          "I — mantém exatamente o mesmo grau de certeza. | II — Plural.",
-          "I — transforma possibilidade em certeza absoluta. | II — Possibilidade."
+          "Irrelevante obrigatoriamente.",
+          "Excessiva.",
+          "Falsa.",
+          "Insuficiente."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “transforma possibilidade em certeza absoluta.”. No item II, a resposta correta é “Possibilidade.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Prefixo in- nega sufficient.",
+        "tip": "Morfologia ajuda, mas confirme pelo contexto."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Ao encontrar palavra desconhecida em um texto, qual procedimento é mais seguro em prova?\n\nII. Um texto afirma que a medida “may reduce accidents”. A alternativa que diz “the measure will certainly eliminate accidents” é inadequada principalmente porque:",
+        "question": "Texto: 'Officials cautiously welcomed the results, noting that more data are needed.' A atitude é:",
         "options": [
-          "I — Examinar definição, contraste, causa, exemplo e palavras vizinhas. | II — apenas troca um substantivo.",
-          "I — Escolher a tradução mais parecida com o português. | II — apenas troca um substantivo.",
-          "I — Examinar definição, contraste, causa, exemplo e palavras vizinhas. | II — transforma possibilidade em certeza absoluta.",
-          "I — Escolher a tradução mais parecida com o português. | II — transforma possibilidade em certeza absoluta."
+          "Sarcasmo.",
+          "Rejeição total.",
+          "Otimismo com ressalva.",
+          "Certeza absoluta."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Examinar definição, contraste, causa, exemplo e palavras vizinhas.”. No item II, a resposta correta é “transforma possibilidade em certeza absoluta.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Cautiously e more data are needed limitam o entusiasmo.",
+        "tip": "Adverbios de atitude modulam o tom."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Um autor usa expressões como “serious concern”, “dangerous trend” e “urgent action”. O tom predominante tende a ser:\n\nII. Palavra desconhecida deve ser analisada por:",
+        "question": "'The policy has been widely criticized.' Widely sugere:",
         "options": [
-          "I — puramente narrativo sem avaliação. | II — Tamanho.",
-          "I — preocupado/crítico. | II — Pistas do contexto.",
-          "I — puramente narrativo sem avaliação. | II — Pistas do contexto.",
-          "I — preocupado/crítico. | II — Tamanho."
+          "Crítica secreta.",
+          "Crítica feita uma única vez.",
+          "Aprovação.",
+          "Crítica em grande extensão/por muitas fontes."
         ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “preocupado/crítico.”. No item II, a resposta correta é “Pistas do contexto.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 3,
+        "explanation": "Widely amplia o alcance da crítica.",
+        "tip": "Advérbios podem indicar extensão."
+      },
+      {
+        "question": "Se um texto afirma 'some experts disagree', qual inferência é segura?",
+        "options": [
+          "Pelo menos parte dos especialistas discorda.",
+          "A maioria necessariamente discorda.",
+          "Nenhum concorda.",
+          "Todos discordam."
+        ],
+        "answer": 0,
+        "explanation": "Some não autoriza generalização para all/most.",
+        "tip": "Preserve quantificadores."
+      },
+      {
+        "question": "'The reform could lead to lower costs.' Qual paráfrase é fiel?",
+        "options": [
+          "A reforma certamente reduzirá custos.",
+          "A reforma é obrigada a reduzir custos.",
+          "A reforma já reduziu custos.",
+          "A reforma pode levar a custos menores."
+        ],
+        "answer": 3,
+        "explanation": "Could mantém possibilidade, não certeza.",
+        "tip": "Modalidade é parte do sentido."
+      },
+      {
+        "question": "'The author acknowledges the benefits but emphasizes the risks.' O posicionamento é melhor descrito como:",
+        "options": [
+          "Contrário à existência de benefícios.",
+          "Totalmente favorável sem ressalvas.",
+          "Totalmente neutro sem avaliação.",
+          "Nuanceado: reconhece vantagens, mas dá destaque aos riscos."
+        ],
+        "answer": 3,
+        "explanation": "Acknowledge... but emphasizes cria avaliação equilibrada com foco crítico.",
+        "tip": "Observe o que vem após but."
+      },
+      {
+        "question": "'The device is reusable.' O prefixo re- sugere:",
+        "options": [
+          "Uso perigoso.",
+          "Uso único.",
+          "Uso novamente.",
+          "Negação de uso."
+        ],
+        "answer": 2,
+        "explanation": "Re- frequentemente indica repetição.",
+        "tip": "Morfemas ajudam a inferir vocabulário."
+      },
+      {
+        "question": "'A careless decision may have serious consequences.' Careless significa:",
+        "options": [
+          "Ilegal.",
+          "Muito cuidadosa.",
+          "Sem consequência.",
+          "Sem cuidado/negligente."
+        ],
+        "answer": 3,
+        "explanation": "Suffix -less indica ausência de care.",
+        "tip": "-less = sem; -ful = cheio de/com."
       }
     ]
   },
   "13": {
     "title": "🏆 Prova Final — Noções de Língua Inglesa",
     "subtitle": "Inglês • Avaliação final",
-    "time": "50 min",
-    "content": "<div class='edital-badge'>🏆 PROVA FINAL • 20 QUESTÕES</div><p>Compreensão e gramática relevante ao sentido.</p><div class='gold-rule'>🎯 Mínimo 70%.</div><div class=\"gold-rule\">🔥 NÍVEL PMMG REFORÇADO: 29 questões com enunciados mais densos, alternativas próximas e questões históricas do banco de provas anteriores.</div>",
+    "time": "60 min",
+    "content": "<div class='edital-badge'>🏆 PROVA FINAL • 30 QUESTÕES</div><p>Leitura, vocabulário e gramática aplicada ao sentido.</p><div class='gold-rule'>🔥 NÍVEL CONCURSO: interpretação, inferência, referência, conectivos, modalidade, tempos verbais e estruturas gramaticais em contexto.</div><div class='gold-rule'>🎯 Mínimo 70%.</div>",
     "quiz": [
       {
-        "question": "Considere as informações contidas no texto e assinale a alternativa CORRETA:",
+        "question": "Text: 'Although the program has reduced waiting times, officials warn that the improvement may be temporary.' Which statement is correct?",
         "options": [
-          "A Organização das Nações Unidas entende que não devem ser dadas oportunidades iguais para policiais mulheres nas missões em razão de sua fragilidade.",
-          "A perspectiva de aumento do percentual de policiais mulheres na estrutura da UN Police Division se dará por meio do engajamento dos países-membros.",
-          "A Divisão Policial da ONU entende que policiais mulheres não devem participar das missões, apenas homens.",
-          "Em 2018 a ONU elaborou estratégia formal para aumentar a participação de policiais mulheres exclusivamente em suas missões de campo. Leia o trecho da matéria a seguir e responda a pergunta que segue: FBI Releases 2019 Crime Statistics For the third consecutive year, the estimated number of violent crimes in the nation decreased when compared with the previous year’s statistics, according to FBI figures released today. In 2019, violent crime was down 0.5% from the 2018 number. Property crimes also dropped 4.1%, marking the 17th consecutive year the collective estimates for these offenses declined. […] Fonte: https://www.fbi.gov/news/pressrel/press-releases/fbi-releases-2019-crime-statistics - September 28, 2020."
+          "Waiting times fell, but the durability of the improvement is uncertain.",
+          "The program increased waiting times.",
+          "Officials say the improvement is permanent.",
+          "Officials deny any improvement."
         ],
-        "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "answer": 0,
+        "explanation": "Although contrasts improvement with caution; may marks uncertainty.",
+        "tip": "Combine connector + modal."
       },
       {
-        "question": "Considerando as informações trazidas pelo texto, assinale a alternativa CORRETA:",
+        "question": "In 'The officers who completed the course were promoted', who refers to:",
         "options": [
-          "Pelo terceiro ano seguido, a taxa de crimes violentos aumentou nos Estados Unidos.",
-          "Verifica-se que houve um aumento criminal em 2019, se comparado com 2018.",
-          "Os crimes contra a propriedade aumentaram em 2019. Leia o texto a seguir e responda o que se pede: A Serbian volleyball player suspended after making anti-Asian racist gesture during match against Thailand A Serbian volleyball player has been suspended for two matches after she was caught on camera stretching her eyelids -- a racist gesture used to mock people with Asian heritage -- during an international competition between Serbia and Thailand. Sanja Djurdjevic violated the sport's disciplinary rules on June 1 while competing in the match in Italy, according to a statement given Tuesday from the FIVB Disciplinary Panel Sub-Committee. In addition to the suspension, the independent body, which is responsible for imposing disciplinary sanctions within FIVB competitions, fined Serbia's volleyball federation the equivalent of $22,000. According to the panel, the FIVB will donate the money to a cause dedicated to tackling discriminatory behavior and/or to fund educational programs on cultural sensitivity. Fonte: https://edition.cnn.com/2021/06/09/sport/serbian-volleyball-player-anti-asian-racist-gesture-spt- intl/index.html",
-          "Verifica-se que houve uma redução de crimes violentos em 2019, se comparado com 2018."
+          "The officers.",
+          "Were promoted.",
+          "The course.",
+          "An omitted subject."
+        ],
+        "answer": 0,
+        "explanation": "Who introduces a defining clause modifying officers.",
+        "tip": "Find the antecedent."
+      },
+      {
+        "question": "'The evidence had been collected before the suspect arrived.' The verb phrase indicates:",
+        "options": [
+          "A recommendation.",
+          "A present habit.",
+          "A future passive event.",
+          "A passive event completed before another past event."
         ],
         "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "Had been collected is Past Perfect Passive.",
+        "tip": "Separate tense from voice."
       },
       {
-        "question": "Considerando as informações contidas no texto, assinale a alternativa INCORRETA:",
+        "question": "'Few residents considered the measure effective.' Which interpretation is safest?",
         "options": [
-          "Além da suspensão da jogadora, a federação de vôlei da Sérvia foi multada no valor equivalente a $22.000.",
-          "Por ter sido um ato pessoal praticado pela jogadora, apenas ela será punida, não havendo qualquer punição ou sanção para a federação da Sérvia.",
-          "O valor arrecadado com a multa será doado às causas destinadas ao combate ao comportamento discriminatório ou para financiar programas educacionais sobre sensibilidade cultural.",
-          "Segundo o texto, a jogadora violou regras disciplinares do esporte durante a partida que ocorreu na Itália. Leia o trecho da reportagem a seguir e responda o que se pede: Peru: Parents arrested for sexually abusing baby, selling images 19 May 2021 - Specialized officers across four continents raced to remove the child from harm. Authorities in Peru have arrested a couple accused of producing sexual abuse material of their two-month old baby, following an international effort to save the child from harm. In early April, specialized investigators in Canada and Australia contacted INTERPOL after identifying a user who was not only sharing abusive images, but also offering to produce additional material in exchange for payment. Investigators worked to gather data on the suspect, who had been active on Darknet forums since 2014. Further analysis showed that the same user had recently sought advice on child and organ trafficking. […] Fonte: https://www.interpol.int/News-and-Events/News/2021/Peru-Parents-arrested-for-sexually-abusing- baby-selling-images"
+          "All residents rejected every measure.",
+          "Most residents did.",
+          "A small number did.",
+          "No resident considered it effective."
         ],
-        "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "answer": 2,
+        "explanation": "Few means a small number, not zero.",
+        "tip": "Do not absolutize quantifiers."
       },
       {
-        "question": "Considerando as informações contidas no texto, assinale a alternativa CORRETA:",
+        "question": "'The new protocol must not be ignored.' Must not expresses:",
         "options": [
-          "Os autores do crime foram presos por oferecerem para venda os órgãos do bebê na darknet.",
-          "A colaboração internacional não foi fator determinante para a localização dos criminosos e da vítima.",
-          "Segundo as investigações, os autores do crime ingressaram na darknet somente em 2021.",
-          "Graças a uma ação coordenada de autoridades de diferentes países, foi possível localizar e prender o casal que praticava abusos contra o bebê de dois meses."
-        ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em 24 de outubro de 2019, o site https://www.amnesty.org/en/ latest/news/2019/10/gun- violence-report/ publicou depoimentos de mulheres reais, do estado de Louisiana, nos Estados Unidos, que sofreram violência doméstica. Do depoimento transcrito a seguir, foram extraídas frases as quais estão apresentadas isoladamente na sequência. Preencha as lacunas do texto com as frases destacadas e, a seguir, assinale a alternativa que contém a sequência CORRETA na ordem de cima para baixo: “Angela's story: In my case, it started as verbal abuse. I’d known my partner for 20 years and he was a good person. _____________________________. After his mum died, he bought several guns including a machete and a shotgun. He became more combative, not only with me but with others and through his social media. I couldn’t do anything right. One evening in early November it turned physical. We were having a conversation and at some point it escalated and I asked him to leave. I walked over to the door, opened it and said we could have the conversation another day. _____________________________. I managed to yell for our oldest son and he got off of me and left. We’d broken up, but we were starting to work things out again, when one morning we had a disagreement. _____________________________. I can only remember the last two gunshots._____________________________. He returned with my cell phone and I told him to dial 911. I felt as though I was dying. My legs felt prickly. I didn’t realize he’d shot me in the back and I was already paralyzed. (...) Fonte: https://www.amnesty.org/en/latest/news/2019/10/gun-violence-report/ I. He grabbed me by the hood of my sweatshirt, threw me out my door and got on top of me and started choking me. II. I was in the bathtub, when he came in and shot me. III. He started changing in 2015. IV. I look up at him and he says ‘Look what you made me do Angie’, ‘You made me shoot you.",
-        "options": [
-          "II, IV, I, III.",
-          "III, I, II, IV.",
-          "III, II, IV, I.",
-          "IV, I, II, III."
-        ],
-        "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Escolha a alternativa que reescreve corretamente a frase seguinte sem alterar o seu sentido: \"Police grapple with community concerns as they turn to tech for their Jobs\"",
-        "options": [
-          "While turning to tech for their jobs, police dismiss community concerns.",
-          "Turning to tech for their jobs, police fail to acknowledge community concerns.",
-          "Police overlook community concerns while they engage with technology for their jobs.",
-          "Police contend with community concerns while embracing technology for their jobs."
+          "Past ability.",
+          "Lack of necessity.",
+          "Weak possibility.",
+          "Strong prohibition/requirement not to ignore."
         ],
         "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "Must not is prohibitive/strongly negative obligation.",
+        "tip": "Distinguish must not from do not have to."
       },
       {
-        "question": "Observe as seguintes afirmações: I. O texto menciona preocupações relativas à privacidade e à discriminação como fatores complicadores na adoção da tecnologia pela polícia. II. De acordo com o texto, as tecnologias emergentes estão a fomentar uma escalada na incidência de atividades criminosas. III. Os leitores de placa, entre outras tecnologias, são mencionados no texto como ferramentas que auxiliam a polícia na redução de ferimentos e lesões corporais. IV. O texto menciona que o Departamento de Polícia de Houston aumentou o seu efetivo para enfrentar os desafios impostos pela tecnologia. De acordo com o texto I, está CORRETO afirmar que:",
+        "question": "Text: 'Crime decreased by 8% in the district, while neighboring areas showed no significant change.' While mainly signals:",
         "options": [
-          "Todas as afirmações estão corretas.",
-          "Apenas duas das afirmações estão corretas.",
-          "Apenas uma das afirmações está correta.",
-          "Apenas três das afirmações estão corretas."
+          "Contrast.",
+          "Purpose.",
+          "Cause.",
+          "Possession."
+        ],
+        "answer": 0,
+        "explanation": "The connector contrasts two outcomes.",
+        "tip": "Map the relation between clauses."
+      },
+      {
+        "question": "In 'The station where the incident occurred remains closed', where refers to:",
+        "options": [
+          "The station as a place.",
+          "Time.",
+          "Closed.",
+          "The incident."
+        ],
+        "answer": 0,
+        "explanation": "Where introduces a locative relative clause.",
+        "tip": "Look for a place antecedent."
+      },
+      {
+        "question": "'Actually, the figures were lower than expected.' Actually means:",
+        "options": [
+          "Currently.",
+          "Occasionally.",
+          "In fact.",
+          "Finally."
+        ],
+        "answer": 2,
+        "explanation": "Actually is a false friend: in fact.",
+        "tip": "Beware of Portuguese-looking words."
+      },
+      {
+        "question": "'The proposal is more comprehensive than the previous one.' Comprehensive most nearly means:",
+        "options": [
+          "Broad/covering more aspects.",
+          "More expensive.",
+          "Comprehensible only.",
+          "Temporary."
+        ],
+        "answer": 0,
+        "explanation": "Comprehensive means broad/extensive in coverage.",
+        "tip": "Use context, not visual similarity alone."
+      },
+      {
+        "question": "'The report was released on September 10.' Why is on used?",
+        "options": [
+          "With a clock time.",
+          "With a specific date.",
+          "With a country.",
+          "With a long period."
         ],
         "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "On is standard with dates/days.",
+        "tip": "Preposition patterns matter."
       },
       {
-        "question": "Com base nas informações do texto I, por que Griffith, um representante do sindicato da polícia de Houston, expressa preocupações sobre tecnologias como as câmeras corporais?",
+        "question": "Text: 'The device may fail under extreme heat.' Which option distorts the statement?",
         "options": [
-          "Elas são ineficazes na redução das taxas de criminalidade.",
-          "Elas são muito caras para os departamentos de polícia.",
-          "Elas frequentemente deixam de capturar detalhes cruciais durante os incidentes.",
-          "Elas contribuem para o aumento dos níveis de estresse dos policiais."
+          "The statement is not absolute.",
+          "Extreme heat can be a risk condition.",
+          "The device will always fail in any heat.",
+          "Failure is possible in extreme heat."
+        ],
+        "answer": 2,
+        "explanation": "May and extreme restrict the claim.",
+        "tip": "Watch for always/any."
+      },
+      {
+        "question": "'The suspect was being questioned when the lawyer arrived.' Was being questioned is:",
+        "options": [
+          "Present Perfect Passive.",
+          "Simple Past Active.",
+          "Past Continuous Passive.",
+          "Future Continuous."
+        ],
+        "answer": 2,
+        "explanation": "Was being + participle forms Past Continuous Passive.",
+        "tip": "Recognize auxiliary chains."
+      },
+      {
+        "question": "'Neither officer accepted the explanation.' Means:",
+        "options": [
+          "One accepted it.",
+          "Both accepted it.",
+          "No officer anywhere accepted it.",
+          "Neither of the two accepted it."
         ],
         "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "Neither applies to two specified officers.",
+        "tip": "Keep the scope limited."
       },
       {
-        "question": "Na frase \"The move comes as some law enforcement agencies are struggling with retention and hiring during the pandemic\", a utilização do termo \"as\" é determinante para transmitir uma relação específica entre as duas orações. Qual é a função gramatical do termo \"as\" neste contexto?",
+        "question": "Text: 'The policy was revised because several provisions were unclear.' The revision is presented as:",
         "options": [
-          "Servir como pronome relativo indicando um ponto específico no tempo.",
-          "Atuar como uma conjunção subordinativa indicando uma ação concorrente ou simultânea.",
-          "Introduzir uma oração concessiva indicando um resultado inesperado.",
-          "Representar um verbo imperativo que indica uma ação necessária."
+          "Unrelated to clarity.",
+          "A future possibility only.",
+          "Consequence of the unclear provisions.",
+          "Cause of the unclear provisions."
+        ],
+        "answer": 2,
+        "explanation": "Because introduces the reason for revision.",
+        "tip": "Identify direction of causality."
+      },
+      {
+        "question": "'This led to a second investigation.' If the previous sentence says evidence was lost, this most likely refers to:",
+        "options": [
+          "Only the noun evidence, regardless of event.",
+          "The loss of evidence.",
+          "The second investigation.",
+          "An unknown person."
         ],
         "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "This can refer to the preceding event/proposition.",
+        "tip": "Demonstratives may summarize whole ideas."
       },
       {
-        "question": "Skimming busca:",
+        "question": "'Applicants are required to submit two documents.' A faithful paraphrase is:",
         "options": [
-          "Só datas.",
-          "Tradução total.",
-          "Verbos.",
-          "A ideia geral."
+          "Applicants submitted two documents yesterday.",
+          "Applicants must submit two documents.",
+          "Applicants may submit documents if they wish.",
+          "Applicants are forbidden to submit documents."
+        ],
+        "answer": 1,
+        "explanation": "Are required to expresses obligation.",
+        "tip": "Preserve modal force."
+      },
+      {
+        "question": "'The city has invested in training since 2023.' The phrase suggests:",
+        "options": [
+          "Investment ended before 2023.",
+          "A single event with no present relevance.",
+          "Investment connected from 2023 to the present.",
+          "Only a future plan."
+        ],
+        "answer": 2,
+        "explanation": "Present Perfect + since links past start to present.",
+        "tip": "Since gives a starting point."
+      },
+      {
+        "question": "'Despite limited resources, the unit met its target.' The best equivalent is:",
+        "options": [
+          "Although resources were limited, the unit met its target.",
+          "The unit met its target, therefore resources were unlimited.",
+          "Because resources were limited, the target was impossible.",
+          "Resources were limited after the target."
+        ],
+        "answer": 0,
+        "explanation": "Despite expresses concession.",
+        "tip": "Despite + noun ≈ although + clause."
+      },
+      {
+        "question": "'The measure is unlikely to eliminate fraud entirely.' Which is correct?",
+        "options": [
+          "Unlikely means illegal.",
+          "Complete elimination is presented as improbable.",
+          "Fraud has already been eliminated.",
+          "The measure certainly eliminates fraud."
+        ],
+        "answer": 1,
+        "explanation": "Unlikely expresses low probability.",
+        "tip": "Do not confuse probability with legality."
+      },
+      {
+        "question": "'The officer to whom I spoke confirmed the information.' Whom is:",
+        "options": [
+          "Subject of confirmed.",
+          "Object of the preposition to, referring to officer.",
+          "Possessive pronoun.",
+          "Place marker."
+        ],
+        "answer": 1,
+        "explanation": "Whom is object after to.",
+        "tip": "Formal relative structures often use preposition + whom."
+      },
+      {
+        "question": "Text: 'The reform could reduce costs and improve transparency.' What cannot be concluded?",
+        "options": [
+          "The author presents potential benefits.",
+          "Cost reduction is presented as possible.",
+          "Both outcomes are guaranteed.",
+          "Transparency may improve."
+        ],
+        "answer": 2,
+        "explanation": "Could marks possibility, not guarantee.",
+        "tip": "Modal verbs constrain inference."
+      },
+      {
+        "question": "'There is little evidence that the change caused the decline.' Little conveys:",
+        "options": [
+          "A large amount of evidence.",
+          "Insufficient/scant evidence.",
+          "Exactly zero evidence.",
+          "A few countable pieces in a positive tone."
+        ],
+        "answer": 1,
+        "explanation": "Little with uncountable evidence suggests scarcity.",
+        "tip": "Little ≠ a little."
+      },
+      {
+        "question": "'The data were collected at night and analyzed in the morning.' At night is:",
+        "options": [
+          "A surface relation.",
+          "A conventional time expression.",
+          "A relative clause.",
+          "A specific date."
+        ],
+        "answer": 1,
+        "explanation": "At night is an idiomatic time expression.",
+        "tip": "Some prepositional combinations are fixed."
+      },
+      {
+        "question": "'The plan, which was approved yesterday, will start next month.' The relative clause is:",
+        "options": [
+          "A cause introduced by which.",
+          "A condition.",
+          "Defining and necessary to identify the plan.",
+          "Non-defining additional information."
         ],
         "answer": 3,
-        "explanation": "A ideia geral.",
-        "tip": "Use o contexto."
+        "explanation": "Commas mark a non-defining clause.",
+        "tip": "Punctuation affects interpretation."
       },
       {
-        "question": "Scanning busca:",
+        "question": "Text: 'Officials welcomed the decline but cautioned against celebrating too early.' The tone is:",
         "options": [
-          "Só gramática.",
-          "Informação específica.",
-          "Opinião.",
-          "Rimas."
+          "Unreservedly celebratory.",
+          "Cautiously positive.",
+          "Hostile.",
+          "Humorous."
         ],
         "answer": 1,
-        "explanation": "Informação específica.",
-        "tip": "Use o contexto."
+        "explanation": "Welcomed is positive, but cautioned limits enthusiasm.",
+        "tip": "Look at both sides of but."
       },
       {
-        "question": "Actually:",
+        "question": "'The new system is less vulnerable to failure.' Means:",
         "options": [
-          "Atualmente.",
-          "Atual.",
-          "Ação.",
-          "Na verdade."
+          "More vulnerable.",
+          "Less susceptible to failure.",
+          "Already failed.",
+          "Completely immune to failure."
+        ],
+        "answer": 1,
+        "explanation": "Less vulnerable indicates reduced susceptibility, not zero risk.",
+        "tip": "Comparatives do not imply absolutes."
+      },
+      {
+        "question": "'The equipment was found inside the vehicle.' Which word is a true cognate-like aid for Portuguese readers?",
+        "options": [
+          "Found.",
+          "Equipment.",
+          "Inside.",
+          "Vehicle."
         ],
         "answer": 3,
-        "explanation": "Na verdade.",
-        "tip": "Use o contexto."
+        "explanation": "Vehicle/veículo is a useful cognate; equipment is also related but spelling/usage can mislead less—vehicle is clearest here.",
+        "tip": "Use cognates as clues, then verify context."
       },
       {
-        "question": "Parents:",
+        "question": "'By 2030, the department will have completed the transition.' The tense emphasizes:",
         "options": [
-          "Parentes.",
-          "Pais.",
-          "Filhos.",
-          "Irmãos."
+          "A prohibition.",
+          "A past habit.",
+          "Completion before a future reference point.",
+          "An action happening now."
         ],
-        "answer": 1,
-        "explanation": "Pais.",
-        "tip": "Use o contexto."
+        "answer": 2,
+        "explanation": "Future Perfect marks completion by a future deadline.",
+        "tip": "By + future point often signals Future Perfect."
       },
       {
-        "question": "Pretend:",
+        "question": "'The policy is intended to improve accountability.' Intended to most nearly expresses:",
         "options": [
-          "Pretender.",
-          "Proteger.",
-          "Prever.",
-          "Fingir."
+          "Purpose/aim.",
+          "Prohibition.",
+          "Past certainty of success.",
+          "Comparison."
         ],
-        "answer": 3,
-        "explanation": "Fingir.",
-        "tip": "Use o contexto."
+        "answer": 0,
+        "explanation": "Is intended to states purpose, not guaranteed result.",
+        "tip": "Distinguish aim from outcome."
       },
       {
-        "question": "They:",
+        "question": "Text: 'Some studies report benefits, whereas others find no significant effect.' The author presents:",
         "options": [
-          "Ele.",
-          "Eles/elas.",
-          "Eu.",
-          "Isto."
+          "No studies.",
+          "Unanimous evidence.",
+          "Conflicting/mixed evidence.",
+          "Proof that benefits are false."
         ],
-        "answer": 1,
-        "explanation": "Eles/elas.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Yesterday indica:",
-        "options": [
-          "Futuro.",
-          "Plural.",
-          "Posse.",
-          "Passado."
-        ],
-        "answer": 3,
-        "explanation": "Passado.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Every day sugere:",
-        "options": [
-          "Passado único.",
-          "Rotina/hábito.",
-          "Negação.",
-          "Comparação."
-        ],
-        "answer": 1,
-        "explanation": "Rotina/hábito.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Now pode sinalizar:",
-        "options": [
-          "Passado distante.",
-          "Plural.",
-          "Artigo.",
-          "Ação em andamento."
-        ],
-        "answer": 3,
-        "explanation": "Ação em andamento.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Will costuma indicar:",
-        "options": [
-          "Artigo.",
-          "Futuro.",
-          "Passado.",
-          "Plural."
-        ],
-        "answer": 1,
-        "explanation": "Futuro.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Must:",
-        "options": [
-          "Conselho fraco.",
-          "Artigo.",
-          "Passado.",
-          "Obrigação."
-        ],
-        "answer": 3,
-        "explanation": "Obrigação.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Should:",
-        "options": [
-          "Causa.",
-          "Conselho.",
-          "Plural.",
-          "Passado."
-        ],
-        "answer": 1,
-        "explanation": "Conselho.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "May:",
-        "options": [
-          "Obrigação absoluta.",
-          "Artigo.",
-          "Negação.",
-          "Possibilidade."
-        ],
-        "answer": 3,
-        "explanation": "Possibilidade.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "However:",
-        "options": [
-          "Causa.",
-          "Contraste.",
-          "Adição.",
-          "Posse."
-        ],
-        "answer": 1,
-        "explanation": "Contraste.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Because:",
-        "options": [
-          "Consequência.",
-          "Plural.",
-          "Comparação.",
-          "Causa."
-        ],
-        "answer": 3,
-        "explanation": "Causa.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Therefore:",
-        "options": [
-          "Oposição.",
-          "Consequência/conclusão.",
-          "Artigo.",
-          "Negação."
-        ],
-        "answer": 1,
-        "explanation": "Consequência/conclusão.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Never:",
-        "options": [
-          "Sempre.",
-          "Talvez.",
-          "Logo.",
-          "Nunca."
-        ],
-        "answer": 3,
-        "explanation": "Nunca.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "More dangerous:",
-        "options": [
-          "Menos perigoso.",
-          "Mais perigoso.",
-          "Igual.",
-          "Nunca perigoso."
-        ],
-        "answer": 1,
-        "explanation": "Mais perigoso.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Cognatos devem ser:",
-        "options": [
-          "Aceitos automaticamente.",
-          "Ignorados.",
-          "Usados só em títulos.",
-          "Confirmados pelo contexto."
-        ],
-        "answer": 3,
-        "explanation": "Confirmados pelo contexto.",
-        "tip": "Use o contexto."
-      },
-      {
-        "question": "Gramática no edital serve para:",
-        "options": [
-          "Substituir interpretação.",
-          "Ajudar a compreender o sentido.",
-          "Decorar sem contexto.",
-          "Eliminar leitura."
-        ],
-        "answer": 1,
-        "explanation": "Ajudar a compreender o sentido.",
-        "tip": "Use o contexto."
+        "answer": 2,
+        "explanation": "Whereas contrasts differing findings.",
+        "tip": "Mixed evidence does not justify an absolute conclusion."
       }
     ]
   }
