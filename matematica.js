@@ -1,4 +1,4 @@
-/* Missão PMMG V7.0.0 — Matemática refinada */
+/* Missão PMMG — Matemática • prova final em nível PMMG reforçado */
 window.matematicaLessons={
   "1": {
     "title": "Números e operações fundamentais",
@@ -2044,8 +2044,188 @@ window.matematicaLessons={
     "title": "🏆 Prova Final — Raciocínio Lógico-Matemático",
     "subtitle": "Matemática • Avaliação Final • 30 questões",
     "time": "90 min",
-    "content": "<div class=\"edital-badge\">🏆 PROVA FINAL • 30 QUESTÕES</div><h3>Fechamento da disciplina</h3><p>Uma questão de cada uma das 30 aulas. As alternativas são embaralhadas pelo sistema.</p><div class=\"gold-rule\">🎯 APROVAÇÃO: mínimo de <b>70%</b>.</div>",
+    "content": "<div class=\"edital-badge\">🏆 PROVA FINAL • 30 QUESTÕES</div><h3>Fechamento da disciplina</h3><p>Uma questão de cada uma das 30 aulas. As alternativas são embaralhadas pelo sistema.</p><div class=\"gold-rule\">🎯 APROVAÇÃO: mínimo de <b>70%</b>.</div><div class=\"gold-rule\">🔥 NÍVEL PMMG REFORÇADO: 30 questões com enunciados mais densos, alternativas próximas e questões históricas do banco de provas anteriores.</div>",
     "quiz": [
+      {
+        "question": "Uma patrulha policial é composta por 4 policiais que se deslocam em fila na tentativa de abordar e capturar o autor de um crime. São eles os Soldados Cláudio, Fernando, João e Ricardo, não necessariamente nessa ordem. Cada um dos policiais porta uma arma: Espingarda, Fuzil, Pistola e Submetralhadora, também não necessariamente nessa ordem. Fernando dá cobertura ao policial que está a sua frente na fila e que porta uma submetralhadora. Cláudio que não é o último da fila, fica uma posição na frente de João que não está armado de Espingarda e não é o segundo da fila. O Terceiro militar da fila está armado de espingarda. Com base nas informações fornecidas é INCORRETO afirmar que:",
+        "options": [
+          "Fernando é o segundo militar da fila.",
+          "Cláudio é o terceiro militar da fila e porta uma espingarda.",
+          "Ricardo é o primeiro militar da fila e porta uma submetralhadora.",
+          "João porta uma submetralhadora."
+        ],
+        "answer": 3,
+        "explanation": "Questão histórica PMMG. Gabarito: D.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Analise as assertivas abaixo e, em seguida, responda o que se pede. I. A mediana é o valor central de um conjunto de números colocados por ordem de grandeza II. São exemplos de variáveis quantitativas discretas o número de filhos de um casal e a escolaridade de uma pessoa. III. Quanto maior o Desvio Padrão mais distante os valores amostrais estão da média ao passo que quanto mais próximo de zero, mais homogêneo é o conjunto. IV. Considerando um conjunto de 60 meninos e 40 meninas e a utilização da amostragem proporcional estratificada para a seleção de uma amostra de 10% do tamanho da população. A amostra conterá 5 meninos e 5 meninas. Marque a alternativa CORRETA:",
+        "options": [
+          "Uma assertiva é falsa.",
+          "Duas assertivas são falsas.",
+          "Três assertivas são falsas.",
+          "Todas as assertivas são falsas."
+        ],
+        "answer": 1,
+        "explanation": "Questão histórica PMMG. Gabarito: B.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "A Polícia Militar de Minas Gerais avalia a qualidade do serviço prestado à comunidade através de metas de redução de criminalidade, de indicadores de produtividade como quantidade de apreensões de drogas e armas ilegais, bem como sob a ótica da satisfação da população. Em relação à satisfação da população é realizada uma pesquisa através da internet que contempla 3 (três) indicadores, quais sejam: Sensação de Segurança, Atendimento do 190 e Atendimento pelo Policial no Local da Ocorrência. Os dados da pesquisa revelaram que: I. 66% dos cidadãos Mineiros se sentem seguros. II. 58% aprovam o atendimento via telefona ao 190. III. 60% aprovam o atendimento pelo Policial no Local da Ocorrência. IV. 43% dos entrevistados se sentem seguros e aprovam o atendimento via telefona ao 190. V. 42% dos entrevistados se sentem seguros e aprovam o atendimento pelo Policial no Local da Ocorrência. VI. 31% dos entrevistados aprovam tanto o atendimento via telefona ao 190 e pelo Policial no Local da Ocorrência. VII. 28% dos entrevistados se sentem seguros e aprovam tanto o atendimento via telefona ao 190 quanto o atendimento pelo Policial no Local da Ocorrência. VIII. O restante dos entrevistados não se sentem seguros e não aprovam nem o atendimento pelo 190 nem o atendimento pelo policial no local da ocorrência. Marque a alternativa CORRETA que corresponde ao percentual de entrevistados que não aprova o atendimento 190.",
+        "options": [
+          "42.",
+          "04.",
+          "38.",
+          "29."
+        ],
+        "answer": 0,
+        "explanation": "Questão histórica PMMG. Gabarito: A.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Com uma régua você mede no mapa um trecho reto de uma rodovia entre o Km – 45 e o km – 63. A distância no mapa é de 10 cm. Marque a alternativa CORRETA que corresponde à escala cartográfica desse mapa.",
+        "options": [
+          "1:18.000.",
+          "1:1.800.000.",
+          "1:1.800.",
+          "1:180.000."
+        ],
+        "answer": 3,
+        "explanation": "Questão histórica PMMG. Gabarito: D.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Marque a alternativa CORRETA. A fábrica de munições de PMMG em sua capacidade máxima produz 3.000 munições por dia com 5 funcionários trabalhando 8 horas por dia. Com a nova turma de soldados, a fábrica de munições precisará produzir 5250 munições por dia e para isso contratou mais 02 funcionários. Quantas horas os 07 funcionários terão de trabalhar para suprir essa nova demanda diária de munições?",
+        "options": [
+          "19,6.",
+          "6,4.",
+          "10,0.",
+          "12,0."
+        ],
+        "answer": 2,
+        "explanation": "Questão histórica PMMG. Gabarito: C.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Considere a seguinte sequência: 1, 5, 13, ....,. Nessa sequência, cada termo é o dobro do seu anterior mais três. Marque a alternativa CORRETA que se refere ao nono termo dessa sequência.",
+        "options": [
+          "509.",
+          "1021.",
+          "2045.",
+          "4093."
+        ],
+        "answer": 1,
+        "explanation": "Questão histórica PMMG. Gabarito: B.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Sabendo que o sétimo termo de uma Progressão Geométrica é 2187 e que o primeiro termo é 3. Marque a alternativa CORRETA que corresponde ao quinto termo.",
+        "options": [
+          "729.",
+          "81.",
+          "1353.",
+          "243."
+        ],
+        "answer": 3,
+        "explanation": "Questão histórica PMMG. Gabarito: D.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Certo mapa representativo da área geográfica de uma Companhia de Polícia Militar \"X\", tem escala de 1: 600 000 (um por seiscentos mil). Para cumprir as missões policiais planejadas para determinado dia, uma guarnição policial precisa, partindo do ponto de lançamento da operação A, percorrer, no mapa, os seguimentos de reta AB e BC, que medem, respectivamente, 6 cm e 8 cm. Ao término dos atendimentos, a guarnição retornará ao ponto de lançamento da operação pelo segmento de reta CA, que mede 10 cm. Marque a alternativa CORRETA que corresponde à medida real, em quilômetros, de todo trajeto percorrido nos trechos AB, BC e CA:",
+        "options": [
+          "94 Km.",
+          "144 Km",
+          "940 Km.",
+          "1440 Km"
+        ],
+        "answer": 1,
+        "explanation": "Questão histórica PMMG. Gabarito: B.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Analise as proposições lógicas, hipoteticamente proferidas por um militar de determinado Batalhão: I. Se o Tenente emitir o parecer técnico, então o sargento redigirá o Ofício; II. Os documentos comprobatórios serão anexados ao processo se o sargento tiver redigido o Ofício; III. Ou os documentos comprobatórios são anexados ao processo, ou são arquivados. Considerando que as alternativas anteriores possuem valoração verdadeira e, sabendo que os documentos comprobatórios não foram anexados ao processo, então:",
+        "options": [
+          "O Tenente emitiu o parecer técnico e os documentos comprobatórios foram arquivados.",
+          "O Tenente emitiu o parecer técnico, mas o ofício não foi redigido.",
+          "Ou os documentos comprobatórios foram arquivados ou o ofício não foi redigido.",
+          "O ofício não foi redigido e os documentos comprobatórios foram arquivados."
+        ],
+        "answer": 3,
+        "explanation": "Questão histórica PMMG. Gabarito: D.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Os Batalhões de Polícia Militar A, B, C e D de uma cidade ofertam os seguintes serviços de Policiamento: Policiamento Ostensivo Geral (POG), Policiamento Ambiental (PMAMB), Policiamento de Trânsito (PATRAN), Patrulha de Prevenção à Violência Doméstica (PPVD). Devido às características de cada serviço policial, o tempo de permanência nas delegacias em caso de registro de ocorrência é específico de cada Tipo de Policiamento. Tabela: A: POG=2, PMAMB=2, PATRAN=3, PPVD=2 → 130 min B: POG=2, PMAMB=1, PATRAN=2, PPVD=4 → 140 min C: POG=0, PMAMB=5, PATRAN=0, PPVD=0 → 100 min D: POG=3, PMAMB=2, PATRAN=5, PPVD=1 → 140 min Sabendo que o tempo de permanência na delegacia é igual para o atendimento de cada ocorrência do mesmo tipo de policiamento, marque a alternativa CORRETA que contém, respectivamente, o tempo, em minutos, de permanência na delegacia para as modalidades de policiamento POG, PMAMB, PATRAN e PPVD.",
+        "options": [
+          "15, 30, 10, 10",
+          "20, 20, 10, 20",
+          "10, 20, 10, 20",
+          "30, 15, 20, 10"
+        ],
+        "answer": 2,
+        "explanation": "Questão histórica PMMG. Gabarito: C.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Denomina-se \"Arranjo simples\" (A n,p) todos os agrupamentos simples de \"p\" elementos que podemos formar com \"n\" elementos distintos, sendo p≤n. Cada um desses agrupamentos se diferencia de outro pela ordem ou natureza de seus elementos. Já na \"Combinação Simples\" (C n,p ), trata-se todos os agrupamentos simples de \"p\" elementos que podemos formar com \"n\" elementos distintos, sendo p≤n, mas cada um desses agrupamentos se diferencia de outro apenas pela natureza de seus elementos e não pela ordem. Desta forma, assinale a alternativa que contenha corretamente: - A fórmula matemática do \"Arranjo Simples\"; - A fórmula matemática da \"Combinação Simples\"; - Quantidade de números naturais de 3 algarismos distintos que podem ser formados;",
+        "options": [
+          "A(n,p) = n!/(n-p)! ; C(n,p) = n!/[p!(n-p)!] ; 648 números",
+          "A(n,p) = n!/(n-p)! ; C(n,p) = n!/[p!(n-p)!] ; 720 números",
+          "C(n,p) = n!/(n-p)! ; A(n,p) = n!/[p!(n-p)!] ; 720 números",
+          "A(n,p) = n!/(n-p)! ; C(n,p) = n!/[p!(n-p)!] ; 900 números"
+        ],
+        "answer": 0,
+        "explanation": "Questão histórica PMMG. Gabarito: A.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Sabe-se que o policiamento ostensivo inibe práticas criminosas. Da mesma forma, a ausência de policiamento ostensivo pode acarretar o aumento de práticas criminosas. Considere que o número de delitos que ocorrem em uma determinada área, por dia, após ficar sem policiamento ostensivo por um tempo \"t\" em dias é dado por: N = N₀ · e^(r·t) Em que: N₀ é o número de delitos quando há policiamento ostensivo ininterrupto (quando t=0); \"r\" é a taxa de crescimento relativo do número de delitos quando o policiamento ostensivo fica ausente. \"t\" é o tempo em dias com ausência de policiamento \"e\" é o número de Euler. Em quanto tempo, o número de delitos dobrará, se a taxa de crescimento relativo for 5% ao dia? Considere ln 2 = 0,7 e ln e = 1",
+        "options": [
+          "10 dias.",
+          "12 dias.",
+          "14 dias.",
+          "16 dias."
+        ],
+        "answer": 2,
+        "explanation": "Questão histórica PMMG. Gabarito: C.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Em um determinado Batalhão de Polícia Militar, de um total de efetivo de 40 policiais militares, 30 trabalham no serviço de Policiamento Ostensivo Geral (POG), 20 trabalham na Base Comunitária Móvel (BCM) e 5 trabalham em outros serviços que não sejam POG ou BCM. Qual é a quantidade de militares que trabalham nas duas atividades POG e BCM?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "20"
+        ],
+        "answer": 1,
+        "explanation": "Questão histórica PMMG. Gabarito: B.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Devido ao aumento de demanda por policiais militares do quadro de músicos no Estado X, o Governo do Estado anunciou contratação, através de concurso público, de 17 policiais militares músicos no ano de 2024 e a cada ano seguinte dobrará (aumento de 100%) o número de policiais militares músicos contratados. Sabe-se que a soma dos n primeiros termos de uma progressão geométrica (an) de razão q ≠ 1 é: Sn = a₁ · (q^n - 1)/(q - 1) Onde q é a razão da progressão, a₁ o primeiro termo e n a quantidade de termos. Quantos policiais militares músicos serão contratados no período de 2024 a 2033?",
+        "options": [
+          "12486",
+          "15498",
+          "16874",
+          "17391"
+        ],
+        "answer": 3,
+        "explanation": "Questão histórica PMMG. Gabarito: D.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
+      {
+        "question": "Numa Companhia de Polícia Militar X, 10 viaturas cumprem em 6 dias a meta mensal de atendimento de denúncias fazendo 8 horas de trabalho diárias cada. Se apenas 5 viaturas estiverem trabalhando, fazendo 6 horas de trabalho diárias, quantos dias elas levarão para cumprirem a meta de atendimento de denúncias?",
+        "options": [
+          "12",
+          "15",
+          "16",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "Questão histórica PMMG. Gabarito: D.",
+        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+      },
       {
         "question": "Quanto vale 18 - 3 × 4?",
         "options": [
@@ -2225,186 +2405,6 @@ window.matematicaLessons={
         "answer": 0,
         "explanation": "3x−6=0 ⇒ x=2.",
         "tip": "Revise a Aula 15."
-      },
-      {
-        "question": "Em f(x)=x²−4x+3, o eixo de simetria é x=",
-        "options": [
-          "2",
-          "4",
-          "-2",
-          "1"
-        ],
-        "answer": 0,
-        "explanation": "xv=−b/(2a)=4/2=2.",
-        "tip": "Revise a Aula 16."
-      },
-      {
-        "question": "Qual o próximo termo: 2,4,8,16,...?",
-        "options": [
-          "32",
-          "20",
-          "24",
-          "18"
-        ],
-        "answer": 0,
-        "explanation": "Cada termo é o dobro do anterior.",
-        "tip": "Revise a Aula 17."
-      },
-      {
-        "question": "Na PA 3,7,11,... a razão é:",
-        "options": [
-          "4",
-          "3",
-          "7",
-          "11"
-        ],
-        "answer": 0,
-        "explanation": "7−3=4.",
-        "tip": "Revise a Aula 18."
-      },
-      {
-        "question": "Na PG 2,6,18,... a razão é:",
-        "options": [
-          "3",
-          "4",
-          "6",
-          "2"
-        ],
-        "answer": 0,
-        "explanation": "6/2=3.",
-        "tip": "Revise a Aula 19."
-      },
-      {
-        "question": "Antes de interpretar um gráfico, deve-se observar primeiro:",
-        "options": [
-          "Título, eixos, legenda e escala",
-          "A cor favorita",
-          "A maior barra apenas",
-          "Somente a última informação"
-        ],
-        "answer": 0,
-        "explanation": "Esses elementos definem o significado dos dados.",
-        "tip": "Revise a Aula 20."
-      },
-      {
-        "question": "Em escala 1:50.000, 2 cm no mapa representam:",
-        "options": [
-          "1 km",
-          "100 m",
-          "10 km",
-          "500 m"
-        ],
-        "answer": 0,
-        "explanation": "2×50.000=100.000 cm=1 km.",
-        "tip": "Revise a Aula 21."
-      },
-      {
-        "question": "A média de 4,6,8 é:",
-        "options": [
-          "6",
-          "18",
-          "5",
-          "7"
-        ],
-        "answer": 0,
-        "explanation": "(4+6+8)/3=6.",
-        "tip": "Revise a Aula 22."
-      },
-      {
-        "question": "A amplitude do conjunto 3,8,10,15 é:",
-        "options": [
-          "12",
-          "15",
-          "3",
-          "9"
-        ],
-        "answer": 0,
-        "explanation": "15−3=12.",
-        "tip": "Revise a Aula 23."
-      },
-      {
-        "question": "Perímetro de um quadrado de lado 7 cm:",
-        "options": [
-          "28 cm",
-          "49 cm²",
-          "14 cm",
-          "21 cm"
-        ],
-        "answer": 0,
-        "explanation": "4×7=28.",
-        "tip": "Revise a Aula 24."
-      },
-      {
-        "question": "Área de retângulo 8×5:",
-        "options": [
-          "40",
-          "26",
-          "13",
-          "80"
-        ],
-        "answer": 0,
-        "explanation": "A=base×altura=40.",
-        "tip": "Revise a Aula 25."
-      },
-      {
-        "question": "Volume de cubo de aresta 4:",
-        "options": [
-          "64",
-          "16",
-          "48",
-          "12"
-        ],
-        "answer": 0,
-        "explanation": "V=4³=64.",
-        "tip": "Revise a Aula 26."
-      },
-      {
-        "question": "3 camisas e 4 calças formam quantos conjuntos diferentes?",
-        "options": [
-          "12",
-          "7",
-          "24",
-          "1"
-        ],
-        "answer": 0,
-        "explanation": "3×4=12.",
-        "tip": "Revise a Aula 27."
-      },
-      {
-        "question": "Número de maneiras de ordenar 4 pessoas em fila:",
-        "options": [
-          "24",
-          "16",
-          "12",
-          "4"
-        ],
-        "answer": 0,
-        "explanation": "4!=24.",
-        "tip": "Revise a Aula 28."
-      },
-      {
-        "question": "Ao lançar moeda justa, P(cara)=",
-        "options": [
-          "1/2",
-          "1",
-          "1/3",
-          "0"
-        ],
-        "answer": 0,
-        "explanation": "1 resultado favorável em 2 possíveis.",
-        "tip": "Revise a Aula 29."
-      },
-      {
-        "question": "A negação de 'João estuda e Maria trabalha' é:",
-        "options": [
-          "João não estuda ou Maria não trabalha",
-          "João não estuda e Maria não trabalha",
-          "João estuda ou Maria trabalha",
-          "Maria não trabalha apenas"
-        ],
-        "answer": 0,
-        "explanation": "Pela lei de De Morgan: ¬(p∧q)=¬p∨¬q.",
-        "tip": "Revise a Aula 30."
       }
     ]
   }
