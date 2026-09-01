@@ -7,7 +7,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 01</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Números e operações fundamentais</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Domine operações com naturais, inteiros, racionais e reais. Use parênteses primeiro; depois potências/raízes, multiplicação/divisão e soma/subtração. Em problemas, traduza o texto para operações antes de calcular.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Operações com números naturais — expressões e quatro operações</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/qRceiJJ6t6c\" title=\"Operações com números naturais — expressões e quatro operações\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale 18 - 3 × 4?",
+        "question": "Quanto vale 18 - 3 × 4?",
         "options": [
           "6",
           "60",
@@ -19,7 +19,7 @@ window.matematicaLessons={
         "tip": "Respeite a ordem das operações."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual número pertence ao conjunto dos inteiros, mas não aos naturais?",
+        "question": "Qual número pertence ao conjunto dos inteiros, mas não aos naturais?",
         "options": [
           "-4",
           "4",
@@ -31,7 +31,7 @@ window.matematicaLessons={
         "tip": "Inteiros: ...,−2,−1,0,1,2,..."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale (-7)+12?",
+        "question": "Quanto vale (-7)+12?",
         "options": [
           "5",
           "-19",
@@ -43,7 +43,7 @@ window.matematicaLessons={
         "tip": "Na reta numérica, avance 12 casas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale 48 ÷ 6 + 2?",
+        "question": "Quanto vale 48 ÷ 6 + 2?",
         "options": [
           "10",
           "6",
@@ -55,7 +55,7 @@ window.matematicaLessons={
         "tip": "Divisão antes da soma."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o valor de 2³ + 5 é:",
+        "question": "O valor de 2³ + 5 é:",
         "options": [
           "13",
           "11",
@@ -75,7 +75,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 02</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Frações — fundamentos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Fração representa partes de um todo ou razão entre quantidades. Simplifique dividindo numerador e denominador pelo mesmo fator. Para comparar, use denominadores comuns ou produto cruzado quando adequado.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>O que é uma fração? — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/NoBHpMF2MOE\" title=\"O que é uma fração? — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a fração 6/8 simplificada é:",
+        "question": "A fração 6/8 simplificada é:",
         "options": [
           "3/4",
           "2/4",
@@ -87,7 +87,7 @@ window.matematicaLessons={
         "tip": "Simplifique pelo MDC."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual fração é equivalente a 2/3?",
+        "question": "Qual fração é equivalente a 2/3?",
         "options": [
           "8/12",
           "4/5",
@@ -99,7 +99,7 @@ window.matematicaLessons={
         "tip": "Multiplique numerador e denominador pelo mesmo número."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, entre 3/5 e 2/3, a maior é:",
+        "question": "Entre 3/5 e 2/3, a maior é:",
         "options": [
           "2/3",
           "3/5",
@@ -111,7 +111,7 @@ window.matematicaLessons={
         "tip": "Use produto cruzado."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a fração que representa 25% é:",
+        "question": "A fração que representa 25% é:",
         "options": [
           "1/4",
           "1/2",
@@ -123,7 +123,7 @@ window.matematicaLessons={
         "tip": "Converta percentual para fração."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 7/7 é igual a:",
+        "question": "7/7 é igual a:",
         "options": [
           "1",
           "7",
@@ -143,7 +143,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 03</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Frações — operações e problemas</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Para somar ou subtrair frações, use denominador comum. Multiplique numeradores e denominadores na multiplicação. Na divisão, multiplique pela inversa da segunda fração. Sempre interprete o que a fração representa no enunciado.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Adição e subtração de frações</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/O7eLNYH5eQ0\" title=\"Adição e subtração de frações\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale 1/2 + 1/3?",
+        "question": "Quanto vale 1/2 + 1/3?",
         "options": [
           "5/6",
           "2/5",
@@ -155,7 +155,7 @@ window.matematicaLessons={
         "tip": "Use denominador comum."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale 3/4 - 1/8?",
+        "question": "Quanto vale 3/4 - 1/8?",
         "options": [
           "5/8",
           "2/4",
@@ -167,7 +167,7 @@ window.matematicaLessons={
         "tip": "Converta para denominadores iguais."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 2/3 × 9/4 é:",
+        "question": "2/3 × 9/4 é:",
         "options": [
           "3/2",
           "18/7",
@@ -179,7 +179,7 @@ window.matematicaLessons={
         "tip": "Multiplique e simplifique."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, (3/5) ÷ (9/10) é:",
+        "question": "(3/5) ÷ (9/10) é:",
         "options": [
           "2/3",
           "27/50",
@@ -191,7 +191,7 @@ window.matematicaLessons={
         "tip": "Dividir por uma fração = multiplicar pela inversa."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, metade de 3/4 é:",
+        "question": "Metade de 3/4 é:",
         "options": [
           "3/8",
           "3/2",
@@ -211,7 +211,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 04</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Razão e proporção</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Razão compara duas grandezas. Proporção é igualdade entre duas razões. Se a/b=c/d, então ad=bc. Verifique unidades antes de montar a relação.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Razão e proporção — Parte I</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/4HBKywBYUx0\" title=\"Razão e proporção — Parte I\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se a razão entre homens e mulheres é 2:3 e há 10 homens, quantas mulheres há?",
+        "question": "Se a razão entre homens e mulheres é 2:3 e há 10 homens, quantas mulheres há?",
         "options": [
           "15",
           "12",
@@ -223,7 +223,7 @@ window.matematicaLessons={
         "tip": "Monte a proporção mantendo a ordem."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na proporção 4/5 = x/20, x vale:",
+        "question": "Na proporção 4/5 = x/20, x vale:",
         "options": [
           "16",
           "25",
@@ -235,7 +235,7 @@ window.matematicaLessons={
         "tip": "Produto dos meios = produto dos extremos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a razão 12:18 simplificada é:",
+        "question": "A razão 12:18 simplificada é:",
         "options": [
           "2:3",
           "3:2",
@@ -247,7 +247,7 @@ window.matematicaLessons={
         "tip": "Simplifique os dois termos pelo mesmo divisor."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se a:b=3:4 e b=20, então a=",
+        "question": "Se a:b=3:4 e b=20, então a=",
         "options": [
           "15",
           "16",
@@ -259,7 +259,7 @@ window.matematicaLessons={
         "tip": "Conserve a correspondência da razão."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma escala 1:100 significa:",
+        "question": "Uma escala 1:100 significa:",
         "options": [
           "1 unidade no desenho corresponde a 100 na realidade",
           "100 no desenho corresponde a 1 real",
@@ -279,7 +279,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 05</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regra de três simples</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Na proporção direta, as grandezas crescem ou diminuem juntas. Na inversa, uma cresce enquanto a outra diminui. Identifique a relação antes de montar a conta.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Regra de três simples</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/7gK3-QG363o\" title=\"Regra de três simples\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 4 cadernos custam R$ 28. Quanto custam 7 cadernos?",
+        "question": "4 cadernos custam R$ 28. Quanto custam 7 cadernos?",
         "options": [
           "R$ 49",
           "R$ 35",
@@ -291,7 +291,7 @@ window.matematicaLessons={
         "tip": "Grandezas diretamente proporcionais."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma máquina produz 120 peças em 3 h. No mesmo ritmo, em 5 h produz:",
+        "question": "Uma máquina produz 120 peças em 3 h. No mesmo ritmo, em 5 h produz:",
         "options": [
           "200",
           "180",
@@ -303,7 +303,7 @@ window.matematicaLessons={
         "tip": "Encontre a taxa unitária."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se 6 trabalhadores fazem um serviço em 10 dias, 12 trabalhadores, no mesmo ritmo, fazem em:",
+        "question": "Se 6 trabalhadores fazem um serviço em 10 dias, 12 trabalhadores, no mesmo ritmo, fazem em:",
         "options": [
           "5 dias",
           "20 dias",
@@ -315,7 +315,7 @@ window.matematicaLessons={
         "tip": "Mais trabalhadores, menos dias."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 3 kg custam R$ 21. 8 kg custam:",
+        "question": "3 kg custam R$ 21. 8 kg custam:",
         "options": [
           "R$ 56",
           "R$ 48",
@@ -327,7 +327,7 @@ window.matematicaLessons={
         "tip": "Use proporção direta."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um carro percorre 180 km com 15 L. Mantendo o consumo, com 25 L percorre:",
+        "question": "Um carro percorre 180 km com 15 L. Mantendo o consumo, com 25 L percorre:",
         "options": [
           "300 km",
           "270 km",
@@ -347,7 +347,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 06</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Regra de três composta</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Organize as grandezas em tabela e compare cada uma com a incógnita. Inverta apenas as relações inversamente proporcionais. Simplifique antes de multiplicar para reduzir erros.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Regra de três composta</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/QXd6ubUNUuU\" title=\"Regra de três composta\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 8 operários, trabalhando 6 h/dia, fazem uma obra em 15 dias. Com 12 operários a 6 h/dia, o tempo será:",
+        "question": "8 operários, trabalhando 6 h/dia, fazem uma obra em 15 dias. Com 12 operários a 6 h/dia, o tempo será:",
         "options": [
           "10 dias",
           "22,5 dias",
@@ -359,7 +359,7 @@ window.matematicaLessons={
         "tip": "Identifique relações inversas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 4 máquinas fazem 800 peças em 5 h. 10 máquinas, em 2 h, fazem:",
+        "question": "4 máquinas fazem 800 peças em 5 h. 10 máquinas, em 2 h, fazem:",
         "options": [
           "800",
           "1000",
@@ -371,7 +371,7 @@ window.matematicaLessons={
         "tip": "Compare cada grandeza com a produção."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 6 pessoas consomem 18 L em 3 dias. 10 pessoas em 6 dias consomem:",
+        "question": "6 pessoas consomem 18 L em 3 dias. 10 pessoas em 6 dias consomem:",
         "options": [
           "60 L",
           "30 L",
@@ -383,7 +383,7 @@ window.matematicaLessons={
         "tip": "Consumo é direto com pessoas e dias."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto mais velocidade para a mesma distância, o tempo é:",
+        "question": "Quanto mais velocidade para a mesma distância, o tempo é:",
         "options": [
           "Menor",
           "Maior",
@@ -395,7 +395,7 @@ window.matematicaLessons={
         "tip": "Pergunte se as grandezas crescem juntas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na regra de três composta, antes de calcular deve-se:",
+        "question": "Na regra de três composta, antes de calcular deve-se:",
         "options": [
           "Classificar cada relação como direta ou inversa",
           "Somar todas as grandezas",
@@ -415,7 +415,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 07</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Porcentagem — fundamentos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>x% significa x/100. Para encontrar p% de V, calcule V·p/100. Aumento de p% multiplica por 1+p/100; desconto multiplica por 1-p/100.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Porcentagem — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/nUgAGtEBleM\" title=\"Porcentagem — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 20% de 250 é:",
+        "question": "20% de 250 é:",
         "options": [
           "50",
           "25",
@@ -427,7 +427,7 @@ window.matematicaLessons={
         "tip": "p% = p/100."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um produto de R$ 80 com desconto de 15% custa:",
+        "question": "Um produto de R$ 80 com desconto de 15% custa:",
         "options": [
           "R$ 68",
           "R$ 65",
@@ -439,7 +439,7 @@ window.matematicaLessons={
         "tip": "Use fator 0,85."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, r$ 200 aumentados em 10% resultam em:",
+        "question": "R$ 200 aumentados em 10% resultam em:",
         "options": [
           "R$ 220",
           "R$ 210",
@@ -451,7 +451,7 @@ window.matematicaLessons={
         "tip": "Aumento de 10% = fator 1,10."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 45 é quantos por cento de 180?",
+        "question": "45 é quantos por cento de 180?",
         "options": [
           "25%",
           "20%",
@@ -463,7 +463,7 @@ window.matematicaLessons={
         "tip": "Parte ÷ total ×100."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 125% de 40 é:",
+        "question": "125% de 40 é:",
         "options": [
           "50",
           "45",
@@ -483,7 +483,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 08</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Porcentagem — variações sucessivas</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Percentuais sucessivos não devem ser simplesmente somados em geral. Um aumento de 10% seguido de desconto de 10% aplica fatores 1,10 e 0,90, resultando em 0,99 do valor inicial.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Porcentagem — aumento e desconto percentual</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/e-RF3sUzqLw\" title=\"Porcentagem — aumento e desconto percentual\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um valor sobe 20% e depois cai 20%. Em relação ao inicial, fica:",
+        "question": "Um valor sobe 20% e depois cai 20%. Em relação ao inicial, fica:",
         "options": [
           "4% menor",
           "Igual",
@@ -495,7 +495,7 @@ window.matematicaLessons={
         "tip": "Percentuais sucessivos multiplicam fatores."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, r$ 100 sofre aumentos sucessivos de 10% e 20%. Valor final:",
+        "question": "R$ 100 sofre aumentos sucessivos de 10% e 20%. Valor final:",
         "options": [
           "R$ 132",
           "R$ 130",
@@ -507,7 +507,7 @@ window.matematicaLessons={
         "tip": "Não some percentuais sucessivos automaticamente."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um preço de R$ 500 recebe dois descontos de 10%. Final:",
+        "question": "Um preço de R$ 500 recebe dois descontos de 10%. Final:",
         "options": [
           "R$ 405",
           "R$ 400",
@@ -519,7 +519,7 @@ window.matematicaLessons={
         "tip": "A segunda taxa incide sobre o novo valor."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para voltar de 80 para 100, o aumento percentual é:",
+        "question": "Para voltar de 80 para 100, o aumento percentual é:",
         "options": [
           "25%",
           "20%",
@@ -531,7 +531,7 @@ window.matematicaLessons={
         "tip": "A base do percentual é o valor inicial da variação."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, fator equivalente a desconto de 35%:",
+        "question": "Fator equivalente a desconto de 35%:",
         "options": [
           "0,65",
           "1,35",
@@ -551,7 +551,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 09</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Equação do 1º grau</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Uma equação mantém igualdade. Faça a mesma operação nos dois lados. Organize termos com incógnita de um lado e constantes do outro. Depois confira substituindo a solução.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Equação do 1º grau — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/HXqlCoeF-yY\" title=\"Equação do 1º grau — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, resolva: 3x+5=20.",
+        "question": "Resolva: 3x+5=20.",
         "options": [
           "x=5",
           "x=15",
@@ -563,7 +563,7 @@ window.matematicaLessons={
         "tip": "Isole a incógnita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 2(x−4)=10. x=",
+        "question": "2(x−4)=10. x=",
         "options": [
           "9",
           "1",
@@ -575,7 +575,7 @@ window.matematicaLessons={
         "tip": "Divida primeiro por 2."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 5x−7=2x+8. x=",
+        "question": "5x−7=2x+8. x=",
         "options": [
           "5",
           "3",
@@ -587,7 +587,7 @@ window.matematicaLessons={
         "tip": "Leve termos com x para um lado."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, x/4 + 3 = 8. x=",
+        "question": "x/4 + 3 = 8. x=",
         "options": [
           "20",
           "5",
@@ -599,7 +599,7 @@ window.matematicaLessons={
         "tip": "Desfaça as operações na ordem inversa."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a solução de 7x=0 é:",
+        "question": "A solução de 7x=0 é:",
         "options": [
           "0",
           "7",
@@ -619,7 +619,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 10</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Problemas com equação do 1º grau</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Defina a incógnita claramente. Traduza expressões como dobro, metade, diferença e soma. Monte a equação antes de iniciar cálculos.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Equação do 1º grau — resolução de problemas</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/r9jwYjv85HM\" title=\"Equação do 1º grau — resolução de problemas\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o dobro de um número mais 6 é 30. O número é:",
+        "question": "O dobro de um número mais 6 é 30. O número é:",
         "options": [
           "12",
           "18",
@@ -631,7 +631,7 @@ window.matematicaLessons={
         "tip": "Traduza 'dobro' por 2x."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a soma de um número com 15 é 42. Número:",
+        "question": "A soma de um número com 15 é 42. Número:",
         "options": [
           "27",
           "57",
@@ -643,7 +643,7 @@ window.matematicaLessons={
         "tip": "Defina a incógnita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ana tem 8 anos a mais que Bia. Juntas têm 32. Bia tem:",
+        "question": "Ana tem 8 anos a mais que Bia. Juntas têm 32. Bia tem:",
         "options": [
           "12",
           "20",
@@ -655,7 +655,7 @@ window.matematicaLessons={
         "tip": "Expresse uma idade em função da outra."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um número diminuído de sua terça parte é 20. Número:",
+        "question": "Um número diminuído de sua terça parte é 20. Número:",
         "options": [
           "30",
           "24",
@@ -667,7 +667,7 @@ window.matematicaLessons={
         "tip": "Use frações na equação."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o perímetro de um retângulo é 50 e o comprimento é 15. A largura é:",
+        "question": "O perímetro de um retângulo é 50 e o comprimento é 15. A largura é:",
         "options": [
           "10",
           "20",
@@ -687,7 +687,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 11</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Equação do 2º grau</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Use Δ=b²-4ac. Se Δ>0 há duas raízes reais distintas; Δ=0, uma raiz real dupla; Δ<0, não há raízes reais. Fórmula: x=(-b±√Δ)/(2a).</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Equação/Função do 2º grau — conceitos e resolução</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/2zWE0O151Y8\" title=\"Equação/Função do 2º grau — conceitos e resolução\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as raízes de x²−5x+6=0 são:",
+        "question": "As raízes de x²−5x+6=0 são:",
         "options": [
           "2 e 3",
           "1 e 6",
@@ -699,7 +699,7 @@ window.matematicaLessons={
         "tip": "Procure dois números que somem 5 e multipliquem 6."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para x²−4=0, as raízes são:",
+        "question": "Para x²−4=0, as raízes são:",
         "options": [
           "-2 e 2",
           "0 e 4",
@@ -711,7 +711,7 @@ window.matematicaLessons={
         "tip": "Lembre do ±."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em x²+2x+5=0, o discriminante é:",
+        "question": "Em x²+2x+5=0, o discriminante é:",
         "options": [
           "-16",
           "24",
@@ -723,7 +723,7 @@ window.matematicaLessons={
         "tip": "Δ=b²−4ac."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se Δ=0, uma equação do 2º grau tem:",
+        "question": "Se Δ=0, uma equação do 2º grau tem:",
         "options": [
           "Uma raiz real dupla",
           "Duas raízes reais distintas",
@@ -735,7 +735,7 @@ window.matematicaLessons={
         "tip": "Classifique pelo discriminante."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o coeficiente a em 3x²−2x+7=0 é:",
+        "question": "O coeficiente a em 3x²−2x+7=0 é:",
         "options": [
           "3",
           "-2",
@@ -755,7 +755,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 12</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sistemas de equações</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Sistemas representam condições simultâneas. Na substituição, isole uma incógnita e substitua. Na eliminação, combine equações para cancelar uma variável.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Sistema de equações do 1º grau com duas incógnitas</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/9g-iqUgMw64\" title=\"Sistema de equações do 1º grau com duas incógnitas\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, no sistema x+y=10 e x−y=2, x vale:",
+        "question": "No sistema x+y=10 e x−y=2, x vale:",
         "options": [
           "6",
           "4",
@@ -767,7 +767,7 @@ window.matematicaLessons={
         "tip": "Eliminação pode ser mais rápida."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, no mesmo sistema x+y=10 e x−y=2, y vale:",
+        "question": "No mesmo sistema x+y=10 e x−y=2, y vale:",
         "options": [
           "4",
           "6",
@@ -779,7 +779,7 @@ window.matematicaLessons={
         "tip": "Substitua a primeira solução."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, sistema x+y=7 e 2x+2y=14 possui:",
+        "question": "Sistema x+y=7 e 2x+2y=14 possui:",
         "options": [
           "Infinitas soluções",
           "Uma solução",
@@ -791,7 +791,7 @@ window.matematicaLessons={
         "tip": "Equações equivalentes representam a mesma reta."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, x+y=5 e x+y=8 possui:",
+        "question": "x+y=5 e x+y=8 possui:",
         "options": [
           "Nenhuma solução",
           "Uma solução",
@@ -803,7 +803,7 @@ window.matematicaLessons={
         "tip": "Retas paralelas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, no método da substituição, primeiro costuma-se:",
+        "question": "No método da substituição, primeiro costuma-se:",
         "options": [
           "Isolar uma incógnita",
           "Multiplicar tudo por zero",
@@ -823,7 +823,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 13</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Conjuntos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>A∪B reúne elementos de A ou B; A∩B reúne elementos comuns. Em contagem, n(A∪B)=n(A)+n(B)-n(A∩B).</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Conjuntos para concursos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/jtZ0F25ucLI\" title=\"Conjuntos para concursos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se A={1,2,3} e B={3,4}, A∩B é:",
+        "question": "Se A={1,2,3} e B={3,4}, A∩B é:",
         "options": [
           "{3}",
           "{1,2,4}",
@@ -835,7 +835,7 @@ window.matematicaLessons={
         "tip": "∩ = 'e'."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a∪B para os mesmos conjuntos é:",
+        "question": "A∪B para os mesmos conjuntos é:",
         "options": [
           "{1,2,3,4}",
           "{3}",
@@ -847,7 +847,7 @@ window.matematicaLessons={
         "tip": "∪ = 'ou'."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se n(A)=20, n(B)=15 e n(A∩B)=5, n(A∪B)=",
+        "question": "Se n(A)=20, n(B)=15 e n(A∩B)=5, n(A∪B)=",
         "options": [
           "30",
           "40",
@@ -859,7 +859,7 @@ window.matematicaLessons={
         "tip": "Subtraia a interseção contada duas vezes."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o conjunto vazio é representado por:",
+        "question": "O conjunto vazio é representado por:",
         "options": [
           "∅",
           "∞",
@@ -871,7 +871,7 @@ window.matematicaLessons={
         "tip": "Não confunda ∅ com {0}."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se x∈A, significa que:",
+        "question": "Se x∈A, significa que:",
         "options": [
           "x pertence a A",
           "x contém A",
@@ -891,7 +891,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 14</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Funções — fundamentos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Função associa cada elemento do domínio a um único valor de saída. Leia eixos, escalas, crescimento, zeros e valores específicos do gráfico.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Funções — definição e leitura inicial</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/SGdo3lfBOf0\" title=\"Funções — definição e leitura inicial\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se f(x)=2x+1, f(3)=",
+        "question": "Se f(x)=2x+1, f(3)=",
         "options": [
           "7",
           "6",
@@ -903,7 +903,7 @@ window.matematicaLessons={
         "tip": "Substitua x pelo valor dado."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em uma função, cada elemento do domínio associa-se a:",
+        "question": "Em uma função, cada elemento do domínio associa-se a:",
         "options": [
           "Um único valor de saída",
           "Dois valores obrigatórios",
@@ -915,7 +915,7 @@ window.matematicaLessons={
         "tip": "Uma entrada → uma saída."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, os zeros de uma função são os valores de x onde:",
+        "question": "Os zeros de uma função são os valores de x onde:",
         "options": [
           "f(x)=0",
           "x=0 sempre",
@@ -927,7 +927,7 @@ window.matematicaLessons={
         "tip": "Procure onde y=0."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o domínio de uma função é:",
+        "question": "O domínio de uma função é:",
         "options": [
           "O conjunto de valores de entrada",
           "Somente os zeros",
@@ -939,7 +939,7 @@ window.matematicaLessons={
         "tip": "Pense nos valores possíveis de x."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, num gráfico cartesiano, o eixo horizontal normalmente representa:",
+        "question": "Num gráfico cartesiano, o eixo horizontal normalmente representa:",
         "options": [
           "x",
           "y",
@@ -959,7 +959,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 15</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Função afim</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>O gráfico é uma reta. a é coeficiente angular e indica crescimento/decrescimento; b é intercepto no eixo y. O zero satisfaz ax+b=0.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Função afim — questão de concurso</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/9KQLlkPCSog\" title=\"Função afim — questão de concurso\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em f(x)=3x−6, o zero da função é:",
+        "question": "Em f(x)=3x−6, o zero da função é:",
         "options": [
           "2",
           "-2",
@@ -971,7 +971,7 @@ window.matematicaLessons={
         "tip": "Iguale f(x) a zero."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em f(x)=−2x+5, a função é:",
+        "question": "Em f(x)=−2x+5, a função é:",
         "options": [
           "Decrescente",
           "Crescente",
@@ -983,7 +983,7 @@ window.matematicaLessons={
         "tip": "Observe o sinal de a."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em f(x)=4x+7, o coeficiente linear é:",
+        "question": "Em f(x)=4x+7, o coeficiente linear é:",
         "options": [
           "7",
           "4",
@@ -995,7 +995,7 @@ window.matematicaLessons={
         "tip": "f(x)=ax+b."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma função afim tem gráfico em forma de:",
+        "question": "Uma função afim tem gráfico em forma de:",
         "options": [
           "Reta",
           "Parábola",
@@ -1007,7 +1007,7 @@ window.matematicaLessons={
         "tip": "Reta."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se a=0 em f(x)=ax+b, a função é:",
+        "question": "Se a=0 em f(x)=ax+b, a função é:",
         "options": [
           "Constante",
           "Quadrática",
@@ -1027,7 +1027,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 16</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Função quadrática</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>f(x)=ax²+bx+c gera parábola. O sinal de a determina concavidade. xv=-b/(2a) e yv=f(xv). Raízes são interseções com eixo x.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Função quadrática — conceitos iniciais</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/xpVl4yYmzSY\" title=\"Função quadrática — conceitos iniciais\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em f(x)=x²−4x+3, o eixo de simetria é x=",
+        "question": "Em f(x)=x²−4x+3, o eixo de simetria é x=",
         "options": [
           "2",
           "4",
@@ -1039,7 +1039,7 @@ window.matematicaLessons={
         "tip": "Use xv=−b/2a."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se a>0 numa função quadrática, a parábola tem concavidade:",
+        "question": "Se a>0 numa função quadrática, a parábola tem concavidade:",
         "options": [
           "Para cima",
           "Para baixo",
@@ -1051,7 +1051,7 @@ window.matematicaLessons={
         "tip": "Observe a."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as raízes de x²−1 são:",
+        "question": "As raízes de x²−1 são:",
         "options": [
           "-1 e 1",
           "0 e 1",
@@ -1063,7 +1063,7 @@ window.matematicaLessons={
         "tip": "Diferença de quadrados."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o vértice de uma parábola representa:",
+        "question": "O vértice de uma parábola representa:",
         "options": [
           "Ponto de máximo ou mínimo",
           "Sempre uma raiz",
@@ -1075,7 +1075,7 @@ window.matematicaLessons={
         "tip": "Vértice = extremo."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se uma quadrática tem Δ<0, ela possui:",
+        "question": "Se uma quadrática tem Δ<0, ela possui:",
         "options": [
           "Nenhuma raiz real",
           "Duas raízes reais",
@@ -1095,7 +1095,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 17</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Sequências e padrões</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Procure diferenças, razões, alternâncias ou regras por posição. Não escolha padrão apenas por poucos termos: confirme em todos os termos dados.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Sequências numéricas e reconhecimento de padrões</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/Ooml-aGpg14\" title=\"Sequências numéricas e reconhecimento de padrões\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual o próximo termo: 2,4,8,16,...?",
+        "question": "Qual o próximo termo: 2,4,8,16,...?",
         "options": [
           "32",
           "20",
@@ -1107,7 +1107,7 @@ window.matematicaLessons={
         "tip": "Procure a regra de formação."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, sequência 5,8,11,14,... possui diferença constante de:",
+        "question": "Sequência 5,8,11,14,... possui diferença constante de:",
         "options": [
           "3",
           "5",
@@ -1119,7 +1119,7 @@ window.matematicaLessons={
         "tip": "Calcule diferenças."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 1,1,2,3,5,8,... próximo termo:",
+        "question": "1,1,2,3,5,8,... próximo termo:",
         "options": [
           "13",
           "10",
@@ -1131,7 +1131,7 @@ window.matematicaLessons={
         "tip": "Reconheça o padrão."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na sequência 20,17,14,11,... o próximo é:",
+        "question": "Na sequência 20,17,14,11,... o próximo é:",
         "options": [
           "8",
           "9",
@@ -1143,7 +1143,7 @@ window.matematicaLessons={
         "tip": "Confirme em todos os termos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um padrão numérico deve ser aceito quando:",
+        "question": "Um padrão numérico deve ser aceito quando:",
         "options": [
           "É consistente com todos os termos fornecidos",
           "Funciona só nos dois primeiros",
@@ -1163,7 +1163,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 18</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Progressão Aritmética (PA)</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Em PA, a diferença entre termos consecutivos é constante r. an=a1+(n-1)r. Soma: Sn=n(a1+an)/2.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Progressão Aritmética — PA</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/SKCDt0UHiYc\" title=\"Progressão Aritmética — PA\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na PA 3,7,11,... a razão é:",
+        "question": "Na PA 3,7,11,... a razão é:",
         "options": [
           "4",
           "3",
@@ -1175,7 +1175,7 @@ window.matematicaLessons={
         "tip": "r=a₂−a₁."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o 10º termo da PA 2,5,8,... é:",
+        "question": "O 10º termo da PA 2,5,8,... é:",
         "options": [
           "29",
           "30",
@@ -1187,7 +1187,7 @@ window.matematicaLessons={
         "tip": "an=a1+(n−1)r."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a soma dos 5 primeiros termos de 2,4,6,8,10 é:",
+        "question": "A soma dos 5 primeiros termos de 2,4,6,8,10 é:",
         "options": [
           "30",
           "20",
@@ -1199,7 +1199,7 @@ window.matematicaLessons={
         "tip": "Use Sn=n(a1+an)/2."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma PA com razão negativa é:",
+        "question": "Uma PA com razão negativa é:",
         "options": [
           "Decrescente",
           "Crescente sempre",
@@ -1211,7 +1211,7 @@ window.matematicaLessons={
         "tip": "Sinal de r."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se a1=10 e r=0, a PA é:",
+        "question": "Se a1=10 e r=0, a PA é:",
         "options": [
           "Constante",
           "Crescente",
@@ -1231,7 +1231,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 19</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Progressão Geométrica (PG)</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Em PG, cada termo é obtido multiplicando o anterior por q. an=a1·q^(n-1). Para q≠1, Sn=a1(q^n-1)/(q-1).</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Progressão Geométrica — PG</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/RIEkTcq2MeE\" title=\"Progressão Geométrica — PG\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na PG 2,6,18,... a razão é:",
+        "question": "Na PG 2,6,18,... a razão é:",
         "options": [
           "3",
           "4",
@@ -1243,7 +1243,7 @@ window.matematicaLessons={
         "tip": "q=a₂/a₁."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o 5º termo da PG 1,2,4,... é:",
+        "question": "O 5º termo da PG 1,2,4,... é:",
         "options": [
           "16",
           "8",
@@ -1255,7 +1255,7 @@ window.matematicaLessons={
         "tip": "an=a1·q^(n−1)."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na PG 81,27,9,... q=",
+        "question": "Na PG 81,27,9,... q=",
         "options": [
           "1/3",
           "3",
@@ -1267,7 +1267,7 @@ window.matematicaLessons={
         "tip": "Razão pode ser fracionária."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a soma 1+2+4+8 é:",
+        "question": "A soma 1+2+4+8 é:",
         "options": [
           "15",
           "16",
@@ -1279,7 +1279,7 @@ window.matematicaLessons={
         "tip": "Confira também pela fórmula de soma."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se q=1, uma PG é:",
+        "question": "Se q=1, uma PG é:",
         "options": [
           "Constante",
           "Sempre decrescente",
@@ -1299,7 +1299,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 20</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Leitura de tabelas e gráficos</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Leia título, unidade, legenda, escala e período antes de calcular. Questões podem pedir comparação absoluta, relativa ou tendência.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Organizando dados em tabelas e gráficos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/Ld3i9Wcqaew\" title=\"Organizando dados em tabelas e gráficos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, antes de interpretar um gráfico, deve-se observar primeiro:",
+        "question": "Antes de interpretar um gráfico, deve-se observar primeiro:",
         "options": [
           "Título, eixos, legenda e escala",
           "A cor favorita",
@@ -1311,7 +1311,7 @@ window.matematicaLessons={
         "tip": "Leia o gráfico antes de calcular."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma barra de altura 40 comparada a outra de 20 representa:",
+        "question": "Uma barra de altura 40 comparada a outra de 20 representa:",
         "options": [
           "O dobro",
           "A metade",
@@ -1323,7 +1323,7 @@ window.matematicaLessons={
         "tip": "Compare proporcionalmente."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, num gráfico de linhas, uma subida entre dois pontos indica:",
+        "question": "Num gráfico de linhas, uma subida entre dois pontos indica:",
         "options": [
           "Aumento da variável representada",
           "Queda obrigatória",
@@ -1335,7 +1335,7 @@ window.matematicaLessons={
         "tip": "Leia a tendência."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se uma tabela traz valores em milhares, o número 25 representa:",
+        "question": "Se uma tabela traz valores em milhares, o número 25 representa:",
         "options": [
           "25.000",
           "2.500",
@@ -1347,7 +1347,7 @@ window.matematicaLessons={
         "tip": "Leia a unidade."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um gráfico pode induzir interpretação errada quando:",
+        "question": "Um gráfico pode induzir interpretação errada quando:",
         "options": [
           "A escala do eixo é truncada ou inadequada",
           "Tem título",
@@ -1367,7 +1367,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 21</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Escalas e conversões</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Escala 1:n significa 1 unidade no desenho para n unidades reais. Converta tudo para a mesma unidade antes de aplicar a razão.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Escalas — razão entre desenho e realidade</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/MlpfXdvG_04\" title=\"Escalas — razão entre desenho e realidade\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em escala 1:50.000, 2 cm no mapa representam:",
+        "question": "Em escala 1:50.000, 2 cm no mapa representam:",
         "options": [
           "1 km",
           "100 m",
@@ -1379,7 +1379,7 @@ window.matematicaLessons={
         "tip": "Converta unidades no final."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 1,5 m equivalem a:",
+        "question": "1,5 m equivalem a:",
         "options": [
           "150 cm",
           "15 cm",
@@ -1391,7 +1391,7 @@ window.matematicaLessons={
         "tip": "Padronize as unidades."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 3 km equivalem a:",
+        "question": "3 km equivalem a:",
         "options": [
           "3000 m",
           "300 m",
@@ -1403,7 +1403,7 @@ window.matematicaLessons={
         "tip": "Use fatores de conversão."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na escala 1:100, 5 cm representam na realidade:",
+        "question": "Na escala 1:100, 5 cm representam na realidade:",
         "options": [
           "5 m",
           "50 m",
@@ -1415,7 +1415,7 @@ window.matematicaLessons={
         "tip": "Mesma unidade primeiro."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma planta em escala 1:20 é:",
+        "question": "Uma planta em escala 1:20 é:",
         "options": [
           "Uma redução",
           "Uma ampliação de 20 vezes",
@@ -1435,7 +1435,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 22</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estatística — média, mediana e moda</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Média é soma dividida pela quantidade. Mediana é o valor central após ordenar. Moda é o valor mais frequente. Em quantidade par, mediana é média dos dois centrais.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Média, mediana e desvio padrão</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/5-TERv1ky_c\" title=\"Média, mediana e desvio padrão\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a média de 4,6,8 é:",
+        "question": "A média de 4,6,8 é:",
         "options": [
           "6",
           "18",
@@ -1447,7 +1447,7 @@ window.matematicaLessons={
         "tip": "Some e divida pela quantidade."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a mediana de 2,9,5 é:",
+        "question": "A mediana de 2,9,5 é:",
         "options": [
           "5",
           "9",
@@ -1459,7 +1459,7 @@ window.matematicaLessons={
         "tip": "Ordene os dados."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a moda de 1,2,2,3,4 é:",
+        "question": "A moda de 1,2,2,3,4 é:",
         "options": [
           "2",
           "1",
@@ -1471,7 +1471,7 @@ window.matematicaLessons={
         "tip": "Moda = mais frequente."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a mediana de 1,3,7,9 é:",
+        "question": "A mediana de 1,3,7,9 é:",
         "options": [
           "5",
           "4",
@@ -1483,7 +1483,7 @@ window.matematicaLessons={
         "tip": "Quantidade par: média dos dois centrais."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, conjunto 5,5,5,5 possui média:",
+        "question": "Conjunto 5,5,5,5 possui média:",
         "options": [
           "5",
           "20",
@@ -1503,7 +1503,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 23</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estatística — amplitude e interpretação</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Amplitude é maior valor menos menor valor. Compare conjuntos não apenas pela média: distribuição e dispersão também importam.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Estatística — média e amplitude de dados</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/iZ0obVo5LRc\" title=\"Estatística — média e amplitude de dados\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a amplitude do conjunto 3,8,10,15 é:",
+        "question": "A amplitude do conjunto 3,8,10,15 é:",
         "options": [
           "12",
           "15",
@@ -1515,7 +1515,7 @@ window.matematicaLessons={
         "tip": "Máximo menos mínimo."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, dois conjuntos podem ter a mesma média e:",
+        "question": "Dois conjuntos podem ter a mesma média e:",
         "options": [
           "Amplitudes diferentes",
           "Obrigatoriamente os mesmos valores",
@@ -1527,7 +1527,7 @@ window.matematicaLessons={
         "tip": "Compare além da média."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, no conjunto 2,4,6,8, a amplitude é:",
+        "question": "No conjunto 2,4,6,8, a amplitude é:",
         "options": [
           "6",
           "8",
@@ -1539,7 +1539,7 @@ window.matematicaLessons={
         "tip": "Maior − menor."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma amplitude maior sugere, de forma simples:",
+        "question": "Uma amplitude maior sugere, de forma simples:",
         "options": [
           "Maior espalhamento entre extremos",
           "Média maior obrigatoriamente",
@@ -1551,7 +1551,7 @@ window.matematicaLessons={
         "tip": "Não confunda dispersão com média."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se todos os valores aumentam 10 unidades, a amplitude:",
+        "question": "Se todos os valores aumentam 10 unidades, a amplitude:",
         "options": [
           "Permanece igual",
           "Aumenta 10",
@@ -1571,7 +1571,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 24</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Geometria plana — perímetros</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Perímetro é a soma dos lados. Em figuras compostas, conte apenas o contorno externo. Padronize unidades.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Perímetro e área — problema de concurso</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/2gKjoUwEDM8\" title=\"Perímetro e área — problema de concurso\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, perímetro de um quadrado de lado 7 cm:",
+        "question": "Perímetro de um quadrado de lado 7 cm:",
         "options": [
           "28 cm",
           "49 cm²",
@@ -1583,7 +1583,7 @@ window.matematicaLessons={
         "tip": "Perímetro é contorno."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, perímetro de retângulo 8 cm por 5 cm:",
+        "question": "Perímetro de retângulo 8 cm por 5 cm:",
         "options": [
           "26 cm",
           "40 cm²",
@@ -1595,7 +1595,7 @@ window.matematicaLessons={
         "tip": "Some todos os lados."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, triângulo com lados 3,4,5 tem perímetro:",
+        "question": "Triângulo com lados 3,4,5 tem perímetro:",
         "options": [
           "12",
           "6",
@@ -1607,7 +1607,7 @@ window.matematicaLessons={
         "tip": "Perímetro = soma dos lados."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma circunferência de raio r tem comprimento:",
+        "question": "Uma circunferência de raio r tem comprimento:",
         "options": [
           "2πr",
           "πr²",
@@ -1619,7 +1619,7 @@ window.matematicaLessons={
         "tip": "Não confunda comprimento com área."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ao calcular perímetro de figura composta, devemos contar:",
+        "question": "Ao calcular perímetro de figura composta, devemos contar:",
         "options": [
           "Somente o contorno externo",
           "Todas as linhas internas e externas",
@@ -1639,7 +1639,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 25</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Geometria plana — áreas</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Retângulo: A=bh; triângulo: A=bh/2; trapézio: A=(B+b)h/2; círculo: A=πr². Desenhe e identifique medidas.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Geometria plana — áreas</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/IS7_Uiep7H0\" title=\"Geometria plana — áreas\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, área de retângulo 8×5:",
+        "question": "Área de retângulo 8×5:",
         "options": [
           "40",
           "26",
@@ -1651,7 +1651,7 @@ window.matematicaLessons={
         "tip": "Área usa unidades quadradas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, área de triângulo base 10 e altura 6:",
+        "question": "Área de triângulo base 10 e altura 6:",
         "options": [
           "30",
           "60",
@@ -1663,7 +1663,7 @@ window.matematicaLessons={
         "tip": "Divida por 2."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, área de quadrado lado 9:",
+        "question": "Área de quadrado lado 9:",
         "options": [
           "81",
           "36",
@@ -1675,7 +1675,7 @@ window.matematicaLessons={
         "tip": "Quadrado: lado²."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, área de círculo de raio 3:",
+        "question": "Área de círculo de raio 3:",
         "options": [
           "9π",
           "6π",
@@ -1687,7 +1687,7 @@ window.matematicaLessons={
         "tip": "Raio ao quadrado."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, área de trapézio B=10, b=6, h=4:",
+        "question": "Área de trapézio B=10, b=6, h=4:",
         "options": [
           "32",
           "64",
@@ -1707,7 +1707,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 26</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Geometria espacial — volumes</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Volume de prisma é área da base vezes altura. Cubo: a³; paralelepípedo: abc; cilindro: πr²h. Atenção a unidades cúbicas.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Áreas e volumes de sólidos geométricos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/9O_lwAkJ2Z0\" title=\"Áreas e volumes de sólidos geométricos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, volume de cubo de aresta 4:",
+        "question": "Volume de cubo de aresta 4:",
         "options": [
           "64",
           "16",
@@ -1719,7 +1719,7 @@ window.matematicaLessons={
         "tip": "Unidade cúbica."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, volume de paralelepípedo 2×3×5:",
+        "question": "Volume de paralelepípedo 2×3×5:",
         "options": [
           "30",
           "10",
@@ -1731,7 +1731,7 @@ window.matematicaLessons={
         "tip": "Multiplique as três dimensões."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, volume de cilindro raio 2 e altura 5:",
+        "question": "Volume de cilindro raio 2 e altura 5:",
         "options": [
           "20π",
           "10π",
@@ -1743,7 +1743,7 @@ window.matematicaLessons={
         "tip": "V=área da base×altura."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 1 litro equivale a:",
+        "question": "1 litro equivale a:",
         "options": [
           "1000 cm³",
           "100 cm³",
@@ -1755,7 +1755,7 @@ window.matematicaLessons={
         "tip": "Conheça conversões básicas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, num prisma, volume é:",
+        "question": "Num prisma, volume é:",
         "options": [
           "Área da base × altura",
           "Perímetro × altura",
@@ -1775,7 +1775,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 27</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Análise combinatória — princípio multiplicativo</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Se uma escolha tem a opções e outra b opções independentes, há a·b combinações. Evite listar quando o princípio multiplicativo resolve.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Princípio Fundamental da Contagem</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/duf2XkeH65A\" title=\"Princípio Fundamental da Contagem\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 3 camisas e 4 calças formam quantos conjuntos diferentes?",
+        "question": "3 camisas e 4 calças formam quantos conjuntos diferentes?",
         "options": [
           "12",
           "7",
@@ -1787,7 +1787,7 @@ window.matematicaLessons={
         "tip": "Princípio multiplicativo."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma senha tem 2 letras (26 opções cada) e 1 dígito (10), com repetição. Quantas?",
+        "question": "Uma senha tem 2 letras (26 opções cada) e 1 dígito (10), com repetição. Quantas?",
         "options": [
           "6760",
           "260",
@@ -1799,7 +1799,7 @@ window.matematicaLessons={
         "tip": "Multiplique opções por etapa."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 2 rotas para ir e 3 para voltar geram:",
+        "question": "2 rotas para ir e 3 para voltar geram:",
         "options": [
           "6 possibilidades",
           "5",
@@ -1811,7 +1811,7 @@ window.matematicaLessons={
         "tip": "Etapas independentes multiplicam."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se uma tarefa pode ser feita de 5 maneiras OU outra de 4 maneiras, sem sobreposição, total:",
+        "question": "Se uma tarefa pode ser feita de 5 maneiras OU outra de 4 maneiras, sem sobreposição, total:",
         "options": [
           "9",
           "20",
@@ -1823,7 +1823,7 @@ window.matematicaLessons={
         "tip": "OU geralmente soma; E geralmente multiplica."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pFC é mais útil quando o processo ocorre:",
+        "question": "PFC é mais útil quando o processo ocorre:",
         "options": [
           "Em etapas sucessivas",
           "Sem escolhas",
@@ -1843,7 +1843,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 28</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Permutações e combinações</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Permutação considera ordem. Combinação escolhe sem considerar ordem. Antes de usar fórmula, pergunte: trocar a ordem cria resultado diferente?</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Análise combinatória — questões de concurso</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/zbzGlgarojA\" title=\"Análise combinatória — questões de concurso\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, número de maneiras de ordenar 4 pessoas em fila:",
+        "question": "Número de maneiras de ordenar 4 pessoas em fila:",
         "options": [
           "24",
           "16",
@@ -1855,7 +1855,7 @@ window.matematicaLessons={
         "tip": "Ordem importa: permutação."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, escolher 2 pessoas entre 5 para uma dupla, sem cargos:",
+        "question": "Escolher 2 pessoas entre 5 para uma dupla, sem cargos:",
         "options": [
           "10",
           "20",
@@ -1867,7 +1867,7 @@ window.matematicaLessons={
         "tip": "Sem ordem: combinação."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, escolher presidente e vice entre 5 pessoas:",
+        "question": "Escolher presidente e vice entre 5 pessoas:",
         "options": [
           "20",
           "10",
@@ -1879,7 +1879,7 @@ window.matematicaLessons={
         "tip": "Cargos tornam a ordem relevante."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 3! é igual a:",
+        "question": "3! é igual a:",
         "options": [
           "6",
           "3",
@@ -1891,7 +1891,7 @@ window.matematicaLessons={
         "tip": "Fatorial."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em combinação, trocar a ordem dos escolhidos:",
+        "question": "Em combinação, trocar a ordem dos escolhidos:",
         "options": [
           "Não cria novo resultado",
           "Sempre cria outro resultado",
@@ -1911,7 +1911,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 29</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Probabilidade</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Quando resultados são equiprováveis, P(A)=casos favoráveis/casos possíveis. Probabilidade fica entre 0 e 1. Use complemento quando mais simples.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Probabilidade — fundamentos</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/vAheWef9mKw\" title=\"Probabilidade — fundamentos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ao lançar moeda justa, P(cara)=",
+        "question": "Ao lançar moeda justa, P(cara)=",
         "options": [
           "1/2",
           "1",
@@ -1923,7 +1923,7 @@ window.matematicaLessons={
         "tip": "Favoráveis/possíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, num dado justo, P(sair número par)=",
+        "question": "Num dado justo, P(sair número par)=",
         "options": [
           "1/2",
           "1/6",
@@ -1935,7 +1935,7 @@ window.matematicaLessons={
         "tip": "Liste casos favoráveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, uma urna tem 3 bolas vermelhas e 2 azuis. P(vermelha)=",
+        "question": "Uma urna tem 3 bolas vermelhas e 2 azuis. P(vermelha)=",
         "options": [
           "3/5",
           "2/5",
@@ -1947,7 +1947,7 @@ window.matematicaLessons={
         "tip": "Totalize o espaço amostral."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se P(A)=0, o evento é:",
+        "question": "Se P(A)=0, o evento é:",
         "options": [
           "Impossível",
           "Certo",
@@ -1959,7 +1959,7 @@ window.matematicaLessons={
         "tip": "0≤P≤1."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se P(A)=0,3, então P(não A)=",
+        "question": "Se P(A)=0,3, então P(não A)=",
         "options": [
           "0,7",
           "0,3",
@@ -1979,7 +1979,7 @@ window.matematicaLessons={
     "content": "<div class=\"edital-badge\">📋 RACIOCÍNIO LÓGICO-MATEMÁTICO • AULA 30</div>\n<section class=\"written-lesson-v647\">\n<div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Lógica proposicional e argumentação</h3><p>Leia esta parte primeiro e refaça os exemplos no papel.</p></div>\n<h3>Conceito e método</h3><p>Proposição é sentença declarativa com valor verdadeiro ou falso. Estude ¬, ∧, ∨, → e ↔; equivalências, negações e estrutura de argumentos. Na condicional p→q, só é falsa quando p é verdadeira e q é falsa.</p>\n<h3>Como resolver na prova</h3><p>1) Leia o enunciado sem calcular. 2) Separe dados e o que é pedido. 3) Escolha a regra ou fórmula adequada. 4) Faça as contas organizadamente. 5) Confira sinal, unidade e se a resposta faz sentido.</p>\n<div class=\"lesson-example\"><b>Exemplo de treino:</b> antes de olhar alternativas, escreva a operação ou relação que traduz o problema. Isso reduz erros por impulso e alternativas-armadilha.</div>\n<div class=\"gold-rule\">🎯 REGRA DE OURO: organize o raciocínio antes de apertar a calculadora mental.</div>\n</section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Lógica proposicional — proposições e tabela-verdade</h3><p>Assista depois da leitura para reforçar o conteúdo desta aula.</p><iframe src=\"https://www.youtube.com/embed/KXm8Hi-I_G0\" title=\"Lógica proposicional — proposições e tabela-verdade\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a negação de 'João estuda e Maria trabalha' é:",
+        "question": "A negação de 'João estuda e Maria trabalha' é:",
         "options": [
           "João não estuda ou Maria não trabalha",
           "João não estuda e Maria não trabalha",
@@ -1991,7 +1991,7 @@ window.matematicaLessons={
         "tip": "Negue cada parte e troque E por OU."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a condicional p→q é falsa somente quando:",
+        "question": "A condicional p→q é falsa somente quando:",
         "options": [
           "p é verdadeira e q é falsa",
           "p e q são verdadeiras",
@@ -2003,7 +2003,7 @@ window.matematicaLessons={
         "tip": "Decore a exceção da condicional."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a bicondicional p↔q é verdadeira quando:",
+        "question": "A bicondicional p↔q é verdadeira quando:",
         "options": [
           "p e q têm o mesmo valor lógico",
           "p é sempre falsa",
@@ -2015,7 +2015,7 @@ window.matematicaLessons={
         "tip": "Mesmo valor lógico."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a negação de 'Todos os candidatos estudaram' é:",
+        "question": "A negação de 'Todos os candidatos estudaram' é:",
         "options": [
           "Pelo menos um candidato não estudou",
           "Nenhum candidato estudou",
@@ -2027,7 +2027,7 @@ window.matematicaLessons={
         "tip": "'Nem todos' = pelo menos um não."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se 'Se estudo, então passo' e 'estudo' são verdadeiras, concluir 'passo' usa:",
+        "question": "Se 'Se estudo, então passo' e 'estudo' são verdadeiras, concluir 'passo' usa:",
         "options": [
           "Modus ponens",
           "Negação",
@@ -2131,7 +2131,7 @@ window.matematicaLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, certo mapa representativo da área geográfica de uma Companhia de Polícia Militar \"X\", tem escala de 1: 600 000 (um por seiscentos mil). Para cumprir as missões policiais planejadas para determinado dia, uma guarnição policial precisa, partindo do ponto de lançamento da operação A, percorrer, no mapa, os seguimentos de reta AB e BC, que medem, respectivamente, 6 cm e 8 cm. Ao término dos atendimentos, a guarnição retornará ao ponto de lançamento da operação pelo segmento de reta CA, que mede 10 cm. Marque a alternativa CORRETA que corresponde à medida real, em quilômetros, de todo trajeto percorrido nos trechos AB, BC e CA:",
+        "question": "Certo mapa representativo da área geográfica de uma Companhia de Polícia Militar \"X\", tem escala de 1: 600 000 (um por seiscentos mil). Para cumprir as missões policiais planejadas para determinado dia, uma guarnição policial precisa, partindo do ponto de lançamento da operação A, percorrer, no mapa, os seguimentos de reta AB e BC, que medem, respectivamente, 6 cm e 8 cm. Ao término dos atendimentos, a guarnição retornará ao ponto de lançamento da operação pelo segmento de reta CA, que mede 10 cm. Marque a alternativa CORRETA que corresponde à medida real, em quilômetros, de todo trajeto percorrido nos trechos AB, BC e CA:",
         "options": [
           "94 Km.",
           "144 Km",
@@ -2167,7 +2167,7 @@ window.matematicaLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, denomina-se \"Arranjo simples\" (A n,p) todos os agrupamentos simples de \"p\" elementos que podemos formar com \"n\" elementos distintos, sendo p≤n. Cada um desses agrupamentos se diferencia de outro pela ordem ou natureza de seus elementos. Já na \"Combinação Simples\" (C n,p ), trata-se todos os agrupamentos simples de \"p\" elementos que podemos formar com \"n\" elementos distintos, sendo p≤n, mas cada um desses agrupamentos se diferencia de outro apenas pela natureza de seus elementos e não pela ordem. Desta forma, assinale a alternativa que contenha corretamente: - A fórmula matemática do \"Arranjo Simples\"; - A fórmula matemática da \"Combinação Simples\"; - Quantidade de números naturais de 3 algarismos distintos que podem ser formados;",
+        "question": "Denomina-se \"Arranjo simples\" (A n,p) todos os agrupamentos simples de \"p\" elementos que podemos formar com \"n\" elementos distintos, sendo p≤n. Cada um desses agrupamentos se diferencia de outro pela ordem ou natureza de seus elementos. Já na \"Combinação Simples\" (C n,p ), trata-se todos os agrupamentos simples de \"p\" elementos que podemos formar com \"n\" elementos distintos, sendo p≤n, mas cada um desses agrupamentos se diferencia de outro apenas pela natureza de seus elementos e não pela ordem. Desta forma, assinale a alternativa que contenha corretamente: - A fórmula matemática do \"Arranjo Simples\"; - A fórmula matemática da \"Combinação Simples\"; - Quantidade de números naturais de 3 algarismos distintos que podem ser formados;",
         "options": [
           "A(n,p) = n!/(n-p)! ; C(n,p) = n!/[p!(n-p)!] ; 648 números",
           "A(n,p) = n!/(n-p)! ; C(n,p) = n!/[p!(n-p)!] ; 720 números",
@@ -2227,7 +2227,7 @@ window.matematicaLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale 18 - 3 × 4?",
+        "question": "Quanto vale 18 - 3 × 4?",
         "options": [
           "6",
           "60",
@@ -2239,7 +2239,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 01."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a fração 6/8 simplificada é:",
+        "question": "A fração 6/8 simplificada é:",
         "options": [
           "3/4",
           "2/4",
@@ -2251,7 +2251,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 02."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, quanto vale 1/2 + 1/3?",
+        "question": "Quanto vale 1/2 + 1/3?",
         "options": [
           "5/6",
           "2/5",
@@ -2263,7 +2263,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 03."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se a razão entre homens e mulheres é 2:3 e há 10 homens, quantas mulheres há?",
+        "question": "Se a razão entre homens e mulheres é 2:3 e há 10 homens, quantas mulheres há?",
         "options": [
           "15",
           "12",
@@ -2275,7 +2275,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 04."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 4 cadernos custam R$ 28. Quanto custam 7 cadernos?",
+        "question": "4 cadernos custam R$ 28. Quanto custam 7 cadernos?",
         "options": [
           "R$ 49",
           "R$ 35",
@@ -2287,7 +2287,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 05."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 8 operários, trabalhando 6 h/dia, fazem uma obra em 15 dias. Com 12 operários a 6 h/dia, o tempo será:",
+        "question": "8 operários, trabalhando 6 h/dia, fazem uma obra em 15 dias. Com 12 operários a 6 h/dia, o tempo será:",
         "options": [
           "10 dias",
           "22,5 dias",
@@ -2299,7 +2299,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 06."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 20% de 250 é:",
+        "question": "20% de 250 é:",
         "options": [
           "50",
           "25",
@@ -2311,7 +2311,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 07."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um valor sobe 20% e depois cai 20%. Em relação ao inicial, fica:",
+        "question": "Um valor sobe 20% e depois cai 20%. Em relação ao inicial, fica:",
         "options": [
           "4% menor",
           "Igual",
@@ -2323,7 +2323,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 08."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, resolva: 3x+5=20.",
+        "question": "Resolva: 3x+5=20.",
         "options": [
           "x=5",
           "x=15",
@@ -2335,7 +2335,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 09."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o dobro de um número mais 6 é 30. O número é:",
+        "question": "O dobro de um número mais 6 é 30. O número é:",
         "options": [
           "12",
           "18",
@@ -2347,7 +2347,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 10."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, as raízes de x²−5x+6=0 são:",
+        "question": "As raízes de x²−5x+6=0 são:",
         "options": [
           "2 e 3",
           "1 e 6",
@@ -2359,7 +2359,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 11."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, no sistema x+y=10 e x−y=2, x vale:",
+        "question": "No sistema x+y=10 e x−y=2, x vale:",
         "options": [
           "6",
           "4",
@@ -2371,7 +2371,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 12."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se A={1,2,3} e B={3,4}, A∩B é:",
+        "question": "Se A={1,2,3} e B={3,4}, A∩B é:",
         "options": [
           "{3}",
           "{1,2,4}",
@@ -2383,7 +2383,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 13."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, se f(x)=2x+1, f(3)=",
+        "question": "Se f(x)=2x+1, f(3)=",
         "options": [
           "7",
           "6",
@@ -2395,7 +2395,7 @@ window.matematicaLessons={
         "tip": "Revise a Aula 14."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em f(x)=3x−6, o zero da função é:",
+        "question": "Em f(x)=3x−6, o zero da função é:",
         "options": [
           "2",
           "-2",
@@ -2409,3 +2409,27 @@ window.matematicaLessons={
     ]
   }
 };
+
+
+/* MISSÃO PMMG — MODO PROVA REAL
+   Evita padrão previsível de gabarito: redistribui a alternativa correta
+   em todas as avaliações sem alterar o conteúdo ou o gabarito factual. */
+(function(){
+  const banco=window.matematicaLessons;
+  if(!banco) return;
+  Object.keys(banco).forEach((k,li)=>{
+    const aula=banco[k];
+    if(!aula || !Array.isArray(aula.quiz)) return;
+    aula.quiz.forEach((q,qi)=>{
+      if(!q || !Array.isArray(q.options) || q.options.length<2) return;
+      const correta=q.options[q.answer];
+      const n=q.options.length;
+      const alvo=(li*3 + qi*2 + 1) % n;
+      const restantes=q.options.filter((_,i)=>i!==q.answer);
+      const novas=[]; let r=0;
+      for(let i=0;i<n;i++) novas.push(i===alvo?correta:restantes[r++]);
+      q.options=novas; q.answer=alvo;
+      if(q.tip && /Volte|Revise|leitura|teoria/i.test(q.tip)) q.tip='Elimine as alternativas tecnicamente incompatíveis antes de marcar a resposta.';
+    });
+  });
+})();
