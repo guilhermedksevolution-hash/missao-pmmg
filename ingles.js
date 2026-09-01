@@ -7,7 +7,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 EDITAL PMMG • INTERPRETAÇÃO</div><h3>Skimming e scanning</h3><p><b>Skimming</b> busca a ideia geral; <b>scanning</b> localiza informação específica. Use título, palavras-chave e contexto sem tentar traduzir tudo.</p><div class='gold-rule'>🎯 Entenda primeiro; traduza só o necessário.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Estratégias de leitura — do zero</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Seu objetivo não é traduzir cada palavra</h3><p>Em uma prova de leitura, você precisa compreender o suficiente para responder às perguntas. Uma palavra desconhecida não impede necessariamente a compreensão. O título, as palavras repetidas, os cognatos e a estrutura das frases ajudam a construir o sentido.</p><p>Antes de usar dicionário mental, leia a pergunta. Ela indica o tipo de informação que deve ser procurada.</p><h3>Skimming</h3><p>Skimming é leitura rápida para descobrir o assunto e a ideia geral. Observe título, primeira frase, palavras repetidas e conclusão. Você não precisa entender todos os detalhes nessa etapa.</p><p>Exemplo: se aparecem repetidamente police, community, safety e officers, já existe forte pista de que o texto trata de segurança/comunidade.</p><h3>Scanning</h3><p>Scanning é busca direcionada. Se a pergunta pede uma data, nome, porcentagem ou causa específica, percorra o texto procurando marcas visuais e palavras relacionadas.</p><p>A combinação funciona assim: faça skimming para entender o mapa geral e scanning para localizar a resposta.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar skimming</li><li>explicar scanning</li><li>ler uma frase sem traduzir tudo</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>SKIMMING e SCANNING — Inglês para Concursos</h3><p>Técnicas de leitura para localizar a ideia geral e informações específicas.</p><iframe src=\"https://www.youtube.com/embed/yNUmPU48Nx4\" title=\"SKIMMING e SCANNING — Inglês para Concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, skimming serve para:",
+        "question": "Skimming serve para:",
         "options": [
           "Captar a ideia geral.",
           "Traduzir tudo.",
@@ -19,7 +19,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, scanning serve para:",
+        "question": "Scanning serve para:",
         "options": [
           "Localizar informação específica.",
           "Ignorar detalhes.",
@@ -31,7 +31,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na prova, é melhor:",
+        "question": "Na prova, é melhor:",
         "options": [
           "Usar contexto e palavras-chave.",
           "Parar em toda palavra.",
@@ -51,7 +51,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 EDITAL • SEMÂNTICA</div><p>Cognatos ajudam: <i>important, hospital, information</i>. Cuidado: <b>actually</b>=na verdade, <b>parents</b>=pais, <b>pretend</b>=fingir.</p><div class='gold-rule'>🎯 Confirme sempre pelo contexto.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Cognatos e falsos cognatos</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Cognatos como apoio</h3><p>Cognatos são palavras com forma e significado semelhantes ao português, como information, police, important, hospital e different. Eles aceleram a leitura, mas o sentido sempre deve ser confirmado no contexto.</p><p>Não dependa apenas deles: conectivos e verbos também são essenciais para saber o que o texto afirma.</p><h3>Falsos cognatos</h3><p>Actually significa 'na verdade', não 'atualmente'. Parents significa 'pais', não 'parentes'. Pretend significa 'fingir'. Push significa 'empurrar'.</p><p>Quando a tradução aparentemente óbvia deixa a frase estranha, considere a possibilidade de falso cognato.</p><h3>Inferindo vocabulário</h3><p>Use palavras vizinhas, exemplos, oposição e causa/consequência. Em 'The road was dangerous, so drivers slowed down', mesmo sem conhecer slowed down, o contraste semântico sugere uma reação ao perigo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer cognatos úteis</li><li>memorizar falsos cognatos principais</li><li>inferir palavra pelo contexto</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Cognatos e falsos cognatos em Inglês</h3><p>Aula voltada para leitura e interpretação em provas.</p><iframe src=\"https://www.youtube.com/embed/32YhvYh9AZk\" title=\"Cognatos e falsos cognatos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, actually significa:",
+        "question": "Actually significa:",
         "options": [
           "Na verdade.",
           "Atualmente.",
@@ -63,7 +63,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, parents significa:",
+        "question": "Parents significa:",
         "options": [
           "Pais.",
           "Parentes.",
@@ -75,7 +75,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pretend significa:",
+        "question": "Pretend significa:",
         "options": [
           "Fingir.",
           "Pretender.",
@@ -95,7 +95,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 GRAMÁTICA PARA LEITURA</div><p><i>I,you,he,she,it,we,they</i> e <i>this,that,these,those</i> retomam ou apontam elementos. Ex.: The car stopped. <b>It</b> was damaged → It = car.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Pronomes e referências</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Referência é parte da interpretação</h3><p>Pronomes evitam repetições e conectam frases. I, you, he, she, it, we e they indicam participantes; this, that, these e those apontam elementos. Ao encontrar pronome, procure qual termo anterior combina em número e sentido.</p><p>Exemplo: 'The officers found a vehicle. It was stolen.' It retoma vehicle.</p><h3>Subject e object pronouns</h3><p>I/he/she/we/they costumam funcionar como sujeito. Me/him/her/us/them aparecem como objetos. Essa distinção ajuda a entender quem pratica e quem recebe a ação.</p><p>Em 'The officer helped them', officer pratica a ação e them representa quem recebeu ajuda.</p><h3>Demonstrativos</h3><p>This/these indicam proximidade ou elemento apresentado; that/those indicam maior distância ou outro elemento. Em textos, também podem retomar ideias inteiras.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>localizar antecedente de it/they</li><li>distinguir sujeito de objeto</li><li>interpretar this/that no contexto</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Subject Pronouns — explicação + exercícios</h3><p>Revisão de pronomes para identificar referências no texto.</p><iframe src=\"https://www.youtube.com/embed/rNFeHNOCnMQ\" title=\"Subject Pronouns — explicação + exercícios\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em 'The car stopped. It was damaged', It retoma:",
+        "question": "Em 'The car stopped. It was damaged', It retoma:",
         "options": [
           "The car.",
           "Stopped.",
@@ -107,7 +107,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, they significa normalmente:",
+        "question": "They significa normalmente:",
         "options": [
           "Eles/elas.",
           "Ele.",
@@ -119,7 +119,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, these é:",
+        "question": "These é:",
         "options": [
           "Plural de this.",
           "Verbo.",
@@ -139,7 +139,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 GRAMÁTICA RELEVANTE</div><p>Simple Present: hábitos/fatos. Simple Past: passado concluído. Present Continuous: ação em andamento. <i>Will</i>: futuro. Marcadores como <i>yesterday, now, every day</i> ajudam.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Verbos e tempos essenciais</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Simple Present</h3><p>Simple Present descreve hábitos, rotinas, fatos e estados. Com he/she/it, muitos verbos recebem -s: 'She works'. Marcadores como usually, often e every day reforçam a ideia de rotina.</p><p>O verbo to be tem formas am/is/are e aparece com muita frequência.</p><h3>Simple Past</h3><p>Simple Past apresenta ação concluída em momento passado. Verbos regulares recebem -ed; verbos irregulares mudam de forma, como go → went e see → saw. Yesterday e last year são marcadores frequentes.</p><p>Para interpretação, muitas vezes basta reconhecer que o evento já terminou.</p><h3>Present Continuous e futuro</h3><p>Present Continuous usa am/is/are + verbo-ing e frequentemente indica ação em andamento: 'They are studying now'. Will + verbo aponta futuro em muitos contextos.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>reconhecer presente, passado e contínuo</li><li>usar marcadores de tempo</li><li>identificar will</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Tempos verbais em Inglês — questões de concursos</h3><p>Aula de tempos verbais com foco em resolução de questões.</p><iframe src=\"https://www.youtube.com/embed/MTfiCjXtm3A\" title=\"Tempos verbais em Inglês — questões de concursos\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, yesterday indica:",
+        "question": "Yesterday indica:",
         "options": [
           "Passado.",
           "Futuro.",
@@ -151,7 +151,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 'She works every day' indica:",
+        "question": "'She works every day' indica:",
         "options": [
           "Hábito.",
           "Passado único.",
@@ -163,7 +163,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 'They are studying now' indica:",
+        "question": "'They are studying now' indica:",
         "options": [
           "Ação em andamento.",
           "Passado.",
@@ -183,7 +183,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 MODAIS</div><p><b>can</b>=capacidade/possibilidade; <b>must</b>=obrigação; <b>should</b>=conselho; <b>may/might</b>=possibilidade.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Modal verbs</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Modais alteram a força da mensagem</h3><p>Can pode expressar capacidade ou possibilidade. Must costuma indicar obrigação forte. Should apresenta conselho ou recomendação. May e might indicam possibilidade.</p><p>Em leitura, trocar um modal pode mudar completamente a alternativa: 'must' não é o mesmo que 'may'.</p><h3>Forma dos modais</h3><p>Depois de modal, usa-se normalmente o verbo em sua forma base: can work, must obey, should study. Não se adiciona -s ao modal para he/she/it.</p><p>A negativa é formada com not: must not costuma indicar proibição; cannot/can't indica impossibilidade ou falta de capacidade.</p><h3>Interpretação</h3><p>Pergunte qual atitude está sendo expressa: certeza, obrigação, conselho, permissão, capacidade ou possibilidade.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>distinguir must de should</li><li>interpretar may/might</li><li>reconhecer must not</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Modal Verbs — English in Brazil</h3><p>Can, could, should, may, might e must explicados de forma completa.</p><iframe src=\"https://www.youtube.com/embed/IJ5nqhFaqoY\" title=\"Modal Verbs — English in Brazil\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, must expressa:",
+        "question": "Must expressa:",
         "options": [
           "Obrigação.",
           "Passado.",
@@ -195,7 +195,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, should expressa:",
+        "question": "Should expressa:",
         "options": [
           "Conselho.",
           "Plural.",
@@ -207,7 +207,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, may pode indicar:",
+        "question": "May pode indicar:",
         "options": [
           "Possibilidade.",
           "Obrigação absoluta.",
@@ -227,7 +227,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 COESÃO</div><p><b>and</b>=adição; <b>however/but</b>=contraste; <b>because</b>=causa; <b>therefore/so</b>=consequência; <b>although</b>=concessão.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Conectivos e relações de sentido</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Conectivos são mapas lógicos</h3><p>And adiciona informação. But e however criam contraste. Because introduz causa ou justificativa. So e therefore apontam consequência. Although apresenta concessão.</p><p>Mesmo que parte do vocabulário seja desconhecida, o conectivo ajuda a prever a relação entre as frases.</p><h3>Exemplo completo</h3><p>'The area was dangerous, so officers increased patrols.' A primeira informação funciona como causa/situação e a segunda como consequência. Se a questão trocar so por however, a relação muda.</p><p>'Although it was raining, the event continued.' A chuva cria uma expectativa, mas o resultado contrasta com ela.</p><h3>Sinais equivalentes</h3><p>However e nevertheless podem ter valor de contraste; therefore e consequently podem introduzir consequência. Não é necessário decorar dezenas de palavras de uma vez, mas reconhecer famílias de relação.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>classificar causa/contraste/consequência</li><li>interpretar although</li><li>usar conectivos para inferir sentido</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Linking Words — conectivos em Inglês</h3><p>Conectivos para entender contraste, causa, consequência e adição.</p><iframe src=\"https://www.youtube.com/embed/vvj5SxN-Rc4\" title=\"Linking Words — conectivos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, however indica:",
+        "question": "However indica:",
         "options": [
           "Contraste.",
           "Causa.",
@@ -239,7 +239,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, because indica:",
+        "question": "Because indica:",
         "options": [
           "Causa.",
           "Consequência.",
@@ -251,7 +251,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, therefore indica:",
+        "question": "Therefore indica:",
         "options": [
           "Consequência/conclusão.",
           "Oposição.",
@@ -271,7 +271,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>📋 SENTIDO</div><p><b>not/never/no</b> mudam o sentido. <i>safer than</i>=mais seguro que; <i>more important</i>=mais importante. Many/much/few/little indicam quantidade.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Negação, comparação e quantificadores</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Negação</h3><p>Not, never, no, nobody, nothing e hardly podem alterar totalmente uma afirmação. Questões frequentemente tentam enganar retirando a negativa.</p><p>'The officer did not agree' significa o oposto de 'The officer agreed'. Leia negativas com atenção especial.</p><h3>Comparação</h3><p>Adjetivos curtos frequentemente usam -er + than: safer than, faster than. Adjetivos maiores usam more: more important, more difficult. Less expressa menor grau.</p><p>Superlativos com -est ou most indicam extremo dentro de um grupo: the safest, the most important.</p><h3>Quantificadores</h3><p>Many é usado com contáveis plurais; much com incontáveis; a lot of pode ocorrer com ambos em muitos contextos. Few/little indicam pouca quantidade, com diferenças conforme o tipo de substantivo.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar negativas</li><li>reconhecer comparativo e superlativo</li><li>distinguir many/much</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Quantificadores — many, much, a lot of, lots of</h3><p>Aula de quantificadores do canal Inglês para Concursos.</p><iframe src=\"https://www.youtube.com/embed/yTjNiMKLWXM\" title=\"Quantificadores — many, much, a lot of, lots of\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, never significa:",
+        "question": "Never significa:",
         "options": [
           "Nunca.",
           "Sempre.",
@@ -283,7 +283,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, safer than significa:",
+        "question": "Safer than significa:",
         "options": [
           "Mais seguro que.",
           "Menos seguro.",
@@ -295,7 +295,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, more important significa:",
+        "question": "More important significa:",
         "options": [
           "Mais importante.",
           "Menos importante.",
@@ -315,7 +315,7 @@ window.inglesLessons={
     "content": "<div class='edital-badge'>🎯 TREINO INTEGRADO</div><p>Una contexto, cognatos, referências, tempos, modais e conectivos. Responda pelo que o texto permite concluir, não por opinião externa.</p><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Interpretação PMMG — treino integrado</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Passo a passo</h3><p>Primeiro leia título e pergunta. Depois faça skimming para identificar tema. Em seguida use scanning para localizar o trecho relevante. Marque cognatos, conectivos, pronomes e verbos que ajudam a reconstruir o sentido.</p><p>Não transforme uma palavra desconhecida em obstáculo central se ela não for necessária para responder.</p><h3>Testando alternativas</h3><p>Volte ao texto para cada alternativa. Elimine as que contradizem o trecho, ampliam uma afirmação moderada ou acrescentam informação não mencionada.</p><p>Palavras como always, never, only e all podem tornar uma alternativa forte demais.</p><h3>Gramática a serviço da leitura</h3><p>Tempo verbal mostra quando ocorre o fato; modal mostra grau de obrigação ou possibilidade; pronome mostra quem é retomado; conectivo mostra relação lógica. A gramática é ferramenta de interpretação.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>seguir um roteiro de leitura</li><li>eliminar alternativa exagerada</li><li>usar gramática para reconstruir sentido</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Interpretação de Textos em Inglês</h3><p>Revisão integrada de leitura e interpretação para concursos.</p><iframe src=\"https://www.youtube.com/embed/yL1zrEKBLp0\" title=\"Interpretação de Textos em Inglês\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a resposta de interpretação deve se apoiar:",
+        "question": "A resposta de interpretação deve se apoiar:",
         "options": [
           "No texto e em suas pistas.",
           "Na opinião pessoal.",
@@ -327,7 +327,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, can pode indicar:",
+        "question": "Can pode indicar:",
         "options": [
           "Possibilidade/capacidade.",
           "Passado.",
@@ -339,7 +339,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, however é pista de:",
+        "question": "However é pista de:",
         "options": [
           "Contraste.",
           "Causa.",
@@ -359,7 +359,7 @@ window.inglesLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Preposições essenciais para leitura</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Tempo e lugar</h3><p>At aparece frequentemente com horários e pontos específicos; on com dias e datas; in com meses, anos, períodos e espaços amplos. Essas tendências devem ser confirmadas pelo contexto.</p><h3>Combinações</h3><p>Preposições fazem parte de combinações como interested in, responsible for, afraid of e depend on. Reconhecer a combinação ajuda a compreender a frase.</p><h3>Movimento</h3><p>To costuma marcar direção, from origem, into movimento para dentro e through passagem através de algo.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>IN, ON e AT — preposições de tempo e lugar</h3><p>Aula completa para consolidar o uso das preposições mais cobradas em leitura e gramática.</p><iframe src=\"https://www.youtube.com/embed/vXgKhBF0FD0\" title=\"IN, ON e AT — preposições de tempo e lugar\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em horário específico, é comum usar:",
+        "question": "Em horário específico, é comum usar:",
         "options": [
           "At.",
           "In.",
@@ -371,7 +371,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, from costuma indicar:",
+        "question": "From costuma indicar:",
         "options": [
           "Origem.",
           "Obrigação.",
@@ -383,7 +383,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, into pode indicar:",
+        "question": "Into pode indicar:",
         "options": [
           "Movimento para dentro.",
           "Passado.",
@@ -407,7 +407,7 @@ window.inglesLessons={
         "tip": "Relacione grau de especificidade: horário → at; dia/data → on; mês/ano → in."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “The officer walked into the building and came from the parking lot”, into e from indicam, respectivamente:",
+        "question": "Em “The officer walked into the building and came from the parking lot”, into e from indicam, respectivamente:",
         "options": [
           "movimento para dentro e origem.",
           "posição estática e destino.",
@@ -439,7 +439,7 @@ window.inglesLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Voz ativa e voz passiva</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Foco</h3><p>Na ativa, o sujeito pratica a ação: The officer arrested the suspect. Na passiva, o foco passa a quem recebe: The suspect was arrested by the officer.</p><h3>Estrutura</h3><p>A voz passiva usa uma forma de to be mais particípio passado. O tempo verbal aparece no to be: is arrested, was arrested, will be arrested.</p><h3>Uso textual</h3><p>A passiva é comum em notícias e textos informativos quando o acontecimento importa mais que o agente.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Passive Voice — voz ativa e voz passiva</h3><p>Revisão da formação e do uso da voz passiva em inglês, com contraste entre foco no agente e na ação.</p><iframe src=\"https://www.youtube.com/embed/7wh3XMynGqk\" title=\"Passive Voice — voz ativa e voz passiva\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a passiva normalmente usa:",
+        "question": "A passiva normalmente usa:",
         "options": [
           "To be + particípio passado.",
           "Artigo + nome.",
@@ -451,7 +451,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, 'The suspect was arrested' está na:",
+        "question": "'The suspect was arrested' está na:",
         "options": [
           "Voz passiva.",
           "Voz ativa.",
@@ -463,7 +463,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em 'was arrested', was indica:",
+        "question": "Em 'was arrested', was indica:",
         "options": [
           "Passado.",
           "Futuro.",
@@ -487,7 +487,7 @@ window.inglesLessons={
         "tip": "Preserve tempo verbal e papéis semânticos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “The evidence will be examined”, a forma verbal indica:",
+        "question": "Em “The evidence will be examined”, a forma verbal indica:",
         "options": [
           "voz passiva no futuro.",
           "voz ativa no passado.",
@@ -499,7 +499,7 @@ window.inglesLessons={
         "tip": "Localize to be + particípio."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a voz passiva é especialmente útil quando:",
+        "question": "A voz passiva é especialmente útil quando:",
         "options": [
           "o acontecimento ou paciente da ação é mais relevante que o agente.",
           "o agente precisa obrigatoriamente ser destacado.",
@@ -519,7 +519,7 @@ window.inglesLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Relative clauses — who, which, that, whose</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Who, which e that</h3><p>Who costuma retomar pessoas; which, coisas ou animais; that pode retomar pessoas ou coisas em muitas orações restritivas.</p><h3>Antecedente</h3><p>Em The officer who helped the child, who retoma officer. Localizar o antecedente simplifica a interpretação.</p><h3>Where e whose</h3><p>Where pode introduzir referência a lugar. Whose expressa posse, como em the man whose car was stolen.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA RECOMENDADA</span><h3>Relative Pronouns — who, which e that</h3><p>Aula para identificar antecedentes e relações introduzidas por pronomes relativos.</p><iframe src=\"https://www.youtube.com/embed/Vlt6dpwTgp8\" title=\"Relative Pronouns — who, which e that\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, who costuma retomar:",
+        "question": "Who costuma retomar:",
         "options": [
           "Pessoas.",
           "Datas.",
@@ -531,7 +531,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, whose expressa:",
+        "question": "Whose expressa:",
         "options": [
           "Posse.",
           "Negação.",
@@ -543,7 +543,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em 'the officer who helped', who retoma:",
+        "question": "Em 'the officer who helped', who retoma:",
         "options": [
           "The officer.",
           "Helped.",
@@ -555,7 +555,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “The officer who helped the child called the ambulance”, who retoma:",
+        "question": "Em “The officer who helped the child called the ambulance”, who retoma:",
         "options": [
           "the officer.",
           "the child.",
@@ -579,7 +579,7 @@ window.inglesLessons={
         "tip": "Whose ≈ cujo/cuja."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em “The station where the meeting occurred”, where introduz referência a:",
+        "question": "Em “The station where the meeting occurred”, where introduz referência a:",
         "options": [
           "lugar.",
           "pessoa.",
@@ -599,7 +599,7 @@ window.inglesLessons={
     "content": "<div class=\"edital-badge\">📋 AULA ESCRITA COMPLETA</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 LEITURA OBRIGATÓRIA</span><h3>Inferência, tom e vocabulário pelo contexto</h3><p>Leia esta teoria antes de seguir para os exercícios.</p></div><h3>Vocabulário desconhecido</h3><p>Não pare automaticamente em uma palavra difícil. Procure definição, exemplo, contraste, causa e palavras vizinhas para aproximar o significado.</p><h3>Tom do autor</h3><p>Adjetivos, advérbios e verbos modais podem revelar crítica, apoio, preocupação, cautela ou neutralidade.</p><h3>Inferência segura</h3><p>A conclusão precisa ser sustentada pelo texto. May, can, often e generally tornam afirmações menos absolutas; uma alternativa que troca possibilidade por certeza pode estar errada.</p></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • REVISÃO E INFERÊNCIA</span><h3>Interpretação de Textos em Inglês — revisão integrada</h3><p>Use contexto, conectivos, modalizadores, referências e inferências para responder questões sem traduzir palavra por palavra.</p><iframe src=\"https://www.youtube.com/embed/yL1zrEKBLp0\" title=\"Interpretação de Textos em Inglês — revisão integrada\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, palavra desconhecida deve ser analisada por:",
+        "question": "Palavra desconhecida deve ser analisada por:",
         "options": [
           "Pistas do contexto.",
           "Adivinhação.",
@@ -611,7 +611,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, may costuma indicar:",
+        "question": "May costuma indicar:",
         "options": [
           "Possibilidade.",
           "Obrigação absoluta.",
@@ -623,7 +623,7 @@ window.inglesLessons={
         "tip": "Revise a teoria escrita."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, inferência correta precisa:",
+        "question": "Inferência correta precisa:",
         "options": [
           "Ser sustentada pelo texto.",
           "Contradizer o texto.",
@@ -647,7 +647,7 @@ window.inglesLessons={
         "tip": "Modalizadores são pistas de inferência."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ao encontrar palavra desconhecida em um texto, qual procedimento é mais seguro em prova?",
+        "question": "Ao encontrar palavra desconhecida em um texto, qual procedimento é mais seguro em prova?",
         "options": [
           "Examinar definição, contraste, causa, exemplo e palavras vizinhas.",
           "Escolher a tradução mais parecida com o português.",
@@ -659,7 +659,7 @@ window.inglesLessons={
         "tip": "Não confunda cognato aparente com significado real."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um autor usa expressões como “serious concern”, “dangerous trend” e “urgent action”. O tom predominante tende a ser:",
+        "question": "Um autor usa expressões como “serious concern”, “dangerous trend” e “urgent action”. O tom predominante tende a ser:",
         "options": [
           "preocupado/crítico.",
           "neutro e indiferente.",
@@ -739,7 +739,7 @@ window.inglesLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, escolha a alternativa que reescreve corretamente a frase seguinte sem alterar o seu sentido: \"Police grapple with community concerns as they turn to tech for their Jobs\"",
+        "question": "Escolha a alternativa que reescreve corretamente a frase seguinte sem alterar o seu sentido: \"Police grapple with community concerns as they turn to tech for their Jobs\"",
         "options": [
           "While turning to tech for their jobs, police dismiss community concerns.",
           "Police contend with community concerns while embracing technology for their jobs.",
@@ -775,7 +775,7 @@ window.inglesLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, na frase \"The move comes as some law enforcement agencies are struggling with retention and hiring during the pandemic\", a utilização do termo \"as\" é determinante para transmitir uma relação específica entre as duas orações. Qual é a função gramatical do termo \"as\" neste contexto?",
+        "question": "Na frase \"The move comes as some law enforcement agencies are struggling with retention and hiring during the pandemic\", a utilização do termo \"as\" é determinante para transmitir uma relação específica entre as duas orações. Qual é a função gramatical do termo \"as\" neste contexto?",
         "options": [
           "Servir como pronome relativo indicando um ponto específico no tempo.",
           "Introduzir uma oração concessiva indicando um resultado inesperado.",
@@ -787,7 +787,7 @@ window.inglesLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, skimming busca:",
+        "question": "Skimming busca:",
         "options": [
           "A ideia geral.",
           "Só datas.",
@@ -799,7 +799,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, scanning busca:",
+        "question": "Scanning busca:",
         "options": [
           "Informação específica.",
           "Só gramática.",
@@ -811,7 +811,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, actually:",
+        "question": "Actually:",
         "options": [
           "Na verdade.",
           "Atualmente.",
@@ -823,7 +823,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, parents:",
+        "question": "Parents:",
         "options": [
           "Pais.",
           "Parentes.",
@@ -835,7 +835,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, pretend:",
+        "question": "Pretend:",
         "options": [
           "Fingir.",
           "Pretender.",
@@ -847,7 +847,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, they:",
+        "question": "They:",
         "options": [
           "Eles/elas.",
           "Ele.",
@@ -859,7 +859,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, yesterday indica:",
+        "question": "Yesterday indica:",
         "options": [
           "Passado.",
           "Futuro.",
@@ -871,7 +871,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, every day sugere:",
+        "question": "Every day sugere:",
         "options": [
           "Rotina/hábito.",
           "Passado único.",
@@ -883,7 +883,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, now pode sinalizar:",
+        "question": "Now pode sinalizar:",
         "options": [
           "Ação em andamento.",
           "Passado distante.",
@@ -895,7 +895,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, will costuma indicar:",
+        "question": "Will costuma indicar:",
         "options": [
           "Futuro.",
           "Artigo.",
@@ -907,7 +907,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, must:",
+        "question": "Must:",
         "options": [
           "Obrigação.",
           "Conselho fraco.",
@@ -919,7 +919,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, should:",
+        "question": "Should:",
         "options": [
           "Conselho.",
           "Causa.",
@@ -931,7 +931,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, may:",
+        "question": "May:",
         "options": [
           "Possibilidade.",
           "Obrigação absoluta.",
@@ -943,7 +943,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, however:",
+        "question": "However:",
         "options": [
           "Contraste.",
           "Causa.",
@@ -955,7 +955,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, because:",
+        "question": "Because:",
         "options": [
           "Causa.",
           "Consequência.",
@@ -967,7 +967,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, therefore:",
+        "question": "Therefore:",
         "options": [
           "Consequência/conclusão.",
           "Oposição.",
@@ -979,7 +979,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, never:",
+        "question": "Never:",
         "options": [
           "Nunca.",
           "Sempre.",
@@ -991,7 +991,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, more dangerous:",
+        "question": "More dangerous:",
         "options": [
           "Mais perigoso.",
           "Menos perigoso.",
@@ -1003,7 +1003,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, cognatos devem ser:",
+        "question": "Cognatos devem ser:",
         "options": [
           "Confirmados pelo contexto.",
           "Aceitos automaticamente.",
@@ -1015,7 +1015,7 @@ window.inglesLessons={
         "tip": "Use o contexto."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, gramática no edital serve para:",
+        "question": "Gramática no edital serve para:",
         "options": [
           "Ajudar a compreender o sentido.",
           "Substituir interpretação.",
@@ -1029,3 +1029,27 @@ window.inglesLessons={
     ]
   }
 };
+
+
+/* MISSÃO PMMG — MODO PROVA REAL
+   Evita padrão previsível de gabarito: redistribui a alternativa correta
+   em todas as avaliações sem alterar o conteúdo ou o gabarito factual. */
+(function(){
+  const banco=window.inglesLessons;
+  if(!banco) return;
+  Object.keys(banco).forEach((k,li)=>{
+    const aula=banco[k];
+    if(!aula || !Array.isArray(aula.quiz)) return;
+    aula.quiz.forEach((q,qi)=>{
+      if(!q || !Array.isArray(q.options) || q.options.length<2) return;
+      const correta=q.options[q.answer];
+      const n=q.options.length;
+      const alvo=(li*3 + qi*2 + 1) % n;
+      const restantes=q.options.filter((_,i)=>i!==q.answer);
+      const novas=[]; let r=0;
+      for(let i=0;i<n;i++) novas.push(i===alvo?correta:restantes[r++]);
+      q.options=novas; q.answer=alvo;
+      if(q.tip && /Volte|Revise|leitura|teoria/i.test(q.tip)) q.tip='Elimine as alternativas tecnicamente incompatíveis antes de marcar a resposta.';
+    });
+  });
+})();
