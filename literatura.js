@@ -7,7 +7,7 @@ window.literaturaLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — JOÃO GUIMARÃES ROSA</div><h3>O que você precisa saber</h3><p><b>Campo Geral</b> é uma novela de João Guimarães Rosa centrada em Miguilim, menino que vive com a família no Mutúm, interior de Minas Gerais. A narrativa aproxima o leitor da percepção infantil do protagonista.</p><h3>Narrador e perspectiva</h3><p>Embora narrada em terceira pessoa, a história acompanha de perto a visão de Miguilim. Isso é essencial: acontecimentos familiares, natureza, medo, afeto e violência chegam ao leitor filtrados por sua sensibilidade.</p><div class=\"lesson-example\"><b>Ponto de prova:</b> não confunda “narrador em terceira pessoa” com distanciamento. A focalização está fortemente ligada a Miguilim.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em Campo Geral, pense em <b>infância + percepção de Miguilim + sertão mineiro + amadurecimento</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — obra, contexto e narrador</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Entrando no universo de Miguilim</h3><p>Campo Geral, de João Guimarães Rosa, acompanha Miguilim no Mutúm, região rural de Minas Gerais. A obra não apresenta a infância como um período simples ou idealizado: o menino convive com beleza natural, afetos, incompreensões, violência, medo, doença e descobertas.</p><p>Para compreender a obra, é importante perceber que o leitor entra no mundo adulto por meio de uma sensibilidade infantil. Muitas situações não são explicadas diretamente porque Miguilim também não as compreende por completo.</p><h3>Narrador e focalização</h3><p>O narrador está em terceira pessoa, mas a focalização se aproxima intensamente de Miguilim. Isso significa que vocabulário, percepções, dúvidas e interpretações do menino influenciam a forma como os fatos chegam ao leitor.</p><p>Em prova, cuidado com a afirmação de que terceira pessoa significa narrador distante ou neutro. O narrador pode estar em terceira pessoa e ainda acompanhar de perto a consciência de uma personagem.</p><h3>Espaço e formação</h3><p>O Mutúm não funciona apenas como cenário. Natureza, isolamento, deslocamentos e condições de vida participam da formação de Miguilim. A saída e a possibilidade de ver o mundo de outra maneira se ligam ao processo de amadurecimento.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>associar Miguilim ao Mutúm</li><li>explicar a focalização próxima da criança</li><li>relacionar espaço e amadurecimento</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PMMG</span><h3>Campo Geral — Literatura para Soldado PMMG</h3><p>Aula direcionada ao concurso da Polícia Militar de Minas Gerais.</p><iframe src=\"https://www.youtube.com/embed/zCBH6pM_iHc\" title=\"Campo Geral PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o protagonista de Campo Geral é:",
+        "question": "O protagonista de Campo Geral é:",
         "options": [
           "Miguilim.",
           "Fabiano.",
@@ -19,7 +19,7 @@ window.literaturaLessons={
         "tip": "Campo Geral = infância de Miguilim."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o espaço central da obra é:",
+        "question": "O espaço central da obra é:",
         "options": [
           "Mutúm, no sertão mineiro.",
           "Rio de Janeiro.",
@@ -31,7 +31,7 @@ window.literaturaLessons={
         "tip": "Associe Mutúm a Campo Geral."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a perspectiva narrativa aproxima o leitor principalmente de:",
+        "question": "A perspectiva narrativa aproxima o leitor principalmente de:",
         "options": [
           "Miguilim.",
           "Um juiz.",
@@ -43,7 +43,7 @@ window.literaturaLessons={
         "tip": "Veja o mundo pelos olhos do menino."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, campo Geral é obra de:",
+        "question": "Campo Geral é obra de:",
         "options": [
           "João Guimarães Rosa.",
           "Graciliano Ramos.",
@@ -55,7 +55,7 @@ window.literaturaLessons={
         "tip": "Rosa → Campo Geral."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um eixo importante da obra é:",
+        "question": "Um eixo importante da obra é:",
         "options": [
           "Infância e amadurecimento.",
           "Viagem espacial.",
@@ -67,7 +67,7 @@ window.literaturaLessons={
         "tip": "Miguilim cresce ao longo das experiências."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a ambientação de Campo Geral se relaciona fortemente:",
+        "question": "A ambientação de Campo Geral se relaciona fortemente:",
         "options": [
           "À natureza e ao sertão de Minas Gerais.",
           "Ao litoral europeu.",
@@ -87,7 +87,7 @@ window.literaturaLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — PERSONAGENS</div><h3>Miguilim e Dito</h3><p>Miguilim mantém forte vínculo afetivo com o irmão Dito. A relação entre os dois é central para a formação emocional do protagonista.</p><h3>Família e tensão</h3><p>A vida familiar é marcada por afeto, incompreensão, dureza e conflitos. O pai de Miguilim é uma figura severa, enquanto a criança tenta compreender as tensões do mundo adulto.</p><h3>Visão e descoberta</h3><p>Um dos momentos simbólicos do final envolve a descoberta da miopia de Miguilim. Ao usar óculos, ele passa a enxergar o mundo com nitidez — fato concreto que também dialoga com seu processo de transformação.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: Dito, família, perda e visão são pontos-chave para entender o amadurecimento de Miguilim.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — personagens, conflitos e amadurecimento</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Miguilim e Dito</h3><p>Dito, irmão de Miguilim, é uma das figuras mais importantes no universo afetivo do protagonista. A relação entre eles envolve companheirismo, aprendizagem e sensibilidade.</p><p>As experiências de perda fazem parte da formação de Miguilim e modificam sua maneira de perceber a família e a vida.</p><h3>O mundo familiar</h3><p>A família é marcada por relações complexas. Há carinho, ciúme, dureza, tensão e incompreensão. Miguilim tenta interpretar comportamentos adultos para os quais ainda não possui todas as ferramentas.</p><p>O pai aparece como figura severa e participa de conflitos que tornam o ambiente doméstico instável.</p><h3>Visão e transformação</h3><p>A descoberta da miopia no final tem importância concreta e simbólica. Os óculos permitem que Miguilim veja com nitidez aquilo que antes enxergava mal. Essa mudança dialoga com a passagem para uma nova etapa de vida e com a ampliação de seu horizonte.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar a importância de Dito</li><li>reconhecer a complexidade da família</li><li>interpretar a função da descoberta da miopia</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • RESUMO + ANÁLISE</span><h3>Campo Geral — resumo e análise</h3><p>Revisão da obra, personagens e principais temas.</p><iframe src=\"https://www.youtube.com/embed/Rgit7L7WU3E\" title=\"Campo Geral resumo e análise\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, dito é:",
+        "question": "Dito é:",
         "options": [
           "Irmão de Miguilim.",
           "Pai de Miguilim.",
@@ -99,7 +99,7 @@ window.literaturaLessons={
         "tip": "Miguilim e Dito têm forte vínculo."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a família de Miguilim é apresentada como:",
+        "question": "A família de Miguilim é apresentada como:",
         "options": [
           "Marcada por afetos e conflitos.",
           "Sem qualquer tensão.",
@@ -111,7 +111,7 @@ window.literaturaLessons={
         "tip": "Infância não é idealizada."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a descoberta da miopia de Miguilim está ligada:",
+        "question": "A descoberta da miopia de Miguilim está ligada:",
         "options": [
           "À possibilidade de enxergar com nitidez.",
           "À perda da fala.",
@@ -123,7 +123,7 @@ window.literaturaLessons={
         "tip": "Visão literal e transformação dialogam."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o pai de Miguilim aparece frequentemente como figura:",
+        "question": "O pai de Miguilim aparece frequentemente como figura:",
         "options": [
           "Severa e conflituosa.",
           "Cômica e ausente de conflitos.",
@@ -135,7 +135,7 @@ window.literaturaLessons={
         "tip": "Observe a experiência infantil diante dos adultos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a relação com Dito contribui para:",
+        "question": "A relação com Dito contribui para:",
         "options": [
           "A formação emocional de Miguilim.",
           "Apagar o protagonismo.",
@@ -147,7 +147,7 @@ window.literaturaLessons={
         "tip": "Personagens moldam o amadurecimento."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o amadurecimento de Miguilim ocorre:",
+        "question": "O amadurecimento de Miguilim ocorre:",
         "options": [
           "Por meio das experiências, perdas e descobertas.",
           "Sem acontecimentos relevantes.",
@@ -167,7 +167,7 @@ window.literaturaLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — ANÁLISE</div><h3>Linguagem rosiana</h3><p>Guimarães Rosa explora oralidade, regionalismos, invenções vocabulares e grande força poética. A linguagem não é mero enfeite: ajuda a construir a experiência do sertão e a percepção das personagens.</p><h3>Temas recorrentes</h3><p>Infância, família, violência, natureza, morte, afeto, descoberta e passagem para uma nova etapa da vida aparecem de forma articulada.</p><div class=\"lesson-example\"><b>Como a banca pode cobrar:</b> relação entre narrador e perspectiva de Miguilim; função simbólica da visão; personagens; espaço; linguagem e amadurecimento.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em Literatura, responda pela obra — não pelo que “parece mais bonito”.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — linguagem, temas e questões PMMG</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>A linguagem de Guimarães Rosa</h3><p>Guimarães Rosa trabalha oralidade, regionalismos, criação de palavras, ritmo e imagens poéticas. Sua linguagem procura recriar uma experiência de mundo e não apenas registrar a fala regional.</p><p>Por isso, uma palavra incomum não deve ser tratada automaticamente como erro ou enfeite. Ela pode produzir atmosfera, aproximar o leitor da personagem ou criar novo modo de perceber uma situação.</p><h3>Temas centrais</h3><p>Infância, família, natureza, violência, morte, afeto, descoberta e amadurecimento se cruzam ao longo da obra. Esses temas não aparecem isoladamente; um acontecimento familiar, por exemplo, pode provocar mudança na percepção da natureza e de si mesmo.</p><p>Em questões, associe episódios e símbolos ao percurso de Miguilim.</p><h3>Como comparar alternativas</h3><p>Quando duas alternativas parecem possíveis, verifique qual descreve melhor a obra sem exagerar. Evite afirmações absolutas que transformem Campo Geral em simples denúncia social, simples história infantil ou descrição regional.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar marcas da linguagem rosiana</li><li>relacionar temas ao percurso de Miguilim</li><li>evitar interpretações reducionistas</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA 1 • CAMPO GERAL</span><h3>Campo Geral — análise literária e Miguilim</h3><p>Assista depois da leitura para reforçar narrador, perspectiva de Miguilim, linguagem, temas e amadurecimento.</p><iframe src=\"https://www.youtube.com/embed/SyKvDPog3mw\" title=\"Campo Geral — análise literária e Miguilim\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • REVISÃO</span><h3>Campo Geral — resumo e análise da obra</h3><p>Use como segunda aula para revisar os principais acontecimentos, personagens, símbolos e temas antes da prova.</p><iframe src=\"https://www.youtube.com/embed/mlrjGSi6iGs\" title=\"Campo Geral — resumo e análise da obra\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a linguagem de Guimarães Rosa em Campo Geral pode ser associada a:",
+        "question": "A linguagem de Guimarães Rosa em Campo Geral pode ser associada a:",
         "options": [
           "Regionalismo, oralidade e criação expressiva.",
           "Linguagem exclusivamente burocrática.",
@@ -179,7 +179,7 @@ window.literaturaLessons={
         "tip": "Rosa recria a língua literária."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a natureza na obra:",
+        "question": "A natureza na obra:",
         "options": [
           "Integra a experiência das personagens.",
           "É irrelevante.",
@@ -191,7 +191,7 @@ window.literaturaLessons={
         "tip": "Sertão e personagem dialogam."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a perspectiva infantil contribui para:",
+        "question": "A perspectiva infantil contribui para:",
         "options": [
           "Uma percepção sensível e particular do mundo adulto.",
           "Eliminar conflitos.",
@@ -203,7 +203,7 @@ window.literaturaLessons={
         "tip": "Terceira pessoa pode acompanhar uma consciência."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, entre os temas de Campo Geral está:",
+        "question": "Entre os temas de Campo Geral está:",
         "options": [
           "Perda e amadurecimento.",
           "Colonização espacial.",
@@ -215,7 +215,7 @@ window.literaturaLessons={
         "tip": "Pense em romance/novela de formação."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para responder questão sobre a obra, o mais seguro é:",
+        "question": "Para responder questão sobre a obra, o mais seguro é:",
         "options": [
           "Relacionar alternativa a fatos e elementos efetivos da narrativa.",
           "Usar apenas opinião pessoal.",
@@ -227,7 +227,7 @@ window.literaturaLessons={
         "tip": "Evidência da narrativa primeiro."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a visão de Miguilim no final pode ser lida também como:",
+        "question": "A visão de Miguilim no final pode ser lida também como:",
         "options": [
           "Imagem ligada à descoberta de um mundo antes pouco nítido.",
           "Prova de que ele era cego.",
@@ -247,7 +247,7 @@ window.literaturaLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • VIDAS SECAS — GRACILIANO RAMOS</div><h3>A família de retirantes</h3><p><b>Vidas Secas</b> acompanha Fabiano, Sinhá Vitória, os dois meninos e a cachorra Baleia em sua luta pela sobrevivência no sertão nordestino.</p><h3>Narrador e estrutura</h3><p>O narrador é em terceira pessoa e penetra a interioridade das personagens. Os capítulos têm relativa autonomia, formando uma estrutura que reforça o movimento cíclico da retirada e da sobrevivência.</p><h3>Seca e desigualdade</h3><p>A seca é fundamental, mas a obra não reduz o sofrimento à natureza: exploração econômica, abuso de poder, pobreza e dificuldade de comunicação também pesam sobre as personagens.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: Vidas Secas = <b>seca + pobreza + opressão + linguagem econômica + ciclo de retirada</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — estrutura, narrador e retirantes</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>A família em movimento</h3><p>Vidas Secas, de Graciliano Ramos, acompanha Fabiano, Sinhá Vitória, os dois filhos e a cachorra Baleia. A família vive sob pressão da seca, da pobreza e de relações sociais marcadas por desigualdade.</p><p>O deslocamento em busca de sobrevivência cria sensação de ciclo: partir, tentar se estabelecer e voltar a enfrentar a ameaça da retirada.</p><h3>Estrutura e foco narrativo</h3><p>Os capítulos possuem relativa autonomia e focalizam diferentes personagens. O narrador está em terceira pessoa, mas aproxima-se da interioridade de Fabiano, Sinhá Vitória, meninos e Baleia.</p><p>Essa técnica permite mostrar pensamentos e sensações de personagens que muitas vezes têm dificuldade de expressá-los verbalmente.</p><h3>Mais que uma história sobre clima</h3><p>A seca é fundamental, mas não explica sozinha o sofrimento. Exploração econômica, abuso de autoridade, falta de acesso a conhecimento e limitação da linguagem também produzem opressão.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>nomear os membros da família</li><li>explicar a estrutura cíclica</li><li>mostrar por que a seca não é a única causa do sofrimento</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PMMG</span><h3>Vidas Secas — Literatura para Soldado PMMG</h3><p>Aula específica para o concurso da PMMG.</p><iframe src=\"https://www.youtube.com/embed/4KclON0xfkU\" title=\"Vidas Secas PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a família central de Vidas Secas inclui:",
+        "question": "A família central de Vidas Secas inclui:",
         "options": [
           "Fabiano, Sinhá Vitória, dois meninos e Baleia.",
           "Miguilim e Dito.",
@@ -259,7 +259,7 @@ window.literaturaLessons={
         "tip": "Não misture as duas obras do edital."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o espaço predominante é:",
+        "question": "O espaço predominante é:",
         "options": [
           "O sertão nordestino.",
           "O sertão mineiro do Mutúm.",
@@ -271,7 +271,7 @@ window.literaturaLessons={
         "tip": "Vidas Secas → Nordeste."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o narrador é:",
+        "question": "O narrador é:",
         "options": [
           "Em terceira pessoa, com acesso à interioridade das personagens.",
           "Sempre Fabiano em primeira pessoa.",
@@ -283,7 +283,7 @@ window.literaturaLessons={
         "tip": "Onisciência e focalização variam por capítulo."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a seca na obra:",
+        "question": "A seca na obra:",
         "options": [
           "Relaciona-se também a problemas sociais e econômicos.",
           "É a única adversidade existente.",
@@ -295,7 +295,7 @@ window.literaturaLessons={
         "tip": "Não reduza tudo ao clima."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a estrutura da obra é frequentemente percebida como:",
+        "question": "A estrutura da obra é frequentemente percebida como:",
         "options": [
           "Cíclica, com capítulos de relativa autonomia.",
           "Uma sequência policial linear.",
@@ -307,7 +307,7 @@ window.literaturaLessons={
         "tip": "Começo e fim dialogam."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, vidas Secas é obra de:",
+        "question": "Vidas Secas é obra de:",
         "options": [
           "Graciliano Ramos.",
           "Guimarães Rosa.",
@@ -327,7 +327,7 @@ window.literaturaLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • VIDAS SECAS — PERSONAGENS</div><h3>Fabiano e a dificuldade de expressão</h3><p>Fabiano vive entre a submissão e a revolta. Sua limitação verbal aparece ligada à exclusão social e à dificuldade de defender-se diante das instituições e de quem exerce poder.</p><h3>Sinhá Vitória</h3><p>É prática, resistente e alimenta o desejo de melhorar a vida da família. O sonho de possuir uma cama de couro aparece como símbolo de uma existência mais digna e estável.</p><h3>Baleia</h3><p>A cachorra recebe tratamento humanizado e possui um dos capítulos mais conhecidos da obra. A interioridade atribuída a Baleia contrasta com processos de desumanização vividos pelas pessoas.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: observe o contraste entre <b>humanização de Baleia</b> e <b>desumanização social dos retirantes</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — personagens, linguagem e opressão</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Fabiano</h3><p>Fabiano é resistente e hábil na sobrevivência do sertão, mas sente-se inferior diante de pessoas que dominam a linguagem e as instituições. Em vários momentos, sua dificuldade de expressão o impede de compreender plenamente situações ou defender seus direitos.</p><p>O episódio envolvendo o Soldado Amarelo evidencia abuso de autoridade e submissão.</p><h3>Sinhá Vitória e o desejo de estabilidade</h3><p>Sinhá Vitória apresenta capacidade prática e desejo de melhorar a vida. A cama de couro funciona como símbolo de conforto, estabilidade e dignidade — algo aparentemente simples, mas distante da realidade da família.</p><h3>Baleia e a humanização</h3><p>Baleia recebe tratamento narrativo com interioridade, desejos e sensações. Esse processo de humanização do animal contrasta com a desumanização social das pessoas, frequentemente reduzidas pela miséria e pela opressão.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>relacionar linguagem e exclusão em Fabiano</li><li>interpretar a cama de couro</li><li>explicar o contraste envolvendo Baleia</li></ul></div></section><div class=\"video-lesson\"><span>🎥 REVISÃO RÁPIDA • PMMG</span><h3>Vidas Secas em 5 minutos — PMMG</h3><p>Resumo rápido para reforçar personagens e temas.</p><iframe src=\"https://www.youtube.com/embed/jeoWc-rAm_4\" title=\"Vidas Secas resumo PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o sonho recorrente de Sinhá Vitória envolve:",
+        "question": "O sonho recorrente de Sinhá Vitória envolve:",
         "options": [
           "Uma cama de couro.",
           "Um automóvel.",
@@ -339,7 +339,7 @@ window.literaturaLessons={
         "tip": "Pequeno objeto, grande significado."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, baleia é:",
+        "question": "Baleia é:",
         "options": [
           "A cachorra da família.",
           "Uma professora.",
@@ -351,7 +351,7 @@ window.literaturaLessons={
         "tip": "Seu capítulo é central."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a dificuldade de linguagem de Fabiano se relaciona:",
+        "question": "A dificuldade de linguagem de Fabiano se relaciona:",
         "options": [
           "À exclusão e à dificuldade de se defender socialmente.",
           "À formação universitária.",
@@ -363,7 +363,7 @@ window.literaturaLessons={
         "tip": "Linguagem também é poder."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o tratamento dado a Baleia pode ser entendido como:",
+        "question": "O tratamento dado a Baleia pode ser entendido como:",
         "options": [
           "Humanização do animal.",
           "Eliminação de qualquer interioridade.",
@@ -375,7 +375,7 @@ window.literaturaLessons={
         "tip": "Compare com a desumanização dos humanos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, sinhá Vitória é caracterizada também por:",
+        "question": "Sinhá Vitória é caracterizada também por:",
         "options": [
           "Resistência e desejo de melhorar a vida.",
           "Desinteresse completo pelo futuro.",
@@ -387,7 +387,7 @@ window.literaturaLessons={
         "tip": "Sonho e resistência."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a opressão em Vidas Secas:",
+        "question": "A opressão em Vidas Secas:",
         "options": [
           "Vai além da seca e inclui relações sociais de poder.",
           "É inexistente.",
@@ -407,7 +407,7 @@ window.literaturaLessons={
     "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • REVISÃO DAS DUAS OBRAS</div><h3>Vidas Secas</h3><p>Economia de linguagem, sobrevivência, seca, desigualdade, opressão, incomunicabilidade e ciclo de retirada são eixos fortes.</p><h3>Campo Geral</h3><p>Infância, sensibilidade, família, natureza, violência, perda, linguagem rosiana e amadurecimento de Miguilim são eixos fortes.</p><h3>Não misture</h3><p><b>Miguilim / Mutúm / Dito / Guimarães Rosa</b> pertencem a Campo Geral. <b>Fabiano / Sinhá Vitória / Baleia / sertão nordestino / Graciliano Ramos</b> pertencem a Vidas Secas.</p><div class=\"lesson-example\"><b>Estratégia de prova:</b> antes de avaliar a afirmação, identifique a qual obra, personagem e espaço ela pertence.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: faça uma tabela mental das duas obras para evitar trocas de personagens e características.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — temas, símbolos e comparação das obras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Eixos de Vidas Secas</h3><p>Sobrevivência, seca, pobreza, opressão, linguagem, sonho, repetição e desigualdade são eixos centrais. A escrita econômica de Graciliano Ramos combina com um universo em que falta quase tudo: água, comida, segurança e palavras.</p><p>A esperança existe, mas é frágil e frequentemente ligada a novos deslocamentos.</p><h3>Comparando com Campo Geral</h3><p>As duas obras apresentam sertões e relações familiares, mas não são iguais. Campo Geral acompanha sobretudo a formação e percepção de Miguilim no sertão mineiro. Vidas Secas acompanha retirantes no sertão nordestino e enfatiza sobrevivência e opressão social.</p><p>Guimarães Rosa trabalha linguagem inventiva e poética; Graciliano Ramos é conhecido por escrita mais enxuta e precisa.</p><h3>Tabela mental para prova</h3><p>Campo Geral: Miguilim, Dito, Mutúm, miopia, Guimarães Rosa. Vidas Secas: Fabiano, Sinhá Vitória, Baleia, cama de couro, retirada, Graciliano Ramos. Manter essas associações reduz erros por troca de personagens.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>não misturar personagens</li><li>comparar estilos sem simplificar</li><li>associar símbolos às obras corretas</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • VIDAS SECAS</span><h3>Vidas Secas — análise, temas e símbolos</h3><p>Revisão da obra com foco em personagens, opressão, linguagem, seca e amadurecimento da leitura crítica.</p><iframe src=\"https://www.youtube.com/embed/ffscJA92-6k\" title=\"Vidas Secas — análise, temas e símbolos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, miguilim pertence a:",
+        "question": "Miguilim pertence a:",
         "options": [
           "Campo Geral.",
           "Vidas Secas.",
@@ -419,7 +419,7 @@ window.literaturaLessons={
         "tip": "Miguilim → Rosa."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, baleia pertence a:",
+        "question": "Baleia pertence a:",
         "options": [
           "Vidas Secas.",
           "Campo Geral.",
@@ -431,7 +431,7 @@ window.literaturaLessons={
         "tip": "Baleia → Graciliano."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, mutúm está associado a:",
+        "question": "Mutúm está associado a:",
         "options": [
           "Campo Geral.",
           "Vidas Secas.",
@@ -443,7 +443,7 @@ window.literaturaLessons={
         "tip": "Mutúm → Minas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o ciclo de retirada é especialmente importante em:",
+        "question": "O ciclo de retirada é especialmente importante em:",
         "options": [
           "Vidas Secas.",
           "Campo Geral apenas.",
@@ -455,7 +455,7 @@ window.literaturaLessons={
         "tip": "Fuga da seca e recomeço."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a descoberta da miopia é marcante em:",
+        "question": "A descoberta da miopia é marcante em:",
         "options": [
           "Campo Geral.",
           "Vidas Secas.",
@@ -467,7 +467,7 @@ window.literaturaLessons={
         "tip": "Óculos → Miguilim."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a cama de couro é desejo de:",
+        "question": "A cama de couro é desejo de:",
         "options": [
           "Sinhá Vitória.",
           "Nhanina.",
@@ -479,7 +479,7 @@ window.literaturaLessons={
         "tip": "Cama → estabilidade."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, ao comparar Campo Geral e Vidas Secas, assinale a interpretação mais adequada.",
+        "question": "Ao comparar Campo Geral e Vidas Secas, assinale a interpretação mais adequada.",
         "options": [
           "As duas obras exploram experiências humanas em espaços sertanejos, mas por perspectivas, linguagens e projetos estéticos diferentes.",
           "As duas obras usam o mesmo narrador, a mesma família e a mesma estrutura narrativa.",
@@ -491,7 +491,7 @@ window.literaturaLessons={
         "tip": "Comparar não significa igualar as obras."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a função simbólica da visão em Campo Geral e o sonho da cama de couro em Vidas Secas podem ser aproximados porque ambos:",
+        "question": "A função simbólica da visão em Campo Geral e o sonho da cama de couro em Vidas Secas podem ser aproximados porque ambos:",
         "options": [
           "ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.",
           "provam que as obras são autobiografias dos autores.",
@@ -595,7 +595,7 @@ window.literaturaLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, \"Com maestria, o escritor mineiro recupera vocábulos antigos, combina palavras de maneira inusitada ou mesmo cria novos termos, um de seus maiores dons.\" ROSA, João Guimarães. Campo geral. 2 ed. São Paulo: Global Editora, 2022. Considerando o contexto da novela \"Campo geral\", do autor João Guimarães Rosa, observe os trechos a seguir: \"Tio Terêz contava que tinham esbarrado o eito na roça, porque uma chuva toda vinha, ia ser temporal:[...]\" \"E no mais ralhava sempre, porque Miguilim não enxergava onde pisasse, vivia escorregando e tropeçando, esbarrando, quase caindo nos buracos: — 'Pitosga…' \" \"— Mãe! Acode ligeiro, o Miguilim está dando excesso!…\" \"O gato Sossõe que rastreava sorrateiro, capaz de caçar alguma lagartixa: com um zapetrape ele desquebrava a lagartixa, homem de fazer assim até com calango [...].\" \"Mas todos, de Tomèzinho e Chica a Luisaltino e Vovó Izidra, mesmo estando tristes, como estavam, só respondiam com lisice de assuntos, bobagens que o coração não consabe.\" A interpretação CORRETA dos termos em destaque apresenta-se, respectivamente, em:",
+        "question": "\"Com maestria, o escritor mineiro recupera vocábulos antigos, combina palavras de maneira inusitada ou mesmo cria novos termos, um de seus maiores dons.\" ROSA, João Guimarães. Campo geral. 2 ed. São Paulo: Global Editora, 2022. Considerando o contexto da novela \"Campo geral\", do autor João Guimarães Rosa, observe os trechos a seguir: \"Tio Terêz contava que tinham esbarrado o eito na roça, porque uma chuva toda vinha, ia ser temporal:[...]\" \"E no mais ralhava sempre, porque Miguilim não enxergava onde pisasse, vivia escorregando e tropeçando, esbarrando, quase caindo nos buracos: — 'Pitosga…' \" \"— Mãe! Acode ligeiro, o Miguilim está dando excesso!…\" \"O gato Sossõe que rastreava sorrateiro, capaz de caçar alguma lagartixa: com um zapetrape ele desquebrava a lagartixa, homem de fazer assim até com calango [...].\" \"Mas todos, de Tomèzinho e Chica a Luisaltino e Vovó Izidra, mesmo estando tristes, como estavam, só respondiam com lisice de assuntos, bobagens que o coração não consabe.\" A interpretação CORRETA dos termos em destaque apresenta-se, respectivamente, em:",
         "options": [
           "cobertura; cego; abcesso; pinote; inútil.",
           "proteção; desmedido; desmaio; tabefe; retidão.",
@@ -619,7 +619,7 @@ window.literaturaLessons={
         "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em relação ao contexto do romance \"Vidas secas\", do autor Graciliano Ramos, analise as afirmativas abaixo e a seguir assinale a única opção INCORRETA:",
+        "question": "Em relação ao contexto do romance \"Vidas secas\", do autor Graciliano Ramos, analise as afirmativas abaixo e a seguir assinale a única opção INCORRETA:",
         "options": [
           "A expressão \"O mundo coberto de penas\" utilizada no título do penúltimo quadro do romance reporta à ideia de que Fabiano, Sinha Vitória e os filhos migravam tal qual as aves de arribação, em busca da liberdade, da cidadania, da construção de novos projetos de felicidade em outras regiões do país.",
           "O silenciamento e a passividade demonstrados por Fabiano, frente às humilhações sofridas quando foi preso sem direito à defesa, têm como causa principal a crença de que o Governo era bom, afinal \"Governo é governo.\"",
@@ -655,7 +655,7 @@ window.literaturaLessons={
         "tip": "Separe as personagens por obra."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, vidas Secas foi escrito por:",
+        "question": "Vidas Secas foi escrito por:",
         "options": [
           "Graciliano Ramos.",
           "Guimarães Rosa.",
@@ -667,7 +667,7 @@ window.literaturaLessons={
         "tip": "Graciliano → Vidas Secas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, campo Geral acompanha principalmente:",
+        "question": "Campo Geral acompanha principalmente:",
         "options": [
           "A experiência e o amadurecimento de Miguilim.",
           "A carreira militar de Fabiano.",
@@ -679,7 +679,7 @@ window.literaturaLessons={
         "tip": "Infância e percepção."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em Vidas Secas, a seca:",
+        "question": "Em Vidas Secas, a seca:",
         "options": [
           "Articula-se a problemas sociais e econômicos.",
           "É a única dificuldade existente.",
@@ -691,7 +691,7 @@ window.literaturaLessons={
         "tip": "Natureza + sociedade."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, dito é personagem de:",
+        "question": "Dito é personagem de:",
         "options": [
           "Campo Geral.",
           "Vidas Secas.",
@@ -703,7 +703,7 @@ window.literaturaLessons={
         "tip": "Dito → Miguilim."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, sinhá Vitória deseja especialmente:",
+        "question": "Sinhá Vitória deseja especialmente:",
         "options": [
           "Uma cama de couro.",
           "Óculos para Miguilim.",
@@ -715,7 +715,7 @@ window.literaturaLessons={
         "tip": "Objeto simbólico de Vidas Secas."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a descoberta da miopia ocorre com:",
+        "question": "A descoberta da miopia ocorre com:",
         "options": [
           "Miguilim.",
           "Fabiano.",
@@ -727,7 +727,7 @@ window.literaturaLessons={
         "tip": "Visão → Campo Geral."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a humanização de Baleia contrasta com:",
+        "question": "A humanização de Baleia contrasta com:",
         "options": [
           "A desumanização social vivida pelos retirantes.",
           "A riqueza da família.",
@@ -739,7 +739,7 @@ window.literaturaLessons={
         "tip": "Animal humanizado x humanos oprimidos."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a linguagem de Guimarães Rosa em Campo Geral destaca:",
+        "question": "A linguagem de Guimarães Rosa em Campo Geral destaca:",
         "options": [
           "Oralidade, regionalismo e invenção expressiva.",
           "Somente linguagem jurídica.",
@@ -751,7 +751,7 @@ window.literaturaLessons={
         "tip": "Rosa recria a linguagem."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a estrutura de Vidas Secas é frequentemente descrita como:",
+        "question": "A estrutura de Vidas Secas é frequentemente descrita como:",
         "options": [
           "Cíclica, com capítulos relativamente autônomos.",
           "Teatral em cinco atos.",
@@ -763,7 +763,7 @@ window.literaturaLessons={
         "tip": "Início e fim se correspondem."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, o Mutúm pertence ao universo de:",
+        "question": "O Mutúm pertence ao universo de:",
         "options": [
           "Campo Geral.",
           "Vidas Secas.",
@@ -775,7 +775,7 @@ window.literaturaLessons={
         "tip": "Mutúm → Minas Gerais."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, fabiano apresenta dificuldade de expressão que se relaciona:",
+        "question": "Fabiano apresenta dificuldade de expressão que se relaciona:",
         "options": [
           "À exclusão e às relações de poder.",
           "À formação acadêmica.",
@@ -787,7 +787,7 @@ window.literaturaLessons={
         "tip": "Linguagem é poder."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual par está correto?",
+        "question": "Qual par está correto?",
         "options": [
           "Guimarães Rosa — Campo Geral.",
           "Guimarães Rosa — Vidas Secas.",
@@ -799,7 +799,7 @@ window.literaturaLessons={
         "tip": "Autor e obra."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, um tema comum às duas obras é:",
+        "question": "Um tema comum às duas obras é:",
         "options": [
           "A dureza da vida no sertão e relações humanas complexas.",
           "Tecnologia digital.",
@@ -811,7 +811,7 @@ window.literaturaLessons={
         "tip": "Compare sem igualar."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, para a prova da PMMG, Literatura no edital trabalhado cobra:",
+        "question": "Para a prova da PMMG, Literatura no edital trabalhado cobra:",
         "options": [
           "Campo Geral e Vidas Secas.",
           "Somente poesia de Camões.",
@@ -823,7 +823,7 @@ window.literaturaLessons={
         "tip": "Duas obras obrigatórias."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em Campo Geral, a focalização narrativa aproxima o leitor de:",
+        "question": "Em Campo Geral, a focalização narrativa aproxima o leitor de:",
         "options": [
           "Miguilim e sua percepção infantil.",
           "Fabiano e sua vida de retirante.",
@@ -835,7 +835,7 @@ window.literaturaLessons={
         "tip": "Terceira pessoa pode focalizar uma personagem."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, em Vidas Secas, o Soldado Amarelo evidencia:",
+        "question": "Em Vidas Secas, o Soldado Amarelo evidencia:",
         "options": [
           "Abuso de autoridade e impotência social de Fabiano.",
           "Prosperidade da família.",
@@ -847,7 +847,7 @@ window.literaturaLessons={
         "tip": "Fabiano enfrenta também opressão social."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, qual comparação está correta?",
+        "question": "Qual comparação está correta?",
         "options": [
           "Campo Geral enfatiza Miguilim; Vidas Secas acompanha retirantes.",
           "As duas obras são narradas por Miguilim.",
@@ -859,7 +859,7 @@ window.literaturaLessons={
         "tip": "Separe personagens, autores e espaços."
       },
       {
-        "question": "Considerando rigorosamente o conteúdo estudado e o padrão de cobrança da banca, a economia de linguagem é especialmente associada a:",
+        "question": "A economia de linguagem é especialmente associada a:",
         "options": [
           "Vidas Secas, de Graciliano Ramos.",
           "Campo Geral como texto jurídico.",
@@ -873,3 +873,27 @@ window.literaturaLessons={
     ]
   }
 };
+
+
+/* MISSÃO PMMG — MODO PROVA REAL
+   Evita padrão previsível de gabarito: redistribui a alternativa correta
+   em todas as avaliações sem alterar o conteúdo ou o gabarito factual. */
+(function(){
+  const banco=window.literaturaLessons;
+  if(!banco) return;
+  Object.keys(banco).forEach((k,li)=>{
+    const aula=banco[k];
+    if(!aula || !Array.isArray(aula.quiz)) return;
+    aula.quiz.forEach((q,qi)=>{
+      if(!q || !Array.isArray(q.options) || q.options.length<2) return;
+      const correta=q.options[q.answer];
+      const n=q.options.length;
+      const alvo=(li*3 + qi*2 + 1) % n;
+      const restantes=q.options.filter((_,i)=>i!==q.answer);
+      const novas=[]; let r=0;
+      for(let i=0;i<n;i++) novas.push(i===alvo?correta:restantes[r++]);
+      q.options=novas; q.answer=alvo;
+      if(q.tip && /Volte|Revise|leitura|teoria/i.test(q.tip)) q.tip='Elimine as alternativas tecnicamente incompatíveis antes de marcar a resposta.';
+    });
+  });
+})();
