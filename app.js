@@ -5072,3 +5072,64 @@ function v850Quick(mode){
   setTimeout(()=>v851Add("bot",v851Reply(hit.t,mode)),100);
 }
 window.v850Quick=v850Quick;
+/* ============================================================
+   FIX — BARRAS DE PROGRESSO DAS MATÉRIAS (mobile preservado)
+   Atualiza os cards a partir do estado real de cada disciplina.
+   ============================================================ */
+(function(){
+  function subjectProgressFix(source, completed){
+    const src = source || {};
+    const nums = Object.keys(src).map(Number).filter(Number.isFinite);
+    const done = new Set((completed || []).map(Number));
+    const completedCount = nums.filter(n => done.has(n)).length;
+    return nums.length ? Math.round((completedCount / nums.length) * 100) : 0;
+  }
+
+  function ensureEnglishProgressBarFix(){
+    const card = document.getElementById('englishSubjectCard');
+    if(!card || document.getElementById('englishProgressBar')) return;
+    const copy = card.querySelector(':scope > div');
+    if(!copy) return;
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.innerHTML = '<i id="englishProgressBar"></i>';
+    copy.appendChild(bar);
+  }
+
+  function updateSubjectProgressBarsFix(){
+    ensureEnglishProgressBarFix();
+
+    const values = {
+      portugueseProgressBar2: subjectProgressFix(window.lessons, state.completedLessons),
+      literatureProgressBar: subjectProgressFix(window.literaturaLessons, state.literatureCompleted),
+      englishProgressBar: subjectProgressFix(window.inglesLessons, state.englishCompleted),
+      lawProgressBarV648: subjectProgressFix(window.direitoLessons, state.lawCompleted),
+      mathProgressBarV650: subjectProgressFix(window.matematicaLessons, state.mathCompleted)
+    };
+
+    Object.entries(values).forEach(([id,pct]) => setWidth(id,pct));
+  }
+
+  const previousUpdateDashboard = window.updateDashboard || updateDashboard;
+  const fixedUpdateDashboard = function(){
+    const result = previousUpdateDashboard.apply(this, arguments);
+    updateSubjectProgressBarsFix();
+    return result;
+  };
+  updateDashboard = fixedUpdateDashboard;
+  window.updateDashboard = fixedUpdateDashboard;
+
+  const previousSaveState = saveState;
+  saveState = function(){
+    const result = previousSaveState.apply(this, arguments);
+    setTimeout(updateSubjectProgressBarsFix, 0);
+    return result;
+  };
+  window.saveState = saveState;
+
+  document.addEventListener('DOMContentLoaded', function(){
+    setTimeout(updateSubjectProgressBarsFix, 0);
+  });
+
+  window.updateSubjectProgressBarsFix = updateSubjectProgressBarsFix;
+})();
