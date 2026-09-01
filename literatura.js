@@ -1,154 +1,154 @@
-/* MISSÃO PMMG — V4 • quizzes por aula reforçados: 12 questões integradas, 4 alternativas, 1 correta. */
+/* MISSÃO PMMG — LITERATURA • VERSÃO FINAL RECONSTRUÍDA E AUDITADA • 2026 */
 window.literaturaLessons={
   "1": {
     "title": "Campo Geral — obra, contexto e narrador",
     "subtitle": "Literatura • Aula 01 • Campo Geral",
     "time": "45 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — JOÃO GUIMARÃES ROSA</div><h3>O que você precisa saber</h3><p><b>Campo Geral</b> é uma novela de João Guimarães Rosa centrada em Miguilim, menino que vive com a família no Mutúm, interior de Minas Gerais. A narrativa aproxima o leitor da percepção infantil do protagonista.</p><h3>Narrador e perspectiva</h3><p>Embora narrada em terceira pessoa, a história acompanha de perto a visão de Miguilim. Isso é essencial: acontecimentos familiares, natureza, medo, afeto e violência chegam ao leitor filtrados por sua sensibilidade.</p><div class=\"lesson-example\"><b>Ponto de prova:</b> não confunda “narrador em terceira pessoa” com distanciamento. A focalização está fortemente ligada a Miguilim.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em Campo Geral, pense em <b>infância + percepção de Miguilim + sertão mineiro + amadurecimento</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — obra, contexto e narrador</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Entrando no universo de Miguilim</h3><p>Campo Geral, de João Guimarães Rosa, acompanha Miguilim no Mutúm, região rural de Minas Gerais. A obra não apresenta a infância como um período simples ou idealizado: o menino convive com beleza natural, afetos, incompreensões, violência, medo, doença e descobertas.</p><p>Para compreender a obra, é importante perceber que o leitor entra no mundo adulto por meio de uma sensibilidade infantil. Muitas situações não são explicadas diretamente porque Miguilim também não as compreende por completo.</p><h3>Narrador e focalização</h3><p>O narrador está em terceira pessoa, mas a focalização se aproxima intensamente de Miguilim. Isso significa que vocabulário, percepções, dúvidas e interpretações do menino influenciam a forma como os fatos chegam ao leitor.</p><p>Em prova, cuidado com a afirmação de que terceira pessoa significa narrador distante ou neutro. O narrador pode estar em terceira pessoa e ainda acompanhar de perto a consciência de uma personagem.</p><h3>Espaço e formação</h3><p>O Mutúm não funciona apenas como cenário. Natureza, isolamento, deslocamentos e condições de vida participam da formação de Miguilim. A saída e a possibilidade de ver o mundo de outra maneira se ligam ao processo de amadurecimento.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>associar Miguilim ao Mutúm</li><li>explicar a focalização próxima da criança</li><li>relacionar espaço e amadurecimento</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PMMG</span><h3>Campo Geral — Literatura para Soldado PMMG</h3><p>Aula direcionada ao concurso da Polícia Militar de Minas Gerais.</p><iframe src=\"https://www.youtube.com/embed/zCBH6pM_iHc\" title=\"Campo Geral PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — JOÃO GUIMARÃES ROSA</div><h3>O que você precisa saber</h3><p><b>Campo Geral</b> é uma novela de João Guimarães Rosa centrada em Miguilim, menino que vive com a família no Mutúm, interior de Minas Gerais. A narrativa aproxima o leitor da percepção infantil do protagonista.</p><h3>Narrador e perspectiva</h3><p>Embora narrada em terceira pessoa, a história acompanha de perto a visão de Miguilim. Isso é essencial: acontecimentos familiares, natureza, medo, afeto e violência chegam ao leitor filtrados por sua sensibilidade.</p><div class=\"lesson-example\"><b>Ponto de prova:</b> não confunda “narrador em terceira pessoa” com distanciamento. A focalização está fortemente ligada a Miguilim.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em Campo Geral, pense em <b>infância + percepção de Miguilim + sertão mineiro + amadurecimento</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — obra, contexto e narrador</h3></div><h3>Entrando no universo de Miguilim</h3><p>Campo Geral, de João Guimarães Rosa, acompanha Miguilim no Mutúm, região rural de Minas Gerais. A obra não apresenta a infância como um período simples ou idealizado: o menino convive com beleza natural, afetos, incompreensões, violência, medo, doença e descobertas.</p><p>Para compreender a obra, é importante perceber que o leitor entra no mundo adulto por meio de uma sensibilidade infantil. Muitas situações não são explicadas diretamente porque Miguilim também não as compreende por completo.</p><h3>Narrador e focalização</h3><p>O narrador está em terceira pessoa, mas a focalização se aproxima intensamente de Miguilim. Isso significa que vocabulário, percepções, dúvidas e interpretações do menino influenciam a forma como os fatos chegam ao leitor.</p><p>Em prova, cuidado com a afirmação de que terceira pessoa significa narrador distante ou neutro. O narrador pode estar em terceira pessoa e ainda acompanhar de perto a consciência de uma personagem.</p><h3>Espaço e formação</h3><p>O Mutúm não funciona apenas como cenário. Natureza, isolamento, deslocamentos e condições de vida participam da formação de Miguilim. A saída e a possibilidade de ver o mundo de outra maneira se ligam ao processo de amadurecimento.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>associar Miguilim ao Mutúm</li><li>explicar a focalização próxima da criança</li><li>relacionar espaço e amadurecimento</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PMMG</span><h3>Campo Geral — Literatura para Soldado PMMG</h3><p>Aula direcionada ao concurso da Polícia Militar de Minas Gerais.</p><iframe src=\"https://www.youtube.com/embed/zCBH6pM_iHc\" title=\"Campo Geral PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O protagonista de Campo Geral é:\n\nII. O espaço central da obra é:",
+        "question": "Em Campo Geral, a narração em terceira pessoa não produz distanciamento absoluto porque:",
         "options": [
-          "I — Miguilim. | II — Mutúm, no sertão mineiro.",
-          "I — Paulo Honório. | II — Mutúm, no sertão mineiro.",
-          "I — Miguilim. | II — São Paulo.",
-          "I — Paulo Honório. | II — São Paulo."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Miguilim.”. No item II, a resposta correta é “Mutúm, no sertão mineiro.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O espaço central da obra é:\n\nII. Campo Geral é obra de:",
-        "options": [
-          "I — São Paulo. | II — João Guimarães Rosa.",
-          "I — Mutúm, no sertão mineiro. | II — José de Alencar.",
-          "I — São Paulo. | II — José de Alencar.",
-          "I — Mutúm, no sertão mineiro. | II — João Guimarães Rosa."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Mutúm, no sertão mineiro.”. No item II, a resposta correta é “João Guimarães Rosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A perspectiva narrativa aproxima o leitor principalmente de:\n\nII. A ambientação de Campo Geral se relaciona fortemente:",
-        "options": [
-          "I — Miguilim. | II — À metrópole industrial.",
-          "I — Um juiz. | II — À metrópole industrial.",
-          "I — Miguilim. | II — À natureza e ao sertão de Minas Gerais.",
-          "I — Um juiz. | II — À natureza e ao sertão de Minas Gerais."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Miguilim.”. No item II, a resposta correta é “À natureza e ao sertão de Minas Gerais.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Campo Geral é obra de:\n\nII. O espaço central da obra é:",
-        "options": [
-          "I — Graciliano Ramos. | II — Recife urbano.",
-          "I — João Guimarães Rosa. | II — Mutúm, no sertão mineiro.",
-          "I — Graciliano Ramos. | II — Mutúm, no sertão mineiro.",
-          "I — João Guimarães Rosa. | II — Recife urbano."
+          "o narrador cede integralmente a palavra a Miguilim em forma autobiográfica.",
+          "a focalização acompanha de perto percepções, dúvidas e afetos de Miguilim.",
+          "todos os acontecimentos são explicados por um narrador documental e neutro.",
+          "a obra alterna obrigatoriamente primeira e segunda pessoas."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “João Guimarães Rosa.”. No item II, a resposta correta é “Mutúm, no sertão mineiro.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A terceira pessoa convive com focalização muito próxima de Miguilim, fazendo o leitor perceber o mundo adulto através de sua sensibilidade.",
+        "tip": "Separe pessoa gramatical do narrador e focalização."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Um eixo importante da obra é:\n\nII. Campo Geral é obra de:",
+        "question": "O Mutúm exerce função estrutural na formação de Miguilim porque:",
         "options": [
-          "I — Infância e amadurecimento. | II — João Guimarães Rosa.",
-          "I — Investigação policial. | II — João Guimarães Rosa.",
-          "I — Infância e amadurecimento. | II — Machado de Assis.",
-          "I — Investigação policial. | II — Machado de Assis."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Infância e amadurecimento.”. No item II, a resposta correta é “João Guimarães Rosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A ambientação de Campo Geral se relaciona fortemente:\n\nII. O protagonista de Campo Geral é:",
-        "options": [
-          "I — A uma ilha fictícia. | II — Miguilim.",
-          "I — À natureza e ao sertão de Minas Gerais. | II — Fabiano.",
-          "I — A uma ilha fictícia. | II — Fabiano.",
-          "I — À natureza e ao sertão de Minas Gerais. | II — Miguilim."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “À natureza e ao sertão de Minas Gerais.”. No item II, a resposta correta é “Miguilim.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O protagonista de Campo Geral é:\n\nII. O espaço central da obra é:",
-        "options": [
-          "I — Miguilim. | II — São Paulo.",
-          "I — Paulo Honório. | II — São Paulo.",
-          "I — Miguilim. | II — Mutúm, no sertão mineiro.",
-          "I — Paulo Honório. | II — Mutúm, no sertão mineiro."
+          "é apenas referência geográfica sem interferência temática.",
+          "representa exclusivamente um espaço urbano em transformação.",
+          "natureza, isolamento e relações locais participam da experiência e do amadurecimento do menino.",
+          "funciona como cenário fantástico desligado da vida familiar."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Miguilim.”. No item II, a resposta correta é “Mutúm, no sertão mineiro.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O espaço participa da experiência subjetiva do protagonista e não atua como simples pano de fundo.",
+        "tip": "Em literatura, pergunte o que o espaço faz na narrativa."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O espaço central da obra é:\n\nII. Campo Geral é obra de:",
+        "question": "Uma leitura adequada da infância em Campo Geral deve reconhecer que ela é apresentada como:",
         "options": [
-          "I — São Paulo. | II — José de Alencar.",
-          "I — Mutúm, no sertão mineiro. | II — João Guimarães Rosa.",
-          "I — São Paulo. | II — João Guimarães Rosa.",
-          "I — Mutúm, no sertão mineiro. | II — José de Alencar."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “Mutúm, no sertão mineiro.”. No item II, a resposta correta é “João Guimarães Rosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A perspectiva narrativa aproxima o leitor principalmente de:\n\nII. A ambientação de Campo Geral se relaciona fortemente:",
-        "options": [
-          "I — Miguilim. | II — À natureza e ao sertão de Minas Gerais.",
-          "I — Um juiz. | II — À natureza e ao sertão de Minas Gerais.",
-          "I — Miguilim. | II — À metrópole industrial.",
-          "I — Um juiz. | II — À metrópole industrial."
+          "experiência complexa, atravessada por afeto, medo, violência, descoberta e incompreensão.",
+          "fase idealizada, protegida de conflitos familiares.",
+          "período irrelevante diante da descrição regional.",
+          "recurso usado apenas para produzir humor."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Miguilim.”. No item II, a resposta correta é “À natureza e ao sertão de Minas Gerais.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A infância de Miguilim concentra experiências contraditórias e constitui o núcleo de sua formação.",
+        "tip": "Evite reduzir a infância rosiana à inocência."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Campo Geral é obra de:\n\nII. O espaço central da obra é:",
+        "question": "Quando Miguilim não compreende plenamente determinadas tensões entre adultos, o efeito narrativo principal é:",
         "options": [
-          "I — Graciliano Ramos. | II — Mutúm, no sertão mineiro.",
-          "I — João Guimarães Rosa. | II — Recife urbano.",
-          "I — Graciliano Ramos. | II — Recife urbano.",
-          "I — João Guimarães Rosa. | II — Mutúm, no sertão mineiro."
+          "eliminar qualquer possibilidade de interpretação pelo leitor.",
+          "provar que o narrador desconhece os fatos.",
+          "transformar a obra em relato policial.",
+          "permitir que o leitor perceba sentidos que ultrapassam a compreensão imediata da criança."
         ],
         "answer": 3,
-        "explanation": "No item I, a resposta correta é “João Guimarães Rosa.”. No item II, a resposta correta é “Mutúm, no sertão mineiro.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A focalização infantil pode limitar a compreensão da personagem sem limitar totalmente a interpretação do leitor.",
+        "tip": "Diferencie o que a personagem entende do que o leitor pode inferir."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Um eixo importante da obra é:\n\nII. Campo Geral é obra de:",
+        "question": "A relação entre perspectiva infantil e linguagem em Campo Geral favorece:",
         "options": [
-          "I — Infância e amadurecimento. | II — Machado de Assis.",
-          "I — Investigação policial. | II — Machado de Assis.",
-          "I — Infância e amadurecimento. | II — João Guimarães Rosa.",
-          "I — Investigação policial. | II — João Guimarães Rosa."
+          "uma percepção singular do mundo, em que sensações e interpretações da criança influenciam a narrativa.",
+          "uma exposição científica e objetiva do sertão.",
+          "o desaparecimento da subjetividade.",
+          "uma descrição exclusivamente histórica de Minas Gerais."
+        ],
+        "answer": 0,
+        "explanation": "A linguagem e a focalização aproximam o leitor da maneira particular como Miguilim percebe pessoas, espaços e acontecimentos.",
+        "tip": "Perspectiva não é apenas 'quem vê', mas como o mundo é percebido."
+      },
+      {
+        "question": "Assinale a interpretação que melhor evita uma leitura reducionista de Campo Geral:",
+        "options": [
+          "A obra é somente uma descrição regional do sertão mineiro.",
+          "A obra é apenas uma história infantil sobre uma família feliz.",
+          "O sertão, a família e a percepção infantil articulam-se no processo de formação de Miguilim.",
+          "A narrativa tem como objetivo principal documentar técnicas agrícolas."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Infância e amadurecimento.”. No item II, a resposta correta é “João Guimarães Rosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Os elementos centrais da obra se articulam; nenhum deles explica sozinho sua complexidade.",
+        "tip": "Desconfie de alternativas com 'somente' e 'apenas'."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A ambientação de Campo Geral se relaciona fortemente:\n\nII. O protagonista de Campo Geral é:",
+        "question": "A proximidade entre narrador e Miguilim produz, entre outros efeitos:",
         "options": [
-          "I — A uma ilha fictícia. | II — Fabiano.",
-          "I — À natureza e ao sertão de Minas Gerais. | II — Miguilim.",
-          "I — A uma ilha fictícia. | II — Miguilim.",
-          "I — À natureza e ao sertão de Minas Gerais. | II — Fabiano."
+          "acesso privilegiado às hesitações e interpretações do menino.",
+          "certeza absoluta sobre todas as intenções dos adultos.",
+          "eliminação de ambiguidades na vida familiar.",
+          "substituição do narrador por Dito."
+        ],
+        "answer": 0,
+        "explanation": "A focalização próxima permite acompanhar a interioridade infantil sem transformar Miguilim em narrador de primeira pessoa.",
+        "tip": "Terceira pessoa pode focalizar intensamente uma personagem."
+      },
+      {
+        "question": "Em relação ao amadurecimento de Miguilim, o deslocamento final pode ser lido como:",
+        "options": [
+          "retorno definitivo a uma infância sem conflitos.",
+          "negação de qualquer transformação vivida.",
+          "abertura para outra etapa e ampliação de horizonte.",
+          "prova de que o Mutúm era irrelevante."
+        ],
+        "answer": 2,
+        "explanation": "A saída se associa a uma passagem de etapa, sem apagar a importância das experiências anteriores.",
+        "tip": "Mudança espacial pode ter função formativa."
+      },
+      {
+        "question": "A natureza em Campo Geral deve ser compreendida principalmente como:",
+        "options": [
+          "catálogo científico de espécies.",
+          "elemento integrado às emoções, percepções e experiências das personagens.",
+          "obstáculo sem qualquer valor simbólico.",
+          "substituta do conflito familiar."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “À natureza e ao sertão de Minas Gerais.”. No item II, a resposta correta é “Miguilim.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A natureza participa da atmosfera e da percepção das personagens, especialmente de Miguilim.",
+        "tip": "Cenário ativo é diferente de pano de fundo."
+      },
+      {
+        "question": "Qual afirmação sobre o narrador de Campo Geral é mais precisa?",
+        "options": [
+          "É Miguilim adulto narrando sua infância em primeira pessoa.",
+          "É narrador-personagem identificado como Dito.",
+          "É terceira pessoa com focalização frequentemente aderida a Miguilim.",
+          "É narrador totalmente externo, sem acesso à interioridade."
+        ],
+        "answer": 2,
+        "explanation": "A formulação distingue corretamente voz narrativa e focalização.",
+        "tip": "Questões difíceis costumam misturar narrador e foco."
+      },
+      {
+        "question": "A presença de lacunas na compreensão de Miguilim contribui para:",
+        "options": [
+          "a construção de uma experiência infantil verossímil e interpretativamente rica.",
+          "um defeito técnico que impede o desenvolvimento da obra.",
+          "a inexistência de conflitos adultos.",
+          "a transformação da novela em texto jornalístico."
+        ],
+        "answer": 0,
+        "explanation": "O não saber da criança é parte do modo como a obra representa sua experiência diante de um mundo adulto complexo.",
+        "tip": "Limitação da personagem pode ser recurso estético."
+      },
+      {
+        "question": "Ao relacionar espaço e subjetividade em Campo Geral, a melhor síntese é:",
+        "options": [
+          "o Mutúm determina mecanicamente todas as ações.",
+          "o espaço é indiferente à formação de Miguilim.",
+          "a subjetividade infantil elimina a dimensão concreta do sertão.",
+          "o espaço concreto e a percepção de Miguilim se influenciam na construção da experiência narrativa."
+        ],
+        "answer": 3,
+        "explanation": "A obra articula realidade espacial e percepção subjetiva sem reduzir uma à outra.",
+        "tip": "Prefira relações complexas a explicações absolutas."
       }
     ]
   },
@@ -156,151 +156,151 @@ window.literaturaLessons={
     "title": "Campo Geral — personagens, conflitos e amadurecimento",
     "subtitle": "Literatura • Aula 02 • Campo Geral",
     "time": "50 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — PERSONAGENS</div><h3>Miguilim e Dito</h3><p>Miguilim mantém forte vínculo afetivo com o irmão Dito. A relação entre os dois é central para a formação emocional do protagonista.</p><h3>Família e tensão</h3><p>A vida familiar é marcada por afeto, incompreensão, dureza e conflitos. O pai de Miguilim é uma figura severa, enquanto a criança tenta compreender as tensões do mundo adulto.</p><h3>Visão e descoberta</h3><p>Um dos momentos simbólicos do final envolve a descoberta da miopia de Miguilim. Ao usar óculos, ele passa a enxergar o mundo com nitidez — fato concreto que também dialoga com seu processo de transformação.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: Dito, família, perda e visão são pontos-chave para entender o amadurecimento de Miguilim.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — personagens, conflitos e amadurecimento</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Miguilim e Dito</h3><p>Dito, irmão de Miguilim, é uma das figuras mais importantes no universo afetivo do protagonista. A relação entre eles envolve companheirismo, aprendizagem e sensibilidade.</p><p>As experiências de perda fazem parte da formação de Miguilim e modificam sua maneira de perceber a família e a vida.</p><h3>O mundo familiar</h3><p>A família é marcada por relações complexas. Há carinho, ciúme, dureza, tensão e incompreensão. Miguilim tenta interpretar comportamentos adultos para os quais ainda não possui todas as ferramentas.</p><p>O pai aparece como figura severa e participa de conflitos que tornam o ambiente doméstico instável.</p><h3>Visão e transformação</h3><p>A descoberta da miopia no final tem importância concreta e simbólica. Os óculos permitem que Miguilim veja com nitidez aquilo que antes enxergava mal. Essa mudança dialoga com a passagem para uma nova etapa de vida e com a ampliação de seu horizonte.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar a importância de Dito</li><li>reconhecer a complexidade da família</li><li>interpretar a função da descoberta da miopia</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • RESUMO + ANÁLISE</span><h3>Campo Geral — resumo e análise</h3><p>Revisão da obra, personagens e principais temas.</p><iframe src=\"https://www.youtube.com/embed/Rgit7L7WU3E\" title=\"Campo Geral resumo e análise\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — PERSONAGENS</div><h3>Miguilim e Dito</h3><p>Miguilim mantém forte vínculo afetivo com o irmão Dito. A relação entre os dois é central para a formação emocional do protagonista.</p><h3>Família e tensão</h3><p>A vida familiar é marcada por afeto, incompreensão, dureza e conflitos. O pai de Miguilim é uma figura severa, enquanto a criança tenta compreender as tensões do mundo adulto.</p><h3>Visão e descoberta</h3><p>Um dos momentos simbólicos do final envolve a descoberta da miopia de Miguilim. Ao usar óculos, ele passa a enxergar o mundo com nitidez — fato concreto que também dialoga com seu processo de transformação.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: Dito, família, perda e visão são pontos-chave para entender o amadurecimento de Miguilim.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — personagens, conflitos e amadurecimento</h3></div><h3>Miguilim e Dito</h3><p>Dito, irmão de Miguilim, é uma das figuras mais importantes no universo afetivo do protagonista. A relação entre eles envolve companheirismo, aprendizagem e sensibilidade.</p><p>As experiências de perda fazem parte da formação de Miguilim e modificam sua maneira de perceber a família e a vida.</p><h3>O mundo familiar</h3><p>A família é marcada por relações complexas. Há carinho, ciúme, dureza, tensão e incompreensão. Miguilim tenta interpretar comportamentos adultos para os quais ainda não possui todas as ferramentas.</p><p>O pai aparece como figura severa e participa de conflitos que tornam o ambiente doméstico instável.</p><h3>Visão e transformação</h3><p>A descoberta da miopia no final tem importância concreta e simbólica. Os óculos permitem que Miguilim veja com nitidez aquilo que antes enxergava mal. Essa mudança dialoga com a passagem para uma nova etapa de vida e com a ampliação de seu horizonte.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>explicar a importância de Dito</li><li>reconhecer a complexidade da família</li><li>interpretar a função da descoberta da miopia</li></ul></div></section><div class=\"video-lesson\"><span>🔥 VIDEOAULA POPULAR • RESUMO + ANÁLISE</span><h3>Campo Geral — resumo e análise</h3><p>Revisão da obra, personagens e principais temas.</p><iframe src=\"https://www.youtube.com/embed/Rgit7L7WU3E\" title=\"Campo Geral resumo e análise\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Dito é:\n\nII. A família de Miguilim é apresentada como:",
+        "question": "A importância de Dito para Miguilim ultrapassa o parentesco porque:",
         "options": [
-          "I — Irmão de Miguilim. | II — Marcada por afetos e conflitos.",
-          "I — Pai de Miguilim. | II — Marcada por afetos e conflitos.",
-          "I — Irmão de Miguilim. | II — Sem qualquer tensão.",
-          "I — Pai de Miguilim. | II — Sem qualquer tensão."
+          "ele funciona como figura afetiva e interlocutor decisivo na formação emocional do protagonista.",
+          "ele substitui o narrador e conta toda a obra.",
+          "ele representa exclusivamente a autoridade paterna.",
+          "sua presença elimina os conflitos familiares."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Irmão de Miguilim.”. No item II, a resposta correta é “Marcada por afetos e conflitos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Dito participa intensamente do universo afetivo e da aprendizagem emocional de Miguilim.",
+        "tip": "Personagem importante costuma cumprir função temática, não só genealógica."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A família de Miguilim é apresentada como:\n\nII. O pai de Miguilim aparece frequentemente como figura:",
+        "question": "A morte de Dito é decisiva na trajetória de Miguilim sobretudo por:",
         "options": [
-          "I — Sem qualquer tensão. | II — Severa e conflituosa.",
-          "I — Marcada por afetos e conflitos. | II — Fantástica.",
-          "I — Sem qualquer tensão. | II — Fantástica.",
-          "I — Marcada por afetos e conflitos. | II — Severa e conflituosa."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Marcada por afetos e conflitos.”. No item II, a resposta correta é “Severa e conflituosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A descoberta da miopia de Miguilim está ligada:\n\nII. O amadurecimento de Miguilim ocorre:",
-        "options": [
-          "I — À possibilidade de enxergar com nitidez. | II — Sem acontecimentos relevantes.",
-          "I — Ao abandono da família. | II — Sem acontecimentos relevantes.",
-          "I — À possibilidade de enxergar com nitidez. | II — Por meio das experiências, perdas e descobertas.",
-          "I — Ao abandono da família. | II — Por meio das experiências, perdas e descobertas."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “À possibilidade de enxergar com nitidez.”. No item II, a resposta correta é “Por meio das experiências, perdas e descobertas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O pai de Miguilim aparece frequentemente como figura:\n\nII. A família de Miguilim é apresentada como:",
-        "options": [
-          "I — Narradora. | II — Uma família urbana rica.",
-          "I — Severa e conflituosa. | II — Marcada por afetos e conflitos.",
-          "I — Narradora. | II — Marcada por afetos e conflitos.",
-          "I — Severa e conflituosa. | II — Uma família urbana rica."
+          "encerrar todos os conflitos da família.",
+          "introduzir uma experiência profunda de perda no processo de amadurecimento.",
+          "provar que a narrativa abandona a perspectiva infantil.",
+          "transformar o Mutúm em espaço urbano."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Severa e conflituosa.”. No item II, a resposta correta é “Marcada por afetos e conflitos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A perda de Dito altera a experiência emocional de Miguilim e integra seu processo formativo.",
+        "tip": "Relacione episódio e transformação da personagem."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A relação com Dito contribui para:\n\nII. O pai de Miguilim aparece frequentemente como figura:",
+        "question": "A figura paterna em Campo Geral contribui para a tensão narrativa porque é associada:",
         "options": [
-          "I — A formação emocional de Miguilim. | II — Severa e conflituosa.",
-          "I — Transformar a obra em comédia. | II — Severa e conflituosa.",
-          "I — A formação emocional de Miguilim. | II — Cômica e ausente de conflitos.",
-          "I — Transformar a obra em comédia. | II — Cômica e ausente de conflitos."
+          "apenas à comicidade.",
+          "à ausência completa de autoridade.",
+          "à severidade e a conflitos que Miguilim tenta compreender.",
+          "à função de narrador onisciente."
+        ],
+        "answer": 2,
+        "explanation": "A severidade do pai participa da instabilidade doméstica percebida pela criança.",
+        "tip": "Não confunda função familiar com função narrativa."
+      },
+      {
+        "question": "A família de Miguilim é melhor caracterizada como:",
+        "options": [
+          "núcleo idealizado em que não existem tensões.",
+          "espaço complexo de afeto, medo, ciúme, violência e incompreensão.",
+          "grupo secundário sem impacto na formação do protagonista.",
+          "representação exclusiva da prosperidade rural."
+        ],
+        "answer": 1,
+        "explanation": "As relações familiares são contraditórias e centrais para a formação de Miguilim.",
+        "tip": "Alternativas absolutas empobrecem relações complexas."
+      },
+      {
+        "question": "A descoberta da miopia de Miguilim possui importância literal e simbólica porque:",
+        "options": [
+          "apenas confirma uma doença sem relação temática.",
+          "prova que Miguilim era completamente cego.",
+          "a correção da visão concretiza uma nova nitidez e dialoga com ampliação de percepção e mudança de etapa.",
+          "faz o narrador mudar para primeira pessoa."
+        ],
+        "answer": 2,
+        "explanation": "Os óculos corrigem uma limitação concreta e também permitem leitura simbólica ligada ao olhar e à transformação.",
+        "tip": "Símbolo eficaz nasce de um elemento concreto da narrativa."
+      },
+      {
+        "question": "Interpretar os óculos apenas como 'cura médica' seria insuficiente porque:",
+        "options": [
+          "a obra não menciona qualquer dificuldade visual.",
+          "o episódio também se articula ao tema do olhar e ao amadurecimento.",
+          "os óculos pertencem a Dito.",
+          "a narrativa proíbe qualquer leitura simbólica."
+        ],
+        "answer": 1,
+        "explanation": "O episódio admite simultaneamente dimensão concreta e simbólica.",
+        "tip": "Não escolha entre literal e simbólico quando a obra articula ambos."
+      },
+      {
+        "question": "Nos conflitos familiares, a focalização de Miguilim faz com que:",
+        "options": [
+          "o leitor receba uma interpretação infantil, por vezes incompleta, das tensões adultas.",
+          "todas as intenções dos adultos sejam explicitadas objetivamente.",
+          "a família desapareça como tema.",
+          "o pai seja apresentado apenas por documentos."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “A formação emocional de Miguilim.”. No item II, a resposta correta é “Severa e conflituosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A criança percebe sinais e consequências sem dominar necessariamente todas as causas adultas.",
+        "tip": "A focalização controla a quantidade e o tipo de informação."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O amadurecimento de Miguilim ocorre:\n\nII. Dito é:",
+        "question": "O amadurecimento de Miguilim pode ser entendido como resultado:",
         "options": [
-          "I — Apenas por estudo escolar. | II — Irmão de Miguilim.",
-          "I — Por meio das experiências, perdas e descobertas. | II — Narrador da obra.",
-          "I — Apenas por estudo escolar. | II — Narrador da obra.",
-          "I — Por meio das experiências, perdas e descobertas. | II — Irmão de Miguilim."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Por meio das experiências, perdas e descobertas.”. No item II, a resposta correta é “Irmão de Miguilim.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Dito é:\n\nII. A família de Miguilim é apresentada como:",
-        "options": [
-          "I — Irmão de Miguilim. | II — Sem qualquer tensão.",
-          "I — Pai de Miguilim. | II — Sem qualquer tensão.",
-          "I — Irmão de Miguilim. | II — Marcada por afetos e conflitos.",
-          "I — Pai de Miguilim. | II — Marcada por afetos e conflitos."
+          "de uma única lição moral ensinada pelo pai.",
+          "exclusivamente da escolarização formal.",
+          "do acúmulo de experiências, perdas, afetos, medos e descobertas.",
+          "da rejeição completa de sua infância."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “Irmão de Miguilim.”. No item II, a resposta correta é “Marcada por afetos e conflitos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A formação do protagonista é processual e resulta de experiências diversas.",
+        "tip": "Romance/novela de formação raramente depende de um único evento."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A família de Miguilim é apresentada como:\n\nII. O pai de Miguilim aparece frequentemente como figura:",
+        "question": "A relação entre Dito e Miguilim evidencia:",
         "options": [
-          "I — Sem qualquer tensão. | II — Fantástica.",
-          "I — Marcada por afetos e conflitos. | II — Severa e conflituosa.",
-          "I — Sem qualquer tensão. | II — Severa e conflituosa.",
-          "I — Marcada por afetos e conflitos. | II — Fantástica."
+          "competição econômica entre irmãos.",
+          "uma dimensão de companheirismo e aprendizagem afetiva.",
+          "indiferença emocional.",
+          "oposição entre campo e cidade."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Marcada por afetos e conflitos.”. No item II, a resposta correta é “Severa e conflituosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O vínculo fraterno é um dos eixos afetivos da obra.",
+        "tip": "Associe relações pessoais ao desenvolvimento do protagonista."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A descoberta da miopia de Miguilim está ligada:\n\nII. O amadurecimento de Miguilim ocorre:",
+        "question": "A saída de Miguilim ao final não deve ser interpretada como:",
         "options": [
-          "I — À possibilidade de enxergar com nitidez. | II — Por meio das experiências, perdas e descobertas.",
-          "I — Ao abandono da família. | II — Por meio das experiências, perdas e descobertas.",
-          "I — À possibilidade de enxergar com nitidez. | II — Sem acontecimentos relevantes.",
-          "I — Ao abandono da família. | II — Sem acontecimentos relevantes."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “À possibilidade de enxergar com nitidez.”. No item II, a resposta correta é “Por meio das experiências, perdas e descobertas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O pai de Miguilim aparece frequentemente como figura:\n\nII. A família de Miguilim é apresentada como:",
-        "options": [
-          "I — Narradora. | II — Marcada por afetos e conflitos.",
-          "I — Severa e conflituosa. | II — Uma família urbana rica.",
-          "I — Narradora. | II — Uma família urbana rica.",
-          "I — Severa e conflituosa. | II — Marcada por afetos e conflitos."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Severa e conflituosa.”. No item II, a resposta correta é “Marcada por afetos e conflitos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A relação com Dito contribui para:\n\nII. O pai de Miguilim aparece frequentemente como figura:",
-        "options": [
-          "I — A formação emocional de Miguilim. | II — Cômica e ausente de conflitos.",
-          "I — Transformar a obra em comédia. | II — Cômica e ausente de conflitos.",
-          "I — A formação emocional de Miguilim. | II — Severa e conflituosa.",
-          "I — Transformar a obra em comédia. | II — Severa e conflituosa."
+          "passagem para uma nova etapa.",
+          "ampliação de horizonte.",
+          "apagamento completo do que viveu no Mutúm.",
+          "momento ligado ao processo de transformação."
         ],
         "answer": 2,
-        "explanation": "No item I, a resposta correta é “A formação emocional de Miguilim.”. No item II, a resposta correta é “Severa e conflituosa.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A mudança não elimina as experiências formadoras acumuladas no Mutúm.",
+        "tip": "Cuidado com alternativas que confundem mudança com apagamento."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O amadurecimento de Miguilim ocorre:\n\nII. Dito é:",
+        "question": "Qual relação entre perda e formação é mais adequada à obra?",
         "options": [
-          "I — Apenas por estudo escolar. | II — Narrador da obra.",
-          "I — Por meio das experiências, perdas e descobertas. | II — Irmão de Miguilim.",
-          "I — Apenas por estudo escolar. | II — Irmão de Miguilim.",
-          "I — Por meio das experiências, perdas e descobertas. | II — Narrador da obra."
+          "As perdas interrompem qualquer amadurecimento possível.",
+          "As perdas são irrelevantes porque Miguilim é criança.",
+          "As experiências dolorosas participam da transformação da percepção de Miguilim.",
+          "Apenas acontecimentos felizes possuem função formativa."
+        ],
+        "answer": 2,
+        "explanation": "A dor e a perda são componentes importantes da formação emocional do protagonista.",
+        "tip": "Formação inclui experiências negativas e positivas."
+      },
+      {
+        "question": "Considerando família, Dito e miopia, a melhor síntese do percurso de Miguilim é:",
+        "options": [
+          "uma trajetória estática, sem alteração de percepção.",
+          "um percurso de formação em que vínculos, conflitos, perdas e nova nitidez visual se articulam.",
+          "uma aventura policial centrada na descoberta de um crime.",
+          "uma narrativa cuja única transformação é geográfica."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Por meio das experiências, perdas e descobertas.”. No item II, a resposta correta é “Irmão de Miguilim.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A trajetória reúne dimensões afetivas, familiares e perceptivas.",
+        "tip": "Sínteses corretas integram os principais eixos sem reduzir a obra."
       }
     ]
   },
@@ -308,151 +308,151 @@ window.literaturaLessons={
     "title": "Campo Geral — linguagem, temas e questões PMMG",
     "subtitle": "Literatura • Aula 03 • Campo Geral",
     "time": "50 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — ANÁLISE</div><h3>Linguagem rosiana</h3><p>Guimarães Rosa explora oralidade, regionalismos, invenções vocabulares e grande força poética. A linguagem não é mero enfeite: ajuda a construir a experiência do sertão e a percepção das personagens.</p><h3>Temas recorrentes</h3><p>Infância, família, violência, natureza, morte, afeto, descoberta e passagem para uma nova etapa da vida aparecem de forma articulada.</p><div class=\"lesson-example\"><b>Como a banca pode cobrar:</b> relação entre narrador e perspectiva de Miguilim; função simbólica da visão; personagens; espaço; linguagem e amadurecimento.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em Literatura, responda pela obra — não pelo que “parece mais bonito”.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — linguagem, temas e questões PMMG</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>A linguagem de Guimarães Rosa</h3><p>Guimarães Rosa trabalha oralidade, regionalismos, criação de palavras, ritmo e imagens poéticas. Sua linguagem procura recriar uma experiência de mundo e não apenas registrar a fala regional.</p><p>Por isso, uma palavra incomum não deve ser tratada automaticamente como erro ou enfeite. Ela pode produzir atmosfera, aproximar o leitor da personagem ou criar novo modo de perceber uma situação.</p><h3>Temas centrais</h3><p>Infância, família, natureza, violência, morte, afeto, descoberta e amadurecimento se cruzam ao longo da obra. Esses temas não aparecem isoladamente; um acontecimento familiar, por exemplo, pode provocar mudança na percepção da natureza e de si mesmo.</p><p>Em questões, associe episódios e símbolos ao percurso de Miguilim.</p><h3>Como comparar alternativas</h3><p>Quando duas alternativas parecem possíveis, verifique qual descreve melhor a obra sem exagerar. Evite afirmações absolutas que transformem Campo Geral em simples denúncia social, simples história infantil ou descrição regional.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar marcas da linguagem rosiana</li><li>relacionar temas ao percurso de Miguilim</li><li>evitar interpretações reducionistas</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA 1 • CAMPO GERAL</span><h3>Campo Geral — análise literária e Miguilim</h3><p>Assista depois da leitura para reforçar narrador, perspectiva de Miguilim, linguagem, temas e amadurecimento.</p><iframe src=\"https://www.youtube.com/embed/SyKvDPog3mw\" title=\"Campo Geral — análise literária e Miguilim\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • REVISÃO</span><h3>Campo Geral — resumo e análise da obra</h3><p>Use como segunda aula para revisar os principais acontecimentos, personagens, símbolos e temas antes da prova.</p><iframe src=\"https://www.youtube.com/embed/mlrjGSi6iGs\" title=\"Campo Geral — resumo e análise da obra\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • CAMPO GERAL — ANÁLISE</div><h3>Linguagem rosiana</h3><p>Guimarães Rosa explora oralidade, regionalismos, invenções vocabulares e grande força poética. A linguagem não é mero enfeite: ajuda a construir a experiência do sertão e a percepção das personagens.</p><h3>Temas recorrentes</h3><p>Infância, família, violência, natureza, morte, afeto, descoberta e passagem para uma nova etapa da vida aparecem de forma articulada.</p><div class=\"lesson-example\"><b>Como a banca pode cobrar:</b> relação entre narrador e perspectiva de Miguilim; função simbólica da visão; personagens; espaço; linguagem e amadurecimento.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: em Literatura, responda pela obra — não pelo que “parece mais bonito”.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Campo Geral — linguagem, temas e questões PMMG</h3></div><h3>A linguagem de Guimarães Rosa</h3><p>Guimarães Rosa trabalha oralidade, regionalismos, criação de palavras, ritmo e imagens poéticas. Sua linguagem procura recriar uma experiência de mundo e não apenas registrar a fala regional.</p><p>Por isso, uma palavra incomum não deve ser tratada automaticamente como erro ou enfeite. Ela pode produzir atmosfera, aproximar o leitor da personagem ou criar novo modo de perceber uma situação.</p><h3>Temas centrais</h3><p>Infância, família, natureza, violência, morte, afeto, descoberta e amadurecimento se cruzam ao longo da obra. Esses temas não aparecem isoladamente; um acontecimento familiar, por exemplo, pode provocar mudança na percepção da natureza e de si mesmo.</p><p>Em questões, associe episódios e símbolos ao percurso de Miguilim.</p><h3>Como comparar alternativas</h3><p>Quando duas alternativas parecem possíveis, verifique qual descreve melhor a obra sem exagerar. Evite afirmações absolutas que transformem Campo Geral em simples denúncia social, simples história infantil ou descrição regional.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>identificar marcas da linguagem rosiana</li><li>relacionar temas ao percurso de Miguilim</li><li>evitar interpretações reducionistas</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA 1 • CAMPO GERAL</span><h3>Campo Geral — análise literária e Miguilim</h3><p>Assista depois da leitura para reforçar narrador, perspectiva de Miguilim, linguagem, temas e amadurecimento.</p><iframe src=\"https://www.youtube.com/embed/SyKvDPog3mw\" title=\"Campo Geral — análise literária e Miguilim\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • REVISÃO</span><h3>Campo Geral — resumo e análise da obra</h3><p>Use como segunda aula para revisar os principais acontecimentos, personagens, símbolos e temas antes da prova.</p><iframe src=\"https://www.youtube.com/embed/mlrjGSi6iGs\" title=\"Campo Geral — resumo e análise da obra\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A linguagem de Guimarães Rosa em Campo Geral pode ser associada a:\n\nII. A natureza na obra:",
+        "question": "A invenção vocabular de Guimarães Rosa em Campo Geral deve ser entendida como:",
         "options": [
-          "I — Regionalismo, oralidade e criação expressiva. | II — Integra a experiência das personagens.",
-          "I — Linguagem exclusivamente burocrática. | II — Integra a experiência das personagens.",
-          "I — Regionalismo, oralidade e criação expressiva. | II — É sempre cenário urbano.",
-          "I — Linguagem exclusivamente burocrática. | II — É sempre cenário urbano."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Regionalismo, oralidade e criação expressiva.”. No item II, a resposta correta é “Integra a experiência das personagens.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A natureza na obra:\n\nII. Entre os temas de Campo Geral está:",
-        "options": [
-          "I — É sempre cenário urbano. | II — Perda e amadurecimento.",
-          "I — Integra a experiência das personagens. | II — Colonização espacial.",
-          "I — É sempre cenário urbano. | II — Colonização espacial.",
-          "I — Integra a experiência das personagens. | II — Perda e amadurecimento."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Integra a experiência das personagens.”. No item II, a resposta correta é “Perda e amadurecimento.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A perspectiva infantil contribui para:\n\nII. A visão de Miguilim no final pode ser lida também como:",
-        "options": [
-          "I — Uma percepção sensível e particular do mundo adulto. | II — Mudança do narrador para primeira pessoa.",
-          "I — Criar narrador em primeira pessoa obrigatoriamente. | II — Mudança do narrador para primeira pessoa.",
-          "I — Uma percepção sensível e particular do mundo adulto. | II — Imagem ligada à descoberta de um mundo antes pouco nítido.",
-          "I — Criar narrador em primeira pessoa obrigatoriamente. | II — Imagem ligada à descoberta de um mundo antes pouco nítido."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Uma percepção sensível e particular do mundo adulto.”. No item II, a resposta correta é “Imagem ligada à descoberta de um mundo antes pouco nítido.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Entre os temas de Campo Geral está:\n\nII. A natureza na obra:",
-        "options": [
-          "I — Tecnologia digital. | II — É irrelevante.",
-          "I — Perda e amadurecimento. | II — Integra a experiência das personagens.",
-          "I — Tecnologia digital. | II — Integra a experiência das personagens.",
-          "I — Perda e amadurecimento. | II — É irrelevante."
+          "erro deliberado sem função estética.",
+          "recurso que recria modos de perceber, falar e experimentar o sertão.",
+          "tentativa de eliminar qualquer marca de oralidade.",
+          "imitação burocrática da norma administrativa."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Perda e amadurecimento.”. No item II, a resposta correta é “Integra a experiência das personagens.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A inovação linguística participa da construção estética e perceptiva da obra.",
+        "tip": "Forma e conteúdo podem atuar juntos."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Para responder questão sobre a obra, o mais seguro é:\n\nII. Entre os temas de Campo Geral está:",
+        "question": "Regionalismo, em Campo Geral, não significa simples reprodução documental da fala porque:",
         "options": [
-          "I — Relacionar alternativa a fatos e elementos efetivos da narrativa. | II — Perda e amadurecimento.",
-          "I — Escolher a alternativa mais longa. | II — Perda e amadurecimento.",
-          "I — Relacionar alternativa a fatos e elementos efetivos da narrativa. | II — Vida parlamentar.",
-          "I — Escolher a alternativa mais longa. | II — Vida parlamentar."
+          "a linguagem rosiana reelabora oralidade, ritmo e léxico de maneira artística.",
+          "a obra não apresenta qualquer marca regional.",
+          "o autor substitui todas as falas por linguagem técnica.",
+          "o sertão aparece somente no título."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Relacionar alternativa a fatos e elementos efetivos da narrativa.”. No item II, a resposta correta é “Perda e amadurecimento.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Rosa transforma materiais linguísticos regionais por meio de elaboração estética.",
+        "tip": "Regionalismo literário não é transcrição mecânica."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A visão de Miguilim no final pode ser lida também como:\n\nII. A linguagem de Guimarães Rosa em Campo Geral pode ser associada a:",
+        "question": "A força poética da linguagem rosiana contribui para:",
         "options": [
-          "I — Prova de que ele era cego. | II — Regionalismo, oralidade e criação expressiva.",
-          "I — Imagem ligada à descoberta de um mundo antes pouco nítido. | II — Ausência de marcas regionais.",
-          "I — Prova de que ele era cego. | II — Ausência de marcas regionais.",
-          "I — Imagem ligada à descoberta de um mundo antes pouco nítido. | II — Regionalismo, oralidade e criação expressiva."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Imagem ligada à descoberta de um mundo antes pouco nítido.”. No item II, a resposta correta é “Regionalismo, oralidade e criação expressiva.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A linguagem de Guimarães Rosa em Campo Geral pode ser associada a:\n\nII. A natureza na obra:",
-        "options": [
-          "I — Regionalismo, oralidade e criação expressiva. | II — É sempre cenário urbano.",
-          "I — Linguagem exclusivamente burocrática. | II — É sempre cenário urbano.",
-          "I — Regionalismo, oralidade e criação expressiva. | II — Integra a experiência das personagens.",
-          "I — Linguagem exclusivamente burocrática. | II — Integra a experiência das personagens."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Regionalismo, oralidade e criação expressiva.”. No item II, a resposta correta é “Integra a experiência das personagens.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A natureza na obra:\n\nII. Entre os temas de Campo Geral está:",
-        "options": [
-          "I — É sempre cenário urbano. | II — Colonização espacial.",
-          "I — Integra a experiência das personagens. | II — Perda e amadurecimento.",
-          "I — É sempre cenário urbano. | II — Perda e amadurecimento.",
-          "I — Integra a experiência das personagens. | II — Colonização espacial."
+          "tornar irrelevante a perspectiva infantil.",
+          "ampliar a dimensão sensorial e subjetiva da experiência narrada.",
+          "eliminar ambiguidades e metáforas.",
+          "reduzir a obra a relatório sociológico."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Integra a experiência das personagens.”. No item II, a resposta correta é “Perda e amadurecimento.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Ritmo, imagens e escolhas lexicais intensificam a experiência perceptiva do texto.",
+        "tip": "Observe o efeito produzido pela forma."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A perspectiva infantil contribui para:\n\nII. A visão de Miguilim no final pode ser lida também como:",
+        "question": "A relação entre natureza e estado emocional em Campo Geral permite afirmar que:",
         "options": [
-          "I — Uma percepção sensível e particular do mundo adulto. | II — Imagem ligada à descoberta de um mundo antes pouco nítido.",
-          "I — Criar narrador em primeira pessoa obrigatoriamente. | II — Imagem ligada à descoberta de um mundo antes pouco nítido.",
-          "I — Uma percepção sensível e particular do mundo adulto. | II — Mudança do narrador para primeira pessoa.",
-          "I — Criar narrador em primeira pessoa obrigatoriamente. | II — Mudança do narrador para primeira pessoa."
+          "a natureza funciona sempre de modo independente das personagens.",
+          "o espaço natural pode ganhar valor afetivo conforme a percepção de Miguilim.",
+          "todo elemento natural possui significado fixo e único.",
+          "a natureza substitui integralmente a ação narrativa."
+        ],
+        "answer": 1,
+        "explanation": "A focalização faz o ambiente ser percebido de maneira afetivamente carregada.",
+        "tip": "Símbolos literários dependem do contexto."
+      },
+      {
+        "question": "A miopia de Miguilim é especialmente produtiva para uma leitura simbólica porque:",
+        "options": [
+          "articula dificuldade concreta de visão e processo mais amplo de descoberta.",
+          "prova que toda a narrativa é sonho.",
+          "elimina a importância das relações familiares.",
+          "representa apenas deficiência física, sem diálogo temático."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Uma percepção sensível e particular do mundo adulto.”. No item II, a resposta correta é “Imagem ligada à descoberta de um mundo antes pouco nítido.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A condição visual dialoga com o tema do olhar e com a transformação do protagonista.",
+        "tip": "Uma boa leitura simbólica não apaga o sentido literal."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Entre os temas de Campo Geral está:\n\nII. A natureza na obra:",
+        "question": "Ao analisar a linguagem de Campo Geral, uma alternativa que chama os neologismos de 'desvios que deveriam ser corrigidos' é inadequada porque:",
         "options": [
-          "I — Tecnologia digital. | II — Integra a experiência das personagens.",
-          "I — Perda e amadurecimento. | II — É irrelevante.",
-          "I — Tecnologia digital. | II — É irrelevante.",
-          "I — Perda e amadurecimento. | II — Integra a experiência das personagens."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Perda e amadurecimento.”. No item II, a resposta correta é “Integra a experiência das personagens.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Para responder questão sobre a obra, o mais seguro é:\n\nII. Entre os temas de Campo Geral está:",
-        "options": [
-          "I — Relacionar alternativa a fatos e elementos efetivos da narrativa. | II — Vida parlamentar.",
-          "I — Escolher a alternativa mais longa. | II — Vida parlamentar.",
-          "I — Relacionar alternativa a fatos e elementos efetivos da narrativa. | II — Perda e amadurecimento.",
-          "I — Escolher a alternativa mais longa. | II — Perda e amadurecimento."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Relacionar alternativa a fatos e elementos efetivos da narrativa.”. No item II, a resposta correta é “Perda e amadurecimento.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A visão de Miguilim no final pode ser lida também como:\n\nII. A linguagem de Guimarães Rosa em Campo Geral pode ser associada a:",
-        "options": [
-          "I — Prova de que ele era cego. | II — Ausência de marcas regionais.",
-          "I — Imagem ligada à descoberta de um mundo antes pouco nítido. | II — Regionalismo, oralidade e criação expressiva.",
-          "I — Prova de que ele era cego. | II — Regionalismo, oralidade e criação expressiva.",
-          "I — Imagem ligada à descoberta de um mundo antes pouco nítido. | II — Ausência de marcas regionais."
+          "literatura não utiliza palavras.",
+          "a criação lexical integra o projeto expressivo do autor.",
+          "todo neologismo já pertence à norma-padrão.",
+          "Guimarães Rosa escreve exclusivamente em linguagem científica."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Imagem ligada à descoberta de um mundo antes pouco nítido.”. No item II, a resposta correta é “Regionalismo, oralidade e criação expressiva.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Na obra, invenções lexicais são recursos estéticos, não simples falhas normativas.",
+        "tip": "Não aplique critérios de redação burocrática à linguagem literária."
+      },
+      {
+        "question": "O tema da morte em Campo Geral relaciona-se ao amadurecimento porque:",
+        "options": [
+          "as perdas obrigam Miguilim a confrontar dimensões dolorosas da existência.",
+          "a morte aparece apenas como dado estatístico.",
+          "o tema não afeta o protagonista.",
+          "a obra trata a morte exclusivamente de forma cômica."
+        ],
+        "answer": 0,
+        "explanation": "As perdas têm impacto afetivo e formativo na trajetória de Miguilim.",
+        "tip": "Tema é relevante quando altera relações e percepção."
+      },
+      {
+        "question": "Qual leitura melhor articula oralidade e perspectiva?",
+        "options": [
+          "A oralidade serve apenas para localizar geograficamente a história.",
+          "Marcas de oralidade também ajudam a construir vozes, ritmos e modos de perceber o mundo.",
+          "A oralidade impede qualquer elaboração poética.",
+          "A perspectiva infantil exige ausência de regionalismos."
+        ],
+        "answer": 1,
+        "explanation": "A oralidade cumpre funções estilísticas e de caracterização que vão além da localização espacial.",
+        "tip": "Pergunte que efeito a escolha linguística produz."
+      },
+      {
+        "question": "Em uma questão interpretativa sobre Campo Geral, qual procedimento é mais rigoroso?",
+        "options": [
+          "Escolher a alternativa mais emotiva.",
+          "Preferir sempre afirmações absolutas.",
+          "Relacionar a interpretação a episódios, relações e procedimentos narrativos efetivos.",
+          "Ignorar a focalização e considerar apenas a biografia do autor."
+        ],
+        "answer": 2,
+        "explanation": "Interpretação literária precisa ser sustentada por elementos da obra.",
+        "tip": "Interpretação não é opinião sem evidência."
+      },
+      {
+        "question": "A linguagem rosiana e a visão infantil de Miguilim aproximam-se porque ambas:",
+        "options": [
+          "favorecem uma percepção não automática do cotidiano e do sertão.",
+          "eliminam a subjetividade.",
+          "transformam a novela em documento jurídico.",
+          "produzem um narrador totalmente neutro."
+        ],
+        "answer": 0,
+        "explanation": "A elaboração linguística e a focalização infantil renovam a percepção do mundo narrado.",
+        "tip": "Procure relações entre técnica e tema."
+      },
+      {
+        "question": "Afirmar que Campo Geral é 'somente denúncia social' é redutor porque:",
+        "options": [
+          "não existem conflitos sociais na obra.",
+          "a narrativa articula também infância, afetos, linguagem, natureza, violência e formação.",
+          "a obra é exclusivamente fantástica.",
+          "Miguilim não participa da narrativa."
+        ],
+        "answer": 1,
+        "explanation": "A obra comporta dimensões sociais, mas não se esgota nelas.",
+        "tip": "Uma dimensão importante não precisa ser a única."
+      },
+      {
+        "question": "A melhor síntese da estética de Campo Geral é:",
+        "options": [
+          "linguagem funcional, sem imagens, centrada em informação objetiva.",
+          "regionalismo puramente documental.",
+          "elaboração poética da linguagem articulada à experiência sensível e formativa de Miguilim.",
+          "narração policial com vocabulário técnico."
+        ],
+        "answer": 2,
+        "explanation": "A linguagem inventiva participa diretamente da construção da experiência do protagonista.",
+        "tip": "Síntese boa integra forma, perspectiva e tema."
       }
     ]
   },
@@ -460,151 +460,151 @@ window.literaturaLessons={
     "title": "Vidas Secas — estrutura, narrador e retirantes",
     "subtitle": "Literatura • Aula 04 • Vidas Secas",
     "time": "50 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • VIDAS SECAS — GRACILIANO RAMOS</div><h3>A família de retirantes</h3><p><b>Vidas Secas</b> acompanha Fabiano, Sinhá Vitória, os dois meninos e a cachorra Baleia em sua luta pela sobrevivência no sertão nordestino.</p><h3>Narrador e estrutura</h3><p>O narrador é em terceira pessoa e penetra a interioridade das personagens. Os capítulos têm relativa autonomia, formando uma estrutura que reforça o movimento cíclico da retirada e da sobrevivência.</p><h3>Seca e desigualdade</h3><p>A seca é fundamental, mas a obra não reduz o sofrimento à natureza: exploração econômica, abuso de poder, pobreza e dificuldade de comunicação também pesam sobre as personagens.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: Vidas Secas = <b>seca + pobreza + opressão + linguagem econômica + ciclo de retirada</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — estrutura, narrador e retirantes</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>A família em movimento</h3><p>Vidas Secas, de Graciliano Ramos, acompanha Fabiano, Sinhá Vitória, os dois filhos e a cachorra Baleia. A família vive sob pressão da seca, da pobreza e de relações sociais marcadas por desigualdade.</p><p>O deslocamento em busca de sobrevivência cria sensação de ciclo: partir, tentar se estabelecer e voltar a enfrentar a ameaça da retirada.</p><h3>Estrutura e foco narrativo</h3><p>Os capítulos possuem relativa autonomia e focalizam diferentes personagens. O narrador está em terceira pessoa, mas aproxima-se da interioridade de Fabiano, Sinhá Vitória, meninos e Baleia.</p><p>Essa técnica permite mostrar pensamentos e sensações de personagens que muitas vezes têm dificuldade de expressá-los verbalmente.</p><h3>Mais que uma história sobre clima</h3><p>A seca é fundamental, mas não explica sozinha o sofrimento. Exploração econômica, abuso de autoridade, falta de acesso a conhecimento e limitação da linguagem também produzem opressão.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>nomear os membros da família</li><li>explicar a estrutura cíclica</li><li>mostrar por que a seca não é a única causa do sofrimento</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PMMG</span><h3>Vidas Secas — Literatura para Soldado PMMG</h3><p>Aula específica para o concurso da PMMG.</p><iframe src=\"https://www.youtube.com/embed/4KclON0xfkU\" title=\"Vidas Secas PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • VIDAS SECAS — GRACILIANO RAMOS</div><h3>A família de retirantes</h3><p><b>Vidas Secas</b> acompanha Fabiano, Sinhá Vitória, os dois meninos e a cachorra Baleia em sua luta pela sobrevivência no sertão nordestino.</p><h3>Narrador e estrutura</h3><p>O narrador é em terceira pessoa e penetra a interioridade das personagens. Os capítulos têm relativa autonomia, formando uma estrutura que reforça o movimento cíclico da retirada e da sobrevivência.</p><h3>Seca e desigualdade</h3><p>A seca é fundamental, mas a obra não reduz o sofrimento à natureza: exploração econômica, abuso de poder, pobreza e dificuldade de comunicação também pesam sobre as personagens.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: Vidas Secas = <b>seca + pobreza + opressão + linguagem econômica + ciclo de retirada</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — estrutura, narrador e retirantes</h3></div><h3>A família em movimento</h3><p>Vidas Secas, de Graciliano Ramos, acompanha Fabiano, Sinhá Vitória, os dois filhos e a cachorra Baleia. A família vive sob pressão da seca, da pobreza e de relações sociais marcadas por desigualdade.</p><p>O deslocamento em busca de sobrevivência cria sensação de ciclo: partir, tentar se estabelecer e voltar a enfrentar a ameaça da retirada.</p><h3>Estrutura e foco narrativo</h3><p>Os capítulos possuem relativa autonomia e focalizam diferentes personagens. O narrador está em terceira pessoa, mas aproxima-se da interioridade de Fabiano, Sinhá Vitória, meninos e Baleia.</p><p>Essa técnica permite mostrar pensamentos e sensações de personagens que muitas vezes têm dificuldade de expressá-los verbalmente.</p><h3>Mais que uma história sobre clima</h3><p>A seca é fundamental, mas não explica sozinha o sofrimento. Exploração econômica, abuso de autoridade, falta de acesso a conhecimento e limitação da linguagem também produzem opressão.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>nomear os membros da família</li><li>explicar a estrutura cíclica</li><li>mostrar por que a seca não é a única causa do sofrimento</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • PMMG</span><h3>Vidas Secas — Literatura para Soldado PMMG</h3><p>Aula específica para o concurso da PMMG.</p><iframe src=\"https://www.youtube.com/embed/4KclON0xfkU\" title=\"Vidas Secas PMMG\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • APROFUNDAMENTO</span><h3>Vidas Secas — resumo e análise aprofundada</h3><p>Segunda videoaula para consolidar enredo, personagens, estrutura e interpretação da obra.</p><iframe src=\"https://www.youtube.com/embed/sqgEY_YaQSw\" title=\"Vidas Secas — resumo e análise aprofundada\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A família central de Vidas Secas inclui:\n\nII. O espaço predominante é:",
+        "question": "A estrutura relativamente autônoma dos capítulos de Vidas Secas contribui para:",
         "options": [
-          "I — Fabiano, Sinhá Vitória, dois meninos e Baleia. | II — O sertão nordestino.",
-          "I — Macabéa e Olímpico apenas. | II — O sertão nordestino.",
-          "I — Fabiano, Sinhá Vitória, dois meninos e Baleia. | II — A corte do Rio de Janeiro.",
-          "I — Macabéa e Olímpico apenas. | II — A corte do Rio de Janeiro."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Fabiano, Sinhá Vitória, dois meninos e Baleia.”. No item II, a resposta correta é “O sertão nordestino.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O espaço predominante é:\n\nII. A seca na obra:",
-        "options": [
-          "I — A corte do Rio de Janeiro. | II — Relaciona-se também a problemas sociais e econômicos.",
-          "I — O sertão nordestino. | II — É apenas metáfora sem efeito concreto.",
-          "I — A corte do Rio de Janeiro. | II — É apenas metáfora sem efeito concreto.",
-          "I — O sertão nordestino. | II — Relaciona-se também a problemas sociais e econômicos."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “O sertão nordestino.”. No item II, a resposta correta é “Relaciona-se também a problemas sociais e econômicos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O narrador é:\n\nII. Vidas Secas é obra de:",
-        "options": [
-          "I — Em terceira pessoa, com acesso à interioridade das personagens. | II — Carlos Drummond.",
-          "I — Baleia em primeira pessoa. | II — Carlos Drummond.",
-          "I — Em terceira pessoa, com acesso à interioridade das personagens. | II — Graciliano Ramos.",
-          "I — Baleia em primeira pessoa. | II — Graciliano Ramos."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Em terceira pessoa, com acesso à interioridade das personagens.”. No item II, a resposta correta é “Graciliano Ramos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A seca na obra:\n\nII. O espaço predominante é:",
-        "options": [
-          "I — É a única adversidade existente. | II — Uma capital europeia.",
-          "I — Relaciona-se também a problemas sociais e econômicos. | II — O sertão nordestino.",
-          "I — É a única adversidade existente. | II — O sertão nordestino.",
-          "I — Relaciona-se também a problemas sociais e econômicos. | II — Uma capital europeia."
+          "apagar qualquer unidade temática.",
+          "permitir focos distintos e, ao mesmo tempo, reforçar a condição cíclica da família.",
+          "transformar o romance em coletânea sem personagens recorrentes.",
+          "estabelecer uma cronologia urbana rígida."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Relaciona-se também a problemas sociais e econômicos.”. No item II, a resposta correta é “O sertão nordestino.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Os capítulos podem focalizar personagens diferentes, mas permanecem unidos pelo universo familiar e pelo ciclo de sobrevivência.",
+        "tip": "Autonomia de capítulos não significa ausência de unidade."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A estrutura da obra é frequentemente percebida como:\n\nII. A seca na obra:",
+        "question": "O caráter cíclico de Vidas Secas aparece sobretudo na relação entre:",
         "options": [
-          "I — Cíclica, com capítulos de relativa autonomia. | II — Relaciona-se também a problemas sociais e econômicos.",
-          "I — Uma sequência policial linear. | II — Relaciona-se também a problemas sociais e econômicos.",
-          "I — Cíclica, com capítulos de relativa autonomia. | II — Não interfere na narrativa.",
-          "I — Uma sequência policial linear. | II — Não interfere na narrativa."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Cíclica, com capítulos de relativa autonomia.”. No item II, a resposta correta é “Relaciona-se também a problemas sociais e econômicos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Vidas Secas é obra de:\n\nII. A família central de Vidas Secas inclui:",
-        "options": [
-          "I — Clarice Lispector. | II — Fabiano, Sinhá Vitória, dois meninos e Baleia.",
-          "I — Graciliano Ramos. | II — Bentinho e Capitu.",
-          "I — Clarice Lispector. | II — Bentinho e Capitu.",
-          "I — Graciliano Ramos. | II — Fabiano, Sinhá Vitória, dois meninos e Baleia."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Graciliano Ramos.”. No item II, a resposta correta é “Fabiano, Sinhá Vitória, dois meninos e Baleia.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A família central de Vidas Secas inclui:\n\nII. O espaço predominante é:",
-        "options": [
-          "I — Fabiano, Sinhá Vitória, dois meninos e Baleia. | II — A corte do Rio de Janeiro.",
-          "I — Macabéa e Olímpico apenas. | II — A corte do Rio de Janeiro.",
-          "I — Fabiano, Sinhá Vitória, dois meninos e Baleia. | II — O sertão nordestino.",
-          "I — Macabéa e Olímpico apenas. | II — O sertão nordestino."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Fabiano, Sinhá Vitória, dois meninos e Baleia.”. No item II, a resposta correta é “O sertão nordestino.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O espaço predominante é:\n\nII. A seca na obra:",
-        "options": [
-          "I — A corte do Rio de Janeiro. | II — É apenas metáfora sem efeito concreto.",
-          "I — O sertão nordestino. | II — Relaciona-se também a problemas sociais e econômicos.",
-          "I — A corte do Rio de Janeiro. | II — Relaciona-se também a problemas sociais e econômicos.",
-          "I — O sertão nordestino. | II — É apenas metáfora sem efeito concreto."
+          "prosperidade permanente e ascensão social.",
+          "chegada, tentativa de permanência e nova retirada diante da ameaça da seca.",
+          "infância escolar e universidade.",
+          "cidade, indústria e retorno ao litoral."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “O sertão nordestino.”. No item II, a resposta correta é “Relaciona-se também a problemas sociais e econômicos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O movimento da família sugere repetição das condições de precariedade e deslocamento.",
+        "tip": "Observe início e fim da trajetória."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O narrador é:\n\nII. Vidas Secas é obra de:",
+        "question": "Reduzir o sofrimento da família exclusivamente à seca é inadequado porque:",
         "options": [
-          "I — Em terceira pessoa, com acesso à interioridade das personagens. | II — Graciliano Ramos.",
-          "I — Baleia em primeira pessoa. | II — Graciliano Ramos.",
-          "I — Em terceira pessoa, com acesso à interioridade das personagens. | II — Carlos Drummond.",
-          "I — Baleia em primeira pessoa. | II — Carlos Drummond."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Em terceira pessoa, com acesso à interioridade das personagens.”. No item II, a resposta correta é “Graciliano Ramos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A seca na obra:\n\nII. O espaço predominante é:",
-        "options": [
-          "I — É a única adversidade existente. | II — O sertão nordestino.",
-          "I — Relaciona-se também a problemas sociais e econômicos. | II — Uma capital europeia.",
-          "I — É a única adversidade existente. | II — Uma capital europeia.",
-          "I — Relaciona-se também a problemas sociais e econômicos. | II — O sertão nordestino."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Relaciona-se também a problemas sociais e econômicos.”. No item II, a resposta correta é “O sertão nordestino.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A estrutura da obra é frequentemente percebida como:\n\nII. A seca na obra:",
-        "options": [
-          "I — Cíclica, com capítulos de relativa autonomia. | II — Não interfere na narrativa.",
-          "I — Uma sequência policial linear. | II — Não interfere na narrativa.",
-          "I — Cíclica, com capítulos de relativa autonomia. | II — Relaciona-se também a problemas sociais e econômicos.",
-          "I — Uma sequência policial linear. | II — Relaciona-se também a problemas sociais e econômicos."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Cíclica, com capítulos de relativa autonomia.”. No item II, a resposta correta é “Relaciona-se também a problemas sociais e econômicos.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Vidas Secas é obra de:\n\nII. A família central de Vidas Secas inclui:",
-        "options": [
-          "I — Clarice Lispector. | II — Bentinho e Capitu.",
-          "I — Graciliano Ramos. | II — Fabiano, Sinhá Vitória, dois meninos e Baleia.",
-          "I — Clarice Lispector. | II — Fabiano, Sinhá Vitória, dois meninos e Baleia.",
-          "I — Graciliano Ramos. | II — Bentinho e Capitu."
+          "a seca não aparece na obra.",
+          "a narrativa também evidencia exploração econômica, abuso de autoridade e exclusão.",
+          "a família vive em uma capital.",
+          "Fabiano é proprietário rico."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Graciliano Ramos.”. No item II, a resposta correta é “Fabiano, Sinhá Vitória, dois meninos e Baleia.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A natureza hostil se articula a estruturas sociais de opressão.",
+        "tip": "Questões fortes costumam exigir causa múltipla."
+      },
+      {
+        "question": "O narrador em terceira pessoa de Vidas Secas pode aproximar-se da interioridade das personagens, o que permite:",
+        "options": [
+          "mostrar pensamentos e sensações que elas nem sempre conseguem verbalizar plenamente.",
+          "transformar todas as personagens em narradores autobiográficos.",
+          "eliminar a importância da linguagem.",
+          "substituir a ação por documentos oficiais."
+        ],
+        "answer": 0,
+        "explanation": "A focalização interna aproxima o leitor de personagens marcadas por dificuldade de expressão.",
+        "tip": "Narrador e capacidade verbal da personagem são coisas diferentes."
+      },
+      {
+        "question": "A economia estilística de Graciliano Ramos dialoga com o universo do romance porque:",
+        "options": [
+          "a concisão pode reforçar a dureza, a escassez e a contenção que marcam a vida narrada.",
+          "o autor pretende esconder a existência da seca.",
+          "a linguagem enxuta elimina qualquer interioridade.",
+          "o estilo imita exclusivamente discursos jurídicos."
+        ],
+        "answer": 0,
+        "explanation": "A contenção verbal pode produzir correspondência estética com um mundo de carências.",
+        "tip": "Forma literária pode reforçar tema."
+      },
+      {
+        "question": "A família de retirantes é apresentada como:",
+        "options": [
+          "grupo sem vínculos afetivos.",
+          "núcleo que enfrenta simultaneamente adversidades naturais e sociais.",
+          "família urbana em busca de lazer.",
+          "conjunto de personagens independentes que nunca se encontram."
+        ],
+        "answer": 1,
+        "explanation": "A sobrevivência familiar articula seca, pobreza, trabalho, autoridade e desejo.",
+        "tip": "Evite separar artificialmente natureza e sociedade."
+      },
+      {
+        "question": "A relativa autonomia dos capítulos favorece a focalização de Baleia porque:",
+        "options": [
+          "permite que até a cachorra receba atenção narrativa e interioridade própria.",
+          "proíbe qualquer mudança de foco.",
+          "faz Baleia narrar o romance inteiro em primeira pessoa.",
+          "elimina Fabiano da obra."
+        ],
+        "answer": 0,
+        "explanation": "A estrutura abre espaço para diferentes centros de consciência, inclusive Baleia.",
+        "tip": "Estrutura e focalização estão relacionadas."
+      },
+      {
+        "question": "O sertão em Vidas Secas deve ser lido como:",
+        "options": [
+          "cenário neutro e decorativo.",
+          "espaço material de sobrevivência articulado a relações sociais de desigualdade.",
+          "metrópole industrial disfarçada.",
+          "símbolo que elimina qualquer realidade concreta."
+        ],
+        "answer": 1,
+        "explanation": "O espaço tem dimensão concreta e se articula a condições econômicas e sociais.",
+        "tip": "Não transforme símbolo em negação do real."
+      },
+      {
+        "question": "A dificuldade de comunicação das personagens participa do tema da opressão porque:",
+        "options": [
+          "limita possibilidades de compreensão, defesa e participação diante de relações de poder.",
+          "prova que não possuem pensamentos.",
+          "é apresentada apenas como defeito cômico.",
+          "não possui consequência social."
+        ],
+        "answer": 0,
+        "explanation": "A linguagem insuficiente é também uma forma de vulnerabilidade social.",
+        "tip": "Em Vidas Secas, palavra e poder se relacionam."
+      },
+      {
+        "question": "O movimento de retirada pode ser interpretado como:",
+        "options": [
+          "escolha turística da família.",
+          "sinal de mobilidade social ascendente.",
+          "resposta forçada a condições precárias que tendem a se repetir.",
+          "evento isolado sem relação com a estrutura."
+        ],
+        "answer": 2,
+        "explanation": "A retirada decorre da luta pela sobrevivência e reforça o ciclo de precariedade.",
+        "tip": "A estrutura cíclica tem dimensão social."
+      },
+      {
+        "question": "Qual alternativa melhor caracteriza o realismo crítico de Vidas Secas?",
+        "options": [
+          "A obra atribui todo sofrimento ao destino individual de Fabiano.",
+          "A narrativa articula experiência concreta da seca a mecanismos sociais de exploração e autoridade.",
+          "O romance evita qualquer questão econômica.",
+          "A pobreza é tratada como escolha voluntária."
+        ],
+        "answer": 1,
+        "explanation": "A obra mostra adversidades naturais e sociais interdependentes.",
+        "tip": "Cuidado com explicações individualizantes."
+      },
+      {
+        "question": "A unidade de Vidas Secas, apesar dos capítulos relativamente autônomos, decorre principalmente:",
+        "options": [
+          "da repetição literal do mesmo capítulo.",
+          "da continuidade das personagens, dos conflitos e do ciclo de sobrevivência.",
+          "da presença de um único cenário urbano.",
+          "de um narrador-personagem chamado Baleia."
+        ],
+        "answer": 1,
+        "explanation": "A coesão do romance nasce do universo comum e da trajetória cíclica da família.",
+        "tip": "Autonomia estrutural pode coexistir com forte unidade temática."
       }
     ]
   },
@@ -612,151 +612,151 @@ window.literaturaLessons={
     "title": "Vidas Secas — personagens, linguagem e opressão",
     "subtitle": "Literatura • Aula 05 • Vidas Secas",
     "time": "55 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • VIDAS SECAS — PERSONAGENS</div><h3>Fabiano e a dificuldade de expressão</h3><p>Fabiano vive entre a submissão e a revolta. Sua limitação verbal aparece ligada à exclusão social e à dificuldade de defender-se diante das instituições e de quem exerce poder.</p><h3>Sinhá Vitória</h3><p>É prática, resistente e alimenta o desejo de melhorar a vida da família. O sonho de possuir uma cama de couro aparece como símbolo de uma existência mais digna e estável.</p><h3>Baleia</h3><p>A cachorra recebe tratamento humanizado e possui um dos capítulos mais conhecidos da obra. A interioridade atribuída a Baleia contrasta com processos de desumanização vividos pelas pessoas.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: observe o contraste entre <b>humanização de Baleia</b> e <b>desumanização social dos retirantes</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — personagens, linguagem e opressão</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Fabiano</h3><p>Fabiano é resistente e hábil na sobrevivência do sertão, mas sente-se inferior diante de pessoas que dominam a linguagem e as instituições. Em vários momentos, sua dificuldade de expressão o impede de compreender plenamente situações ou defender seus direitos.</p><p>O episódio envolvendo o Soldado Amarelo evidencia abuso de autoridade e submissão.</p><h3>Sinhá Vitória e o desejo de estabilidade</h3><p>Sinhá Vitória apresenta capacidade prática e desejo de melhorar a vida. A cama de couro funciona como símbolo de conforto, estabilidade e dignidade — algo aparentemente simples, mas distante da realidade da família.</p><h3>Baleia e a humanização</h3><p>Baleia recebe tratamento narrativo com interioridade, desejos e sensações. Esse processo de humanização do animal contrasta com a desumanização social das pessoas, frequentemente reduzidas pela miséria e pela opressão.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>relacionar linguagem e exclusão em Fabiano</li><li>interpretar a cama de couro</li><li>explicar o contraste envolvendo Baleia</li></ul></div></section><div class=\"video-lesson\"><span>🎥 REVISÃO RÁPIDA • PMMG</span><h3>Vidas Secas em 5 minutos — PMMG</h3><p>Resumo rápido para reforçar personagens e temas.</p><iframe src=\"https://www.youtube.com/embed/jeoWc-rAm_4\" title=\"Vidas Secas resumo PMMG\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • VIDAS SECAS — PERSONAGENS</div><h3>Fabiano e a dificuldade de expressão</h3><p>Fabiano vive entre a submissão e a revolta. Sua limitação verbal aparece ligada à exclusão social e à dificuldade de defender-se diante das instituições e de quem exerce poder.</p><h3>Sinhá Vitória</h3><p>É prática, resistente e alimenta o desejo de melhorar a vida da família. O sonho de possuir uma cama de couro aparece como símbolo de uma existência mais digna e estável.</p><h3>Baleia</h3><p>A cachorra recebe tratamento humanizado e possui um dos capítulos mais conhecidos da obra. A interioridade atribuída a Baleia contrasta com processos de desumanização vividos pelas pessoas.</p><div class=\"gold-rule\">🎯 REGRA DE OURO: observe o contraste entre <b>humanização de Baleia</b> e <b>desumanização social dos retirantes</b>.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — personagens, linguagem e opressão</h3></div><h3>Fabiano</h3><p>Fabiano é resistente e hábil na sobrevivência do sertão, mas sente-se inferior diante de pessoas que dominam a linguagem e as instituições. Em vários momentos, sua dificuldade de expressão o impede de compreender plenamente situações ou defender seus direitos.</p><p>O episódio envolvendo o Soldado Amarelo evidencia abuso de autoridade e submissão.</p><h3>Sinhá Vitória e o desejo de estabilidade</h3><p>Sinhá Vitória apresenta capacidade prática e desejo de melhorar a vida. A cama de couro funciona como símbolo de conforto, estabilidade e dignidade — algo aparentemente simples, mas distante da realidade da família.</p><h3>Baleia e a humanização</h3><p>Baleia recebe tratamento narrativo com interioridade, desejos e sensações. Esse processo de humanização do animal contrasta com a desumanização social das pessoas, frequentemente reduzidas pela miséria e pela opressão.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>relacionar linguagem e exclusão em Fabiano</li><li>interpretar a cama de couro</li><li>explicar o contraste envolvendo Baleia</li></ul></div></section><div class=\"video-lesson\"><span>🎥 REVISÃO RÁPIDA • PMMG</span><h3>Vidas Secas em 5 minutos — PMMG</h3><p>Resumo rápido para reforçar personagens e temas.</p><iframe src=\"https://www.youtube.com/embed/jeoWc-rAm_4\" title=\"Vidas Secas resumo PMMG\" allowfullscreen loading=\"lazy\"></iframe></div><div class=\"video-lesson\"><span>🎥 VIDEOAULA 2 • APROFUNDAMENTO</span><h3>Vidas Secas — análise literária</h3><p>Aula complementar para aprofundar personagens, linguagem, relações de poder e construção literária.</p><iframe src=\"https://www.youtube.com/embed/iDLUv-IHEk8\" title=\"Vidas Secas — análise literária\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O sonho recorrente de Sinhá Vitória envolve:\n\nII. Baleia é:",
+        "question": "A dificuldade verbal de Fabiano adquire dimensão social porque:",
         "options": [
-          "I — Uma cama de couro. | II — A cachorra da família.",
-          "I — Uma viagem à Europa. | II — A cachorra da família.",
-          "I — Uma cama de couro. | II — A mãe de Fabiano.",
-          "I — Uma viagem à Europa. | II — A mãe de Fabiano."
-        ],
-        "answer": 0,
-        "explanation": "No item I, a resposta correta é “Uma cama de couro.”. No item II, a resposta correta é “A cachorra da família.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Baleia é:\n\nII. O tratamento dado a Baleia pode ser entendido como:",
-        "options": [
-          "I — A mãe de Fabiano. | II — Humanização do animal.",
-          "I — A cachorra da família. | II — Ausência de afeto.",
-          "I — A mãe de Fabiano. | II — Ausência de afeto.",
-          "I — A cachorra da família. | II — Humanização do animal."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “A cachorra da família.”. No item II, a resposta correta é “Humanização do animal.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A dificuldade de linguagem de Fabiano se relaciona:\n\nII. A opressão em Vidas Secas:",
-        "options": [
-          "I — À exclusão e à dificuldade de se defender socialmente. | II — É somente familiar.",
-          "I — À formação universitária. | II — É somente familiar.",
-          "I — À exclusão e à dificuldade de se defender socialmente. | II — Vai além da seca e inclui relações sociais de poder.",
-          "I — À formação universitária. | II — Vai além da seca e inclui relações sociais de poder."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “À exclusão e à dificuldade de se defender socialmente.”. No item II, a resposta correta é “Vai além da seca e inclui relações sociais de poder.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O tratamento dado a Baleia pode ser entendido como:\n\nII. Baleia é:",
-        "options": [
-          "I — Eliminação de qualquer interioridade. | II — Uma cidade.",
-          "I — Humanização do animal. | II — A cachorra da família.",
-          "I — Eliminação de qualquer interioridade. | II — A cachorra da família.",
-          "I — Humanização do animal. | II — Uma cidade."
+          "é apenas característica psicológica sem consequência.",
+          "dificulta sua compreensão e defesa diante de pessoas e instituições que dominam a linguagem.",
+          "faz dele um escritor frustrado.",
+          "garante vantagem nas relações de poder."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Humanização do animal.”. No item II, a resposta correta é “A cachorra da família.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A limitação de expressão aumenta a vulnerabilidade de Fabiano em relações sociais assimétricas.",
+        "tip": "Em Vidas Secas, linguagem também é poder."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Sinhá Vitória é caracterizada também por:\n\nII. O tratamento dado a Baleia pode ser entendido como:",
+        "question": "O episódio do Soldado Amarelo evidencia principalmente:",
         "options": [
-          "I — Resistência e desejo de melhorar a vida. | II — Humanização do animal.",
-          "I — Viver fora do sertão. | II — Humanização do animal.",
-          "I — Resistência e desejo de melhorar a vida. | II — Descrição científica.",
-          "I — Viver fora do sertão. | II — Descrição científica."
+          "abuso de autoridade e vulnerabilidade de Fabiano.",
+          "ascensão profissional de Fabiano.",
+          "harmonia entre indivíduo e Estado.",
+          "superioridade econômica da família."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Resistência e desejo de melhorar a vida.”. No item II, a resposta correta é “Humanização do animal.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O episódio explicita uma relação desigual de poder em que Fabiano encontra dificuldade de reação.",
+        "tip": "Relacione personagem, instituição e poder."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A opressão em Vidas Secas:\n\nII. O sonho recorrente de Sinhá Vitória envolve:",
+        "question": "A cama de couro desejada por Sinhá Vitória funciona como símbolo de:",
         "options": [
-          "I — É exclusivamente religiosa. | II — Uma cama de couro.",
-          "I — Vai além da seca e inclui relações sociais de poder. | II — Um automóvel.",
-          "I — É exclusivamente religiosa. | II — Um automóvel.",
-          "I — Vai além da seca e inclui relações sociais de poder. | II — Uma cama de couro."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Vai além da seca e inclui relações sociais de poder.”. No item II, a resposta correta é “Uma cama de couro.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O sonho recorrente de Sinhá Vitória envolve:\n\nII. Baleia é:",
-        "options": [
-          "I — Uma cama de couro. | II — A mãe de Fabiano.",
-          "I — Uma viagem à Europa. | II — A mãe de Fabiano.",
-          "I — Uma cama de couro. | II — A cachorra da família.",
-          "I — Uma viagem à Europa. | II — A cachorra da família."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Uma cama de couro.”. No item II, a resposta correta é “A cachorra da família.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Baleia é:\n\nII. O tratamento dado a Baleia pode ser entendido como:",
-        "options": [
-          "I — A mãe de Fabiano. | II — Ausência de afeto.",
-          "I — A cachorra da família. | II — Humanização do animal.",
-          "I — A mãe de Fabiano. | II — Humanização do animal.",
-          "I — A cachorra da família. | II — Ausência de afeto."
+          "luxo aristocrático ilimitado.",
+          "conforto, estabilidade e dignidade dentro de uma vida marcada pela precariedade.",
+          "rejeição da família.",
+          "desejo de abandonar qualquer vida doméstica."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “A cachorra da família.”. No item II, a resposta correta é “Humanização do animal.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O objeto simples concentra um projeto de vida mais estável e digna.",
+        "tip": "Símbolos podem nascer de desejos materiais modestos."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A dificuldade de linguagem de Fabiano se relaciona:\n\nII. A opressão em Vidas Secas:",
+        "question": "A humanização de Baleia é construída porque o narrador:",
         "options": [
-          "I — À exclusão e à dificuldade de se defender socialmente. | II — Vai além da seca e inclui relações sociais de poder.",
-          "I — À formação universitária. | II — Vai além da seca e inclui relações sociais de poder.",
-          "I — À exclusão e à dificuldade de se defender socialmente. | II — É somente familiar.",
-          "I — À formação universitária. | II — É somente familiar."
+          "atribui ao animal sensações, desejos e uma interioridade elaborada.",
+          "a transforma literalmente em pessoa.",
+          "retira dela qualquer percepção.",
+          "a utiliza apenas como elemento decorativo."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “À exclusão e à dificuldade de se defender socialmente.”. No item II, a resposta correta é “Vai além da seca e inclui relações sociais de poder.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A focalização de Baleia lhe concede densidade afetiva e perceptiva.",
+        "tip": "Humanização literária não significa transformação física."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O tratamento dado a Baleia pode ser entendido como:\n\nII. Baleia é:",
+        "question": "O contraste entre Baleia e os retirantes é especialmente expressivo porque:",
         "options": [
-          "I — Eliminação de qualquer interioridade. | II — A cachorra da família.",
-          "I — Humanização do animal. | II — Uma cidade.",
-          "I — Eliminação de qualquer interioridade. | II — Uma cidade.",
-          "I — Humanização do animal. | II — A cachorra da família."
+          "o animal recebe interioridade enquanto seres humanos são frequentemente submetidos a processos sociais de desumanização.",
+          "Baleia possui riqueza e os humanos não.",
+          "a família não demonstra afeto pelo animal.",
+          "o romance considera animais superiores por natureza."
         ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Humanização do animal.”. No item II, a resposta correta é “A cachorra da família.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 0,
+        "explanation": "O tratamento narrativo de Baleia intensifica a crítica à desumanização produzida pela miséria e pela opressão.",
+        "tip": "Compare tratamento narrativo e condição social."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Sinhá Vitória é caracterizada também por:\n\nII. O tratamento dado a Baleia pode ser entendido como:",
+        "question": "Sinhá Vitória se diferencia de uma figura passiva porque:",
         "options": [
-          "I — Resistência e desejo de melhorar a vida. | II — Descrição científica.",
-          "I — Viver fora do sertão. | II — Descrição científica.",
-          "I — Resistência e desejo de melhorar a vida. | II — Humanização do animal.",
-          "I — Viver fora do sertão. | II — Humanização do animal."
+          "formula desejos concretos e demonstra capacidade prática diante das dificuldades.",
+          "abandona imediatamente a família.",
+          "recusa qualquer projeto de mudança.",
+          "não participa das decisões domésticas."
         ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Resistência e desejo de melhorar a vida.”. No item II, a resposta correta é “Humanização do animal.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "answer": 0,
+        "explanation": "Sua resistência e seus projetos, como o sonho da cama, expressam desejo de melhoria.",
+        "tip": "Desejo material pode revelar projeto existencial."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A opressão em Vidas Secas:\n\nII. O sonho recorrente de Sinhá Vitória envolve:",
+        "question": "Quando Fabiano se percebe inferior diante de quem domina as palavras, a obra sugere:",
         "options": [
-          "I — É exclusivamente religiosa. | II — Um automóvel.",
-          "I — Vai além da seca e inclui relações sociais de poder. | II — Uma cama de couro.",
-          "I — É exclusivamente religiosa. | II — Uma cama de couro.",
-          "I — Vai além da seca e inclui relações sociais de poder. | II — Um automóvel."
+          "que vocabulário difícil é sinal automático de moralidade.",
+          "uma relação entre domínio da linguagem e capacidade de agir socialmente.",
+          "que Fabiano não possui vida interior.",
+          "que a linguagem é irrelevante para a desigualdade."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Vai além da seca e inclui relações sociais de poder.”. No item II, a resposta correta é “Uma cama de couro.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A dificuldade verbal se associa à exclusão e à incapacidade de defender direitos.",
+        "tip": "Leia linguagem como recurso social."
+      },
+      {
+        "question": "A interioridade atribuída a Baleia produz qual efeito?",
+        "options": [
+          "Reduz o animal a função utilitária.",
+          "Amplia a empatia do leitor e complexifica a fronteira entre humanização e desumanização.",
+          "Elimina a crítica social.",
+          "Transforma o romance em fábula moral simples."
+        ],
+        "answer": 1,
+        "explanation": "O foco em Baleia intensifica a dimensão afetiva e crítica da narrativa.",
+        "tip": "Observe o efeito, não apenas o recurso."
+      },
+      {
+        "question": "O sonho de Sinhá Vitória é significativo justamente porque:",
+        "options": [
+          "sua modéstia revela o quanto condições básicas de conforto permanecem distantes.",
+          "representa desejo de poder político.",
+          "é completamente desvinculado da pobreza.",
+          "demonstra desprezo pelos filhos."
+        ],
+        "answer": 0,
+        "explanation": "A cama de couro evidencia que uma melhoria aparentemente simples assume enorme valor em contexto de privação.",
+        "tip": "O tamanho do sonho ajuda a medir a precariedade."
+      },
+      {
+        "question": "Fabiano oscila entre submissão e revolta. Essa tensão revela:",
+        "options": [
+          "uma personagem plana e sem conflitos.",
+          "o conflito entre percepção da injustiça e limites concretos para enfrentá-la.",
+          "a ausência de relações de poder.",
+          "uma decisão constante de abandonar a família."
+        ],
+        "answer": 1,
+        "explanation": "Fabiano percebe injustiças, mas sua posição social e verbal limita sua capacidade de reação.",
+        "tip": "Contradição interna pode aprofundar personagem."
+      },
+      {
+        "question": "A linguagem econômica do romance e a dificuldade verbal de Fabiano:",
+        "options": [
+          "são exatamente a mesma coisa e devem ser confundidas.",
+          "podem dialogar tematicamente, mas uma é procedimento estilístico do autor e a outra é característica da personagem.",
+          "não possuem qualquer relação possível.",
+          "provam que o narrador também é analfabeto."
+        ],
+        "answer": 1,
+        "explanation": "É importante distinguir estilo narrativo de capacidade de expressão da personagem, ainda que haja ressonância temática.",
+        "tip": "Não confunda autor/narrador/personagem."
+      },
+      {
+        "question": "A melhor síntese da opressão em Vidas Secas é:",
+        "options": [
+          "resultado exclusivo da falta de chuva.",
+          "fenômeno que reúne precariedade natural, exploração econômica, autoridade, pobreza e limitação de acesso à linguagem.",
+          "problema exclusivamente doméstico.",
+          "conflito resolvido pela força física de Fabiano."
+        ],
+        "answer": 1,
+        "explanation": "A opressão é multidimensional e não pode ser atribuída a uma única causa.",
+        "tip": "Prefira sínteses que articulem os mecanismos efetivamente presentes."
       }
     ]
   },
@@ -764,151 +764,151 @@ window.literaturaLessons={
     "title": "Vidas Secas — temas, símbolos e comparação das obras",
     "subtitle": "Literatura • Aula 06 • Revisão comparativa",
     "time": "55 min",
-    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • REVISÃO DAS DUAS OBRAS</div><h3>Vidas Secas</h3><p>Economia de linguagem, sobrevivência, seca, desigualdade, opressão, incomunicabilidade e ciclo de retirada são eixos fortes.</p><h3>Campo Geral</h3><p>Infância, sensibilidade, família, natureza, violência, perda, linguagem rosiana e amadurecimento de Miguilim são eixos fortes.</p><h3>Não misture</h3><p><b>Miguilim / Mutúm / Dito / Guimarães Rosa</b> pertencem a Campo Geral. <b>Fabiano / Sinhá Vitória / Baleia / sertão nordestino / Graciliano Ramos</b> pertencem a Vidas Secas.</p><div class=\"lesson-example\"><b>Estratégia de prova:</b> antes de avaliar a afirmação, identifique a qual obra, personagem e espaço ela pertence.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: faça uma tabela mental das duas obras para evitar trocas de personagens e características.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — temas, símbolos e comparação das obras</h3><p>Leia esta parte com calma antes de assistir à videoaula. O objetivo é entender o conteúdo, não apenas decorar respostas.</p></div><h3>Eixos de Vidas Secas</h3><p>Sobrevivência, seca, pobreza, opressão, linguagem, sonho, repetição e desigualdade são eixos centrais. A escrita econômica de Graciliano Ramos combina com um universo em que falta quase tudo: água, comida, segurança e palavras.</p><p>A esperança existe, mas é frágil e frequentemente ligada a novos deslocamentos.</p><h3>Comparando com Campo Geral</h3><p>As duas obras apresentam sertões e relações familiares, mas não são iguais. Campo Geral acompanha sobretudo a formação e percepção de Miguilim no sertão mineiro. Vidas Secas acompanha retirantes no sertão nordestino e enfatiza sobrevivência e opressão social.</p><p>Guimarães Rosa trabalha linguagem inventiva e poética; Graciliano Ramos é conhecido por escrita mais enxuta e precisa.</p><h3>Tabela mental para prova</h3><p>Campo Geral: Miguilim, Dito, Mutúm, miopia, Guimarães Rosa. Vidas Secas: Fabiano, Sinhá Vitória, Baleia, cama de couro, retirada, Graciliano Ramos. Manter essas associações reduz erros por troca de personagens.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>não misturar personagens</li><li>comparar estilos sem simplificar</li><li>associar símbolos às obras corretas</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • VIDAS SECAS</span><h3>Vidas Secas — análise, temas e símbolos</h3><p>Revisão da obra com foco em personagens, opressão, linguagem, seca e amadurecimento da leitura crítica.</p><iframe src=\"https://www.youtube.com/embed/ffscJA92-6k\" title=\"Vidas Secas — análise, temas e símbolos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
+    "content": "<div class=\"edital-badge\">📋 EDITAL PMMG • REVISÃO DAS DUAS OBRAS</div><h3>Vidas Secas</h3><p>Economia de linguagem, sobrevivência, seca, desigualdade, opressão, incomunicabilidade e ciclo de retirada são eixos fortes.</p><h3>Campo Geral</h3><p>Infância, sensibilidade, família, natureza, violência, perda, linguagem rosiana e amadurecimento de Miguilim são eixos fortes.</p><h3>Não misture</h3><p><b>Miguilim / Mutúm / Dito / Guimarães Rosa</b> pertencem a Campo Geral. <b>Fabiano / Sinhá Vitória / Baleia / sertão nordestino / Graciliano Ramos</b> pertencem a Vidas Secas.</p><div class=\"lesson-example\"><b>Estratégia de prova:</b> antes de avaliar a afirmação, identifique a qual obra, personagem e espaço ela pertence.</div><div class=\"gold-rule\">🎯 REGRA DE OURO: faça uma tabela mental das duas obras para evitar trocas de personagens e características.</div><section class=\"written-lesson-v647\"><div class=\"written-lesson-v647-head\"><span>📖 AULA ESCRITA COMPLETA</span><h3>Vidas Secas — temas, símbolos e comparação das obras</h3></div><h3>Eixos de Vidas Secas</h3><p>Sobrevivência, seca, pobreza, opressão, linguagem, sonho, repetição e desigualdade são eixos centrais. A escrita econômica de Graciliano Ramos combina com um universo em que falta quase tudo: água, comida, segurança e palavras.</p><p>A esperança existe, mas é frágil e frequentemente ligada a novos deslocamentos.</p><h3>Comparando com Campo Geral</h3><p>As duas obras apresentam sertões e relações familiares, mas não são iguais. Campo Geral acompanha sobretudo a formação e percepção de Miguilim no sertão mineiro. Vidas Secas acompanha retirantes no sertão nordestino e enfatiza sobrevivência e opressão social.</p><p>Guimarães Rosa trabalha linguagem inventiva e poética; Graciliano Ramos é conhecido por escrita mais enxuta e precisa.</p><h3>Tabela mental para prova</h3><p>Campo Geral: Miguilim, Dito, Mutúm, miopia, Guimarães Rosa. Vidas Secas: Fabiano, Sinhá Vitória, Baleia, cama de couro, retirada, Graciliano Ramos. Manter essas associações reduz erros por troca de personagens.</p><div class=\"written-check-v647\"><b>Antes de ir para a videoaula, confirme se você consegue:</b><ul><li>não misturar personagens</li><li>comparar estilos sem simplificar</li><li>associar símbolos às obras corretas</li></ul></div></section><div class=\"video-lesson\"><span>🎥 VIDEOAULA • VIDAS SECAS</span><h3>Vidas Secas — análise, temas e símbolos</h3><p>Revisão da obra com foco em personagens, opressão, linguagem, seca e amadurecimento da leitura crítica.</p><iframe src=\"https://www.youtube.com/embed/ffscJA92-6k\" title=\"Vidas Secas — análise, temas e símbolos\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></div>",
     "quiz": [
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Miguilim pertence a:\n\nII. Baleia pertence a:",
+        "question": "Ao comparar Campo Geral e Vidas Secas, é correto afirmar que:",
         "options": [
-          "I — Campo Geral. | II — Vidas Secas.",
-          "I — Vidas Secas. | II — Vidas Secas.",
-          "I — Campo Geral. | II — Campo Geral.",
-          "I — Vidas Secas. | II — Campo Geral."
+          "ambas trabalham espaços sertanejos, mas constroem perspectivas, estilos e conflitos de maneira distinta.",
+          "possuem o mesmo protagonista e a mesma família.",
+          "utilizam exatamente o mesmo projeto linguístico.",
+          "tratam o sertão apenas como paisagem decorativa."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Campo Geral.”. No item II, a resposta correta é “Vidas Secas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "As obras compartilham certos campos temáticos, mas diferem em focalização, estilo e projeto estético.",
+        "tip": "Comparar não é igualar."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Baleia pertence a:\n\nII. O ciclo de retirada é especialmente importante em:",
+        "question": "A linguagem de Guimarães Rosa e a de Graciliano Ramos podem ser contrastadas, de modo geral, como:",
         "options": [
-          "I — Campo Geral. | II — Vidas Secas.",
-          "I — Vidas Secas. | II — Nenhuma das duas.",
-          "I — Campo Geral. | II — Nenhuma das duas.",
-          "I — Vidas Secas. | II — Vidas Secas."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Vidas Secas.”. No item II, a resposta correta é “Vidas Secas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Mutúm está associado a:\n\nII. A cama de couro é desejo de:",
-        "options": [
-          "I — Campo Geral. | II — Nhanina.",
-          "I — Iracema. | II — Nhanina.",
-          "I — Campo Geral. | II — Sinhá Vitória.",
-          "I — Iracema. | II — Sinhá Vitória."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Campo Geral.”. No item II, a resposta correta é “Sinhá Vitória.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O ciclo de retirada é especialmente importante em:\n\nII. A função simbólica da visão em Campo Geral e o sonho da cama de couro em Vidas Secas podem ser aproximados porque ambos:",
-        "options": [
-          "I — Uma peça teatral. | II — eliminam a importância do espaço sertanejo.",
-          "I — Vidas Secas. | II — ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.",
-          "I — Uma peça teatral. | II — ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.",
-          "I — Vidas Secas. | II — eliminam a importância do espaço sertanejo."
+          "duas formas idênticas de experimentalismo lexical.",
+          "elaboração inventiva e poética em Rosa versus maior concisão e secura estilística em Graciliano.",
+          "linguagem burocrática em ambos.",
+          "ausência de marcas estilísticas nas duas obras."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Vidas Secas.”. No item II, a resposta correta é “ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O contraste estilístico ajuda a distinguir os projetos literários das obras.",
+        "tip": "Evite transformar diferenças de estilo em juízo de valor."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A descoberta da miopia é marcante em:\n\nII. Baleia pertence a:",
+        "question": "Miopia/óculos em Campo Geral e cama de couro em Vidas Secas aproximam-se porque:",
         "options": [
-          "I — Campo Geral. | II — Vidas Secas.",
-          "I — Ambas exatamente do mesmo modo. | II — Vidas Secas.",
-          "I — Campo Geral. | II — Campo Geral.",
-          "I — Ambas exatamente do mesmo modo. | II — Campo Geral."
+          "são objetos sem função temática.",
+          "podem condensar desejos de transformação: nova nitidez/horizonte e maior estabilidade/dignidade.",
+          "pertencem à mesma personagem.",
+          "provam que as obras têm o mesmo enredo."
+        ],
+        "answer": 1,
+        "explanation": "Elementos concretos assumem valor simbólico ligado à transformação das condições vividas.",
+        "tip": "Compare funções, não apenas objetos."
+      },
+      {
+        "question": "Miguilim e Fabiano diferem fortemente quanto à posição narrativa porque:",
+        "options": [
+          "Miguilim é foco privilegiado de uma experiência infantil, enquanto Fabiano integra uma focalização móvel entre membros da família.",
+          "Fabiano narra Vidas Secas em primeira pessoa.",
+          "Miguilim é narrador onisciente.",
+          "ambos narram autobiograficamente."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Campo Geral.”. No item II, a resposta correta é “Vidas Secas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "Campo Geral adere intensamente à percepção de Miguilim; Vidas Secas distribui a focalização por diferentes personagens.",
+        "tip": "Compare focalização, não só pessoa do narrador."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A cama de couro é desejo de:\n\nII. O ciclo de retirada é especialmente importante em:",
+        "question": "A família é central nas duas obras, mas:",
         "options": [
-          "I — Miguilim. | II — Vidas Secas.",
-          "I — Sinhá Vitória. | II — Nenhuma das duas.",
-          "I — Miguilim. | II — Nenhuma das duas.",
-          "I — Sinhá Vitória. | II — Vidas Secas."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Sinhá Vitória.”. No item II, a resposta correta é “Vidas Secas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Ao comparar Campo Geral e Vidas Secas, assinale a interpretação mais adequada.\n\nII. A cama de couro é desejo de:",
-        "options": [
-          "I — As duas obras exploram experiências humanas em espaços sertanejos, mas por perspectivas, linguagens e projetos estéticos diferentes. | II — Nhanina.",
-          "I — As duas obras usam o mesmo narrador, a mesma família e a mesma estrutura narrativa. | II — Nhanina.",
-          "I — As duas obras exploram experiências humanas em espaços sertanejos, mas por perspectivas, linguagens e projetos estéticos diferentes. | II — Sinhá Vitória.",
-          "I — As duas obras usam o mesmo narrador, a mesma família e a mesma estrutura narrativa. | II — Sinhá Vitória."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “As duas obras exploram experiências humanas em espaços sertanejos, mas por perspectivas, linguagens e projetos estéticos diferentes.”. No item II, a resposta correta é “Sinhá Vitória.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. A função simbólica da visão em Campo Geral e o sonho da cama de couro em Vidas Secas podem ser aproximados porque ambos:\n\nII. Miguilim pertence a:",
-        "options": [
-          "I — provam que as obras são autobiografias dos autores. | II — O Cortiço.",
-          "I — ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens. | II — Campo Geral.",
-          "I — provam que as obras são autobiografias dos autores. | II — Campo Geral.",
-          "I — ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens. | II — O Cortiço."
-        ],
-        "answer": 1,
-        "explanation": "No item I, a resposta correta é “ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.”. No item II, a resposta correta é “Campo Geral.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Miguilim pertence a:\n\nII. Baleia pertence a:",
-        "options": [
-          "I — Campo Geral. | II — Vidas Secas.",
-          "I — O Cortiço. | II — Vidas Secas.",
-          "I — Campo Geral. | II — Campo Geral.",
-          "I — O Cortiço. | II — Campo Geral."
+          "em Campo Geral participa especialmente da formação afetiva de Miguilim; em Vidas Secas também organiza a luta coletiva pela sobrevivência.",
+          "em nenhuma delas há conflitos familiares.",
+          "somente Vidas Secas possui vínculos afetivos.",
+          "somente Campo Geral apresenta pobreza."
         ],
         "answer": 0,
-        "explanation": "No item I, a resposta correta é “Campo Geral.”. No item II, a resposta correta é “Vidas Secas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "A família cumpre funções diferentes dentro dos projetos de cada narrativa.",
+        "tip": "Mesma categoria temática pode ter funções distintas."
       },
       {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Baleia pertence a:\n\nII. O ciclo de retirada é especialmente importante em:",
+        "question": "Natureza e sertão nas duas obras:",
         "options": [
-          "I — Dom Casmurro. | II — Vidas Secas.",
-          "I — Vidas Secas. | II — Nenhuma das duas.",
-          "I — Dom Casmurro. | II — Nenhuma das duas.",
-          "I — Vidas Secas. | II — Vidas Secas."
-        ],
-        "answer": 3,
-        "explanation": "No item I, a resposta correta é “Vidas Secas.”. No item II, a resposta correta é “Vidas Secas.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. Mutúm está associado a:\n\nII. A cama de couro é desejo de:",
-        "options": [
-          "I — Campo Geral. | II — Nhanina.",
-          "I — Capitães da Areia. | II — Nhanina.",
-          "I — Campo Geral. | II — Sinhá Vitória.",
-          "I — Capitães da Areia. | II — Sinhá Vitória."
-        ],
-        "answer": 2,
-        "explanation": "No item I, a resposta correta é “Campo Geral.”. No item II, a resposta correta é “Sinhá Vitória.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
-      },
-      {
-        "question": "QUESTÃO INTEGRADA — Analise simultaneamente os itens I e II e assinale a alternativa que apresenta as duas respostas corretas.\n\nI. O ciclo de retirada é especialmente importante em:\n\nII. A função simbólica da visão em Campo Geral e o sonho da cama de couro em Vidas Secas podem ser aproximados porque ambos:",
-        "options": [
-          "I — Nenhuma das duas. | II — eliminam a importância do espaço sertanejo.",
-          "I — Vidas Secas. | II — ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.",
-          "I — Nenhuma das duas. | II — ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.",
-          "I — Vidas Secas. | II — eliminam a importância do espaço sertanejo."
+          "funcionam exclusivamente como descrição geográfica.",
+          "interagem com a experiência humana, embora de modos estéticos e sociais diferentes.",
+          "não influenciam personagens.",
+          "são espaços urbanos simbolicamente disfarçados."
         ],
         "answer": 1,
-        "explanation": "No item I, a resposta correta é “Vidas Secas.”. No item II, a resposta correta é “ajudam a expressar desejo de transformação e outra relação com o mundo vivido pelas personagens.”. A questão exige acertar as duas relações; uma alternativa parcialmente correta deve ser descartada.",
-        "tip": "Resolva cada item separadamente antes de comparar as combinações apresentadas nas alternativas."
+        "explanation": "O espaço participa ativamente da experiência das personagens em ambas as obras.",
+        "tip": "Compare sem apagar diferenças."
+      },
+      {
+        "question": "Dito e Baleia podem ser aproximados, com cautela, porque:",
+        "options": [
+          "são narradores das respectivas obras.",
+          "ocupam lugares afetivos importantes e suas trajetórias intensificam experiências de perda.",
+          "representam a mesma função social.",
+          "são irmãos dos protagonistas."
+        ],
+        "answer": 1,
+        "explanation": "Embora muito diferentes, ambos possuem forte peso afetivo e se ligam a experiências dolorosas de perda.",
+        "tip": "Comparação válida exige ponto comum específico."
+      },
+      {
+        "question": "A diferença entre a miopia de Miguilim e a limitação verbal de Fabiano é que:",
+        "options": [
+          "ambas são apenas doenças físicas.",
+          "a primeira envolve visão concreta e leitura simbólica do olhar; a segunda se relaciona fortemente à exclusão e ao poder da linguagem.",
+          "a segunda não produz consequência narrativa.",
+          "a primeira pertence a Sinhá Vitória."
+        ],
+        "answer": 1,
+        "explanation": "Os dois elementos podem ter valor simbólico, mas atuam em campos diferentes.",
+        "tip": "Não force equivalências entre símbolos."
+      },
+      {
+        "question": "Qual comparação é inadequada?",
+        "options": [
+          "Campo Geral enfatiza formação e percepção infantil.",
+          "Vidas Secas enfatiza sobrevivência, desigualdade e opressão.",
+          "As duas obras apresentam exatamente a mesma estrutura cíclica de retirada.",
+          "Ambas articulam relações familiares e espaço sertanejo."
+        ],
+        "answer": 2,
+        "explanation": "O ciclo de retirada é estruturalmente característico de Vidas Secas, não uma estrutura idêntica de Campo Geral.",
+        "tip": "A semelhança temática não implica identidade formal."
+      },
+      {
+        "question": "Em ambas as obras, reduzir o sertão a 'atraso' seria problemático porque:",
+        "options": [
+          "o espaço participa de experiências humanas complexas e não se esgota em rótulo simplificador.",
+          "nenhuma delas se passa em região sertaneja.",
+          "os autores idealizam completamente a vida rural.",
+          "o espaço não possui dimensão social."
+        ],
+        "answer": 0,
+        "explanation": "Os sertões são construídos literariamente como espaços complexos, com relações afetivas, sociais e perceptivas.",
+        "tip": "Evite estereótipos externos à obra."
+      },
+      {
+        "question": "Ao comparar os estilos, qual formulação é mais rigorosa?",
+        "options": [
+          "Rosa é 'melhor' porque inventa palavras.",
+          "Graciliano é 'mais simples' porque não possui elaboração estética.",
+          "Os autores usam estratégias diferentes: invenção e plasticidade verbal em Rosa; contenção e precisão em Graciliano.",
+          "As diferenças de estilo não interferem na leitura."
+        ],
+        "answer": 2,
+        "explanation": "A comparação deve descrever procedimentos e efeitos, não hierarquizar autores de modo simplista.",
+        "tip": "Compare técnicas e funções."
+      },
+      {
+        "question": "Uma leitura conjunta das obras permite perceber que:",
+        "options": [
+          "a experiência humana no sertão é construída por relações entre espaço, família, linguagem e formas de poder/percepção.",
+          "o sertão determina todas as personagens de maneira idêntica.",
+          "as duas narrativas defendem a mesma tese explícita.",
+          "personagens infantis são o centro de ambas."
+        ],
+        "answer": 0,
+        "explanation": "A comparação mais produtiva articula elementos comuns sem apagar as diferenças de cada projeto literário.",
+        "tip": "Síntese comparativa deve preservar semelhanças e diferenças."
       }
     ]
   },
@@ -916,367 +916,367 @@ window.literaturaLessons={
     "title": "🏆 Prova Final — Literatura",
     "subtitle": "Literatura • Avaliação final • Campo Geral + Vidas Secas",
     "time": "45 min",
-    "content": "<div class=\"edital-badge\">🏆 PROVA FINAL • LITERATURA PMMG</div><h3>Fechamento da disciplina</h3><p>Esta prova reúne 20 questões e mistura as duas obras exigidas no edital: <b>Campo Geral</b>, de João Guimarães Rosa, e <b>Vidas Secas</b>, de Graciliano Ramos.</p><p>As alternativas são embaralhadas em cada tentativa.</p><div class=\"gold-rule\">🎯 APROVAÇÃO: mínimo de <b>70%</b>. Se não atingir, revise as aulas e o Caderno de Erros.</div><div class=\"gold-rule\">🔥 NÍVEL PMMG REFORÇADO: 30 questões com enunciados mais densos, alternativas próximas e questões históricas do banco de provas anteriores.</div>",
+    "content": "<div class=\"edital-badge\">🏆 PROVA FINAL • LITERATURA PMMG</div><h3>Fechamento da disciplina</h3><p>Esta avaliação reúne <b>30 questões inéditas no estilo CRS/PMMG</b> sobre <b>Campo Geral</b>, de João Guimarães Rosa, e <b>Vidas Secas</b>, de Graciliano Ramos.</p><p>O nível é superior ao dos quizzes: as questões exigem interpretação, comparação de técnicas narrativas, função de símbolos, personagens, linguagem, espaço, conflitos e relações entre as duas obras.</p><div class=\"gold-rule\">🎯 APROVAÇÃO: mínimo de <b>70%</b>. Revise o Caderno de Erros antes de uma nova tentativa.</div><div class=\"gold-rule\">🔥 NÍVEL AVANÇADO: alternativas próximas e sem perguntas históricas copiadas de provas.</div>",
     "quiz": [
       {
-        "question": "Considerando o contexto da obra, Memórias póstumas de Brás Cubas, de Machado de Assis, analise as afirmativas abaixo e, a seguir, responda o que se pede. I. Brás Cubas narra, depois de morrer, as lembranças da vida. O lugar do qual o narrador fala é estratégico: morto, sua voz alcança maior distanciamento em relação aos fatos e aos seres humanos, “liberado” das consequências por sua cômoda posição de autor defunto. II. De acordo com o narrador-protagonista, a causa de sua própria morte foi uma ideia grandiosa e útil: a invenção de um medicamento. E quando estava ocupado em preparar e apurar essa invenção recebeu um golpe de ar, adoeceu e não se tratou completamente. III. A máxima “Olhe que os homens valem por diferentes modos, e que o mais seguro de todos é valer pela opinião dos outros homens.”, é uma das muitas máximas que Brás Cubas escreveu ainda em vida, tal como “Crê em ti; mas nem sempre duvides dos outros.”, apresentadas no capítulo CXIX do romance. IV. Para Brás Cubas a morte traz liberdade porque o olhar da opinião perde a virtude. Não há vizinhos, amigos, inimigos, conhecidos ou plateia. Então o defunto pode ser franco, confessar de modo liso o que foi e o que deixou de ser. Não é preciso poupar o vexame e a hipocrisia. Está(ão) INCORRETA(S) a(s) afirmativa(s):",
+        "question": "Em Campo Geral, o fato de o narrador estar em terceira pessoa e acompanhar intensamente Miguilim demonstra que:",
         "options": [
-          "II e IV, apenas.",
-          "I, apenas",
-          "III, apenas.",
-          "I e III, apenas."
-        ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Na obra Memórias póstumas de Brás Cubas, de Machado de Assis, o narrador-protagonista “Brás Cubas”, durante a narração, revela a composição detalhada e atenta das personagens do romance. A partir dessa consideração, ENUMERE a 2ª coluna (características das personagens) de acordo com a 1ª (personagens), segundo “Brás Cubas”, e, ao final, responda o que se pede. (1) Virgília ( ) “[...] moça graciosa, um tanto acanhada a princípio [...]. Faltava- lhe elegância, mas compensava-a com os olhos, que eram soberbos e só tinham o defeito de se não arrancarem de mim [...].” (2) Marcela ( ) “[...] séria, carrancuda, às vezes triste.” “Com isto iam-se passando os anos, não a beleza, porque não a tivera nunca.” (3) Eugênia ( ) “O rosto dizia-me que não; ao mesmo tempo os olhos me contavam que, já outrora, como hoje, ardia neles a flama da cobiça.” (4) Sabina ( ) “Achei-a mais gorda, e talvez mais moça. Parecia ter vinte anos, e contava com trinta. Graciosa, afável, nenhum acanhamento, nenhum ressentimento.” “[...] não herdara a flor amarela e mórbida.” (5) Dona Eulália ( ) “Em verdade, parecia ainda mais mulher do que era, seria criança nos seus folgares de moça; mas assim quieta, impassível, tinha a compostura de mulher casada.” (6) Dona Plácida ( ) “[...] era clara, muito clara, faceira, ignorante, pueril, cheia de ímpetos misteriosos; muita preguiça e alguma devoção -, devoção, ou talvez medo; creio que medo.” (7) Dona Emerenciana Marque a sequência CORRETA na ordem de cima para baixo.",
-        "options": [
-          "3, 7, 1, 2, 4, 5.",
-          "5, 6, 2, 4, 3, 1.",
-          "1, 3, 4, 5, 2, 7.",
-          "5, 6, 3, 7, 4, 1."
+          "terceira pessoa e focalização interna são incompatíveis.",
+          "voz narrativa e foco podem ser distintos: o narrador não é Miguilim, mas a percepção dele organiza grande parte da experiência.",
+          "Miguilim narra retrospectivamente sua vida.",
+          "o narrador conhece apenas fatos exteriores."
         ],
         "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "A questão exige distinguir quem narra de quem percebe predominantemente.",
+        "tip": "Narrador ≠ focalizador."
       },
       {
-        "question": "Assinale a opção CORRETA. Em conflito com o mundo, o discurso de Brás Cubas, na obra Memórias póstumas de Brás Cubas, de Machado de Assis, apresenta um indivíduo solitário, presunçoso, medíocre, capaz de se referir, ironicamente, a diversas passagens de sua própria vida. Considerando o contexto da referida obra, qual dos fragmentos da narração abaixo apresentados NÃO apresenta um tom de comicidade ou de deboche?",
+        "question": "Em Vidas Secas, a autonomia relativa dos capítulos não fragmenta completamente o romance porque:",
         "options": [
-          "“— Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.”",
-          "“Dessa terra e desse estrume é que nasceu esta flor.”",
-          "“Eu cínico, alma sensível? Pela coxa de Diana!”",
-          "“Creio que por então é que começou a desabotoar em mim a hipocondria, essa flor amarela, solitária e mórbida [...].”"
+          "há continuidade de personagens, condições de vida e movimento cíclico.",
+          "cada capítulo pertence a uma obra diferente.",
+          "o narrador repete literalmente os acontecimentos.",
+          "todos os capítulos focalizam apenas Fabiano."
         ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "answer": 0,
+        "explanation": "A unidade é temática, familiar e estrutural, apesar da autonomia relativa.",
+        "tip": "Unidade narrativa não exige linearidade rígida."
       },
       {
-        "question": "No romance do autor Lima Barreto, Triste fim de Policarpo Quaresma, a personagem protagonista Policarpo Quaresma, mais conhecido por “Major Quaresma”, cidadão brasileiro, é subsecretário do Arsenal de Guerra e demonstra um comportamento patriótico exacerbado. Considerando o contexto dessa obra e os trechos apresentados nas opões abaixo, qual trecho NÃO apresenta uma manifestação ufanista do “major Quaresma”, segundo o narrador onisciente?",
+        "question": "A miopia de Miguilim e a dificuldade verbal de Fabiano são recursos distintos que permitem discutir, respectivamente:",
         "options": [
-          "“A convicção que sempre tivera de ser o Brasil o primeiro país do mundo e o seu grande amor à Pátria eram agora ativos e impeliram-no a grandes cometimentos. [...] a grande Pátria do Cruzeiro só precisava de tempo para ser superior à Inglaterra.”",
-          "“É raro encontrar homens assim, mas os há e, quando se os encontra, mesmo tocados de um grão de loucura, a gente sente mais simpatia pela nossa espécie, mais orgulho de ser homem e mais esperança na felicidade da raça.”",
-          "“Policarpo Quaresma, cidadão brasileiro, [...], certo que a língua portuguesa é emprestada ao Brasil; certo também de que, por esse fato, o falar e o escrever em geral [...], se veem na humilhante contingência de sofrer continuamente censuras ásperas dos proprietários da língua; [...] — usando do direito que lhe confere a Constituição, em pedir que o Congresso Nacional decrete o tupi-guarani como língua oficial e nacional do povo brasileiro.”",
-          "“De acordo com a sua paixão dominante, Quaresma estivera muito tempo a meditar qual seria a expressão poética musical característica da alma nacional. Consultou historiadores, cronistas e filósofos e adquiriu certeza que era a modinha acompanhada pelo violão.”"
+          "visão/percepção e linguagem/poder social.",
+          "seca e industrialização.",
+          "religião e política partidária.",
+          "humor e aventura."
         ],
-        "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "answer": 0,
+        "explanation": "Os dois elementos atuam em eixos diferentes, embora ambos ampliem a leitura das condições das personagens.",
+        "tip": "Compare funções específicas."
       },
       {
-        "question": "Considerando o contexto do romance do autor Lima Barreto, Triste fim de Policarpo Quaresma, classifique as afirmativas abaixo como “V”, para as verdadeiras, ou “F”, para as falsas, e, depois, responda o que se pede. ( ) De acordo com o narrador onisciente do romance, Policarpo Quaresma era meticuloso, doce, modesto, honesto, pequeno, magro. Usava pince-nez e fraque, e por isso, tinha um “quê” de pedante e pretensioso. ( ) No trecho da narrativa “[...] o major conhecia bem sofrivelmente francês, inglês e alemão; e se não falava tais idiomas, lia-os e traduzia-os corretamente.”, a palavra em destaque significa, semanticamente, razoavelmente. ( ) Um diálogo entre a Olga, afilhada do major Quaresma, e Anastácio, caseiro do major Quaresma, no interior do sítio “Sossego”, revela uma realidade marcada pela injustiça social, pois os programas de governo visam favorecer a mão de obra de origem europeia. ( ) O major Quaresma foi levado à prisão, na Ilha das Cobras, por ter escrito um requerimento ao presidente da Câmara dos Deputados propondo uma mudança do idioma nacional, do português para o tupi-guarani, de forma clara, franca, nitidamente; até mesmo com paixão, indignado. Lá, deu-se conta de que podia esperar pela morte e seu sentimento foi de desilusão, de arrependimento, por ter passado toda sua vida atrás da miragem de estudar a Pátria. A sequência CORRETA de afirmativas de cima para baixo é:",
+        "question": "A morte de Dito e o capítulo dedicado a Baleia aproximam-se principalmente por:",
         "options": [
-          "V, V, V, V.",
-          "V, F, F, V.",
-          "F, F, F, F. Leia o texto a seguir e responda a pergunta que segue: A robust Gender Parity Strategy In 2018, building on the United Nations Secretary-General’s System-Wide Gender Parity Strategy, the Department of Peace Operations developed a Uniformed Personnel Gender Parity Strategy with clear objectives, targets and benchmarks, along with reporting and monitoring mechanisms to achieve appropriate gender balance. Under this strategy, by the year 2028, the UN Police Division is committed to recruiting at least 30% women police officers in professional positions in the field (20% in Formed Police Units and 30% as Individual Police Officers) and 35% at UN Headquarters. To achieve these goals, the UN Police Division will continue to engage Member States and seek the support of gender champion countries. The UN Police Division will also continue to identify opportunities for women police officers in missions while ensuring that gender perspectives are mainstreamed in all policing activities and equal opportunities are afforded to women in police at all levels. Fonte: https://peacekeeping.un.org/en/un-police",
-          "F, V, F, F."
-        ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Com base na leitura atenta da novela \"Campo geral\", do autor João Guimarães Rosa, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir: ( ) O narrador da novela, onisciente, e sob a perspectiva do protagonista, conta a história do menino Miguilim que nasceu e morava no Mutum, uma região do sertão mineiro, com os pais, dois irmãos e duas irmãs. ( ) A primeira vez que Miguilim teve medo de morrer ocorreu quando o seo Deográcias, que entendia de remédios, o examinou e disse que o menino, muito magrinho, poderia ficar héctico. ( ) O Tio Terêz, que gostava da mãe de Miguilim, pediu ao menino que entregasse um bilhete a ela, bem escondido, mas Miguilim, tempos depois, disse que havia rasgado o bilhete e jogado os pedacinhos no rego. ( ) Em breve espaço de serenidade e paz, ocorreu desgraças: o cachorro Gigão é estraçalhado por um tamanduá; Tomèzinho é ferroado por marimbondo; o touro Rio-Negro machuca a mão de Miguilim e Dito morre. A sequência CORRETA, de cima para baixo, é",
-        "options": [
-          "V - F - F - F.",
-          "F - F - F - F.",
-          "V - V - V - V.",
-          "F - F - V - F."
+          "serem episódios cômicos.",
+          "intensificarem a dimensão afetiva e a experiência da perda nas respectivas obras.",
+          "terem o mesmo narrador-personagem.",
+          "ocorrerem no mesmo espaço geográfico."
         ],
         "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "As situações são diferentes, mas ambas mobilizam forte carga afetiva e perda.",
+        "tip": "Comparação literária precisa de critério explícito."
       },
       {
-        "question": "Considerando o contexto da novela \"Campo geral\", do autor João Guimarães Rosa, analise as assertivas a seguir: I- O convívio familiar, o cultivo das amizades, a vida rural e a necessidade inevitável de encarar os desafios que a condição humana apresenta são elementos secundários desta narrativa. II- A narrativa é contada em 3ª pessoa, mas a história é apresentada sob a perspectiva de Miguilim, criança não tanto curiosa ou emotivo porque não enxergava bem. III- \"Fazer estórias, tudo com um viver limpo, novo, de consolo.\" Miguilim descobriu que por meio da estória é possível recontar a vida, servindo de consolo. E quem o inspirou foi o seo Aristeu. IV- A miopia que impedia Miguilim de formar uma visão clara do mundo que o cercava funcionou como uma metáfora da construção do olhar social, familiar, cultural ao longo da infância dele. Está (ão) INCORRETA (S):",
+        "question": "Assinale a afirmação mais adequada sobre os espaços das duas obras:",
         "options": [
-          "Apenas III e IV.",
-          "Apenas II e III.",
-          "Apenas II.",
-          "Apenas I e II."
-        ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: C.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "\"Com maestria, o escritor mineiro recupera vocábulos antigos, combina palavras de maneira inusitada ou mesmo cria novos termos, um de seus maiores dons.\" ROSA, João Guimarães. Campo geral. 2 ed. São Paulo: Global Editora, 2022. Considerando o contexto da novela \"Campo geral\", do autor João Guimarães Rosa, observe os trechos a seguir: \"Tio Terêz contava que tinham esbarrado o eito na roça, porque uma chuva toda vinha, ia ser temporal:[...]\" \"E no mais ralhava sempre, porque Miguilim não enxergava onde pisasse, vivia escorregando e tropeçando, esbarrando, quase caindo nos buracos: — 'Pitosga…' \" \"— Mãe! Acode ligeiro, o Miguilim está dando excesso!…\" \"O gato Sossõe que rastreava sorrateiro, capaz de caçar alguma lagartixa: com um zapetrape ele desquebrava a lagartixa, homem de fazer assim até com calango [...].\" \"Mas todos, de Tomèzinho e Chica a Luisaltino e Vovó Izidra, mesmo estando tristes, como estavam, só respondiam com lisice de assuntos, bobagens que o coração não consabe.\" A interpretação CORRETA dos termos em destaque apresenta-se, respectivamente, em:",
-        "options": [
-          "cobertura; cego; abcesso; pinote; inútil.",
-          "interrupção; míope; acesso; tapa; superficialidade.",
-          "proteção; desmedido; desmaio; tabefe; retidão.",
-          "abandono; desapercebido; tosse; salto; simplicidade."
+          "Mutúm e sertão nordestino são cenários neutros.",
+          "os espaços participam da experiência das personagens, mas são construídos segundo projetos narrativos diferentes.",
+          "os dois espaços são intercambiáveis.",
+          "apenas Campo Geral relaciona natureza e vida humana."
         ],
         "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: D.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "Em ambas, espaço e experiência humana se articulam, sem que os espaços sejam equivalentes.",
+        "tip": "Semelhança não apaga especificidade."
       },
       {
-        "question": "Considerando o contexto do romance \"Vidas secas\", do autor Graciliano Ramos, leia as assertivas abaixo e ao final marque a opção CORRETA em relação ao que se pede: I- Fabiano se autocaracteriza como um \"homem\" porque depois da caminhada impiedosa pela aridez da caatinga, junto à família, conseguiu se tornar vaqueiro e cuidar de casa alheia. II- Sinha Vitória passava a sonhar com a cama de lastro de couro quando Fabiano roncava com segurança. III- É no quadro intitulado \"BALEIA\", do romance \"Vidas secas\", que a personagem Baleia (cachorra) ganha características humanas: \"Olhou-se de novo, aflita. Que lhe estaria acontecendo?\" IV- O menino mais velho tinha muita admiração pelo pai e o menino mais novo interessava-se pelas palavras.",
+        "question": "Em Vidas Secas, a humanização de Baleia ganha força crítica quando contrastada com:",
         "options": [
-          "Apenas duas assertivas são verdadeiras.",
-          "Apenas uma assertiva é verdadeira.",
-          "Todas as assertivas são verdadeiras.",
-          "Apenas uma assertiva é falsa."
-        ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: A.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Em relação ao contexto do romance \"Vidas secas\", do autor Graciliano Ramos, analise as afirmativas abaixo e a seguir assinale a única opção INCORRETA:",
-        "options": [
-          "A expressão \"O mundo coberto de penas\" utilizada no título do penúltimo quadro do romance reporta à ideia de que Fabiano, Sinha Vitória e os filhos migravam tal qual as aves de arribação, em busca da liberdade, da cidadania, da construção de novos projetos de felicidade em outras regiões do país.",
-          "O silenciamento e a passividade demonstrados por Fabiano, frente às humilhações sofridas quando foi preso sem direito à defesa, têm como causa principal a crença de que o Governo era bom, afinal \"Governo é governo.\"",
-          "O espaço desempenha um papel fundamental na configuração do romance, quando o sertão nordestino é apresentado como o antagonista central, tendo em vista que dele provém o sofrimento das personagens.",
-          "A relação de Fabiano com a linguagem era paradoxal, de esperança e de frustação. Desejava imitar seu Tomás da bolandeira, \"homem aprendido\", mas \"um sujeito como ele não tinha nascido para falar certo\"."
+          "a prosperidade econômica da família.",
+          "a desumanização social sofrida pelos retirantes.",
+          "a ausência de qualquer interioridade humana.",
+          "o ambiente urbano."
         ],
         "answer": 1,
-        "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
+        "explanation": "O contraste entre interioridade animal e degradação social humana intensifica a crítica.",
+        "tip": "Procure contrastes estruturais."
       },
       {
-        "question": "De acordo com o texto I, qual a principal razão pela qual os departamentos de polícia estão a utilizar cada vez mais as tecnologias emergentes?",
+        "question": "A linguagem rosiana em Campo Geral deve ser avaliada literariamente como:",
         "options": [
-          "Para substituir completamente os policiais por máquinas em campo, a fim de reduzir os custos com pessoal.",
-          "Para melhorar a imagem pública da polícia na comunidade, em resposta à pressão pública por maior transparência.",
-          "Para exibir as conquistas tecnológicas e manter uma imagem moderna.",
-          "Para aumentar a eficiência operacional, reduzir lesões e melhorar a resposta a emergências."
-        ],
-        "answer": 3,
-        "explanation": "Questão histórica PMMG. Gabarito: B.",
-        "tip": "Nível PMMG • leia cada palavra e elimine as alternativas incompatíveis."
-      },
-      {
-        "question": "Assinale a associação correta:",
-        "options": [
-          "Miguilim — Vidas Secas.",
-          "Miguilim — Campo Geral.",
-          "Baleia — Campo Geral.",
-          "Fabiano — Campo Geral."
+          "conjunto de erros contra a norma.",
+          "elaboração expressiva que mobiliza oralidade, regionalismos e invenção lexical.",
+          "registro exclusivamente jornalístico.",
+          "reprodução mecânica de dicionário regional."
         ],
         "answer": 1,
-        "explanation": "Miguilim protagoniza Campo Geral.",
-        "tip": "Separe as personagens por obra."
+        "explanation": "A inovação verbal integra o projeto estético da obra.",
+        "tip": "Não confunda criação literária com inadequação normativa."
       },
       {
-        "question": "Vidas Secas foi escrito por:",
+        "question": "A concisão de Graciliano Ramos em Vidas Secas:",
         "options": [
-          "Guimarães Rosa.",
-          "Machado de Assis.",
-          "Drummond.",
-          "Graciliano Ramos."
-        ],
-        "answer": 3,
-        "explanation": "Graciliano Ramos é o autor.",
-        "tip": "Graciliano → Vidas Secas."
-      },
-      {
-        "question": "Campo Geral acompanha principalmente:",
-        "options": [
-          "A carreira militar de Fabiano.",
-          "A experiência e o amadurecimento de Miguilim.",
-          "Uma família urbana no Rio.",
-          "Uma investigação criminal."
+          "impede a construção de interioridade.",
+          "pode reforçar esteticamente a dureza e a escassez do universo narrado.",
+          "elimina a crítica social.",
+          "é consequência de ausência de domínio linguístico."
         ],
         "answer": 1,
-        "explanation": "Miguilim e sua formação são centrais.",
-        "tip": "Infância e percepção."
+        "explanation": "A economia verbal é uma escolha estética produtiva.",
+        "tip": "Estilo é procedimento, não deficiência."
       },
       {
-        "question": "Em Vidas Secas, a seca:",
+        "question": "Quando Sinhá Vitória deseja uma cama de couro, o valor simbólico do objeto deriva sobretudo:",
         "options": [
-          "É a única dificuldade existente.",
-          "Não interfere na vida da família.",
-          "É apenas um sonho.",
-          "Articula-se a problemas sociais e econômicos."
-        ],
-        "answer": 3,
-        "explanation": "A obra também aborda exploração, pobreza e opressão.",
-        "tip": "Natureza + sociedade."
-      },
-      {
-        "question": "Dito é personagem de:",
-        "options": [
-          "Vidas Secas.",
-          "Campo Geral.",
-          "Nenhuma das obras.",
-          "Vidas Secas e narrador."
+          "da ostentação aristocrática.",
+          "da distância entre um conforto modesto e a precariedade concreta da família.",
+          "do desejo de abandonar Fabiano.",
+          "de uma competição com Miguilim."
         ],
         "answer": 1,
-        "explanation": "Dito é irmão de Miguilim.",
-        "tip": "Dito → Miguilim."
+        "explanation": "O sonho mede a precariedade e expressa busca de estabilidade e dignidade.",
+        "tip": "Objetos simples podem condensar grandes desejos."
       },
       {
-        "question": "Sinhá Vitória deseja especialmente:",
+        "question": "A saída de Miguilim ao final de Campo Geral é mais bem compreendida como:",
         "options": [
-          "Óculos para Miguilim.",
-          "Mudar para Mutúm.",
-          "Ser escritora.",
-          "Uma cama de couro."
-        ],
-        "answer": 3,
-        "explanation": "A cama simboliza estabilidade e conforto.",
-        "tip": "Objeto simbólico de Vidas Secas."
-      },
-      {
-        "question": "A descoberta da miopia ocorre com:",
-        "options": [
-          "Fabiano.",
-          "Miguilim.",
-          "Sinhá Vitória.",
-          "Baleia."
+          "negação completa do Mutúm.",
+          "passagem para nova etapa após experiências formativas.",
+          "retorno ao estado inicial.",
+          "prova de que a família não teve importância."
         ],
         "answer": 1,
-        "explanation": "Miguilim passa a enxergar nitidamente com óculos.",
-        "tip": "Visão → Campo Geral."
+        "explanation": "O deslocamento abre horizonte sem apagar o percurso anterior.",
+        "tip": "Final de formação não significa esquecimento."
       },
       {
-        "question": "A humanização de Baleia contrasta com:",
+        "question": "Em Vidas Secas, o Soldado Amarelo é importante para evidenciar:",
         "options": [
-          "A riqueza da família.",
-          "A vida urbana confortável.",
-          "A ausência de sofrimento.",
-          "A desumanização social vivida pelos retirantes."
-        ],
-        "answer": 3,
-        "explanation": "Esse contraste é importante na obra.",
-        "tip": "Animal humanizado x humanos oprimidos."
-      },
-      {
-        "question": "A linguagem de Guimarães Rosa em Campo Geral destaca:",
-        "options": [
-          "Somente linguagem jurídica.",
-          "Oralidade, regionalismo e invenção expressiva.",
-          "Ausência de marcas regionais.",
-          "Vocabulário técnico científico."
+          "a neutralidade das instituições.",
+          "uma relação assimétrica de autoridade que expõe a vulnerabilidade de Fabiano.",
+          "o domínio verbal de Fabiano.",
+          "a inexistência de violência social."
         ],
         "answer": 1,
-        "explanation": "A elaboração linguística é característica rosiana.",
-        "tip": "Rosa recria a linguagem."
+        "explanation": "O episódio materializa abuso de poder e submissão.",
+        "tip": "Relacione personagem episódica à função crítica."
       },
       {
-        "question": "A estrutura de Vidas Secas é frequentemente descrita como:",
+        "question": "Qual alternativa distingue corretamente as duas obras?",
         "options": [
-          "Teatral em cinco atos.",
-          "Diário em primeira pessoa.",
-          "Poema épico.",
-          "Cíclica, com capítulos relativamente autônomos."
+          "Campo Geral: focalização fortemente ligada a Miguilim; Vidas Secas: focalização móvel entre diferentes personagens.",
+          "Campo Geral: narrador Fabiano; Vidas Secas: narrador Miguilim.",
+          "Ambas: primeira pessoa autobiográfica.",
+          "Ambas: focalização exclusiva em uma única personagem."
         ],
-        "answer": 3,
-        "explanation": "O movimento de retirada e recomeço reforça o ciclo.",
-        "tip": "Início e fim se correspondem."
+        "answer": 0,
+        "explanation": "A diferença de focalização é central para a estrutura de leitura das obras.",
+        "tip": "Compare técnicas narrativas."
       },
       {
-        "question": "O Mutúm pertence ao universo de:",
+        "question": "A afirmação 'a seca é a única responsável pela miséria em Vidas Secas' é insuficiente porque:",
         "options": [
-          "Vidas Secas.",
-          "Campo Geral.",
-          "Ambas as obras.",
-          "Nenhuma das obras."
-        ],
-        "answer": 1,
-        "explanation": "É o espaço central de Campo Geral.",
-        "tip": "Mutúm → Minas Gerais."
-      },
-      {
-        "question": "Fabiano apresenta dificuldade de expressão que se relaciona:",
-        "options": [
-          "À formação acadêmica.",
-          "Ao trabalho de jornalista.",
-          "A um recurso sem função social.",
-          "À exclusão e às relações de poder."
-        ],
-        "answer": 3,
-        "explanation": "A limitação verbal participa da condição social da personagem.",
-        "tip": "Linguagem é poder."
-      },
-      {
-        "question": "Qual par está correto?",
-        "options": [
-          "Guimarães Rosa — Vidas Secas.",
-          "Guimarães Rosa — Campo Geral.",
-          "Graciliano Ramos — Campo Geral.",
-          "Miguilim — Vidas Secas."
+          "o romance se passa sem seca.",
+          "a narrativa articula fatores naturais a exploração econômica, autoridade e exclusão.",
+          "Fabiano é rico.",
+          "a seca aparece apenas como sonho."
         ],
         "answer": 1,
-        "explanation": "Guimarães Rosa escreveu Campo Geral.",
-        "tip": "Autor e obra."
+        "explanation": "O sofrimento é produzido por uma rede de condições naturais e sociais.",
+        "tip": "Cuidado com causalidade única."
       },
       {
-        "question": "Um tema comum às duas obras é:",
+        "question": "Em Campo Geral, a incompreensão infantil diante do mundo adulto:",
         "options": [
-          "Tecnologia digital.",
-          "Vida aristocrática europeia.",
-          "Exploração espacial.",
-          "A dureza da vida no sertão e relações humanas complexas."
-        ],
-        "answer": 3,
-        "explanation": "As duas obras trabalham experiências humanas em ambientes sertanejos, embora de modos diferentes.",
-        "tip": "Compare sem igualar."
-      },
-      {
-        "question": "Para a prova da PMMG, Literatura no edital trabalhado cobra:",
-        "options": [
-          "Somente poesia de Camões.",
-          "Campo Geral e Vidas Secas.",
-          "Dom Casmurro e O Cortiço.",
-          "Apenas teoria literária abstrata."
+          "é falha narrativa.",
+          "é recurso coerente com a focalização e cria espaço para inferências do leitor.",
+          "elimina conflitos.",
+          "torna Miguilim onisciente."
         ],
         "answer": 1,
-        "explanation": "São as duas obras expressamente indicadas.",
-        "tip": "Duas obras obrigatórias."
+        "explanation": "O limite cognitivo da criança participa da construção narrativa.",
+        "tip": "O leitor pode perceber além da personagem."
       },
       {
-        "question": "Em Campo Geral, a focalização narrativa aproxima o leitor de:",
+        "question": "A relação entre forma e tema está corretamente descrita em:",
         "options": [
-          "Fabiano e sua vida de retirante.",
-          "Baleia como narradora.",
-          "Um juiz urbano.",
-          "Miguilim e sua percepção infantil."
+          "Rosa usa elaboração verbal inventiva ligada à percepção; Graciliano emprega contenção que dialoga com escassez e dureza.",
+          "ambos usam exatamente o mesmo estilo.",
+          "a forma não interfere nos efeitos temáticos.",
+          "somente o enredo importa nas duas obras."
         ],
-        "answer": 3,
-        "explanation": "A narrativa acompanha de perto a percepção de Miguilim.",
-        "tip": "Terceira pessoa pode focalizar uma personagem."
+        "answer": 0,
+        "explanation": "Os estilos diferentes produzem efeitos coerentes com os universos narrados.",
+        "tip": "Literatura cobra como se diz, não só o que acontece."
       },
       {
-        "question": "Em Vidas Secas, o Soldado Amarelo evidencia:",
+        "question": "Dito é decisivo para Campo Geral porque:",
         "options": [
-          "Prosperidade da família.",
-          "Abuso de autoridade e impotência social de Fabiano.",
-          "A infância de Miguilim.",
-          "A descoberta da miopia."
-        ],
-        "answer": 1,
-        "explanation": "O episódio expõe relações de poder e submissão.",
-        "tip": "Fabiano enfrenta também opressão social."
-      },
-      {
-        "question": "Qual comparação está correta?",
-        "options": [
-          "As duas obras são narradas por Miguilim.",
-          "Baleia e Dito pertencem a Campo Geral.",
-          "As duas se passam no Mutúm.",
-          "Campo Geral enfatiza Miguilim; Vidas Secas acompanha retirantes."
-        ],
-        "answer": 3,
-        "explanation": "As obras têm universos próprios e não devem ser confundidas.",
-        "tip": "Separe personagens, autores e espaços."
-      },
-      {
-        "question": "A economia de linguagem é especialmente associada a:",
-        "options": [
-          "Campo Geral como texto jurídico.",
-          "Vidas Secas, de Graciliano Ramos.",
-          "Nenhuma das obras.",
-          "Somente aos diálogos de Dito."
+          "é antagonista político.",
+          "seu vínculo com Miguilim e sua perda participam da formação afetiva do protagonista.",
+          "narra a obra.",
+          "descobre a miopia de Fabiano."
         ],
         "answer": 1,
-        "explanation": "A escrita enxuta é marca importante de Graciliano Ramos.",
-        "tip": "Graciliano → linguagem concisa."
+        "explanation": "A importância de Dito é sobretudo afetiva e formativa.",
+        "tip": "Associe personagem à trajetória do protagonista."
+      },
+      {
+        "question": "A interioridade de Baleia desafia uma leitura puramente utilitária do animal porque:",
+        "options": [
+          "o narrador lhe atribui sensações e desejos.",
+          "ela fala como narradora humana.",
+          "ela se torna proprietária da fazenda.",
+          "o romance nega que seja uma cachorra."
+        ],
+        "answer": 0,
+        "explanation": "A focalização concede densidade subjetiva a Baleia sem negar sua condição animal.",
+        "tip": "Humanização é procedimento narrativo."
+      },
+      {
+        "question": "Uma interpretação rigorosa da miopia de Miguilim deve:",
+        "options": [
+          "considerá-la apenas metáfora e negar sua dimensão física.",
+          "considerar simultaneamente a condição concreta e seu potencial simbólico ligado ao olhar.",
+          "afirmar que Miguilim era cego.",
+          "ligá-la à seca nordestina."
+        ],
+        "answer": 1,
+        "explanation": "A força do símbolo depende justamente da coexistência do literal e do figurado.",
+        "tip": "Não apague o acontecimento concreto."
+      },
+      {
+        "question": "Em ambas as obras, a família:",
+        "options": [
+          "é irrelevante.",
+          "organiza experiências centrais, embora cumpra funções e enfrente conflitos distintos.",
+          "é sempre harmoniosa.",
+          "possui os mesmos membros."
+        ],
+        "answer": 1,
+        "explanation": "A família é núcleo importante tanto na formação de Miguilim quanto na sobrevivência dos retirantes.",
+        "tip": "Compare função, não composição."
+      },
+      {
+        "question": "Qual leitura da natureza é mais consistente nas duas obras?",
+        "options": [
+          "É mero fundo paisagístico.",
+          "Interage com a experiência humana, assumindo pesos distintos em cada projeto literário.",
+          "É sempre símbolo positivo.",
+          "Substitui totalmente os conflitos sociais."
+        ],
+        "answer": 1,
+        "explanation": "Natureza e espaço participam ativamente das experiências narradas.",
+        "tip": "Evite funções únicas e absolutas."
+      },
+      {
+        "question": "A limitação verbal de Fabiano não significa ausência de pensamento porque:",
+        "options": [
+          "o narrador pode aproximar-se de sua interioridade e revelar conflitos que ele não formula plenamente em palavras.",
+          "Fabiano escreve longos ensaios.",
+          "Baleia traduz seus pensamentos.",
+          "a obra é narrada por um dicionário."
+        ],
+        "answer": 0,
+        "explanation": "A técnica narrativa separa capacidade de expressão verbal e riqueza de experiência interior.",
+        "tip": "Falar pouco não é pensar pouco."
+      },
+      {
+        "question": "A alternativa que melhor descreve o amadurecimento de Miguilim é:",
+        "options": [
+          "processo cumulativo marcado por afetos, conflitos, perdas e descobertas.",
+          "mudança instantânea causada apenas pelos óculos.",
+          "resultado exclusivo da autoridade paterna.",
+          "trajetória sem transformação."
+        ],
+        "answer": 0,
+        "explanation": "A formação do menino é gradual e multidimensional.",
+        "tip": "Evite explicar formação por um único episódio."
+      },
+      {
+        "question": "Em Vidas Secas, a repetição do deslocamento da família reforça:",
+        "options": [
+          "a estabilidade conquistada.",
+          "a persistência estrutural da precariedade.",
+          "uma viagem recreativa.",
+          "o abandono do sertão como tema."
+        ],
+        "answer": 1,
+        "explanation": "O ciclo sugere dificuldade de romper condições que se repetem.",
+        "tip": "Estrutura pode produzir crítica social."
+      },
+      {
+        "question": "Ao comparar a cama de couro e os óculos, é correto afirmar que:",
+        "options": [
+          "ambos são símbolos idênticos.",
+          "cada elemento nasce de uma situação concreta e pode apontar para transformação, estabilidade ou ampliação de horizonte em contextos diferentes.",
+          "nenhum possui dimensão material.",
+          "ambos pertencem a Vidas Secas."
+        ],
+        "answer": 1,
+        "explanation": "A aproximação é funcional, não uma identidade de significado.",
+        "tip": "Boa comparação preserva diferenças."
+      },
+      {
+        "question": "Qual afirmação sobre regionalismo é mais adequada?",
+        "options": [
+          "Nas duas obras, regionalismo significa cópia literal da fala local.",
+          "Os espaços regionais são artisticamente construídos e articulados a questões humanas mais amplas.",
+          "Regionalismo impede universalidade temática.",
+          "Somente nomes de lugares definem regionalismo."
+        ],
+        "answer": 1,
+        "explanation": "A dimensão regional integra projetos literários complexos e não se reduz a reprodução documental.",
+        "tip": "Regional e universal não são opostos automáticos."
+      },
+      {
+        "question": "A tensão entre submissão e revolta em Fabiano evidencia:",
+        "options": [
+          "ausência de consciência da injustiça.",
+          "percepção da opressão combinada a limites concretos de enfrentamento.",
+          "poder institucional do vaqueiro.",
+          "indiferença diante do Soldado Amarelo."
+        ],
+        "answer": 1,
+        "explanation": "Fabiano percebe injustiças, mas sua posição social restringe sua reação.",
+        "tip": "Contradição pode revelar estrutura de poder."
+      },
+      {
+        "question": "Em Campo Geral, dizer que o narrador é 'neutro' apenas porque está em terceira pessoa seria erro porque:",
+        "options": [
+          "a focalização aproxima intensamente o relato da sensibilidade de Miguilim.",
+          "todo narrador em terceira pessoa é personagem.",
+          "a obra não possui narrador.",
+          "Miguilim escreve o livro."
+        ],
+        "answer": 0,
+        "explanation": "Terceira pessoa não implica neutralidade nem distância focal.",
+        "tip": "Pessoa narrativa e efeito de proximidade são categorias distintas."
+      },
+      {
+        "question": "A oposição 'humanização de Baleia versus desumanização dos retirantes' deve ser entendida como:",
+        "options": [
+          "afirmação de que os humanos viram animais literalmente.",
+          "contraste crítico entre tratamento narrativo do animal e condições sociais degradantes impostas às pessoas.",
+          "prova de ausência de afeto familiar.",
+          "recurso sem relação com o tema da opressão."
+        ],
+        "answer": 1,
+        "explanation": "O contraste intensifica a crítica à redução social da dignidade humana.",
+        "tip": "Leia contrastes como produtores de sentido."
+      },
+      {
+        "question": "Se uma alternativa afirmar que Campo Geral e Vidas Secas 'apresentam o sertão da mesma maneira', o problema principal é:",
+        "options": [
+          "as obras não se passam no Brasil.",
+          "a formulação apaga diferenças de perspectiva, linguagem, espaço e projeto estético.",
+          "nenhuma possui família.",
+          "os dois autores são a mesma pessoa."
+        ],
+        "answer": 1,
+        "explanation": "A comparação exige reconhecer aproximações e diferenças.",
+        "tip": "Desconfie de equivalências totais."
+      },
+      {
+        "question": "Considerando conjuntamente as duas obras, a síntese mais consistente é:",
+        "options": [
+          "sertão, família, linguagem e experiência humana aparecem articulados, mas cada autor organiza esses elementos por estratégias próprias.",
+          "as narrativas são equivalentes e intercambiáveis.",
+          "as duas obras defendem uma tese política explícita idêntica.",
+          "os conflitos decorrem apenas do clima."
+        ],
+        "answer": 0,
+        "explanation": "A síntese reconhece campos comuns sem eliminar a singularidade formal e temática de cada obra.",
+        "tip": "A melhor comparação integra sem homogeneizar."
       }
     ]
   }
